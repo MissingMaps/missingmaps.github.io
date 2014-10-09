@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: #219ab3;
+    color: #46c3f0;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -284,17 +284,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #219ab3;
-    color: #219ab3;
+    border: 1px solid #46c3f0;
+    color: #46c3f0;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #219ab3;
+    border: 1px solid #46c3f0;
     outline: 0;
     color: #000;
-    background-color: #219ab3;
+    background-color: #46c3f0;
 }
 
 ul.banner-social-buttons {
@@ -354,17 +354,6 @@ body {
 }
 
 /** Missing Maps **/
-.involved-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #000;
-    /*background: url(../img/ivan.jpg) no-repeat center center scroll;*/
-    background-color: #efefef;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 .about-section {
     width: 100%;
     padding: 50px 0;
@@ -376,6 +365,32 @@ body {
     padding: 50px 0;
     color: #000;
     background-color: #efefef;
+}
+
+.involved-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background-color: #000;
+    padding-bottom: 50px;
+    background: url(../img/favela.jpg) no-repeat 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.media-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/favela.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 li {
@@ -393,6 +408,29 @@ img.mm_logo {
   padding: 0px;
 }
 
+img.hero_logo {
+  padding-top:200px;
+}
+
 .logos {
   padding-bottom: 50px;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.email {
+  background-color: #46c3f0;
+}
+
+.process {
+  padding: 25px;
+  height: 100%;
 }
