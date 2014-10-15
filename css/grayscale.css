@@ -436,7 +436,7 @@ img.mm_logo {
 .process {
   padding: 25px;
   margin-bottom: 25px;
-  /*min-height: 400px;*/
+  min-height: 400px;
   background: url(../img/process.svg) no-repeat center center scroll;
   background-color: #fff;
   -webkit-background-size: contain;
