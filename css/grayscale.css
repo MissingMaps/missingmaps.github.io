@@ -452,3 +452,7 @@ img.mm_logo {
   max-width: 100%;
   height: auto;
 }
+
+.donate_button {
+  padding-bottom: 25px;
+}
