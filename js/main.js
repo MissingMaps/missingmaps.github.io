@@ -16,7 +16,7 @@ d3.json("data/events.json", function(data){
 		    '<span class="flag-icon flag-icon-' + eventData.flag + 
 		    ' flag-icon-squared flag" style="width:120px;"></span>' +
 		    '<div class="info">' +
-		      '<h2 class="title event">' + eventData.title + '</h2>'+
+		      '<h3 class="title event">' + eventData.title + '</h3>'+
 		      '<p class="desc">Place: <a href="' + eventData.place_url + '">' + eventData.place_name + '</a></p>' +
 		      '<p class="desc">Time: ' + eventData.time_string + '</p>' +
 		      '<p class="desc"><span class="fa fa-check-square-o"></span>' +

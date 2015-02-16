@@ -40,8 +40,8 @@
 	"place_url":"http://osm.org/go/0MbEzPps0--?m=",
 	"time_string":"7pm",
 	"signup_url":"http://www.meetup.com/Geo-Berlin/events/219715187/",
-	"lat":,
-	"long":
+	"lat":null,
+	"long":null
 },
 {
 	"date":"01/27/15",
@@ -51,8 +51,8 @@
 	"place_url":"http://osm.org/go/euu4u_K6Z--?m=",
 	"time_string":"6pm-9pm",
 	"signup_url":"http://www.eventbrite.co.uk/e/missing-maps-hot-january-2015-mapathon-tickets-15435015547",
-	"lat":,
-	"long":
+	"lat":null,
+	"long":null
 },
 {
 	"date":"02/12/15",
@@ -62,8 +62,8 @@
 	"place_url":"http://osm.org/go/1KcrhSRH0-?layers=H&m=",
 	"time_string":"7pm-10pm",
 	"signup_url":"https://www.eventbrite.com/e/missing-maps-mapathon-troms-tickets-15567209944",
-	"lat":,
-	"long":
+	"lat":null,
+	"long":null
 },
 {
 	"date":"02/14/15",
@@ -73,8 +73,8 @@
 	"place_url":"http://osm.org/go/0EvYJe8Hd--?m=",
 	"time_string":"1pm-6pm",
 	"signup_url":"http://www.meetup.com/GeoForts-sideshow-diverse-activiteiten-op-het-fort/events/219954802/",
-	"lat":,
-	"long":
+	"lat":null,
+	"long":null
 },
 {
 	"date":"02/17/15",
@@ -84,25 +84,25 @@
 	"place_url":"http://osm.org/go/ZZcbKU71d-?m=",
 	"time_string":"5:30pm-8pm",
 	"signup_url":"https://www.eventbrite.com/e/february-missing-maps-mapathon-washington-dc-tickets-15505673888",
-	"lat":,
-	"long":
+	"lat":null,
+	"long":null
 },
 {
 	"date":"02/18/15",
 	"flag":"gb",
 	"title":"Edinburgh - Mapathon 2",
-	"place_name":"Appleton Tower, Edinburgh, United Kingdom",
+	"place_name":"Appleton Tower",
 	"place_url":"http://osm.org/go/evfLiuehA-?m=",
 	"time_string":"6pm-9pm",
 	"signup_url":"https://www.eventbrite.co.uk/e/missing-maps-edinburgh-mapathon-2-tickets-15690936012",
-	"lat":,
-	"long":
+	"lat":null,
+	"long":null
 },
 {
 	"date":"03/25/15",
 	"flag":"gb",
-	"title":"Missing Maps Mapathon Portsmouth",
-	"place_name":"Research & Innovation Services, University of Portsmouth",
+	"title":"Portsmouth Mapathon",
+	"place_name":"University of Portsmouth",
 	"place_url":"http://osm.org/go/euoPfv8~?m=",
 	"time_string":"6pm-9pm",
 	"signup_url":"https://www.eventbrite.co.uk/e/missing-maps-mapathon-portsmouth-tickets-15617027951",
