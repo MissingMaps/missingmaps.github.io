@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 [
 {
-	"date":"01/10/2015",
+	"date":"01/10/15",
 	"flag":"us",
 	"title":"Portland January Mapathon",
 	"place_name":"Urban Airship Headquarters",
@@ -12,7 +11,7 @@
 	"long":-122.68579
 },
 {
-	"date":"01/19/2015",
+	"date":"01/19/15",
 	"flag":"us",
 	"title":"ARC GNY Missing Maps Mapathon - Harare Challenge!",
 	"place_name":"American Red Cross - Greater New York",
@@ -23,7 +22,7 @@
 	"long":-73.99371
 },
 {
-	"date":"02/04/2015",
+	"date":"02/04/15",
 	"flag":"gb",
 	"title":"Missing Maps Edinburgh",
 	"place_name":"The University of Edinburgh",
@@ -34,24 +33,15 @@
 	"long":-3.18723
 },
 {
-	"date":"",
-	"flag":"",
-	"title":"",
-	"place_name":"",
-	"place_url":"",
-	"time_string":"",
-	"signup_url":"",
-	"lat":,
-	"long":
-},
-{
 	"date":"01/22/15",
 	"flag":"de",
 	"title":"GeoBerlin",
 	"place_name":"Co-Up",
 	"place_url":"http://osm.org/go/0MbEzPps0--?m=",
 	"time_string":"7pm",
-	"signup_url":"http://www.meetup.com/Geo-Berlin/events/219715187/"
+	"signup_url":"http://www.meetup.com/Geo-Berlin/events/219715187/",
+	"lat":,
+	"long":
 },
 {
 	"date":"01/27/15",
@@ -60,7 +50,9 @@
 	"place_name":"British Red Cross HQ",
 	"place_url":"http://osm.org/go/euu4u_K6Z--?m=",
 	"time_string":"6pm-9pm",
-	"signup_url":"http://www.eventbrite.co.uk/e/missing-maps-hot-january-2015-mapathon-tickets-15435015547"
+	"signup_url":"http://www.eventbrite.co.uk/e/missing-maps-hot-january-2015-mapathon-tickets-15435015547",
+	"lat":,
+	"long":
 },
 {
 	"date":"02/12/15",
@@ -69,7 +61,9 @@
 	"place_name":"Troms\u00F8",
 	"place_url":"http://osm.org/go/1KcrhSRH0-?layers=H&m=",
 	"time_string":"7pm-10pm",
-	"signup_url":"https://www.eventbrite.com/e/missing-maps-mapathon-troms-tickets-15567209944"
+	"signup_url":"https://www.eventbrite.com/e/missing-maps-mapathon-troms-tickets-15567209944",
+	"lat":,
+	"long":
 },
 {
 	"date":"02/14/15",
@@ -78,7 +72,9 @@
 	"place_name":"GeoFort",
 	"place_url":"http://osm.org/go/0EvYJe8Hd--?m=",
 	"time_string":"1pm-6pm",
-	"signup_url":"http://www.meetup.com/GeoForts-sideshow-diverse-activiteiten-op-het-fort/events/219954802/"
+	"signup_url":"http://www.meetup.com/GeoForts-sideshow-diverse-activiteiten-op-het-fort/events/219954802/",
+	"lat":,
+	"long":
 },
 {
 	"date":"02/17/15",
@@ -87,7 +83,9 @@
 	"place_name":"American Red Cross",
 	"place_url":"http://osm.org/go/ZZcbKU71d-?m=",
 	"time_string":"5:30pm-8pm",
-	"signup_url":"https://www.eventbrite.com/e/february-missing-maps-mapathon-washington-dc-tickets-15505673888"
+	"signup_url":"https://www.eventbrite.com/e/february-missing-maps-mapathon-washington-dc-tickets-15505673888",
+	"lat":,
+	"long":
 },
 {
 	"date":"02/18/15",
@@ -96,9 +94,19 @@
 	"place_name":"Appleton Tower, Edinburgh, United Kingdom",
 	"place_url":"http://osm.org/go/evfLiuehA-?m=",
 	"time_string":"6pm-9pm",
-	"signup_url":"https://www.eventbrite.co.uk/e/missing-maps-edinburgh-mapathon-2-tickets-15690936012"
+	"signup_url":"https://www.eventbrite.co.uk/e/missing-maps-edinburgh-mapathon-2-tickets-15690936012",
+	"lat":,
+	"long":
+},
+{
+	"date":"03/25/15",
+	"flag":"gb",
+	"title":"Missing Maps Mapathon Portsmouth",
+	"place_name":"Research & Innovation Services, University of Portsmouth",
+	"place_url":"http://osm.org/go/euoPfv8~?m=",
+	"time_string":"6pm-9pm",
+	"signup_url":"https://www.eventbrite.co.uk/e/missing-maps-mapathon-portsmouth-tickets-15617027951",
+	"lat":50.79794,
+	"long":-1.09883
 }
 ]
-=======
-[{	"date":"01/22/15",	"flag":"de",	"title":"GeoBerlin",	"place_name":"Co-Up",	"place_url":"http://osm.org/go/0MbEzPps0--?m=",	"time_string":"7pm",	"signup_url":"http://www.meetup.com/Geo-Berlin/events/219715187/",	"lat": "",	"lon": ""},{	"date":"01/27/15",	"flag":"gb",	"title":"January Mapathon",	"place_name":"British Red Cross HQ",	"place_url":"http://osm.org/go/euu4u_K6Z--?m=",	"time_string":"6pm-9pm",	"signup_url":"http://www.eventbrite.co.uk/e/missing-maps-hot-january-2015-mapathon-tickets-15435015547",	"lat": "",	"lon": ""},{	"date":"02/12/15",	"flag":"no",	"title":"Missing Maps Norway",	"place_name":"Troms\u00F8",	"place_url":"http://osm.org/go/1KcrhSRH0-?layers=H&m=",	"time_string":"7pm-10pm",	"signup_url":"https://www.eventbrite.com/e/missing-maps-mapathon-troms-tickets-15567209944",	"lat": "",	"lon": ""},{	"date":"02/14/15",	"flag":"nl",	"title":"GeoFort",	"place_name":"GeoFort",	"place_url":"http://osm.org/go/0EvYJe8Hd--?m=",	"time_string":"1pm-6pm",	"signup_url":"http://www.meetup.com/GeoForts-sideshow-diverse-activiteiten-op-het-fort/events/219954802/",	"lat": "",	"lon": ""},{	"date":"02/17/15",	"flag":"us",	"title":"Mapping for Dhaka",	"place_name":"American Red Cross",	"place_url":"http://osm.org/go/ZZcbKU71d-?m=",	"time_string":"5:30pm-8pm",	"signup_url":"https://www.eventbrite.com/e/february-missing-maps-mapathon-washington-dc-tickets-15505673888",	"lat": "",	"lon": ""}]
->>>>>>> upstream/master
