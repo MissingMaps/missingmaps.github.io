@@ -1,5 +1,49 @@
 [
 {
+	"date":"01/10/2015",
+	"flag":"us",
+	"title":"Portland January Mapathon",
+	"place_name":"Urban Airship Headquarters",
+	"place_url":"http://osm.org/go/WIDlV4_e8--?m=",
+	"time_string":"10am-4pm",
+	"signup_url":"http://calagator.org/events/1250467555",
+	"lat":45.52518,
+	"long":-122.68579
+},
+{
+	"date":"01/19/2015",
+	"flag":"us",
+	"title":"ARC GNY Missing Maps Mapathon - Harare Challenge!",
+	"place_name":"American Red Cross - Greater New York",
+	"place_url":"http://osm.org/go/Zct9Q~PPB?m=",
+	"time_string":"11am-1:30pm",
+	"signup_url":"https://www.eventbrite.com/e/arc-gny-missing-maps-mapathon-harare-challenge-tickets-15202095878",
+	"lat":40.76438,
+	"long":-73.99371
+},
+{
+	"date":"02/04/2015",
+	"flag":"gb",
+	"title":"Missing Maps Edinburgh",
+	"place_name":"The University of Edinburgh",
+	"place_url":"http://osm.org/go/evfLiuE9k-?m=",
+	"time_string":"5pm-8pm",
+	"signup_url":"https://www.eventbrite.co.uk/e/missing-maps-edinburgh-tickets-15552456817",
+	"lat":55.94400,
+	"long":-3.18723
+},
+{
+	"date":"",
+	"flag":"",
+	"title":"",
+	"place_name":"",
+	"place_url":"",
+	"time_string":"",
+	"signup_url":"",
+	"lat":,
+	"long":
+},
+{
 	"date":"01/22/15",
 	"flag":"de",
 	"title":"GeoBerlin",
