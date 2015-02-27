@@ -95,8 +95,19 @@
 	"place_url":"http://osm.org/go/evfLiuehA-?m=",
 	"time_string":"6pm-9pm",
 	"signup_url":"https://www.eventbrite.co.uk/e/missing-maps-edinburgh-mapathon-2-tickets-15690936012",
-	"lat":null,
-	"long":null
+	"lat": 55.94428,
+	"long": -3.18675
+},
+{
+	"date":"03/04/15",
+	"flag":"gb",
+	"title":"Edinburgh 3",
+	"place_name":"Appleton Tower",
+	"place_url":"http://osm.org/go/evfLiuehA-?m=",
+	"time_string":"6pm-9pm",
+	"signup_url":"https://www.eventbrite.co.uk/e/missing-maps-edinburgh-3-tickets-15875517099",
+	"lat": 55.94428,
+	"long": -3.18675
 },
 {
 	"date":"03/25/15",
