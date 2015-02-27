@@ -13,7 +13,7 @@ d3.json("data/events.json", function(data){
 		      '<span class="day">' + day + '</span>' +
 		      '<span class="month">' + month + '</span>' +
 		    '</time>' +
-		    '<span class="flag-icon flag-icon-' + eventData.flag + 
+		    '<span class="flag-icon flag-icon-' + eventData.flag +
 		    ' flag-icon-squared flag" style="width:120px;"></span>' +
 		    '<div class="info">' +
 		      '<h3 class="title event">' + eventData.title + '</h3>'+
@@ -21,10 +21,10 @@ d3.json("data/events.json", function(data){
 		      '<p class="desc">Time: ' + eventData.time_string + '</p>' +
 		      '<p class="desc"><span class="fa fa-check-square-o"></span>' +
 		      '<a href="' + eventData.signup_url + '"> Sign Up</a></p></div>';
-	    return thisHtml; 
-	}	
+	    return thisHtml;
+	}
 	// date for filtering event data (show one day past events)
-	var yesterday = d3.time.day.offset(new Date, -1);
+	var yesterday = d3.time.day.offset(new Date, -7);
 	// add a list item to page for each event from data that meets filter criteria
 	var displayedEvents = d3.select("#events .event-list").selectAll('li')
 		.data((data).filter(function(d){
