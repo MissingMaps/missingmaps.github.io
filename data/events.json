@@ -189,6 +189,25 @@
             "time_string":"6pm-9pm",
             "signup_url":"https://www.eventbrite.co.uk/e/missing-maps-mapathon-portsmouth-tickets-15617027951"
          }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               null,
+               null
+            ]
+         },
+         "properties":{
+            "date":"3/5/15",
+            "flag":"gb",
+            "title":"University of Exeter 2",
+            "place_name":"Forum Exploration Labs 1",
+            "place_url":"http://osm.org/go/euIu4D2Q--?m=",
+            "time_string":"6pm-8pm",
+            "signup_url":"https://www.facebook.com/EUMissingMaps"
+         }
       }
    ]
 }
