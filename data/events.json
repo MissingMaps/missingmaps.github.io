@@ -208,6 +208,44 @@
             "time_string":"6pm-8pm",
             "signup_url":"https://www.facebook.com/EUMissingMaps"
          }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -77.304360,
+               38.826316
+            ]
+         },
+         "properties":{
+            "date":"03/27/15",
+            "flag":"us",
+            "title":"GMU vs GWU Map-Off",
+            "place_name":"George Mason University, Exploratory Hall",
+            "place_url":"http://osm.org/go/ZZcFab9j?m=",
+            "time_string":"4:30pm-8pm",
+            "signup_url":"null"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -77.044480,
+               38.896930
+            ]
+         },
+         "properties":{
+            "date":"03/27/15",
+            "flag":"us",
+            "title":"GMU vs GWU Map-Off",
+            "place_name":"George Washington University",
+            "place_url":"http://osm.org/go/ZZcbKX_I?m=",
+            "time_string":"4:30pm-8pm",
+            "signup_url":"null"
+         }
       }
    ]
 }
