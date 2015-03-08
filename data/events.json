@@ -172,6 +172,25 @@
          }
       },
       {
+        "type":"Feature",
+        "geometry":{
+          "type":"Point",
+          "coordinates":[
+          0.18117,
+          51.39436
+          ]
+       },
+      "properties":{
+          "date":"3/09/15",
+          "flag":"gb",
+          "title":"Swanley Mini mapathon & training session",
+          "place_name":"Christ Church Centre, Swanley, Kent",
+          "place_url":"http://www.openstreetmap.org/?mlat=51.39436&mlon=0.18117&zoom=16#map=18/51.39436/0.18117",
+          "time_string":"1pm-4pm",
+          "signup_url":"https://www.eventbrite.co.uk/e/missing-maps-swanley-kent-uk-weekly-mapathons-training-sessions-tickets-15994358557"
+        }
+      },
+      {
          "type":"Feature",
          "geometry":{
             "type":"Point",
