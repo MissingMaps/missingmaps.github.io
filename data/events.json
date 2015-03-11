@@ -265,6 +265,25 @@
             "time_string":"6pm-9pm",
             "signup_url":"null"
          }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+              -79.047996,
+               35.910988
+            ]
+         },
+         "properties":{
+            "date":"03/27/15",
+            "flag":"us",
+            "title":"Humanitarian Mapathon",
+            "place_name":"University of North Carolina, Chapel Hill",
+            "place_url":"http://osm.org/go/ZS_hhvEgp--?m=",
+            "time_string":"5pm-7pm",
+            "signup_url":"http://calendar.lib.unc.edu/event.php?id=931127"
+         }
       }
-   ]
+    ]
 }
