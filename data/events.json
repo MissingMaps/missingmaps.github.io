@@ -271,6 +271,25 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
+               -117.123512,
+               32.813331
+            ]
+         },
+         "properties":{
+            "date":"03/28/15",
+            "flag":"us",
+            "title":"San Diego + Chicago Mapathon",
+            "place_name":"American Red Cross of San Diego and Chicago",
+            "place_url":"http://osm.org/go/TPTObQmG9",
+            "time_string":"9:30am-12pm",
+            "signup_url":"http://wiki.openstreetmap.org/w/images/0/06/San_Diego_and_Chicago_Mapathon_28MAR2015.pdf"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
               -79.047996,
                35.910988
             ]
