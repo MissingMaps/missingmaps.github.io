@@ -305,6 +305,25 @@
          }
       },
       {
+        "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -0.11266,
+               51.50497
+            ]
+         },
+         "properties":{
+            "date":"3/31/2015",
+            "flag":"gb",
+            "title":"London March Mapathon",
+            "place_name":"King's College, Waterloo",
+            "place_url":"http://www.openstreetmap.org/way/26595518",
+            "time_string":"6pm-9pm",
+            "signup_url":"https://www.eventbrite.co.uk/e/missing-mapshot-march-marathon-tickets-16125503816"
+         }
+      },
+      {
          "type":"Feature",
          "geometry":{
             "type":"Point",
@@ -334,7 +353,7 @@
          },
          "properties":{
             "date":"04/15/2015",
-            "flag":"us",
+            "flag":"no",
             "title":"Missing Maps Rogaland",
             "place_name":"Business Centre Stavanger, Norway",
             "place_url":"http://www.openstreetmap.org/node/2825863173#map=19/58.97062/5.74391",
