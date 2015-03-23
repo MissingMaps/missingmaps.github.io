@@ -209,6 +209,25 @@
             "signup_url":"https://www.eventbrite.co.uk/e/missing-maps-mapathon-portsmouth-tickets-15617027951"
          }
       },
+     {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -3.18675,
+               55.94428
+            ]
+         },
+         "properties":{
+            "date":"3/25/2015",
+            "flag":"gb",
+            "title":"Edinburgh Missing Maps #4",
+            "place_name":"Appleton Tower",
+            "place_url":"http://osm.org/go/evfLiuehA-?m=",
+            "time_string":"6pm-9pm",
+            "signup_url":"https://www.eventbrite.co.uk/e/missing-maps-edinburgh-4-tickets-16085021733"
+         }
+      },
       {
          "type":"Feature",
          "geometry":{
@@ -295,13 +314,32 @@
             ]
          },
          "properties":{
-            "date":"04/07/15",
+            "date":"04/02/15",
             "flag":"us",
             "title":"Humanitarian Mapathon",
             "place_name":"University of North Carolina, Chapel Hill",
             "place_url":"http://osm.org/go/ZS_hhvEgp--?m=",
             "time_string":"5pm-7pm",
             "signup_url":"http://calendar.lib.unc.edu/event.php?id=931127"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               5.7439133,
+               58.9706202 
+            ]
+         },
+         "properties":{
+            "date":"04/15/2015",
+            "flag":"us",
+            "title":"Ingeniører uten Grenser, Missing Maps Rogaland",
+            "place_name":"Business Centre Stavanger, Norway",
+            "place_url":"http://www.openstreetmap.org/node/2825863173#map=19/58.97062/5.74391",
+            "time_string":"5pm-9pm",
+            "signup_url":"https://www.facebook.com/events/1589265807988292/"
          }
       }
     ]
