@@ -22,7 +22,7 @@ d3.json("data/events.json", function(data){
 		      '<p class="desc">Time: ' + eventData.properties.time_string + '</p>' +
 					// '<p class="desc"><span class="fa fa-check-square-o"></span>' +
 					// '<a href="' + eventData.properties.signup_url + '" target="_blank"> Sign Up</a></p>' +
-					((eventData.properties.signup_url == "null") ? '<p class="desc">Sign up available soon!</p>' : '<p class="desc"><span class="fa fa-check-square-o"></span>' +
+					((eventData.properties.signup_url == "null") ? '<p class="desc"></p>' : '<p class="desc"><span class="fa fa-check-square-o"></span>' +
 					'<a href="' + eventData.properties.signup_url + '" target="_blank"> Sign Up</a></p>') +
 					' </div>';
 	    return thisHtml;

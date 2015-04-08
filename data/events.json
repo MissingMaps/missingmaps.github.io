@@ -97,7 +97,7 @@
             "date":"2/12/2015",
             "flag":"no",
             "title":"Missing Maps Norway",
-            "place_name":"Troms��",
+            "place_name":"Tromsø",
             "place_url":"http://osm.org/go/1KcrhSRH0-?layers=H&m=",
             "time_string":"7pm-10pm",
             "signup_url":"https://www.eventbrite.com/e/missing-maps-mapathon-troms-tickets-15567209944"
@@ -367,7 +367,7 @@
             "type":"Point",
             "coordinates":[
                5.7439133,
-               58.9706202 
+               58.9706202
             ]
          },
          "properties":{
@@ -378,6 +378,25 @@
             "place_url":"http://www.openstreetmap.org/node/2825863173#map=19/58.97062/5.74391",
             "time_string":"5pm-9pm",
             "signup_url":"https://www.facebook.com/events/1589265807988292/"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+              -77.044480,
+              38.896930
+            ]
+         },
+         "properties":{
+            "date":"4/10/2015",
+            "flag":"us",
+            "title":"GW Humanitarian Mapping Society ",
+            "place_name":"GWU Spatial Analysis Lab",
+            "place_url":"http://osm.org/go/ZZcbKX_I?m=",
+            "time_string":"6pm start",
+            "signup_url":"null"
          }
       }
     ]
