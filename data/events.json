@@ -366,6 +366,25 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
+              -77.044480,
+              38.896930
+            ]
+         },
+         "properties":{
+            "date":"4/10/2015",
+            "flag":"us",
+            "title":"GW Humanitarian Mapping Society ",
+            "place_name":"GWU Spatial Analysis Lab",
+            "place_url":"http://osm.org/go/ZZcbKX_I?m=",
+            "time_string":"6pm start",
+            "signup_url":"null"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
                5.7439133,
                58.9706202
             ]
@@ -385,17 +404,36 @@
          "geometry":{
             "type":"Point",
             "coordinates":[
-              -77.044480,
-              38.896930
+              -77.02211,
+              38.89911
             ]
          },
          "properties":{
-            "date":"4/10/2015",
+            "date":"4/29/2015",
             "flag":"us",
-            "title":"GW Humanitarian Mapping Society ",
-            "place_name":"GWU Spatial Analysis Lab",
-            "place_url":"http://osm.org/go/ZZcbKX_I?m=",
-            "time_string":"6pm start",
+            "title":"MapTimeDC + HOT ",
+            "place_name":"WeWork Chinatown",
+            "place_url":"http://osm.org/go/ZZcbjMXnf?m=",
+            "time_string":"6:30pm-8pm",
+            "signup_url":"http://www.meetup.com/Maptime-DC/events/220505118/"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+              -77.02211,
+              38.89911
+            ]
+         },
+         "properties":{
+            "date":"6/8/2015",
+            "flag":"un",
+            "title":"SOTM-US Mapathon",
+            "place_name":"United Nations HQ",
+            "place_url":"http://osm.org/go/Zct9OMNCl-?m=",
+            "time_string":"TBD",
             "signup_url":"null"
          }
       }
