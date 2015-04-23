@@ -753,6 +753,22 @@
     "signup_url":"https://www.facebook.com/events/1589265807988292/"
     }
   },
+   {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.11603,51.51126 ]
+    },
+    "properties": {
+    "date":"4/28/2015",
+    "flag":"gb",
+    "title":"Missing Maps London Mapathon",
+    "place_name":"King's College London",
+    "place_url":"http://osm.org/go/euu4jOxRx-?m=",
+    "time_string":"18:00-21:00",
+    "signup_url":"https://www.eventbrite.co.uk/e/missing-mapshot-april-mapathon-tickets-16531869266"
+    }
+  },
   {
     "type": "Feature",
     "geometry": {
