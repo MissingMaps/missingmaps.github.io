@@ -789,6 +789,22 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
+       "coordinates":  [ 5.12481,51.86564 ]
+    },
+    "properties": {
+    "date":"6/4/2015",
+    "flag":"ne",
+    "title":"Missing Maps Holland",
+    "place_name":"GeoFort, Herwijnen",
+    "place_url":"http://www.openstreetmap.org/node/2898279943",
+    "time_string":"TBD",
+    "signup_url":"http://jonggeo.nl/missing-maps/"
+    }
+  },
+   {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
        "coordinates":  [ -77.02211,38.89911 ]
     },
     "properties": {
