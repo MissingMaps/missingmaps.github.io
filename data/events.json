@@ -785,6 +785,37 @@
     "signup_url":"http://www.meetup.com/Maptime-DC/events/220505118/"
     }
   },
+      "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.26071,55.86597 ]
+    },
+    "properties": {
+    "date":"5/14/2015",
+    "flag":"gb",
+    "title":"Missing Maps Glasgow",
+    "place_name":"The Project Cafe",
+    "place_url":"http://www.openstreetmap.org/node/3429875881",
+    "time_string":"6:30pm-9pm",
+    "signup_url":"https://www.eventbrite.co.uk/e/missing-maps-glasgow-2-tickets-16792736527"
+    }
+  },
+    {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.18723,55.944 ]
+    },
+    "properties": {
+    "date":"5/22/2015",
+    "flag":"gb",
+    "title":"Missing Maps Edinburgh",
+    "place_name":"TBC",
+    "place_url":"http://osm.org/go/evfLiuE9k-?m=",
+    "time_string":"5pm-8pm",
+    "signup_url":"https://www.eventbrite.co.uk/e/missing-maps-edinburgh-tickets-16959158299"
+    }
+  },
   {
     "type": "Feature",
     "geometry": {
