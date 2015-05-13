@@ -801,6 +801,22 @@
     "signup_url":"https://www.eventbrite.co.uk/e/missing-maps-glasgow-2-tickets-16792736527"
     }
   },
+    {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.10777,51.52168 ]
+    },
+    "properties": {
+    "date":"5/19/2015",
+    "flag":"gb",
+    "title":"Missing Maps London JOSM meetup",
+    "place_name":"MSF UK HQ",
+    "place_url":"http://osm.org/go/euu4tD0_1?m=",
+    "time_string":"18:00-21:00",
+    "signup_url":"https://www.eventbrite.co.uk/e/mid-may-mapathon-for-regular-mappers-tickets-16934115395"
+    }
+  },
    {
     "type": "Feature",
     "geometry": {
