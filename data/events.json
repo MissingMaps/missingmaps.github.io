@@ -785,6 +785,7 @@
     "signup_url":"http://www.meetup.com/Maptime-DC/events/220505118/"
     }
   },
+    {
       "type": "Feature",
     "geometry": {
        "type": "Point",
@@ -800,7 +801,7 @@
     "signup_url":"https://www.eventbrite.co.uk/e/missing-maps-glasgow-2-tickets-16792736527"
     }
   },
-    {
+   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
