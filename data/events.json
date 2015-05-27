@@ -833,6 +833,22 @@
     "signup_url":"https://www.eventbrite.co.uk/e/missing-maps-edinburgh-tickets-16959158299"
     }
   },
+      {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.17666,51.49761 ]
+    },
+    "properties": {
+    "date":"6/2/2015",
+    "flag":"gb",
+    "title":"Missing Maps London mapathon",
+    "place_name":"Imperial College, London",
+    "place_url":"http://www.openstreetmap.org/way/110085229",
+    "time_string":"18:00-21:00",
+    "signup_url":"https://www.eventbrite.co.uk/e/missing-mapshot-june-mapathon-tickets-17028513743"
+    }
+  },
   {
     "type": "Feature",
     "geometry": {
