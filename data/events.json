@@ -880,6 +880,22 @@
     "time_string":"TBD",
     "signup_url":"null"
     }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 52.4984297, 13.3809837 ]
+    },
+    "properties": {
+    "date":"6/18/2015",
+    "flag":"de",
+    "title":"Missing Maps Berlin",
+    "place_name":"Wikimedia Deutschland",
+    "place_url":"https://www.openstreetmap.org/node/2551527703",
+    "time_string":"18:30-22:00",
+    "signup_url":"http://www.meetup.com/Missing-Maps-Berlin/events/222639871/"
+    }
   }
 ]
 }
