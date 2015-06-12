@@ -906,12 +906,12 @@
     "properties": {
     "date":"6/16/2015",
     "flag":"gb",
-    "title":"Missing Maps/Y Care International Mapathon",
+    "title":"Y Care International Mapathon",
     "place_name":"Remark! Events, London",
     "place_url":"http://www.openstreetmap.org/search?query=18+leather+lane#map=19/51.51946/-0.10857",
     "time_string":"18:00-21:00",
     "signup_url":"https://www.eventbrite.co.uk/e/mid-month-mapathon-missing-mapsy-care-international-tickets-17305575442"
     }
-  },
+  }
 ]
 }
