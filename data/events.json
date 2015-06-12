@@ -896,8 +896,8 @@
     "time_string":"18:30-22:00",
     "signup_url":"http://www.meetup.com/Missing-Maps-Berlin/events/222639871/"
     }
-  }
-        {
+  },
+  {
     "type": "Feature",
     "geometry": {
        "type": "Point",
