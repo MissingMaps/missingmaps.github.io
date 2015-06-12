@@ -897,5 +897,21 @@
     "signup_url":"http://www.meetup.com/Missing-Maps-Berlin/events/222639871/"
     }
   }
+        {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.17666,51.49761 ]
+    },
+    "properties": {
+    "date":"6/2/2015",
+    "flag":"gb",
+    "title":"Missing Maps/Y Care International Mapathon",
+    "place_name":"Remark! Events, London",
+    "place_url":"http://www.openstreetmap.org/#map=19/51.51946/-0.10857",
+    "time_string":"18:00-21:00",
+    "signup_url":"https://www.eventbrite.co.uk/e/mid-month-mapathon-missing-mapsy-care-international-tickets-17305575442"
+    }
+  },
 ]
 }
