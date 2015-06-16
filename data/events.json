@@ -869,14 +869,14 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -77.02211,38.89911 ]
+       "coordinates":  [ -73.99736, 40.72962 ]
     },
     "properties": {
     "date":"6/8/2015",
     "flag":"un",
     "title":"SOTM-US Mapathon",
     "place_name":"United Nations HQ",
-    "place_url":"http://osm.org/go/Zct9OMNCl-?m=",
+    "place_url":"http://osm.org/go/Zct8Uw8HQ?m=",
     "time_string":"TBD",
     "signup_url":"null"
     }
@@ -885,7 +885,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 52.4984297, 13.3809837 ]
+       "coordinates":  [ 13.3809837, 52.4984297 ]
     },
     "properties": {
     "date":"6/18/2015",
