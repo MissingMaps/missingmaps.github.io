@@ -912,6 +912,22 @@
     "time_string":"18:00-21:00",
     "signup_url":"https://www.eventbrite.co.uk/e/mid-month-mapathon-missing-mapsy-care-international-tickets-17305575442"
     }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.11069,51.51731 ]
+    },
+    "properties": {
+    "date":"7/7/2015",
+    "flag":"gb",
+    "title":"Missing Maps London",
+    "place_name":"MSF UK Office",
+    "place_url":"http://osm.org/go/euu4mvaDj?m=",
+    "time_string":"18:00-21:00",
+    "signup_url":"https://www.eventbrite.co.uk/e/missing-mapshot-july-mapathon-tickets-17431671599?ref=estw"
+    }
   }
 ]
 }
