@@ -927,8 +927,8 @@
     "place_url":"http://osm.org/go/euu4mvaDj?m=",
     "time_string":"18:00-21:00",
     "signup_url":"https://www.eventbrite.co.uk/e/missing-mapshot-july-mapathon-tickets-17431671599?ref=estw"
-    }
-      {
+   },
+   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
