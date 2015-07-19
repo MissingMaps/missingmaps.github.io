@@ -927,12 +927,13 @@
     "place_url":"http://osm.org/go/euu4mvaDj?m=",
     "time_string":"18:00-21:00",
     "signup_url":"https://www.eventbrite.co.uk/e/missing-mapshot-july-mapathon-tickets-17431671599?ref=estw"
-    },
-    {
+    }
+  },
+  {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 6.7744,39.2411497 ] 
+       "coordinates":  [ 6.7744,39.2411497 ]
     },
     "properties": {
     "date":"7/25/2015",
@@ -942,6 +943,7 @@
     "place_url":"http://osm.org/go/l565e51YC?m=",
     "time_string":"14:00-15:00",
     "signup_url":"http://www.eventbrite.com/e/maptime-tanzania-tickets-17814704260"
-    },
+    }
+  }
 ]
 }
