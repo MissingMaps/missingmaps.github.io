@@ -387,7 +387,30 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+.training-section {
+    width: 100%;
+    padding: 50px 0;
+    margin-top: 10px;
+    color: #040404;
+    background-color: #efefef;
+    padding-bottom: 50px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
+.beginners-section {
+    width: 100%;
+    padding: 100px 0;
+    color: #040404;
+    background-color: #ffffff;
+    padding-bottom: 50px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 .media-section {
     width: 100%;
     padding: 50px 0;
