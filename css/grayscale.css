@@ -391,9 +391,11 @@ body {
     width: 100%;
     padding: 50px 0;
     margin-top: 10px;
-    color: #040404;
-    background-color: #fdfdfd;
+    color: #fff;
+    background-color: #000;
     padding-bottom: 50px;
+    background: url(../img/mapboxdark.jpg) no-repeat center center;
+    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
