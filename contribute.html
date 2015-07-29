@@ -40,9 +40,6 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-    <!-- flag icons -->
-    <link href="css/flag-icon.min.css" rel="stylesheet">
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -56,10 +53,10 @@
 
 
 <!-- Navigation -->
-<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="background-color: #000000; !important">
     <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+            <button type="button" class="navbar-toggle" style="color:#fff" data-toggle="collapse" data-target=".navbar-main-collapse">
                 <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand page-scroll" href="http://missingmaps.org">
@@ -78,6 +75,12 @@
                     <a class="page-scroll" href="http://missingmaps.org">Home</a>
                 </li>
                 <li>
+                    <a class="page-scroll" href="#start">Start</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#beginners">Beginners</a>
+                </li>
+                <li>
                     <a class="page-scroll" href="#contact">Contact</a>
                 </li>
             </ul>
@@ -87,32 +90,32 @@
     <!-- /.container -->
 </nav>
 
+    <!-- spacer -->
+    <div style="height:80px;"></div>
       <!-- Start Mapping Section -->
-    <section id="about" class="container training-section text-center">
+    <section id="start" class="container training-section text-center">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1">
-                <h2> </h2>
                 <h2>Start Mapping</h2>
-                <p>If you're new to mapping we recommend watching the videos in the beginners section to get up and running, if you've mapped before follow the start mapping link.</p>
-                <p> There is also extra training available via Open Street Map's site</p>
+                <p>If you're new to mapping we recommend watching the videos in the beginners section to get up and running. If you've mapped before follow the start mapping link. There is also extra training available via LearnOSM.</p>
                 <div class="col-lg-8 col-lg-offset-2">
                    <div class="row">
                         <div class="col-sm-6 col-md-4">
-                            <img class="contrib img-circle" src="img/learn.png" alt="remote mappers">
+                            <img class="contrib img-circle" src="img/learn.png" alt="learn">
                             <div class="caption">
-                                <p><a href="#beginners" class="btn btn-lg btn-default" role="button"><i class="fa fa-tasks"></i>Beginners</a></p>
+                                <p><a href="#beginners" class="btn btn-lg btn-default" role="button"><i class="fa fa-tasks"></i> Beginners</a></p>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4">
-                            <img class="contrib img-circle" src="img/mapLink.jpg" alt="remote mappers">
+                            <img class="contrib img-circle" src="img/mapLink.jpg" alt="map">
                             <div class="caption">
-                                <p><a href="http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps" class="btn btn-lg btn-default" role="button"><i class="fa fa-globe"></i>Start Mapping</a></p>
+                                <p><a href="http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps" class="btn btn-lg btn-default" role="button"><i class="fa fa-globe"></i> Start Mapping</a></p>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4">
-                            <img class="contrib img-circle" src="img/extraTraining.jpg" alt="remote mappers">
+                            <img class="contrib img-circle" src="img/extraTraining.jpg" alt="train">
                             <div class="caption">
-                                <p><a href="http://learnosm.org/en/" target="_blank" class="btn btn-lg btn-default" role="button"><i class="fa fa-sitemap"></i>Extra training</a></p>
+                                <p><a href="http://learnosm.org/en/" target="_blank" class="btn btn-lg btn-default" role="button"><i class="fa fa-sitemap"></i> Extra training</a></p>
                             </div>
                         </div>
                     </div>
@@ -129,17 +132,16 @@
                 <h2>Beginners</h2>
                 <p>Follow the 4 step process below to start mapping, this takes around 30-45 minutes. Remember you can pause and rewind the videos as you go along.</p>
                 <div class="col-sm-6 col-md-7">
-                    <h3>Step 1 - Create an Open Street Map Account </h3>
+                    <h3>Step 1 - Create an Open Street Map Account</h3>
                     <div class="caption">
-                        <p>Go to the <a href="https://www.openstreetmap.org/login?referer=%2Foauth%2Fauthorize%3Foauth_token%3DxOXr03rzTy4Sfx4kSU9wleHndzyQWeF1mvbRrwdf" target="_blank">OpenStreetMap</a> website and register to create an account, follow the link in the email they send to confirm your account.</p>
+                        <p>Go to the <a href="https://www.openstreetmap.org/login?referer=%2Foauth%2Fauthorize%3Foauth_token%3DxOXr03rzTy4Sfx4kSU9wleHndzyQWeF1mvbRrwdf" target="_blank">OpenStreetMap</a> website and register to create an account. Follow the link in the email they send to confirm your account.</p>
                         <p>Return here once complete.</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-5">
-                <iframe width="350" height="280"
-                        src="http://www.youtube.com/embed/HDPvn1yg64w">
-                </iframe>
+                  <iframe width="350" height="280" src="https://www.youtube-nocookie.com/embed/HDPvn1yg64w?rel=0" frameborder="0" allowfullscreen></iframe>
                 </div>
+              </div>
             </div>
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1">
@@ -148,14 +150,12 @@
                         <h3>Step 2 - Find a task to Map</h3>
                         <div class="caption">
                             <p>Go to the <a href="http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps" target="_blank">Task Manager</a> to find a project and task that interests you.</p>
-                            <p>Learn how to lock a task to edit, select an editing program and change the background settings </p>
-                            <p>iD editor is recommended for beginners. </p>
+                            <p>Learn how to lock a task to edit, select an editing program and change the background settings.</p>
+                            <p>iD editor is recommended for beginners.</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-5">
-                        <iframe width="350" height="280"
-                                src="http://www.youtube.com/embed/yFBkvoGUWh0">
-                        </iframe>
+                      <iframe width="350" height="280" src="https://www.youtube-nocookie.com/embed/yFBkvoGUWh0?rel=0" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -166,13 +166,11 @@
                         <h3>Step 3 - Learn to map buildings and roads</h3>
                         <div class="caption">
                             <p>Once you've found a task, learn to map building and roads.</p>
-                            <p>Training for other landmarks is available on the <a href="#" target="_blank"> OSM website </a>. </p>
+                            <p>Details on OpenStreetMap's tagging system can be found on the <a href="http://wiki.openstreetmap.org/wiki/Map_Features" target="_blank">map features</a> wiki.</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-5">
-                        <iframe width="350" height="280"
-                                src="http://www.youtube.com/embed/waX3Nhix0-0">
-                        </iframe>
+                      <iframe width="350" height="280" src="https://www.youtube-nocookie.com/embed/waX3Nhix0-0?rel=0" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -182,13 +180,11 @@
                     <div class="col-sm-6 col-md-7">
                         <h3>Step 4 - Save and complete your task</h3>
                         <div class="caption">
-                            <p>It's important to save regularly, if you have complete the task mark it as complete, if it's not complete unlock it for others to complete, remember to leave a message for the next mapper.</p>
+                            <p>It's important to save regularly. If you finish the task mark it as complete; however, if it's not complete unlock it for others to complete. Remember, you may leave a message for the next mapper.</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-5">
-                        <iframe width="350" height="280"
-                                src="http://www.youtube.com/embed/IpgD2lWHzys">
-                        </iframe>
+                      <iframe width="350" height="280" src="https://www.youtube-nocookie.com/embed/IpgD2lWHzys?rel=0" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -244,20 +240,6 @@
 
     <!-- Custom Theme JavaScript -->
     <script type="text/javascript" src="js/grayscale.js"></script>
-
-    <!-- Custom page build Javascript -->
-    <script type="text/javascript" src="js/main.js"></script>
-
-    <!-- Analytics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-55969124-1', 'auto');
-      ga('send', 'pageview');
-    </script>
 
 </body>
 
