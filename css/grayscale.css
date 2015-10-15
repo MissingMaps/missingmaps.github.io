@@ -682,3 +682,14 @@ img.mm_logo {
       margin: 0px;
     }
 	}
+#container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+
+}
+
+.checkmark {
+    padding-right: 10px;
+}
