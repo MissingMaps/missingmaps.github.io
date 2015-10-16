@@ -616,7 +616,7 @@ img.mm_logo {
 			position: relative;
 			display: block;
 			width: 100%;
-			height: 120px;
+			min-height: 120px;
 			padding: 0px;
 		}
 		.event-list > li > time,
@@ -635,13 +635,13 @@ img.mm_logo {
 		.event-list > li > time,
 		.event-list > li > img {
 			width: 120px;
-			height: 120px;
+			min-height: 120px;
 			padding: 0px;
 			margin: 0px;
 		}
 		.event-list > li > .info {
 			position: relative;
-			height: 120px;
+			min-height: 120px;
 			text-align: left;
 			padding-right: 40px;
 		}
