@@ -483,8 +483,8 @@ img.mm_logo {
 }
 
 .contrib {
-  height: 200px;
-  padding-bottom: 25px;
+  height: 175px;
+  margin-bottom: 25px;
 }
 
 /* event list */
@@ -682,3 +682,14 @@ img.mm_logo {
       margin: 0px;
     }
 	}
+#container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+
+}
+
+.checkmark {
+    padding-right: 10px;
+}
