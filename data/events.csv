@@ -82,3 +82,14 @@ latitude,longitude,date,flag,title,place_name,place_url,time_string,signup_url
 53.2390,6.5355,11/10/2015,nl,Missing Maps Groningen,"Smitsborg, Zernike Campus",http://www.openstreetmap.org/way/6320703#map=16/53.2390/6.5355,1700-2100,https://www.eventbrite.nl/e/missing-maps-groningen-tickets-19173124331
 51.52267,-0.10526,11/3/2015,gb,Missing Maps London,Wallacespace,http://osm.org/go/euu4tPM5K?m=,18:00-21:00,https://www.eventbrite.co.uk/e/missing-mapshot-november-mapathon-tickets-19100443942
 50.72334,-3.51694,11/2/2015,gb,Missing Maps Exeter Uni,St Luke's Campus,http://www.openstreetmap.org/node/838052019,18:00-20:00,https://www.facebook.com/events/1645546975687945/
+40.7865,-77.8329,null,us,Penn State,Penn State,http://osm.org/go/ZcSIKf4e?m=,,null
+37.72204,-122.47599,11/18/15,us,San Francisco State University Mapathon,San Francisco State University,http://osm.org/go/TZHsPqzyV?layers=N&m=,5:30pm-8:00pm,https://sfsu-missing-maps.eventbrite.com
+35.910988,-79.047996,10/22/15,us,University of North Carolina Mapathon,University of North Carolina,http://osm.org/go/ZS_hhvBg3?layers=N&m=,5:00pm-7:00pm,http://global.unc.edu/event/humanitarian-mapathon/
+38.89693,-77.04448,null,us,George Washington University Mapathon,George Washington University,http://osm.org/go/ZZcbKX_I?m=,TBD,null
+38.826316,-77.30436,null,us,George Mason Mapathon,George Mason,http://osm.org/go/ZZcFab9j?m=,TBD,null
+38.98607,-76.94245,11/18/15,us,University of Maryland Mapathon,University of Maryland,http://osm.org/go/ZZc1hhSzp-?layers=N&m=,TBD,null
+28.60299,-81.19857,11/17/15,us,University of Central Florida Mapathon,University of Central Florida,http://osm.org/go/ZGhkXCBAh--?layers=N&m=&relation=1159228,3:30pm-5:45pm,null
+39.9804,-75.15773,null,us,Temple University Mapathon,Temple University,http://osm.org/go/ZcjR8r5P8-?layers=N&m=,TBD,null
+32.84208,-96.78197,11/17/15,us,Southern Methodist University Mapathon,Southern Methodist University,http://osm.org/go/Tt5NszxXH--?layers=N&m=,11:00am-3:00pm,null
+42.25174,-71.82319,null,us,Clark University Mapathon,Clark University,http://osm.org/go/ZfCptb6wq--?layers=N&m=,TBD,null
+41.874,-87.68132,11/14/15,us,Missing Maps Chicago Mapathon,American Red Cross of Chicago and Northern Illinois,http://osm.org/go/ZUfIeVPNY--?m=,9:30am-2:30pm,null
