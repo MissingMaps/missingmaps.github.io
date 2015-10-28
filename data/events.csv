@@ -70,7 +70,7 @@ latitude,longitude,date,flag,title,place_name,place_url,time_string,signup_url
 51.52567,-0.13978,10/6/2015,gb,Missing Maps London,Facebook,http://www.openstreetmap.org/node/3763350319#map=19/51.52567/-0.13978,18:00-21:00,https://www.eventbrite.co.uk/e/missing-mapshot-october-mapathon-tickets-18786989391
 55.94417,-3.19376,10/4/2015,gb,Missing Maps SOTM Scotland,SkyScanner,https://www.openstreetmap.org/#map=18/55.94417/-3.19376,11:00-15:00,http://wiki.openstreetmap.org/wiki/State_of_the_Map_Scotland_2015/Day_5#Workshop_2_:_For_new_mappers_-_Missing_Maps
 45.42085,-75.70088,11/14/2015,ca,Missing Maps Ottawa,Hub Ottowa,http://www.openstreetmap.org/node/2621358362#map=19/45.42085/-75.70088,11:00-15:00,http://www.meetup.com/openstreetmap-ottawa/events/225620798/
-45.19128,5.7331,10/28/2015,fr,Maptime-Alpes + Missing Maps Mapathon,Cowork in Grenoble,http://www.openstreetmap.org/way/33695023,17:00-22:00,http://www.meetup.com/MaptimeAlpes/events/225840761/
+45.19128,5.7331,10/28/2015,fr,Maptime-Alpes + Missing Maps Mapathon,Cowork in Grenoble,http://www.openstreetmap.org/node/3806387790,17:00-22:00,http://www.meetup.com/MaptimeAlpes/events/225840761/
 50.7352,-3.53358,10/8/2015,gb,University of Exeter Missing Maps party,The Forum,http://www.openstreetmap.org/way/162102795#map=19/50.73520/-3.53358,18:00-21:00,https://www.facebook.com/EUMissingMaps
 43.66316,-79.41078,10/14/2015,ca,MSF Canada Missing Maps party,Centre for Social Innovation,http://www.openstreetmap.org/way/255630384#map=19/43.66316/-79.41078,18:00-21:00,http://www.eventbrite.ca/e/msf-canadas-missing-maps-event-tickets-18715354128
 58.9377,5.69377,10/27/2015,no,Ingeniører Uten Grenser UiS Missing Maps party,Universitetet i Stavanger,http://www.openstreetmap.org/node/267591852#map=19/58.93770/5.69377,17:00-22:00,https://www.nito.no/kurs-og-arrangementer/missing-maps-mapathon-ingeniorer-uten-grenser/
@@ -94,3 +94,4 @@ latitude,longitude,date,flag,title,place_name,place_url,time_string,signup_url
 42.25174,-71.82319,TBD,us,Clark University,Clark University,http://osm.org/go/ZfCptb6wq--?layers=N&m=,TBD,null
 41.874,-87.68132,11/14/15,us,Chicago Red Cross,American Red Cross of Chicago and Northern Illinois,http://osm.org/go/ZUfIeVPNY--?m=,9:30am-2:30pm,null
 55.94374,-3.18668,10/29/2015,gb,Missing Maps Edinburgh,George Square,http://www.openstreetmap.org/way/5325199#map=19/55.94374/-3.18668,19:00-21:00,https://www.eventbrite.co.uk/e/missing-maps-mapathon-tickets-19242812771
+48.872504,2.3643425,11/5/2015,fr,Mapathon Missing Maps Paris, La Ruche,https://www.openstreetmap.org/way/63196894,19:00-22:00,http://www.eventbrite.fr/e/billets-mapathon-missing-maps-paris-19278883660
