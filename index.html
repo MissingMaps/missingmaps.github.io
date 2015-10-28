@@ -59,7 +59,7 @@
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <button type="button" class="navbar-toggle" style="color:#fff" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
@@ -138,38 +138,55 @@
               <h3>Founded by:</h3>
                 <ul class="list-inline logos">
                   <li>
-                      <a href="http://redcross.org"><img class="member_logo" src="img/arc_logo.png" /></a>
+                      <a href="http://redcross.org"><img class="member_logo" src="img/logos/arc_logo.png" /></a>
                   </li>
                   <li>
-                      <a href="https://redcross.org.uk"><img class="member_logo" src="img/brc_logo.png" /></a>
+                      <a href="http://redcross.org.uk"><img class="member_logo" src="img/logos/brc_logo.png" /></a>
                   </li>
                   <li>
-                      <a href="http://hotosm.org"><img class="member_logo" src="img/hot_logo.png" /></a>
+                      <a href="http://hotosm.org"><img class="member_logo" src="img/logos/hot_logo.png" /></a>
                   </li>
                   <li>
-                      <a href="http://www.msf.org.uk/"><img class="member_logo" src="img/msf_logo.png" /></a>
+                      <a href="http://www.msf.org.uk/"><img class="member_logo" src="img/logos/msf_logo.png" /></a>
+                  </li>
+                </ul>
+              <h3>Members:</h3>
+                <ul class="list-inline logos">
+                  <li>
+                      <a href="http://www.cartong.org/"><img class="member_logo" src="img/logos/cartong_logo.png" /></a>
+                  </li>
+                  <li>
+                      <a href="http://www.rodekruis.nl/"><img class="member_logo" src="img/logos/nlrc_logo.jpg" /></a>
                   </li>
                 </ul>
         </div>
+
+
     </section>
 
     <!-- Involved Section -->
     <section id="involved" class="content-section involved-section text-center">
         <div class="involved-section">
             <div class="container">
+              <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Contribute</h2>
                     <p>Missing Maps is powered by volunteers around the world and in your community who map far off places and their own neighborhoods. Missing Maps is always looking for more volunteers and organizations to help map vulnerable places.</p>
-                    <p>Missing Maps is an open collaboration of organisations and individuals. Whether you have five minutes or five days free, your time is hugely appreciated!</p>
-                    <div class="row">
-                      <div class="col-sm-6 col-md-4">
+                    <p>Missing Maps is an open collaboration of organisations and individuals. Whether you have five minutes or five days, your time is hugely appreciated!</p>
+                      <div class="col-sm-4 col-md-4">
                           <img class="contrib img-circle" src="img/map.jpg" alt="remote mappers">
                           <div class="caption">
-                            <p><a href="http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps" class="btn btn-lg btn-default" role="button"><i class="fa fa-globe"></i> Map</a></p>
+                            <p><a href="/contribute" class="btn btn-lg btn-default" role="button"><i class="fa fa-globe"></i> Map</a></p>
                           </div>
-
                       </div>
-                      <div class="col-sm-6 col-md-4">
+                      <div class="col-sm-4 col-md-4">
+                          <img class="contrib img-circle" src="img/mapathon.jpg" alt="join">
+                          <div class="caption">
+                            <p><a href="/mapathons" class="btn btn-lg btn-default" role="button"><i class="fa fa-check-square-o"></i> Host a Mapathon</a></p>
+                          </div>
+                      </div>
+
+                      <div class="col-sm-4 col-md-4">
                           <img class="contrib img-circle" src="img/donate.jpg" alt="donate">
                           <div class="caption">
                             <form class="donate_button" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -179,13 +196,7 @@
                             </form>
                           </div>
                       </div>
-                      <div class="col-sm-6 col-md-4">
-                          <img class="contrib img-circle" src="img/signup.jpg" alt="join">
-                          <div class="caption">
-                            <p><a href="https://missingmaps.wufoo.com/forms/z1qf97pz0dwu14f/" class="btn btn-lg btn-default" role="button"><i class="fa fa-check-square-o"></i> Sign Up</a></p>
-                          </div>
-                        </div>
-                      </div>
+
                     </div>
 
                 </div>
@@ -232,10 +243,10 @@
                         <a href="https://twitter.com/TheMissingMaps" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                     </li>
                     <li>
-                        <a href="https://github.com/missingmaps" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        <a href="https://www.facebook.com/MissingMapsProject" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
                     </li>
                     <li>
-                        <a href="https://www.facebook.com/MissingMapsProject" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                        <a href="https://gitter.im/MissingMaps" class="btn btn-default btn-lg"><i class="fa fa-microphone fa-fw"></i> <span class="network-name">Gitter</span></a>
                     </li>
                     <li>
                         <a href="http://wiki.openstreetmap.org/wiki/Missing_Maps_Project" class="btn btn-default btn-lg"><i class="fa fa-newspaper-o fa-fw"></i> <span class="network-name">Wiki</span></a>
@@ -252,7 +263,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <small>CC-BY-SA Missing Maps 2014</small>
+            <small>CC-BY Missing Maps 2015</small>
         </div>
     </footer>
 

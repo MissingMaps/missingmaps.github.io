@@ -33,7 +33,7 @@ h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
     font-family: "missingmaps",Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    /*font-weight: 700;*/
     letter-spacing: 1px;
 }
 
@@ -387,7 +387,32 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+.training-section {
+    width: 100%;
+    padding: 50px 0;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #000;
+    padding-bottom: 50px;
+    background: url(../img/mapboxdark.jpg) no-repeat center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
+.beginners-section {
+    width: 100%;
+    padding: 100px 0;
+    color: #040404;
+    background-color: #ffffff;
+    padding-bottom: 50px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 .media-section {
     width: 100%;
     padding: 50px 0;
@@ -458,8 +483,8 @@ img.mm_logo {
 }
 
 .contrib {
-  height: 200px;
-  padding-bottom: 25px;
+  height: 175px;
+  margin-bottom: 25px;
 }
 
 /* event list */
@@ -591,7 +616,7 @@ img.mm_logo {
 			position: relative;
 			display: block;
 			width: 100%;
-			height: 120px;
+			min-height: 120px;
 			padding: 0px;
 		}
 		.event-list > li > time,
@@ -610,13 +635,13 @@ img.mm_logo {
 		.event-list > li > time,
 		.event-list > li > img {
 			width: 120px;
-			height: 120px;
+			min-height: 120px;
 			padding: 0px;
 			margin: 0px;
 		}
 		.event-list > li > .info {
 			position: relative;
-			height: 120px;
+			min-height: 120px;
 			text-align: left;
 			padding-right: 40px;
 		}
@@ -657,3 +682,14 @@ img.mm_logo {
       margin: 0px;
     }
 	}
+#container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+
+}
+
+.checkmark {
+    padding-right: 10px;
+}
