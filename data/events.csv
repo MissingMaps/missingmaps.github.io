@@ -86,13 +86,13 @@ latitude,longitude,date,flag,title,place_name,place_url,time_string,signup_url
 37.72204,-122.47599,11/18/2015,us,San Francisco State University,San Francisco State University,http://osm.org/go/TZHsPqzyV,17:30-20:00,https://sfsu-missing-maps.eventbrite.com
 35.910988,-79.047996,10/22/2015,us,University of North Carolina Mapathon,University of North Carolina,http://osm.org/go/ZS_hhvBg3,17:00-19:00,http://global.unc.edu/event/humanitarian-mapathon/
 38.89693,-77.04448,11/20/2015,us,George Washington University HMS Mapathon,George Washington University - Old Main Building,http://osm.org/go/ZZcbKX_I?m=,17:00-21:00,null
-38.826316,-77.30436,11/20/2015,us,George Mason Mapathon,George Mason,http://osm.org/go/ZZcFab9j?m=,TBD,null
+38.826316,-77.30436,11/20/2015,us,George Mason Mapathon,George Mason,http://osm.org/go/ZZcFab9j?m=,16:00-20:00,https://www.eventbrite.com/e/george-mason-university-mapathon-tickets-19043886778
 38.98607,-76.94245,11/18/2015,us,University of Maryland Mapathon,"University of Maryland - McKeldin Library - Rooms 6101, 6103, and 6107",http://osm.org/go/ZZc1hhSzp-?m=,12:00-15:00 ,null
 38.98607,-76.94245,11/18/2015,us,University of Maryland Mapathon,"University of Maryland - Geographical Sciences Department, LeFrak Hall 1136 & 1138",http://osm.org/go/ZZc1hhSzp-?m=,15:00-17:00,null
 28.60299,-81.19857,11/17/2015,us,University of Central Florida,University of Central Florida,http://osm.org/go/ZGhkXCBAh--?relation=1159228,15:30-17:45,null
 39.9804,-75.15773,11/17/2015,us,Temple University Mapathon,Temple University,http://osm.org/go/ZcjR8r5P8-?lm=,TBD,null
 32.84208,-96.78197,11/17/2015,us,Southern Methodist University Mapathon,Southern Methodist University,http://osm.org/go/Tt5NszxXH--?m=,11:00-15:00,null
-42.25174,-71.82319,11/17/2015,us,Clark University Mapathon,Clark University,http://osm.org/go/ZfCptb6wq--?m=,12:00-14:00,null
+42.25174,-71.82319,11/17/2015,us,Clark University Mapathon,Clark University,http://osm.org/go/ZfCptb6wq--?m=,12:00-14:00,https://www.facebook.com/events/941996052559463/ 
 41.874,-87.68132,11/14/2015,us,Missing Maps Chicago Mapathon,American Red Cross of Chicago and Northern Illinois,http://osm.org/go/ZUfIeVPNY--?m=,9:30-14:30,https://www.eventbrite.com/e/chicago-missing-maps-mapathon-tickets-19288732117?aff=eivtefrnd
 55.94374,-3.18668,10/29/2015,gb,Missing Maps Edinburgh,George Square,http://www.openstreetmap.org/way/5325199#map=19/55.94374/-3.18668,19:00-21:00,https://www.eventbrite.co.uk/e/missing-maps-mapathon-tickets-19242812771
 48.872504,2.3643425,11/05/2015,fr,Mapathon Missing Maps Paris,La Ruche,https://www.openstreetmap.org/way/63196894,19:00-22:00,http://www.eventbrite.fr/e/billets-mapathon-missing-maps-paris-19278883660
@@ -107,8 +107,30 @@ null,null,11/18/2015,id,Green School,"Ubud, Indonesia",null,8:00,www.greenschool
 null,null,11/20/2015,pk,"Digital Humanitarians Mapathon, Pakistan","Lahore, Pakistan",null,15:00-17:00,http://digitalhumanitarians.pk/
 null,null,11/17/2015,in,Dibrugarh University Mapathon,"Dibrugarh, India",null,9:30-16:30,null
 null,null,null,ht,Humanitarian OpenStreetMap Team,"Port au Prince, Haiti",null,TBD,null
-null,null,11/21/2015,ke,Jomo Kenyatta University of Agriculture and Technology -,"Juja, Kenya",null,TBD,http://www.jkuat.ac.ke/
+null,null,11/21/2015,ke,Jomo Kenyatta University of Agriculture and Technology ,"Juja, Kenya",null,TBD,http://www.jkuat.ac.ke/
 null,null,11/17/2015,co,Colegio Salesiano de Duitama,"Duitama, Colombia",null,TBD,null
 null,null,11/05/2015,us,Open Street mapping,Columbia River Peace Corps Association,null,18:00-21:00,http://www.crpca.org/crpca-events/
 null,null,11/07/2015,us,Open Street mapping,Columbia River Peace Corps Association,null,13:00-16:00,http://www.crpca.org/crpca-events/
 38.90396,-77.0445,11/19/2015,us,Access for All: OSM GeoWeek 2015,OpenStreetMap Institutions,http://osm.org/go/ZZcbOGqIC?m=,18:30-21:00,https://www.eventbrite.com/e/access-for-all-osm-geoweek-2015-tickets-19153645068
+51.52168,-0.10777,11/17/2015,gb,Missing Maps: MSF UK,MSF UK,null,TBD,null
+null,null,11/09/2015,gb,Maptime Durham Mapathon,Maptime Durham,null,TBD,null
+null,null,11/21/2015,ug,Missing Maps: Kampala,"Kampala, Uganda",null,TBD,null
+38.8469,-76.9308,11/18/2015,us,US Census Bureau Mapathon,"Washington, DC",http://osm.org/go/ZZcl303o?m=,TBD,null
+38.9041122,-77.0466547,11/16/2015,us,Peace Corps Mapathon,"Peace Corps' Office of Innovation, Washington, DC",http://osm.org/go/ZZcbOEjxD?m=,18:30-20:30,null
+55.94647,-3.194451,11/18/2015,sc,George Heriot's School Mapathon,"Edinburgh, Scotland",http://osm.org/go/evfLiT969--?m=,TBD,null
+null,null,11/18/2015,sct,Land & Property Services at the Association for Geographic Information Mapathon,"Belfast, Northern Ireland",null,12:00-14:00,null
+-15.75655,-47.8908,11/21/2015,br,Mapathon: OpenStreetMap Brasilia,Calango Hacker Club,http://osm.org/go/NuPrF4_9q--?m=,16:00-20:00,https://twitter.com/OpenStreetMapBR
+-18.93095,47.52851,11/21/2015,mg,Mapathon: OpenStreetMap Madagasgar ,"CIDST Tsimbazaza, Antananarivo, Madagascar",http://osm.org/go/nBOhpTWnJ?m=&way=368757315,TBD,null
+null,null,11/17/2015,fr,CartONG Mapathon,"Chambery, France ",null,TBD,null
+38.9532213,-77.075377,11/17/2015,us,Alice Deal Middle School Mapathon,"Washington, DC",http://osm.org/go/ZZceFLTfk,TBD,null
+null,null,11/18/2015,us,University of Denver and FOSS Mapathon,"Denver, US",null,18:00,null
+null,null,11/20/2015,in,HumanitarianOSM Mapathon: Jakarta,"Jakarta, Indonesia",null,TBD,null
+38.9041122,-77.0466547,11/19/2015,us,OSM Institutions,"Peace Corps, Washington, DC",http://osm.org/go/ZZcbOEjxD?m=,18:30-21:00,null
+null,null,11/21/2015,mg,Students in Geography of Antananarivo Mapathon,"Antananarivo, Madagascar",null,TBD,null
+null,null,11/18/2015,us,SIPA RPCV Mapathon,"New York, US",null,17:00-19:00,null
+null,null,11/19/2015,uk,Exeter University Mapathon,"Exeter, England",null,17:45-20:00,null
+null,null,11/19/2015,us,Graduate Geography Student Association (GGSA) Mapathon,"Buffalo, US",null,18:00,null
+null,null,11/15/2015,pe,Saberes Nomadas - OSMPeru Community Mapathon,"Lima, Peru",null,10:00:00 AM,null
+null,null,11/19/2015,it,"Politecnico di Milano, GEOlab Mapathon","Milan, Italy",null,14:15-16:00,null
+40.57484,-105.08468,11/18/2015,us,Colorado State University Mapathon,"Ramskeller, Lory Student Center, CSU",http://osm.org/go/T2NlMvnJp--?m=&way=131469182,16:00-18:00,http://osmgeoweek.org/event/kampala/
+38.906447,-77.072196,11/13/15,us,Georgetown University Mapathono,"Georgetown University Library, Washington, DC",http://osm.org/go/ZZcbEzy7Z?m=&way=67521482,18:30-21:00,null
