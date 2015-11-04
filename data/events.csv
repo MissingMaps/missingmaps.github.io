@@ -1,4 +1,4 @@
-latitude,longitude,date,flag,title,place_name,place_url,time_string,signup_url
+`,longitude,date,flag,title,place_name,place_url,time_string,signup_url
 51.52168,-0.10777,07/29/2014,gb,Missing Maps Party,MSF UK HQ,http://osm.org/go/euu4tD0_1?m=,18:00-20:30,http://www.eventbrite.co.uk/e/missing-maps-july-mapathon-tickets-12317087741
 52.62219,-1.11246,08/26/2014,gb,Missing Maps Party,British Red Cross,http://osm.org/go/euu4t_q83?m=,18:00-20:30,https://www.eventbrite.co.uk/e/humanitarian-openstreetmap-london-mapathon-26th-august-1800-tickets-12691180663
 51.52458,-0.09891,09/30/2014,gb,Missing Maps Party,Skills Matter,http://osm.org/go/euu4t_q83?m=,18:00-21:00,https://www.eventbrite.co.uk/e/missing-maps-hot-september-mapathon-tickets-13271759189
@@ -118,7 +118,7 @@ null,null,11/21/2015,ug,Missing Maps: Kampala,"Kampala, Uganda",null,TBD,null
 38.8469,-76.9308,11/18/2015,us,US Census Bureau Mapathon,"Washington, DC",http://osm.org/go/ZZcl303o?m=,TBD,null
 38.9041122,-77.0466547,11/16/2015,us,Peace Corps Mapathon,"Peace Corps' Office of Innovation, Washington, DC",http://osm.org/go/ZZcbOEjxD?m=,18:30-20:30,null
 55.94647,-3.194451,11/18/2015,sc,George Heriot's School Mapathon,"Edinburgh, Scotland",http://osm.org/go/evfLiT969--?m=,TBD,null
-null,null,11/18/2015,sct,Land & Property Services at the Association for Geographic Information Mapathon,"Belfast, Northern Ireland",null,12:00-14:00,null
+null,null,11/18/2015,ie,Land & Property Services at the Association for Geographic Information Mapathon,"Belfast, Northern Ireland",null,12:00-14:00,null
 -15.75655,-47.8908,11/21/2015,br,Mapathon: OpenStreetMap Brasilia,Calango Hacker Club,http://osm.org/go/NuPrF4_9q--?m=,16:00-20:00,https://twitter.com/OpenStreetMapBR
 -18.93095,47.52851,11/21/2015,mg,Mapathon: OpenStreetMap Madagasgar ,"CIDST Tsimbazaza, Antananarivo, Madagascar",http://osm.org/go/nBOhpTWnJ?m=&way=368757315,TBD,null
 null,null,11/17/2015,fr,CartONG Mapathon,"Chambery, France ",null,TBD,null
@@ -128,7 +128,7 @@ null,null,11/20/2015,in,HumanitarianOSM Mapathon: Jakarta,"Jakarta, Indonesia",n
 38.9041122,-77.0466547,11/19/2015,us,OSM Institutions,"Peace Corps, Washington, DC",http://osm.org/go/ZZcbOEjxD?m=,18:30-21:00,null
 null,null,11/21/2015,mg,Students in Geography of Antananarivo Mapathon,"Antananarivo, Madagascar",null,TBD,null
 null,null,11/18/2015,us,SIPA RPCV Mapathon,"New York, US",null,17:00-19:00,null
-null,null,11/19/2015,uk,Exeter University Mapathon,"Exeter, England",null,17:45-20:00,null
+null,null,11/19/2015,gb,Exeter University Mapathon,"Exeter, England",null,17:45-20:00,null
 null,null,11/19/2015,us,Graduate Geography Student Association (GGSA) Mapathon,"Buffalo, US",null,18:00,null
 null,null,11/15/2015,pe,Saberes Nomadas - OSMPeru Community Mapathon,"Lima, Peru",null,10:00:00 AM,null
 null,null,11/19/2015,it,"Politecnico di Milano, GEOlab Mapathon","Milan, Italy",null,14:15-16:00,null
