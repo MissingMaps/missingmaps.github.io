@@ -1,4 +1,4 @@
-`,longitude,date,flag,title,place_name,place_url,time_string,signup_url
+latitude,longitude,date,flag,title,place_name,place_url,time_string,signup_url
 51.52168,-0.10777,07/29/2014,gb,Missing Maps Party,MSF UK HQ,http://osm.org/go/euu4tD0_1?m=,18:00-20:30,http://www.eventbrite.co.uk/e/missing-maps-july-mapathon-tickets-12317087741
 52.62219,-1.11246,08/26/2014,gb,Missing Maps Party,British Red Cross,http://osm.org/go/euu4t_q83?m=,18:00-20:30,https://www.eventbrite.co.uk/e/humanitarian-openstreetmap-london-mapathon-26th-august-1800-tickets-12691180663
 51.52458,-0.09891,09/30/2014,gb,Missing Maps Party,Skills Matter,http://osm.org/go/euu4t_q83?m=,18:00-21:00,https://www.eventbrite.co.uk/e/missing-maps-hot-september-mapathon-tickets-13271759189
@@ -93,7 +93,7 @@
 39.9804,-75.15773,11/17/2015,us,Temple University Mapathon,Temple University,http://osm.org/go/ZcjR8r5P8-?lm=,TBD,null
 32.84208,-96.78197,11/17/2015,us,Southern Methodist University Mapathon,Southern Methodist University,http://osm.org/go/Tt5NszxXH--?m=,11:00-15:00,null
 42.25174,-71.82319,11/17/2015,us,Clark University Mapathon,Clark University,http://osm.org/go/ZfCptb6wq--?m=,12:00-14:00,https://www.facebook.com/events/941996052559463/ 
-41.874,-87.68132,11/14/2015,us,Missing Maps Chicago Mapathon,American Red Cross of Chicago and Northern Illinois,http://osm.org/go/ZUfIeVPNY--?m=,9:30-14:30,https://www.eventbrite.com/e/chicago-missing-maps-mapathon-tickets-19288732117?aff=eivtefrnd
+41.874,-87.68132,11/21/2015,us,Missing Maps Chicago Mapathon,American Red Cross of Chicago and Northern Illinois,http://osm.org/go/ZUfIeVPNY--?m=,9:30-14:30,https://www.eventbrite.com/e/chicago-missing-maps-mapathon-tickets-19288732117?aff=eivtefrnd
 55.94374,-3.18668,10/29/2015,gb,Missing Maps Edinburgh,George Square,http://www.openstreetmap.org/way/5325199#map=19/55.94374/-3.18668,19:00-21:00,https://www.eventbrite.co.uk/e/missing-maps-mapathon-tickets-19242812771
 48.872504,2.3643425,11/05/2015,fr,Mapathon Missing Maps Paris,La Ruche,https://www.openstreetmap.org/way/63196894,19:00-22:00,http://www.eventbrite.fr/e/billets-mapathon-missing-maps-paris-19278883660
 null,null,11/18/2015,us,Columbia University - SIPA,Columbia University - SIPA,null,17:00-19:00,null
@@ -133,4 +133,7 @@ null,null,11/19/2015,us,Graduate Geography Student Association (GGSA) Mapathon,"
 null,null,11/15/2015,pe,Saberes Nomadas - OSMPeru Community Mapathon,"Lima, Peru",null,10:00:00 AM,null
 null,null,11/19/2015,it,"Politecnico di Milano, GEOlab Mapathon","Milan, Italy",null,14:15-16:00,null
 40.57484,-105.08468,11/18/2015,us,Colorado State University Mapathon,"Ramskeller, Lory Student Center, CSU",http://osm.org/go/T2NlMvnJp--?m=&way=131469182,16:00-18:00,http://osmgeoweek.org/event/kampala/
-38.906447,-77.072196,11/13/15,us,Georgetown University Mapathono,"Georgetown University Library, Washington, DC",http://osm.org/go/ZZcbEzy7Z?m=&way=67521482,18:30-21:00,null
+38.906447,-77.072196,11/13/2015,us,Georgetown University Mapathon,"Georgetown University Library, Washington, DC",http://osm.org/go/ZZcbEzy7Z?m=&way=67521482,18:30-21:00,null
+40.74739,-73.99298,11/18/2015,us,Doctors Without Borders / Medecins Sans Frontieres (MSF),"New York, US",http://osm.org/go/Zct9B_7yN?m=&way=204166008,18:00-21:00,null
+45.5365,-122.66139,11/18/2015,us,GIS Day Mapathon,"Portland, OR",http://osm.org/go/WIDwLRmzE?m=&way=204166010,16:00-18:00,http://calagator.org/
+35.30183,-120.66375,11/12/2015,us,Cal Poly Missing Maps Mapathon,"Cal Poly San Luis Obispo, CA",http://osm.org/go/TYwPE6Ijj--?m=&relation=2806804,14:00-16:00,http://lib.calpoly.edu/events/missing-maps-mapathon/
