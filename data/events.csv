@@ -97,8 +97,9 @@ latitude,longitude,date,flag,title,place_name,place_url,time_string,signup_url
 55.94374,-3.18668,10/29/2015,gb,Missing Maps Edinburgh,George Square,http://www.openstreetmap.org/way/5325199#map=19/55.94374/-3.18668,19:00-21:00,https://www.eventbrite.co.uk/e/missing-maps-mapathon-tickets-19242812771
 48.872504,2.3643425,11/05/2015,fr,Mapathon Missing Maps Paris,La Ruche,https://www.openstreetmap.org/way/63196894,19:00-22:00,http://www.eventbrite.fr/e/billets-mapathon-missing-maps-paris-19278883660
 null,null,11/18/2015,us,Columbia University - SIPA,Columbia University - SIPA,null,17:00-19:00,null
-null,null,11/21/2015,tz,HOT / Ramani Huria,Dar es Salaam,null,10.00 EAT,null
-null,null,11/21/2015,bj,Communauté OpenStreetMap Benin,"Cotobou, Benin",null,09:00-18:00,https://www.facebook.com/OSMBenin
+-6.77969,39.20388,11/21/2015,tz,University of Dar es Salaam HOT Mapathon,"Dar es Salaam, Tanzania",http://osm.org/go/l565ReOXA?m=,09:00-13:00,null
+-6.76476,39.21415,11/20/2015,tz,Ardhi University HOT Mapathon,"Dar es Salaam, Tanzania",http://osm.org/go/l568CYo__?m=,09:00-13:00,null
+null,null,11/21/2015,bj,Communaut OpenStreetMap Benin,"Cotobou, Benin",null,09:00-18:00,https://www.facebook.com/OSMBenin
 null,null,11/19/2015,br,University of São Paulo,"São Carlos, SP",null,18:00 BRT,null
 null,null,11/21/2015,ug,Mapping day Uganda - BIT MAK Jinja,"Jinja, Uganda",null,9:00-17:00,https://twitter.com/mapuganda
 null,null,11/20/2015,ug,Mapping day Uganda - Wairaka,"Wairaka, Uganda",null,12:00-17:00,https://twitter.com/mapuganda
@@ -135,6 +136,6 @@ null,null,11/19/2015,it,"Politecnico di Milano, GEOlab Mapathon","Milan, Italy",
 40.57484,-105.08468,11/18/2015,us,Colorado State University Mapathon,"Ramskeller, Lory Student Center, CSU",http://osm.org/go/T2NlMvnJp--?m=&way=131469182,16:00-18:00,http://osmgeoweek.org/event/kampala/
 38.906447,-77.072196,11/13/2015,us,Georgetown University Mapathon,"Georgetown University Library, Washington, DC",http://osm.org/go/ZZcbEzy7Z?m=&way=67521482,18:30-21:00,null
 40.74739,-73.99298,11/18/2015,us,Doctors Without Borders / Medecins Sans Frontieres (MSF),"New York, US",http://osm.org/go/Zct9B_7yN?m=&way=204166008,18:00-21:00,null
-45.5365,-122.66139,11/18/2015,us,GIS Day Mapathon,"Portland, OR",http://osm.org/go/WIDwLRmzE?m=&way=204166010,16:00-18:00,http://calagator.org/
+45.5365,-122.66139,11/18/2015,us,GIS Day Mapathon,"Portland, OR",http://osm.org/go/WIDwLRmzE?m=&way=204166010,16:00-18:00,https://oregonmetro.wufoo.com/forms/q1dhkdh115h92kx/
 35.30183,-120.66375,11/12/2015,us,Cal Poly Missing Maps Mapathon,"Cal Poly San Luis Obispo, CA",http://osm.org/go/TYwPE6Ijj--?m=&relation=2806804,14:00-16:00,http://lib.calpoly.edu/events/missing-maps-mapathon/
 54.9798,-1.6167,11/17/2015,gb,Missing Maps Newcastle,Newcastle University,http://www.openstreetmap.org/way/169229644,18:00-21:30,https://www.facebook.com/events/1696980637254810/
