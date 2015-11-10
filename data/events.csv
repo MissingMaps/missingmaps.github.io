@@ -65,7 +65,6 @@ latitude,longitude,date,flag,title,place_name,place_url,time_string,signup_url
 60.3694,5.3495,08/27/2015,no,Missing Maps Norway,Ingeni Uten Grenser Hordaland,http://osm.org/go/0Rvx5~Ld?m=,17:00-21:00,https://www.facebook.com/events/876011089149286/
 51.51861,-0.08613,09/01/2015,gb,Missing Maps London,Skills Matter,http://www.openstreetmap.org/node/3718166225#map=19/51.51861/-0.08613,18:00-21:00,https://www.eventbrite.co.uk/e/missing-mapshot-september-mapathon-tickets-18334271299
 38.30505,-77.47544,09/26/2015,us,Map-A-Palooza,University of Mary Washington,http://osm.org/go/ZZS9xBUrV-?m=,11:00-14:00,null
-40.7865,-77.8329,09/15/2015,us,Mapathon,Penn State,http://osm.org/go/ZcSIKf4e?m=,TBD,null
 38.89624,-77.04583,10/06/2015,us,Missing Maps Fall Mapathon,American Red Cross,http://www.openstreetmap.org/way/66409265#map=19/38.89643/-77.04579,17:30-20:00,https://www.eventbrite.com/e/missing-maps-fall-mapathon-tickets-18830178571
 51.52567,-0.13978,10/06/2015,gb,Missing Maps London,Facebook,http://www.openstreetmap.org/node/3763350319#map=19/51.52567/-0.13978,18:00-21:00,https://www.eventbrite.co.uk/e/missing-mapshot-october-mapathon-tickets-18786989391
 55.94417,-3.19376,10/04/2015,gb,Missing Maps SOTM Scotland,SkyScanner,https://www.openstreetmap.org/#map=18/55.94417/-3.19376,11:00-15:00,http://wiki.openstreetmap.org/wiki/State_of_the_Map_Scotland_2015/Day_5#Workshop_2_:_For_new_mappers_-_Missing_Maps
@@ -105,7 +104,7 @@ latitude,longitude,date,flag,title,place_name,place_url,time_string,signup_url
 0.4751,33.2669,11/20/2015,ug,Mapping day Uganda - Wairaka,"Wairaka, Uganda",null,12:00-17:00,https://twitter.com/mapuganda
 59.4154805,5.2636464,11/18/2015,no,Engineers Without Borders Norway (IUG Norge),"Haugesund, Norway",null,TBD,http://www.iug.no/
 -8.5080922,115.2639576,11/18/2015,id,Green School,"Ubud, Indonesia",null,8:00,www.greenschool.org
-31.5621916,74.3228517,11/20/2015,pk,"Digital Humanitarians Mapathon, Pakistan","Lahore, Pakistan",null,15:00-17:00,http://digitalhumanitarians.pk/
+31.53943,74.35207,11/17/2015,pk,MapGive Pakistan Mapathon at Beaconhouse National University,"Computer Lab, School of Computer & IT (SCIT), Beaconhouse National University",http://osm.org/go/znDz7ywX0--?m=,14:30-17:00,https://twitter.com/MapGivePakistan
 27.4837,94.9146,11/17/2015,in,Dibrugarh University Mapathon,"Dibrugarh, India",null,9:30-16:30,null
 null,null,null,ht,Humanitarian OpenStreetMap Team,"Port au Prince, Haiti",null,TBD,null
 -1.1032226,37.0108947,11/21/2015,ke,Jomo Kenyatta University of Agriculture and Technology ,"Juja, Kenya",null,TBD,http://www.jkuat.ac.ke/
@@ -139,3 +138,8 @@ null,null,null,ht,Humanitarian OpenStreetMap Team,"Port au Prince, Haiti",null,T
 45.5365,-122.66139,11/18/2015,us,GIS Day Mapathon,"Portland, OR",http://osm.org/go/WIDwLRmzE?m=&way=204166010,16:00-18:00,https://oregonmetro.wufoo.com/forms/q1dhkdh115h92kx/
 35.30183,-120.66375,11/12/2015,us,Cal Poly Missing Maps Mapathon,"Cal Poly San Luis Obispo, CA",http://osm.org/go/TYwPE6Ijj--?m=&relation=2806804,14:00-16:00,http://lib.calpoly.edu/events/missing-maps-mapathon/
 54.9798,-1.6167,11/17/2015,gb,Missing Maps Newcastle,Newcastle University,http://www.openstreetmap.org/way/169229644,18:00-21:30,https://www.facebook.com/events/1696980637254810/
+51.89373,-8.49227,11/18/2015,ie,UCC Friends of MSF Mapathon,"Cork, Ireland",http://osm.org/go/esP6eVR70-?m=&node=349285602,19:00,null
+42.64742,21.15295,11/18/2015,rs,ATI-KOS & University of Business and Technology,"Pristina, Kosovo",http://osm.org/go/xfpEnbUvF--?m=,13:00-17:00,null
+12.98108,77.63714,11/15/2015,in,Mapbox Bengaluru Mapathon,"Bengaluru, India",http://osm.org/go/yy4fNjKSY?m=&node=3352016856,10:00-17:00,null
+53.23813,6.53599,11/10/2015,nl,University of Groningen Mapathon,"Groningen, Netherlands",http://osm.org/go/0GXNN7Zra?m=&way=268450386,17:00,https://www.eventbrite.nl/e/missing-maps-groningen-tickets-19173124331
+47.6641,-122.29895,11/15/2015,us,American Red Cross: Missing Maps Mapathon,"Seattle, WA",http://osm.org/go/WIdQwV0~3?m=&node=1721401289,12:00-17:00,null
