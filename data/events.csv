@@ -81,7 +81,7 @@ latitude,longitude,date,flag,title,place_name,place_url,time_string,signup_url
 53.239,6.5355,11/10/2015,nl,Missing Maps Groningen,"Smitsborg, Zernike Campus",http://www.openstreetmap.org/way/6320703#map=16/53.2390/6.5355,1700-2100,https://www.eventbrite.nl/e/missing-maps-groningen-tickets-19173124331
 51.52267,-0.10526,11/03/2015,gb,Missing Maps London,Wallacespace,http://osm.org/go/euu4tPM5K?m=,18:00-21:00,https://www.eventbrite.co.uk/e/missing-mapshot-november-mapathon-tickets-19100443942
 50.72334,-3.51694,11/02/2015,gb,Missing Maps Exeter Uni,St Luke's Campus,http://www.openstreetmap.org/node/838052019,18:00-20:00,https://www.facebook.com/events/1645546975687945/
-40.7865,-77.8329,11/13/2015,us,Penn State University,Penn State,http://osm.org/go/ZcSIKf4e?m=,TBD,null
+40.7978,-77.86623,11/19/2015,us,Penn State University,"W013 Pattee Library, University Park, PA",http://osm.org/go/ZcSIFKgcu?m=,18:00-20:00,http://www.geog.psu.edu/news/events/geoweek-osm-missing-maps-mapathon
 37.72204,-122.47599,11/18/2015,us,San Francisco State University,San Francisco State University,http://osm.org/go/TZHsPqzyV,17:30-20:00,https://sfsu-missing-maps.eventbrite.com
 35.910988,-79.047996,10/22/2015,us,University of North Carolina Mapathon,University of North Carolina,http://osm.org/go/ZS_hhvBg3,17:00-19:00,http://global.unc.edu/event/humanitarian-mapathon/
 38.89693,-77.04448,11/20/2015,us,George Washington University HMS Mapathon,George Washington University - Old Main Building,http://osm.org/go/ZZcbKX_I?m=,17:00-21:00,null
@@ -124,7 +124,7 @@ null,null,null,ht,Humanitarian OpenStreetMap Team,"Port au Prince, Haiti",null,T
 45.5673,5.9221,11/17/2015,fr,CartONG Mapathon,"Chambery, France ",null,TBD,null
 38.9532213,-77.075377,11/17/2015,us,Alice Deal Middle School Mapathon,"Washington, DC",http://osm.org/go/ZZceFLTfk,TBD,null
 39.7369,-104.9796,11/18/2015,us,University of Denver and FOSS Mapathon,"Denver, US",null,18:00,null
--6.1753942,106.8271826,11/20/2015,in,HumanitarianOSM Mapathon: Jakarta,"Jakarta, Indonesia",null,TBD,null
+-6.1753942,106.8271826,11/20/2015,in,Humanitarian OSM Mapathon: Jakarta,"Jakarta, Indonesia",null,TBD,null
 38.9041122,-77.0466547,11/19/2015,us,OSM Institutions,"Peace Corps, Washington, DC",http://osm.org/go/ZZcbOEjxD?m=,18:30-21:00,null
 -18.910012,47.5255809,11/21/2015,mg,Students in Geography of Antananarivo Mapathon,"Antananarivo, Madagascar",null,TBD,null
 40.7204,-73.9849,11/18/2015,us,SIPA RPCV Mapathon,"New York, US",null,17:00-19:00,null
@@ -143,3 +143,4 @@ null,null,null,ht,Humanitarian OpenStreetMap Team,"Port au Prince, Haiti",null,T
 12.98108,77.63714,11/15/2015,in,Mapbox Bengaluru Mapathon,"Bengaluru, India",http://osm.org/go/yy4fNjKSY?m=&node=3352016856,10:00-17:00,null
 53.23813,6.53599,11/10/2015,nl,University of Groningen Mapathon,"Groningen, Netherlands",http://osm.org/go/0GXNN7Zra?m=&way=268450386,17:00,https://www.eventbrite.nl/e/missing-maps-groningen-tickets-19173124331
 47.6641,-122.29895,11/15/2015,us,American Red Cross: Missing Maps Mapathon,"Seattle, WA",http://osm.org/go/WIdQwV0~3?m=&node=1721401289,12:00-17:00,null
+51.52927,-0.12997,11/18/2015,gb,LUC Mapathon to celebrate International GIS Day,"London, UK",http://osm.org/go/euu4wSd4p?m=&node=3747940545,17:00-19:30,http://landuse.co.uk/uncategorized/luc-hosting-third-mapathon-to-celebrate-international-gis-day/
