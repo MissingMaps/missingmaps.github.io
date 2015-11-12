@@ -21,7 +21,7 @@ latitude,longitude,date,flag,title,place_name,place_url,time_string,signup_url
 45.52518,-122.68579,01/10/2015,us,Portland Mapathon,Urban Airship Headquarters,http://osm.org/go/WIDlV4_e8--?m=,10am-4pm,http://calagator.org/events/1250467555
 40.76438,-73.99371,01/19/2015,us,ARC GNY Missing Maps Mapathon - Harare Challenge!,American Red Cross - Greater New York,http://osm.org/go/Zct9Q~PPB?m=,11am-1:30pm,https://www.eventbrite.com/e/arc-gny-missing-maps-mapathon-harare-challenge-tickets-15202095878
 52.50034,13.4196,01/22/2015,de,GeoBerlin,Co-Up,http://osm.org/go/0MbEzPps0--?m=,7pm,http://www.meetup.com/Geo-Berlin/events/219715187/
-51.51922,-0.0886,01/27/2015,gb,Missing Maps London,British Red Cross HQ,http://osm.org/go/euu4u_OvA--?m=,6pm-9pm,http://www.eventbrite.co.uk/e/missing-maps-hot-january-2015-mapathon-tickets-15435015547
+51.51922,-0.0886,01/27/2015,gb,Missing Maps London,British Red Cross HQ,http://osm.orglu/go/euu4u_OvA--?m=,6pm-9pm,http://www.eventbrite.co.uk/e/missing-maps-hot-january-2015-mapathon-tickets-15435015547
 55.944,-3.18723,02/04/2015,gb,Missing Maps Edinburgh,The University of Edinburgh,http://osm.org/go/evfLiuE9k-?m=,5pm-8pm,https://www.eventbrite.co.uk/e/missing-maps-edinburgh-tickets-15552456817
 69.66203,18.94184,02/12/2015,no,Missing Maps Norway,Troms,http://osm.org/go/1KcrhSQQY?m=,7pm-10pm,https://www.eventbrite.com/e/missing-maps-mapathon-troms-tickets-15567209944
 51.86564,5.12481,02/14/2015,nl,GeoFort Mapathon,GeoFort,http://osm.org/go/0EvYJe8Hd--?m=,1pm-6pm,http://www.meetup.com/GeoForts-sideshow-diverse-activiteiten-op-het-fort/events/219954802/
@@ -143,7 +143,7 @@ null,null,null,ht,Humanitarian OpenStreetMap Team,"Port au Prince, Haiti",null,T
 12.98108,77.63714,11/15/2015,in,Mapbox Bengaluru Mapathon,"Bengaluru, India",http://osm.org/go/yy4fNjKSY?m=&node=3352016856,10:00-17:00,null
 53.23813,6.53599,11/10/2015,nl,University of Groningen Mapathon,"Groningen, Netherlands",http://osm.org/go/0GXNN7Zra?m=&way=268450386,17:00,https://www.eventbrite.nl/e/missing-maps-groningen-tickets-19173124331
 47.6641,-122.29895,11/15/2015,us,American Red Cross: Missing Maps Mapathon,"Seattle, WA",http://osm.org/go/WIdQwV0~3?m=&node=1721401289,12:00-17:00,null
-51.52927,-0.12997,11/18/2015,gb,LUC Mapathon to celebrate International GIS Day,"London, UK",http://osm.org/go/euu4wSd4p?m=&node=3747940545,17:00-19:30,http://landuse.co.uk/uncategorized/luc-hosting-third-mapathon-to-celebrate-international-gis-day/
+51.52927,-0.12997,11/18/2015,gb,LUC / DEC Mapathon to celebrate International GIS Day,"London, UK",http://osm.org/go/euu4wSd4p?m=&node=3747940545,17:00-19:30,http://landuse.co.uk/uncategorized/luc-hosting-third-mapathon-to-celebrate-international-gis-day/
 51.22181,4.4149,12/9/2015,be,Missing Maps Antwerp,IPIS Research,http://www.openstreetmap.org/way/378681739#map=19/51.22181/4.41490,17:30-21:00,http://www.eventbrite.com/e/missing-maps-mapathon-tickets-19498179580
 31.45146,74.29404,11/18/2015,pk,University of Management and Technology (UMT) MapGive Mapathon,"Computer Lab, UMT, Lahore, Pakistan",http://osm.org/go/znDnZaYCB--?m=,15:00-17:00,http://www.umt.edu.pk/
 31.5377,74.3403,11/16/2015,pk,Kinnaird College for Women University (KCWU) MapGive Mapathon,"KCWU, Lahore, Pakistan",http://osm.org/go/znDz5kqf?m=&node=3277778645,15:00-17:00,https://twitter.com/MapGivePakistan
