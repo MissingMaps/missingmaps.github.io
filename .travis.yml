@@ -1,0 +1,22 @@
+language: node_js
+node_js:
+  - "0.12"
+
+env:
+  global:
+  - GH_REF=github.com/MissingMaps/missingmaps.github.io
+  - DEPLOY_BRANCH=publish
+  - secure: "Rsca9rULCg0ZPqp0kdMbo25Dw/SE1C4pDi2hAZeUwtNGtK8O1bpxnvyxpnf10xnwDI4s5HwfY61UVCf6nl5grT+wVWzJFfQWR+K/uiQgmS72iNraRAWl498dfUcI/Mn2mJXDobnTF1pxqRzkQMhuvKSrBFPxxgFmDhsmE/Ouao8cDTA9lhKSonjGiQJ++2Oisi360DrBwrrmblzbq9nzllBCYMz2mpWpjFUDM33fb2PuSsxzkpJ//VYyVMyg2LB9CSnEYdcXffWuWBOYENW8GMIBm4FlaznvgysGDr7YlcdF6g99XE4k+uTyZm7LslSBK6FJvmwm1psnT0op5KS59q3fbkH8sqjf48K8Z3JIJQ9QlorUMrgJlVpyzGTkhp30BLa/VCU0K8RTYs8kttccaCNYUFI9d/787wkxZy5S4MynZ8gTCJX1ywhfpVP/TRkFOR+D/f+kw8FHbGoAzK64xVzd7wdrMn6phSWzmw80YU2Tdtyp6v+HxSTs0hIKJ1o/jjPUCMm3yI43+UnDAaW/sbvlUOlSx3ha0kwx7WXQ3KluB7YQGfoc45CSMsFrbsL3TyCy+2wEWGgBJfF/HyHMR3yoMCJnreJ6li3k4DNSS9Cl4qALWaoDZdocBOhuaX692Ws1Yr7+HmuQt1DFzjbWWNg0i3NFhs7QC5LWjayHFKM="
+
+cache:
+  directories:
+    - node_modules
+
+before_install:
+- chmod +x ./.build_scripts/deploy.sh
+
+script:
+- gulp prod
+
+after_success:
+- ./.build_scripts/deploy.sh
