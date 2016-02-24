@@ -1,0 +1,53 @@
+{
+  "name": "missingmaps",
+  "version": "0.1.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": {
+    "name": "Development Seed",
+    "url": "https://developmentseed.org"
+  },
+  "license": "BSD",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "scripts": {
+    "postinstall": "[ -f app/assets/scripts/config/local.js ] || echo 'module.exports = {};' > app/assets/scripts/config/local.js",
+    "serve": "gulp serve",
+    "build": "gulp",
+    "lint": "semistandard app/assets/scripts/**/*.js",
+    "test": "echo NO TESTS YET",
+    "postinstall": "[ -f _config-dev.yml ] || echo 'domain: http://localhost:3000\npath_prefix:' > _config-dev.yml",
+    "install": "bundle install --path bundle/cache"
+  },
+  "browserify": {
+    "transform": [
+      "babelify",
+      "require-globify",
+      "envify"
+    ]
+  },
+  "devDependencies": {
+    "async": "^0.9.0",
+    "bower": "~1.3.12",
+    "browser-sync": "~2.1.1",
+    "chai": "^1.10.0",
+    "colors": "^1.0.3",
+    "glob": "^4.3.5",
+    "glob-all": "^3.0.1",
+    "gulp": "^3.8.11",
+    "gulp-clean": "~0.3.1",
+    "gulp-compass": "~2.0.3",
+    "gulp-concat": "^2.6.0",
+    "gulp-plumber": "~0.6.6",
+    "gulp-uglifyjs": "~0.6.0",
+    "js-yaml": "^3.2.6",
+    "lodash": "^3.5.0",
+    "run-sequence": "~1.0.2"
+  },
+  "dependencies": {}
+}

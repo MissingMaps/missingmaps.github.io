@@ -1,25 +1,31 @@
-# Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-
-# OS generated files #
-######################
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-Icon?
-ehthumbs.db
-Thumbs.db
-.cache
+# System files
 .project
+.DS_Store
+.sass-cache
+.bundle
+bundle
+
+# Local
+node_modules
+_site
+.tmp
+_config-dev.yml
+npm-debug.log
+app/assets/scripts/config/local.js
+
+#Foundation additions
+.sass-cache
+_build
+bower_components
+config
+docs
+gulp
+lib
+spec
+bower.json
+composer.json
+CONTRIBUTING.md
+gulpfile.js
+meteor-README.md
+package.js
+sache.json
