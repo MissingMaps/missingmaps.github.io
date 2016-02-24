@@ -1,0 +1,771 @@
+// IE < 10
+// Don't delete.
+.lt-ie10 {
+  #site-canvas {
+    display: none;
+  }
+  #nocando {
+    margin: 200px auto;
+    padding: 32px;
+    max-width: 440px;
+    background: #fff;
+    h1 {
+      font-size: 24px;
+      line-height: 1.1;
+      margin-bottom: 32px;
+    }
+  }
+}
+
+/*----------------------------------------------*/
+/*Variables*/
+/*----------------------------------------------*/
+
+$mmred: #e23d3d;
+$mmgreen: #8BBF3F;
+$mmblue: #1E9FCC;
+$badgeyellow: #FEF387;
+$badgeborder: #D2C02B;
+
+$debug: rgba(0,0,0,0.05);
+
+$mmTeal: #23bcc1;
+$mmYello: #fbda32;
+$mmGreen: #8bc544;
+$darkgrey: #606161;
+$lightgrey: #dbdbda;
+$border-grey: lighten($darkgrey, 40);
+$darkestgrey: #303030;
+
+$LB1: #f26c59;
+$LB2: #22bdc1;
+$LB3: #A069E0;
+
+$MaxWidth: 1100px;
+$TextColor: $darkgrey;
+$DataColor: #22bdc1;
+$ButtonColor: $DataColor;
+
+
+/* In Context */
+/*----------------------------------------------*/
+$text-color: $darkgrey;
+$border-color: $darkgrey;
+$border-color-darken: darken($border-color, 5%);
+$border-color-lighten: lighten($border-color, 5%);
+
+/*----------------------------------------------*/
+/*Fixing Default CSS*/
+/*----------------------------------------------*/
+body, ul, li, ol, p{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Hind', sans-serif;
+  color: $darkgrey;
+  font-weight: 400;
+  line-height: 1.4em;
+}
+
+ul{
+  list-style: none;
+  margin-bottom: 0.5em;
+}
+
+.orderedlist-styled{
+  counter-reset: list;
+  li{
+    list-style: none;
+    position: relative;
+  }
+}
+
+.orderedlist-styled li:before{
+  counter-increment: list;
+  content: counter(list) '.';
+  position: absolute;
+  top: 0px;
+  left: -1.2em;
+  font-weight: 800;
+}
+
+body{
+  background-color: #F2F2F2;
+}
+
+::-moz-selection { /* Code for Firefox */
+    background: desaturate(lighten($mmYello, 24), 20);
+}
+
+::selection {
+    background: desaturate(lighten($mmYello, 24), 20);
+}
+
+.centerme{
+  text-align: center;
+}
+
+.inline{
+  display: inline-block;
+}
+
+#site-canvas{
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;  
+  z-index: -1;
+}
+
+/*----------------------------------------------*/
+/*Nav Bar Style*/
+/*----------------------------------------------*/
+
+header{
+  background-color:$darkestgrey;
+  top: 0px;
+  width: 100%;
+  height: 52px;
+  color: $lightgrey;
+  display: inline-block;
+  position:absolute;
+  z-index:1;
+  ul{
+    display: inline-block;
+  }
+  li{
+    display: inline-block;
+    margin: 0px;
+  }
+}
+
+.navbar-background{
+  max-width: $MaxWidth;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-icon{
+  padding-top: 8px;
+  float: left;
+  padding-left: 2em;
+  @media screen and (min-width: 1100px) {
+    padding-left: 0;
+  }
+}
+
+.nav-list{
+  float: right;
+  position: relative;
+  display: inline-block;
+  @media screen and (max-width: 500px) {
+    display: none;
+  }
+}
+
+.nav-input{
+    float: right;
+    display: inline-block;
+    position: relative;
+    bottom:3px;
+    padding: 0px 16px 0px 40px;
+}
+
+.nav-item{
+  padding:0px 10px 0px 7.2px;
+  color: white;
+  font-family: 'Lato';
+  font-size: 0.9em;
+  letter-spacing: 0.06em;
+  height: 52px;
+  line-height: 52px;
+  transition: color 0.2s;
+  color: $lightgrey;
+  cursor: pointer;
+  &:hover{
+    color: darken($lightgrey, 45);
+  }
+}
+
+.nav-links{
+  float:center;
+}
+
+.inner{
+  max-width: $MaxWidth;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.nav-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    transition: opacity 0.3s;
+    opacity: 0; 
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    :hover{
+      a{
+      color: darken($lightgrey, 45);
+      }
+    }
+    .nav-item{
+      background-color: $darkestgrey;
+      border-bottom: 1px solid lighten($darkestgrey, 15);
+      padding-left: 12px;
+    }
+}
+
+.nav-dropdown:hover .dropdown-content {
+    opacity: 1;
+    height: auto;
+}
+
+.resp-navbar{
+  display: none;
+  float: right;
+  height: 52px;
+  line-height: 52px;
+  padding-left: 1em;
+  width: 100px;
+  cursor: pointer;
+  p{
+    color: $lightgrey;
+    font-family: 'Lato';
+    font-size: 1em;
+    letter-spacing: 0.06em;
+    margin-top: 15px;
+    &:before{
+      content: "";
+      background: url('/assets/graphics/meta/menubox.svg');
+      display: block;
+      width: 16px;
+      height: 16px;
+      float: left;
+      margin: 3px 0 0 0;
+    }
+  }
+  &:hover{
+  }
+  @media screen and (max-width: 500px) {
+    display: block;
+  }
+}
+
+.resp-dropdown-content{
+    transition: opacity 0.1s;
+    opacity: 0; 
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    background-color: lighten($darkestgrey, 10);
+    width: 100%;
+    z-index: 1;
+    top:52px;
+    left: 0px;
+    a{
+      display: block;
+    }
+    :hover{
+      background-color: lighten($darkestgrey, 3);
+    }
+    .nav-item{
+      border-top: 1px solid lighten($darkestgrey, 15);
+      width: 100%;
+    }
+}
+
+
+.resp-nav-dropdown {
+    display: inline-block;
+    text-align: center;
+    @media screen and (min-width: 500px) {
+      display: none;
+    }
+}
+
+.resp-nav-dropdown:hover .resp-dropdown-content {
+    opacity: 1;
+    height: auto;
+}
+
+.header-image { 
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  height: 25rem;
+  margin-bottom: 4rem; 
+}
+
+.header-contribute { 
+  background-image: url("/assets/graphics/old/mapathon.jpg");
+}
+
+.header-events { 
+  background-image: url("/assets/graphics/old/mapathon2.jpg");
+}
+
+.header-about, .header-hosting { 
+  background-image: url("/assets/graphics/old/mapathon3.jpg");
+}
+
+
+
+/*----------------------------------------------*/
+/* Text  Styles*/
+/* weights: 300 thin, 400 regular, 700 bold, 900 black */
+/*----------------------------------------------*/
+
+a{
+  text-decoration: none;
+  color: darken($mmGreen, 10);
+  transition: color 0.2s;
+}
+
+a:hover{
+  color: lighten($mmGreen, 10);
+}
+
+.title{
+  font-family: 'Hind';
+  font-weight: 700;
+  font-size: 2em;
+  color: $darkgrey;
+  margin: 0px;
+  display: inline-block;
+  line-height: 1em;
+}
+
+.titlewhite{
+  font-family: 'Hind';
+  font-weight: 700;
+  font-size: 2em;
+  color: white;
+  margin: 0px;
+  display: inline-block;
+  line-height: 1em;
+  p{
+     font-family: 'Hind';
+     font-weight: 700;
+     font-size: 0.9em;
+     color: white;
+     display: inline-block;
+     line-height: 1em;
+     padding-top: 1em;
+    @media screen and (max-width: 712px) {
+      font-size: .9em;
+    }
+  }
+}
+
+.section-baseline{
+  border-bottom: 1px solid lighten($darkgrey, 40);
+}
+
+.section-header{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.feature-header {
+  padding-top: 195px;
+  text-shadow: 1px 1px $dark-gray;
+  color: #fff;
+  display: block;
+  font-size: 2.5em;
+}
+
+.dark-overlay {
+  background-color: rgba(0,0,0,.2);
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+
+.section-headerwelcome{
+  width: 60%;
+  margin: auto;
+  text-align:center;
+  .sub-head{
+    font-size: 1.2em;
+    p{
+      color: lighten($darkgrey, 10);
+      font-size: 0.9em;
+      max-width: 800px;
+      margin: .5em auto 0.2em auto;
+    }
+  }
+  .btn{
+    margin: 10px 14px 6px 6px;
+  }
+  @media screen and (max-width: 880px) {
+    width: 75%;
+  }
+  @media screen and (max-width: 712px) {
+    font-size: .8em;
+  }
+  @media screen and (max-width: 565px) {
+    width: 80%;
+  }
+  @media screen and (max-width: 450px) {
+  }
+}
+
+.section-headersat{
+  position:relative;
+  left: 0px;
+  right:200px;
+  top: 60px;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  text-align:center;
+  @media screen and (max-width: 800px) {
+    margin-bottom:50px;
+  }
+  .titlewhite{
+    font-size: 24px;
+  }
+}
+
+.sub-head{
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 1.6em;
+  padding: 0px 0px 0.75em 0px;
+  letter-spacing: 0.01em;
+  p{
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 1em;
+  margin-left:1.5em;
+  margin-right:1.5em;
+  padding: 0.5em 0px .5em 0px;
+  letter-spacing: 0.01em;
+  }
+}
+
+.textbox{
+  padding-bottom: 0.5em;
+  font-weight: 400;
+  font-size: 1.1em;
+  line-height: 1.6em;
+  p{
+    padding-bottom: 0.5em;
+    font-weight: 300;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    text-align:left;
+  }
+  li{
+    margin-bottom: 0.4em;
+  }
+  ol{
+    margin-left: 20px;
+  }
+}
+
+.checklist{
+  margin-left:200px;
+  p:before{
+    content: "";
+    background: url('../graphics/meta/checkbox.svg');
+    opacity: 0.5;
+    display: block;
+    width: 14px;
+    height: 14px;
+    float: left;
+    margin: 3px 7px 0 0;
+  }
+}
+
+.orderedlist-styled {
+  list-style-type: decimal;
+}
+
+/*----------------------------------------------*/
+/*Interactive Buttons*/ 
+/*----------------------------------------------*/
+input[type="text"]{
+  border:0px solid $lightgrey;
+  box-sizing: none;
+  width: auto;
+  height: auto;
+  margin: none;
+  color: $darkgrey;
+  -webkit-border-radius: 5px;
+    background-color: lighten($lightgrey, 10);
+    box-shadow: -1px -2px $lightgrey;
+    padding: 2px 6px 4px 6px;
+    &:focus{
+      background-color: lighten($lightgrey, 8);
+    }
+  outline: none;
+}
+
+.btn{
+  background-color: $ButtonColor;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  border-radius:4px;
+  display:inline-block;
+  cursor:pointer;
+  transition: active 0.25s;
+  color: white;
+  padding: 8px 14px 6px 14px;
+  margin: 10px 8px 6px 0px;
+  font-size: 0.8em;
+  font-weight: 400;
+  font-family: 'Lato';
+  text-decoration:none;
+  letter-spacing: 0.06em;
+  transition-property: background;
+  transition-duration: 0.12s;
+  transition-timing-function: linear;
+  line-height: 23px;
+  a{
+    color: white;
+    font-size: 1em;
+    &:hover{
+      color: white;
+    }
+    &:active{
+      color:white;
+    }
+    &:visited{
+      color: white;
+    }
+  }
+}
+
+.btn-blue{
+  background-color: $mmTeal;
+  color: white;
+
+  &:hover{
+    background-color: darken($ButtonColor, 12%);
+    color: white;
+  }
+  &:active{
+    background-color: darken($ButtonColor, 15%);
+    color: white;
+  }
+  &:focus{
+    background-color: darken($ButtonColor, 12%);
+    color: white;
+  }
+}
+
+.btn-grn{
+  background-color: $mmGreen;
+  color: white;
+  &:hover{
+    background-color: darken($mmGreen, 12%);
+    color:white;
+  }
+  &:active{
+    background-color: darken($mmGreen, 15%);
+    color:white;
+  }
+  &:focus{
+    background-color: darken($mmGreen, 12%);
+    color:white;
+  }
+}
+
+.invert-btn-blue{
+  background-color: rgba(0,0,0,0);
+  border: 1px solid $mmTeal;
+  color: $mmTeal;
+  &:hover{
+    background-color: rgba(35, 188, 193, 0.2);
+  }
+  &:active{
+    background-color: rgba(35, 188, 193, 0.2);
+  }
+  &:focus{
+    background-color: rgba(35, 188, 193, 0.2);
+  }
+  a{
+    color: $mmTeal;
+    &:hover{
+      color: white;   
+    }
+    &:visited{
+      color: $mmTeal;
+    }
+  }
+}
+
+.invert-btn-grn{
+  background-color: rgba(0,0,0,0);
+  border: 1px solid darken($mmGreen, 10);
+  color: darken($mmGreen, 10);
+  &:hover{
+    background-color: lighten($mmGreen, 24);
+  }
+  &:active{
+    background-color: lighten($mmGreen, 24);
+  }
+  &:focus{
+    background-color: lighten($mmGreen, 24);
+  }
+  a{
+    color: darken($mmGreen, 10);
+    &:hover{
+      color: white;   
+    }
+    &:visited{
+      color: darken($mmGreen, 10);
+    }
+  }
+}
+
+.invert-btn-white{
+  background-color: rgba(0,0,0,0);
+  border: 1px solid white;
+  color: white;
+  &:hover{
+    background-color: lighten($mmTeal, 20);
+  }
+  &:active{
+    background-color: lighten($mmTeal, 20);
+  }
+  &:focus{
+    background-color: lighten($mmTeal, 20);
+  }
+  a{
+    color: darken($mmTeal, 60);
+    &:hover{
+      color: darken($mmTeal, 60);   
+    }
+    &:visited{
+      color: darken($mmTeal, 60);
+    }
+  }
+}
+
+
+/*----------------------------------------------*/
+/*Leaderboard*/ 
+/*----------------------------------------------*/
+.hashtag-title{
+  font-weight: 900;
+  font-size: 1.8em;
+}
+
+.user-roll{
+  width: 240px;
+  li{
+    padding-bottom:4px;
+  }
+}
+
+.username{
+  font-weight: 400;
+  font-size: 1em;
+  color: $darkestgrey;
+  float: left;
+}
+
+.usertot{
+  font-weight: 700;
+  font-size: 1em;
+  color: $darkestgrey;
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+/*----------------------------------------------*/
+/*Badge Box*/ 
+/*----------------------------------------------*/
+.badgehome{
+  width: 100%;
+  height: 160px;
+  padding: 12px 0px 10px 0px;
+}
+
+.badgeicon {
+  position: relative; 
+  float: left;
+  pointer-events: none;
+}
+
+.badgetext{
+  top: 18px;
+  position: relative;
+  float: right;
+  height: 80px;
+  width: 226px;
+}
+
+.badgeheader{
+  font-weight: 400;
+  font-size: 1.4em;
+}
+
+/*----------------------------------------------*/
+/*Container Styles*/ 
+/*----------------------------------------------*/
+.container{
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+.sub-container{
+  border: $lightgrey solid 1px;
+}
+
+.sectionheader{
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+
+
+
+.events-container { 
+  .section-header {
+    color: #fff;
+  }
+}
+
+.contribute-base {
+  margin-top: .8em;
+}
+
+.text-box{
+  padding: 14px;
+  width: 400px;
+}
+
+.badge-box {
+  padding: 14px;
+  width: 400px;
+  height: 100%;
+}
+
+.line-break{
+  margin-top: 4px;
+  margin-bottom: 8px;
+  height: 2px;
+  width: 60%;
+  background-color: $lightgrey;
+}
+
+.center-text{
+  text-align: center;
+}
