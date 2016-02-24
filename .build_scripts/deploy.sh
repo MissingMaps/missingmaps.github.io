@@ -10,7 +10,7 @@ if [ $TRAVIS_PULL_REQUEST = "false" ] && [ $TRAVIS_BRANCH = ${DEPLOY_BRANCH} ]; 
   git config user.email "travis@somewhere.com"
   git add .
   git commit -m "CI deploy to gh-pages"
-  git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages
+  git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
 else
   echo "Not a publishable branch so we're all done here"
 fi
