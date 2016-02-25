@@ -1,5 +1,5 @@
 # Site settings
-title: missingmaps
+title: Missing Maps
 safe:           false
 source:         app
 exclude:
@@ -8,7 +8,7 @@ exclude:
   - assets/styles
   - README.md
 timezone: America/New_York
-highlighter: false 
+highlighter: false
 
 baseurl:
 
