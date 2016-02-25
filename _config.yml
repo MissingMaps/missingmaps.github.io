@@ -8,7 +8,7 @@ exclude:
   - assets/styles
   - README.md
 timezone: America/New_York
-highlighter: false 
+highlighter: false
 
 baseurl:
 
