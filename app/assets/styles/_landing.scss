@@ -476,8 +476,7 @@
   width: 70%;
   text-align: center;
   margin: auto;
-  padding: 0px 0px 20px 0px;
-
+  padding: 0px 0px 2em 0px;
   @media screen and (max-width: 710px) {
     width: 100%;
   }
@@ -490,6 +489,10 @@
   };
   &.top{
     margin-bottom:0px;
+  }
+  .sub-head{
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
   }
 }
 
