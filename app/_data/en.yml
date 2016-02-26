@@ -1,3 +1,6 @@
+####################
+## HEADER CONTENT ##
+####################
 nav:
   contribute:
     text:         "CONTRIBUTE"
@@ -14,7 +17,9 @@ nav:
       url:        "http://www.missingmaps.org/users/"
     - text:       "LEADERBOARDS"
       url:        "http://www.missingmaps.org/leaderboards/"
-
+#####################
+## LANDING CONTENT ##
+#####################
 banner:
   title:          "Putting the World's Vulnerable People on the Map"
   subtitle:       "Missing Maps is powered by volunteers around the world and in your community who map far off places and their own neighborhoods."
