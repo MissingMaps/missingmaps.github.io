@@ -4,6 +4,7 @@
 .sass-cache
 .bundle
 bundle
+*.lock
 
 # Local
 node_modules

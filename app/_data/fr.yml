@@ -1,0 +1,80 @@
+nav:
+  contribute:
+    text:         "CONTRIBUER"
+    url:          "/contribuer/"
+  events:
+    text:         "EVENEMENTS"
+    url:          "/evenements/"
+  about:
+    text:         "À PROPOS"
+    url:          "/apropos/"
+  links_text:     "DÉCOUVRIR"
+  extlinks:
+    - text:       "USER PROFILES"
+      url:        "http://www.missingmaps.org/users/"
+    - text:       "LEADERBOARDS"
+      url:        "http://www.missingmaps.org/leaderboards/"
+
+banner:
+  title:          "Putting the World's Vulnerable People on the Map"
+  subtitle:       "Missing Maps is powered by volunteers around the world and in your community who map far off places and their own neighborhoods."
+  get_involved:   "GET INVOLVED"
+  about_us:       "ABOUT US"
+
+how_we_work:
+  title:        "How we work"
+  step1:
+    text:       "step 1"
+    desc:       ""
+  step2:
+    text:       "step 2"
+    desc:       ""
+  step3:
+    text:       "step 3"
+    desc:       ""
+
+how_to_participate:
+  title:        "How to participate"
+  start:        "Start Mapping Now"
+  start_text:   "There are many ways to get involved with Missing Maps right now! Get started mapping now by reading through our beginners documentation on the How to Contribute page and learn more about the ways you can contribute to OpenStreetMap."
+  map_btn:      "MAP NOW"
+  learn_btn:    "LEARN"
+  build:        "Build a community"
+  build_text:   "Hosting a mapathon is an opportunity to help build a community of mappers focused on an area of the world. You can help volunteers learn how to edit in OpenStreetMap, gain new skills, and engage in the larger mapping community by hosting your own mapathon."
+  build_url:    "/host/"
+  lead_btn:     "LEAD A MAPATHON"
+  join_btn:     "JOIN EMAIL LIST"
+  donate:       "Donate to make an impact"
+  donate_text:  "Each year, disasters around the world kill nearly 100,000 and affect or displace 200 million people. Many of the places where these disasters occur do not exist on any map and first responders lack the information to make valuable decisions regarding relief efforts. Donate to help map the difference."
+  donate_btn:   "DONATE"
+
+contributions:
+  title:        "Contributions"
+  subtitle:     "Since 2014 Missing Maps users have contributed"
+  total:        "Total Contributors"
+  edits:        "Total Edits"
+  buildings:    "Total Buildings"
+  roads:        "Total Roads"
+
+discover:
+  title:        "Discover"
+  subtitle:     "To track your individual & project contributions Missing Maps provides two tools."
+  profiles:     "User Profiles"
+  profile_text: "Check out your contributions to HOT tasks!"
+  profile_btn:  "FIND A USER"
+  projects:     "Project Leaderboards"
+  project_text: "Find out where you stand among contributed hashtags!"
+  project_btn:  "FIND A LEADERBOARD"
+
+events:
+  title:        "Events"
+  all_btn:      "ALL EVENTS"
+
+about:
+  title:        "About"
+  subtitle:     "Missing Maps was made possible thanks to the following organizations."
+  founders:     "Founders"
+  members:      "Members"
+
+contact:
+  title:        "Contact Us"
