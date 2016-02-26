@@ -1,0 +1,88 @@
+<script>
+	document.querySelector("header").style.display='inline-block';
+</script>
+
+<div id="site-canvas">
+	<div class="header-image header-about">
+	    <div class="dark-overlay center-text">
+	      <h1 class = "title feature-header">{{site.data[locale].about.title}}</h1>
+	    </div>
+  	</div>
+<div class="row">
+	<div class="large-12 columns">
+		<div class = "textbox about-container">
+			<div class= "center-text panel">
+				<div class = "title section-header">{{site.data[locale].about.objectives.title}}</div>
+			</div>
+			<div class = "about-textbox">
+				<ol class = "orderedlist-styled">
+					<li>{{site.data[locale].about.objectives.text1}}</li>
+					<li>{{site.data[locale].about.objectives.text2}}</li>
+				</ol>
+			</div>
+
+			<div class= "center-text panel">
+				<div class = "title section-header">{{site.data[locale].about.ethics.title}}</div>
+			</div>
+
+			<div class = "about-textbox">
+				<ol class="orderedlist-styled">
+					<li>{{site.data[locale].about.ethics.text1}}</li>
+					<li>{{site.data[locale].about.ethics.text2}}</li>
+					<li>{{site.data[locale].about.ethics.text3}}</li>
+					<li>{{site.data[locale].about.ethics.text4}}</li>
+					<li>{{site.data[locale].about.ethics.text5}}</li>
+					<li>{{site.data[locale].about.ethics.text6}}</li>
+				</ol>
+			</div>
+
+			<div class= "center-text panel">
+				<div class = "title section-header">{{site.data[locale].about.membership.title}}</div>
+			</div>
+
+			<div class = "about-textbox">
+				<p style="text-align: left">{{site.data[locale].about.membership.text1}}</p>
+				<p style="text-align: left">{{site.data[locale].about.membership.text2}}</p>
+			</div>
+		</div>
+
+		<div class="about-contact center-text">
+			<a href="http://goo.gl/forms/VRWXgUuNtt" class="btn btn-blue">{{site.data[locale].about.contact_btn}}</a>
+		</div>
+
+		<div class="row">
+			<div class="large-12 columns">
+			  <div class ="about-container">
+		          <div class="textbox">
+		          	<p style="text-align: center">{{site.data[locale].about.madepossible}}</p>
+		          </div>
+		          <div class="sub-head">{{site.data[locale].about.founders}}</div>
+		          <a href="http://redcross.org/">
+		          	<img src="{{ site.baseurl }}/assets/graphics/content/logos/arc_logo.png" width = "100" alt= "robotwords">
+		          </a>
+		          <a href="http://redcross.org.uk/">
+		          	<img src="{{ site.baseurl }}/assets/graphics/content/logos/brc_logo.png" width = "140" alt= "robotwords">
+		          </a>
+		          <a href="http://hotosm.org/">
+		          	<img src="{{ site.baseurl }}/assets/graphics/content/logos/hot_logo.png" alt= "robotwords" width = "140">
+		          </a>
+		          <a href="http://www.msf.org.uk/"><img src="{{ site.baseurl }}/assets/graphics/content/logos/msf_logo.png" alt= "robotwords" width = "120"></a>
+		          <div class="sub-head">{{site.data[locale].about.members}}</div>
+		          <a href="http://www.cartong.org/">
+		          	<img src="{{ site.baseurl }}/assets/graphics/content/logos/cartong_logo.png" alt= "robotwords" width = "120">
+		          </a>
+		          <a href="http://www.rodekruis.nl/">
+		          	<img src="{{ site.baseurl }}/assets/graphics/content/logos/nlrc_logo.jpg" alt= "robotwords" width = "140">
+		          </a>
+	              <a href="http://www.clintonhealthaccess.org/">
+	            	<img src="{{ site.baseurl }}/assets/graphics/content/logos/chai-logo.svg" width="90" alt= "chia-logo">
+	            	</a>
+                <a href="http://www.geog.uni-heidelberg.de/gis/"><img src="{{ site.baseurl }}/assets/graphics/content/logos/hgis_logo.png" alt = "hgis-logo" width ="90px"></a>
+			      </div>
+			  </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</div>

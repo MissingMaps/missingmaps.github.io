@@ -1,15 +1,10 @@
----
-layout: default
----
-    {% include header.html %}
-
 <script>
 	document.querySelector("header").style.display='inline-block';
 </script>
 <div id="site-canvas">
 	<div class="header-image header-events">
 	    <div class="dark-overlay center-text">
-	      <h1 class = "title feature-header">Events</h1>
+	      <h1 class = "title feature-header">{{site.data[locale].events.title}}</h1>
 	    </div>
   	</div>
 
@@ -21,7 +16,7 @@ layout: default
 					<img class="event-images" src = "{{ site.baseurl }}/assets/graphics/flags/4x3/{{ event.flag }}.svg" width="24px"></img>
 					<h3 class="event-header">{{ event.title }}</h3>
 					{% if event.link %}
-						<a class="btn btn-grn" href="{{ event.link }}" target="">SIGN UP
+						<a class="btn btn-grn" href="{{ event.link }}" target="">{{site.data[locale].events.sign_up}}
 						</a>
 					{% endif %}
 				</div>

@@ -5,13 +5,13 @@
 nav:
   contribute:
     text:         "CONTRIBUER"
-    url:          "/contribuer/"
+    url:          "/fr/contribuer/"
   events:
     text:         "EVENEMENTS"
-    url:          "/evenements/"
+    url:          "/fr/evenements/"
   about:
     text:         "À PROPOS"
-    url:          "/apropos/"
+    url:          "/fr/apropos/"
   links_text:     "DÉCOUVRIR"
   extlinks:
     - text:       "USER PROFILES"
@@ -32,14 +32,14 @@ banner:
 how_we_work:
   title:        "How we work"
   step1:
-    text:       "step 1"
-    desc:       ""
+    text:       "Step 1."
+    desc:       "Remote volunteers trace satellite imagery into OpenStreetMap"
   step2:
-    text:       "step 2"
-    desc:       ""
+    text:       "Step 2."
+    desc:       "Community volunteers add local detail such as neighborhoods, street names, and evacuation centers"
   step3:
-    text:       "step 3"
-    desc:       ""
+    text:       "Step 3."
+    desc:       "Humanitarian organizations use mapped information to plan risk reduction and disaster response activities that save lives"
 
 how_to_participate:
   title:        "How to participate"
@@ -49,7 +49,7 @@ how_to_participate:
   learn_btn:    "LEARN"
   build:        "Build a community"
   build_text:   "Hosting a mapathon is an opportunity to help build a community of mappers focused on an area of the world. You can help volunteers learn how to edit in OpenStreetMap, gain new skills, and engage in the larger mapping community by hosting your own mapathon."
-  build_url:    "/host/"
+  build_url:    "/fr/host/"
   lead_btn:     "LEAD A MAPATHON"
   join_btn:     "JOIN EMAIL LIST"
   donate:       "Donate to make an impact"
@@ -78,29 +78,62 @@ events:
   title:        "Events"
   all_btn:      "ALL EVENTS"
 
-about:
-  title:        "About"
-  subtitle:     "Missing Maps was made possible thanks to the following organizations."
-  founders:     "Founders"
-  members:      "Members"
-
 contact:
   title:        "Contact Us"
 
 ########################
 ## CONTRIBUTE CONTENT ##
 ########################
-
+contribute:
+  title:        "How to Contribute"
+  how_text:     "If you're new to mapping we recommend watching the videos in the 'Beginners' section to get up and running. If you've mapped before follow the 'Start Mapping' link. There is also 'Extra Training' available via LearnOSM."
+  map_btn:      "MAP NOW"
+  learn_osm:    "MORE TUTORIALS"
+  beginners:    "Beginners"
+  step1:        "Create an Open Street Map account"
+  step1_text1:  "Go to the"
+  step1_text2:  "website and register to create an account. Follow the link in the email they send to confirm your account."
+  step2:        "Learn to map buildings"
+  step2_text:   "Buildings are one of the most useful things you can add to OpenStreetMap (and they're fun too)! Learn how to add and edit buildings to OSM through the iD editor."
+  step3:        "Learn to map roads"
+  step3_text:   "Roads are also one of the most useful things you can add to OpenStreetMap! Learn how to add and edit roads to OSM through the iD editor."
+  step4:        "Learn to use the Tasking Manager"
+  step4_text1:  "Go to the"
+  step4_taskmgr: "Task Manager"
+  step4_text2:  "to find a project and task that interests you. Learn how to lock a task to edit, select an editing program and change the background settings."
 
 ####################
 ## EVENTS CONTENT ##
 ####################
-
+events:
+  title:        "Events"
+  sign_up:      "SIGN UP"
 
 ###################
 ## ABOUT CONTENT ##
 ###################
-
+about:
+  title:        "About"
+  objectives:
+    title:      "Objectives"
+    text1:      "To map the most vulnerable places in the developing world, in order that international and local NGOs and individuals can use the maps and data to better respond to crises affecting the areas."
+    text2:      "To support OpenStreetMap, specifically the Humanitarian OpenStreetMap Team (HOT), in developing technologies, skills, workflows, and communities."
+  ethics:
+    title:      "Ethics"
+    text1:      "Using OpenStreetMap ensures that all data gathered under the project banner will be free, open, and available for use under OpenStreetMap’s open license."
+    text2:      "All 'in country' activities, i.e. local mapping and data collection, will be carried out in collaboration with local people and in a respectful manner at all times."
+    text3:      "When working locally, people come before the data. Meaning if the goal is to map a city there needs to be a plan in place to ensure access to technology and training for those living in that community to continue using the maps after project completion."
+    text4:      "Members of Missing Maps actively contribute to Missing Map's objectives, the OpenStreetMap repository and benefitting communities, both local and international."
+    text5:      "Missing Maps activities emphasize building, and leaving behind, local capacity and access. We are cautious about rapid data collection without significant local participation, and always make efforts to ensure local access."
+    text6:      "Missing Maps activities are designed to be accessible and open for participation for individuals who want to contribute towards the project objectives."
+  membership:
+    title:      "Membership"
+    text1:      "Membership of the the Missing Maps Project is open to any NGO, educational establishment or civil society group willing to contribute to the goals, and abide by the ethics, stated above. Approval of membership is the responsibility of the current member organisations."
+    text2:      "If you are interested in putting an organisation forward for membership, please contact us using the form below."
+  contact_btn:  "CONTACT US ABOUT BECOMING A MEMBER"
+  madepossible: "Missing Maps was made possible thanks to the following organizations."
+  founders:     "Founders"
+  members:      "Members"
 
 ######################
 ## DISCOVER CONTENT ##

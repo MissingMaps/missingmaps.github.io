@@ -6,7 +6,7 @@
 					<img class="event-images" src = "{{ site.baseurl }}/assets/graphics/flags/4x3/{{ event.flag }}.svg" width="24px"/>
 					<h3 class="event-header">{{ event.title }}</h3>
 					{% if event.link %}
-						<a class="btn btn-grn" href="{{ event.link }}" target="">SIGN UP
+						<a class="btn btn-grn" href="{{ event.link }}" target="">{{site.data[locale].events.sign_up}}
 						</a>
 					{% endif %}
 				</div>
