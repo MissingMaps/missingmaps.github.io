@@ -14,9 +14,9 @@
 			<div class="event-maindetails clearfix">
 	    		<div class="event-details-left">
 		    		<span class = "emphasizedNumber">
-		    			{{ event.date }}
+		    			{{ event.date | localize: "%d",locale }}
 		    		</span>
-					<p><b>{{ event.month }}</b></p>
+					<p><b>{{ event.date | localize: "%B",locale }}</b></p>
 				</div>
 			  	<div class="event-details-right">
 				    <div class="textbox" style="padding-top:8px">
@@ -27,13 +27,9 @@
 								<b>{{ event.where }}</b>
 							{% endif %}
 						</p>
-						<p class="event-details">{{ event.day}}, {{ event.time }}</p>
+						<p class="event-details">{{ event.date | localize: "%A",locale }}, {{ event.time }}</p>
 				    </div>
 			  	</div>
 			</div>
 	   </div>
 {% endfor %}
-
-
-	
-	

@@ -3,7 +3,6 @@ type: event
 
 date: 2016-03-02
 month: March
-date: 2nd
 day: Wednesday
 time: 18:00-21:00
 

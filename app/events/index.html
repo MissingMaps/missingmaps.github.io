@@ -9,7 +9,7 @@ layout: default
 <div id="site-canvas">
 	<div class="header-image header-events">
 	    <div class="dark-overlay center-text">
-	      <h1 class = "title feature-header">Events</h1> 
+	      <h1 class = "title feature-header">Events</h1>
 	    </div>
   	</div>
 
@@ -18,7 +18,7 @@ layout: default
 		<div class = "event-sub-container">
 			<div class = "event-top-section clearfix">
 				<div class="sub-head">
-					<img class="event-images" src = "{{ site.baseurl }}/assets/graphics/flags/4x3/{{ event.flag }}.svg" width="24px"></img> 
+					<img class="event-images" src = "{{ site.baseurl }}/assets/graphics/flags/4x3/{{ event.flag }}.svg" width="24px"></img>
 					<h3 class="event-header">{{ event.title }}</h3>
 					{% if event.link %}
 						<a class="btn btn-grn" href="{{ event.link }}" target="">SIGN UP
@@ -29,9 +29,9 @@ layout: default
 			<div class="event-maindetails clearfix">
 			     <div class="event-details-left">
 		    		<span class = "emphasizedNumber">
-		    			{{ event.date }}
+		    			{{ event.date | localize: "%d",locale }}
 		    		</span>
-					<p><b>{{ event.month }}</b></p>
+					<p><b>{{ event.date | localize: "%B",locale  }}</b></p>
 				</div>
 				<div class="event-details-right">
 					<div class="textbox" style="padding-top:8px">
@@ -42,12 +42,10 @@ layout: default
 								<b>{{ event.where }}</b>
 							{% endif %}
 						</p>
-						<p class="event-details">{{ event.day}}, {{ event.time }}</p>
+						<p class="event-details">{{ event.date | localize: "%A",locale }}, {{ event.time }}</p>
 					</div>
 				</div>
 			</div>
 		</div>
 {% endfor %}
 </div>
-
-

@@ -3,7 +3,6 @@ type: event
 
 date: 2016-03-08
 month: March
-date: 8th
 day: Tuesday
 time: 18:00-21:00
 
