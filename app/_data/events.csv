@@ -99,7 +99,7 @@ latitude,longitude,date,flag,title,place_name,place_url,time_string,signup_url
 -6.77969,39.20388,2015-11-21,tz,University of Dar es Salaam HOT Mapathon,"Dar es Salaam, Tanzania",http://osm.org/go/l565ReOXA?m=,09:00-13:00,
 -6.76476,39.21415,2015-11-20,tz,Ardhi University HOT Mapathon,"Dar es Salaam, Tanzania",http://osm.org/go/l568CYo__?m=,09:00-13:00,
 6.367682,2.4252292,2015-11-21,bj,Communaut OpenStreetMap Benin,"Cotonou, Benin",,09:00-18:00,https://www.facebook.com/OSMBenin
--22.0227,-47.8845,2015-11-19,br,University of S��o Paulo,"S��o Carlos, SP",,18:00 BRT,
+-22.0227,-47.8845,2015-11-19,br,University of São Paulo,"São Carlos, SP",,18:00 BRT,
 0.4353036,33.2055568,2015-11-21,ug,Mapping day Uganda - BIT MAK Jinja,"Jinja, Uganda",,9:00-17:00,https://twitter.com/mapuganda
 0.4751,33.2669,2015-11-20,ug,Mapping day Uganda - Wairaka,"Wairaka, Uganda",,12:00-17:00,https://twitter.com/mapuganda
 59.4154805,5.2636464,2015-11-18,no,Engineers Without Borders Norway (IUG Norge),"Haugesund, Norway",,TBD,http://www.iug.no/
@@ -184,5 +184,6 @@ latitude,longitude,date,flag,title,place_name,place_url,time_string,signup_url
 45.18478,5.73133,2016-02-23,fr,Mapathon Missing Maps Grenoble#2,"Cowork in Grenoble, Grenoble, France",https://www.openstreetmap.org/node/4007256153,19:00-22:00,http://www.eventbrite.fr/e/billets-mapathon-missing-maps-grenoble-2-21556613411
 14.00891,-60.99142,2016-02-28,lc,Map St. Lucia,"National ICT Centre Bourbon Street Castries, SAINT LUCIA, Castries, Saint Lucia",http://osm.org/go/YyXcULfS~?m=&way=397973030,09:00-17:00,http://www.mapsaintlucia.org/
 51.22181,4.4149,2016-03-23,be,Missing Maps Mapathon,"IPIS Library, Antwerp, Belgium",http://www.openstreetmap.org/way/378681739,17:30-21:00,https://www.eventbrite.com/e/missing-maps-mapathon-antwerp-march-23rd-tickets-21633266683
-40.74746,-73.99292,2016-02-24,us,Missing Maps New York,"Doctors Without Borders, New York, United States",https://www.openstreetmap.org/node/4021259442,5:30-9:00,https://www.doctorswithoutborders.org/support-us/events/february-missing-maps-mapathon
+40.74746,-73.99292,2016-02-24,us,Missing Maps New York,"Doctors Without Borders, New York, United States",https://www.openstreetmap.org/node/4021259442,17:30-21:00,https://www.doctorswithoutborders.org/support-us/events/february-missing-maps-mapathon
 51.51907,-0.0886,2016-03-01,gb,Missing Maps London,"British Red Cross HQ, London, United Kingdom",http://www.openstreetmap.org/way/160277261#map=19/51.51907/-0.08860,18:00-21:00,https://www.eventbrite.co.uk/e/missing-mapshot-march-mapathon-tickets-22020469818
+41.31317,-105.58108,2016-03-09,us,University of Wyoming Humanitarian Mapathon,"Agriculture C Building, Computer Lab Rm 316",http://osm.org/go/T2T4i8TmE--?m=,17:00-20:00,http://www.meetup.com/OSM-Colorado/events/228935363/
