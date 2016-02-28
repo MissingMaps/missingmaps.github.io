@@ -8,39 +8,45 @@
 	    </div>
   	</div>
 
-{% assign event = (site.events | sort: 'event.date' ) %}
-{% for event in event reverse %}
+{% assign current_date = site.time | date: '%s' %}
+{% assign event = (site.data.events | sort: 'date' ) %}
+{% for e in event %}
+	{% assign event_date = e.date | date: '%s' %}
+	{% if event_date > current_date %}
+		{% assign count = count | plus: 1 %}
+
 		<div class = "event-sub-container">
 			<div class = "event-top-section clearfix">
 				<div class="sub-head">
-					<img class="event-images" src = "{{ site.baseurl }}/assets/graphics/flags/4x3/{{ event.flag }}.svg" width="24px"></img>
-					<h3 class="event-header">{{ event.title }}</h3>
-					{% if event.link %}
-						<a class="btn btn-grn" href="{{ event.link }}" target="">{{site.data[locale].events.sign_up}}
+					<img class="event-images" src = "{{ site.baseurl }}/assets/graphics/flags/4x3/{{ e.flag }}.svg" width="24px"/>
+					<h3 class="event-header">{{ e.title }}</h3>
+					{% if e.signup_url %}
+						<a class="btn btn-grn" href="{{ e.signup_url }}" target="">{{site.data[locale].events.sign_up}}
 						</a>
 					{% endif %}
 				</div>
 			</div>
 			<div class="event-maindetails clearfix">
-			     <div class="event-details-left">
+	    		<div class="event-details-left">
 		    		<span class = "emphasizedNumber">
-		    			{{ event.date | localize: "%d",locale }}
+						{{ e.date | localize: "%d",locale }}
 		    		</span>
-					<p><b>{{ event.date | localize: "%B",locale  }}</b></p>
+					<p><b>{{ e.date | localize: "%B",locale }}</b></p>
 				</div>
-				<div class="event-details-right">
-					<div class="textbox" style="padding-top:8px">
+			  	<div class="event-details-right">
+				    <div class="textbox" style="padding-top:8px">
 						<p>
-							{% if event.location-link %}
-								<a href="{{ event.location-link }}"><b>{{ event.where }}</b></a>
+							{% if e.place_url %}
+								<a href="{{ e.place_url }}"><b>{{ e.place_name }}</b></a>
 							{% else %}
-								<b>{{ event.where }}</b>
+								<b>{{ e.place_name }}</b>
 							{% endif %}
 						</p>
-						<p class="event-details">{{ event.date | localize: "%A",locale }}, {{ event.time }}</p>
-					</div>
-				</div>
+						<p class="event-details">{{ e.date | localize: "%A",locale }}, {{ e.time_string }}</p>
+				    </div>
+			  	</div>
 			</div>
-		</div>
+	    </div>
+	{% endif %}
 {% endfor %}
 </div>
