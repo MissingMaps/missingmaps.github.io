@@ -72,3 +72,5 @@ $ gulp prod
 Illustrator files for the sites graphics can be found in the MissingMaps repository. They are made in CC 2015.
 
 Badge graphics can be found in the Users repository.
+
+The font used for the graphics & most of the site is [Hind](https://www.google.com/fonts/specimen/Hind). For the graphics with text on them, they've been converted to outlines.
