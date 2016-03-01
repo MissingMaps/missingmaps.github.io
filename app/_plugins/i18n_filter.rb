@@ -2,7 +2,7 @@
 # https://github.com/nicoespeon/nicoespeon.github.io/blob/develop/_plugins/i18n_filter.rb
 # -- and fixed for 2.3 by using --
 # https://github.com/gacha/gacha.id.lv/blob/master/_plugins/i18n_filter.rb
-# modified again for dynamic locale passing
+# modified again for dynamic locale passing by @abenrob
 
 require 'i18n'
 
