@@ -40,6 +40,15 @@
 					{% for link in site.data[locale].nav.extlinks %}
 					<a href="{{link.url}}"><div class="nav-item">{{link.text}}</div></a>
 					{% endfor %}
+					<div class="mobile-languages">
+						{% for loc in site.authorized_locales %}
+						{% if loc == site.default_locale %}
+						<a href="/"><div class="lang">{{loc}}</div></a>
+						{% else %}
+						<a href="{{site.baseurl}}/{{loc}}/"><div class="lang">{{loc}}</div></a>
+						{% endif %}
+						{% endfor %}
+					</div>
 				</div>
 		</div>
 	</header>
