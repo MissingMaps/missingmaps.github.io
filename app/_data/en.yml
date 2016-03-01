@@ -25,7 +25,8 @@ nav:
 
 banner:
   title:          "Putting the World's Vulnerable People on the Map"
-  subtitle:       "Missing Maps is powered by volunteers around the world and in your community who map far off places and their own neighborhoods."
+  subtitle1:       "Missing Maps is powered by"
+  subtitle2:       "volunteers around the world and in your community who map far off places and their own neighborhoods."
   get_involved:   "GET INVOLVED"
   about_us:       "ABOUT US"
 
@@ -114,7 +115,9 @@ about:
   objectives:
     title:      "Objectives"
     text1:      "To map the most vulnerable places in the developing world, in order that international and local NGOs and individuals can use the maps and data to better respond to crises affecting the areas."
-    text2:      "To support OpenStreetMap, specifically the Humanitarian OpenStreetMap Team (HOT), in developing technologies, skills, workflows, and communities."
+    text2:      "To support"
+    text3:      ", specifically the"
+    text4:      ", in developing technologies, skills, workflows, and communities."
   ethics:
     title:      "Ethics"
     text1:      "Using OpenStreetMap ensures that all data gathered under the project banner will be free, open, and available for use under OpenStreetMap’s open license."
@@ -131,7 +134,4 @@ about:
   madepossible: "Missing Maps was made possible thanks to the following organizations."
   founders:     "Founders"
   members:      "Members"
-
-######################
-## DISCOVER CONTENT ##
-######################
+  osm_text:     "is the volunteer-driven open data mapping platform which makes all of this possible, supported by the not-for-profit"
