@@ -2,18 +2,30 @@
 		<div class="navbar-background">
 			<div class="nav-icon">
 				<a href="{{site.baseurl}}/">
-					<img src="../assets/graphics/meta/MM-White.svg" width="94px">
+					<img src="{{site.baseurl}}/assets/graphics/meta/MM-White.svg" width="94px">
 				</a>
 				</div>
 			<div class="nav-list">
 				<ul>
-					<a href="{{site.baseurl}}/contribute/"><li class="nav-item">CONTRIBUTE</li></a>
-					<a href="{{site.baseurl}}/events/"><li class="nav-item">EVENTS</li></a>
-					<a href="{{site.baseurl}}/about/"><li class="nav-item">ABOUT</li></a>
-					<li class="nav-item nav-dropdown">DISCOVER
+	        <a href="{{site.baseurl}}{{site.data[locale].nav.contribute.url}}"><li class="nav-item">{{site.data[locale].nav.contribute.text}}</li></a>
+					<a href="{{site.baseurl}}{{site.data[locale].nav.events.url}}"><li class="nav-item">{{site.data[locale].nav.events.text}}</li></a>
+					<a href="{{site.baseurl}}{{site.data[locale].nav.about.url}}"><li class="nav-item">{{site.data[locale].nav.about.text}}</li></a>
+					<li class="nav-item nav-dropdown">{{site.data[locale].nav.links_text}}
 						<div class="dropdown-content">
-							<a href="http://www.missingmaps.org/users/"><div class="nav-item">USER PROFILES</div></a>
-							<a href="http://www.missingmaps.org/leaderboards/"><div class="nav-item">LEADERBOARDS</div></a>
+							{% for link in site.data[locale].nav.extlinks %}
+							<a href="{{link.url}}"><div class="nav-item">{{link.text}}</div></a>
+							{% endfor %}
+						</div>
+					</li>|
+					<li class="nav-item nav-dropdown">{{locale}}
+						<div class="dropdown-content">
+							{% for loc in site.authorized_locales %}
+							{% if loc == site.default_locale %}
+							<a href="/"><div class="nav-item">{{loc}}</div></a>
+							{% else %}
+							<a href="{{site.baseurl}}/{{loc}}/"><div class="nav-item">{{loc}}</div></a>
+							{% endif %}
+							{% endfor %}
 						</div>
 					</li>
 				</ul>
@@ -22,11 +34,21 @@
 		<div class="resp-navbar navbar-background resp-nav-dropdown">
 				<p>MENU</p>
 				<div class="resp-dropdown-content">
-					<a href="{{site.baseurl}}/contribute/"><li class="nav-item">CONTRIBUTE</li></a>
-					<a href="{{site.baseurl}}/events/"><li class="nav-item">EVENTS</li></a>
-					<a href="{{site.baseurl}}/about/"><li class="nav-item">ABOUT</li></a>
-					<a href="http://www.missingmaps.org/users/"><li class="nav-item">USER PROFILES</li></a>
-					<a href="http://www.missingmaps.org/leaderboards/"><li class="nav-item">LEADERBOARDS</li></a>
+					<a href="{{site.baseurl}}{{site.data[locale].nav.contribute.url}}"><li class="nav-item">{{site.data[locale].nav.contribute.text}}</li></a>
+					<a href="{{site.baseurl}}{{site.data[locale].nav.events.url}}"><li class="nav-item">{{site.data[locale].nav.events.text}}</li></a>
+					<a href="{{site.baseurl}}{{site.data[locale].nav.about.url}}"><li class="nav-item">{{site.data[locale].nav.about.text}}</li></a>
+					{% for link in site.data[locale].nav.extlinks %}
+					<a href="{{link.url}}"><div class="nav-item">{{link.text}}</div></a>
+					{% endfor %}
+					<div class="mobile-languages">
+						{% for loc in site.authorized_locales %}
+						{% if loc == site.default_locale %}
+						<a href="/"><div class="lang">{{loc}}</div></a>
+						{% else %}
+						<a href="{{site.baseurl}}/{{loc}}/"><div class="lang">{{loc}}</div></a>
+						{% endif %}
+						{% endfor %}
+					</div>
 				</div>
 		</div>
 	</header>
