@@ -34,13 +34,18 @@ how_we_work:
   title:        "How we work"
   step1:
     text:       "Step 1."
-    desc:       "Remote volunteers trace satellite imagery into OpenStreetMap"
+    line1:      "Remote volunteers trace satellite"
+    line2:      "imagery into OpenStreetMap"
   step2:
     text:       "Step 2."
-    desc:       "Community volunteers add local detail such as neighborhoods, street names, and evacuation centers"
+    line1:      "Community volunteers add local"
+    line2:      "detail such as neighborhoods, street"
+    line3:      "names, and evacuation centers"
   step3:
     text:       "Step 3."
-    desc:       "Humanitarian organizations use mapped information to plan risk reduction and disaster response activities that save lives"
+    line1:      "Humanitarian organizations use mapped"
+    line2:      "information to plan risk reduction and"
+    line3:      "disaster response activities that save lives"
 
 how_to_participate:
   title:        "How to participate"
