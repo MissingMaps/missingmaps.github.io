@@ -46,6 +46,26 @@ $TextColor: $darkgrey;
 $DataColor: #22bdc1;
 $ButtonColor: $DataColor;
 
+/*----------------------------------------------*/
+/*mixins*/
+/*----------------------------------------------*/
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+@mixin justify($where) {
+  -webkit-justify-content: $where;
+  -moz-justify-content: $where;
+  -ms-justify-content: $where;
+  justify-content: $where;
+}
+@mixin flexwrap($attr) {
+  -webkit-flex-wrap: $attr;
+  flex-wrap: $attr;
+}
 
 /* In Context */
 /*----------------------------------------------*/
@@ -111,7 +131,7 @@ body{
 #site-canvas{
   max-width: 100%;
   margin-left: auto;
-  margin-right: auto;  
+  margin-right: auto;
   z-index: -1;
 }
 
@@ -169,6 +189,29 @@ header{
     padding: 0px 16px 0px 40px;
 }
 
+.mobile-languages {
+  @include flexbox();
+  @include justify(center);
+  @include flexwrap(wrap);
+  border-top: 1px solid #565656;
+  width: 100%;
+  .lang {
+    padding:0px 10px 0px 7.2px;
+    color: white;
+    font-family: 'Lato';
+    font-size: 0.9em;
+    letter-spacing: 0.06em;
+    height: 52px;
+    // line-height: 52px;
+    transition: color 0.2s;
+    color: $lightgrey;
+    cursor: pointer;
+    &:hover{
+      color: darken($lightgrey, 45);
+    }
+  }
+}
+
 .nav-item{
   padding:0px 10px 0px 7.2px;
   color: white;
@@ -204,7 +247,7 @@ header{
 
 .dropdown-content {
     transition: opacity 0.3s;
-    opacity: 0; 
+    opacity: 0;
     height: 0;
     overflow: hidden;
     position: absolute;
@@ -260,7 +303,7 @@ header{
 
 .resp-dropdown-content{
     transition: opacity 0.1s;
-    opacity: 0; 
+    opacity: 0;
     height: 0;
     overflow: hidden;
     position: absolute;
@@ -295,28 +338,28 @@ header{
     height: auto;
 }
 
-.header-image { 
+.header-image {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
   height: 25rem;
-  margin-bottom: 4rem; 
+  margin-bottom: 4rem;
 }
 
-.header-contribute { 
+.header-contribute {
   background-image: url("/assets/graphics/old/mapathon.jpg");
 }
 
-.header-events { 
+.header-events {
   background-image: url("/assets/graphics/old/mapathon2.jpg");
 }
 
-.header-about { 
+.header-about {
   background-image: url("/assets/graphics/old/mapathon4.jpg");
 }
 
-.header-hosting { 
+.header-hosting {
   background-image: url("/assets/graphics/old/mapathon5.jpg");
 }
 
@@ -495,7 +538,7 @@ a:hover{
 }
 
 /*----------------------------------------------*/
-/*Interactive Buttons*/ 
+/*Interactive Buttons*/
 /*----------------------------------------------*/
 input[type="text"]{
   border:0px solid $lightgrey;
@@ -600,7 +643,7 @@ input[type="text"]{
   a{
     color: $mmTeal;
     &:hover{
-      color: white;   
+      color: white;
     }
     &:visited{
       color: $mmTeal;
@@ -624,7 +667,7 @@ input[type="text"]{
   a{
     color: darken($mmGreen, 10);
     &:hover{
-      color: white;   
+      color: white;
     }
     &:visited{
       color: darken($mmGreen, 10);
@@ -648,7 +691,7 @@ input[type="text"]{
   a{
     color: darken($mmTeal, 60);
     &:hover{
-      color: darken($mmTeal, 60);   
+      color: darken($mmTeal, 60);
     }
     &:visited{
       color: darken($mmTeal, 60);
@@ -658,7 +701,7 @@ input[type="text"]{
 
 
 /*----------------------------------------------*/
-/*Leaderboard*/ 
+/*Leaderboard*/
 /*----------------------------------------------*/
 .hashtag-title{
   font-weight: 900;
@@ -689,7 +732,7 @@ input[type="text"]{
 }
 
 /*----------------------------------------------*/
-/*Badge Box*/ 
+/*Badge Box*/
 /*----------------------------------------------*/
 .badgehome{
   width: 100%;
@@ -698,7 +741,7 @@ input[type="text"]{
 }
 
 .badgeicon {
-  position: relative; 
+  position: relative;
   float: left;
   pointer-events: none;
 }
@@ -717,7 +760,7 @@ input[type="text"]{
 }
 
 /*----------------------------------------------*/
-/*Container Styles*/ 
+/*Container Styles*/
 /*----------------------------------------------*/
 .container{
   max-width: 800px;
@@ -739,7 +782,7 @@ input[type="text"]{
 
 
 
-.events-container { 
+.events-container {
   .section-header {
     color: #fff;
   }

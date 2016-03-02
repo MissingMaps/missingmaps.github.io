@@ -1,0 +1,94 @@
+<script>
+  document.querySelector("header").style.display = 'inline-block';
+</script>
+
+<div id="site-canvas">
+  <div class="header-image header-contribute">
+    <div class="dark-overlay center-text">
+      <h1 class="title feature-header">{{site.data[locale].contribute.title}}</h1>
+    </div>
+  </div>
+
+  <div class="mmvideo">
+    <iframe width="498px" height="280px" src="https://www.youtube-nocookie.com/embed/wEEnOqmVfqM?rel=0" frameborder="0" allowfullscreen=""></iframe>
+  </div>
+
+  <div class="row">
+    <div class="large-12 columns" style="text-align:center">
+      <div class="textbox container">
+        <p style="text-align: center">{{site.data[locale].contribute.how_text}}</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row contribute-options">
+    <div class="large-3, small-6 columns" style="text-align: center">
+      <a href="http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps">
+        <img src="{{ site.baseurl }}/assets/graphics/content/process/Learn-MapNow.svg"></img>
+        <p>
+          <div class="btn btn-grn arw">{{site.data[locale].contribute.map_btn}}
+            <img src="{{ site.baseurl }}/assets/graphics/meta/Arrow.svg"></img>
+      </a>
+      </div>
+    </div>
+    <div class="large-3, small-6 columns" style="text-align: center">
+      <a href="http://learnosm.org/en/coordination/remote/">
+        <img src="{{ site.baseurl }}/assets/graphics/content/process/Learn-Tutorials.svg"></img>
+        <p>
+          <div class="btn btn-grn arw">{{site.data[locale].contribute.learn_osm}}
+            <img src="{{ site.baseurl }}/assets/graphics/meta/Arrow.svg"></img>
+      </a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="contribute-container">
+    <div class="center-text title section-header" id="learn">{{site.data[locale].contribute.beginners}}</div>
+    <div class="row">
+      <div class="videobox large-6 small-12 columns">
+        <iframe width="100%" height="300px" src="https://www.youtube-nocookie.com/embed/suk8uRpIBQw?rel=0" frameborder="0" allowfullscreen=""></iframe>
+        <div class="sub-head" style="text-align: left">1. {{site.data[locale].contribute.step1}}
+        </div>
+        <hr>
+        <div class="textbox">
+          <p>
+            {{site.data[locale].contribute.step1_text1}}
+            <a href="https://www.openstreetmap.org/login">OpenStreetMap</a> {{site.data[locale].contribute.step1_text2}}
+          </p>
+        </div>
+      </div>
+      <div class="videobox large-6 small-12 columns">
+        <iframe width="100%" height="300px" src="https://www.youtube-nocookie.com/embed/VPJz-AucqF4?rel=0" frameborder="0" allowfullscreen=""></iframe>
+        <div class="sub-head" style="text-align: left">2. {{site.data[locale].contribute.step2}}
+        </div>
+        <hr>
+        <div class="textbox">
+          <p>{{site.data[locale].contribute.step2_text}}</p>
+        </div>
+      </div>
+      <div class="videobox large-6 small-12 columns">
+        <iframe width="100%" height="300px" src="https://www.youtube-nocookie.com/embed/ZBLwb2nisJQ?rel=0" frameborder="0" allowfullscreen=""></iframe>
+        <div class="sub-head" style="text-align: left">3. {{site.data[locale].contribute.step3}}
+        </div>
+        <hr>
+        <div class="textbox">
+          <p>{{site.data[locale].contribute.step3_text}}</p>
+        </div>
+      </div>
+      <div class="videobox large-6 small-12 columns">
+        <iframe width="100%" height="300px" src="https://www.youtube-nocookie.com/embed/_feTGQXLf_M?rel=0" frameborder="0" allowfullscreen=""></iframe>
+        <div class="sub-head" style="text-align: left">4. {{site.data[locale].contribute.step4}}
+        </div>
+        <hr>
+        <div class="textbox">
+          <p>
+            {{site.data[locale].contribute.step4_text1}} <a href="http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps">{{site.data[locale].contribute.step4_taskmgr}}</a> {{site.data[locale].contribute.step4_text2}}
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row features">
+    </div>
+  </div>
