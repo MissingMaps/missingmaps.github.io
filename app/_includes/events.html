@@ -1,12 +1,12 @@
 <script>
-	document.querySelector("header").style.display='inline-block';
+	document.querySelector("header").style.display = 'inline-block';
 </script>
 <div id="site-canvas">
 	<div class="header-image header-events">
-	    <div class="dark-overlay center-text">
-	      <h1 class = "title feature-header">{{site.data[locale].events.title}}</h1>
-	    </div>
-  	</div>
+		<div class="dark-overlay center-text">
+			<h1 class="title feature-header">{{site.data[locale].events.title}}</h1>
+		</div>
+	</div>
 
 {% assign current_date = site.time | date: '%s' %}
 {% assign event = (site.data.events | sort: 'date' ) %}
@@ -15,38 +15,37 @@
 	{% if event_date > current_date %}
 		{% assign count = count | plus: 1 %}
 
-		<div class = "event-sub-container">
-			<div class = "event-top-section clearfix">
+		<div class="event-sub-container">
+			<div class="event-top-section clearfix">
 				<div class="sub-head">
-					<img class="event-images" src = "{{ site.baseurl }}/assets/graphics/flags/4x3/{{ e.flag }}.svg" width="24px"/>
+					<img class="event-images" src="{{ site.baseurl }}/assets/graphics/flags/4x3/{{ e.flag }}.svg" width="24px" />
 					<h3 class="event-header">{{ e.title }}</h3>
 					{% if e.signup_url %}
-						<a class="btn btn-grn" href="{{ e.signup_url }}" target="">{{site.data[locale].events.sign_up}}
-						</a>
+					<a class="btn btn-grn" href="{{ e.signup_url }}" target="">{{site.data[locale].events.sign_up}}</a>
 					{% endif %}
 				</div>
 			</div>
 			<div class="event-maindetails clearfix">
-	    		<div class="event-details-left">
-		    		<span class = "emphasizedNumber">
+				<div class="event-details-left">
+					<span class="emphasizedNumber">
 						{{ e.date | localize: "%d",locale }}
-		    		</span>
+					</span>
 					<p><b>{{ e.date | localize: "%B",locale }}</b></p>
 				</div>
-			  	<div class="event-details-right">
-				    <div class="textbox" style="padding-top:8px">
+				<div class="event-details-right">
+					<div class="textbox" style="padding-top:8px">
 						<p>
 							{% if e.place_url %}
-								<a href="{{ e.place_url }}"><b>{{ e.place_name }}</b></a>
-							{% else %}
-								<b>{{ e.place_name }}</b>
+							<a href="{{ e.place_url }}"><b>{{ e.place_name }}</b></a> {% else %}
+							<b>{{ e.place_name }}</b>
 							{% endif %}
 						</p>
 						<p class="event-details">{{ e.date | localize: "%A",locale }}, {{ e.time_string }}</p>
-				    </div>
-			  	</div>
+					</div>
+				</div>
 			</div>
-	    </div>
+		</div>
+
 	{% endif %}
 {% endfor %}
 </div>

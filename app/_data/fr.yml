@@ -50,7 +50,6 @@ how_to_participate:
   learn_btn:    "LEARN"
   build:        "Build a community"
   build_text:   "Hosting a mapathon is an opportunity to help build a community of mappers focused on an area of the world. You can help volunteers learn how to edit in OpenStreetMap, gain new skills, and engage in the larger mapping community by hosting your own mapathon."
-  build_url:    "/fr/host/"
   lead_btn:     "LEAD A MAPATHON"
   join_btn:     "JOIN EMAIL LIST"
   donate:       "Donate to make an impact"
@@ -135,3 +134,59 @@ about:
   founders:     "Founders"
   members:      "Members"
   osm_text:     "is the volunteer-driven open data mapping platform which makes all of this possible, supported by the not-for-profit"
+
+#####################
+## HOST A MAPATHON ##
+#####################
+
+host:
+  nav:            "/fr/host/"
+  title:          "Hosting a Mapathon"
+  text:           "A mapathon is a unique and engaging opportunity for volunteers to digitally connect and map the most vulnerable places in the developing world so that local and international NGOs can use these comprehensive maps and data to better respond to crises affecting these areas. Digital volunteer engagement is vital for the success of many humanitarian organizations around the world in responding to disasters. It is imperative to have a larger pool of trained volunteers that are ready to assist with little coordination when a disaster occurs. Check out the videos below to learn more about what a mapathon is and how to host one."
+  what_is:        "What is a Mapathon?"
+  how_host:       "How to Host a Mapathon"
+  prep_btn:       "PREPARATION CHECKLIST"
+  check_btn:      "EVENT DAY CHECKLIST"
+  materials_btn:  "MATERIALS"
+  how_help:       "How Can Missing Maps Help?"
+  how_help_text:  "We can provide your team with local or remote support to help coordinate and manage your event. Contact the Missing Maps Coordinator with your event date and location so that we can help you with following:"
+  how_help_steps:
+    - label: "Pick a Mapping Task - Connect with us for a suggested list of the most pressing tasks to map at your event."
+    - label: "Live Presentations - A staff person will be made available either in person or via online streaming to present Missing Maps."
+    - label: "Training Guidance - A staff person will be made available either in person or via online streaming to walk through the training with attendees."
+    - label: "Registration Guidance - We can provide you with tools and tips on how to register and keep track of attendees."
+    - label: "Customized marketing and publicity materials - Sample press releases and intranet posts can be provided by the Missing Maps Coordinator for each engagement event. We can also add your mapathon event info to the Missing Maps Website and the <a href= \"http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons\">Wiki Pages.</a>"
+    - label: "Collaborate with your local Missing Maps partner organization – we can connect you with local Missing Maps partner organizations to help find mapping experts and handle translation services when available and appropriate."
+  prep_check:     "Preparation Checklist"
+  prep_check_list:
+    - label: "Large Room, Suggested Capacity 100"
+    - label: "Strong Wifi to allow for Simultaneous Access"
+    - label: "Contact Missing Maps for a Suggested List of Mapping Tasks"
+    - label: "Tables and Chairs"
+    - label: "Projector"
+    - label: "Laptop and Mouse"
+    - label: "Extension Cords and Computer Cables"
+    - label: "Registration Table"
+    - label: "Snacks"
+    - label: "Recruit Friends and Volunteers to Help with Logistics"
+    - label: "Tweet about it"
+  event_check:    "Event Day Checklist"
+  event_check_list:
+    - "label: Set up room"
+    - label: "Set up registration table with name tags, brochures, and method to sign people in"
+    - label: "Test equipment to make sure its all working"
+    - label: "Tape extension cords to the floor for safety"
+    - label: "Place Table Top guides on each table"
+    - label: "Make sure you have contact info for tech or support staff in your event space"
+    - label: "Confirm food and drink orders"
+    - label: "Have fun mapping"
+    - label: "Have volunteers complete the <a href=\"https://docs.google.com/forms/d/1ogzGmTIeYA4NVq5SwRU-vIA9Bw1Ua7NRhrCYKUrnPqQ/viewform\">Volunteer Survey.</a>"
+  materials:      "Training and Event Materials"
+  # if you have translated assets, put them in the assets folder and include filename here, if not, feel free to use the english versions as listed
+  materials_list:
+    - text:       "Step-by-Step Guide to Hosting a Mapathon"
+      asset:      "MissingMaps_how_to_host_a_mapathon.pdf"
+    - text:       "Missing Maps Infographic: How it Works"
+      asset:      "MissingMaps-Process.pdf"
+    - text:       "Mapathon Tabletop Guide"
+      asset:      "MissingMaps-tabletop.pdf"
