@@ -176,7 +176,7 @@ header{
   float: right;
   position: relative;
   display: inline-block;
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 650px) {
     display: none;
   }
 }
@@ -296,7 +296,7 @@ header{
   }
   &:hover{
   }
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 650px) {
     display: block;
   }
 }
@@ -328,7 +328,7 @@ header{
 .resp-nav-dropdown {
     display: inline-block;
     text-align: center;
-    @media screen and (min-width: 500px) {
+    @media screen and (min-width: 651px) {
       display: none;
     }
 }

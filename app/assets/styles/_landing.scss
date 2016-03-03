@@ -95,11 +95,6 @@
     vertical-align:bottom;
   }
   #process-container {
-    padding-bottom: 20px;
-    svg {
-      width: 100%;
-      height: auto;
-    }
     @media screen and (max-width: 500px){
       display: none;
     }
@@ -108,8 +103,16 @@
 
 .mobile-remove{
   display: block;
-  @media screen and (max-width: 500px){
+  @media screen and (max-width: 650px){
     display: none;
+  }
+}
+
+#process-container,#process-container-mobile {
+  padding-bottom: 20px;
+  svg {
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -117,13 +120,6 @@
   display: none;
   @media screen and (max-width: 500px){
     display: block;
-  }
-  #process-container-mobile {
-    padding-bottom: 20px;
-    svg {
-      width: 100%;
-      height: auto;
-    }
   }
 }
 

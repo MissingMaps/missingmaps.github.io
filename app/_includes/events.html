@@ -8,11 +8,11 @@
 		</div>
 	</div>
 
-{% assign current_date = site.time | date: '%s' %}
+{% assign current_date = site.time | date: '%Y%m%d' %}
 {% assign event = (site.data.events | sort: 'date' ) %}
 {% for e in event %}
-	{% assign event_date = e.date | date: '%s' %}
-	{% if event_date > current_date %}
+	{% assign event_date = e.date | date: '%Y%m%d' %}
+	{% if event_date >= current_date %}
 		{% assign count = count | plus: 1 %}
 
 		<div class="event-sub-container">
