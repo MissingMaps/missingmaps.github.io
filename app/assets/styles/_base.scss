@@ -262,6 +262,11 @@ header{
       background-color: $darkestgrey;
       border-bottom: 1px solid lighten($darkestgrey, 15);
       padding-left: 12px;
+      white-space: nowrap;
+      text-align: right;
+      &.item-centered {
+        text-align: center;
+      }
     }
 }
 

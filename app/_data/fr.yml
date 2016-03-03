@@ -14,9 +14,9 @@ nav:
     url:          "/fr/apropos/"
   links_text:     "DÉCOUVRIR"
   extlinks:
-    - text:       "USER PROFILES"
+    - text:       "PROFILS DES CONTRIBUTEURS"
       url:        "http://www.missingmaps.org/users/"
-    - text:       "LEADERBOARDS"
+    - text:       "LES COUREURS DE TÊTE"
       url:        "http://www.missingmaps.org/leaderboards/"
 
 #####################
@@ -24,63 +24,63 @@ nav:
 #####################
 
 banner:
-  title:          "Putting the World's Vulnerable People on the Map"
-  subtitle1:       "Missing Maps is powered by"
-  subtitle2:       "volunteers around the world and in your community who map far off places and their own neighborhoods."
-  get_involved:   "GET INVOLVED"
-  about_us:       "ABOUT US"
+  title:          "Remettre les personnes les plus vulnérables de la Terre sur la carte"
+  subtitle1:       "Missing Maps fonctionne grâce aux volontaires"
+  subtitle2:       "autour du monde qui cartographient les lieux qui leurs sont lointains et proches."
+  get_involved:   "S'IMPLIQUER"
+  about_us:       "À PROPOS DE NOUS"
 
 how_we_work:
-  title:        "How we work"
+  title:        "Comment ça marche"
   step1:
     text:       "Étape 1."
-    line1:      "Remote volunteers trace satellite"
-    line2:      "imagery into OpenStreetMap"
+    line1:      "À distance, des volontaires tracent sur"
+    line2:      "OpenStreetMap à partir de l'imagerie satellite"
   step2:
     text:       "Étape 2."
-    line1:      "Community volunteers add local"
-    line2:      "detail such as neighborhoods, street"
-    line3:      "names, and evacuation centers"
+    line1:      "Sur le terrain, des volontaires ajoutent"
+    line2:      "des détails locaux comme les noms de"
+    line3:      "rues ou les centres d'urgence"
   step3:
     text:       "Étape 3."
-    line1:      "Humanitarian organizations use mapped"
-    line2:      "information to plan risk reduction and"
-    line3:      "disaster response activities that save lives"
+    line1:      "Les organisations humanitaires utilisent"
+    line2:      "les informations pour préparer la réduction"
+    line3:      "des risques et la réponse aux catastrophes"
 
 how_to_participate:
-  title:        "How to participate"
-  start:        "Start Mapping Now"
+  title:        "Comment participer"
+  start:        "Commencez à cartographier"
   start_text:   "There are many ways to get involved with Missing Maps right now! Get started mapping now by reading through our beginners documentation on the How to Contribute page and learn more about the ways you can contribute to OpenStreetMap."
-  map_btn:      "MAP NOW"
-  learn_btn:    "LEARN"
-  build:        "Build a community"
+  map_btn:      "CARTOGRAPHIER"
+  learn_btn:    "APPRENDRE"
+  build:        "Construire une communauté"
   build_text:   "Hosting a mapathon is an opportunity to help build a community of mappers focused on an area of the world. You can help volunteers learn how to edit in OpenStreetMap, gain new skills, and engage in the larger mapping community by hosting your own mapathon."
-  lead_btn:     "LEAD A MAPATHON"
-  join_btn:     "JOIN EMAIL LIST"
-  donate:       "Donate to make an impact"
+  lead_btn:     "ORGANISER UN MAPATHON"
+  join_btn:     "RECEVOIR LA NEWSLETTER"
+  donate:       "Faire un don pour faire une difference"
   donate_text:  "Each year, disasters around the world kill nearly 100,000 and affect or displace 200 million people. Many of the places where these disasters occur do not exist on any map and first responders lack the information to make valuable decisions regarding relief efforts. Donate to help map the difference."
-  donate_btn:   "DONATE"
+  donate_btn:   "DONNEZ"
 
 contributions:
   title:        "Contributions"
-  subtitle:     "Since 2014 Missing Maps users have contributed"
-  total:        "Total Contributors"
-  edits:        "Total Edits"
-  buildings:    "Total Buildings"
-  roads:        "Total Roads"
+  subtitle:     "Depuis 2014 les contributeurs Missing Maps ont contribué"
+  total:        "Contributeurs Totales"
+  edits:        "Editions Totales"
+  buildings:    "Bâtiments Totales"
+  roads:        "Routes Totales"
 
 discover:
-  title:        "Discover"
+  title:        "Découvrir"
   subtitle:     "To track your individual & project contributions Missing Maps provides two tools."
-  profiles:     "User Profiles"
+  profiles:     "Profils des Contributeurs"
   profile_text: "Check out your contributions to HOT tasks!"
-  profile_btn:  "FIND A USER"
+  profile_btn:  "TROUVER UN CONTRIBUTEUR"
   projects:     "Project Leaderboards"
   project_text: "Find out where you stand among contributed hashtags!"
   project_btn:  "FIND A LEADERBOARD"
 
 contact:
-  title:        "Contact Us"
+  title:        "Nous contacter"
 
 ########################
 ## CONTRIBUTE CONTENT ##

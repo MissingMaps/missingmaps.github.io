@@ -29,11 +29,11 @@
 					<div class="dropdown-content">
 						{% for loc in site.authorized_locales %} {% if loc == site.default_locale %}
 						<a href="/">
-							<div class="nav-item">{{loc}}</div>
+							<div class="nav-item item-centered">{{loc}}</div>
 						</a>
 						{% else %}
 						<a href="{{site.baseurl}}/{{loc}}/">
-							<div class="nav-item">{{loc}}</div>
+							<div class="nav-item item-centered">{{loc}}</div>
 						</a>
 						{% endif %} {% endfor %}
 					</div>
