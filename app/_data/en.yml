@@ -3,28 +3,22 @@
 ####################
 
 nav:
-  contribute:
-    text:         "CONTRIBUTE"
+  - text:         "CONTRIBUTE"
     url:          "/contribute/"
-  events:
-    text:         "EVENTS"
-    current:
-      text:       "CURRENT EVENTS"
-      url:        "/events/"
-    host:
-      text:       "ORGANIZE AN EVENT"
-      url:        "/host/"
-  about:
-    text:         "ABOUT"
+  - text:         "EVENTS"
     links:
-      - text:     ""
+      - text:     "CURRENT EVENTS"
+        url:      "/events/"
+      - text:     "ORGANIZE AN EVENT"
+        url:      "/host/"
+  - text:         "ABOUT"
     url:          "/about/"
-  links_text:     "DISCOVER"
-  extlinks:
-    - text:       "USER PROFILES"
-      url:        "http://www.missingmaps.org/users/"
-    - text:       "LEADERBOARDS"
-      url:        "http://www.missingmaps.org/leaderboards/"
+  - text:         "DISCOVER"
+    links:
+      - text:     "USER PROFILES"
+        url:      "http://www.missingmaps.org/users/"
+      - text:     "LEADERBOARDS"
+        url:      "http://www.missingmaps.org/leaderboards/"
 
 #####################
 ## LANDING CONTENT ##

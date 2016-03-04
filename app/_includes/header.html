@@ -7,27 +7,22 @@
 		</div>
 		<div class="nav-list">
 			<ul>
-				<a href="{{site.baseurl}}{{site.data[locale].nav.contribute.url}}">
-					<li class="nav-item">{{site.data[locale].nav.contribute.text}}</li>
+				{% for nav in site.data[locale].nav %}
+				{% if nav.url %}
+				<a href="{{nav.url}}">
+					<li class="nav-item">{{nav.text}}</li>
 				</a>
-				<li class="nav-item nav-dropdown">{{site.data[locale].nav.events.text}}
-						<div class="dropdown-content">
-							<a href="{{site.baseurl}}{{site.data[locale].nav.events.current.url}}"><div class="nav-item">{{site.data[locale].nav.events.current.text}}</div></a>
-							<a href="{{site.baseurl}}{{site.data[locale].nav.events.host.url}}"><div class="nav-item">{{site.data[locale].nav.events.host.text}}</div></a>
-						</div>
-					</li>
-				<a href="{{site.baseurl}}{{site.data[locale].nav.about.url}}">
-					<li class="nav-item">{{site.data[locale].nav.about.text}}</li>
-				</a>
-				<li class="nav-item nav-dropdown">{{site.data[locale].nav.links_text}}
+				{% else if nav.links %}
+				<li class="nav-item nav-dropdown">{{nav.text}}
 					<div class="dropdown-content">
-						{% for link in site.data[locale].nav.extlinks %}
-						<a href="{{link.url}}">
-							<div class="nav-item">{{link.text}}</div>
-						</a>
+						{% for link in nav.links %}
+						<a href="{{link.url}}"><div class="nav-item">{{link.text}}</div></a>
 						{% endfor %}
 					</div>
-				</li>|
+				</li>
+				{% endif %}
+				{% endfor %}
+				|
 				<li class="nav-item nav-dropdown">{{locale}}
 					<div class="dropdown-content">
 						{% for loc in site.authorized_locales %} {% if loc == site.default_locale %}
@@ -47,19 +42,16 @@
 	<div class="resp-navbar navbar-background resp-nav-dropdown">
 		<p>MENU</p>
 		<div class="resp-dropdown-content">
-			<a href="{{site.baseurl}}{{site.data[locale].nav.contribute.url}}">
-				<li class="nav-item">{{site.data[locale].nav.contribute.text}}</li>
+			{% for nav in site.data[locale].nav %}
+			{% if nav.url %}
+			<a href="{{nav.url}}">
+				<li class="nav-item">{{nav.text}}</li>
 			</a>
-			<a href="{{site.baseurl}}{{site.data[locale].nav.events.url}}">
-				<li class="nav-item">{{site.data[locale].nav.events.text}}</li>
-			</a>
-			<a href="{{site.baseurl}}{{site.data[locale].nav.about.url}}">
-				<li class="nav-item">{{site.data[locale].nav.about.text}}</li>
-			</a>
-			{% for link in site.data[locale].nav.extlinks %}
+			{% else if nav.links %}{% for link in nav.links %}
 			<a href="{{link.url}}">
-				<div class="nav-item">{{link.text}}</div>
+				<li class="nav-item">{{link.text}}</li>
 			</a>
+			{% endfor %}{% endif %}
 			{% endfor %}
 			<div class="mobile-languages">
 				{% for loc in site.authorized_locales %} {% if loc == site.default_locale %}

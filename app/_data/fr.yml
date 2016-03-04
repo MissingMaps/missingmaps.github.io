@@ -3,26 +3,22 @@
 ####################
 
 nav:
-  contribute:
-    text:         "CONTRIBUER"
+  - text:         "CONTRIBUER"
     url:          "/fr/contribuer/"
-  events:
-    text:         "EVENEMENTS"
-    current:
-      text:       "PROCHAINS EVENEMENTS"
-      url:        "/fr/evenements/"
-    host:
-      text:       "ORGANIZER UN EVENEMENT"
-      url:        "/fr/organiser/"
-  about:
-    text:         "À PROPOS"
+  - text:         "EVENEMENTS"
+    links:
+      - text:     "PROCHAINS EVENEMENTS"
+        url:      "/fr/evenements/"
+      - text:     "ORGANIZER UN EVENEMENT"
+        url:      "/fr/organiser/"
+  - text:         "À PROPOS"
     url:          "/fr/apropos/"
-  links_text:     "DÉCOUVRIR"
-  extlinks:
-    - text:       "PROFILS DES CONTRIBUTEURS"
-      url:        "http://www.missingmaps.org/users/"
-    - text:       "LES COUREURS DE TÊTE"
-      url:        "http://www.missingmaps.org/leaderboards/"
+  - text:         "DÉCOUVRIR"
+    links:
+      - text:     "PROFILS DES CONTRIBUTEURS"
+        url:      "http://www.missingmaps.org/users/"
+      - text:     "LES COUREURS DE TÊTE"
+        url:      "http://www.missingmaps.org/leaderboards/"
 
 #####################
 ## LANDING CONTENT ##
