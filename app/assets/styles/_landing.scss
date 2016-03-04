@@ -93,6 +93,7 @@
   }
   img{
     vertical-align:bottom;
+    width: 100%;
   }
 }
 
@@ -696,5 +697,12 @@ hr{
   position: absolute;
   right: 8px;
   top: 10px;
+  }
+}
+
+.OSM-logo{
+  img{
+  width: 100px;
+  height: 100px;
   }
 }
