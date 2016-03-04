@@ -3,21 +3,22 @@
 ####################
 
 nav:
-  contribute:
-    text:         "CONTRIBUTE"
+  - text:         "CONTRIBUTE"
     url:          "/contribute/"
-  events:
-    text:         "EVENTS"
-    url:          "/events/"
-  about:
-    text:         "ABOUT"
+  - text:         "EVENTS"
+    links:
+      - text:     "CURRENT EVENTS"
+        url:      "/events/"
+      - text:     "ORGANIZE AN EVENT"
+        url:      "/host/"
+  - text:         "ABOUT"
     url:          "/about/"
-  links_text:     "DISCOVER"
-  extlinks:
-    - text:       "USER PROFILES"
-      url:        "http://www.missingmaps.org/users/"
-    - text:       "LEADERBOARDS"
-      url:        "http://www.missingmaps.org/leaderboards/"
+  - text:         "DISCOVER"
+    links:
+      - text:     "USER PROFILES"
+        url:      "http://www.missingmaps.org/users/"
+      - text:     "LEADERBOARDS"
+        url:      "http://www.missingmaps.org/leaderboards/"
 
 #####################
 ## LANDING CONTENT ##
@@ -25,40 +26,48 @@ nav:
 
 banner:
   title:          "Putting the World's Vulnerable People on the Map"
-  subtitle1:       "Missing Maps is powered by"
-  subtitle2:       "volunteers around the world and in your community who map far off places and their own neighborhoods."
+  subtitle:       "Each year, disasters around the world kill nearly 100,000 and affect or displace 200 million people. Many of the places where these disasters occur are literally 'missing' from any map and first responders lack the information to make valuable decisions regarding relief efforts. Missing Maps is an open, collaborative project in which you can help to map areas where humanitarian organisations are trying to meet the needs of vulnerable people."
   get_involved:   "GET INVOLVED"
-  about_us:       "ABOUT US"
 
 how_we_work:
   title:        "How we work"
+  # the "step" lines are for insertion in an svg
+  #   and are therefore rather fixed in max length and number of lines allowed
   step1:
     text:       "Step 1."
+    #   approximate max length -------------------------------------||
     line1:      "Remote volunteers trace satellite"
+    #   approximate max length ----------------------------------||
     line2:      "imagery into OpenStreetMap"
   step2:
     text:       "Step 2."
+    #   approximate max length ----------------------------------||
     line1:      "Community volunteers add local"
+    #   approximate max length --------------------------------||
     line2:      "detail such as neighborhoods, street"
+    #   approximate max length ------------------------------||
     line3:      "names, and evacuation centers"
   step3:
     text:       "Step 3."
+    #   approximate max length ---------------------------------||
     line1:      "Humanitarian organizations use mapped"
+    #   approximate max length ---------------------------------||
     line2:      "information to plan risk reduction and"
+    #   approximate max length ---------------------------------||
     line3:      "disaster response activities that save lives"
 
 how_to_participate:
   title:        "How to participate"
   start:        "Start Mapping Now"
-  start_text:   "There are many ways to get involved with Missing Maps right now! Get started mapping now by reading through our beginners documentation on the How to Contribute page and learn more about the ways you can contribute to OpenStreetMap."
+  start_text:   "It is no problem if you have never mapped before - it doesn't take long to learn. Visit our beginners section to find out how. If you already know how to edit OpenStreetMap, feel free to just get started."
   map_btn:      "MAP NOW"
-  learn_btn:    "LEARN"
-  build:        "Build a community"
-  build_text:   "Hosting a mapathon is an opportunity to help build a community of mappers focused on an area of the world. You can help volunteers learn how to edit in OpenStreetMap, gain new skills, and engage in the larger mapping community by hosting your own mapathon."
+  learn_btn:    "LEARN TO MAP"
+  organize:     "Organize a mapathon"
+  organize_text: "Organizing mapathons is a fantastic way build a community of mappers all focusing on the same area of the world. It is also a great learning environment, where new mappers can learn from the experiences of others. Mapathons are organised by groups and individuals all over the world."
   lead_btn:     "LEAD A MAPATHON"
   join_btn:     "JOIN EMAIL LIST"
   donate:       "Donate to make an impact"
-  donate_text:  "Each year, disasters around the world kill nearly 100,000 and affect or displace 200 million people. Many of the places where these disasters occur do not exist on any map and first responders lack the information to make valuable decisions regarding relief efforts. Donate to help map the difference."
+  donate_text:  "A donation to the Humanitarian OpenStreetMap Team (one of the founders of Missing Maps) can help to support local people in mapping their own communities, to develop tools and processes so that more people can contribute, and to scale the project so that we can help even more humanitarian organisations responding to crises all over the world."
   donate_btn:   "DONATE"
 
 contributions:
@@ -92,16 +101,13 @@ contribute:
   learn_osm:    "MORE TUTORIALS"
   beginners:    "Beginners"
   step1:        "Create an Open Street Map account"
-  step1_text1:  "Go to the"
-  step1_text2:  "website and register to create an account. Follow the link in the email they send to confirm your account."
+  step1_text:   "Go to the <a href=\"https://www.openstreetmap.org/login\">OpenStreetMap</a>  website and register to create an account. Follow the link in the email they send to confirm your account."
   step2:        "Learn to map buildings"
   step2_text:   "Buildings are one of the most useful things you can add to OpenStreetMap (and they're fun too)! Learn how to add and edit buildings to OSM through the iD editor."
   step3:        "Learn to map roads"
   step3_text:   "Roads are also one of the most useful things you can add to OpenStreetMap! Learn how to add and edit roads to OSM through the iD editor."
   step4:        "Learn to use the Tasking Manager"
-  step4_text1:  "Go to the"
-  step4_taskmgr: "Task Manager"
-  step4_text2:  "to find a project and task that interests you. Learn how to lock a task to edit, select an editing program and change the background settings."
+  step4_text:   "Go to the <a href=\"http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps\">Task Manager</a> to find a project and task that interests you. Learn how to lock a task to edit, select an editing program and change the background settings."
 
 ####################
 ## EVENTS CONTENT ##
@@ -119,9 +125,7 @@ about:
   objectives:
     title:      "Objectives"
     text1:      "To map the most vulnerable places in the developing world, in order that international and local NGOs and individuals can use the maps and data to better respond to crises affecting the areas."
-    text2:      "To support"
-    text3:      ", specifically the"
-    text4:      ", in developing technologies, skills, workflows, and communities."
+    text2:      "To support <a href=\"http://openstreetmap.org\">OpenStreetMap</a> , specifically the <a href=\"http://hotosm.org\">Humanitarian OpenStreetMap Team (HOT)</a>, in developing technologies, skills, workflows, and communities."
   ethics:
     title:      "Ethics"
     text1:      "Using OpenStreetMap ensures that all data gathered under the project banner will be free, open, and available for use under OpenStreetMap’s open license."
@@ -145,7 +149,6 @@ about:
 #####################
 
 host:
-  nav:            "/host/"
   title:          "Hosting a Mapathon"
   text:           "A mapathon is a unique and engaging opportunity for volunteers to digitally connect and map the most vulnerable places in the developing world so that local and international NGOs can use these comprehensive maps and data to better respond to crises affecting these areas. Digital volunteer engagement is vital for the success of many humanitarian organizations around the world in responding to disasters. It is imperative to have a larger pool of trained volunteers that are ready to assist with little coordination when a disaster occurs. Check out the videos below to learn more about what a mapathon is and how to host one."
   what_is:        "What is a Mapathon?"
@@ -177,7 +180,7 @@ host:
     - label: "Tweet about it"
   event_check:    "Event Day Checklist"
   event_check_list:
-    - "label: Set up room"
+    - label: "Set up room"
     - label: "Set up registration table with name tags, brochures, and method to sign people in"
     - label: "Test equipment to make sure its all working"
     - label: "Tape extension cords to the floor for safety"

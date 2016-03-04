@@ -94,6 +94,9 @@
   img{
     vertical-align:bottom;
   }
+  .process-header {
+    padding-bottom: 20px;
+  }
   #process-container {
     @media screen and (max-width: 500px){
       display: none;
