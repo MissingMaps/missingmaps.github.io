@@ -8,7 +8,12 @@ nav:
     url:          "/fr/contribuer/"
   events:
     text:         "EVENEMENTS"
-    url:          "/fr/evenements/"
+    current:
+      text:       "PROCHAINS EVENEMENTS"
+      url:        "/fr/evenements/"
+    host:
+      text:       "ORGANIZER UN EVENEMENT"
+      url:        "/fr/organiser/"
   about:
     text:         "À PROPOS"
     url:          "/fr/apropos/"

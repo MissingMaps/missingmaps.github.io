@@ -10,9 +10,12 @@
 				<a href="{{site.baseurl}}{{site.data[locale].nav.contribute.url}}">
 					<li class="nav-item">{{site.data[locale].nav.contribute.text}}</li>
 				</a>
-				<a href="{{site.baseurl}}{{site.data[locale].nav.events.url}}">
-					<li class="nav-item">{{site.data[locale].nav.events.text}}</li>
-				</a>
+				<li class="nav-item nav-dropdown">{{site.data[locale].nav.events.text}}
+						<div class="dropdown-content">
+							<a href="{{site.baseurl}}{{site.data[locale].nav.events.current.url}}"><div class="nav-item">{{site.data[locale].nav.events.current.text}}</div></a>
+							<a href="{{site.baseurl}}{{site.data[locale].nav.events.host.url}}"><div class="nav-item">{{site.data[locale].nav.events.host.text}}</div></a>
+						</div>
+					</li>
 				<a href="{{site.baseurl}}{{site.data[locale].nav.about.url}}">
 					<li class="nav-item">{{site.data[locale].nav.about.text}}</li>
 				</a>
