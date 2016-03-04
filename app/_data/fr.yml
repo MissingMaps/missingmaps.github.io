@@ -95,16 +95,13 @@ contribute:
   learn_osm:    "MORE TUTORIALS"
   beginners:    "Beginners"
   step1:        "Create an Open Street Map account"
-  step1_text1:  "Go to the"
-  step1_text2:  "website and register to create an account. Follow the link in the email they send to confirm your account."
+  step1_text:   "Go to the <a href=\"https://www.openstreetmap.org/login\">OpenStreetMap</a>  website and register to create an account. Follow the link in the email they send to confirm your account."
   step2:        "Learn to map buildings"
   step2_text:   "Buildings are one of the most useful things you can add to OpenStreetMap (and they're fun too)! Learn how to add and edit buildings to OSM through the iD editor."
   step3:        "Learn to map roads"
   step3_text:   "Roads are also one of the most useful things you can add to OpenStreetMap! Learn how to add and edit roads to OSM through the iD editor."
   step4:        "Learn to use the Tasking Manager"
-  step4_text1:  "Go to the"
-  step4_taskmgr: "Task Manager"
-  step4_text2:  "to find a project and task that interests you. Learn how to lock a task to edit, select an editing program and change the background settings."
+  step4_text:   "Go to the <a href=\"http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps\">Task Manager</a> to find a project and task that interests you. Learn how to lock a task to edit, select an editing program and change the background settings."
 
 ####################
 ## EVENTS CONTENT ##
@@ -122,9 +119,7 @@ about:
   objectives:
     title:      "Objectives"
     text1:      "To map the most vulnerable places in the developing world, in order that international and local NGOs and individuals can use the maps and data to better respond to crises affecting the areas."
-    text2:      "To support"
-    text3:      ", specifically the"
-    text4:      ", in developing technologies, skills, workflows, and communities."
+    text2:      "To support <a href=\"http://openstreetmap.org\">OpenStreetMap</a> , specifically the <a href=\"http://hotosm.org\">Humanitarian OpenStreetMap Team (HOT)</a>, in developing technologies, skills, workflows, and communities."
   ethics:
     title:      "Ethics"
     text1:      "Using OpenStreetMap ensures that all data gathered under the project banner will be free, open, and available for use under OpenStreetMap’s open license."
@@ -180,7 +175,7 @@ host:
     - label: "Tweet about it"
   event_check:    "Event Day Checklist"
   event_check_list:
-    - "label: Set up room"
+    - label: "Set up room"
     - label: "Set up registration table with name tags, brochures, and method to sign people in"
     - label: "Test equipment to make sure its all working"
     - label: "Tape extension cords to the floor for safety"
