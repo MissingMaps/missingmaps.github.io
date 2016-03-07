@@ -17,7 +17,7 @@ nav:
     links:
       - text:     "PROFILS DES CONTRIBUTEURS"
         url:      "http://www.missingmaps.org/users/"
-      - text:     "LES COUREURS DE TÊTE"
+      - text:     "TABLEAU DES MENEURS"
         url:      "http://www.missingmaps.org/leaderboards/"
 
 #####################
@@ -52,7 +52,7 @@ how_to_participate:
   start_text:   "Ce n'est pas un problème si vous n'avez jamais cartographier avant - l'apprentissage n'est pas long. Visiter notre section débutants pour apprendre comment cartographier. Si vous savez déjà éditer OpenStreetMap, allez directement à get started."
   map_btn:      "CARTOGRAPHIER"
   learn_btn:    "APPRENDRE"
-  organize:     "Organisee un mapathon"
+  organize:     "Organiser un mapathon"
   organize_text: "L'organisation de mapathons est un moyen fantastique pour développer une communauté de catastrophes dans une région du globe. C'est aussi un environment propice à l'apprentissage, où les nouveaux peuvent bénéficier de l'expérience des autres. Des mapathons sont organisés par des entités ou à titre individuel partout dans le monde."
   lead_btn:     "ORGANISER UN MAPATHON"
   join_btn:     "RECEVOIR LA NEWSLETTER"
@@ -72,11 +72,11 @@ discover:
   title:        "Découvrir"
   subtitle:     "Pour suivre vos contribution individuelle et à des projets Missing Maps fournit deux outils."
   profiles:     "Profils des Contributeurs"
-  profile_text: "Vérifier vos contributions à l'aide des Tâches HOT!"
+  profile_text: "Vérifier vos contributions à l'aide des tâches HOT !"
   profile_btn:  "TROUVER UN CONTRIBUTEUR"
-  projects:     "Tableau de bord des projets"
-  project_text: "Découvrer où      out where you stand among contributed hashtags!"
-  project_btn:  "TROUVER UN TABLEAU DE BORD"
+  projects:     "Tableau des meneurs des projets"
+  project_text: "Découvrir où vous êtes parmi les hashtags contribués !"
+  project_btn:  "TROUVER UN TABLEAU DES MENEURS"
 
 contact:
   title:        "Nous contacter"
@@ -91,7 +91,7 @@ contribute:
   learn_osm:    "PLUS DE TUTORIAUX"
   beginners:    "Débutants"
   step1:        "Créer un Compte Open Street Map"
-  step1_text:   "Allez sur le site <a href=\"https://www.openstreetmap.org/login\">OpenStreetMap</a> enregistrez vous pour créer un compte. Suivez le lien dans le mail qui vous sera envoyer pour vqlider la création de votre compte."
+  step1_text:   "Allez sur le site <a href=\"https://www.openstreetmap.org/login\">OpenStreetMap</a> enregistrez vous pour créer un compte. Suivez le lien dans le mail qui vous sera envoyer pour valider la création de votre compte."
   step2:        "Apprenez à cartographier les bâtiments"
   step2_text:   "Les bâtiments sont une des choses les plus importantes à ajouter sur OpenStreetMap (et c'est amusant aussi)! Apprenez comment ajouter ou éditer les bâtiments à OSM au travers de l'éditeur iD."
   step3:        "Apprenez à cartographier les routes"
