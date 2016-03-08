@@ -1,30 +1,23 @@
-// 'use strict';
+/*
+Populates contribution statistics on landing page
+using the root Missing Maps API endpoint
+*/
 
-// var config = require('./config');
+var xmlhttp = new XMLHttpRequest();
+var url = 'http://nickss-mbp.local:3000/';
 
-// console.log.apply(console, config.consoleMessage);
-// if (config.environment === 'staging') {
-//   console.log('STAGING');
-// }
+xmlhttp.onreadystatechange = function() {
+  if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+    var response = JSON.parse(xmlhttp.responseText)[0];
+    updateStatistics(response);
+  };
+};
+xmlhttp.open('GET', url, true);
+xmlhttp.send();
 
-//----------------------------//
-//  Runs on Document Ready
-//----------------------------//
-$(document).ready(function(){
-	var y = $(this).scrollTop();
-	if (y > 500){
-		$('header').fadeIn("duration:1").css('display', 'inline-block');
-	};
-});
-
-//----------------------------//
-//  Header scripts
-//----------------------------//
-$(document).scroll(function() {
-	var y = $(this).scrollTop();
-	if (y > 500){
-		$('header').fadeIn().css('display', 'inline-block');
-	} else {
-		$('header').fadeOut();
-	};
-});
+function updateStatistics(stats) {
+  ['users', 'edits', 'buildings', 'roads'].forEach(function (cat) {
+    document.getElementById('stats-' + cat + 'Count')
+      .innerHTML = Math.floor(stats[cat]).toLocaleString() + '+';
+  });
+};
