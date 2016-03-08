@@ -4,7 +4,7 @@ using the root Missing Maps API endpoint
 */
 
 var xmlhttp = new XMLHttpRequest();
-var url = 'http://nickss-mbp.local:3000/';
+var url = 'http://osmstats.redcross.org/';
 
 xmlhttp.onreadystatechange = function() {
   if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
