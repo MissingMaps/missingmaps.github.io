@@ -18,7 +18,6 @@ var cp = require('child_process');
 // To reduce build times the assets are compiles at the same time as jekyll
 // renders the site. Once the rendering has finished the assets are copied.
 gulp.task('copy:assets', function(done) {
-  console.log('copying...')
   return gulp.src('.tmp/assets/**')
     .pipe(gulp.dest('_site/assets'));
 });
