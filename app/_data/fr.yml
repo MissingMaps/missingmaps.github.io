@@ -26,7 +26,7 @@ nav:
 
 banner:
   title:          "Mettre les personnes les plus vulnérables de la Terre sur la carte"
-  subtitle:	  "Chaque année dans le monde, des catastrophes tuent presque 100 000 personnes et affectent ou deplacent 200 millions de personnes. La plupart des endroits où ces évènements ont lieu sont littéralement absents des cartes si bien que les équipes d'interventions manquent d'information pour prendre des décisions et apporter le secours necessaire. 'Missing Maps' est un projet ouvert et collaboratif qui vous permet d'aider à cartographier les zones oû les organisations humanitaires essaient de porter secours aux populations vulnérables."
+  subtitle:	  "Chaque année dans le monde, des catastrophes tuent presque 100 000 personnes et affectent ou deplacent 200 millions de personnes. La plupart des endroits où ces évènements ont lieu sont littéralement absents des cartes si bien que les équipes d'interventions manquent d'information pour prendre des décisions et apporter le secours necessaire. Missing Maps est un projet ouvert et collaboratif qui vous permet d'aider à cartographier les zones oû les organisations humanitaires essaient de porter secours aux populations vulnérables."
   get_involved:   "S'IMPLIQUER"
 
 how_we_work:
@@ -57,12 +57,12 @@ how_to_participate:
   lead_btn:     "ORGANISER UNE CARTOPARTIE"
   join_btn:     "RECEVOIR LA NEWSLETTER"
   donate:       "Faire un don pour faire une différence"
-  donate_text:  "Un don pour l'équipe 'Humanitarian OpenStreetMap' (un des membres fondateurs de 'Missing Maps') aide à soutenir les populations locales dans la cartographie de leur communauté, le développenent d'outils et de moyens pour que plus de gens puissent contribuer et que le projet aide plus d'organisations dans leurs réponses aux crises humanitaires à travers le monde."
+  donate_text:  "Un don pour l'équipe Humanitarian OpenStreetMap (un des membres fondateurs de Missing Maps) aide à soutenir les populations locales dans la cartographie de leur communauté, le développenent d'outils et de moyens pour que plus de gens puissent contribuer et que le projet aide plus d'organisations dans leurs réponses aux crises humanitaires à travers le monde."
   donate_btn:   "DONNEZ"
 
 contributions:
   title:        "Contributions"
-  subtitle:     "Depuis 2014 les contributeurs 'Missing Maps' ont contribué"
+  subtitle:     "Depuis 2014 les contributeurs Missing Maps ont contribué"
   total:        "Contributeurs Totaux"
   edits:        "Editions Totales"
   buildings:    "Bâtiments Totaux"
@@ -70,7 +70,7 @@ contributions:
 
 discover:
   title:        "Découvrir"
-  subtitle:     "'Missing Maps' possède deux outils pour garder une trace de vos contributions individuelles ou par projet"
+  subtitle:     "Missing Maps possède deux outils pour garder une trace de vos contributions individuelles ou par projet"
   profiles:     "Profils des contributeurs"
   profile_text: "Consultez vos contributions aux tâches HOT!"
   profile_btn:  "TROUVER UN CONTRIBUTEUR"
