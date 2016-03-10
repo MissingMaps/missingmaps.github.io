@@ -56,8 +56,8 @@
       <div class="contribute-base">
         <div class="sub-head">{{site.data[locale].how_to_participate.start}}</div>
         <div class="textbox"> {{site.data[locale].how_to_participate.start_text}}</div>
-        <div class="btn btn-grn"><a href="{{ site.baseurl }}{{site.data[locale].nav.contribute.url}}">{{site.data[locale].how_to_participate.map_btn}}</a></div>
-        <div class="btn btn-grn"><a href="{{ site.baseurl }}{{site.data[locale].nav.contribute.url}}#learn">{{site.data[locale].how_to_participate.learn_btn}}</a></div>
+        <div class="btn btn-grn"><a href="{{ site.baseurl }}{{site.data[locale].nav[0].url}}">{{site.data[locale].how_to_participate.map_btn}}</a></div>
+        <div class="btn btn-grn"><a href="{{ site.baseurl }}{{site.data[locale].nav[0].url}}#learn">{{site.data[locale].how_to_participate.learn_btn}}</a></div>
       </div>
     </div>
   </div>
@@ -74,7 +74,7 @@
       <div class="contribute-base">
         <div class="sub-head">{{site.data[locale].how_to_participate.organize}}</div>
         <div class="contribute-box textbox">{{site.data[locale].how_to_participate.organize_text}}</div>
-        <p><a href="{{ site.baseurl }}{{site.data[locale].nav.events.host.url}}" class="btn btn-grn">{{site.data[locale].how_to_participate.lead_btn}}</a>
+        <p><a href="{{ site.baseurl }}{{site.data[locale].nav[1].links[1].url}}" class="btn btn-grn">{{site.data[locale].how_to_participate.lead_btn}}</a>
           <a href="https://missingmaps.wufoo.com/forms/z1qf97pz0dwu14f/" class="btn btn-grn">{{site.data[locale].how_to_participate.join_btn}}</a></p>
       </div>
     </div>
@@ -188,7 +188,7 @@
   {% include events_min.html %}
 </div>
 <div class="events-panel">
-  <a href="{{ site.baseurl }}{{site.data[locale].nav.events.url}}" class="button invert-btn-white">{{site.data[locale].events.all_btn}}</a>
+  <a href="{{ site.baseurl }}{{site.data[locale].nav[1].links[0].url}}" class="button invert-btn-white">{{site.data[locale].events.all_btn}}</a>
 </div>
 
 
