@@ -93,6 +93,7 @@
   }
   img{
     vertical-align:bottom;
+    width: 100%;
   }
   .process-header {
     padding-bottom: 20px;
@@ -693,6 +694,13 @@ hr{
   text-align: center;
   li {
   background-color: lighten($lightgrey, 10%);
+  }
+}
+
+.OSM-logo{
+  img{
+    width: 100px;
+    height: 100px;
   }
 }
 
