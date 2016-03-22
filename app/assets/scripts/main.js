@@ -2,7 +2,7 @@
 Populates contribution statistics on landing page using
 the root Missing Maps API endpoint.
 
-Note: MissingMap began collecting statistics in real-time
+Note: MissingMap began collecting statistics in realtime
 beginning February 16, 2016, a few of which are displayed
 on the MissingMaps landing page (users, total edits,
 building edits, and road kilometer additions). The object
