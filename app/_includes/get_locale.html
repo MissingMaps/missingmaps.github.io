@@ -1,0 +1,1 @@
+{% comment %}Getting the locale from the url{% endcomment %}{% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}{% unless site.authorized_locales contains locale %}{% assign locale = site.default_locale %}{% endunless %}

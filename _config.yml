@@ -10,8 +10,12 @@ exclude:
 timezone: America/New_York
 highlighter: false
 
-baseurl:
+baseurl: ""
 
 collections:
   events:
     output: true
+
+# locale settings
+default_locale:     "en"
+authorized_locales: ["en","fr"]

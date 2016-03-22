@@ -1,6 +1,17 @@
+<script>
+	document.querySelector("header").style.display = 'inline-block';
+</script>
+<div id="site-canvas">
+	<div class="header-image header-events">
+		<div class="dark-overlay center-text">
+			<h1 class="title feature-header">{{site.data[locale].events.title}}</h1>
+		</div>
+	</div>
+
 {% assign current_date = site.time | date: '%Y%m%d' %}
 {% assign event = (site.data.events | sort: 'date' ) %}
-{% for e in event %} {% assign event_date = e.date | date: '%Y%m%d' %}
+{% for e in event %}
+	{% assign event_date = e.date | date: '%Y%m%d' %}
 	{% if event_date >= current_date %}
 		{% assign count = count | plus: 1 %}
 
@@ -9,8 +20,8 @@
 				<div class="sub-head">
 					<img class="event-images" src="{{ site.baseurl }}/assets/graphics/flags/4x3/{{ e.flag }}.svg" width="24px" />
 					<h3 class="event-header">{{ e.title }}</h3>
-					{% if e. %}
-					<a class="btn btn-grn" href="{{ event.link }}" target="">{{site.data[locale].events.sign_up}}</a>
+					{% if e.signup_url %}
+					<a class="btn btn-grn" href="{{ e.signup_url }}" target="">{{site.data[locale].events.sign_up}}</a>
 					{% endif %}
 				</div>
 			</div>
@@ -35,8 +46,6 @@
 			</div>
 		</div>
 
-		{% if count == 3 %}
-			{% break %}
-		{% endif %}
 	{% endif %}
 {% endfor %}
+</div>
