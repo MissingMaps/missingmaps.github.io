@@ -1,30 +1,41 @@
-// 'use strict';
+/*
+Populates contribution statistics on landing page using
+the root Missing Maps API endpoint.
 
-// var config = require('./config');
+Note: MissingMap began collecting statistics in real-time
+beginning February 16, 2016, a few of which are displayed
+on the MissingMaps landing page (users, total edits,
+building edits, and road kilometer additions). The object
+below contains a summary of the number of edits in these
+categories that were submitted prior to February 16, 2016,
+which are added to the running total to estimate totals
+going back to 2014. Users are calculated in realtime by the
+current API, so no additions are necessary.
+*/
 
-// console.log.apply(console, config.consoleMessage);
-// if (config.environment === 'staging') {
-//   console.log('STAGING');
-// }
+const priorStats = {
+	users: 0,
+	edits: 22378685,
+	buildings: 2435322,
+	roads: 215683
+};
 
-//----------------------------//
-//  Runs on Document Ready
-//----------------------------//
-$(document).ready(function(){
-	var y = $(this).scrollTop();
-	if (y > 500){
-		$('header').fadeIn("duration:1").css('display', 'inline-block');
-	};
-});
+const xmlhttp = new XMLHttpRequest();
+const url = 'http://osmstats.redcross.org/';
 
-//----------------------------//
-//  Header scripts
-//----------------------------//
-$(document).scroll(function() {
-	var y = $(this).scrollTop();
-	if (y > 500){
-		$('header').fadeIn().css('display', 'inline-block');
-	} else {
-		$('header').fadeOut();
-	};
-});
+xmlhttp.onreadystatechange = function () {
+  if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
+    const response = JSON.parse(xmlhttp.responseText);
+    updateStatistics(response);
+  };
+};
+xmlhttp.open('GET', url, true);
+xmlhttp.send();
+
+function updateStatistics (stats) {
+  ['users', 'edits', 'buildings', 'roads'].forEach((cat) => {
+  	const total = Math.floor(priorStats[cat] + stats[cat]);
+    document.getElementById(`stats-${cat}Count`)
+      .innerHTML = total.toLocaleString();
+  });
+};
