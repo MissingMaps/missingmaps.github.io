@@ -697,13 +697,6 @@ hr{
   }
 }
 
-.OSM-logo{
-  img{
-    width: 100px;
-    height: 100px;
-  }
-}
-
 .about-button{
   margin-top:40px;
 }
@@ -720,5 +713,12 @@ hr{
   position: absolute;
   right: 8px;
   top: 10px;
+  }
+}
+
+.OSM-logo{
+  img{
+  width: 100px;
+  height: 100px;
   }
 }
