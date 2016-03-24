@@ -176,42 +176,42 @@
                     <path d="M895.8,244.6 C895.8,244.6 892.8,243.9 891.1,247.9 C889.5,251.9 890.9,252 894.3,252.9 C897.7,253.9 895.8,244.6 895.8,244.6 L895.8,244.6 L895.8,244.6 Z" id="Shape" fill="#BD5F28"></path>
                 </g>
                 <g id="Step1" transform="translate(74.000000, 115.000000)" font-family="Hind">
-                    <text id="{{site.data[locale].how_we_work.step1.line1}}" fill="#000000" font-size="13" font-weight="300">
+                    <text id="{{site.data[locale].how_we_work.step1.line1}}" fill="#606161" font-size="13" font-weight="300">
                         <tspan x="0" y="51">{{site.data[locale].how_we_work.step1.line1}}</tspan>
                     </text>
-                    <text id="{{site.data[locale].how_we_work.step1.line2}}" fill="#000000" font-size="13" font-weight="300">
+                    <text id="{{site.data[locale].how_we_work.step1.line2}}" fill="#606161" font-size="13" font-weight="300">
                         <tspan x="0" y="67">{{site.data[locale].how_we_work.step1.line2}}</tspan>
                     </text>
                     <text id="{{site.data[locale].how_we_work.step1.text}}" fill="#414D4B" font-size="23" font-weight="700">
-                        <tspan x="0.1105" y="23" fill="#000000">{{site.data[locale].how_we_work.step1.text}}</tspan>
+                        <tspan x="0.1105" y="23" fill="#606161">{{site.data[locale].how_we_work.step1.text}}</tspan>
                     </text>
                 </g>
                 <g id="Step2" transform="translate(412.000000, 48.000000)" font-family="Hind" font-weight="700">
-                    <text id="{{site.data[locale].how_we_work.step2.line1}}" fill="#000000" font-size="13" font-weight="300">
+                    <text id="{{site.data[locale].how_we_work.step2.line1}}" fill="#606161" font-size="13" font-weight="300">
                         <tspan x="0" y="51">{{site.data[locale].how_we_work.step2.line1}}</tspan>
                     </text>
-                    <text id="{{site.data[locale].how_we_work.step2.line2}}" fill="#000000" font-size="13" font-weight="300">
+                    <text id="{{site.data[locale].how_we_work.step2.line2}}" fill="#606161" font-size="13" font-weight="300">
                         <tspan x="0" y="67">{{site.data[locale].how_we_work.step2.line2}}</tspan>
                     </text>
-                    <text id="{{site.data[locale].how_we_work.step2.line3}}" fill="#000000" font-size="13" font-weight="300">
+                    <text id="{{site.data[locale].how_we_work.step2.line3}}" fill="#606161" font-size="13" font-weight="300">
                         <tspan x="0" y="83">{{site.data[locale].how_we_work.step2.line3}}</tspan>
                     </text>
                     <text id="{{site.data[locale].how_we_work.step2.text}}" fill="#414D4B" font-size="23">
-                        <tspan x="0.1105" y="23" fill="#000000">{{site.data[locale].how_we_work.step2.text}}</tspan>
+                        <tspan x="0.1105" y="23" fill="#606161">{{site.data[locale].how_we_work.step2.text}}</tspan>
                     </text>
                 </g>
                 <g id="Step3" transform="translate(735.000000, 62.000000)" font-family="Hind" font-weight="700">
-                    <text id="{{site.data[locale].how_we_work.step3.line1}}" fill="#000000" font-size="13" font-weight="300">
+                    <text id="{{site.data[locale].how_we_work.step3.line1}}" fill="#606161" font-size="13" font-weight="300">
                         <tspan x="1" y="51">{{site.data[locale].how_we_work.step3.line1}}</tspan>
                     </text>
-                    <text id="{{site.data[locale].how_we_work.step3.line2}}" fill="#000000" font-size="13" font-weight="300">
+                    <text id="{{site.data[locale].how_we_work.step3.line2}}" fill="#606161" font-size="13" font-weight="300">
                         <tspan x="1" y="67">{{site.data[locale].how_we_work.step3.line2}}</tspan>
                     </text>
-                    <text id="{{site.data[locale].how_we_work.step3.line3}}" fill="#000000" font-size="13" font-weight="300">
+                    <text id="{{site.data[locale].how_we_work.step3.line3}}" fill="#606161" font-size="13" font-weight="300">
                         <tspan x="1" y="83">{{site.data[locale].how_we_work.step3.line3}}</tspan>
                     </text>
                     <text id="{{site.data[locale].how_we_work.step3.text}}" fill="#414D4B" font-size="23">
-                        <tspan x="0.1105" y="23" fill="#000000">{{site.data[locale].how_we_work.step3.text}}</tspan>
+                        <tspan x="0.1105" y="23" fill="#606161">{{site.data[locale].how_we_work.step3.text}}</tspan>
                     </text>
                 </g>
             </g>
