@@ -33,7 +33,7 @@ xmlhttp.open('GET', url, true);
 xmlhttp.send();
 
 function updateStatistics (stats) {
-  ['users', 'edits', 'buildings', 'roads'].forEach((cat) => {
+  ['users', 'edits', 'buildings', 'roads'].forEach(function (cat) {
   	const total = Math.floor(priorStats[cat] + stats[cat]);
     document.getElementById(`stats-${cat}Count`)
       .innerHTML = total.toLocaleString();
