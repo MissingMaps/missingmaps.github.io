@@ -1,0 +1,92 @@
+<script>
+  document.querySelector("header").style.display = 'inline-block';
+</script>
+
+<div id="site-canvas">
+  <div class="header-image header-hosting">
+    <div class="dark-overlay center-text">
+      <h1 class="title feature-header">{{site.data[locale].host.title}}</h1>
+    </div>
+  </div>
+</div>
+
+<div class="row host-container">
+  <div class="center-text panel">
+    <div class="about-textbox" style="padding-bottom:50px">
+      <p> {{site.data[locale].host.text}} </p>
+    </div>
+
+    <div class="videobox large-6 small-12 columns">
+      <iframe width="100%" height="300px" src="https://www.youtube.com/embed/pAcsCmvG2hs" frameborder="0" allowfullscreen=""></iframe>
+      <div class="sub-head" style="text-align: center">{{site.data[locale].host.what_is}}</div>
+    </div>
+    <div class="videobox large-6 small-12 columns">
+      <iframe width="100%" height="300px" src="https://www.youtube.com/embed/njxePdKn1pI" frameborder="0" allowfullscreen=""></iframe>
+      <div class="sub-head" style="text-align: center">{{site.data[locale].host.how_host}}</div>
+    </div>
+    <div class="host-button-box">
+      <a href="{{ site.baseurl }}{{site.data[locale].host.url}}#Preparation" class="btn btn-blue">{{site.data[locale].host.prep_btn}}</a>
+      <a href="{{ site.baseurl }}/host/#EventDay" class="btn btn-blue">{{site.data[locale].host.check_btn}}</a>
+      <a href="{{ site.baseurl }}/host/#Materials" class="btn btn-blue">{{site.data[locale].host.materials_btn}}</center></a>
+    </div>
+
+    <div class="host-image">
+      <img src="{{ site.baseurl }}/assets/graphics/content/process/MMlogo-Outlined.svg" width="150" alt="Beepboop">
+      <div class="sub-head">{{site.data[locale].host.how_help}}</div>
+    </div>
+    <div class="about-textbox" style="padding-bottom:20px">
+      <p>{{site.data[locale].host.how_help_text}}</p>
+    </div>
+    <div class="about-textbox">
+      <ol class="orderedlist-styled">
+        {% for step in site.data[locale].host.how_help_steps %}
+        <li>{{step.label}}</li>
+        {% endfor %}
+      </ol>
+    </div>
+    <div class="host-button-box">
+      <a href="{{ site.baseurl }}{{site.data[locale].host.url}}#Preparation" class="btn btn-blue">{{site.data[locale].host.prep_btn}}</a>
+      <a href="{{ site.baseurl }}/host/#EventDay" class="btn btn-blue">{{site.data[locale].host.check_btn}}</a>
+      <a href="{{ site.baseurl }}/host/#Materials" class="btn btn-blue">{{site.data[locale].host.materials_btn}}</center></a>
+    </div>
+    <div id="Preparation">
+      <div class="host-image">
+        <img src="{{ site.baseurl }}/assets/graphics/content/process/Checklist.svg" width="150" alt="Beepboop">
+        <div class="sub-head">{{site.data[locale].host.prep_check}}</div>
+      </div>
+      <div class="about-textbox">
+        <div class="checklist">
+          {% for item in site.data[locale].host.prep_check_list %}
+          <p>{{item.label}}</p>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div id="EventDay">
+      <div class="host-image">
+        <img src="{{ site.baseurl }}/assets/graphics/content/process/Checklist-2.svg" width="150" alt="Beepboop">
+        <div class="sub-head">{{site.data[locale].host.event_check}}</div>
+      </div>
+      <div class="about-textbox">
+        <div class="checklist">
+          {% for item in site.data[locale].host.event_check_list %}
+          <p>{{item.label}}</p>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div id="Materials">
+      <div class="host-image">
+        <img src="{{ site.baseurl }}/assets/graphics/content/process/Checklist-3.svg" width="150" alt="Beepboop">
+        <div class="sub-head">{{site.data[locale].host.materials}}</div>
+      </div>
+      <div class="host-materials">
+        <ul>
+          {% for item in site.data[locale].host.materials_list %}
+          <li><a href="{{ site.baseurl }}/assets/downloads/{{item.asset}}">{{item.text}}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

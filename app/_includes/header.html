@@ -1,32 +1,66 @@
 <header>
-		<div class="navbar-background">
-			<div class="nav-icon">
-				<a href="{{site.baseurl}}/">
-					<img src="../assets/graphics/meta/MM-White.svg" width="94px">
+	<div class="navbar-background">
+		<div class="nav-icon">
+			<a href="{{site.baseurl}}/">
+				<img src="{{site.baseurl}}/assets/graphics/meta/MM-White.svg" width="94px">
+			</a>
+		</div>
+		<div class="nav-list">
+			<ul>
+				{% for nav in site.data[locale].nav %}
+				{% if nav.url %}
+				<a href="{{nav.url}}">
+					<li class="nav-item">{{nav.text}}</li>
 				</a>
-				</div>
-			<div class="nav-list">
-				<ul>
-					<a href="{{site.baseurl}}/contribute/"><li class="nav-item">CONTRIBUTE</li></a>
-					<a href="{{site.baseurl}}/events/"><li class="nav-item">EVENTS</li></a>
-					<a href="{{site.baseurl}}/about/"><li class="nav-item">ABOUT</li></a>
-					<li class="nav-item nav-dropdown">DISCOVER
-						<div class="dropdown-content">
-							<a href="http://www.missingmaps.org/users/"><div class="nav-item">USER PROFILES</div></a>
-							<a href="http://www.missingmaps.org/leaderboards/"><div class="nav-item">LEADERBOARDS</div></a>
-						</div>
-					</li>
-				</ul>
+				{% else if nav.links %}
+				<li class="nav-item nav-dropdown">{{nav.text}}
+					<div class="dropdown-content">
+						{% for link in nav.links %}
+						<a href="{{link.url}}"><div class="nav-item">{{link.text}}</div></a>
+						{% endfor %}
+					</div>
+				</li>
+				{% endif %}
+				{% endfor %}
+				|
+				<li class="nav-item nav-dropdown">{{locale}}
+					<div class="dropdown-content">
+						{% for loc in site.authorized_locales %} 
+						{% assign pg = site.pages | where:"lang",{{loc}} | where:"id",page.id | first %}
+						<a href="{{site.baseurl}}{{pg.url}}">
+							<div class="nav-item item-centered">{{loc}}</div>
+						</a>
+						{% endfor %}
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="resp-navbar navbar-background resp-nav-dropdown">
+		<p>MENU</p>
+		<div class="resp-dropdown-content">
+			{% for nav in site.data[locale].nav %}
+			{% if nav.url %}
+			<a href="{{nav.url}}">
+				<li class="nav-item">{{nav.text}}</li>
+			</a>
+			{% else if nav.links %}{% for link in nav.links %}
+			<a href="{{link.url}}">
+				<li class="nav-item">{{link.text}}</li>
+			</a>
+			{% endfor %}{% endif %}
+			{% endfor %}
+			<div class="mobile-languages">
+				{% for loc in site.authorized_locales %} {% if loc == site.default_locale %}
+				<a href="/">
+					<div class="lang">{{loc}}</div>
+				</a>
+				{% else %}
+				<a href="{{site.baseurl}}/{{loc}}/">
+					<div class="lang">{{loc}}</div>
+				</a>
+				{% endif %} {% endfor %}
 			</div>
 		</div>
-		<div class="resp-navbar navbar-background resp-nav-dropdown">
-				<p>MENU</p>
-				<div class="resp-dropdown-content">
-					<a href="{{site.baseurl}}/contribute/"><li class="nav-item">CONTRIBUTE</li></a>
-					<a href="{{site.baseurl}}/events/"><li class="nav-item">EVENTS</li></a>
-					<a href="{{site.baseurl}}/about/"><li class="nav-item">ABOUT</li></a>
-					<a href="http://www.missingmaps.org/users/"><li class="nav-item">USER PROFILES</li></a>
-					<a href="http://www.missingmaps.org/leaderboards/"><li class="nav-item">LEADERBOARDS</li></a>
-				</div>
-		</div>
-	</header>
+	</div>
+</header>

@@ -22,12 +22,12 @@
   padding-top: 10px;
   max-width: 80%;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
 }
 
 .welcome-mat-button-box{
   padding-top: 40px;
-  radius{ 
+  radius{
     padding-left: 4px;
     padding-right: 4px;
   }
@@ -76,7 +76,7 @@
   }
   img{
     pointer-events: none;
-    padding-top: 100px;  
+    padding-top: 100px;
   }
   @media screen and (max-width: 710px) {
     padding-bottom: 40px;
@@ -95,12 +95,28 @@
     vertical-align:bottom;
     width: 100%;
   }
+  .process-header {
+    padding-bottom: 20px;
+  }
+  #process-container {
+    @media screen and (max-width: 500px){
+      display: none;
+    }
+  }
 }
 
 .mobile-remove{
   display: block;
-  @media screen and (max-width: 500px){
+  @media screen and (max-width: 650px){
     display: none;
+  }
+}
+
+#process-container,#process-container-mobile {
+  background-color: #F2F2F2;
+  svg {
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -180,7 +196,7 @@
   }
 }
 
-.image-action { 
+.image-action {
   @media screen and (max-width: 340px) {
     width: 200px;
   }
@@ -338,7 +354,7 @@
   clear: both;
 }
 
-.clear { 
+.clear {
   clear: both;
 }
 
@@ -442,7 +458,7 @@
     padding: 0;
     line-height: 1.3em;
   }
-  .event-details { 
+  .event-details {
     font-size: .8em;
     margin-top: 5px;
   }
@@ -507,7 +523,7 @@
   span{
     display: inline-block;
     vertical-align: middle;
-    line-height: normal; 
+    line-height: normal;
   }
   h1{
     display: inline;
@@ -529,7 +545,7 @@
   span{
     display: inline-block;
     vertical-align: middle;
-    line-height: normal; 
+    line-height: normal;
   }
   h1{
     display: inline;

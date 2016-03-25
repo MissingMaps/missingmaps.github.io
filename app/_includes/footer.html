@@ -1,19 +1,20 @@
+{% include get_locale.html %}
 <footer class="site-footer">
   <div class="wrapper">
-    <div class ="footer-container">
+    <div class="footer-container">
       <div class="center-text">
         <div class="row">
-          <div class="title section-header">Contact Us </div>
+          <div class="title section-header">{{site.data[locale].contact.title}}</div>
         </div>
-          <a href="https://twitter.com/TheMissingMaps" class="btn btn-blue"><i class="fa fa-twitter fa-fw"></i> TWITTER </a>
-          <a href="https://www.facebook.com/MissingMapsProject" class="btn btn-blue"><i class="fa fa-facebook fa-fw"></i> FACEBOOK </a>
-          <a href="https://github.com/MissingMaps" class="btn btn-blue"><i class="fa fa-github fa-fw"></i> GITHUB </a>
-          <a href="http://wiki.openstreetmap.org/wiki/Missing_Maps_Project" class="btn btn-blue"><i class="fa fa-newspaper-o fa-fw"></i> WIKI </a>
-          <a href="https://www.pinterest.com/MissingMaps/" class="btn btn-blue"><i class="fa fa-pinterest fa-fw"></i> PINTEREST </a>
-        </div>
-        <div class ="footer-mm center-text">
-          CC-BY Missing Maps 2016
-        </div>
+        <a href="https://twitter.com/TheMissingMaps" class="btn btn-blue"><i class="fa fa-twitter fa-fw"></i> TWITTER </a>
+        <a href="https://www.facebook.com/MissingMapsProject" class="btn btn-blue"><i class="fa fa-facebook fa-fw"></i> FACEBOOK </a>
+        <a href="https://github.com/MissingMaps" class="btn btn-blue"><i class="fa fa-github fa-fw"></i> GITHUB </a>
+        <a href="http://wiki.openstreetmap.org/wiki/Missing_Maps_Project" class="btn btn-blue"><i class="fa fa-newspaper-o fa-fw"></i> WIKI </a>
+        <a href="https://www.pinterest.com/MissingMaps/" class="btn btn-blue"><i class="fa fa-pinterest fa-fw"></i> PINTEREST </a>
       </div>
+      <div class="footer-mm center-text">
+        CC-BY Missing Maps 2016
+      </div>
+    </div>
   </div>
 </footer>
