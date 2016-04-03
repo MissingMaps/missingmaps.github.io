@@ -16,12 +16,11 @@
   },
   "homepage": "",
   "scripts": {
-    "postinstall": "[ -f app/assets/scripts/config/local.js ] || echo 'module.exports = {};' > app/assets/scripts/config/local.js",
+    "postinstall": "[ -f _config-dev.yml ] || echo 'domain: http://localhost:3000\npath_prefix:' > _config-dev.yml",
     "serve": "gulp serve",
     "build": "gulp",
     "lint": "semistandard app/assets/scripts/**/*.js",
     "test": "echo NO TESTS YET",
-    "postinstall": "[ -f _config-dev.yml ] || echo 'domain: http://localhost:3000\npath_prefix:' > _config-dev.yml",
     "install": "bundle install --path bundle/cache"
   },
   "browserify": {
@@ -49,5 +48,7 @@
     "lodash": "^3.5.0",
     "run-sequence": "~1.0.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "request": "^2.69.0"
+  }
 }
