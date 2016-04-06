@@ -10,7 +10,7 @@
 					<img class="event-images" src="{{ site.baseurl }}/assets/graphics/flags/4x3/{{ e.flag }}.svg" width="24px" />
 					<h3 class="event-header">{{ e.title }}</h3>
 					{% if e. %}
-					<a class="btn btn-grn" href="{{ event.link }}" target="">{{site.data[locale].events.sign_up}}</a>
+					<a class="btn btn-grn" href="{{ e.signup_url }}" target="">{{site.data[locale].events.sign_up}}</a>
 					{% endif %}
 				</div>
 			</div>
