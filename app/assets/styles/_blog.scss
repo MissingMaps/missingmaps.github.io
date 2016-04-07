@@ -1,0 +1,30 @@
+/*----------------------------------------------*/
+/* Blog Page */
+/*----------------------------------------------*/
+.blog-container{
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  padding: 0px 0px 2em 0px;
+  @media screen and (max-width: 710px) {
+    width: 100%;
+  }
+  p{
+    margin-bottom: 8px;
+  };
+  img{
+    margin: 0px 16px 0px 16px;
+    margin-bottom: 10px;
+  };
+  &.top{
+    margin-bottom:0px;
+  }
+  .sub-head{
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
+}
+
+h3.blog-author {
+	font-style: italic;
+}

@@ -13,6 +13,8 @@ nav:
         url:      "/fr/organiser/"
   - text:         "À PROPOS"
     url:          "/fr/apropos/"
+  - text:         "BLOG"
+    url:          "/blog/"
   - text:         "DÉCOUVRIR"
     links:
       - text:     "PROFILS DES CONTRIBUTEURS"
@@ -197,3 +199,10 @@ host:
       asset:      "MissingMaps-Process.pdf"
     - text:       "Guide Mapathon Tabletop"
       asset:      "MissingMaps-tabletop.pdf"
+
+###################
+## Blog CONTENT ##
+###################
+blog:
+  title: "Blog"
+  

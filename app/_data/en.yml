@@ -13,6 +13,8 @@ nav:
         url:      "/host/"
   - text:         "ABOUT"
     url:          "/about/"
+  - text:         "BLOG"
+    url:          "/blog/"
   - text:         "DISCOVER"
     links:
       - text:     "USER PROFILES"
@@ -197,3 +199,11 @@ host:
       asset:      "MissingMaps-Process.pdf"
     - text:       "Mapathon Tabletop Guide"
       asset:      "MissingMaps-tabletop.pdf"
+
+
+###################
+## Blog CONTENT ##
+###################
+blog:
+  title: "Blog"
+  
