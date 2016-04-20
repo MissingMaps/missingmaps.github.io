@@ -1,19 +1,20 @@
 ---
-layout: default
-title: Test Blog
+layout: post
+title: Fire Sensor Project
 date: 2016-4-1
 author: Drishtie Patel
 published: true
-tags: Red Cross, Field Mapping
+tags: Red Cross, Field Mapping, South Africa
 ---
 
-# Test Blog
+## Fire Sensor Project in South Africa
 
-## Fire sensor project background
+### Fire sensor project background
 
 Nicely conditioned roads, beautiful beaches, cliffs, scenic bays, promenades and hillside communities is what you think of when you hear Cape Town. However a couple kilometers away from these spectacular sceneries and coastlines is Khayelitsha. A partially informal township  reputed to be the largest and fastest growing township in South Africa. It’s a humbling sight to see.
 
-![Khayelitsha](https://arcmaps.s3.amazonaws.com/share/ct-blog_20150915_khayelitsha-elyob.jpg)  *Khayelitsha, CC BY-SA [elyob](https://www.flickr.com/photos/elyob)*
+![Khayelitsha](https://arcmaps.s3.amazonaws.com/share/ct-blog_20150915_khayelitsha-elyob.jpg)  
+*Khayelitsha, CC BY-SA [elyob](https://www.flickr.com/photos/elyob)*
 
  If you get the chance to spend some time there you will see the amazing community spirit and warmth in the area despite its well known reputation for being extremely dangerous.
 
@@ -21,9 +22,10 @@ Khayelitsha is home to roughly 400,000 people covering an area of 39 square km m
 
 Red Cross partners are piloting a project to solve this issue; a low-cost, meshed network of smart home sensors affixed to each home within the informal settlement. The American Red Cross GIS team recently set out to Khayelitsha to support the community in mapping the area for better program planning and decision making. Here’s our story about the experience.
 
-## On the ground in Cape Town
+### On the ground in Cape Town
 
-![Khayelitsha](https://arcmaps.s3.amazonaws.com/share/ct-blog_20150915_khayelitsha.jpg) *Navigating the narrow paths between houses, CC-BY American Red Cross*
+![Khayelitsha](https://arcmaps.s3.amazonaws.com/share/ct-blog_20150915_khayelitsha.jpg)
+*Navigating the narrow paths between houses, CC-BY American Red Cross*
 
 Just a few days before the mapping was to start we were advised not to use smart phones due to new security concerns. We normally use phones to run the [OpenMapKit](https://github.com/americanredcross/openmapkit/wiki) mobile data collection app. Fortunately, we could use GPS devices as they would be much less desirable targets for theft.
 
@@ -31,7 +33,7 @@ Early on a very chilly morning we headed to the Andile Msizi Community Center in
 
 At the Community Center the group had insightful discussions, learned how to use printed [Field Papers](http://fieldpapers.org) pages for collecting data and practiced using the GPS devices. Breaks for hot coffee and pastries kept energy levels high.
 
-## Field mapping
+### Field mapping
 
 ![Volunteers](https://arcmaps.s3.amazonaws.com/share/ct-blog_20150915_volunteers.jpg) *Volunteers verifying their position, CC-BY American Red Cross*
 
@@ -51,6 +53,6 @@ Building address numbers were a challenge to collect. Volunteers had to walk alo
 
 We wrapped up the field mapping and then spent two days at the Community Center inputing data into OSM using JOSM editor.
 
-## Next steps
+### Next steps
 
 The American Red Cross GIS team will create large maps of the different sections to print and share with the communities. The volunteers will continue gathering data, collecting the locations of the fire sensors to then overlay OSM data to analyze the coverage of the project. We will also share knowledge of our work in OSM with other NGOs operating in the area.
