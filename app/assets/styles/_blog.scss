@@ -1,39 +1,52 @@
 /*----------------------------------------------*/
 /* Blog Page */
 /*----------------------------------------------*/
-.blog-container{
-  // width: 70%;
-  // text-align: center;
-  // margin: auto;
-  padding: 0px 0px 2em 0px;
-  @media screen and (max-width: 710px) {
-    width: 100%;
+
+.blog-preview{
+  margin-bottom: 30px;
+  .blog-date{
+    font-style: italic;
+    font-weight: 300;
   }
-  p{
-    margin-bottom: 8px;
-  };
+}
+
+.blog-container{
+  margin-bottom: 30px;
+  .blog-date{
+    font-style: italic;
+    font-weight: 300;
+  }
+  h1 {
+    font-size: 1.4em;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 6px 0;
+  }
+  figure{
+    text-align: center;
+  }
   img{
     margin: auto;
     margin-bottom: 2px;
     clear: both;
-    background-color: light-grey;
+    border: 1px solid $lightgrey;
   };
-  img + em {
+  .caption{
+    text-align: center;
+    font-size: 0.8em;
     font-style: italic;
-    margin: auto;
   }
-  &.top{
-    margin-bottom:0px;
+  .blog-end{
+    text-align: center;
+    max-width: 150px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
-  .sub-head{
-    margin-top: 1.5em;
-    margin-bottom: 0.5em;
-  }
-  h3 {
-    font-style: italic;
-    margin: 4px 0;
-  }
-  .caption {
-
+  .author{
+    text-align: center;
   }
 }

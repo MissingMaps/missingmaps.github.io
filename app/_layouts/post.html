@@ -54,8 +54,6 @@
 
   </head>
 
-
-
   <body>
     <!--[if lt IE 11]>
       <div id="nocando">
@@ -63,13 +61,35 @@
         <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
       </div>
     <![endif]-->
+
+    {% include get_locale.html %}
     {% include header.html %}
 
-    <!-- <script>
+    <script>
     	document.querySelector("header").style.display = 'inline-block';
-    </script> -->
+    </script>
 
-    {{ content }}
+    <div id="site-canvas">
+      {% if page.banner == null %}
+      <div class="header-image header-blog">
+      {% else %}
+      <div class="header-image" style="background-image: url('{{ page.banner }}');">
+      {% endif %}
+        <div class="dark-overlay center-text">
+          <h1 class="title feature-header">{{ page.title }}</h1>
+        </div>
+      </div>
+
+      <div class="row">
+    		<div class="large-12 columns">
+          <div class="textbox blog-container">
+            <div class="blog-date">{{page.date | localize: "%d",locale }} {{ page.date | localize: "%B",locale }} {{ page.date | localize: "%Y",locale }}</div>
+            {{ content }}
+            <hr class="blog-end">
+            <p class="author">by {{ page.author }}</p>
+          </div>
+        </div>
+      </div>
 
     {% include footer.html %}
 
