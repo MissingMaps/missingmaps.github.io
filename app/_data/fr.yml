@@ -157,6 +157,7 @@ host:
   prep_btn:       "EN PRÉPARATION"
   check_btn:      "LE JOUR DE L'ÉVÉNEMENT"
   materials_btn:  "RESSOURCES"
+  mapevent_btn:   "INSCRIRE VOTRE ÉVÉNEMENT"
   how_help:       "Comment Missing Maps peut vous aider ?"
   how_help_text:  "Nous pouvons assister votre équipe avec du spport local ou distant afin de vous aider à coordonner votre événement. Veuillez contacter le Coordonateur de Missing en stipulant la date et l'endroit de votre événement afin que nous puissions vous assister avec:"
   how_help_steps:
@@ -164,7 +165,7 @@ host:
     - label: "Présentations - Une personne de notre équipe sera disponible en personne ou en ligne afin de présenter Missing Maps. "
     - label: "Formation & conseils - Une personne de notre équipe sera disponible en personne ou en ligne pour supporter vos participants."
     - label: "Inscription - Nous pouvons vous conseiller et vous fournir des outils afin d'assurer un processus d'inscriptions efficace."
-    - label: "Marketing & publicité - Des communiqués de presse et des publications intranet peuvent être fournies par le Coordonateur de Missing Maps pour chaque événement. Nous pouvons d'ailleurs ajouter les détails de votre mapathon sur le site web de Missing Maps ainsi que sur les <a href= \"http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons\">Pages Wiki.</a>"
+    - label: "Marketing & publicité - Des communiqués de presse et des publications intranet peuvent être fournies par le Coordonateur de Missing Maps pour chaque événement. Nous pouvons d'ailleurs ajouter les détails de votre mapathon sur le site <a href= \"/events\"> web de Missing Maps</a> ainsi que sur les <a href= \"http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons\">Pages Wiki.</a>"
     - label: "Collaborer avec les partenaires locaux de Missing Maps - Nous pouvons vous introduire aux partenaires locaux de Missing maps afin de vous aider à trouver des experts cartographes et des services de traduction lorsque possible."
   prep_check:     "Le nécessaire"
   prep_check_list:
