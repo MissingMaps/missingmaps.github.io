@@ -155,6 +155,7 @@ host:
   prep_btn:       "PREPARATION CHECKLIST"
   check_btn:      "EVENT DAY CHECKLIST"
   materials_btn:  "MATERIALS"
+  mapevent_btn:   "REGISTER YOUR EVENT"
   how_help:       "How Can Missing Maps Help?"
   how_help_text:  "We can provide your team with local or remote support to help coordinate and manage your event. Contact the Missing Maps Coordinator with your event date and location so that we can help you with following:"
   how_help_steps:
@@ -162,7 +163,7 @@ host:
     - label: "Live Presentations - A staff person will be made available either in person or via online streaming to present Missing Maps."
     - label: "Training Guidance - A staff person will be made available either in person or via online streaming to walk through the training with attendees."
     - label: "Registration Guidance - We can provide you with tools and tips on how to register and keep track of attendees."
-    - label: "Customized marketing and publicity materials - Sample press releases and intranet posts can be provided by the Missing Maps Coordinator for each engagement event. We can also add your mapathon event info to the Missing Maps Website and the <a href= \"http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons\">Wiki Pages.</a>"
+    - label: "Customized marketing and publicity materials - Sample press releases and intranet posts can be provided by the Missing Maps Coordinator for each engagement event. We can also add your mapathon event info to the <a href= \"/events\"> Missing Maps Website</a> and the <a href= \"http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons\">Wiki Pages.</a>"
     - label: "Collaborate with your local Missing Maps partner organization – we can connect you with local Missing Maps partner organizations to help find mapping experts and handle translation services when available and appropriate."
   prep_check:     "Preparation Checklist"
   prep_check_list:
