@@ -19,6 +19,8 @@ nav:
         url:      "http://www.missingmaps.org/users/"
       - text:     "LEADERBOARDS"
         url:      "http://www.missingmaps.org/leaderboards/"
+      - text:     "COUNTRY STATS"
+        url:      "/countrystats/"
 
 #####################
 ## LANDING CONTENT ##
@@ -198,3 +200,9 @@ host:
       asset:      "MissingMaps-Process.pdf"
     - text:       "Mapathon Tabletop Guide"
       asset:      "MissingMaps-tabletop.pdf"
+
+#####################
+## COUNTRY STATS ##
+#####################
+countrystats:
+    title: "Country Stats"
