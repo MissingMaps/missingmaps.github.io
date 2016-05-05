@@ -5,7 +5,7 @@ banner: https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20
 date: 2015-03-29
 author: Drishtie Patel, Matt Gibb
 excerpt: Every year in the Americas more and more people are living in conditions of vulnerability to natural hazards and climate change. To help reduce disaster risk and enhance community resilience in the region, the American Red Cross is working with Red Cross partners like the Columbian Red Cross to address local hazards and vulnerabilities in dozens of disaster-prone communities.
-published: true
+published: false
 tags: Red Cross, Field Mapping, Colombia
 lang: en
 ---
