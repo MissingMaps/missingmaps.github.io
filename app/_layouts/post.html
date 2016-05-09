@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--[if lt IE 10]> <html class="lt-ie10 no-js"  lang=""> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/styles/main.css">
+
+    <link rel="author" type="text/plain" href="humans.txt" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400|Hind:700,300,600' rel='stylesheet' type='text/css'>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/graphics/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/graphics/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/graphics/favicon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/graphics/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/graphics/favicon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/graphics/favicon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/graphics/favicon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/graphics/favicon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/graphics/favicon/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/graphics/favicon/apple-touch-icon-180x180.png">
+  <link rel="shortcut icon" href="/assets/graphics/favicon/favicon.ico">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/assets/graphicsfavicon/favicon-32x32.png" sizes="32x32">
+
+  <meta name="description" content="Putting the World's Vulnerable People on the Map">
+  <meta itemprop="name" content="MissingMaps">
+  <meta itemprop="description" content="Putting the World's Vulnerable People on the Map" >
+  <meta itemprop="image" content="http://i.imgur.com/sSUhfmc.png" >
+  <meta name="twitter:card" content="product" >
+  <meta name="twitter:site" content="@publisher_handle" >
+  <meta name="twitter:title" content="MissingMaps" >
+  <meta name="twitter:description" content="Putting the World's Vulnerable People on the Map" >
+  <meta name="twitter:creator" content="@author_handle" >
+  <meta name="twitter:image" content="http://i.imgur.com/sSUhfmc.png" >
+
+  </head>
+
+  <body>
+    <!--[if lt IE 11]>
+      <div id="nocando">
+        <h1>No can do!</h1>
+        <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      </div>
+    <![endif]-->
+
+    {% include get_locale.html %}
+    {% include header.html %}
+
+    <script>
+    	document.querySelector("header").style.display = 'inline-block';
+    </script>
+
+    <div id="site-canvas">
+      {% if page.banner == null %}
+      <div class="header-image header-blog">
+      {% else %}
+      <div class="header-image" style="background-image: url('{{ page.banner }}');">
+      {% endif %}
+        <div class="dark-overlay center-text">
+          <h1 class="title feature-header">{{ page.title }}</h1>
+        </div>
+      </div>
+
+      <div class="row">
+    		<div class="large-12 columns">
+          <div class="textbox blog-container">
+            <div class="blog-date">{{page.date | localize: "%d",locale }} {{ page.date | localize: "%B",locale }} {{ page.date | localize: "%Y",locale }}</div>
+            {{ content }}
+            <hr class="blog-end">
+            <p class="author">by {{ page.author }}</p>
+          </div>
+        </div>
+      </div>
+
+    {% include footer.html %}
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-55969124-1');ga('send','pageview');
+    </script>
+
+    <!-- build:js assets/scripts/main.js -->
+    <script src="{{ site.baseurl }}/assets/scripts/main.min.js"></script>
+    <!-- endbuild -->
+
+  </body>
+
+</html>

@@ -12,6 +12,8 @@ highlighter: false
 
 baseurl: ""
 
+permalink: pretty
+
 collections:
   events:
     output: true
