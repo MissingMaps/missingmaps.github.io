@@ -12,24 +12,14 @@
 		<div class="large-12 columns">
 			{% for post in site.posts %}
 			{% if post.lang == locale %}
-			<div class="textbox blog-preview">
-			  	<!-- <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-					<img class="img-thumbnail" src="{{ post.banner }}" />
-					<p><span class="blog-date">{{post.date | localize: "%d",locale }} {{ post.date | localize: "%B",locale }} {{ post.date | localize: "%Y",locale }} </span> &nbsp;|&nbsp; by {{ post.author }}</p>
-					<p>{{ post.excerpt }}</p> -->
-					<div class="media">
-						<div class="media-left">
-					    <a href="{{ post.url }}">
-					      <img class="media-object" src="{{ post.banner }}" alt="{{ post.title }}">
-					    </a>
-					  </div>
-					  <div class="media-body">
-					    <h4 class="title">{{ post.title }}</h4>
-							<p><span class="blog-date">{{post.date | localize: "%d",locale }} {{ post.date | localize: "%B",locale }} {{ post.date | localize: "%Y",locale }} </span> &nbsp;|&nbsp; by {{ post.author }}</p>
-							<p>{{ post.excerpt }}</p>
-					  </div>
-					</div>
-			</div>
+				<div class="textbox blog-preview">
+						<h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+						<a href="{{ post.url }}">
+							<img class="medium-4 pull-right blog-img stack-for-small" src="{{ post.banner }}" alt="{{ post.title }}" />
+						</a>
+						<p><span class="blog-date">{{post.date | localize: "%d",locale }} {{ post.date | localize: "%B",locale }} {{ post.date | localize: "%Y",locale }} </span> &nbsp;|&nbsp; by {{ post.author }}</p>
+						<p class="medium-7">{{ post.excerpt }}</p>
+				</div>
 			{% endif %}
 			{% endfor %}
 		</div>
