@@ -28,11 +28,11 @@ nav:
 
 banner:
   title:          "Remettre les personnes les plus vulnérables de la Terre sur la carte" #Formulation du tagline?
-  subtitle:       "Chaque année, les catastrophes naturelles tuent 100 000 personnes puis touchent ou déplacent 200 millions de personnes. De nombreux endroits où se prodduisent ces catastrophes sont 'absents' des cartes et les premiers secrours manquent d'informations pour prendre les bonnes décisions sur le terrain. Missing Maps est un projet ouvert et collaboratif, auquel vous pouvez participer pour cartographier des zones où les organisations humanitaires essaient de de subvenir aux besoins des populations touchées."
+  subtitle:       "Chaque année, dans le monde entier, les catastrophes naturelles tuent près de 100 000 personnes et touchent ou déplacent 200 millions de personnes. La plupart des endroits où se produisent ces catastrophes sont littéralement 'absents' de toutes cartes et les premiers secours manquent d'informations pour prendre les bonnes décisions sur le terrain. Missing Maps est un projet ouvert et collaboratif, auquel vous pouvez participer en cartographiant les zones où les organisations humanitaires essaient de répondre aux besoins des populations touchées."
   get_involved:   "S'IMPLIQUER"
 
 how_we_work:
-  title:        "Comment ça marche"
+  title:        "Comment nous travaillons"
   # the "step" lines are for insertion in an svg
   #   and are therefore rather fixed in max length and number of lines allowed
   step1:
@@ -54,23 +54,23 @@ how_we_work:
     #   approximate max length ---------------------------------||
     line1:      "Les organisations humanitaires utilisent"
     #   approximate max length ---------------------------------||
-    line2:      "les informations pour préparer la réduction"
+    line2:      "les informations pour répondre aux catastrophes"
     #   approximate max length ---------------------------------||
-    line3:      "des risques et répondre aux catastrophes"
+    line3:      "réduire les risques associés et ainsi sauver des vies"
 
 how_to_participate:
   title:        "Comment participer"
   start:        "Commencez à cartographier"
-  start_text:   "Ce n'est pas un problème si vous n'avez jamais cartographié avant - l'apprentissage n'est pas long. Visitez notre section débutants pour apprendre comment cartographier. Si vous savez déjà édité OpenStreetMap, allez directement à get started."
+  start_text:   "Ce n'est pas un problème si vous n'avez jamais cartographié avant - l'apprentissage n'est pas long. Visitez notre section débutants pour apprendre comment cartographier. Si vous savez déjà comment éditer dans OpenStreetMap, vous pouvez commencer."
   map_btn:      "CARTOGRAPHIER"
-  learn_btn:    "APPRENDRE"
+  learn_btn:    "APPRENDRE A CARTOGRAPHIER"
   organize:     "Organiser un mapathon"
-  organize_text: "L'organisation de mapathons est un moyen fantastique pour développer une communauté de cartographes dans une région du globe. C'est aussi un environment propice à l'apprentissage, où les nouveaux peuvent bénéficier de l'expérience des autres. Des mapathons sont organisés par des entités ou à titre individuel partout dans le monde."
+  organize_text: "Organiser un mapathon est un moyen fantastique de développer une communauté de cartographes se concentrant sur une région du globe. C'est aussi un environment propice à l'apprentissage, où les nouveaux peuvent bénéficier de l'expérience des autres. Des mapathons sont organisés par des groupes et des individus partout dans le monde."
   lead_btn:     "ORGANISER UN MAPATHON"
   join_btn:     "RECEVOIR LA NEWSLETTER"
-  donate:       "Faire un don pour faire une difference"
-  donate_text:  "Une donation à l'équipe humanitaire d'OpenStreetMap (une des équipes à l'origine de Missing Maps) permet de supporter localement la cartographie des communautés touchées, de développer des outils et processus pour permettre à plus de gens de contribuer, et améliorer le projet afin de permettre à de plus nombreuses organisations humanitaires d'opérer sur les crises tout autour de la planète."
-  donate_btn:   "DONNEZ"
+  donate:       "Faire un don pour faire une différence"
+  donate_text:  "Une donation à l'équipe humanitaire d'OpenStreetMap (HOT, un des fondateurs du projet Missing Maps) nous aide à soutenir les populations locales dans le développement de leur communauté et de leur cartographie, à développer des outils et méthodes permettant à plus de gens de contribuer, et à étendre le projet afin de permettre à plus d'organisations humanitaires d'opérer sur les crises tout autour de la planète."
+  donate_btn:   "DONNER"
 
 contributions:
   title:        "Contributions"
@@ -82,13 +82,13 @@ contributions:
 
 discover:
   title:        "Découvrir"
-  subtitle:     "Pour suivre vos contributions, Missing Maps fournit deux outils."
+  subtitle:     "Pour suivre vos contributions individuelles et par projet, Missing Maps fournit deux outils."
   profiles:     "Profils des Contributeurs"
-  profile_text: "Vérifier vos contributions à l'aide des tâches HOT !"
+  profile_text: "Vérifiez vos contributions sur les tâches de HOT !"
   profile_btn:  "TROUVER UN CONTRIBUTEUR"
   projects:     "Tableau des meneurs des projets"
-  project_text: "Découvrir où vous êtes parmi les hashtags contribués !"
-  project_btn:  "TROUVER UN TABLEAU DES MENEURS"
+  project_text: "Découvrez où vous en êtes parmi d'autres !"
+  project_btn:  "ALLER AU TABLEAU DES MENEURS"
 
 contact:
   title:        "Nous contacter"
