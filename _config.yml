@@ -20,4 +20,4 @@ collections:
 
 # locale settings
 default_locale:     "en"
-authorized_locales: ["en","fr"]
+authorized_locales: ["en","fr","es"]
