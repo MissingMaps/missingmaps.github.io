@@ -14,7 +14,7 @@ nav:
   - text:         "À PROPOS"
     url:          "/fr/apropos/"
   - text:         "BLOG"
-    url:          "/blog/"
+    url:          "/fr/blog/"
   - text:         "DÉCOUVRIR"
     links:
       - text:     "PROFILS DES CONTRIBUTEURS"

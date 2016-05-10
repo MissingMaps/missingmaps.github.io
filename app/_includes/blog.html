@@ -11,6 +11,7 @@
 	<div class="row">
 		<div class="large-12 columns">
 			{% for post in site.posts %}
+			{% if post.lang == locale %}
 			<div class="textbox blog-preview">
 			  	<!-- <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
 					<img class="img-thumbnail" src="{{ post.banner }}" />
@@ -29,6 +30,7 @@
 					  </div>
 					</div>
 			</div>
+			{% endif %}
 			{% endfor %}
 		</div>
 	</div>
