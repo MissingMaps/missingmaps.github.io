@@ -11,12 +11,16 @@
 	<div class="row">
 		<div class="large-12 columns">
 			{% for post in site.posts %}
-			<div class="textbox blog-preview">
-			  	<h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-					<img class="medium-4 pull-right banner-img stack-for-small" src="{{ post.banner }}" />
-					<p><span class="blog-date">{{post.date | localize: "%d",locale }} {{ post.date | localize: "%B",locale }} {{ post.date | localize: "%Y",locale }} </span> &nbsp;|&nbsp; by {{ post.author }}</p>
-					<p class="medium-7">{{ post.excerpt }}</p>
-			</div>
+			{% if post.lang == locale %}
+				<div class="textbox blog-preview">
+						<h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+						<a href="{{ post.url }}">
+							<img class="medium-4 pull-right blog-img stack-for-small" src="{{ post.banner }}" alt="{{ post.title }}" />
+						</a>
+						<p><span class="blog-date">{{post.date | localize: "%d",locale }} {{ post.date | localize: "%B",locale }} {{ post.date | localize: "%Y",locale }} </span> &nbsp;|&nbsp; by {{ post.author }}</p>
+						<p class="medium-7">{{ post.excerpt }}</p>
+				</div>
+			{% endif %}
 			{% endfor %}
 		</div>
 	</div>
