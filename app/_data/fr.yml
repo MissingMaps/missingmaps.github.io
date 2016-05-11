@@ -28,7 +28,7 @@ nav:
 
 banner:
   title:          "Remettre les personnes les plus vulnérables de la Terre sur la carte" #Formulation du tagline?
-  subtitle:       "Chaque année, dans le monde entier, les catastrophes naturelles tuent près de 100 000 personnes et touchent ou déplacent 200 millions de personnes. La plupart des endroits où se produisent ces catastrophes sont littéralement 'absents' de toutes cartes et les premiers secours manquent d'informations pour prendre les bonnes décisions sur le terrain. Missing Maps est un projet ouvert et collaboratif, auquel vous pouvez participer en cartographiant les zones où les organisations humanitaires essaient de répondre aux besoins des populations touchées."
+  subtitle:       "Chaque année, les catastrophes naturelles tuent près de 100 000 personnes et touchent ou déplacent 200 millions de personnes dans le monde. La plupart des endroits où se produisent ces catastrophes sont littéralement 'absents' des cartes et les premiers secours manquent d'informations pour prendre les bonnes décisions sur le terrain. Missing Maps est un projet ouvert et collaboratif auquel vous pouvez participer, en cartographiant les zones où les organisations humanitaires essaient de répondre aux besoins des populations touchées."
   get_involved:   "S'IMPLIQUER"
 
 how_we_work:
@@ -65,11 +65,11 @@ how_to_participate:
   map_btn:      "CARTOGRAPHIER"
   learn_btn:    "APPRENDRE A CARTOGRAPHIER"
   organize:     "Organiser un mapathon"
-  organize_text: "Organiser un mapathon est un moyen fantastique de développer une communauté de cartographes se concentrant sur une région du globe. C'est aussi un environment propice à l'apprentissage, où les nouveaux peuvent bénéficier de l'expérience des autres. Des mapathons sont organisés par des groupes et des individus partout dans le monde."
+  organize_text: "Organiser un mapathon est un moyen fantastique de développer une communauté de cartographes se concentrant sur une région du globe. C'est aussi un environnement propice à l'apprentissage, où les nouveaux peuvent bénéficier de l'expérience des autres. Des mapathons sont organisés par des groupes et des individus partout dans le monde."
   lead_btn:     "ORGANISER UN MAPATHON"
   join_btn:     "RECEVOIR LA NEWSLETTER"
   donate:       "Faire un don pour faire une différence"
-  donate_text:  "Une donation à l'équipe humanitaire d'OpenStreetMap (HOT, un des fondateurs du projet Missing Maps) nous aide à soutenir les populations locales dans le développement de leur communauté et de leur cartographie, à développer des outils et méthodes permettant à plus de gens de contribuer, et à étendre le projet afin de permettre à plus d'organisations humanitaires d'opérer sur les crises tout autour de la planète."
+  donate_text:  "Une donation à l'équipe humanitaire d'OpenStreetMap (Humanitarian OSM Team) nous aide à soutenir les populations locales dans le développement de leur communauté et de leur cartographie, à développer des outils et méthodes permettant à plus de personnes de contribuer, et à étendre le projet afin d'aider plus d'organisations humanitaires à répondre aux crises tout autour de la planète."
   donate_btn:   "DONNER"
 
 contributions:
