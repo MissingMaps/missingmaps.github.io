@@ -160,7 +160,7 @@ host:
   materials_btn:  "RESSOURCES"
   mapevent_btn:   "INSCRIRE VOTRE ÉVÉNEMENT"
   how_help:       "Comment Missing Maps peut vous aider ?"
-  how_help_text:  "Nous pouvons apporter à votre équipe du support local et à distance. Contactez le coordinateur de Missing Maps en indiquant la date et lieu de votre événement qui vous aidera à coordonner et gérer votre événement avec:"
+  how_help_text:  "Nous pouvons soutenir votre équipe localement et à distance. Contactez le coordinateur de Missing Maps en indiquant la date et lieu de votre événement qui vous aidera à coordonner et gérer votre événement avec:"
   how_help_steps:
     - label: "Choix d'une tâche cartographique - Contactez-nous pour obtenir une liste des tâches les plus urgentes à cartographier lors de votre énénement."
     - label: "Présentations live- Une personne de notre équipe sera disponible en présentiel ou en ligne afin de présenter Missing Maps. "
