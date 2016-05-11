@@ -152,7 +152,7 @@ crises qui les touchent."
 #####################
 host:
   title:          "Organiser un Mapathon"
-  text:           "Un mapathon est une opportunité unique pour les bénévoles de se connecter et de cartographier les zone les plus vulnérables des pays en développement, et ainsi permettre aux ONGs locales et internationales de répondre plus efficacement aux crises qui les touchent. Ces initiatives de e-benevolat sont nécessaires au succès de nombreuses organisations humanitaires à travers le monde dans leur réponses aux catastrophes. Il est primordial de développer un plus grand réseau de bénévoles expérimentés prêts à aider avec un minimum de coordination lorsqu'une catastrophe survient. Jetez un oeil aux vidéos ci-dessous afin d'en apprendre d'avantage sur les mapathons et comment en organiser."
+  text:           "Un mapathon est une opportunité unique pour les bénévoles de cartographier les zone les plus vulnérables des pays en développement, et ainsi permettre aux ONGs locales et internationales de répondre plus efficacement aux crises qui les touchent. Ces initiatives de e-benevolat sont nécessaires au succès de nombreuses organisations humanitaires à travers le monde dans leur réponses aux catastrophes. Il est primordial de développer un plus grand réseau de bénévoles expérimentés prêts à aider avec un minimum de coordination lorsqu'une catastrophe survient. Jetez un oeil aux vidéos ci-dessous afin d'en apprendre d'avantage sur les mapathons et comment en organiser."
   what_is:        "Qu'est-ce qu'un Mapathon ?"
   how_host:       "Comment organiser un Mapathon"
   prep_btn:       "EN PRÉPARATION"
@@ -160,7 +160,7 @@ host:
   materials_btn:  "RESSOURCES"
   mapevent_btn:   "INSCRIRE VOTRE ÉVÉNEMENT"
   how_help:       "Comment Missing Maps peut vous aider ?"
-  how_help_text:  "Nous pouvons assister votre équipe avec du support local et à distance afin de vous aider à coordonner et gérer votre événement. Contactez le coordinateur de Missing Maps en indiquant la date et lieu de votre événement afin que nous puissions vous assister avec:"
+  how_help_text:  "Nous pouvons apporter à votre équipe du support local et à distance. Contactez le coordinateur de Missing Maps en indiquant la date et lieu de votre événement qui vous aidera à coordonner et gérer votre événement avec:"
   how_help_steps:
     - label: "Choix d'une tâche cartographique - Contactez-nous pour obtenir une liste des tâches les plus urgentes à cartographier lors de votre énénement."
     - label: "Présentations live- Une personne de notre équipe sera disponible en présentiel ou en ligne afin de présenter Missing Maps. "
