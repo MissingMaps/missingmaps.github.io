@@ -98,18 +98,18 @@ contact:
 ########################
 contribute:
   title:        "Comment contribuer"
-  how_text:     "Si vous êtes un nouveau contributeur, nous recommandons de regarder les vidéos dans la section 'Débutants' pour bien démarrer. Si vous avez déjà de l'expérience suivez le lien 'Cartographier'. Il existe aussi un 'Extra Training' disponible via LearnOSM."
+  how_text:     "Si vous êtes nouveau contributeur, nous vous recommandons de regarder les vidéos de la section 'Débutants' ci-dessous pour bien démarrer. Si vous avez déjà cartographié suivez le lien 'Cartographier'. Il existe aussi d'autres tutoriels disponible via LearnOSM."
   map_btn:      "CARTOGRAPHIER"
   learn_osm:    "PLUS DE TUTORIAUX"
   beginners:    "Débutants"
-  step1:        "Créez un Compte Open Street Map"
-  step1_text:   "Allez sur le site <a href=\"https://www.openstreetmap.org/login\">OpenStreetMap</a> enregistrez vous pour créer un compte. Suivez le lien dans le mail qui vous sera envoyé pour valider la création de votre compte."
+  step1:        "Créez un Compte OpenStreetMap"
+  step1_text:   "Allez sur le site <a href=\"https://www.openstreetmap.org/login\">OpenStreetMap</a> inscrivez-vous vous pour vous créer un compte. Suivez le lien dans le mail qui vous sera envoyé pour valider la création de votre compte."
   step2:        "Apprenez à cartographier les bâtiments"
-  step2_text:   "Les bâtiments sont une des choses les plus importantes à ajouter sur OpenStreetMap (et c'est amusant aussi)! Apprenez comment ajouter ou éditer les bâtiments à OSM via l'éditeur iD."
+  step2_text:   "Les bâtiments sont un des éléments les plus utiles que vous pouvez ajouter à OpenStreetMap (et c'est amusant aussi)! Apprenez comment ajouter ou éditer les bâtiments dans OSM avec l'éditeur iD."
   step3:        "Apprenez à cartographier les routes"
-  step3_text:   "Les routes sont aussi une des plus importantes choses à ajouter sur OpenStreetMap! Apprenez à ajouter et éditer des routes à OSM avec l'aide de l'éditeur iD."
+  step3_text:   "Les routes sont également une des choses les plus utiles à ajouter à OpenStreetMap! Apprenez à ajouter et éditer des routes dans OSM avec l'éditeur iD."
   step4:        "Apprenez à utiliser le gestionnaire de tâches"
-  step4_text:   "Allez sur le <a href=\"http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps\">Gestionnaire de Tâches</a> pour trouver un projetet des tâches qui vous intéresse. Apprenez à vérouiller un tâche à éditer, sélectionner votre éditeur et changer la configuration du fond de plan."
+  step4_text:   "Allez sur le <a href=\"http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps\">Gestionnaire de Tâches</a> pour trouver un projet et des tâches qui vous intéresse. Apprenez comment bloquer une tâche à éditer, sélectionnez votre outil d'édition et changez la configuration du fond de plan."
 
 ####################
 ## EVENTS CONTENT ##
