@@ -126,25 +126,26 @@ about:
   title:        "À propos"
   objectives:
     title:      "Objectifs"
-    text1:      "Cartographier les zones vulnérables en voie de développement, pour que les ONG locales et internationales et les bénévoles puissent utiliser les cartes et les informations afin d'offrir une aide efficace quand une crise affecte une zone."
-    text2:      "Support d'<a href=\"http://openstreetmap.org\">OpenStreetMap</a> , en particulier l'<a href=\"http://hotosm.org\">Équipe Humanitaire OpenStreetMap</a>, en anglais Humanitarian OpenStreetMap Team (HOT)</a>, pour leurs compétences techniques et le développement des communautés."
+    text1:      "Cartographier les zones les plus vulnérables des pays en voie de développement, afin que les acteurs et les ONG locales et internationales puissent utiliser les cartes et les données pour mieux répondre aux
+crises qui les touchent."
+    text2:      "Soutenir l'écosystème d'<a href=\"http://openstreetmap.org\">OpenStreetMap</a>, spécifiquement l'<a href=\"http://hotosm.org\">Équipe Humanitaire OpenStreetMap</a>, en anglais Humanitarian OpenStreetMap Team (HOT)</a>, pour le développement des technologies, des méthodes de travail et des communautés."
   ethics:
     title:      "Éthique"
-    text1:      "L'utilisation d'OpenStreetMap assure que toutes les informations rassamblées restent gratuites, ouvertes, et disponibles pour être utilisés sous la licence ouverte OpenStreetMap."
-    text2:      "Toutes les activités 'de terrain', ex. de cartographie ou de collecte de données, seront faites en collaboration avec des individus sur place et effectuées en tout temps avec respect."
-    text3:      "Sur le terrain, les gens sont la priorité, non les données. Si l'objectif est de cartographier une ville, un plan doit être en place pour assurer l'accès aux technologies et à la formation aux personnes locales, afin qu'ils puissent continuer d'utiliser les cartes après la fin du projet."
-    text4:      "Les membres de Missing Maps contribuent activement à ses objectifs, à ceux d'Open Street Map et au développement des communautés locales et internationales."
-    text5:      "Missing Maps misent sur le développement d'expertises locales. Nous préférons éviter la collecte rapide de données sans une participation locale à nos activités."
-    text6:      "Les projets de Missing Maps sont conçus afin de permettre à quiconque de mettre la main à la pâte."
+    text1:      "L'utilisation d'OpenStreetMap garantit que la totalité des données restera libre, ouverte et utilisable selon les termes de la licence libre d'OpenStreetMap."
+    text2:      "La cartographie et la collecte de données sur le terrain doivent être réalisées en collaboration avec les populations locales et de façon respectueuse, en toutes circonstances."
+    text3:      "Les personnes sont plus importantes que les données. Autrement dit, si le but est de cartographier une ville, un programme doit être mis en oeuvre pour garantir l'accès aux technologies et à la formation pour ceux qui vivent dans ces zones, afin que la cartographie et l'utilisation de ces cartes continuent durablement.
+    text4:      "Les membres du projet Missing Maps contribuent activement à ses objectifs, à ceux d'OpenStreetMap et à venir en aide aux populations bénéficiaires, qu'elles soient locales ou internationales."
+    text5:      "Le projet Missing Map met l'accent sur la construction de capacités locales pérennes. Nous restons prudent quant à la collecte massive de données sans participation locale, et faisons sans cesse des efforts pour garantir un accès aux populations locales."
+    text6:      "Les activités de Missing Maps sont conçues pour être accessibles et ouvertes à toutes les personnes qui souhaitent contribuer aux objectifs du projet."
   membership:
     title:      "Membres"
-    text1:      ""
-    text2:      ""
+    text1:      "Les membres fondateurs du projet Missing Maps invitent les autres ONG, établissements d'enseignement et associations qui souhaitent contribuer à ses objectifs et dans le respect de l'éthique de ce dernier, à rejoindre le projet. L'acceptation de cette adhésion est sous la responsabilité des organisatinos membres actuelles."
+    text2:      "Si vous êtes intéressés, merci de nous contacter via le formulaire ci-dessous. "
   contact_btn:  "CONTACTEZ-NOUS POUR DEVENIR MEMBRE"
-  madepossible: "Missing Maps est possible grâce à ces organisations."
+  madepossible: "Missing Maps a été rendu possible grâce aux organisations suivantes."
   founders:     "Fondateurs"
   members:      "Membres"
-  osm_text:     "est la platforme de cartographie ouverte qui rend le tout possible, supportée par l'OBNL"
+  osm_text:     "est la platforme de cartographie ouverte qui rend le tout possible, soutenée par l'Organisation à But Non Lucratif"
 
 #####################
 ## HOST A MAPATHON ##
