@@ -1,4 +1,4 @@
-// IE < 10
+// IE < 11
 // Don't delete.
 .lt-ie10 {
   #site-canvas {
@@ -366,6 +366,10 @@ header{
 
 .header-hosting {
   background-image: url("/assets/graphics/old/mapathon5.jpg");
+}
+
+.header-blog {
+  background-image: url("/assets/graphics/old/mapathon6.jpg");
 }
 
 /*----------------------------------------------*/
@@ -783,9 +787,6 @@ input[type="text"]{
   padding-bottom: 32px;
   padding-top: 32px;
 }
-
-
-
 
 .events-container {
   .section-header {

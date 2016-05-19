@@ -25,8 +25,13 @@
 				|
 				<li class="nav-item nav-dropdown">{{locale}}
 					<div class="dropdown-content">
-						{% for loc in site.authorized_locales %} 
-						{% assign pg = site.pages | where:"lang",{{loc}} | where:"id",page.id | first %}
+						{% for loc in site.authorized_locales %}
+						{% if page.category == "blog" %}
+							{% assign pg = site.posts | where:"lang",{{loc}} | where:"postID",page.postID | first%}
+						{% else %}
+							{% assign pg = site.pages | where:"lang",{{loc}} | where:"id",page.id | first %}
+						{% endif %}
+
 						<a href="{{site.baseurl}}{{pg.url}}">
 							<div class="nav-item item-centered">{{loc}}</div>
 						</a>
