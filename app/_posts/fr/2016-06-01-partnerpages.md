@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Missing Maps Partner Pages
+title: Partner Pages
 postID: partnerpages
 category: blog
 banner: https://arcmaps.s3.amazonaws.com/share/blog-pictures/partnerpages_banner.jpg
