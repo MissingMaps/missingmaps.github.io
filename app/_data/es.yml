@@ -28,7 +28,7 @@ nav:
 
 banner:
   title:          "Poner a las personas más vulnerables de la Tierra en el Mapa"
-  subtitle:       "Cada año, los desastres naturales matan a cerca de 100.000 personas y afectan o desplazan 200 millones de personas en el mundo. Muchos de los lugares donde ocurren esos desastres son literalmente "ausentes" de los mapas existentes. Eso conlleva a una falta de información a los primeros auxilios para tomar buenas decisiones en el terreno. Missing Maps es un proyecto abierto, colaborativo en el que se puede participar cartografiando zonas en las que las organizaciones humanitarias están tratando de responder a las necesidades de las poblaciones afectadas."
+  subtitle:       "Cada año, los desastres naturales matan a cerca de 100.000 personas y afectan o desplazan 200 millones de personas en el mundo. Muchos de los lugares donde ocurren esos desastres son literalmente \"ausentes\" de los mapas existentes. Eso conlleva a una falta de información a los primeros auxilios para tomar buenas decisiones en el terreno. Missing Maps es un proyecto abierto, colaborativo en el que se puede participar cartografiando zonas en las que las organizaciones humanitarias están tratando de responder a las necesidades de las poblaciones afectadas."
   get_involved:   "INVOLUCRARSE"
 
 how_we_work:
@@ -131,7 +131,7 @@ about:
   ethics:
     title:      "Ética"
     text1:      "El uso de OpenStreetMap asegura que todos los datos obtenidos bajo la bandera del proyecto serán libres, abiertos y disponible para su uso bajo licencia abierta de OpenStreetMap."
-    text2:      "Todas las actividades "de terreno”, ej. cartografía o recogida de datos, se llevarán a cabo en colaboración con personas situadas en el lugar y de manera respetuosa en todo momento."
+    text2:      "Todas las actividades \"de terreno\", ej. cartografía o recogida de datos, se llevarán a cabo en colaboración con personas situadas en el lugar y de manera respetuosa en todo momento."
     text3:      "3.	Sobre el terreno, la gente es la prioridad, no los datos. Si el objetivo es mapear una ciudad, un plan debe estar en su lugar para asegurar el acceso a la tecnología y la capacitación de la población local para que puedan seguir utilizando los mapas después del final del proyecto."
     text4:      "Los miembros de Missing Maps contribuyen activamente a los objetivos de Missing Maps, así como a los de OpenStreetMap y al desarrollo de comunidades locales e internacionales."
     text5:      "Missing Maps apuesta por el desarrollo de conocimientos a nivel local. Preferimos evitar la recolección rápida de datos sin una participación local a nuestras actividades."
@@ -206,4 +206,3 @@ host:
 ###################
 blog:
   title: "Blog"
-  
