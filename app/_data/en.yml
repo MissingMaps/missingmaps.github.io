@@ -201,10 +201,14 @@ host:
     - text:       "Mapathon Tabletop Guide"
       asset:      "MissingMaps-tabletop.pdf"
 
-
 ###################
 ## Blog CONTENT ##
 ###################
 blog:
   title: "Blog"
-  
+
+#####################
+## COUNTRY STATS ##
+#####################
+countrystats:
+    title: "Country Stats"

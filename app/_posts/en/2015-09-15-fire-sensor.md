@@ -3,7 +3,6 @@ layout: post
 title: Fire Sensor Project
 postID: fire-sensor-project
 category: blog
-
 banner: https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20150915_banner.jpg
 date: 2015-09-15
 author: Drishtie Patel, Dan Joseph
