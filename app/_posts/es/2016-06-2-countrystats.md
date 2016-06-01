@@ -9,8 +9,8 @@ author: Dale Kunce
 excerpt: Building an understanding of gaps left to be mapped means understanding what and how local OSM communities have been able to map. Working with some partners we created a simple tableau visualization that shows the growth of road data in OSM over the past eight years.
 published: true
 tags: OSM Stats
-permalink: /blog/:year/:month/:day/:title/
-lang: en
+permalink: /es/blog/:year/:month/:day/:title/
+lang: es
 ---
 
 Building an understanding of gaps left to be mapped means understanding what and how local OSM communities have been able to map. Working with some partners we created a simple tableau visualization that shows the growth of OSM overtime. Visualizing the growth of an OSM community allows us to understand where the local community is in its growth and helps us determine what methods we might use to help build up the mapping community. Together with some other tools such as the [Missing Maps leaderboards](http://missingmaps.org/leaderboards) and [OSM Analytics](http://osm-analytics.org) we are building a great understanding of where the maps are missing. The country stats only looks at road length and road names. Road length is usually a good proxy for overall map coverage and road name is usually a good proxy for map quality. Overall map density continues to grow, the map is filling out thanks to a combination of dedicated local mappers and institutional actors like Missing Maps.

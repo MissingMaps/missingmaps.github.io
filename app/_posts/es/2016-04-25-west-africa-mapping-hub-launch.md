@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Maps are really useful for health-related needs
+title: Field Mapping at Scale in West Africa
 postID: west-africa-mapping-hub-launch
 category: blog
 
