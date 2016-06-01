@@ -6,14 +6,14 @@ category: blog
 banner: https://arcmaps.s3.amazonaws.com/share/blog-pictures/world_stats.jpg
 date: 2016-06-02
 author: Dale Kunce
-excerpt: Building an understanding of gaps left to be mapped means understanding what and how local OSM communities have been able to map. Working with some partners we created a simple tableau visualization that shows the growth of road data in OSM over the past eight years.
+excerpt: Building an understanding of gaps left to be mapped means understanding what and how local OSM communities have been able to map. Working with some partners we created a simple Tableau visualization that shows the growth of road data in OSM over the past eight years.
 published: true
 tags: OSM Stats
 permalink: /blog/:year/:month/:day/:title/
 lang: en
 ---
 
-Building an understanding of gaps left to be mapped means understanding what and how local OSM communities have been able to map. Working with some partners we created a simple tableau visualization that shows the growth of OSM overtime. Visualizing the growth of an OSM community allows us to understand where the local community is in its growth and helps us determine what methods we might use to help build up the mapping community. Together with some other tools such as the [Missing Maps leaderboards](http://missingmaps.org/leaderboards) and [OSM Analytics](http://osm-analytics.org) we are building a great understanding of where the maps are missing. The country stats only looks at road length and road names. Road length is usually a good proxy for overall map coverage and road name is usually a good proxy for map quality. Overall map density continues to grow, the map is filling out thanks to a combination of dedicated local mappers and institutional actors like Missing Maps.
+Building an understanding of gaps left to be mapped means understanding what and how local OSM communities have been able to map. Working with some partners we created a simple Tableau visualization that shows the growth of OSM overtime. Visualizing the growth of an OSM community allows us to understand where the local community is in its growth and helps us determine what methods we might use to help build up the mapping community. Together with some other tools such as the [Missing Maps leaderboards](http://missingmaps.org/leaderboards) and [OSM Analytics](http://osm-analytics.org) we are building a great understanding of where the maps are missing. The country stats only looks at road length and road names. Road length is usually a good proxy for overall map coverage and road name is usually a good proxy for map quality. Overall map density continues to grow, the map is filling out thanks to a combination of dedicated local mappers and institutional actors like Missing Maps. It is truly impressive how much data has been added to the map in such a few short years. With more partners and projects we can do even more.
 
 I've highlighted three countries that peaked my interest below.
 
@@ -42,6 +42,8 @@ Guinea has a much different history of map data. Prior to the [2013 Ebola outbre
 </figure>
 
 ## Country Stats
+Explore the data yourself, select countries or groups of countries to see their data over time. Identify places where you can have an impact and [go map](http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps).
+
 <figure>
   <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
   <div class='tableauPlaceholder' style='height: 1069px;'>
