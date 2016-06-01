@@ -7,7 +7,7 @@ banner: https://arcmaps.s3.amazonaws.com/share/blog-pictures/partnerpages_banner
 date: 2016-06-01
 author: Dale Kunce
 excerpt: The next step in data analytics is coming to Missing Maps. Using the infrastructure we continue to build out on the Missing Maps leaderboards and osm-stats-api we are very happy to announce the creation of partner pages. Partner pages can be any sort of partner from some of Missing Maps corporate partners such as JP Morgan Chase to local groups such as Maptime.
-published: true
+published: false
 tags: partner pages
 permalink: /blog/:year/:month/:day/:title/
 lang: en
