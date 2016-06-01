@@ -35,7 +35,10 @@ There are four main steps in incorporating a language:
 4. create folder of page templates
   1. copy 'en' dir, rename copy as your 2-letter language code
   2. in frontmatter for all templates there within, you need to add the language code and pagename to the ```permalink``` (i.e. /about/ becomes /fr/apropos/ for the french translation)
-5. (OPTIONAL) Add translations of pdf assets
+5. create folder of blog posts
+  1. copy the \_posts/en dir, rename folder as your 2-letter language code
+  2. in frontmatter for all templates there within, you need to change the ```language``` to the correct code and add the language code to the ```permalink``` (i.e. /blog/:year/:month/:day/:title/ becomes /fr/blog/:year/:month/:day/:title/ for the french translation)
+6. (OPTIONAL) Add translations of pdf assets
   1. add documents to assets/downloads
   2. update \_data/```2-letter code```.yml host.materials_list.asset(s) with the filename you created
 
