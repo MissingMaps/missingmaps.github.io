@@ -57,6 +57,8 @@ how_we_work:
     line2:      "information to plan risk reduction and"
     #   approximate max length ---------------------------------||
     line3:      "disaster response activities that save lives"
+    #   line4 added for ES translation, not needed for EN
+    line4:      ""
 
 how_to_participate:
   title:        "How to participate"
