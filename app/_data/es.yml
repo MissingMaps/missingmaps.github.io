@@ -7,7 +7,7 @@ nav:
     url:          "/es/contribuir/"
   - text:         "EVENTOS"
     links:
-      - text:     "PROXIMOS EVENTOS"
+      - text:     "PRÓXIMOS EVENTOS"
         url:      "/es/eventos/"
       - text:     "ORGANIZAR UN EVENTO"
         url:      "/es/organizar/"
@@ -28,8 +28,8 @@ nav:
 
 banner:
   title:          "Poner a las personas más vulnerables de la Tierra en el Mapa"
-  subtitle:       "Cada año, los desastres naturales matan a cerca de 100.000 personas y afectan o desplazan 200 millones de personas en el mundo. Muchos de los lugares donde ocurren esos desastres son literalmente \"ausentes\" de los mapas existentes. Eso conlleva a una falta de información a los primeros auxilios para tomar buenas decisiones en el terreno. Missing Maps es un proyecto abierto, colaborativo en el que se puede participar cartografiando zonas en las que las organizaciones humanitarias están tratando de responder a las necesidades de las poblaciones afectadas."
-  get_involved:   "INVOLUCRARSE"
+  subtitle:       "Cada año, los desastres naturales matan cerca de 100.000 personas y afectan o desplazan 200 millones de personas en el mundo. Muchos de los lugares donde ocurren esos desastres son totalmente inexistentes de los mapas existentes. Eso conlleva a que los primeros auxilios carezcan de la información necesaria para poder tomar las decisiones correctas sobre el terreno. Missing Maps es un proyecto abierto, colaborativo en el que se puede participar cartografiando zonas donde las organizaciones humanitarias están tratando de responder a las necesidades de las poblaciones afectadas."
+  get_involved:   "CONTRIBUIR"
 
 how_we_work:
   title:        "Cómo trabajamos"
@@ -52,16 +52,19 @@ how_we_work:
   step3:
     text:       "Paso 3."
     #   approximate max length ---------------------------------||
-    line1:      "Las organizaciones humanitarias utilizan la información"
+    line1:      "Las organizaciones humanitarias utilizan"
     #   approximate max length ---------------------------------||
-    line2:      " cartográfica para planificar la reducción de riesgos"
+    line2:      "la información cartográfica para planificar la"
     #   approximate max length ---------------------------------||
-    line3:      "y acciones de respuesta a desastres, lo que salva vidas"
+    line3:      "reducción de riesgos y acciones de respuesta a"
+    #   approximate max length ---------------------------------||
+    line4:      "desastres, lo que salva vidas"
+
 
 how_to_participate:
   title:        "Cómo colaborar"
   start:        "Empezar a cartografiar"
-  start_text:   "No es un problema si nunca ha cartografiado antes - se aprende rápidamente. Visita nuestra sección para principiantes y averiguará cómo hacer. Si ya sabe cómo editar en OpenStreetMap, no dude en empezar."
+  start_text:   "No es un problema si nunca has cartografiado antes - se aprende rápidamente. Visita nuestra sección para principiantes y averiguarás cómo hacer. Si ya sabes cómo editar en OpenStreetMap, no dudes en empezar."
   map_btn:      "CARTOGRAFIAR"
   learn_btn:    "APRENDER A CARTOGRAFIAR"
   organize:     "Organizar un mapathon"
@@ -81,35 +84,35 @@ contributions:
   roads:        "Carreteras (km)"
 
 discover:
-  title:        "Decubrir"
-  subtitle:     "Para seguir sus contribuciones individuales y de proyecto, Missing Maps proporciona dos herramientas."
+  title:        "Descubrir"
+  subtitle:     "Para seguir tus contribuciones individuales y de proyecto, Missing Maps proporciona dos herramientas."
   profiles:     "Perfiles de usuarios"
-  profile_text: "Revise sus contribuciones en las tareas del HOT!"
+  profile_text: "Revisa tus contribuciones en las tareas del HOT!"
   profile_btn:  "BUSCAR UN CONTRIBUIDOR"
   projects:     "Tabla de líderes de proyectos"
-  project_text: "Averigue su clasificación de contribuciones!"
+  project_text: "Averigua su clasificación de contribuciones!"
   project_btn:  "IR A TABLA DE LÍDERES"
 
 contact:
-  title:        "Contacte con nosotros"
+  title:        "Contacta con nosotros"
 
 ########################
 ## CONTRIBUTE CONTENT ##
 ########################
 contribute:
   title:        "Como contribuir"
-  how_text:     "Si eres nuevo en el mundo de la cartografía digital, le recomendamos que mire los videos de la sección “Principiantes” para poder ponerse en marcha. Si ya cartografiaste antes, sigua el enlace “Cartografia”. También puede acceder a tutoriales adicionales con el LearnOSM."
+  how_text:     "Si eres nuevo en el mundo de la cartografía digital, te recomendamos que mires los videos de la sección “Principiantes” para poder ponerte en marcha. Si ya cartografiaste antes, sigue el enlace “CARTOGRAFIAR”. También puede acceder a tutoriales adicionales con el LearnOSM."
   map_btn:      "CARTOGRAFIAR"
   learn_osm:    "TUTORIALES ADICIONALES"
   beginners:    "Principiantes"
   step1:        "Crea una cuenta OpenStreetMap"
-  step1_text:   "Ir a la página Web de <a href=\"https://www.openstreetmap.org/login\">OpenStreetMap</a> donde podrá registrarse para crear una cuenta. Luego siga las instrucciones recibidas por correo electrónico para confirmar la nueva cuenta."
-  step2:        "Aprenda a cartografiar edificios"
-  step2_text:   "Los edificios son una de las cosas más útiles que puede añadir al OpenStreetMap (y además es bastante divertido)! Aprenda como añadir y editar edificios en OSM mediante el iD editor."
-  step3:        "Aprenda a cartografiar carreteras"
-  step3_text:   "Las carreteras  son también importantes de añadir al OpenStreetMap! Aprenda cómo hacerlo y editarlo mediante el iD editor."
+  step1_text:   "Ir a la página Web de <a href=\"https://www.openstreetmap.org/login\">OpenStreetMap</a> donde podrás registrarte para crear una cuenta. Luego sigue las instrucciones recibidas por correo electrónico para confirmar la nueva cuenta."
+  step2:        "Aprende a cartografiar edificios"
+  step2_text:   "Los edificios son una de las cosas más útiles que puedes añadir al OpenStreetMap (y además es bastante divertido!) Aprende como añadir y editar edificios en OSM mediante el iD editor."
+  step3:        "Aprende a cartografiar carreteras"
+  step3_text:   "Las carreteras  son también importantes de añadir al OpenStreetMap! Aprende cómo hacerlo y editarlo mediante el iD editor."
   step4:        "Aprenda el uso del Administrador de tareas"
-  step4_text:   "Ir al <a href=\"http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps\">Administrador de tareas</a> para encontrar un proyecto y la tarea que le interese. Aprenda a bloquear una tarea a editar, a seleccionar un editor y a cambiar la configuración de la herramienta."
+  step4_text:   "Ir al <a href=\"http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps\">Administrador de tareas</a> para encontrar un proyecto y la tarea que le interesa. Aprende a bloquear una tarea a editar, a seleccionar un editor y a cambiar la configuración de la herramienta."
 
 ####################
 ## EVENTS CONTENT ##
@@ -126,22 +129,22 @@ about:
   title:        "Acerca de"
   objectives:
     title:      "Objetivos"
-    text1:      "Cartografiar los lugares más vulnerables del mundo en vía de desarrollo, con el fin de que las organizaciones no gubernamentales internacionales y locales así como particulares puedan utilizar la cartografía y datos para responder mejor a crisis que afectan diferentes zonas del mundo."
-    text2:      "Para apoyar a <a href=\"http://openstreetmap.org\">OpenStreetMap</a>, especialmente al Equipo Humanitario de OpenStreetMap, en inglés <a href=\"http://hotosm.org\">Humanitarian OpenStreetMap Team (HOT)</a>, desarrollando tecnologías, habilidades, flujos de trabajo y comunidades."
+    text1:      "Cartografiar los lugares más vulnerables del mundo en vías de desarrollo, con el fin de que las organizaciones no gubernamentales internacionales y locales así como particulares puedan utilizar la cartografía y datos para responder mejor a crisis que afectan diferentes zonas del mundo."
+    text2:      "Apoyar a <a href=\"http://openstreetmap.org\">OpenStreetMap</a>, especialmente al Equipo Humanitario de OpenStreetMap, en inglés <a href=\"http://hotosm.org\">Humanitarian OpenStreetMap Team (HOT)</a>, desarrollando tecnologías, habilidades, flujos de trabajo y comunidades."
   ethics:
     title:      "Ética"
     text1:      "El uso de OpenStreetMap asegura que todos los datos obtenidos bajo la bandera del proyecto serán libres, abiertos y disponible para su uso bajo licencia abierta de OpenStreetMap."
-    text2:      "Todas las actividades \"de terreno\", ej. cartografía o recogida de datos, se llevarán a cabo en colaboración con personas situadas en el lugar y de manera respetuosa en todo momento."
-    text3:      "3.	Sobre el terreno, la gente es la prioridad, no los datos. Si el objetivo es mapear una ciudad, un plan debe estar en su lugar para asegurar el acceso a la tecnología y la capacitación de la población local para que puedan seguir utilizando los mapas después del final del proyecto."
+    text2:      "Todas las actividades \"sobre el terreno\", ej. cartografía o recogida de datos, se llevarán a cabo en colaboración con personas situadas en el lugar y de manera respetuosa en todo momento."
+    text3:      "Trabajando sobre el terreno, la prioridad es la gente, no los datos. Si el objetivo es mapear una ciudad, se debe establecer un plan para asegurar el acceso a la tecnología y la formación de la población local para los mapas y su uso perduren más allá de la finalización del proyecto."
     text4:      "Los miembros de Missing Maps contribuyen activamente a los objetivos de Missing Maps, así como a los de OpenStreetMap y al desarrollo de comunidades locales e internacionales."
-    text5:      "Missing Maps apuesta por el desarrollo de conocimientos a nivel local. Preferimos evitar la recolección rápida de datos sin una participación local a nuestras actividades."
-    text6:      "Las actividades están diseñadas para ser accesible y abiertas a la participación de las personas que desean contribuir a los objetivos del proyecto."
+    text5:      "Missing Maps apuesta por el desarrollo de conocimientos a nivel local. Preferimos evitar la recolección rápida de datos sin la participación local de nuestras actividades."
+    text6:      "Las actividades están diseñadas para ser accesibles y abiertas a la participación de las personas que desean contribuir a los objetivos del proyecto."
   membership:
     title:      "Afiliación"
     text1:      "La adhesión al proyecto está abierta a cualquier ONG, institución de educación o grupo de la sociedad civil dispuestos a contribuir a los objetivos y cumplir con la ética expuesta anteriormente. La aprobación de la adhesión es responsabilidad de las organizaciones actualmente afiliadas."
-    text2:      "Si está interesado en adherir como miembro, por favor póngase en contacto con nosotros mediante el siguiente formulario."
-  contact_btn:  "CONTÁCTANOS PARA CONVERTIRSE EN MIEMBRO"
-  madepossible: "Missing Maps fue posible gracias a las siguientes organizaciones."
+    text2:      "Si estás interesado en adherirse como miembro, por favor ponte en contacto con nosotros mediante el siguiente formulario."
+  contact_btn:  "CONTÁCTANOS PARA CONVERTIRTE EN MIEMBRO"
+  madepossible: "Missing Maps es posible gracias a las siguientes organizaciones."
   founders:     "Fundadores"
   members:      "Miembros"
   osm_text:     "es una iniciativa cuyo objetivo es crear y proporcionar datos geográficos libres a todo el mundo, apoyada por la organización sin ánimo de lucro"   ###### Raro aqui... parece que falta algo ##
@@ -151,27 +154,27 @@ about:
 #####################
 host:
   title:          "Organizar un Mapathon"
-  text:           "Un Mapathon es una oportunidad única para que los voluntarios puedan cartografiar las zonas más vulnerables de los países en desarrollo y, por lo tanto, permitir a las ONG's locales e internacionales de responder con mayor eficacia frente a las crisis que afectan a esas regiones. Estas iniciativas de e-voluntariado son de gran ayuda para numerosas organizaciones humanitarias en todo el mundo para dar respuestas a  situaciones catastróficas. Es esencial desarrollar una red importante de voluntarios con experiencia dispuestos a ayudar con una coordinación mínima en caso de desastre. Mira los videos de abajo para aprender más acerca de los Mapathons y la forma de organizar-los."
-  what_is:        "Que es un Mapathon ?"
+  text:           "Un Mapathon es una oportunidad única para que los voluntarios puedan cartografiar las zonas más vulnerables de los países en desarrollo y, por lo tanto, permitir a las ONG's locales e internacionales responder con mayor eficacia frente a las crisis que afectan a esas regiones. Estas iniciativas de e-voluntariado son de gran ayuda para numerosas organizaciones humanitarias en todo el mundo en la respuesta a situaciones catastróficas. Es esencial conseguir una mayor red de voluntarios experimentados preparados para colaborar en caso de desastre bajo una mínima coordinación. Mira los vídeos que encontrarás a continuación para aprender más acerca de los Mapathones y la forma de organizarlos."
+  what_is:        "Que es un Mapathon?"
   how_host:       "Como organizar un Mapathon"
   prep_btn:       "PREPARATIVOS"
   check_btn:      "DÍA DEL EVENTO"
   materials_btn:  "RECURSOS"
   mapevent_btn:   "REGISTRAR UN EVENTO"
-  how_help:       "Como Missing Maps puede ayudar?"
-  how_help_text:  "Podemos apoyar a su equipo de forma local y remota. Póngase en contacto con el coordinador de Missing Maps indicando la fecha y el lugar de su evento para ayudarle a coordinar y gestionar su evento con:"
+  how_help:       "Cómo Missing Maps puede ayudar?"
+  how_help_text:  "Podemos apoyar a tu equipo de forma local y remota. Ponte en contacto con el coordinador de Missing Maps indicando la fecha y el lugar de tu evento para ayudarle a coordinar y gestionar tu evento con:"
   how_help_steps:
-    - label: "Elección de una tarea cartográfica - Contacte-nos para obtener una lista de las tareas más urgentes a cartografiar durante su evento."
+    - label: "Elección de una tarea cartográfica - Contacta-nos para obtener una lista de las tareas más urgentes a cartografiar durante tu evento."
     - label: "Presentaciones en vivo - Un colaborador nuestro estará disponible, o bien presencialmente o bien en línea, para presentar Missing Maps."
     - label: "Formación y Asesoramiento - Un colaborador nuestro estará disponible, o bien presencialmente o bien en línea, para guiar a los participantes a lo largo de la sesión."
-    - label: "Registro - Podemos asesorarle y proporcionarle herramientas sobre cómo registrarse y realizar un seguimiento de los participantes."
-    - label: "Marketing y Publicidad - Comunicados de prensa y publicaciones intranet pueden ser proporcionados por el coordinador de Missing Maps para cada evento. También podemos añadir informaciones de su Mapathon en nuestra <a href= \"/events\"> Web de Missing Maps</a> y en las <a href= \"http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons\">Páginas Wiki.</a>"
-    - label: "Colaborar con socios locales de Missing Maps - Podemos presentarle a los socios locales de Missing Maps para ayudarle, en lo posible, a encontrar cartógrafos expertos y servicios de traducción."
+    - label: "Registro - Podemos asesorarte y proporcionarte herramientas sobre cómo registrarse y realizar un seguimiento de los participantes."
+    - label: "Marketing y Publicidad - Comunicados de prensa y publicaciones intranet pueden ser proporcionados por el coordinador de Missing Maps para cada evento. También podemos añadir informaciones de tu Mapathon en nuestra <a href= \"/events\"> Web de Missing Maps</a> y en las <a href= \"http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons\">Páginas Wiki.</a>"
+    - label: "Colaborar con socios locales de Missing Maps - Podemos presentarte a los socios locales de Missing Maps para ayudarte, en lo posible, a encontrar cartógrafos expertos y servicios de traducción."
   prep_check:     "Checklist de los preparativos"
   prep_check_list:
     - label: "Sala grande: capacidad recomendada de 100 personas"
     - label: "Buena red Wi-Fi para permitir un acceso simultáneo óptimo"
-    - label: "Contacte Missing Maps para sugerencias de tareas cartográficas"
+    - label: "Contacta Missing Maps para sugerencias de tareas cartográficas"
     - label: "Mesas y sillas"
     - label: "Retroproyector"
     - label: "Ordenadores con ratones"
@@ -179,26 +182,26 @@ host:
     - label: "Lista de inscritos al evento"
     - label: "Un pica-pica"
     - label: "Reclutar amigos, conocidos y voluntarios para ayudar con la logística"
-    - label: "Promocionar el evento por sus canales de redes sociales!"
+    - label: "Promocionar el evento por tus canales de redes sociales!"
   event_check:    "El día del evento"
   event_check_list:
     - label: "Preparar la sala"
     - label: "Preparar la mesa de recepción con las etiquetas de nombres, folletos, encuestas y el método de conexión de los asistentes"
-    - label: "Probar los equipos para asegurarse de que todo funcione correctamente"
+    - label: "Probar los equipos para asegurarte de que todo funcione correctamente"
     - label: "Pegar los alargadores eléctricos al suelo"
-    - label: "Coloque las guías 'Table Top' en cada mesa"
-    - label: "Asegúrese de tener el contacto del responsable técnico de la sala"
+    - label: "Colocar las guías 'Table Top' en cada mesa"
+    - label: "Asegúrate de tener el contacto del responsable técnico de la sala"
     - label: "Confirmar los pedidos de bebidas y comidas para el pica-pica"
-    - label: "Disfrute y diviértase!"
+    - label: "Disfruta y diviértete!"
     - label: "Pida a los participantes de completar la <a href=\"https://docs.google.com/forms/d/1ogzGmTIeYA4NVq5SwRU-vIA9Bw1Ua7NRhrCYKUrnPqQ/viewform\">encuesta del voluntariado</a>"
   materials:      "Recursos"
   # if you have translated assets, put them in the assets folder and include filename here, if not, feel free to use the english versions as listed
   materials_list:
-    - text:       "Guide pas à pas pour organiser un Mapathon"
+    - text:       "Guía paso a paso para organizar un Mapathon (en inglés)"
       asset:      "MissingMaps_how_to_host_a_mapathon.pdf"
-    - text:       "Infographie Missing Maps: Comment nous travaillons"
+    - text:       "Infografía Missing Maps: Cómo trabajamos (en inglés)"
       asset:      "MissingMaps-Process.pdf"
-    - text:       "Guide Mapathon Tabletop"
+    - text:       "Guía Mapathon 'Table Top' (en inglés)"
       asset:      "MissingMaps-tabletop.pdf"
 
 ###################
