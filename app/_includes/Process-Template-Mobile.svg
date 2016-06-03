@@ -181,6 +181,9 @@
                     <text id="{{site.data[locale].how_we_work.step3.line3}}" fill="#606161" font-size="9" font-weight="300">
                         <tspan x="0" y="60">{{site.data[locale].how_we_work.step3.line3}}</tspan>
                     </text>
+                    <text id="{{site.data[locale].how_we_work.step3.line4}}" fill="#606161" font-size="9" font-weight="300">
+                        <tspan x="0" y="71">{{site.data[locale].how_we_work.step3.line4}}</tspan>
+                    </text>
                     <text id="{{site.data[locale].how_we_work.step3.text}}" fill="#535454" font-size="18" font-weight="700">
                         <tspan x="0" y="18" fill="#606161">{{site.data[locale].how_we_work.step3.text}}</tspan>
                     </text>
