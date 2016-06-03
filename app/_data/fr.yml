@@ -207,4 +207,9 @@ host:
 ###################
 blog:
   title: "Blog"
-  
+
+#####################
+## COUNTRY STATS ##
+#####################
+countrystats:
+    title: "Statistiques Pays"

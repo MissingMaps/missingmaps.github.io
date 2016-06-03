@@ -3,7 +3,6 @@ layout: post
 title: Missing Maps
 postID: missing-maps
 category: blog
-
 banner: https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20160422_banner.jpg
 date: 2016-05-05
 author: Dale Kunce

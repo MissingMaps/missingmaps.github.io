@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Maps are really useful for health-related needs
+title: Field Mapping at Scale in West Africa
 postID: west-africa-mapping-hub-launch
 category: blog
-
 banner: https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20160425_banner.jpg
 date: 2016-04-25
 author: Emily Eros
