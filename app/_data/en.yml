@@ -21,6 +21,8 @@ nav:
         url:      "http://www.missingmaps.org/users/"
       - text:     "LEADERBOARDS"
         url:      "http://www.missingmaps.org/leaderboards/"
+      - text:     "OSMSTATS"
+        url:      "/osmstats/"
 
 #####################
 ## LANDING CONTENT ##
@@ -208,7 +210,7 @@ blog:
   title: "Blog"
 
 #####################
-## COUNTRY STATS ##
+## OSM STATS ##
 #####################
 countrystats:
-    title: "Country Stats"
+    title: "OSM Stats"

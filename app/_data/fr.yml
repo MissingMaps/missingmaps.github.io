@@ -21,6 +21,8 @@ nav:
         url:      "http://www.missingmaps.org/users/"
       - text:     "TABLEAU DES MENEURS"
         url:      "http://www.missingmaps.org/leaderboards/"
+      - text:     "OSMSTATS"
+        url:      "/osmstats/"
 
 #####################
 ## LANDING CONTENT ##

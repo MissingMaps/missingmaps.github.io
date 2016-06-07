@@ -21,6 +21,8 @@ nav:
         url:      "http://www.missingmaps.org/users/"
       - text:     "TABLA DE LÍDERES" #######traduction pas top  ###
         url:      "http://www.missingmaps.org/leaderboards/"
+      - text:     "OSMSTATS"
+        url:      "/osmstats/"
 
 #####################
 ## LANDING CONTENT ##
@@ -206,3 +208,9 @@ host:
 ###################
 blog:
   title: "Blog"
+
+#####################
+## OSM STATS ##
+#####################
+countrystats:
+    title: "Estadística de OSM"
