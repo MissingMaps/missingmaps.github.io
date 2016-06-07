@@ -9,8 +9,8 @@ author: Drishtie Patel, Dan Joseph
 excerpt: Khayelitsha is home to roughly 400,000 people, covering an area of 39 square km that includes some older "formal" areas and a majority of newer, informal settlements. Red Cross partners have been working in the area and looked into the major concerns the community is facing. Fires are at the top of the list. Red Cross partners are piloting a project to solve this issue: a low-cost, meshed network of smart home sensors affixed to each home within the informal settlement. The American Red Cross GIS team recently set out to Khayelitsha to support the community in mapping the area for better program planning and decision making.
 published: true
 tags: Red Cross, Field Mapping, South Africa
-permalink: /blog/:year/:month/:day/:title/
-lang: en
+permalink: /fr/blog/:year/:month/:day/:title/
+lang: fr
 ---
 
 ## Fire sensor project background
@@ -22,7 +22,7 @@ Nicely conditioned roads, beautiful beaches, cliffs, scenic bays, promenades, an
 <p class="caption">Khayelitsha, CC BY-SA <a href="https://www.flickr.com/photos/elyob" target="\_blank">elyob</a></p>
 </figure>
 
- If you get the chance to spend some time there you will see the amazing community spirit and warmth in the area despite its well known reputation for being extremely dangerous.
+If you get the chance to spend some time there you will see the amazing community spirit and warmth in the area despite its well known reputation for being extremely dangerous.
 
 Khayelitsha is home to roughly 400,000 people, covering an area of 39 square km that includes some older "formal" areas and a majority of newer, informal settlements. Red Cross partners have been working in the area and looked into the major concerns the community is facing. Fires are at the top of the list. [Fires regularly occur](http://www.bbc.com/news/world-africa-20962623) as a result of indoor stove use, trash burning, faulty wires, and residents trying to keep warm. Rapid, unplanned development results in homes that are very close together, which increases the chance of fires spreading quickly. Pathways between homes are narrow and often blocked, making evacuations chaotic and dangerous. Residents often do not know who to call for firefighting assistance, and if firefighters are available they have a difficult time finding the locations and responding to calls.
 
