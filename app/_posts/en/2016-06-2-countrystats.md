@@ -18,7 +18,7 @@ Building an understanding of gaps left to be mapped means understanding what and
 I've highlighted three countries that peaked my interest below.
 
 ## United States
-When I first looked at the stats the first thing that jumped out at me was the rapid increase of mapping data in the US in 2009. I wasn't part of the project back then so I did a little research and found out that the increase is do the [TIGER Import](http://wiki.openstreetmap.org/wiki/TIGER). Seeing these types of massive data increases helps to understand how the mapping community has grown. These changes the way that we engage local mappers and community groups.
+When I first looked at the stats the first thing that jumped out at me was the rapid increase of mapping data in the US. I wasn't part of the project back then so I did a little research and found out that the increase is do the [TIGER Import](http://wiki.openstreetmap.org/wiki/TIGER). Seeing these types of massive data increases helps to understand how the mapping community has grown. These changes the way that we engage local mappers and community groups.
 
 <figure>
 <img src="https://arcmaps.s3.amazonaws.com/share/blog-pictures/TIGERImportAnimation.gif" alt="TIGER Import">
