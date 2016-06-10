@@ -252,3 +252,6 @@ latitude,longitude,date,flag,title,place_name,place_url,time_string,signup_url
 47.36086,8.56065,2016-05-15,ch,Missing Maps Zurich,"Schweizerisches Rotes Kreuz Kanton Zürich, Zurich, Switzerland",https://www.openstreetmap.org/way/121070256#map=19/47.36086/8.56065,18:00-20:00,http://www.meetup.com/Missing-Maps-Mapathons-in-and-around-Zurich/events/231240244/
 51.52417,-0.13451,2016-06-07,gb,Missing Maps/HOT June Mapathon,"Chadwick Building/UCL, London, United Kingdom",http://www.openstreetmap.org/#map=19/51.52417/-0.13451,18:00-21:00,https://www.eventbrite.co.uk/e/missing-mapshot-june-mapathon-tickets-25669310599
 51.51605,-0.12754,2016-06-23,gb,Missing Maps Mapathon CSG,"Google (Central Saint Giles), London, United Kingdom",http://www.openstreetmap.org/way/93217408,09:00-12:00,
+35.6830,139.7590,2016-06-23,jp,Google Tokyo Mapathon,", Tokyo, Japan",http://www.openstreetmap.org/#map=11/35.6830/139.7590,17:00-20:00,
+41.40380,2.19323,2016-07-07,es,MSF UPF Mapathon,"UPF, Barcelona, Spain",http://osm.org/go/xUbUrmZL9?way=68777521,18:00-21:00,https://www.eventbrite.co.uk/e/msf-missing-maps-upf-mapathon-tickets-25953747357
+40.6978,-74.1508,2016-06-23,us,Missing Maps New york,"NYC-9TH-4A100-Baker Field , New York, United States",http://www.openstreetmap.org/#map=10/40.6978/-74.1508,18:00-21:00,
