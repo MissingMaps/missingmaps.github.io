@@ -255,3 +255,4 @@ latitude,longitude,date,flag,title,place_name,place_url,time_string,signup_url
 35.6830,139.7590,2016-06-23,jp,Google Tokyo Mapathon,", Tokyo, Japan",http://www.openstreetmap.org/#map=11/35.6830/139.7590,17:00-20:00,
 41.40380,2.19323,2016-07-07,es,MSF UPF Mapathon,"UPF, Barcelona, Spain",http://osm.org/go/xUbUrmZL9?way=68777521,18:00-21:00,https://www.eventbrite.co.uk/e/msf-missing-maps-upf-mapathon-tickets-25953747357
 40.6978,-74.1508,2016-06-23,us,Missing Maps New york,"NYC-9TH-4A100-Baker Field , New York, United States",http://www.openstreetmap.org/#map=10/40.6978/-74.1508,18:00-21:00,
+23.7537,90.4048,2016-06-17,bd,Dhaka Map-Ter-Noon,"Training Room, Bangladesh Redcross & Red crescent society, Dhaka, Bangladesh",http://www.openstreetmap.org/?mlat=23.7537&mlon=90.4048#map=16/23.7537/90.4048,15:30-18:30,https://www.facebook.com/groups/osmbd/
