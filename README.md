@@ -17,6 +17,8 @@ Date 2015-09-15T04:00:00.000Z
 ```
 - Fields can be left blank if data does not exist or is TBD
 
+- Strings need to be wrapped in these characters `"Event title"` not these `“Event title”`
+
 - Include the two letter country code to include the correct flag
 
 ### Adding Language support
