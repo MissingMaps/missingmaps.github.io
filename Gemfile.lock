@@ -46,6 +46,7 @@ GEM
       toml (~> 0.1.0)
     jekyll-coffeescript (1.0.1)
       coffee-script (~> 2.2)
+    jekyll-feed (0.5.1)
     jekyll-gist (1.4.0)
       octokit (~> 4.2)
     jekyll-paginate (1.1.0)
@@ -91,5 +92,9 @@ DEPENDENCIES
   compass (~> 1.0.1)
   i18n (= 0.7.0)
   jekyll (~> 2.5.3)
+  jekyll-feed
   sass (~> 3.4.9)
   sass-css-importer (~> 1.0.0.beta.0)
+
+BUNDLED WITH
+   1.11.2
