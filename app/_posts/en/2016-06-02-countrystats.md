@@ -3,7 +3,7 @@ layout: post
 title: OpenStreetMap Country Stats
 postID: countrystats
 category: blog
-banner: https://arcmaps.s3.amazonaws.com/share/blog-pictures/world_stats.jpg
+banner: https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20160602_banner.jpg
 date: 2016-06-02
 author: Dale Kunce
 excerpt: Building an understanding of gaps left to be mapped means understanding what and how local OSM communities have been able to map. Working with some partners we created a simple Tableau visualization that shows the growth of road data in OSM over the past eight years.
