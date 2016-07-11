@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Trends of Transformation in West Africa
+title: Trends of Transformation by Mapping in West Africa
 postID: trends-of-transformation
 category: blog
 banner: https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20160711_banner.jpg
