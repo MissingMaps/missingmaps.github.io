@@ -20,7 +20,7 @@ Sierra Leone. Liberia. Guinea. Driving from one capital to another, from one end
 <p class="caption">Abandoned house. CC-BY David Luswata.</p>
 </figure>
 
-Greatly endowed with the Atlantic Ocean, very many rivers, thick forests and great diamond and other mineral deposits, “Life has since then been on an upward scale. Every one going about their business, building a nation and a region again,” narrates my driver as we cruise through the potholed roads of Macenta Prefecture in Guinea on our way to Liberia. “It was so until something strange came among us. We had fought many battle, but this was to be different. We were fighting an enemy we could not see. We didn’t know where he came from, we had never heard or seen something like that.” he continues.
+Greatly endowed with the Atlantic Ocean, very many rivers, thick forests and great diamond and other mineral deposits, “Life has since then been on an upward scale. Every one going about their business, building a nation and a region again,” narrates my driver as we cruise through the potholed roads of Macenta Prefecture in Guinea on our way to Liberia. “It was so until something strange came among us. We had fought many battles, but this was to be different. We were fighting an enemy we could not see. We didn’t know where he came from, we had never heard or seen something like that.” he continues.
 
 <figure>
 <img src="https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20160711_osmand.jpg" alt="Navigating">
