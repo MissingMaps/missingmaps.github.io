@@ -20,6 +20,12 @@
 						<p><span class="blog-date">{{post.date | localize: "%d",locale }} {{ post.date | localize: "%B",locale }} {{ post.date | localize: "%Y",locale }} </span> &nbsp;|&nbsp; by {{ post.author }}</p>
 						<p class="medium-7">{{ post.excerpt }}</p>
 				</div>
+			{% else %}
+				{% if forloop.first == true %}
+				<div class="textbox">
+					<p>{{ site.data[locale].blog.nocontent }}</p>
+				</div>
+				{% endif %}
 			{% endif %}
 			{% endfor %}
 		</div>

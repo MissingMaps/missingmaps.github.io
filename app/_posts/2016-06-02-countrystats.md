@@ -8,7 +8,7 @@ date: 2016-06-02
 author: Dale Kunce
 excerpt: Building an understanding of gaps left to be mapped means understanding what and how local OSM communities have been able to map. Working with some partners we created a simple Tableau visualization that shows the growth of road data in OSM over the past eight years.
 published: true
-tags: OSM Stats
+tags: [OSM Stats]
 permalink: /blog/:year/:month/:day/:title/
 lang: en
 ---

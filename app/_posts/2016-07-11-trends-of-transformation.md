@@ -2,15 +2,15 @@
 layout: post
 title: Trends of Transformation by Mapping in West Africa
 postID: trends-of-transformation
-category: blog
+category: [West Africa]
 banner: https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20160711_banner.jpg
 date: 2016-07-11
 author: David Luswata
 excerpt: Our work in the recent couple of months has been to map communities in a 15 kilometre buffer of the borders of Sierra Leone, Liberia and Guinea – this was the region most affected by Ebola Virus Disease. This has been achieved over and above our expectation. Each of these countries has had its challenges in mapping the communities, but the successes supersede the somewhat expected challenges.
 published: true
-tags: Red Cross, Field Mapping, West Africa, Ebola
-permalink: /fr/blog/:year/:month/:day/:title/
-lang: fr
+tags: [Red Cross, Field Mapping, West Africa, Ebola]
+permalink: /blog/:year/:month/:day/:title/
+lang: en
 ---
 
 Sierra Leone. Liberia. Guinea. Driving from one capital to another, from one end of the border to the other, I cannot help but notice that the last 27 years have been particularly difficult for life in these three greatly endowed countries. They form what is known as the Mano River Union (MRU). In 1989, the First Liberian Civil broke out, hundreds of thousands of lives were lost. Not long after this war started, in 1991 the Sierra Leone Civil war broke out. In 1997, it was thought that life had come back to normal in Liberia, but just two years later, backed by neighboring Guinea, the Second Liberia Civil war broke out. The impact and effects of each of these wars spilled so easily over to each one of its neighboring Mano River Union comrades. War drums have since 2003 been terminated, with a sincere living hope, that they will never sound again, ever. Moving through the border regions of the great countries, I easily notice the pain and impact the times of war have caused to the lives in these three countries. You so easily see houses, very well constructed, abandoned in the bushes no longer habited. Where are the inhabitants... do not ask that question.
