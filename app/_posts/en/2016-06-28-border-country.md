@@ -2,7 +2,7 @@
 layout: post
 title: Without Frontiers in Border Country
 postID: without-frontiers
-category: blog
+category: [West Africa]
 banner: https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20160628_banner.jpg
 date: 2016-06-28
 author: Rupert Allan
