@@ -210,7 +210,6 @@ host:
 ###################
 blog:
   title: "Blog"
-  nocontent: "There are no english language blogs currently published."
 
 #####################
 ## OSM STATS ##
