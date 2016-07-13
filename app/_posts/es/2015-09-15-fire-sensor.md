@@ -8,7 +8,7 @@ date: 2015-09-15
 author: Drishtie Patel, Dan Joseph
 excerpt: "Khayelitsha is home to roughly 400,000 people, covering an area of 39 square km that includes some older \"formal\" areas and a majority of newer, informal settlements. Red Cross partners have been working in the area and looked into the major concerns the community is facing. Fires are at the top of the list. Red Cross partners are piloting a project to solve this issue &#58; a low-cost, meshed network of smart home sensors affixed to each home within the informal settlement. The American Red Cross GIS team recently set out to Khayelitsha to support the community in mapping the area for better program planning and decision making."
 published: true
-tags: Red Cross, Field Mapping, South Africa
+tags: [Red Cross, Field Mapping, South Africa]
 permalink: /es/blog/:year/:month/:day/:title/
 lang: es
 ---

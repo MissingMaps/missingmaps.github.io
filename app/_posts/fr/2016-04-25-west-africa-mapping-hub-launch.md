@@ -8,7 +8,7 @@ date: 2016-04-25
 author: Emily Eros
 excerpt: "This past year, the American Red Cross undertook its biggest field effort to date: launching a mapping hub in West Africa and training local volunteers to field map over 5,000 villages in the border regions of Liberia, Guinea, and Sierra Leone. The mapping focuses on public health resources, different aspects of vulnerability, and amenities like markets that would draw people across borders – important information to understand if another Ebola outbreak were to occur."
 published: true
-tags: Red Cross, Field Mapping, West Africa, Ebola
+tags: [Red Cross, Field Mapping, West Africa, Ebola]
 permalink: /fr/blog/:year/:month/:day/:title/
 lang: fr
 ---

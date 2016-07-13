@@ -8,7 +8,7 @@ date: 2016-07-11
 author: David Luswata
 excerpt: Our work in the recent couple of months has been to map communities in a 15 kilometre buffer of the borders of Sierra Leone, Liberia and Guinea – this was the region most affected by Ebola Virus Disease. This has been achieved over and above our expectation. Each of these countries has had its challenges in mapping the communities, but the successes supersede the somewhat expected challenges.
 published: true
-tags: Red Cross, Field Mapping, West Africa, Ebola
+tags: [Red Cross, Field Mapping, West Africa, Ebola]
 permalink: /blog/:year/:month/:day/:title/
 lang: en
 ---
