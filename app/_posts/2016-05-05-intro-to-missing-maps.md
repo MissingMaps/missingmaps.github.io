@@ -8,9 +8,9 @@ date: 2016-05-05
 author: Dale Kunce
 excerpt: Welcome to the new Missing Maps Blog. Over nearly the last two years you almost 10,000 mappers have contributed over 22 million edits, almost 3 million buildings and 300,000 km of roads. These achievements are truly amazing. The new blog will focus on sharing some of the personal stories and major events happening with Missing Maps.
 published: true
-tags: Partners, Project update
-permalink: /fr/blog/:year/:month/:day/:title/
-lang: fr
+tags: [Partners, Project update]
+permalink: /blog/:year/:month/:day/:title/
+lang: en
 ---
 
 ## Missing Maps Blog

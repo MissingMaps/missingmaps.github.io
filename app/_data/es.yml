@@ -211,6 +211,9 @@ host:
 ###################
 blog:
   title: "Blog"
+  tags: "Blog Tags"
+  categories: "Blog Categorías"
+  nocontent: "No hay blogs en ​​español publicado actualmente."
 
 #####################
 ## OSM STATS ##

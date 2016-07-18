@@ -210,6 +210,9 @@ host:
 ###################
 blog:
   title: "Blog"
+  tags: "Blog Tags"
+  categories: "Blog Categories"
+  nocontent: "No blogs currently published in english."
 
 #####################
 ## OSM STATS ##

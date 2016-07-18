@@ -8,9 +8,9 @@ date: 2016-06-28
 author: Rupert Allan
 excerpt: Sierra Leone Red Cross volunteers are methodically surveying the missing, misnamed, and unrepresented villages of the border region for the Post-Ebola Community Rebuild project. Spearheaded by Missing Maps, it is a fundamental vulnerability assessment of at-risk areas where epidemics and natural disasters can run and spread for weeks un-checked.
 published: true
-tags: Red Cross, Field Mapping, MSF
-permalink: /fr/blog/:year/:month/:day/:title/
-lang: fr
+tags: [Red Cross, Field Mapping, MSF]
+permalink: /blog/:year/:month/:day/:title/
+lang: en
 ---
 
 'Kondewakoro...'. I say it out-loud without meaning to. The young lad responds in Krio. Ahmet translates, although I'm starting to understand Krio. It is what I thought: 'He says still three hours. 16 kilometers.'
