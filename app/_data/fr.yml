@@ -209,6 +209,9 @@ host:
 ###################
 blog:
   title: "Blog"
+  tags: "Blog Tags"
+  categories: "Blog Catégories"
+  nocontent: "Il n'y a pas des blogs de langue espagnole actuellement publiés."
 
 #####################
 ## COUNTRY STATS ##
