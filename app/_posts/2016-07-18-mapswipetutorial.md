@@ -19,7 +19,7 @@ First of all, thank you so much for contributing to the Missing Maps project via
 
 Many of you have been in touch to give your comments, suggestions and bug reports. We’d like to try and address one of the main requests: guidance on mapping from the satellite imagery.
 
-  >MapSwipe pro tip - did you now if you hold down a tile it will zoom so that you see it more carefully?
+  >MapSwipe pro tip - did you know if you hold down a tile it will zoom so that you see it more carefully?
 
 Mapping is never straight forward. Buildings and roads differ hugely from country to country. This blog post aims to give some examples but is by no means comprehensive. In the future, we also hope to build training and support into the app. Please feel free to keep your feedback coming!
 
