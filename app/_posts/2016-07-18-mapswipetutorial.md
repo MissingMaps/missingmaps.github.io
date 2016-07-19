@@ -6,7 +6,7 @@
  banner: https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20160714_mapswipe.jpg
  date: 2016-07-18
  author: Pete Masters
- excerpt: A tutorial on how to map from satellite imagery in MapSwipe
+ excerpt: MapSwipe relies on users being able to interpret what they see in the satellite imagery provided. This tutorial gives some guidance on how best to do that.
  published: true
  tags: [MSF, Tech]
  permalink: /blog/:year/:month/:day/:title/
