@@ -218,3 +218,11 @@ blog:
 #####################
 countrystats:
     title: "Statistiques Pays"
+
+#####################
+## 404 ##
+#####################
+lost:
+    title: "Cette page est manquante."
+    message: "Esto es un poco embarazoso. Usted parece estar en un lugar que no hemos asignado todavía."
+    link: "Aidez-nous à cartographier le monde."

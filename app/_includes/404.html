@@ -1,0 +1,35 @@
+<script>
+document.querySelector("header").style.display = 'inline-block';
+</script>
+
+<div id="site-canvas">
+	<div class="header-image header-404">
+		<div class="dark-overlay center-text">
+			<h1 class="title feature-header">{{site.data[locale].lost.title}}</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="large-12 columns">
+			<div class="about-container">
+				<div class="about-textbox">
+					<h3 style="text-align: center">{{site.data[locale].lost.message}}</h3>
+					<br />
+					<h3 style="text-align: center"><a href="{{site.data[locale].nav.url[0]}}">{{site.data[locale].lost.link}}</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row contribute-options">
+    <div class="large-12, large-centered" style="text-align: center">
+      <a href="http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps">
+        <img src="{{ site.baseurl }}/assets/graphics/content/process/Learn-MapNow.svg"></img>
+        <p>
+          <div class="btn btn-grn arw">{{site.data[locale].contribute.map_btn}}
+            <img src="{{ site.baseurl }}/assets/graphics/meta/Arrow.svg"></img>
+      </a>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
