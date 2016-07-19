@@ -21,7 +21,7 @@ Many of you have been in touch to give your comments, suggestions and bug report
 
   >MapSwipe pro tip - did you know if you hold down a tile it will zoom so that you see it more carefully?
 
-Mapping is never straight forward. Buildings and roads differ hugely from country to country. This blog post aims to give some examples but is by no means comprehensive. In the future, we also hope to build training and support into the app. Please feel free to keep your feedback coming!
+Mapping is never straightforward. Buildings and roads differ hugely from country to country. This blog post aims to give some examples but is by no means comprehensive. In the future, we also hope to build training and support into the app. Please feel free to keep your feedback coming!
 
 We will be looking at imagery from the Niger State (Nigeria) missions for the following items:
 
