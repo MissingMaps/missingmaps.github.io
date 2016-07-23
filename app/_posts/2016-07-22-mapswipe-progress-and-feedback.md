@@ -1,6 +1,6 @@
 ---
  layout: post
- title: MapSwipe... Feeding back on your feedback 
+ title: MapSwipe... Feeding back on your feedback
  postID: mapswipe-feedback
  category: [MapSwipe]
  banner: https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20160714_mapswipe.jpg
@@ -31,7 +31,7 @@ Many people are reporting that they MapSwipe the same images more than once. Thi
 
 Many users have asked for more in the way of guidance. This relates to what to look for and how to spot it, rather than how to use the app technically. As soon as we found out that you felt this was lacking, we put together a tutorial on the Missing Maps blog. As nearly a thousand people have already been to read it, we see that it is needed! We will integrate it better into the app itself as soon as possible.
 
-## No code on the gihub
+## No code on the GitHub
 
 This is true. It won't be for long - it's near the top of the to-do list! We will also be making the app available via the apk for those that don't use google or iOS app stores.
 
@@ -48,6 +48,3 @@ Apologies for this, but at the moment we don't have the capacity for supporting 
 I’d like to leave you with an excellent MapSwipe video made by Map Men. Enjoy!
 
 [![MapSwipe by Map Men](http://img.youtube.com/vi/mwRdtnfFcUw/0.jpg)](http://www.youtube.com/watch?v=mwRdtnfFcUw)
-
-
-
