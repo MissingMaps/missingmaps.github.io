@@ -47,7 +47,7 @@ Apologies for this, but at the moment we don't have the capacity for supporting 
 
 I’d like to leave you with an excellent MapSwipe video made by Map Men. Enjoy!
 
-[![MapSwipe by Map Men](http://img.youtube.com/vi/mwRdtnfFcUw/0.jpg)](http://www.youtube.com/watch?v=mwRdtnfFcUw "Missing Maps | Mapping the world a swipe at a time!")
+[![MapSwipe by Map Men](http://img.youtube.com/vi/mwRdtnfFcUw/0.jpg)](http://www.youtube.com/watch?v=mwRdtnfFcUw)
 
 
 
