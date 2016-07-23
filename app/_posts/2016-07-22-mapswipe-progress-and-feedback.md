@@ -4,7 +4,7 @@
  postID: mapswipe-feedback
  category: [MapSwipe]
  banner: https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20160714_mapswipe.jpg
- date: 2016-07-18
+ date: 2016-07-22
  author: Pete Masters
  excerpt: We have had an amazing response to MapSwipe in terms of the mapping you have done, but also your feedback and bug reports. We are listening! Find out here what we are doing to address the most common issues.
  published: true
