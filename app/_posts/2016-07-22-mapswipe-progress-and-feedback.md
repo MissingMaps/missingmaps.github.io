@@ -1,6 +1,6 @@
 ---
  layout: post
- title: MapSwipe: Feeding back on your feedback 
+ title: MapSwipe... Feeding back on your feedback 
  postID: mapswipe-feedback
  category: [MapSwipe]
  banner: https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20160714_mapswipe.jpg
