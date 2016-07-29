@@ -1,0 +1,3 @@
+[submodule "app/_data/events"]
+	path = app/_data/events
+	url = https://github.com/MissingMaps/events.git
