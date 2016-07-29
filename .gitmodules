@@ -1,0 +1,6 @@
+[submodule "app/_data/events"]
+	path = app/_data/events
+	url = https://github.com/MissingMaps/events.git
+[submodule "app/_posts"]
+	path = app/_posts
+	url = https://github.com/MissingMaps/blog.git

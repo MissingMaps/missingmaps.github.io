@@ -10,6 +10,7 @@ var plumber = require('gulp-plumber');
 var cp = require('child_process');
 var fs = require('fs');
 var request = require('request');
+var git = require('gulp-git');
 
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
@@ -65,6 +66,11 @@ gulp.task('compress:main', function() {
     return task.pipe(gulp.dest('.tmp/assets/scripts'));
 });
 
+// sync submodules
+gulp.task('updateSubmodules', function(){
+  git.updateSubmodule({ args: '--init --recursive' });
+});
+
 
 // Build the jekyll website.
 gulp.task('jekyll', function (done) {
@@ -95,7 +101,7 @@ gulp.task('jekyll:rebuild', ['jekyll'], function () {
 // Main build task
 // Builds the site. Destination --> _site
 gulp.task('build', function(done) {
-  runSequence(['jekyll', 'compress:main', 'compass'], ['copy:assets'], done);
+  runSequence(['updateSubmodules', 'jekyll', 'compress:main', 'compass'], ['copy:assets'], done);
 });
 
 // Default task.
