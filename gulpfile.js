@@ -68,7 +68,7 @@ gulp.task('compress:main', function() {
 
 // sync submodules
 gulp.task('updateSubmodules', function(){
-  git.updateSubmodule({ args: '--init --recursive' });
+  git.updateSubmodule({ args: '--remote --init --recursive' });
 });
 
 
