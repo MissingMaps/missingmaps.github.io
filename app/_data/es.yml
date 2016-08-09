@@ -201,10 +201,10 @@ host:
   materials_list:
     - text:       "Guía paso a paso para organizar un Mapathon (en inglés)"
       asset:      "MissingMaps_how_to_host_a_mapathon.pdf"
-    - text:       "Infografía Missing Maps: Cómo trabajamos (en inglés)"
-      asset:      "MissingMaps-Process.pdf"
-    - text:       "Guía Mapathon 'Table Top' (en inglés)"
-      asset:      "MissingMaps-tabletop.pdf"
+    - text:       "Infografía Missing Maps: Cómo trabajamos"
+      asset:      "MissingMaps_Process_es.pdf"
+    - text:       "Guía Mapathon 'Table Top'"
+      asset:      "MissingMaps_tabletop_es.pdf"
 
 ###################
 ## Blog CONTENT ##
