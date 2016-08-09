@@ -200,9 +200,9 @@ host:
     - text:       "Guide pas à pas pour organiser un Mapathon"
       asset:      "MissingMaps_how_to_host_a_mapathon.pdf"
     - text:       "Infographie Missing Maps: Comment nous travaillons"
-      asset:      "MissingMaps-Process.pdf"
+      asset:      "MissingMaps_Process_fr.pdf"
     - text:       "Guide Mapathon Tabletop"
-      asset:      "MissingMaps-tabletop.pdf"
+      asset:      "MissingMaps_tabletop_fr.pdf"
 
 ###################
 ## Blog CONTENT ##
