@@ -66,9 +66,22 @@ gulp.task('compress:main', function() {
     return task.pipe(gulp.dest('.tmp/assets/scripts'));
 });
 
-// sync submodules
-gulp.task('updateSubmodules', function(){
-  git.updateSubmodule({ args: '--remote --init --recursive' });
+// // sync submodules
+// gulp.task('updateSubmodules', function(){
+//   git.updateSubmodule({ args: '--remote --init --recursive' });
+// });
+
+// Clone remote repo to sub folder ($CWD/sub/folder/git-test)
+gulp.task('cloneevents', function() {
+  git.clone('https://github.com/MissingMaps/events', {args: './app/_data/events'}, function(err) {
+    // handle err
+  });
+});
+
+gulp.task('cloneblog', function() {
+  git.clone('https://github.com/MissingMaps/blog', {args: './app/_posts'}, function(err) {
+    // handle err
+  });
 });
 
 
@@ -100,8 +113,12 @@ gulp.task('jekyll:rebuild', ['jekyll'], function () {
 
 // Main build task
 // Builds the site. Destination --> _site
+// gulp.task('build', function(done) {
+//   runSequence(['updateSubmodules', 'jekyll', 'compress:main', 'compass'], ['copy:assets'], done);
+// });
+
 gulp.task('build', function(done) {
-  runSequence(['updateSubmodules', 'jekyll', 'compress:main', 'compass'], ['copy:assets'], done);
+  runSequence(['cloneevents', 'cloneblog', 'jekyll', 'compress:main', 'compass'], ['copy:assets'], done);
 });
 
 // Default task.
