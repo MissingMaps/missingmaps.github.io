@@ -133,7 +133,7 @@ crises qui les touchent."
     text2:      "Soutenir l'écosystème d'<a href=\"http://openstreetmap.org\">OpenStreetMap</a>, spécifiquement l'<a href=\"http://hotosm.org\">Équipe Humanitaire OpenStreetMap</a>, en anglais Humanitarian OpenStreetMap Team (HOT)</a>, pour le développement des technologies, des méthodes de travail et des communautés."
   ethics:
     title:      "Éthique"
-    text1:      "L'utilisation d'OpenStreetMap garantit que la totalité des données restera libre, ouverte et utilisable selon les termes de la licence libre d'OpenStreetMap."
+    text1:      "L'utilisation d'OpenStreetMap garantit que la totalité des données restera libre, ouverte et utilisable selon les termes de <a href=\"http://wiki.openstreetmap.org/wiki/OpenStreetMap_License\">la licence libre d'OpenStreetMap.</a>"
     text2:      "La cartographie et la collecte de données sur le terrain doivent être réalisées en collaboration avec les populations locales et de façon respectueuse, en toutes circonstances."
     text3:      "Les personnes sont plus importantes que les données. Autrement dit, si le but est de cartographier une ville, un programme doit être mis en oeuvre pour garantir l'accès aux technologies et à la formation pour ceux qui vivent dans ces zones, afin que la cartographie et l'utilisation de ces cartes continuent durablement."
     text4:      "Les membres du projet Missing Maps contribuent activement à ses objectifs, à ceux d'OpenStreetMap et à venir en aide aux populations bénéficiaires, qu'elles soient locales ou internationales."
