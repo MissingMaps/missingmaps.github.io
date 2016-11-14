@@ -19,8 +19,8 @@ cache:
 before_install:
 - chmod +x ./.build_scripts/deploy.sh
 
-before_script:
-  - npm install gulp
+# before_script:
+#   - npm install gulp
 script: gulp prod
 
 after_success:
