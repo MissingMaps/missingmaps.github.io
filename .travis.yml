@@ -2,6 +2,10 @@ language: node_js
 node_js:
   - "0.12"
 
+language: ruby
+rvm:
+  - 2.3.1
+
 env:
   global:
   - GH_REF=github.com/MissingMaps/missingmaps.github.io
@@ -15,8 +19,9 @@ cache:
 before_install:
 - chmod +x ./.build_scripts/deploy.sh
 
-script:
-- gulp prod
+before_script:
+  - npm install
+script: gulp prod
 
 after_success:
 - ./.build_scripts/deploy.sh
