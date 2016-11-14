@@ -20,7 +20,7 @@ before_install:
 - chmod +x ./.build_scripts/deploy.sh
 
 before_script:
-  - npm install -g gulp
+  - npm install gulp
 script: gulp prod
 
 after_success:
