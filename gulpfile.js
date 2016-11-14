@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var cp = require('child_process');
-var runSequence = require('run-sequence');
+var runSequence = require('run-sequence').use(gulp);
 var compass = require('gulp-compass');
 var uglify = require('gulp-uglify');
 var clean = require('gulp-clean');
