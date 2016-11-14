@@ -47,10 +47,10 @@
     "gulp-git": "^1.10.0",
     "js-yaml": "^3.2.6",
     "lodash": "^3.5.0",
-    "run-sequence": "~1.0.2"
+    "run-sequence": "~1.2.2"
   },
   "dependencies": {
     "request": "^2.78.0",
-    "run-sequence": "^1.2.2"
+    "run-sequence": "~1.2.2"
   }
 }
