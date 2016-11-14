@@ -43,14 +43,14 @@
     "gulp-compass": "~2.0.3",
     "gulp-concat": "^2.6.0",
     "gulp-plumber": "~0.6.6",
-    "gulp-uglifyjs": "~0.6.0",
+    "gulp-uglify": "~2.0.0",
     "gulp-git": "^1.10.0",
     "js-yaml": "^3.2.6",
     "lodash": "^3.5.0",
-    "run-sequence": "~1.2.2"
+    "run-sequence": "~1.2.2",
+    "minimatch": "^3.0.2"
   },
   "dependencies": {
-    "request": "^2.78.0",
-    "run-sequence": "~1.2.2"
+    "request": "^2.78.0"
   }
 }
