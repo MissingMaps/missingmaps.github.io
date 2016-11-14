@@ -46,7 +46,7 @@
     "gulp-uglify": "~2.0.0",
     "gulp-git": "^1.10.0",
     "js-yaml": "^3.2.6",
-    "lodash": "^3.5.0",
+    "lodash": "^3.0.1",
     "run-sequence": "~1.2.2",
     "minimatch": "^3.0.2"
   },
