@@ -2,6 +2,8 @@
 ## HEADER CONTENT ##
 ####################
 
+home:             "es/"
+
 nav:
   - text:         "CONTRIBUIR"
     url:          "/es/contribuir/"
