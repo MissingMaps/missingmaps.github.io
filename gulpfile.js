@@ -53,15 +53,22 @@ gulp.task('compress:main', function() {
     ])
     .pipe(plumber());
 
-    if (environment == 'development') {
+    // if (environment == 'development') {
+    //   task = task.pipe(concat('main.min.js'));
+    //   console.log("concat scripts");
+    //
+    // }
+    // else {
+    //   task = task.pipe(uglify('main.min.js', {
+    //     mangle: false
+    //   }));
+    //   console.log("uglify scripts");
+    //
+    // }
+
+    //new version of uglify is breaking things this is a hotfix DK
       task = task.pipe(concat('main.min.js'));
-    }
-    else {
-      task = task.pipe(uglify('main.min.js', {
-        outSourceMap: true,
-        mangle: false
-      }));
-    }
+      console.log("concat scripts");
 
     return task.pipe(gulp.dest('.tmp/assets/scripts'));
 });
