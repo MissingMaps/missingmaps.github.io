@@ -74,15 +74,18 @@ gulp.task('compress:main', function() {
 });
 
 // Clone remote repo to sub folder ($CWD/sub/folder/git-test)
-gulp.task('cloneevents', function() {
+gulp.task('cloneevents', function(cb) {
   git.clone('https://github.com/MissingMaps/events', {args: './app/_data/events'}, function(err) {
     // handle err
+    cb();
   });
+
 });
 
-gulp.task('cloneblog', function() {
+gulp.task('cloneblog', function(cb) {
   git.clone('https://github.com/MissingMaps/blog', {args: './app/_posts'}, function(err) {
     // handle err
+    cb();
   });
 });
 
@@ -114,7 +117,7 @@ gulp.task('jekyll:rebuild', ['jekyll'], function () {
 });
 
 gulp.task('build', function(done) {
-  runSequence(['cloneevents', 'cloneblog', 'jekyll', 'compress:main', 'compass'], ['copy:assets'], done);
+  runSequence(['cloneevents', 'cloneblog'],['jekyll', 'compress:main', 'compass'], ['copy:assets'], done);
 });
 
 // Default task.
@@ -166,7 +169,7 @@ gulp.task('stage', function(done) {
 
 // Removes jekyll's _site folder
 gulp.task('clean', function() {
-  return gulp.src(['_site', '.tmp'], {read: false})
+  return gulp.src(['_site', '.tmp', 'app/_data/events', 'app/_posts'], {read: false})
     .pipe(clean());
 });
 
