@@ -1,9 +1,10 @@
+<div class="row small-up-1 medium-up-1 large-up-2">
 {% assign current_date = site.time | date: '%Y%m%d' %}
 {% assign event = (site.data.events.events | sort: 'date' ) %}
 {% for e in event %} {% assign event_date = e.date | date: '%Y%m%d' %}
 	{% if event_date >= current_date %}
 		{% assign count = count | plus: 1 %}
-
+		<div class="column">
 		<div class="event-sub-container">
 			<div class="event-top-section clearfix">
 				<div class="sub-head">
@@ -34,9 +35,11 @@
 				</div>
 			</div>
 		</div>
+		</div>
 
 		{% if count == 3 %}
 			{% break %}
 		{% endif %}
 	{% endif %}
 {% endfor %}
+</div>
