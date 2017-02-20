@@ -832,5 +832,6 @@ input[type="text"]{
 }
 
 .member {
-  width: 120px;
+  max-width: 120px;
+  max-height: 60px;
 }
