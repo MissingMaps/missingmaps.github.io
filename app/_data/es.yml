@@ -170,7 +170,6 @@ host:
   how_help_steps:
     - label: "Elección de una tarea cartográfica - Contacta-nos para obtener una lista de las tareas más urgentes a cartografiar durante tu evento."
     - label: "Presentaciones en vivo – Contáctanos para comprobar si alguien del staff está disponible para presentar Missing Maps, ya sea en persona o vía streaming.."
-   Apoyo durante el evento – Contáctanos para comprobar si alguien del staff está disponible para atender las dudas de los participantes durante el evento.
     - label: "Apoyo durante el evento - Contáctanos para comprobar si alguien del staff está disponible para atender las dudas de los participantes durante el evento."
     - label: "Registro - Podemos asesorarte y proporcionarte herramientas sobre cómo registrarse y realizar un seguimiento de los participantes."
     - label: "Registra tu evento – Añade la información sobre tu mapathon en <a href= \"/events\"> Web de Missing Maps</a> y en las <a href= \"http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons\">Páginas Wiki.</a>"
