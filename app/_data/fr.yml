@@ -21,7 +21,7 @@ nav:
     links:
       - text:     "PROFILS DES CONTRIBUTEURS"
         url:      "http://www.missingmaps.org/users/"
-      - text:     "TABLEAU DES MENEURS"
+      - text:     "PALMARES"
         url:      "http://www.missingmaps.org/leaderboards/"
       - text:     "OSMSTATS"
         url:      "/osmstats/"
@@ -167,14 +167,14 @@ host:
   how_help_text:  "Nous pouvons soutenir votre équipe localement et à distance. Contactez le coordinateur de Missing Maps en indiquant la date et lieu de votre événement qui vous aidera à coordonner et gérer votre événement avec:"
   how_help_steps:
     - label: "Choix d'une tâche cartographique - Contactez-nous pour obtenir une liste des tâches les plus urgentes à cartographier lors de votre énénement."
-    - label: "Présentations live- Une personne de notre équipe sera disponible en présentiel ou en ligne afin de présenter Missing Maps. "
-    - label: "Formation & conseils - Une personne de notre équipe sera disponible en présentiel ou en ligne pour guider les participants tout au long de la session."
+    - label: "Présentations live - Contactez-nous pour voir si une personne de notre équipe serait disponible sur place ou en ligne afin de présenter Missing Maps. "
+    - label: "Formation & conseils - Contactez-nous pour voir si une personne de notre équipe serait diponible sur place ou en ligne pour guider les participants lors de la session."
     - label: "Inscription - Nous pouvons vous conseiller et vous fournir des outils sur la manière de s'inscrire et de garder une trace des participants."
-    - label: "Marketing & publicité - Des communiqués de presse et des publications intranet peuvent être fournis par le coordinateur de Missing Maps pour chaque événement. Nous pouvons d'ailleurs ajouter les détails de votre mapathon sur le site <a href= \"/events\"> web de Missing Maps</a> ainsi que sur les <a href= \"http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons\">Pages Wiki.</a>"
+    - label: "Ajoutez votre événément - Ajoutez les détails de votre mapathon sur le site <a href= \"/events\"> web de Missing Maps</a> ainsi que sur les <a href= \"http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons\">Pages Wiki.</a>"
     - label: "Collaborer avec les partenaires locaux de Missing Maps - Nous pouvons vous introduire aux partenaires locaux de Missing maps afin de vous aider à trouver des experts cartographes et des services de traduction lorsque possible."
   prep_check:     "Le nécessaire"
   prep_check_list:
-    - label: "Grande salle: capacité recommandée de 100 personnes"
+    - label: "Réservez une salle"
     - label: "Bon réseau Wifi pour permettre un accès simultané optimal"
     - label: "Contacter Missing Maps pour des suggestions de tâches carto"
     - label: "Tables et chaises"
