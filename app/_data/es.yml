@@ -169,14 +169,14 @@ host:
   how_help_text:  "Podemos apoyar a tu equipo de forma local y remota. Ponte en contacto con el coordinador de Missing Maps indicando la fecha y el lugar de tu evento para ayudarle a coordinar y gestionar tu evento con:"
   how_help_steps:
     - label: "Elección de una tarea cartográfica - Contacta-nos para obtener una lista de las tareas más urgentes a cartografiar durante tu evento."
-    - label: "Presentaciones en vivo - Un colaborador nuestro estará disponible, o bien presencialmente o bien en línea, para presentar Missing Maps."
-    - label: "Formación y Asesoramiento - Un colaborador nuestro estará disponible, o bien presencialmente o bien en línea, para guiar a los participantes a lo largo de la sesión."
+    - label: "Presentaciones en vivo – Contáctanos para comprobar si alguien del staff está disponible para presentar Missing Maps, ya sea en persona o vía streaming.."
+    - label: "Apoyo durante el evento - Contáctanos para comprobar si alguien del staff está disponible para atender las dudas de los participantes durante el evento."
     - label: "Registro - Podemos asesorarte y proporcionarte herramientas sobre cómo registrarse y realizar un seguimiento de los participantes."
-    - label: "Marketing y Publicidad - Comunicados de prensa y publicaciones intranet pueden ser proporcionados por el coordinador de Missing Maps para cada evento. También podemos añadir informaciones de tu Mapathon en nuestra <a href= \"/events\"> Web de Missing Maps</a> y en las <a href= \"http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons\">Páginas Wiki.</a>"
+    - label: "Registra tu evento – Añade la información sobre tu mapathon en <a href= \"/events\"> Web de Missing Maps</a> y en las <a href= \"http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons\">Páginas Wiki.</a>"
     - label: "Colaborar con socios locales de Missing Maps - Podemos presentarte a los socios locales de Missing Maps para ayudarte, en lo posible, a encontrar cartógrafos expertos y servicios de traducción."
   prep_check:     "Checklist de los preparativos"
   prep_check_list:
-    - label: "Sala grande: capacidad recomendada de 100 personas"
+    - label: "Reserva un espacio/una sala"
     - label: "Buena red Wi-Fi para permitir un acceso simultáneo óptimo"
     - label: "Contacta Missing Maps para sugerencias de tareas cartográficas"
     - label: "Mesas y sillas"
