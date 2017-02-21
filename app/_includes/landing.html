@@ -195,70 +195,7 @@
 <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~  -->
 <!-- About -->
 <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~  -->
-<div class="row">
-  <div class="large-12 columns">
-    <div class="about-container">
-      <div class="center-text">
-        <div class="title section-header">{{site.data[locale].about.title}}</div>
-        <div class="textbox">
-          <p style="text-align: center">{{site.data[locale].about.madepossible}}</p>
-        </div>
-        <p>
-          <div class="sub-head">{{site.data[locale].about.founders}}</div>
-          <a href="http://redcross.org/">
-            <img src="{{ site.baseurl }}/assets/graphics/content/logos/arc_logo.png" width="100" alt="arc-logo">
-          </a>
-          <a href="http://redcross.org.uk/">
-            <img src="{{ site.baseurl }}/assets/graphics/content/logos/brc_logo.png" width="140" alt="brc-logo">
-          </a>
-          <a href="http://hotosm.org/">
-            <img src="{{ site.baseurl }}/assets/graphics/content/logos/hot_logo.png" alt="hot-logo" width="140">
-          </a>
-          <a href="http://www.msf.org.uk/">
-            <img src="{{ site.baseurl }}/assets/graphics/content/logos/msf_logo.png" alt="msf-logo" width="120">
-          </a>
-        </p>
-        <p>
-          <div class="sub-head">{{site.data[locale].about.members}}</div>
-          <a href="http://www.cartong.org/">
-            <img src="{{ site.baseurl }}/assets/graphics/content/logos/cartong_logo.png" alt="cartong-logo" width="120">
-          </a>
-          <a href="http://www.rodekruis.nl/">
-            <img src="{{ site.baseurl }}/assets/graphics/content/logos/nlrc_logo.jpg" alt="nlrc-logo" width="140">
-          </a>
-          <a href="http://www.clintonhealthaccess.org/">
-            <img src="{{ site.baseurl }}/assets/graphics/content/logos/chai-logo.svg" width="90" alt="chia-logo">
-          </a>
-          <a href="http://www.geog.uni-heidelberg.de/gis/">
-            <img src="{{ site.baseurl }}/assets/graphics/content/logos/hgis_logo.png" alt="hgis-logo" width="90px">
-          </a>
-          <a href="https://www.concern.net/category/world-region/europe/uk">
-            <img src="{{ site.baseurl }}/assets/graphics/content/logos/concern_logo.png" alt="concern-logo" width="90px">
-          </a>
-          <a href="https://programs.gwu.edu/graduate/geographical-information-systems">
-            <img src="{{ site.baseurl }}/assets/graphics/content/logos/gwu_logo.svg" alt="george washington -logo" width="90px">
-          </a>
-          <a href="https://cadasta.org">
-            <img src="{{ site.baseurl }}/assets/graphics/content/logos/cadasta_logo.png" alt="cadasta logo" width="90px">
-          </a>
-          <a href="https://padf.org">
-            <img src="{{ site.baseurl }}/assets/graphics/content/logos/padf_logo.png" alt="padf logo" width="90px">
-          </a>
-        </p>
-        <p>
-          <div class="sub-head">OpenStreetMap</div>
-          <div class="textbox">
-            <p style="text-align: center"><a href="http://openstreetmap.org">OpenStreetMap</a> {{site.data[locale].about.osm_text}} <a href="http://osmfoundation.org">OpenStreetMap Foundation</a>.</p>
-          </div>
-          <div class = "OSM-logo">
-            <p><a href="http://openstreetmap.org">
-              <img src="{{ site.baseurl }}/assets/graphics/content/logos/Openstreetmap_logo.svg">
-            </a></p>
-          </div>
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
+
+{% include members.html %}
+
 <!-- Content goes inside #site-canvas -->
-</div>
