@@ -104,7 +104,7 @@ contact:
 ## CONTRIBUTE CONTENT ##
 ########################
 contribute:
-  title:        "Como contribuir"
+  title:        "Cómo contribuir"
   how_text:     "Si eres nuevo en el mundo de la cartografía digital, te recomendamos que mires los videos de la sección “Principiantes” para poder ponerte en marcha. Si ya cartografiaste antes, sigue el enlace “CARTOGRAFIAR”. También puede acceder a tutoriales adicionales con el LearnOSM."
   map_btn:      "CARTOGRAFIAR"
   learn_osm:    "TUTORIALES ADICIONALES"
@@ -159,26 +159,26 @@ about:
 host:
   title:          "Organizar un Mapathon"
   text:           "Un Mapathon es una oportunidad única para que los voluntarios puedan cartografiar las zonas más vulnerables de los países en desarrollo y, por lo tanto, permitir a las ONG's locales e internacionales responder con mayor eficacia frente a las crisis que afectan a esas regiones. Estas iniciativas de e-voluntariado son de gran ayuda para numerosas organizaciones humanitarias en todo el mundo en la respuesta a situaciones catastróficas. Es esencial conseguir una mayor red de voluntarios experimentados preparados para colaborar en caso de desastre bajo una mínima coordinación. Mira los vídeos que encontrarás a continuación para aprender más acerca de los Mapathones y la forma de organizarlos."
-  what_is:        "Que es un Mapathon?"
-  how_host:       "Como organizar un Mapathon"
+  what_is:        "¿Qué es un Mapathon?"
+  how_host:       "¿Cómo organizar un Mapathon?"
   prep_btn:       "PREPARATIVOS"
   check_btn:      "DÍA DEL EVENTO"
   materials_btn:  "RECURSOS"
   mapevent_btn:   "REGISTRAR UN EVENTO"
-  how_help:       "Cómo Missing Maps puede ayudar?"
+  how_help:       "¿Cómo Missing Maps puede ayudar?"
   how_help_text:  "Podemos apoyar a tu equipo de forma local y remota. Ponte en contacto con el coordinador de Missing Maps indicando la fecha y el lugar de tu evento para ayudarle a coordinar y gestionar tu evento con:"
   how_help_steps:
-    - label: "Elección de una tarea cartográfica - Contacta-nos para obtener una lista de las tareas más urgentes a cartografiar durante tu evento."
-    - label: "Presentaciones en vivo – Contáctanos para comprobar si alguien del staff está disponible para presentar Missing Maps, ya sea en persona o vía streaming.."
+    - label: "Elección de una tarea cartográfica - Contactanos para obtener una lista de las tareas más urgentes a cartografiar durante tu evento."
+    - label: "Presentaciones en vivo – Contáctanos para comprobar si alguien del staff está disponible para presentar Missing Maps, ya sea en persona o vía streaming."
     - label: "Apoyo durante el evento - Contáctanos para comprobar si alguien del staff está disponible para atender las dudas de los participantes durante el evento."
     - label: "Registro - Podemos asesorarte y proporcionarte herramientas sobre cómo registrarse y realizar un seguimiento de los participantes."
     - label: "Registra tu evento – Añade la información sobre tu mapathon en <a href= \"/events\"> Web de Missing Maps</a> y en las <a href= \"http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons\">Páginas Wiki.</a>"
     - label: "Colaborar con socios locales de Missing Maps - Podemos presentarte a los socios locales de Missing Maps para ayudarte, en lo posible, a encontrar cartógrafos expertos y servicios de traducción."
   prep_check:     "Checklist de los preparativos"
   prep_check_list:
-    - label: "Reserva un espacio/una sala"
+    - label: "Reserva una sala donde desarrollar el evento"
     - label: "Buena red Wi-Fi para permitir un acceso simultáneo óptimo"
-    - label: "Contacta Missing Maps para sugerencias de tareas cartográficas"
+    - label: "Contacta con Missing Maps para sugerencias de tareas cartográficas"
     - label: "Mesas y sillas"
     - label: "Retroproyector"
     - label: "Ordenadores con ratones"
