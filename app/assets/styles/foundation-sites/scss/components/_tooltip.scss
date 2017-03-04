@@ -6,6 +6,14 @@
 /// @group tooltip
 ////
 
+/// Default font weight of the defined term.
+/// @type Keyword | Number
+$has-tip-font-weight: $global-weight-bold !default;
+
+/// Default border bottom of the defined term.
+/// @type List
+$has-tip-border-bottom: dotted 1px $dark-gray !default;
+
 /// Default color of the tooltip background.
 /// @type Color
 $tooltip-background-color: $black !default;
@@ -30,37 +38,36 @@ $tooltip-pip-width: 0.75rem !default;
 /// @type Number
 $tooltip-pip-height: $tooltip-pip-width * 0.866 !default;
 
-/// Default pip offset for tooltips. This controls how far the pip is indented from the left edge of the tooltip.
-/// @type Number
-$tooltip-pip-offset: 1.25rem !default;
-
 /// Default radius for tooltips.
 /// @type Number
 $tooltip-radius: $global-radius !default;
 
 @mixin has-tip {
-  border-bottom: dotted 1px $dark-gray;
-  font-weight: bold;
   position: relative;
   display: inline-block;
+
+  border-bottom: $has-tip-border-bottom;
+  font-weight: $has-tip-font-weight;
   cursor: help;
 }
 
 @mixin tooltip {
-  background-color: $tooltip-background-color;
-  color: $tooltip-color;
-  font-size: $tooltip-font-size;
-  padding: $tooltip-padding;
   position: absolute;
-  z-index: 10;
   top: calc(100% + #{$tooltip-pip-height});
-  max-width: 10rem !important;
+  z-index: 1200;
+
+  max-width: 10rem;
+  padding: $tooltip-padding;
+
   border-radius: $tooltip-radius;
+  background-color: $tooltip-background-color;
+  font-size: $tooltip-font-size;
+  color: $tooltip-color;
 
   &::before {
     @include css-triangle($tooltip-pip-width, $tooltip-background-color, up);
-    bottom: 100%;
     position: absolute;
+    bottom: 100%;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -73,18 +80,18 @@ $tooltip-radius: $global-radius !default;
 
   &.left::before {
     @include css-triangle($tooltip-pip-width, $tooltip-background-color, right);
+    top: 50%;
     bottom: auto;
     left: 100%;
-    top: 50%;
     transform: translateY(-50%);
   }
 
   &.right::before {
     @include css-triangle($tooltip-pip-width, $tooltip-background-color, left);
+    top: 50%;
+    right: 100%;
     bottom: auto;
     left: auto;
-    right: 100%;
-    top: 50%;
     transform: translateY(-50%);
   }
 }

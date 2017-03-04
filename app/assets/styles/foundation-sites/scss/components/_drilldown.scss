@@ -14,6 +14,14 @@ $drilldown-transition: transform 0.15s linear !default;
 /// @type Boolean
 $drilldown-arrows: true !default;
 
+/// Sets drilldown arrow color if arrow is used.
+/// @type Color
+$drilldown-arrow-color: $primary-color !default;
+
+/// Sets drilldown arrow size if arrow is used.
+/// @type Length
+$drilldown-arrow-size: 6px !default;
+
 /// Background color for drilldown submenus.
 /// @type Color
 $drilldown-background: $white !default;
@@ -23,6 +31,14 @@ $drilldown-background: $white !default;
   .is-drilldown {
     position: relative;
     overflow: hidden;
+
+    li {
+      display: block;
+    }
+
+    &.animate-height {
+      transition: height 0.5s;
+    }
   }
 
   // Applied to nested <ul>s
@@ -31,7 +47,7 @@ $drilldown-background: $white !default;
     top: 0;
     #{$global-left}: 100%;
     z-index: -1;
-    height: 100%;
+
     width: 100%;
     background: $drilldown-background;
     transition: $drilldown-transition;
@@ -47,25 +63,31 @@ $drilldown-background: $white !default;
     }
   }
 
+  .drilldown-submenu-cover-previous {
+    min-height: 100%;
+  }
+
   @if $drilldown-arrows {
     .is-drilldown-submenu-parent > a {
       position: relative;
 
       &::after {
-        @include css-triangle(6px, $primary-color, $global-right);
+        @include css-triangle($drilldown-arrow-size, $drilldown-arrow-color, $global-right);
         position: absolute;
         top: 50%;
-        margin-top: -6px;
+        margin-top: -1 * $drilldown-arrow-size;
         #{$global-right}: 1rem;
       }
     }
 
-    .js-drilldown-back::before {
-      @include css-triangle(6px, $primary-color, $global-left);
-      float: $global-left;
+    .js-drilldown-back > a::before {
+      @include css-triangle($drilldown-arrow-size, $drilldown-arrow-color, $global-left);
+      border-#{$global-left}-width: 0;
+      display: inline-block;
+      vertical-align: middle;
       margin-#{$global-right}: 0.75rem; // Creates space between the arrow and the text
-      margin-#{$global-left}: 0.6rem; // Lines the tip of the arrow with the items below
-      margin-top: 14px; // Aligns the arrow with the text
+
+      border-#{$global-left}-width: 0;
     }
   }
 }

@@ -4,7 +4,7 @@
 
 //Foundation
 @import "settings";
-@import "./foundation-sites/scss/foundation";
+@import "foundation-sites/scss/foundation";
 @include foundation-everything;
 
 // Reset and normalize
