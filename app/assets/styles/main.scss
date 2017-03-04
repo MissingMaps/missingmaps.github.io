@@ -3,7 +3,7 @@
 @import "compass";
 
 //Foundation
-@import "settings";
+@import "foundation-sites/scss/settings/settings";
 @import "foundation-sites/scss/foundation";
 @include foundation-everything;
 
