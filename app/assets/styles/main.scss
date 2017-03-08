@@ -1,10 +1,9 @@
 // Charset
 @charset "UTF-8";
-@import "compass";
 
 //Foundation
 @import "settings";
-@import "./foundation-sites/scss/foundation";
+@import "foundation";
 @include foundation-everything;
 
 // Reset and normalize
