@@ -1,7 +1,9 @@
 var gulp = require('gulp');
 var cp = require('child_process');
 var runSequence = require('run-sequence').use(gulp);
-var compass = require('gulp-compass');
+var autoprefixer = require('gulp-autoprefixer');
+var sass = require('gulp-sass');
+var sourcemaps = require('gulp-sourcemaps');
 var uglify = require('gulp-uglify');
 var clean = require('gulp-clean');
 var browserSync = require('browser-sync');
@@ -29,21 +31,25 @@ gulp.task('copy:assets', function(done) {
 //--------------------------- Assets tasks -----------------------------------//
 //----------------------------------------------------------------------------//
 
-gulp.task('compass', function() {
-  return gulp.src('app/assets/styles/*.scss')
+var sassInput = 'app/assets/styles/*.scss';
+var sassOptions = {
+  includePaths: ['node_modules/foundation-sites/scss','.tmp/assets/styles' ],
+  errLogToConsole: true,
+  outputStyle: 'expanded'
+};
+var autoprefixerOptions = {
+  browsers: ['last 2 versions', 'ie >= 9', 'and_chr >= 2.3']
+};
+
+gulp.task('sass', function() {
+  return gulp.src(sassInput)
     .pipe(plumber())
-    .pipe(compass({
-      css: '.tmp/assets/styles',
-      sass: 'app/assets/styles',
-      style: 'expanded',
-      sourcemap: true,
-      require: ['sass-css-importer'],
-      bundle_exec: true
-    }))
-    .on('error', function(err) {
-      this.emit('end');
-    })
-    .pipe(browserSync.reload({stream:true}));
+    .pipe(sourcemaps.init())
+    .pipe(sass(sassOptions).on('error', sass.logError))
+    .pipe(autoprefixer(autoprefixerOptions))
+    .pipe(sourcemaps.write('.'))
+    .pipe(browserSync.reload({stream:true}))
+    .pipe(gulp.dest('.tmp/assets/styles'));
 });
 
 gulp.task('compress:main', function() {
@@ -117,7 +123,7 @@ gulp.task('jekyll:rebuild', ['jekyll'], function () {
 });
 
 gulp.task('build', function(done) {
-  runSequence(['cloneevents', 'cloneblog'],['jekyll', 'compress:main', 'compass'], ['copy:assets'], done);
+  runSequence(['cloneevents', 'cloneblog'],['jekyll', 'compress:main', 'sass'], ['copy:assets'], done);
 });
 
 // Default task.
@@ -138,7 +144,7 @@ gulp.task('serve', ['build'], function () {
   });
 
   gulp.watch('app/assets/styles/**/*.scss', function() {
-    runSequence('compass');
+    runSequence('sass');
   });
 
   gulp.watch(['./app/assets/scripts/**/*.js', '!./app/assets/scripts/vendor/**/*'], function() {
