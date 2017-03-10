@@ -3,15 +3,14 @@
 <div id="helper-map-contents">
   <div class="row">
     <div class="columns">
+        <div><img src="{{ site.baseurl }}/assets/graphics/content/process/helper.svg"/></div>
         <div class="sub-head">Mapathon Support</div>
       </div>
     </div>
 
-    <br>
-
     <div class="row">
       <div class="small-12 medium-offset-1 medium-10 large-offset-2 large-8">
-        <div id="map" style="height:500px"></div>
+        <div id="map"></div>
       </div>
     </div>
 
@@ -328,7 +327,7 @@
 
 
 
-    map = L.map('map', { maxZoom: 13}).setView([5, 0], 2);
+    map = L.map('map', { maxZoom: 13, minZoom: 2 }).setView([15, 0], 2);
 
     // L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     //     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
