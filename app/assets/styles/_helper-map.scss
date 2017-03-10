@@ -1,0 +1,21 @@
+#helper-map {
+  height: 100%;
+  min-height: 500px;
+  width: 100%;
+}
+
+#helper-map-contents {
+  margin: 5px;
+}
+
+.help_in-person {
+  fill: #ed1b2e
+  color: #ed1b2e;
+}
+.help_remote {
+  fill: #d95f0e;
+  color: #d95f0e;
+}
+.no-language {
+  display: none !important;
+}
