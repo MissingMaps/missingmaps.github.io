@@ -3,8 +3,8 @@ rvm:
   - 2.3.1
 
 env:
-  - TRAVIS_NODE_VERSION="5"
   global:
+  - TRAVIS_NODE_VERSION="5"
   - GH_REF=github.com/MissingMaps/missingmaps.github.io
   - DEPLOY_BRANCH=publish
   - secure: "MDFSfIErlR3RLdnsXAErZ6QwBl8z1P/JP6ClUgxlraP/tnvu8Obl7U9LTvSt7aVvEA26UfES0uwgQUwZNduPp+zJRioX2zoKNsQvvxuZimScR/pnlJ22o61pDx9nMYCyzaFwjJxopiFPeOuREy5I7Y3yZjeN1dRqICkZjXushS8N7FBoPT0JONUWGxCAetwjYRcmymePMv3WLMSDiuMpY/2FirTSUl6ygmVKUZE0RTXe5P/GmQ+nyXpghvTcB1kujhCG6qvrQ2R8nk8kXiVTRxEFBm4q2WZOBy39PRBNCSP8YT0w6ZmmjKUatoxZJMJZ0UJ9u4gIbOq760PIsOkFgrFCw/m9CyknptRtR2oeZWY2yFYY5XoW8FD3Yhm7WHjEDH3tuNzz4ly0At1kbRcPfAwyPXnj8l82EkDdFkb7EBK+rS8sjZPyfLYrykYgJHgUrZ0keqJX4wui7XIlgx0ZovVqqbWWA8Ecr9UHFfpB8WfjNKWo6l4zlAdRyrgfGggY/5pMJQMXxuneXgI+kCu2Z2amQL1UB2nimEXDdTzOTXb6y6Dlb2gQCFMb5bgpcp7NZ8l9Lt7sVIydp7idguhQrZAIkz9ti3XhrfJS5xhXGBP7wrBD5sBeoElhetaeMlbWVDEFhnDN9FsNTe6vjVa2rTuXJ1gFQWJkdJsuBMQ8Nrk="
