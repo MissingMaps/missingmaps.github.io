@@ -3,7 +3,7 @@ var cp = require('child_process');
 var runSequence = require('run-sequence').use(gulp);
 var autoprefixer = require('gulp-autoprefixer');
 var sass = require('gulp-sass');
-// var sourcemaps = require('gulp-sourcemaps');
+var sourcemaps = require('gulp-sourcemaps');
 var uglify = require('gulp-uglify');
 var clean = require('gulp-clean');
 var browserSync = require('browser-sync');
@@ -43,10 +43,11 @@ var autoprefixerOptions = {
 
 gulp.task('sass', function() {
   return gulp.src(sassInput)
-    // .pipe(sourcemaps.init())
+    .pipe(plumber())
+    .pipe(sourcemaps.init())
     .pipe(sass(sassOptions).on('error', sass.logError))
     .pipe(autoprefixer(autoprefixerOptions))
-    // .pipe(sourcemaps.write('.'))
+    .pipe(sourcemaps.write('.'))
     .pipe(browserSync.reload({stream:true}))
     .pipe(gulp.dest('.tmp/assets/styles'));
 });
