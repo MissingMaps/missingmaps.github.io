@@ -16,7 +16,7 @@ help_in-person {
 }
 
 </style>
-  
+
   <div class="row">
     <div class="columns">
         <div class="sub-head">Mapathon Support</div>
@@ -321,7 +321,11 @@ help_in-person {
           d[languageKey] = d[languageKey].replace(/\s/g,'').split(';');
           validMarkers.push(d);
           $.each(d[languageKey], function(i,lang){
-            if($.inArray(lang, allLanguages) == -1) { allLanguages.push(lang); }
+            if($.inArray(lang, allLanguages) == -1) {
+              if(lang !== "") {
+                allLanguages.push(lang);
+              }
+            }
           });
         }
       }
@@ -329,8 +333,10 @@ help_in-person {
 
     allLanguages.sort();
     $.each(allLanguages, function(i, lang) {
-      var html = '<option value="' + lang + '">' + languageLookup[lang] + '</option>';
-      $('#language-filter').append(html);
+      if(languageLookup[lang] !== undefined) {
+        var html = '<option value="' + lang + '">' + languageLookup[lang] + '</option>';
+        $('#language-filter').append(html);
+      }
     });
 
 
