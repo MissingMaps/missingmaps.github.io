@@ -8,6 +8,27 @@
   margin: 5px;
 }
 
+#contact-cards {
+  text-align: left;
+}
+
+#contact-cards h5 {
+  margin-bottom: 8px;
+}
+
+#contact-cards a {
+  color: rgba(16,98,174,1);
+}
+
+#contact-cards a:hover {
+  color: rgba(16,98,174,.8);
+}
+
+#contact-cards p {
+  font-size: 80%;
+  line-height: 1.6;
+}
+
 .help_in-person {
   fill: #ed1b2e;
   color: #ed1b2e;
