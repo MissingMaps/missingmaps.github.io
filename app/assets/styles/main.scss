@@ -7,9 +7,9 @@
 @include foundation-everything;
 
 // Reset and normalize
-// @import "normalize";
+//@import "normalize";
 @import "reset";
-@import "normalize-opentype";
+//@import "normalize-opentype";
 @import "base";
 @import "landing";
 @import "about";

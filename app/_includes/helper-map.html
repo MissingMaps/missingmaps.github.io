@@ -48,11 +48,9 @@
 
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css">
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/what-input/4.0.6/what-input.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/js/foundation.min.js"></script>
-
     <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.6.0/d3.min.js"></script>
     <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
@@ -247,22 +245,32 @@
           "zh": "Chinese",
           "zu": "Zulu"
         }
-        var contactHtml = function(type, contact) {
-    var check = type.toLowerCase();
-    switch(check) {
-      case 'twitter':
-        return '<i class="fa fa-fw fa-twitter" aria-hidden="true"></i><a target="_blank" href="https://twitter.com/' + contact + '">&nbsp; ' + contact + '</a>';
-        break;
-      case 'email':
-        return '<i class="fa fa-fw fa-envelope" aria-hidden="true"></i><a href="mailto:' + contact + '">&nbsp; ' + contact + '</a>';
-        break;
-      case 'phone':
-        return '<i class="fa fa-fw fa-phone" aria-hidden="true"></i>&nbsp; ' + contact;
-        break;
-      default:
-        return '<i class="fa fa-fw fa-address-card" aria-hidden="true"></i>&nbsp; ' + contact;
-    }
-  }
+        // use provided contact info to make contact icons/links
+        var contactHtml = function(email,phone,skype,twitter) {
+          switch(email,phone,skype,twitter) {
+            case email:
+              if(email !== "" || email !== " ") {
+                return '<i class="fa fa-fw fa-envelope" aria-hidden="true"></i><a href="mailto:' + email + '">&nbsp; ' + email + '</a>';
+                break;
+              }
+
+            case phone:
+              if(phone !== "" || phone !== " ") {
+                return '<i class="fa fa-fw fa-phone" aria-hidden="true"></i>&nbsp; ' + phone;
+                break;
+              }
+            case skype:
+              if(skype !== "" || skype !== " ") {
+                return '<i class="fa fa-fw fa-address-card" aria-hidden="true"></i>&nbsp; ' + skype;
+                break;
+              }
+            case twitter:
+              if(twitter !== "" || twitter !== " ") {
+                return '<i class="fa fa-fw fa-twitter" aria-hidden="true"></i><a target="_blank" href="https://twitter.com/' + twitter + '">&nbsp; ' + twitter + '</a>';
+                break;
+              }
+          }
+        }
 
   var osmHtml = function(username) {
     return '<a target="_blank" href="http://www.openstreetmap.org/user/' + username + '"><i class="fa fa-fw fa-user-circle-o" aria-hidden="true"></i></a>';
@@ -270,7 +278,7 @@
 
 
   // get the contact data from the google spreadhsheet
-  var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1qoR_KMklECFeAteciaNVKmOShS0yh77XMSmhi0TATl4/pubhtml?gid=115773225&single=true';
+  var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1eWf7ZrUmzqNOBmv-mNdZqssFPwDyvNLQzxFXEGaMgB4/pubhtml?gid=1040223163&single=true';
   function init() {
     Tabletop.init( { key: publicSpreadsheetUrl,
                      callback: showInfo,
@@ -278,8 +286,10 @@
   }
 
   var nameKey = 'Name';
-  var methodKey = 'Contact method';
-  var contactKey = 'Contact details';
+  var emailKey = 'Email';
+  var phoneKey = 'Phone';
+  var skypeKey = 'Skype';
+  var twitterKey = 'Twitter';
   var osmKey = 'OSM username';
   var languageKey = 'Languages';
   var supportKey = 'Support type';
@@ -343,8 +353,6 @@
     var svg = d3.select('#map').select('svg');
     markersGroup = svg.append('g').attr('id', 'markers').attr('class', 'leaflet-zoom-hide');
 
-
-
     // add markers to the map for each contact
     mappedContacts = d3.select('svg #markers').selectAll('text').data(validMarkers)
       .enter().append('text')
@@ -357,7 +365,7 @@
         $.each(d[languageKey], function(i, item){ lang.push(languageLookup[item]); });
         var htmlpop = '<div><b>' + d[nameKey] + '</b></div>' +
             '<div>' +
-              contactHtml(d[methodKey], d[contactKey]) + '</br>' +
+              contactHtml(d[emailKey], d[phoneKey], d[skypeKey], d[twitterKey]) + '</br>' +
               lang.join('; ') +
             '</div>';
         var popup = L.popup({closeOnClick: false})
@@ -417,7 +425,7 @@
                     '<div class="card-section">' +
                       '<h5>' + osmHtml(d[osmKey]) + '&nbsp; ' + d[nameKey] + '</h5>' +
                       '<p><small><span class="help_' + supportClass(d[supportKey]) + '">' + d[supportKey] + '</span><br>' +
-                      contactHtml(d[methodKey], d[contactKey])  + '</br>' +
+                      contactHtml(d[emailKey], d[phoneKey], d[skypeKey], d[twitterKey])  + '</br>' +
                       d[noteKey] + '<br>' +
                       '<i class="fa fa-fw fa-language" aria-hidden="true"></i>&nbsp; ' + lang.join('; ') +
                       '</small></p>' +
