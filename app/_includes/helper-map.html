@@ -246,30 +246,61 @@
           "zu": "Zulu"
         }
         // use provided contact info to make contact icons/links
-        var contactHtml = function(email,phone,skype,twitter) {
-          switch(email,phone,skype,twitter) {
-            case email:
-              if(email !== "" || email !== " ") {
-                return '<i class="fa fa-fw fa-envelope" aria-hidden="true"></i><a href="mailto:' + email + '">&nbsp; ' + email + '</a>';
-                break;
-              }
-
-            case phone:
-              if(phone !== "" || phone !== " ") {
-                return '<i class="fa fa-fw fa-phone" aria-hidden="true"></i>&nbsp; ' + phone;
-                break;
-              }
-            case skype:
-              if(skype !== "" || skype !== " ") {
-                return '<i class="fa fa-fw fa-address-card" aria-hidden="true"></i>&nbsp; ' + skype;
-                break;
-              }
-            case twitter:
-              if(twitter !== "" || twitter !== " ") {
-                return '<i class="fa fa-fw fa-twitter" aria-hidden="true"></i><a target="_blank" href="https://twitter.com/' + twitter + '">&nbsp; ' + twitter + '</a>';
-                break;
-              }
+        // var contactHtml = function(type, contact) {
+        //     var check = type.toLowerCase();
+        //     switch(check) {
+        //       case 'twitter':
+        //         return '<i class="fa fa-fw fa-twitter" aria-hidden="true"></i><a target="_blank" href="https://twitter.com/' + contact + '">&nbsp; ' + contact + '</a>';
+        //         break;
+        //       case 'email':
+        //         return '<i class="fa fa-fw fa-envelope" aria-hidden="true"></i><a href="mailto:' + contact + '">&nbsp; ' + contact + '</a>';
+        //         break;
+        //       case 'phone':
+        //         return '<i class="fa fa-fw fa-phone" aria-hidden="true"></i>&nbsp; ' + contact;
+        //         break;
+        //       default:
+        //         return '<i class="fa fa-fw fa-address-card" aria-hidden="true"></i>&nbsp; ' + contact;
+        //     }
+        //   }
+        var contactInfo = function(email,phone,skype,twitter) {
+          // list holding person's contact info
+          var cardContact = []
+          // string to hold contactHTML after parsed below
+          var contactHTML = ""
+          // conditional statemets, pushing to list contact info provided by person
+          if(email !== "" || email !== " ") {
+            if(email.replace(/ /g,'').length > 0) {
+              console.log('some email')
+              var emailHTML = '<i class="fa fa-fw fa-envelope" aria-hidden="true"></i><a href="mailto:' + email + '">&nbsp; ' + email  + '</a>'
+              cardContact.push(emailHTML)
+            }
           }
+          if(phone !== "" || phone !== " ") {
+            if(phone.replace(/ /g,'').length > 0) {
+              console.log('some email')
+              var phoneHTML = '<i class="fa fa-fw fa-phone" aria-hidden="true"></i>&nbsp; ' + phone;
+              cardContact.push(phoneHTML)
+            }
+          }
+          if(skype !== "" || skype !== " ") {
+            if(skype.replace(/ /g,'').length > 0) {
+              console.log('some email')
+              var skypeHTML = '<i class="fa fa-fw fa-address-card" aria-hidden="true"></i>&nbsp; ' + skype;
+              cardContact.push(skypeHTML)
+            }
+          }
+          if(twitter !== "" || twitter !== " ") {
+            if(twitter.replace(/ /g,'').length > 0) {
+              console.log('some email')
+              var twitterHTML = '<i class="fa fa-fw fa-twitter" aria-hidden="true"></i><a target="_blank" href="https://twitter.com/' + twitter + '">&nbsp; ' + twitter + '</a>';
+              cardContact.push(twitterHTML)
+            }
+          }
+          // for loop to combine info provided in to correct html
+          for(i=0;i<cardContact.length;i++){
+            contactHTML = contactHTML + cardContact[i] + " " + "</br> "
+          }
+          return contactHTML
         }
 
   var osmHtml = function(username) {
@@ -365,7 +396,7 @@
         $.each(d[languageKey], function(i, item){ lang.push(languageLookup[item]); });
         var htmlpop = '<div><b>' + d[nameKey] + '</b></div>' +
             '<div>' +
-              contactHtml(d[emailKey], d[phoneKey], d[skypeKey], d[twitterKey]) + '</br>' +
+               contactHtml(d[methodKey], d[contactKey])  + '</br>' +
               lang.join('; ') +
             '</div>';
         var popup = L.popup({closeOnClick: false})
@@ -421,11 +452,21 @@
           .html(function(d) {
               var lang = [];
               $.each(d[languageKey], function(i, item){ lang.push(languageLookup[item]); });
+              // var html = '<div class="card" data-equalizer-watch>' +
+              //       '<div class="card-section">' +
+              //         '<h5>' + osmHtml(d[osmKey]) + '&nbsp; ' + d[nameKey] + '</h5>' +
+              //         '<p><small><span class="help_' + supportClass(d[supportKey]) + '">' + d[supportKey] + '</span><br>' +
+              //         contactHtml(d[methodKey], d[contactKey])  + '</br>' +
+              //         d[noteKey] + '<br>' +
+              //         '<i class="fa fa-fw fa-language" aria-hidden="true"></i>&nbsp; ' + lang.join('; ') +
+              //         '</small></p>' +
+              //       '</div>' +
+              //     '</div>';
               var html = '<div class="card" data-equalizer-watch>' +
                     '<div class="card-section">' +
                       '<h5>' + osmHtml(d[osmKey]) + '&nbsp; ' + d[nameKey] + '</h5>' +
                       '<p><small><span class="help_' + supportClass(d[supportKey]) + '">' + d[supportKey] + '</span><br>' +
-                      contactHtml(d[emailKey], d[phoneKey], d[skypeKey], d[twitterKey])  + '</br>' +
+                      contactInfo(d[emailKey], d[phoneKey], d[skypeKey], d[twitterKey]) +
                       d[noteKey] + '<br>' +
                       '<i class="fa fa-fw fa-language" aria-hidden="true"></i>&nbsp; ' + lang.join('; ') +
                       '</small></p>' +
