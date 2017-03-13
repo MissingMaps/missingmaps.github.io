@@ -285,7 +285,7 @@
           if(skype !== "" || skype !== " ") {
             if(skype.replace(/ /g,'').length > 0) {
               console.log('some email')
-              var skypeHTML = '<i class="fa fa-fw fa-address-card" aria-hidden="true"></i>&nbsp; ' + skype;
+              var skypeHTML = '<i class="fa fa-fw fa-skype" aria-hidden="true" href="skype:' + skype + '?call"></i>&nbsp; ' + skype;
               cardContact.push(skypeHTML)
             }
           }
