@@ -1,16 +1,13 @@
 // Charset
 @charset "UTF-8";
 
-
-
-
-
 // Reset and normalize
 @import "normalize";
 @import "reset";
 // Foundation
 @import "settings";
 @import "foundation";
+@import 'font-awesome';
 @include foundation-everything;
 // Page specific styles
 @import "normalize-opentype";

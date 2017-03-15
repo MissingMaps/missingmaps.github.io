@@ -18,18 +18,16 @@
   color: rgba(16,98,174,.8);
 }
 
-#contact-cards p {
-  font-size: 80%;
-  line-height: 1.6;
-}
-
-.help_in-person {
-  fill: #ed1b2e;
-  color: #ed1b2e;
-}
 .help_remote {
-  fill: #d95f0e;
-  color: #d95f0e;
+  fill: $mmTeal;
+  color: $mmTeal;
+}
+.help_inperson {
+  fill: $mmred;
+  color: $mmred;
+}
+.help_all {
+  fill: $mmGreen;
 }
 
 #helper-map {
@@ -52,6 +50,13 @@
   border-style: solid;
   border-width: 0.5px;
   height: 500px;
+}
+
+#map svg {
+  pointer-events: all;
+}
+.mapmarker {
+  cursor: pointer;
 }
 
 .no-language {

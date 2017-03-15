@@ -33,7 +33,7 @@ gulp.task('copy:assets', function(done) {
 
 var sassInput = 'app/assets/styles/*.scss';
 var sassOptions = {
-  includePaths: ['node_modules/foundation-sites/scss','.tmp/assets/styles' ],
+  includePaths: ['node_modules/foundation-sites/scss','node_modules/font-awesome/scss','.tmp/assets/styles' ],
   errLogToConsole: true,
   outputStyle: 'expanded'
 };
@@ -50,6 +50,11 @@ gulp.task('sass', function() {
     .pipe(sourcemaps.write('.'))
     .pipe(browserSync.reload({stream:true}))
     .pipe(gulp.dest('.tmp/assets/styles'));
+});
+
+gulp.task('icons', function() {
+  return gulp.src('node_modules/font-awesome/fonts/**.*')
+    .pipe(gulp.dest('.tmp/assets/fonts'));
 });
 
 gulp.task('compress:main', function() {
@@ -123,7 +128,7 @@ gulp.task('jekyll:rebuild', ['jekyll'], function () {
 });
 
 gulp.task('build', function(done) {
-  runSequence(['cloneevents', 'cloneblog'],['jekyll', 'compress:main', 'sass'], ['copy:assets'], done);
+  runSequence(['cloneevents', 'cloneblog'],['jekyll', 'compress:main', 'sass', 'icons'], ['copy:assets'], done);
 });
 
 // Default task.
