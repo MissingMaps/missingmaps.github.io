@@ -419,7 +419,12 @@
 
       var bounds = map.getBounds();
       filteredData = filteredData.filter(function(d) {
-        return bounds.contains(d.LatLng);
+        if((d[supportKey].match('Remote'))) {
+          return d
+        } else {
+          return bounds.contains(d.LatLng);
+        }
+
       });
 
       var language = $('#language-filter').find(':selected').val();
