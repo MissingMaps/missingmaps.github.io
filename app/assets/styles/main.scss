@@ -1,15 +1,19 @@
 // Charset
 @charset "UTF-8";
 
-//Foundation
+
+
+
+
+// Reset and normalize
+@import "normalize";
+@import "reset";
+// Foundation
 @import "settings";
 @import "foundation";
 @include foundation-everything;
-
-// Reset and normalize
-//@import "normalize";
-@import "reset";
-//@import "normalize-opentype";
+// Page specific styles
+@import "normalize-opentype";
 @import "base";
 @import "landing";
 @import "about";
