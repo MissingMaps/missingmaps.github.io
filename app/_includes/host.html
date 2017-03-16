@@ -52,10 +52,14 @@
         <div class="sub-head">{{site.data[locale].host.prep_check}}</div>
       </div>
       <div class="about-textbox">
-        <div class="checklist">
-          {% for item in site.data[locale].host.prep_check_list %}
-          <p>{{item.label}}</p>
-          {% endfor %}
+        <div class="row">
+          <div class="medium-offset-2 medium-8 columns">
+            <div class="checklist">
+              {% for item in site.data[locale].host.prep_check_list %}
+              <p>{{item.label}}</p>
+              {% endfor %}
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -65,10 +69,14 @@
         <div class="sub-head">{{site.data[locale].host.event_check}}</div>
       </div>
       <div class="about-textbox">
-        <div class="checklist">
-          {% for item in site.data[locale].host.event_check_list %}
-          <p>{{item.label}}</p>
-          {% endfor %}
+        <div class="row">
+          <div class="medium-offset-2 medium-8 columns">
+            <div class="checklist">
+              {% for item in site.data[locale].host.event_check_list %}
+              <p>{{item.label}}</p>
+              {% endfor %}
+            </div>
+          </div>
         </div>
       </div>
     </div>
