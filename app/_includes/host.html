@@ -28,7 +28,7 @@
       <a href="{{ site.baseurl }}{{site.data[locale].host.url}}#Preparation" class="btn btn-blue">{{site.data[locale].host.prep_btn}}</a>
       <a href="{{ site.baseurl }}/host/#EventDay" class="btn btn-blue">{{site.data[locale].host.check_btn}}</a>
       <a href="{{ site.baseurl }}/host/#Materials" class="btn btn-blue">{{site.data[locale].host.materials_btn}}</a>
-      <!-- <a href="https://docs.google.com/forms/d/174ZAAaqtRkJtyY2657RVAMbnvs8IzujWAShZy3y3_FY/viewform" class="btn btn-blue">{{site.data[locale].host.mapevent_btn}}</a> -->
+      <a href="https://docs.google.com/forms/d/174ZAAaqtRkJtyY2657RVAMbnvs8IzujWAShZy3y3_FY/viewform" class="btn btn-blue">{{site.data[locale].host.mapevent_btn}}</a>
     </div>
 
     <div class="host-image">
@@ -45,12 +45,7 @@
         {% endfor %}
       </ol>
     </div>
-    <div class="host-button-box">
-      <a href="{{ site.baseurl }}{{site.data[locale].host.url}}#Preparation" class="btn btn-blue">{{site.data[locale].host.prep_btn}}</a>
-      <a href="{{ site.baseurl }}/host/#EventDay" class="btn btn-blue">{{site.data[locale].host.check_btn}}</a>
-      <a href="{{ site.baseurl }}/host/#Materials" class="btn btn-blue">{{site.data[locale].host.materials_btn}}</a>
-      <a href="https://docs.google.com/forms/d/174ZAAaqtRkJtyY2657RVAMbnvs8IzujWAShZy3y3_FY/viewform" class="btn btn-blue">{{site.data[locale].host.mapevent_btn}}</a>
-    </div>
+
     <div id="Preparation">
       <div class="host-image">
         <img src="{{ site.baseurl }}/assets/graphics/content/process/Checklist.svg" width="150" alt="Beepboop">
@@ -89,6 +84,9 @@
           {% endfor %}
         </ul>
       </div>
+    </div>
+    <div id="helper-map">
+        {% include helper-map.html %}
     </div>
   </div>
 </div>

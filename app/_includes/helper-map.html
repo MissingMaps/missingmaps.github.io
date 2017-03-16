@@ -1,0 +1,525 @@
+
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/css/foundation.min.css"> -->
+<div id="helper-map-contents">
+  <div class="row">
+    <div class="columns">
+        <div><img src="{{ site.baseurl }}/assets/graphics/content/process/helper.svg"/></div>
+        <div class="sub-head">{{site.data[locale].helper-map.title}}</div>
+        <div class="about-textbox" style="padding-bottom:20px">
+          <p style="text-align: center">{{site.data[locale].helper-map.description}}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="small-12 medium-offset-1 medium-10 large-offset-2 large-8">
+        <div id="map"></div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+      <div class="medium-offset-1 small-10 medium-offset-1 medium-10 large-offset-1 large-10">
+          <div class="row">
+            <div class="small-6 medium-offset-1 medium-5 columns">
+              <label>{{site.data[locale].helper-map.filter-lang}}
+                <select id="language-filter">
+                  <option value="all">{{site.data[locale].helper-map.all}}</option>
+                  <!-- ... -->
+                </select>
+              </label>
+            </div>
+            <div class="small-6 medium-5 end columns">
+              <label>{{site.data[locale].helper-map.filter-type}}
+                <select id="type-filter">
+                    <option value="all">{{site.data[locale].helper-map.all}}</option>
+                    <option value="Remote">{{site.data[locale].helper-map.remote}}</option>
+                    <option value="In Person">{{site.data[locale].helper-map.in-person}}</option>
+                </select>
+              </label>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <br>
+
+    <div id="contact-cards" class="row small-up-2 medium-up-3" data-equalize-by-row="true" data-equalizer>
+      <!-- ... -->
+    </div>
+
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/what-input/4.0.6/what-input.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/js/foundation.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.6.0/d3.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+    <!-- <script src="https://use.fontawesome.com/eb154e6e77.js"></script> -->
+
+  <script>
+    $(document).foundation();
+    $(document).ready(function() {
+      var languageLookup = {
+          "aa": "Afar",
+          "ab": "Abkhazian",
+          "ae": "Avestan",
+          "af": "Afrikaans",
+          "ak": "Akan",
+          "am": "Amharic",
+          "an": "Aragonese",
+          "ar": "Arabic",
+          "as": "Assamese",
+          "av": "Avaric",
+          "ay": "Aymara",
+          "az": "Azerbaijani",
+          "ba": "Bashkir",
+          "be": "Belarusian",
+          "bg": "Bulgarian",
+          "bh": "Bihari languages",
+          "bi": "Bislama",
+          "bm": "Bambara",
+          "bn": "Bengali",
+          "bo": "Tibetan",
+          "br": "Breton",
+          "bs": "Bosnian",
+          "ca": "Catalan/ Valencian",
+          "ce": "Chechen",
+          "ch": "Chamorro",
+          "co": "Corsican",
+          "cr": "Cree",
+          "cs": "Czech",
+          "cu": "Church Slavic",
+          "cv": "Chuvash",
+          "cy": "Welsh",
+          "da": "Danish",
+          "de": "German",
+          "dv": "Divehi/ Dhivehi/ Maldivian",
+          "dz": "Dzongkha",
+          "ee": "Ewe",
+          "el": "Greek",
+          "en": "English",
+          "eo": "Esperanto",
+          "es": "Spanish/ Castilian",
+          "et": "Estonian",
+          "eu": "Basque",
+          "fa": "Persian",
+          "ff": "Fulah",
+          "fi": "Finnish",
+          "fj": "Fijian",
+          "fo": "Faroese",
+          "fr": "French",
+          "fy": "Western Frisian",
+          "ga": "Irish",
+          "gd": "Gaelic",
+          "gl": "Galician",
+          "gn": "Guarani",
+          "gu": "Gujarati",
+          "gv": "Manx",
+          "ha": "Hausa",
+          "he": "Hebrew",
+          "hi": "Hindi",
+          "ho": "Hiri Motu",
+          "hr": "Croatian",
+          "ht": "Haitian",
+          "hu": "Hungarian",
+          "hy": "Armenian",
+          "hz": "Herero",
+          "ia": "Interlingua",
+          "id": "Indonesian",
+          "ie": "Interlingue/ Occidental",
+          "ig": "Igbo",
+          "ii": "Sichuan Yi/ Nuosu",
+          "ik": "Inupiaq",
+          "io": "Ido",
+          "is": "Icelandic",
+          "it": "Italian",
+          "iu": "Inuktitut",
+          "ja": "Japanese",
+          "jv": "Javanese",
+          "ka": "Georgian",
+          "kg": "Kongo",
+          "ki": "Kikuyu/ Gikuyu",
+          "kj": "Kuanyama/ Kwanyama",
+          "kk": "Kazakh",
+          "kl": "Kalaallisut/ Greenlandic",
+          "km": "Central Khmer",
+          "kn": "Kannada",
+          "ko": "Korean",
+          "kr": "Kanuri",
+          "ks": "Kashmiri",
+          "ku": "Kurdish",
+          "kv": "Komi",
+          "kw": "Cornish",
+          "ky": "Kirghiz/ Kyrgyz",
+          "la": "Latin",
+          "lb": "Luxembourgish/ Letzeburgesch",
+          "lg": "Ganda",
+          "li": "Limburgan",
+          "ln": "Lingala",
+          "lo": "Lao",
+          "lt": "Lithuanian",
+          "lu": "Luba-Katanga",
+          "lv": "Latvian",
+          "mg": "Malagasy",
+          "mh": "Marshallese",
+          "mi": "Maori",
+          "mk": "Macedonian",
+          "ml": "Malayalam",
+          "mn": "Mongolian",
+          "mr": "Marathi",
+          "ms": "Malay",
+          "mt": "Maltese",
+          "my": "Burmese",
+          "na": "Nauru",
+          "nb": "Bokmål, Norwegian",
+          "nd": "Ndebele",
+          "ne": "Nepali",
+          "ng": "Ndonga",
+          "nl": "Dutch/ Flemish",
+          "nn": "Nynorsk",
+          "no": "Norwegian",
+          "nr": "Ndebele",
+          "nv": "Navajo",
+          "ny": "Chichewa",
+          "oc": "Occitan",
+          "oj": "Ojibwa",
+          "om": "Oromo",
+          "or": "Oriya",
+          "os": "Ossetian",
+          "pa": "Panjabi/ Punjabi",
+          "pi": "Pali",
+          "pl": "Polish",
+          "ps": "Pushto/ Pashto",
+          "pt": "Portuguese",
+          "qu": "Quechua",
+          "rm": "Romansh",
+          "rn": "Rundi",
+          "ro": "Romanian/ Moldovan",
+          "ru": "Russian",
+          "rw": "Kinyarwanda",
+          "sa": "Sanskrit",
+          "sc": "Sardinian",
+          "sd": "Sindhi",
+          "se": "Northern Sami",
+          "sg": "Sango",
+          "si": "Sinhala/ Sinhalese",
+          "sk": "Slovak",
+          "sl": "Slovenian",
+          "sm": "Samoan",
+          "sn": "Shona",
+          "so": "Somali",
+          "sq": "Albanian",
+          "sr": "Serbian",
+          "ss": "Swati",
+          "st": "Sotho, Southern",
+          "su": "Sundanese",
+          "sv": "Swedish",
+          "sw": "Swahili",
+          "ta": "Tamil",
+          "te": "Telugu",
+          "tg": "Tajik",
+          "th": "Thai",
+          "ti": "Tigrinya",
+          "tk": "Turkmen",
+          "tl": "Tagalog",
+          "tn": "Tswana",
+          "to": "Tonga",
+          "tr": "Turkish",
+          "ts": "Tsonga",
+          "tt": "Tatar",
+          "tw": "Twi",
+          "ty": "Tahitian",
+          "ug": "Uighur/ Uyghur",
+          "uk": "Ukrainian",
+          "ur": "Urdu",
+          "uz": "Uzbek",
+          "ve": "Venda",
+          "vi": "Vietnamese",
+          "vo": "Volapük",
+          "wa": "Walloon",
+          "wo": "Wolof",
+          "xh": "Xhosa",
+          "yi": "Yiddish",
+          "yo": "Yoruba",
+          "za": "Zhuang/ Chuang",
+          "zh": "Chinese",
+          "zu": "Zulu"
+        }
+
+        // use provided contact info to make contact icons/links
+        var contactInfo = function(email,phone,skype,twitter) {
+          // array holding person's various contact info
+          var cardContact = []
+          // conditional statements, pushing to array contact info provided by person
+            if(email.replace(/ /g,'').length > 0) {
+              var emailHTML = '<i class="fa fa-fw fa-envelope" aria-hidden="true"></i><a href="mailto:' + email + '">&nbsp; ' + email  + '</a>';
+              cardContact.push(emailHTML)
+            }
+            if(phone.replace(/ /g,'').length > 0) {
+              var phoneHTML = '<i class="fa fa-fw fa-phone" aria-hidden="true"></i>&nbsp; ' + phone;
+              cardContact.push(phoneHTML)
+            }
+            if(skype.replace(/ /g,'').length > 0) {
+              var skypeHTML = '<i class="fa fa-fw fa-skype" aria-hidden="true" ></i>&nbsp; ' + skype;
+              cardContact.push(skypeHTML)
+            }
+            if(twitter.replace(/ /g,'').length > 0) {
+              var twitterHTML = '<i class="fa fa-fw fa-twitter" aria-hidden="true"></i><a target="_blank" href="https://twitter.com/' + twitter + '">&nbsp; ' + twitter + '</a>';
+              cardContact.push(twitterHTML)
+            }
+          return cardContact.join(" </br>");
+        }
+
+  var osmHtml = function(username) {
+    return '<a target="_blank" href="http://www.openstreetmap.org/user/' + username + '"><i class="fa fa-fw fa-user-circle-o" aria-hidden="true"></i></a>';
+  }
+
+
+  // get the contact data from the google spreadhsheet
+  var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1eWf7ZrUmzqNOBmv-mNdZqssFPwDyvNLQzxFXEGaMgB4/pubhtml?gid=1040223163&single=true';
+  function init() {
+    Tabletop.init( { key: publicSpreadsheetUrl,
+                     callback: showInfo,
+                     simpleSheet: true } )
+  }
+
+  // column headers from Google sheet holding contact data
+  var nameKey = 'Name';
+  var emailKey = 'Email';
+  var phoneKey = 'Phone';
+  var skypeKey = 'Skype';
+  var twitterKey = 'Twitter';
+  var osmKey = 'OSM username';
+  var languageKey = 'Languages';
+  var supportKey = 'Support type';
+  var locationKey = 'Location';
+  var noteKey = 'Notes';
+
+  function supportClass(value) {
+    return 'help_' + value.replace(/\s/g,'').toLowerCase();
+  }
+
+  function showInfo(data, tabletop) {
+    validMarkers = [];
+    allLanguages = [];
+    // add a LatLng object and an ID to each item in the dataset
+    data.forEach(function(d, i) {
+      var coordinates = d[locationKey].replace(/\s/g,'').split('/');
+      // TODO: improve the process for confirming a valid latLng
+      if(coordinates.length == 2) {
+        coordinates[0] = parseFloat(coordinates[0])
+        coordinates[1] = parseFloat(coordinates[1])
+        if(!isNaN(coordinates[0]) && !isNaN(coordinates[1])) {
+          d.LatLng = new L.LatLng(parseFloat(coordinates[0]), parseFloat(coordinates[1]));
+          d.id = i;
+          d.inside = false; // this will keep track of if a person is "In person" and inside the map bounds
+          d[supportKey] = d[supportKey].split(',');
+          $.each(d[supportKey], function(i, item) {
+            d[supportKey][i] = item.trim();
+          })
+          d[languageKey] = d[languageKey].replace(/\s/g,'').toLowerCase().split(';');
+          validMarkers.push(d);
+          $.each(d[languageKey], function(i,lang){
+            if($.inArray(lang, allLanguages) == -1) {
+              if(lang !== "") {
+                allLanguages.push(lang);
+              }
+            }
+          });
+        }
+      }
+    });
+
+    allLanguages.sort();
+    $.each(allLanguages, function(i, lang) {
+      if(languageLookup[lang] !== undefined) {
+        var html = '<option value="' + lang + '">' + languageLookup[lang] + '</option>';
+        $('#language-filter').append(html);
+      }
+    });
+
+
+
+    map = L.map('map', { maxZoom: 13, minZoom: 2 }).setView([15, 0], 2);
+
+
+    L.tileLayer('http://api.tiles.mapbox.com/v4/mapbox.light/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoic3RhdGVvZnNhdGVsbGl0ZSIsImEiOiJlZTM5ODI5NGYwZWM2MjRlZmEyNzEyMWRjZWJlY2FhZiJ9.omsA8QDSKggbxiJjumiA_w.', {
+    	attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // initialize the SVG layer for D3 drawn markers
+    L.svg().addTo(map);
+    // pick up the SVG from the map object
+    var svg = d3.select('#map').select('svg');
+    markersGroup = svg.append('g').attr('id', 'markers').attr('class', 'leaflet-zoom-hide');
+
+    // add markers to the map for each contact
+    mappedContacts = d3.select('svg #markers').selectAll('text').data(validMarkers)
+      .enter().append('text')
+      .text('\uf276')
+      .attr('font-family', 'FontAwesome')
+      .attr('class', function(d) {
+        if(d[supportKey].length === 1) {
+          return supportClass(d[supportKey][0]);
+        } else { return 'help_all'; }
+      })
+      .classed('mapmarker', true)
+      .on('click', function(d) {
+        var lang = [];
+        $.each(d[languageKey], function(i, item){ lang.push(languageLookup[item]); });
+        var support = [];
+        $.each(d[supportKey], function(i, item) {
+          support.push('<span class="' + supportClass(item) + '">' + item + '</span>');
+        });
+        var supportHtml = support.join(', ');
+        var htmlpop = '<div><b>' + osmHtml(d[osmKey]) + '&nbsp; ' + d[nameKey] + '</b></div>' +
+            '<div>' +
+            supportHtml + '<br>' +
+            contactInfo(d[emailKey], d[phoneKey], d[skypeKey], d[twitterKey]) + '<br>' +
+            '<i class="fa fa-fw fa-language" aria-hidden="true"></i>&nbsp; ' + lang.join('; ') + '<br>' +
+            '<em>' + d[noteKey] + '</em>' +
+            '</div>';
+        var popup = L.popup({closeOnClick: false})
+          .setLatLng(d.LatLng)
+          .setContent(htmlpop)
+          .openOn(map);
+      });
+
+    // when map view changes adjust the locations of the svg circles
+    updatemarker = function() {
+      mappedContacts.attr('x',function(d) { return map.latLngToLayerPoint(d.LatLng).x; });
+      mappedContacts.attr('y',function(d) { return map.latLngToLayerPoint(d.LatLng).y; });
+    }
+    // set the starting locations of the markers
+    updatemarker();
+
+    filter = function(){
+
+      var filteredData = validMarkers;
+
+      var bounds = map.getBounds();
+      filteredData = filteredData.filter(function(d) {
+        d.inside = bounds.contains(d.LatLng);
+        if($.inArray('Remote', d[supportKey]) !== -1) {
+          // if they offer 'Remote', keep them in the contact cards
+          // (we will not displau the 'In Person' from the displayed text for those oustide and offering both)
+          return true;
+        } else {
+          // if they are inside the bounds they can still be included
+          return bounds.contains(d.LatLng);
+        }
+
+      });
+
+      var language = $('#language-filter').find(':selected').val();
+      var type = $('#type-filter').find(':selected').val();
+      if(language !== 'all') {
+        filteredData = filteredData.filter(function(d) {
+          return ($.inArray(language, d[languageKey]) !== -1);
+        });
+      }
+      if(type !== 'all') {
+        filteredData = filteredData.filter(function(d) {
+          // return ($.inArray(type, d[supportKey]) !== -1);
+          if(type === 'In Person') {
+            return (($.inArray(type, d[supportKey]) !== -1) && d.inside);
+          } else {
+            return ($.inArray(type, d[supportKey]) !== -1);
+          }
+        });
+      }
+      toggleMarkerVis(language, type);
+      drawCards(filteredData);
+    }
+
+    drawCards = function(list) {
+      if(list.length == 0){
+        $('#no-match').show();
+      } else {
+        $('#no-match').hide();
+      }
+      var contactCards = d3.select('#contact-cards').selectAll('div.column').data(list, function(d) { return d.id; });
+      // UPDATE
+      contactCards.each(function(d) {
+        // this and some similar stuff a little further down is a messy bit of code
+        // that if someone is offering both remote and in person support and their marker
+        // is outside the current map extent, then the contact card will only show the remote
+        var support = [];
+        $.each(d[supportKey], function(i, item) {
+          if( (item === 'Remote') || (d.inside === true && item === 'In Person')) {
+            support.push('<span class="' + supportClass(item) + '">' + item + '</span>');
+          }
+        });
+        d3.select(this).select('span.support-types').html(support.join(', '));
+      });
+
+      // ENTER
+      contactCards.enter().append('div')
+          .attr('class', 'column')
+          .html(function(d) {
+              var lang = [];
+              var support = [];
+              $.each(d[supportKey], function(i, item) {
+                if( (item === 'Remote') || (d.inside === true && item === 'In Person')) {
+                  support.push('<span class="' + supportClass(item) + '">' + item + '</span>');
+                }
+              });
+              $.each(d[languageKey], function(i, item) { lang.push(languageLookup[item]); });
+              var html = '<div class="card" data-equalizer-watch>' +
+                    '<div class="card-section">' +
+                      '<h5>' + osmHtml(d[osmKey]) + '&nbsp; ' + d[nameKey] + '</h5>' +
+                      '<p><small><span class="support-types">' + support.join(', ') + '</span><br>' +
+                      contactInfo(d[emailKey], d[phoneKey], d[skypeKey], d[twitterKey]) + '<br>' +
+                      '<i class="fa fa-fw fa-language" aria-hidden="true"></i>&nbsp; ' + lang.join('; ') + '<br>' +
+                      '<em>' + d[noteKey] + '</em>' +
+                      '</small></p>' +
+                    '</div>' +
+                  '</div>';
+              return html;
+            })
+      // EXIT
+      contactCards.exit().remove();
+
+      $('#contact-cards').foundation('destroy');
+      new Foundation.Equalizer($('#contact-cards'));
+
+    }
+
+    toggleMarkerVis = function(language, type) {
+      mappedContacts.each(function(d) {
+        if( (($.inArray(language, d[languageKey]) !== -1) || (language == 'all')) && ( ($.inArray(type, d[supportKey]) !== -1) || (type == 'all'))   ){
+          d3.select(this).classed('no-language', false);
+        } else {
+          d3.select(this).classed('no-language', true);
+        }
+      });
+    }
+
+
+  // when map view changes check what markers are visible in the extent
+  map.on('load moveend zoomend viewreset', filter);
+  // filter();
+
+  // when map view changes adjust the locations of the markers
+  map.on('zoom move viewreset', updatemarker);
+
+  $('#language-filter').change(function(){
+    filter();
+  })
+  $('#type-filter').change(function(){
+    filter();
+  })
+
+  filter();
+
+  }
+
+  // start things up
+  window.addEventListener('DOMContentLoaded', init)
+  });
+  </script>
+
+</div>

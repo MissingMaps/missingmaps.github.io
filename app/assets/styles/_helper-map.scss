@@ -1,0 +1,64 @@
+/*----------------------------------------------*/
+/* Helper Map */
+/*----------------------------------------------*/
+
+#contact-cards {
+  text-align: left;
+}
+
+#contact-cards h5 {
+  margin-bottom: 15px;
+}
+
+#contact-cards a {
+  color: rgba(16,98,174,1);
+}
+
+#contact-cards a:hover {
+  color: rgba(16,98,174,.8);
+}
+
+.help_remote {
+  fill: $mmTeal;
+  color: $mmTeal;
+}
+.help_inperson {
+  fill: $mmred;
+  color: $mmred;
+}
+.help_all {
+  fill: $mmGreen;
+}
+
+#helper-map {
+  height: 100%;
+  min-height: 500px;
+  width: 100%;
+}
+
+#helper-map-contents {
+  margin: 5px;
+}
+
+#helper-map-contents img {
+  margin-bottom: 15px;
+  width: 119px;
+}
+
+#map {
+  border-color: rgba(97,97,97,0.5);
+  border-style: solid;
+  border-width: 0.5px;
+  height: 500px;
+}
+
+#map svg {
+  pointer-events: all;
+}
+.mapmarker {
+  cursor: pointer;
+}
+
+.no-language {
+  display: none !important;
+}
