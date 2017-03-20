@@ -160,6 +160,8 @@ about:
 helper-map:
   title:        "Mapathon Support"
   description:  "Scroll down to find a list of people who are willing to help support Mapathons! You can filter by language and support type using the dropdowns. Zooming the map will hide the in-person support outside of the map view."
+  signup-txt:   "Volunteer to help out by adding your contact info to the map."
+  signup-btn:   "Sign up"
   filter-lang:  "Filter by a language"
   filter-type:  "Filter by type"
   all:          "All"
