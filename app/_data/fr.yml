@@ -156,15 +156,15 @@ crises qui les touchent."
 ##########################
 
 helper-map:
-  title:        "Mapathon Support"
-  description:  "Scroll down to find a list of people who are willing to help support Mapathons! You can filter by language and support type using the dropdowns. Zooming the map will hide the in-person support outside of the map view."
-  signup-txt:   "Volunteer to help out by adding your contact info to the map."
-  signup-btn:   "Sign up"
-  filter-lang:  "Filter by a language"
-  filter-type:  "Filter by type"
-  all:          "All"
-  remote:       "Remote"
-  in-person:    "In Person"
+  title:        "Soutien aux mapathons"
+  description:  "Défilez vers le bas pour voir la liste des personnes qui souhaitent aider aux mapathons ! Vous pouvez filtrer en fonction de la langue et du type d'aide recherché en utilisant le menu déroulant. En zoomant sur la carte vous cacherez les volontaires qui se situent en dehors de la zone repérée sur la carte. "
+  signup-txt:   "Aidez à l'organisation des mapathons en ajoutant votre contact sur la carte."
+  signup-btn:   "S'enregistrer"
+  filter-lang:  "Filtre par langue"
+  filter-type:  "Filtre par type"
+  all:          "Tous"
+  remote:       "A distance"
+  in-person:    "En présentiel"
 
 #####################
 ## HOST A MAPATHON ##
