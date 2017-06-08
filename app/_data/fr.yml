@@ -5,7 +5,7 @@
 home:             "fr/"
 
 nav:
-  - text:         "CONTRIBUER"
+  - text: "CONTRIBUER"
       links:
         - text:     "APPRENDRE À LA CARTE"
           url:      "/fr/contribuer/"
@@ -229,7 +229,7 @@ host:
 ## Validate ##
 ##############
 
-validate:
+checker:
     title: "Validate"
     intro: "Validation is an important part of the Missing Maps process. Getting a second, third, or fourth pair of eyes on mapped features goes a long way in ensuring the quality of data being added to OpenStreetMap and being used in vulnerable communities around the world. Validating requires confidence in your mapping abilities as well as the willingness to help coach and advise newer mappers. The Missing Maps Project is a community of mappers with different levels of mapping experience, all who have a common goal of improving the availability of quality data for humanitarian use."
     links:
@@ -249,15 +249,6 @@ validate:
       step3_subtitle: Collaborate as part of the broader community.
       step3_text: "Different validators have different techniques for validating. Join the conversation on the <a href= \"https://hotosm-slack.herokuapp.com/\"> HOTOSM slack </a> validation channel or reach out on the <a href=\"https://lists.openstreetmap.org/listinfo/hot\"> HOT Mailing List </a>. Contribute resources that you find helpful and give back to the community! Being a part of the Missing Maps community means working together in a positive and inclusive environment; when giving feedback to mappers, be sure to keep a positive tone and stay mindful of their contributions and desire to help - it’s what keeps OSM growing!"
     get-started: "Now get started, check out these tasks that are in need of validation!"
-    # Projects for future use on validation page
-    projects:
-      -id: 2892
-       desc: "test"
-      -id: 2892
-       desc: "test"
-      -id: 2892
-       desc: "test"
-
 
 ###################
 ## Blog CONTENT ##
