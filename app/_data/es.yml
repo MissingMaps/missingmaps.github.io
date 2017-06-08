@@ -239,7 +239,7 @@ checker:
       josm: "JOSM VALIDATION"
       wiki: "WIKI"
     steps:
-      goal: "Use the resources on this page to begin contributing to the Missing Maps Project as a validator!"
+      goal: "Validate"
       step1: "Step 1"
       step1_subtitle: "Identify if becoming a validator is right for you."
       step1_text: "Validating isn’t for everyone; validation requires patience and attention to detail. Some experience mapping in OpenStreetMap and HOT projects is a must, but don’t feel that you need to be an expert to start. If you’re new to Missing Maps or OpenStreetMap mapping in general, head over to our <a href= \"/contribute\"> resources for new mappers. </a> Check out our <a href= \"/assets/downloads/MissingMaps_validation_faq_en.pdf\"> Validation FAQs </a> to gain some insight on what validating entails."
