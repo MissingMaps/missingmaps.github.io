@@ -6,11 +6,11 @@ home:             "fr/"
 
 nav:
   - text: "CONTRIBUER"
-      links:
-        - text:     "APPRENDRE À LA CARTE"
-          url:      "/fr/contribuer/"
-        - text:     "VALIDER"
-          url:      "fr/valider/"
+    links:
+      - text:     "APPRENDRE À LA CARTE"
+        url:      "/fr/contribuer/"
+      - text:     "VALIDER"
+        url:      "fr/valider/"
   - text:         "ÉVÉNEMENTS"
     links:
       - text:     "PROCHAINS ÉVÉNEMENTS"
