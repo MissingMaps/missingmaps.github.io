@@ -8,8 +8,8 @@ nav:
   - text: "CONTRIBUER"
     links:
       - text:     "APPRENDRE À LA CARTE"
-        url:      "/fr/contribuer/"
-      - text:     "VALIDER"
+        url:      "/fr/apprendre/"
+      - text:     "APPRENDRE VALIDER"
         url:      "fr/valider/"
   - text:         "ÉVÉNEMENTS"
     links:
@@ -230,7 +230,7 @@ host:
 ##############
 
 checker:
-    title: "Validate"
+    title: "Learn to Validate"
     intro: "Validation is an important part of the Missing Maps process. Getting a second, third, or fourth pair of eyes on mapped features goes a long way in ensuring the quality of data being added to OpenStreetMap and being used in vulnerable communities around the world. Validating requires confidence in your mapping abilities as well as the willingness to help coach and advise newer mappers. The Missing Maps Project is a community of mappers with different levels of mapping experience, all who have a common goal of improving the availability of quality data for humanitarian use."
     links:
       faq: "FAQS"
@@ -243,7 +243,7 @@ checker:
       step1_text: "Validating isn’t for everyone; validation requires patience and attention to detail. Some experience mapping in OpenStreetMap and HOT projects is a must, but don’t feel that you need to be an expert to start. If you’re new to Missing Maps or OpenStreetMap mapping in general, head over to our <a href= \"/contribute\"> resources for new mappers. </a> Check out our <a href= \"/assets/downloads/MissingMaps_validation_faq_en.pdf\"> Validation FAQs </a> to gain some insight on what validating entails."
       step2: "Step 2"
       step2_subtitle: "Build your skills."
-      step2_text: Becoming a more efficient mapper is crucial to becoming a validator. The <a href=\"https://josm.openstreetmap.de/\"> JOSM Editor</a> is a customizable editor for OpenStreetMap with a number of tools and plugins to make mapping and validating easier! Check out this <a href= \"/assets/downloads/MissingMaps_validation_josm_en.pdf\"> Validation FAQs guide to validation using the JOSM editor. </a> For instruction setting up JOSM, you can also head over to <a href=\"http://learnosm.org/en/josm/\"> LearnOSM </a>.
+      step2_text: "Becoming a more efficient mapper is crucial to becoming a validator. The <a href=\"https://josm.openstreetmap.de/\">JOSM Editor</a> is a customizable editor for OpenStreetMap with a number of tools and plugins to make mapping and validating easier! Check out this <a href=\"/assets/downloads/MissingMaps_validation_josm_en.pdf\"> guide to validation using the JOSM editor. </a> For instruction setting up JOSM, you can also head over to <a href= \"http://learnosm.org/en/josm/\"> LearnOSM </a>."
       step2_video: "While validating in JOSM is preferred, you can also begin to improve the map through iD editor. Check out this video to learn some of the things to look for:"
       step3: "Step 3"
       step3_subtitle: Collaborate as part of the broader community.
