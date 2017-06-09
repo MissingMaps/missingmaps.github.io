@@ -6,7 +6,11 @@ home:             "es/"
 
 nav:
   - text:         "CONTRIBUIR"
-    url:          "/es/contribuir/"
+    links:
+      - text:     "APRENDA A MAPA"
+        url:       "/es/aprender/"
+      - text:     "APRENDER A VALIDAR"
+        url:       "/es/validar/"
   - text:         "EVENTOS"
     links:
       - text:     "PRÓXIMOS EVENTOS"
@@ -104,7 +108,7 @@ contact:
 ## CONTRIBUTE CONTENT ##
 ########################
 contribute:
-  title:        "Cómo contribuir"
+  title:        "Aprender a mapear"
   how_text:     "Si eres nuevo en el mundo de la cartografía digital, te recomendamos que mires los videos de la sección “Principiantes” para poder ponerte en marcha. Si ya cartografiaste antes, sigue el enlace “CARTOGRAFIAR”. También puede acceder a tutoriales adicionales con el LearnOSM."
   map_btn:      "CARTOGRAFIAR"
   learn_osm:    "TUTORIALES ADICIONALES"
@@ -222,6 +226,31 @@ host:
       asset:      "MissingMaps_Process_es.pdf"
     - text:       "Guía Mapathon 'Table Top'"
       asset:      "MissingMaps_tabletop_es.pdf"
+
+##############
+## Validate ##
+##############
+
+checker:
+    title: "Learn to Validate"
+    intro: "Validation is an important part of the Missing Maps process. Getting a second, third, or fourth pair of eyes on mapped features goes a long way in ensuring the quality of data being added to OpenStreetMap and being used in vulnerable communities around the world. Validating requires confidence in your mapping abilities as well as the willingness to help coach and advise newer mappers. The Missing Maps Project is a community of mappers with different levels of mapping experience, all who have a common goal of improving the availability of quality data for humanitarian use."
+    links:
+      faq: "FAQS"
+      josm: "JOSM VALIDATION"
+      wiki: "WIKI"
+    steps:
+      goal: "Validate"
+      step1: "Step 1"
+      step1_subtitle: "Identify if becoming a validator is right for you."
+      step1_text: "Validating isn’t for everyone; validation requires patience and attention to detail. Some experience mapping in OpenStreetMap and HOT projects is a must, but don’t feel that you need to be an expert to start. If you’re new to Missing Maps or OpenStreetMap mapping in general, head over to our <a href= \"/contribute\"> resources for new mappers. </a> Check out our <a href= \"/assets/downloads/MissingMaps_validation_faq_en.pdf\"> Validation FAQs </a> to gain some insight on what validating entails."
+      step2: "Step 2"
+      step2_subtitle: "Build your skills."
+      step2_text: "Becoming a more efficient mapper is crucial to becoming a validator. The <a href=\"https://josm.openstreetmap.de/\">JOSM Editor</a> is a customizable editor for OpenStreetMap with a number of tools and plugins to make mapping and validating easier! Check out this <a href=\"/assets/downloads/MissingMaps_validation_josm_en.pdf\"> guide to validation using the JOSM editor. </a> For instruction setting up JOSM, you can also head over to <a href= \"http://learnosm.org/en/josm/\"> LearnOSM </a>."
+      step2_video: "While validating in JOSM is preferred, you can also begin to improve the map through iD editor. Check out this video to learn some of the things to look for:"
+      step3: "Step 3"
+      step3_subtitle: Collaborate as part of the broader community.
+      step3_text: "Different validators have different techniques for validating. Join the conversation on the <a href= \"https://hotosm-slack.herokuapp.com/\"> HOTOSM slack </a> validation channel or reach out on the <a href=\"https://lists.openstreetmap.org/listinfo/hot\"> HOT Mailing List </a>. Contribute resources that you find helpful and give back to the community! Being a part of the Missing Maps community means working together in a positive and inclusive environment; when giving feedback to mappers, be sure to keep a positive tone and stay mindful of their contributions and desire to help - it’s what keeps OSM growing!"
+    get-started: "Now get started, check out these tasks that are in need of validation!"
 
 ###################
 ## Blog CONTENT ##

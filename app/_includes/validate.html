@@ -1,0 +1,85 @@
+<script>
+document.querySelector("header").style.display = 'inline-block';
+</script>
+
+<div id="site-canvas">
+  <div class="header-image header-checker">
+    <div class="dark-overlay center-text">
+      <h1 class="title feature-header">{{site.data[locale].checker.title}}</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 small-6 columns" style="text-align:center">
+      <div class="textbox container">
+        <p style="text-align: center">{{site.data[locale].checker.intro}}</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row contribute-options">
+    <div class="large-2, small-4 columns" style="text-align: center">
+      <a href="{{ site.baseurl }}/assets/downloads/MissingMaps_validation_faq_en.pdf">
+        <img src="{{ site.baseurl }}/assets/graphics/content/process/Learn-MapNow.svg"></img>
+        <p>
+          <div class="btn btn-grn contribute-caps">{{site.data[locale].checker.links.faq}}
+          </a>
+        </div>
+      </div>
+      <div class="large-2, small-4 columns" style="text-align: center">
+        <a href="{{ site.baseurl }}/assets/downloads/MissingMaps_validation_josm_en.pdf">
+          <img src="{{ site.baseurl }}/assets/graphics/content/process/Learn-MapNow.svg"></img>
+          <p>
+            <div class="btn btn-grn contribute-caps">{{site.data[locale].checker.links.josm}}
+            </a>
+          </div>
+        </div>
+        <div class="large-2, small-4 columns" style="text-align: center">
+          <a href="http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager/Validating_data">
+            <img src="{{ site.baseurl }}/assets/graphics/content/process/Learn-MapNow.svg"></img>
+            <p>
+              <div class="btn btn-grn arw">{{site.data[locale].checker.links.wiki}}
+                <img src="{{ site.baseurl }}/assets/graphics/meta/Arrow.svg"></img>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contribute-container">
+          <div class="row center-text title section-header large-12 small-6 columns" id="learn"><a name="validate">{{site.data[locale].checker.steps.goal}}</a></div>
+          <div class="row">
+            <div class="videobox large-6 small-12 columns">
+              <div class="sub-head" style="text-align: left">1. {{site.data[locale].checker.steps.step1_subtitle}}
+              </div>
+              <hr>
+              <div class="textbox">
+                <p>
+                  {{site.data[locale].checker.steps.step1_text}}
+                </p>
+              </div>
+            </div>
+
+            <div class="videobox large-6 small-12 columns">
+              <div class="sub-head" style="text-align: left">2. {{site.data[locale].checker.steps.step2_subtitle}}
+              </div>
+              <hr>
+              <div class="textbox">
+                <p>{{site.data[locale].checker.steps.step2_text}}</p>
+                <p>{{site.data[locale].checker.steps.step2_video}}</p>
+              </div>
+            </div>
+
+            <div class="videobox large-12 small-12 columns">
+              <iframe width="100%" height="500px" src="https://www.youtube-nocookie.com/embed/2h12CKnvK38" frameborder="0" allowfullscreen=""></iframe>
+              <div class="sub-head" style="text-align: left">3. {{site.data[locale].checker.steps.step3_subtitle}}
+              </div>
+              <hr>
+              <div class="textbox">
+                <p>{{site.data[locale].checker.steps.step3_text}}</p>
+              </div>
+            </div>
+          </div>
+          <div class="row features">
+          </div>
+        </div>
+      </div>
