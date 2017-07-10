@@ -86,7 +86,7 @@ gulp.task('compress:main', function() {
 });
 
 gulp.task('zipmaterials', function() {
-  gulp.src('app/assets/downloads/mapathon-materials/*')
+  gulp.src('app/assets/downloads/mapathon-materials/**', { base : "app/assets/downloads/" })
       .pipe(zip('mapathon-materials.zip'))
       .pipe(gulp.dest('.tmp/assets/downloads'))
 });
