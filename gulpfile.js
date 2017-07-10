@@ -13,6 +13,7 @@ var cp = require('child_process');
 var fs = require('fs');
 var request = require('request');
 var git = require('gulp-git');
+var zip = require('gulp-zip');
 
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
@@ -84,6 +85,12 @@ gulp.task('compress:main', function() {
     return task.pipe(gulp.dest('.tmp/assets/scripts'));
 });
 
+gulp.task('zipmaterials', function() {
+  gulp.src('app/assets/downloads/mapathon-materials/*')
+      .pipe(zip('mapathon-materials.zip'))
+      .pipe(gulp.dest('.tmp/assets/downloads'))
+});
+
 // Clone remote repo to sub folder ($CWD/sub/folder/git-test)
 gulp.task('cloneevents', function(cb) {
   git.clone('https://github.com/MissingMaps/events', {args: './app/_data/events'}, function(err) {
@@ -128,7 +135,7 @@ gulp.task('jekyll:rebuild', ['jekyll'], function () {
 });
 
 gulp.task('build', function(done) {
-  runSequence(['cloneevents', 'cloneblog'],['jekyll', 'compress:main', 'sass', 'icons'], ['copy:assets'], done);
+  runSequence(['cloneevents', 'cloneblog'],['jekyll', 'compress:main', 'sass', 'icons', 'zipmaterials'], ['copy:assets'], done);
 });
 
 // Default task.

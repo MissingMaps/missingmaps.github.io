@@ -8,6 +8,10 @@ Events are managed in the events.csv in the [events](https://github.com/MissingM
 
 Blog posts are managed in the [blog](https://github.com/MissingMaps/blog) repo. Add a post following the instructions in the [Readme](https://github.com/MissingMaps/blog/blob/master/README.md).
 
+### Updating 'Mapathon Materials' zip folder
+
+During the regularly occurring site build process, any files in the `app/assets/downloads/mapathon-materials/` folder will be zipped together and made available for download at http://www.missingmaps.org/assets/downloads/mapathon-materials.zip
+
 ### Adding Language support
 
 The site is configured to support 2-letter core language codes. So english is 'en' not 'en-US' and/or 'en-GB'. Using a longer code will not function.
