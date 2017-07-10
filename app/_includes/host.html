@@ -26,30 +26,16 @@
     </div>
     <div class="host-button-box">
       <a href="{{ site.baseurl }}{{site.data[locale].host.url}}#Preparation" class="btn btn-blue">{{site.data[locale].host.prep_btn}}</a>
-      <a href="{{ site.baseurl }}/host/#EventDay" class="btn btn-blue">{{site.data[locale].host.check_btn}}</a>
-      <a href="{{ site.baseurl }}/host/#Materials" class="btn btn-blue">{{site.data[locale].host.materials_btn}}</a>
+      <a href="{{ site.baseurl }}{{site.data[locale].host.url}}#EventDay" class="btn btn-blue">{{site.data[locale].host.check_btn}}</a>
+      <a href="{{ site.baseurl }}{{site.data[locale].host.url}}#Materials" class="btn btn-blue">{{site.data[locale].host.materials_btn}}</a>
       <a href="https://docs.google.com/forms/d/174ZAAaqtRkJtyY2657RVAMbnvs8IzujWAShZy3y3_FY/viewform" class="btn btn-blue">{{site.data[locale].host.mapevent_btn}}</a>
-    </div>
-
-    <div class="host-image">
-      <img src="{{ site.baseurl }}/assets/graphics/content/process/MMlogo-Outlined.svg" width="150" alt="Beepboop">
-      <div class="sub-head">{{site.data[locale].host.how_help}}</div>
-    </div>
-    <div class="about-textbox" style="padding-bottom:20px">
-      <p>{{site.data[locale].host.how_help_text}}</p>
-    </div>
-    <div class="about-textbox">
-      <ol class="orderedlist-styled">
-        {% for step in site.data[locale].host.how_help_steps %}
-        <li>{{step.label}}</li>
-        {% endfor %}
-      </ol>
     </div>
 
     <div id="Preparation">
       <div class="host-image">
         <img src="{{ site.baseurl }}/assets/graphics/content/process/Checklist.svg" width="150" alt="Beepboop">
         <div class="sub-head">{{site.data[locale].host.prep_check}}</div>
+        <p>{{site.data[locale].host.see_materials}} <a href="{{site.data[locale].host.url}}#Materials">{{site.data[locale].host.materials}}</a>.</p>
       </div>
       <div class="about-textbox">
         <div class="row">
@@ -67,6 +53,7 @@
       <div class="host-image">
         <img src="{{ site.baseurl }}/assets/graphics/content/process/Checklist-2.svg" width="150" alt="Beepboop">
         <div class="sub-head">{{site.data[locale].host.event_check}}</div>
+        <p>{{site.data[locale].host.see_materials}} <a href="{{site.data[locale].host.url}}#Materials">{{site.data[locale].host.materials}}</a>.</p>
       </div>
       <div class="about-textbox">
         <div class="row">
