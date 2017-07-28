@@ -21,7 +21,7 @@ const priorStats = {
 };
 
 const xmlhttp = new XMLHttpRequest();
-const url = 'http://osmstats.redcross.org/stats/missingmaps';
+const url = 'https://osmstats.redcross.org/stats/missingmaps';
 
 xmlhttp.onreadystatechange = function () {
   if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
