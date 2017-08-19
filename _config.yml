@@ -22,6 +22,7 @@ collections:
 default_locale:     "en"
 authorized_locales: ["en","fr","es"]
 
-# add support for an atom feed
+# add support for an atom feed and sitemap
 gems:
   - jekyll-feed
+  - jekyll-sitemap
