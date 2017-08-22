@@ -32,7 +32,7 @@ nav:
       - text:     "PALMARES"
         url:      "http://www.missingmaps.org/leaderboards/"
       - text:     "OSMSTATS"
-        url:      "/osmstats/"
+        url:      "/fr/osmstats/"
 
 #####################
 ## LANDING CONTENT ##
