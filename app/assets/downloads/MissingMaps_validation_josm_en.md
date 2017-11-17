@@ -19,9 +19,9 @@ For Missing Maps tasks, we are generally only concerned with a few types of feat
 
 Here we will look at some methods for checking data simply using JOSM. Some of the questions we are asking about our data are:
 
- - Are there geographic errors (things in the wrong place, overlapping buildings or roads attached to buildings)
- - Are there tagging errors (misspelled tags, missing tags, incorrect tags)
- - Is the data complete according to the requirements of the HOT task? Is everything there that should be there?
+ - Are there **geographic** errors (things in the wrong place, overlapping buildings or roads attached to buildings)
+ - Are there **tagging** errors (misspelled tags, missing tags, incorrect tags)
+ - Is the data **complete** according to the requirements of the HOT task? Is everything there that should be there?
 
 Let’s examine how we can find answers to these questions in JOSM, a powerful OpenStreetMap editing tool. We’ll assume that we are examining the work of others, but the same processes will work fine (and should be easier) when analyzing your own work.
 
@@ -77,7 +77,7 @@ Click `OK` and we're ready to map.
 From the HOT Tasking Manager, []http://tasks.hotosm.org](http://tasks.hotosm.org) choose a task to validate.
 
 
-First you must read the Description and Instructions tabs for your task to understand what the goal of the project is, and this will tell you what you’re looking for. Here is the Description for one task:
+First you must read the Description and Instructions tab for your task to understand what the goal of the project is, and this will tell you what you’re looking for. Here is the Description and Instructions for one task:
 
 <figure>
 <img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_taskInstructions.png">
@@ -85,9 +85,15 @@ First you must read the Description and Instructions tabs for your task to under
 
 
 ## Getting Started
-If it’s not already open, open JOSM. Then you need to choose a square to validate. Select an orange square, click “Review the work” and then click “Edit with” and choose JOSM.
+If it’s not already open, open JOSM. Next you need to choose a square to validate. Click the Validate tab and you’ll have a few options: you can pick a task by clicking on it; pick a random task; select a group of tasks by drawing a polygon; or pick all the tasks worked on by a particular mapper, for example if you want to validate tasks by beginner mappers first. You can see their level listed as well as the number of tasks they worked on.
 
-If imagery loads up automatically, you are ready to map. If not, choose what the Task’s Description and Instructions specifies from JOSM’s Imagery menu. Often it will be either Bing Imagery or Mapbox Satellite.
+<figure>
+<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_validationTab.png">
+</figure>
+
+Once you’ve selected a task or tasks to validate “Start Validating” and then choose JOSM from the dropdown and click “Start Editor”
+
+If imagery loads up automatically, you are ready to map. If not, choose what the Task’s Description and Instructions specifies from JOSM’s Imagery menu. Often it will be either Bing Imagery, Digital Globe, or Mapbox Satellite.
 
 ## Validating Data
 The first step for checking data is to run the Validation tool in JOSM, which will automatically check the data you have open for suspected mistakes. This tool is especially useful for finding **geography** errors but may not be as useful for finding incorrect tags.
@@ -97,6 +103,10 @@ Activate the tool by clicking on the Validation Tool button on the left side of 
 <figure>
 <img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_validateIcon.png">
 </figure>
+
+Next make sure that nothing is selected by clicking in a blank spot on your map. If you have features selected when you run the Validation Tool, only those selected features will be checked. (sometimes you may want to only check certain features, but for now we will check the entire file)
+
+Click the “Validation” button on the panel. That will run a check for a number of potential errors.
 
 <figure>
 <img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_validateTool.png">
@@ -124,7 +134,7 @@ The rest though, we should look at. To zoom into an issue, click the dropdown th
 
 Many times these are errors that we never would have caught without the validation tool.
 
-Usually the error name is pretty straightforward and easy to understand. If not, try asking on the mapper-support channel on the HOT Slack, which is free to join: [https://hotosm-slack.herokuapp.com/](https://hotosm-slack.herokuapp.com/)  
+Usually the error name is pretty straightforward and easy to understand. If not, try asking on the mapper-support channel on the HOT Slack, which is free to join: [http://slack.hotosm.org/](http://slack.hotosm.org/)  
 
 Some warnings, such as `Crossing waterway/highway,` are not necessarily mistakes. This shows that the validation tool is good at finding possible mistakes, but it requires someone to go and see whether the warning is important or not.
 
@@ -157,7 +167,7 @@ To access the search, go to Edit -> Search or press CTRL + F on your keyboard or
 
 There are a great many types of query you can search here, and you can see details and examples in the search box itself and by clicking on the “Help” button.
 
-##Squaring Builidngs
+## Squaring Builidngs
 To square buildings, we must first select them. Click Ctrl-F and put in this text:
 building inview nodes:4-
 
@@ -188,9 +198,11 @@ Another common issue with roads is naming them something incorrect. For remote m
 
 This will find all the roads that have a name. Click on each one to see what the name is and if it seems correct. If it’s something descriptive like “road” or “dirt road” it may be incorrect, the mapper might have meant to tag it but changed the name by mistake. Remove it if it seems wrong. But be careful, we don’t want to remove accurate data.
 
-Road classification is also important. Sometimes remote mappers will tag roads as much more important than they should be. Consult the task’s instructions and description for how roads should be tagged. If there are many motorway, trunk, primary, secondary and tertiary roads, especially in a rural area, the tags might be incorrect. These will appear bright colors like blue, yellow, orange and red. If you see those on your task, double check them. Maybe they should be something smaller like tertiary, residential or unclassified.
+Road classification is also important. Sometimes remote mappers will tag roads as much more important than they should be. Consult the task’s instructions and description for how roads should be tagged.
 
-Roads should not join buildings, unless the road goes through the building, which is very rare and usually only seen in large cities.
+If there are many motorway, trunk, primary, secondary and tertiary roads, especially in a rural area, the tags might be incorrect. These will appear bright colors like blue, yellow, orange and red. If you see those on your task, double check them. Maybe they should be something smaller like tertiary, residential or unclassified.
+
+Roads should not connect with buildings, unless the road goes through the building, which is very rare and usually only seen in large cities.
 
 Here’s an example. The building on the right is attached to the road – see the larger slightly larger square where they are attached. That bigger square indicates a joined node.
 
@@ -249,12 +261,12 @@ Type a name like Missing Maps Validation or whatever you'd like, and put https:/
 
 There are four colors you may see, plus some triangles, corresponding to the errors mentioned earlier:
 
-•	buildings with names are yellow
-•	buildings not tagged building=yes are orange
-•	roads that are named are green
-•	roads that are named for a description (like name=residential) are red
-•	buildings that are connected to roads or other features are red triangles
-•	buildings that are connected to other buildings are orange triangles
+- buildings with names are **yellow**
+- buildings not tagged `building=yes` are **orange**
+-	roads that are named are **green**
+-	roads that are named for a description (like `name=residential`) are **red**
+-	buildings that are connected to roads or other features are **red triangles**
+-	buildings that are connected to other buildings are **orange triangles**
 
 For example, you may see something like this:
 
@@ -301,6 +313,7 @@ Another rule of thumb is that if you recognize a username from a previous square
 Then after you’ve left your comment, click “Validate” if everything is complete or “Invalidate” if there are still things remaining. Now you can move onto another square.
 
 Thank you! Validating is a key part of HOT mapping and we always need more people to make sure the data is accurate and complete.
+
 ## For further reading:
 
  - The OpenStreetMap wiki, the source for all things OSM: http://wiki.openstreetmap.org
