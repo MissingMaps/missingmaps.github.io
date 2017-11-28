@@ -14,6 +14,7 @@ var fs = require('fs');
 var request = require('request');
 var git = require('gulp-git');
 var zip = require('gulp-zip');
+var markdownPdf = require('gulp-markdown-pdf');
 
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
@@ -91,6 +92,15 @@ gulp.task('zipmaterials', function() {
       .pipe(gulp.dest('.tmp/assets/downloads'))
 });
 
+gulp.task('validationpdf', () =>
+    gulp.src('app/assets/downloads/MissingMaps_validation_josm_en.md')
+        .pipe(markdownPdf({
+          cssPath: 'app/assets/styles/github-markdown.css',
+          paperFormat: 'Letter'
+        }))
+        .pipe(gulp.dest('.tmp/assets/downloads'))
+);
+
 // Clone remote repo to sub folder ($CWD/sub/folder/git-test)
 gulp.task('cloneevents', function(cb) {
   git.clone('https://github.com/MissingMaps/events', {args: './app/_data/events'}, function(err) {
@@ -135,7 +145,7 @@ gulp.task('jekyll:rebuild', ['jekyll'], function () {
 });
 
 gulp.task('build', function(done) {
-  runSequence(['cloneevents', 'cloneblog'],['jekyll', 'compress:main', 'sass', 'icons', 'zipmaterials'], ['copy:assets'], done);
+  runSequence(['cloneevents', 'cloneblog'],['jekyll', 'compress:main', 'sass', 'icons', 'zipmaterials','validationpdf'], ['copy:assets'], done);
 });
 
 // Default task.
