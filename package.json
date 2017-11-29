@@ -32,13 +32,13 @@
     ]
   },
   "devDependencies": {
-    "async": "^2.5.0",
-    "bower": "^1.8.0",
+    "async": "^2.6.0",
+    "bower": "^1.8.2",
     "browser-sync": "^2.18.13",
-    "chai": "^4.1.1",
+    "chai": "^4.1.2",
     "colors": "^1.1.2",
     "font-awesome": "^4.7.0",
-    "foundation-sites": "~6.3.1",
+    "foundation-sites": "^6.4.4-rc1",
     "glob": "^7.1.2",
     "glob-all": "^3.1.0",
     "gulp": "^3.9.1",
@@ -52,11 +52,11 @@
     "gulp-sourcemaps": "^2.6.1",
     "gulp-uglify": "^3.0.0",
     "gulp-zip": "^4.0.0",
-    "js-yaml": "^3.9.1",
+    "js-yaml": "^3.10.0",
     "lodash": "^4.17.4"
   },
   "dependencies": {
-    "request": "^2.81.0",
-    "run-sequence": "^2.1.0"
+    "request": "^2.83.0",
+    "run-sequence": "^2.2.0"
   }
 }
