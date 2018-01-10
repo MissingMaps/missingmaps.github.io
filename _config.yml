@@ -7,6 +7,7 @@ exclude:
   - assets/vendor
   - assets/styles
   - README.md
+  - assets/downloads/MissingMaps_validation_josm_en.md
 timezone: America/New_York
 highlighter: false
 
@@ -22,6 +23,7 @@ collections:
 default_locale:     "en"
 authorized_locales: ["en","fr","es"]
 
-# add support for an atom feed
+# add support for an atom feed and sitemap
 gems:
   - jekyll-feed
+  - jekyll-sitemap

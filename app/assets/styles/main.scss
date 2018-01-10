@@ -7,8 +7,10 @@
 // Foundation
 @import "settings";
 @import "foundation";
-@import 'font-awesome';
+@import "font-awesome";
 @include foundation-everything;
+@include foundation-grid;
+
 // Page specific styles
 @import "normalize-opentype";
 @import "base";

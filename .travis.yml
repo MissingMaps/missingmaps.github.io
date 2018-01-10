@@ -16,6 +16,7 @@ before_script:
   - . $HOME/.nvm/nvm.sh
   - nvm install $TRAVIS_NODE_VERSION
   - nvm use $TRAVIS_NODE_VERSION
+  - npm install -g gulp
   - npm install
 script: gulp prod
 after_success:

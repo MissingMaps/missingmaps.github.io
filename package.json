@@ -32,30 +32,31 @@
     ]
   },
   "devDependencies": {
-    "async": "^2.4.1",
-    "bower": "^1.8.0",
-    "browser-sync": "^2.18.12",
-    "chai": "^4.0.2",
+    "async": "^2.6.0",
+    "bower": "^1.8.2",
+    "browser-sync": "^2.18.13",
+    "chai": "^4.1.2",
     "colors": "^1.1.2",
     "font-awesome": "^4.7.0",
-    "foundation-sites": "~6.3.1",
+    "foundation-sites": "^6.4.4-rc1",
     "glob": "^7.1.2",
     "glob-all": "^3.1.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-clean": "^0.3.2",
     "gulp-concat": "^2.6.1",
-    "gulp-git": "^2.4.0",
+    "gulp-git": "^2.4.2",
+    "gulp-markdown-pdf": "^5.0.0",
     "gulp-plumber": "^1.1.0",
     "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.0",
+    "gulp-sourcemaps": "^2.6.1",
     "gulp-uglify": "^3.0.0",
     "gulp-zip": "^4.0.0",
-    "js-yaml": "^3.8.4",
+    "js-yaml": "^3.10.0",
     "lodash": "^4.17.4"
   },
   "dependencies": {
-    "request": "^2.81.0",
-    "run-sequence": "^1.2.2"
+    "request": "^2.83.0",
+    "run-sequence": "^2.2.0"
   }
 }
