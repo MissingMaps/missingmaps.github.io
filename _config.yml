@@ -16,8 +16,7 @@ baseurl: ""
 permalink: pretty
 
 collections:
-  events:
-    output: true
+  - events
 
 # locale settings
 default_locale:     "en"
