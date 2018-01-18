@@ -46,14 +46,14 @@
     "gulp-clean": "^0.3.2",
     "gulp-concat": "^2.6.1",
     "gulp-git": "^2.4.2",
-    "gulp-markdown-pdf": "^5.0.0",
     "gulp-plumber": "^1.1.0",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.1",
     "gulp-uglify": "^3.0.0",
     "gulp-zip": "^4.0.0",
     "js-yaml": "^3.10.0",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "markdown-pdf": "^8.1.0"
   },
   "dependencies": {
     "request": "^2.83.0",

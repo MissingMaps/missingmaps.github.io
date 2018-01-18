@@ -14,7 +14,7 @@ var fs = require('fs');
 var request = require('request');
 var git = require('gulp-git');
 var zip = require('gulp-zip');
-var markdownPdf = require('gulp-markdown-pdf');
+var markdownpdf = require("markdown-pdf");
 
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
@@ -92,14 +92,16 @@ gulp.task('zipmaterials', function() {
       .pipe(gulp.dest('.tmp/assets/downloads'))
 });
 
-gulp.task('validationpdf', () =>
-    gulp.src('app/assets/sources/MissingMaps_validation_josm_en.md')
-        .pipe(markdownPdf({
-          cssPath: 'app/assets/styles/github-markdown.css',
-          paperFormat: 'Letter'
-        }))
-        .pipe(gulp.dest('.tmp/assets/downloads'))
-);
+gulp.task('validationpdf', function() {
+  var validationpdf = markdownpdf({
+        cssPath: 'app/assets/styles/github-markdown.css',
+        paperFormat: 'Letter'})
+    .from('app/assets/sources/MissingMaps_validation_josm_en.md')
+    .to(".tmp/assets/downloads/MissingMaps_validation_josm_en.pdf", function () { 
+      console.log("Done converting MissingMaps_validation_josm_en.md to PDF.") 
+    })
+  return validationpdf;
+});
 
 // Clone remote repo to sub folder ($CWD/sub/folder/git-test)
 gulp.task('cloneevents', function(cb) {
