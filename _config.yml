@@ -7,7 +7,6 @@ exclude:
   - assets/vendor
   - assets/styles
   - README.md
-  - assets/sources
 timezone: America/New_York
 highlighter: false
 encoding: UTF-8
