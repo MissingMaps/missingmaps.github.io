@@ -93,7 +93,7 @@ gulp.task('zipmaterials', function() {
 });
 
 gulp.task('validationpdf', () =>
-    gulp.src('app/assets/downloads/MissingMaps_validation_josm_en.md')
+    gulp.src('app/assets/sources/MissingMaps_validation_josm_en.md')
         .pipe(markdownPdf({
           cssPath: 'app/assets/styles/github-markdown.css',
           paperFormat: 'Letter'
