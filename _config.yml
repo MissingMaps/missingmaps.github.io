@@ -7,7 +7,6 @@ exclude:
   - assets/vendor
   - assets/styles
   - README.md
-  - assets/downloads/MissingMaps_validation_josm_en.md
 timezone: America/New_York
 highlighter: false
 encoding: UTF-8
