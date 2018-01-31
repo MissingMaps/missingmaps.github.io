@@ -76,7 +76,6 @@ Click `OK` and we're ready to map.
 
 From the HOT Tasking Manager, []http://tasks.hotosm.org](http://tasks.hotosm.org) choose a task to validate.
 
-
 First you must read the Description and Instructions tab for your task to understand what the goal of the project is, and this will tell you what you’re looking for. Here is the Description and Instructions for one task:
 
 <figure>
@@ -94,6 +93,16 @@ If it’s not already open, open JOSM. Next you need to choose a square to valid
 Once you’ve selected a task or tasks to validate “Start Validating” and then choose JOSM from the dropdown and click “Start Editor”
 
 If imagery loads up automatically, you are ready to map. If not, choose what the Task’s Description and Instructions specifies from JOSM’s Imagery menu. Often it will be either Bing Imagery, Digital Globe, or Mapbox Satellite.
+
+It may be useful to run a quick pre-check of the data using a custom script. First you must activate the `Scripts` plugin.
+
+<figure>
+<img src="https://user-images.githubusercontent.com/31804031/35579766-af89fcac-05e7-11e8-9dfa-94f1ffa40f4b.png">
+</figure>
+
+In [this GitHub Repository](https://github.com/MikeTho16/JOSM-Scripts/), download `SelectDuplicateBuildings.js` and save it in a convenient location on your local computer. Open the `Scripting` plugin and click `Run`. Select your downloaded file and run it.
+
+This will select duplicate, or _near duplicate_, area buildings in JOSM's active data layer. A _near duplicate_ is a building whose bounding box overlaps another building's bounding box by more than 50%. Only the first building encountered of an overlapping pair is selected. The selected buildings are added to the current selection. It is best practice to review all of these buildings (see section on to-do list plugin) before doing any sort of mass deletion. Duplicate buildings can also be deleted one at a time as they are reviewed.
 
 ## Validating Data
 The first step for checking data is to run the Validation tool in JOSM, which will automatically check the data you have open for suspected mistakes. This tool is especially useful for finding **geography** errors but may not be as useful for finding incorrect tags.
@@ -148,11 +157,17 @@ There are also other issues that the Validation tool won’t catch, so we’ll h
 
 After fixing all the Validation errors, we need to start browsing our square to find the other errors that the Validation tool won’t catch but are also important. Some of these include (but are not limited to) things that are missing or in the wrong place, roads that are attached to buildings, and things that are not tagged properly.
 
-So starting in one corner, zoom in pretty close so you can see the details and begin to pan through your square and look for things that should be mapped according to the task instructions. If it’s a building task and you find missing buildings, add them. Same with missing roads in a task that calls for them to be mapped. Buildings are generally going to be rectangular. ([You can learn more about drawing buildings in JOSM here.](https://www.youtube.com/watch?v=DcKewl94jR4))
+Starting in one corner, zoom in close so you can see the details of the imagery and begin to pan through your square and look for things that should be mapped according to the task instructions. If it’s a building task and you find missing buildings, add them. Same with missing roads in a task that calls for them to be mapped. Buildings are generally going to be rectangular. ([You can learn more about drawing buildings in JOSM here.](https://www.youtube.com/watch?v=DcKewl94jR4))
+
+One useful tool for panning across the task is the `markseen` plugin. This plugin will open the `Markseen Viewer` to show areas of the map that you've already reviewed.
+
+<figure>
+<img src="https://github.com/risicle/josm-markseen/blob/master/screen_20170828.png">
+</figure>
 
 You may also need to move things to to match the imagery that the task says to use.
 
-To delete something, highlight it and click delete on your keyboard, or Fn-delete on a Mac.
+To delete something, highlight it and click `delete` on your keyboard, or `Fn+delete` on a Mac.
 
 Buildings should generally have squared corners too. There is a quick way to fix them all, using the JOSM search.
 
@@ -167,7 +182,7 @@ To access the search, go to Edit -> Search or press CTRL + F on your keyboard or
 
 There are a great many types of query you can search here, and you can see details and examples in the search box itself and by clicking on the “Help” button.
 
-## Squaring Builidngs
+## Squaring Buildings
 To square buildings, we must first select them. Click Ctrl-F and put in this text:
 building inview nodes:4-
 
@@ -184,6 +199,10 @@ However, be careful! If there are buildings that should not be square, this will
 <figure>
 <img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_undoRedo.png">
 </figure>
+
+Another useful tool to find non-squared buildings is the following script.
+
+Navigate to [this GitHub Repository](https://github.com/MikeTho16/JOSM-Scripts/). Look for `SelectNonOrthogonalBuilding.js` in the list and download it. Save it in an easy to find directory on your local computer. Open the scripting tab in JOSM and click 'run' and select the downloaded file. After selecting this, run the script. Now all buildings which meet the script's parameters will be highlighted red.You might check them in your task first, then press `Q` to square them all. Run the script again to see if there are any non squared buildings left. Check these first, because there may be instances where buildings are joined together on nodes. Unglue these nodes by pressing `G` and click again on the `Q` button.
 
 ## Roads
 If you are validating a roads task, there are a number of issues that might come up. There may be many roads that are missing or tagged incorrectly. Also, roads may be connected to things they should not be, like buildings.
@@ -320,4 +339,3 @@ Thank you! Validating is a key part of HOT mapping and we always need more peopl
  - The OpenStreetMap wiki page on validation https://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager/Validating_data
  - LearnOSM’s validation page http://learnosm.org/en/coordination/review/
 JOSM’s validation checks page -
-
