@@ -19,21 +19,21 @@ The site is configured to support 2-letter core language codes. So english is 'e
 There are four main steps in incorporating a language:
 
 1. tell app config the language exists
-  1. add 2-letter language code to ```authorized_locales``` array in \_config.yml
+    1. add 2-letter language code to ```authorized_locales``` array in \_config.yml
 2. include locale file (to support date/time localization)
-  1. several already in place (in \_locales dir), otherwise get from [here](https://github.com/svenfuchs/rails-i18n/tree/master/rails/locale)
+    1. several already in place (in \_locales dir), otherwise get from [here](https://github.com/svenfuchs/rails-i18n/tree/master/rails/locale)
 3. include \_data/```2-letter code```.yml to support site content translations
-  1. copy \_data/en.yml, then update text values
-  2. note that the url for the nav items can be updates for your language. this needs to align with the permalink in the page frontmatter (see item 4.2 below)
+    1. copy \_data/en.yml, then update text values
+    2. note that the url for the nav items can be updates for your language. this needs to align with the permalink in the page frontmatter (see item 4.2 below)
 4. create folder of page templates
-  1. copy 'en' dir, rename copy as your 2-letter language code
-  2. in frontmatter for all templates there within, you need to add the language code and pagename to the ```permalink``` (i.e. /about/ becomes /fr/apropos/ for the french translation)
+    1. copy 'en' dir, rename copy as your 2-letter language code
+    2. in frontmatter for all templates there within, you need to add the language code and pagename to the ```permalink``` (i.e. /about/ becomes /fr/apropos/ for the french translation)
 5. create folder of blog posts
-  1. copy the \_posts/en dir, rename folder as your 2-letter language code
-  2. in frontmatter for all templates there within, you need to change the ```language``` to the correct code and add the language code to the ```permalink``` (i.e. /blog/:year/:month/:day/:title/ becomes /fr/blog/:year/:month/:day/:title/ for the french translation)
+    1. copy the \_posts/en dir, rename folder as your 2-letter language code
+    2. in frontmatter for all templates there within, you need to change the ```language``` to the correct code and add the language code to the ```permalink``` (i.e. /blog/:year/:month/:day/:title/ becomes /fr/blog/:year/:month/:day/:title/ for the french translation)
 6. (OPTIONAL) Add translations of pdf assets
-  1. add documents to assets/downloads
-  2. update \_data/```2-letter code```.yml host.materials_list.asset(s) with the filename you created
+    1. add documents to assets/downloads
+    2. update \_data/```2-letter code```.yml host.materials_list.asset(s) with the filename you created
 
 ## Development
 
