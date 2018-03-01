@@ -246,7 +246,7 @@ checker:
       step2_video: "While validating in JOSM is preferred, you can also begin to improve the map through iD editor. Check out this video to learn some of the things to look for:"
       step3: "Step 3"
       step3_subtitle: Collaborate as part of the broader community.
-      step3_text: "Different validators have different techniques for validating. Join the conversation on the <a href= \"https://hotosm-slack.herokuapp.com/\"> HOTOSM slack </a> validation channel or reach out on the <a href=\"https://lists.openstreetmap.org/listinfo/hot\"> HOT Mailing List </a>. Contribute resources that you find helpful and give back to the community! Being a part of the Missing Maps community means working together in a positive and inclusive environment; when giving feedback to mappers, be sure to keep a positive tone and stay mindful of their contributions and desire to help - it’s what keeps OSM growing!"
+      step3_text: "Different validators have different techniques for validating. Join the conversation on the <a href= \"http://slack.hotosm.org\"> HOTOSM slack </a> validation channel or reach out on the <a href=\"https://lists.openstreetmap.org/listinfo/hot\"> HOT Mailing List </a>. Contribute resources that you find helpful and give back to the community! Being a part of the Missing Maps community means working together in a positive and inclusive environment; when giving feedback to mappers, be sure to keep a positive tone and stay mindful of their contributions and desire to help - it’s what keeps OSM growing!"
       step4: "Step 4"
       step4_subtitle: "Validation FAQs"
       faq:
