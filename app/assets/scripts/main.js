@@ -21,7 +21,7 @@ const priorStats = {
 };
 
 const xmlhttp = new XMLHttpRequest();
-const url = 'https://osm-stats-api.azurewebsites.net/stats/missingmaps';
+const url = 'https://osm-stats-production-api.azurewebsites.net/stats/missingmaps';
 
 xmlhttp.onreadystatechange = function () {
   if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
