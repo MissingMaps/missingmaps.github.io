@@ -18,6 +18,6 @@ xmlhttp.send();
 function updateStatistics (stats) {
   ['users', 'edits', 'buildings', 'roads'].forEach(function (cat) {
     document.getElementById('stats-' + cat + 'Count')
-      .innerHTML = stats[cat].toLocaleString();
+      .innerHTML = Math.round(stats[cat]).toLocaleString();
   });
 };
