@@ -169,7 +169,7 @@ about:
 helper-map:
   title:        "Mapathon Support"
   description:  "The Missing Maps team can support you in a number of ways. Please reach out to us via Twitter or Facebook for help with task selection or if you have any questions.  Additionally, volunteer mapathon supporters are located around the globe! Please use the below map to connect to someone in your area. You can filter by language using the dropdowns.  Zooming the map will help you narrow down the list to people in your area."
-  signup-txt:   "Volunteer to help out by adding your contact info to the map via the button below. To remove or edit your data please send an <a href="mailto:rebecca.firth@hotosm.org">email</a>."
+  signup-txt:   "Volunteer to help out by adding your contact info to the map via the button below. To remove or edit your data please send an <a href='mailto:rebecca.firth@hotosm.org'>email</a>."
   signup-btn:   "Sign up"
   filter-lang:  "Filter by a language"
   filter-type:  "Filter by type"
