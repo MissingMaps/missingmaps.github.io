@@ -1,0 +1,309 @@
+####################
+## HEADER CONTENT ##
+####################
+
+home:             "cs/"
+
+nav:
+  - text:         "JAK PŘISPĚT"
+    links:
+      - text:     "NAUČTE SE MAPOVAT"
+        url:      "/cs/mapuj/"
+      - text:     "NAUČTE SE VALIDOVAT"
+        url:      "/cs/validuj/"
+      - text:     "MAPSWIPE"
+        url:      "http://mapswipe.org/"
+  - text:         "AKCE"
+    links:
+      - text:     "NADCHÁZEJÍCÍ AKCE"
+        url:      "/cs/akce/"
+      - text:     "USPOŘÁDEJTE AKCI"
+        url:      "/cs/organizuj/"
+      - text:     "PODPORA MAPATHONU"
+        url:      "/cs/organizuj/#helper-map-contents"
+  - text:         "O PROJEKTU"
+    url:          "/cs/o-projektu/"
+  - text:         "BLOG"
+    url:          "/cs/blog/"
+  - text:         "OBJEVTE VÍCE"
+    links:
+      - text:     "PROFILY UŽIVATELŮ"
+        url:      "http://www.missingmaps.org/users/"
+      - text:     "ŽEBŘÍČKY"
+        url:      "http://www.missingmaps.org/leaderboards/"
+      - text:     "OSM STATISTIKY"
+        url:      "/cs/osmstats/"
+
+#####################
+## LANDING CONTENT ##
+#####################
+
+banner:
+  title:          "Mapujeme situaci lidí v nouzi po celém světě"
+  subtitle:       "Různá neštěstí a katastrofy každoročně zabijí téměř 100 000 a postihnou nebo vyženou z domovů okolo 200 milionů lidí po celém světě. Spousta takto postižených míst doslova chybí na mapách. Záchranným složkám, které jsou první na místě, tak scházejí informace při důležitém rozhodování o poskytnutí pomoci. Missing Maps je otevřený, společně vytvářený projekt, ve kterém můžete pomoci zmapovat místa, kde se humanitární organizace snaží uspokojit potřeby lidí v nouzi."
+  get_involved:   "ZAPOJIT SE"
+
+how_we_work:
+  title:        "Jak to funguje"
+  # the "step" lines are for insertion in an svg
+  #   and are therefore rather fixed in max length and number of lines allowed
+  step1:
+    text:       "Krok 1."
+    #   approximate max length -------------------------------------||
+    line1:      "Vzdálení dobrovolníci  překreslí satelitní"
+    #   approximate max length ----------------------------------||
+    line2:      "snímky do OpenStreetMap "
+  step2:
+    text:       "Krok 2."
+    #   approximate max length ----------------------------------||
+    line1:      "Místní dobrovolníci doplní některé"
+    #   approximate max length --------------------------------||
+    line2:      "detaily, jako názvy čtvrtí, ulic"
+    #   approximate max length ------------------------------||
+    line3:      "a evakuační centra"
+  step3:
+    text:       "Krok 3."
+    #   approximate max length ---------------------------------||
+    line1:      "Humanitární organizace využívají informace z map "
+    #   approximate max length ---------------------------------||
+    line2:      "k plánování opatření, která snižují rizika"
+    #   approximate max length ---------------------------------||
+    line3:      "a zachraňují lidské životy"
+    #   line4 added for ES translation, not needed for EN
+    line4:      ""
+
+how_to_participate:
+  title:        "Jak se zapojit "
+  start:        "Začněte mapovat"
+  start_text:   "Pokud jste nikdy nemapovali, určitě to není překážka – naučit se to nezabere moc času. Navštivte naši sekci pro začátečníky a zjistěte, jak na to. Pokud už umíte editovat v OpenStreetMap, klidně začněte mapovat. "
+  map_btn:      "ZAČÍT MAPOVAT"
+  learn_btn:    "NAUČIT SE MAPOVAT"
+  organize:     "Uspořádejte mapathon"
+  organize_text: "Pořádání mapathonů je skvělým způsobem, jak dát dohromady komunitu mapujících lidí, kteří se soustředí na stejné místo na světě. Je to také skvělá příležitost, kde se můžete naučit něco nového a získat zkušenosti od ostatních. Mapathony organizují skupiny i jednotlivci po celém světě."
+  lead_btn:     "POŘÁDAT MAPATHON"
+  join_btn:     "PŘIHLÁSIT SE K ODBĚRU E-MAILŮ"
+  donate:       "Přispějte, vaše pomoc tak bude ještě větší"	
+  donate_text:  "Finanční příspěvek humanitárnímu týmu OpenStreetMap (jeden ze zakladatelů Missing Maps) může pomoci podpořit místní obyvatele v mapování jejich lokalit, vyvíjet takové nástroje a procesy, aby se mohlo zapojit více lidí a rozvinout projekt tak, abychom pomohli ještě více humanitárním organizacím reagovat na krize po celém světě."
+  donate_btn:   "PŘISPĚT"
+
+contributions:
+  title:        "Příspěvky"
+  subtitle:     "Od roku 2014 vzniklo nebo bylo vytvořeno celkem"
+  total:        "přispěvatelů"
+  edits:        "změn"
+  buildings:    "budov"
+  roads:        "km silnic"
+
+discover:
+  title:        "Objevte více"
+  subtitle:     "Pro sledování vlastních a projektových příspěvků nabízí Missing Maps dva nástroje. "
+  profiles:     "Profily uživatelů"
+  profile_text: "Zkontrolujte své příspěvky v HOT úlohách!"
+  profile_btn:  "VYHLEDAT UŽIVATELE"
+  projects:     "Žebříčky projektu"
+  project_text: "Zjistěte, jak si vedete v porovnání s ostatními!"
+  project_btn:  "NAJÍT ŽEBŘÍČEK"
+
+contact:
+  title:        "Kontaktujte nás"
+
+########################
+## LEARN CONTENT ##
+########################
+contribute:
+  title:        "Naučte se mapovat"
+  how_text:     "Pokud je pro vás mapování nové, doporučujeme podívat se na videa v sekci „ZAČÁTEČNÍCI“, která vás nastartují. Pokud již máte s mapováním zkušenosti, klikněte na odkaz „ZAČÍT MAPOVAT“, nebo se naučte validovat. K dispozici jsou také další výukové programy prostřednictvím průvodce „LearnOSM“. "
+  map_btn:      "ZAČÍT MAPOVAT"
+  validate:     "VALIDACE"
+  learn_osm:    "PRŮVODCE"
+  youtube:      "YOUTUBE"
+  beginners:    "ZAČÁTEČNÍCI"
+  step1:        "Vytvořte si účet na Open Street Map"
+  step1_text:   "Přejděte na webové stránky <a href=\"https://www.openstreetmap.org/login\">OpenStreetMap</a> a zaregistrováním si vytvořte účet. Klikněte na odkaz, který vám příjde do vaší emailové schránky, čímž dokončíte registraci a potvrdíte svůj účet."
+  step2:        "Naučte se mapovat budovy"
+  step2_text:   "Budovy jsou jedním z nejužitečnějších objektů, které můžete přidat do OpenStreetMap (a je s nimi i zábava!) Naučte se, jak přidávat a upravovat budovy v OSM přes iD editor."
+  step3:        "Naučte se mapovat silnice"
+  step3_text:   "Silnice jsou také jednou z nejužitečnějších věcí, které můžete přidat do OpenStreetMap! Naučte se, jak přidávat a upravovat silnice a cesty v OSM přes iD editor."
+  step4:        "Naučte se používat Tasking Manager (Manažer úloh OSM)"
+  step4_text:   "Jděte na <a href=\"http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps\">Task Manager</a>, kde si najdete projekty a úlohy, které vás zajímají. Naučte se, jak uzamknout úlohu, kterou chcete upravovat, jak si vybrat editační program a změnit nastavení."
+
+####################
+## EVENTS CONTENT ##
+####################
+events:
+  title:        "Události"
+  sign_up:      "Přihlásit se"
+  all_btn:      "VŠECHNY UDÁLOSTI"
+
+###################
+## ABOUT CONTENT ##
+###################
+about:
+  title:        "O Missing Maps"
+  objectives:
+    title:      "Cíle"
+    text1:      "Zmapovat nejvíce ohrožené oblasti v rozvojových zemích tak, aby mezinárodní i místní neziskové organizace a jednotlivci mohli používat digitální mapy a data k lepšímu řešení krizových situací, které tyto oblasti postihují."
+    text2:      "Podpořit <a href=\"http://openstreetmap.org\">OpenStreetMap</a> , konkrétně <a href=\"http://hotosm.org\">Humanitarian OpenStreetMap Team (HOT)</a>, v rozvíjení technologií, dovedností, průběhu prací a komunit."
+  ethics:
+    title:      "Etické zásady"
+    text1:      "Používání OpenStreetMap zajišťuje, že veškerá data získaná pod tímto projektem budou zdarma, volně dostupná a k dispozici pod <a href=\"http://wiki.openstreetmap.org/wiki/OpenStreetMap_License\">otevřenou licencí OpenStreetMap</a>."
+    text2:      "Veškeré aktivity probíhající v určité zemi, například lokální mapování a sběr dat, budou prováděny ve spolupráci s místními obyvateli, s jejich respektováním, a to za všech okolností."
+    text3:      "Pokud mapování probíhá v určité lokalitě, lidé mají vždy přednost před daty, a to v tomto smyslu:  Pokud je cílem zmapovat určité město, je potřeba, aby byl připraven plán pro zajištění přístupu k technologiím a výcviku těm, kdo zde žijí, aby mohli nadále používat vytvořené mapy i po ukončení projektu."
+    text4:      "Členové Missing Maps aktivně přispívají k naplňování cílů Missing Maps, repozitáře OpenStreetMap a cílových komunit, a to na místní i mezinárodní úrovni."
+    text5:      "Činnosti Mising Maps kladou důraz na vytváření a následné pokračování lokálního přístupu. Snažíme se zamezit masivnímu sběru dat, pokud by měl probíhat bez spoluúčasti místních obyvatel, a vždy se snažíme zajistit lokální přístup."
+    text6:      "Činnosti spojené s Missing Maps jsou navrženy tak, aby byly přístupné a otevřené spoluúčasti jednotlivců, kteří chtějí přispět k realizaci cílů projektu."
+  membership:
+    title:      "Členství"
+    text1:      "Členství v projektu Missing Maps je otevřené všem neziskovým organizacím, vzdělávacím institucím nebo občanským sdružením, která jsou ochotna přispět k cílům projektu a zároveň respektovat výše uvedené etické zásady. Souhlas se členstvím dávají současné členské organizace."
+    text2:      "Pokud máte zájem o zařazení mezi členské organizace, kontaktujte nás pomocí níže uvedeného formuláře."
+  contact_btn:  "KONTAKTUJTE NÁS – JAK SE STÁT ČLENEM"
+  madepossible: "Missing Maps je umožněn díky následujícím organizacím."
+  founders:     "Zakladatelé"
+  members:      "Členové"
+  osm_text:     "je nezisková dobrovolnická mapovací platforma která umožňuje vytváření otevřených dat."
+
+##########################
+## MAPATHON SUPPORT MAP ##
+##########################
+
+helper-map:
+  title:        "Podpora Mapathonu"
+  description:  "Tým Missing Maps vás může podporovat mnoha způsoby. Oslovením  na Twitteru, nebo Facebooku se na nás obraťte pro pomoc s výběrem úkolů, nebo máte-li nějaké dotazy. Kromě toho jsou dobrovolní mappeři po celém světě! Chcete-li se připojit k někomu ve vašem okolí, použijte níže uvedenou mapu. V rozbalovacích nabídkách můžete filtrovat podle jazyka. Zvětšení mapy vám pomůže zúžit seznam lidí ve vašem okolí.."
+  signup-txt:   "Staňte se dobrovolnou podporou přidáním svých kontaktních informací do mapy."
+  signup-btn:   "Přihlásit se"
+  filter-lang:  "Filtrovat podle jazyka"
+  filter-type:  "Filtrovat podle typu"
+  all:          "Vše"
+  remote:       "Vzdálená podpora"
+  in-person:    "Přímá/osobní podpora"
+
+#####################
+## HOST A MAPATHON ##
+#####################
+host:
+  title:          "Pořádání  mapathonu"
+  text:           "Mapathon je jedinečná a zajímavá příležitost pro dobrovolníky, kteří tak mohou pomoci zdigitalizovat a zmapovat nejvíce ohrožená místa v rozvojových oblastech.  Místní a mezinárodní neziskové organizace pak mohou využít tyto podrobné mapy a data pro snazší řešení krizových situací, které tyto oblasti postihují. Zapojení dobrovolníků v oblasti digitalizace je zásadní pro mnoho humanitárních organizací po celém světě během řešení následků různých katastrof. Ve chvíli, kdy k nějaké krizi dojde, je nezbytné mít v záloze větší skupinu zkušených dobrovolníků, kteří jsou připraveni pomoci bez nutnosti jejich větší koordinace. Podrobnější informace o tom, co je to mapathon a jak jej pořádat, naleznete ve videích níže."
+  what_is:        "Co je to mapathon?"
+  how_host:       "Jak pořádat mapathon"
+  prep_btn:       "KONTROLNÍ SEZNAM – PŘÍPRAVNÉ PRÁCE"
+  check_btn:      "KONTROLNÍ SEZNAM – V DEN UDÁLOSTI"
+  materials_btn:  "MATERIÁLY"
+  mapevent_btn:   "REGISTRUJTE UDÁLOST"
+  see_materials:  "Stáhněte si kompletní návod krok za krokem jak pořádat mapathon"
+  how_help:       "Jak mohou Missing Maps pomoci?"
+  how_help_text:  "Vašemu týmu můžeme poskytnout podporu přímo na místě nebo vzdálenou podporu koordinace a řízení Vašeho mapathonu. Pokud již znáte místo a čas události, kontaktujte koordinátora Missing Maps, který Vám může pomoci s následujícími aktivitami:"
+  how_help_steps:
+    - label: "Vybrat úkol pro mapování – Spojte se s námi, abychom Vám poskytli doporučený seznam aktuálně nejvíce naléhavých úkolů, které můžete na svém mapathonu zmapovat."
+    - label: "Živá prezentace – Spojte se s námi, abychom zjistili, zda člen našeho týmu bude moci prezentovat Missing Maps na Vašem mapathonu osobně nebo prostřednictvím streamovaného videa."
+    - label: "Průvodce výcvikem účastníků mapování – Spojte se s námi, abychom zjistili, zda člen našeho týmu bude moci provést výcvik účastníků mapování na Vašem mapathonu osobně nebo prostřednictvím streamovaného videa."
+    - label: "Průvodce registrací účastníků – Můžeme Vám poskytnout nástroje a rady, jak provést registraci účastníků a zůstat s nimi v kontaktu."
+    - label: "Zaregistrujte svou událost - Přidejte svůj mapathon k dalším zde <a href= \"/events\"> Missing Maps Website</a> and the <a href= \"http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons\">Wiki Pages.</a>"
+    - label: "Spolupráce s místní partnerskou organizací Missing Maps – Můžeme Vás spojit s místními partnerskými organizacemi Missing Maps, abychom Vám pomohli najít experty na mapování a zajistili překladatelské služby, pokud jsou dostupné nebo jsou zapotřebí."
+  prep_check:     "Kontrolní seznam – přípravné práce"
+  prep_check_list:
+    - label: "Navrhnout  datum"
+    - label: "Vyzvat dobrovolníky k pomoci"
+    - label: "Rezervovat místo"
+    - label: "Registrovat mapathon <a target='_blank' href='https://docs.google.com/forms/d/e/1FAIpQLScdvsMHLor8mrDrHa-BQs2XzFb96vIrx3u--LHXWd1g7RncPg/viewform'>zde</a>"
+    - label: "Oslovit dobrovolníky s pomocí Eventbrite"
+    - label: "Vybrat mapovací úlohu na  <a target='_blank' href='http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps'>Tasking Manageru</a>"
+    - label: "Ověřit si výkon Wi-Fi"
+    - label: "Check that the <a target='_blank' href='http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps'>Tasking Manager</a> passes your location's firewall"
+    - label: "Stoly a židle"
+    - label: "Projektor, plátno a ozvučení"
+    - label: "Notebook pro všechny účastníky (tablety nejsou vhodné na mapování)"
+    - label: "Myši (pokud je máte) pro všechny účastníky"
+    - label: "Ujistit se, že máte kontakt na technickou podporu pro místo konání akce"
+    - label: "Prodlužovací a PC kabely"
+    - label: "Tiskové materiály"
+    - label: "Zajistit občerstvení"
+
+  event_check:    "Kontrolní seznam – v den události"
+  event_check_list:
+    - label: "Připravit prostory"
+    - label: "Zkontrolovat wifi a přístup na  <a target='_blank' href='http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps'>Tasking Manager</a> z PC a Macu. Poznámka: Mapovací software není kompatibilní s Internet Explorerem."
+    - label: "Připevnit (např. lepící páskou) prodlužovací kabely k podlaze kvůli bezpečnému pohybu účastníků"
+    - label: "Připravit Registrační místo"
+    - label: "Umístit Přehledného průvodce mapathonem na stoly"
+    - label: "Připravit prezentaci"
+    - label: "Potvrdit objednávky nápojů a občerstvení"
+    - label: "Užít si mapování"
+  materials:      "Výukové a informační materiály"
+  # if you have translated assets, put them in the assets folder and include filename here, if not, feel free to use the english versions as listed
+  materials_list:
+    - text:       "Jak uspořádat mapathon – Krok za krokem (anglicky)"
+      asset:      "mapathon-materials/english/How_to_Host_a_Mapathon_EN.pdf"
+    - text:       "Vše ostatní, co je třeba pro úspěšný mapathon! (anglicky) &nbsp; <i class='fa fa-file-archive-o' aria-hidden='true'></i> (zip folder)"
+      asset:      "mapathon-materials.zip"
+
+##############
+## Validate ##
+##############
+
+checker:
+    title: "Naučte se validovat"
+    intro: "Validace je důležitou součástí projektu Missing Maps. Vytvoření kvalitních dat v OpenStreetMap, která budou využita na nejpotřebnějších místech po celém světě, je dlouhý proces. V rámci něj zmapovaná data postupně prohlédne a zkontroluje několik lidí. Validace vyžaduje důvěru ve své vlastní mapovací schopnosti a také ochotu učit nové mappery a radit jim. Projekt Missing Maps je skupina mapperů s různými zkušenostmi s mapováním, kde všichni mají jeden společný cíl: zlepšit dostupnost kvalitních dat pro humanitární účely."
+    links:
+      faq: "ČASTÉ DOTAZY"
+      josm: "JOSM VALIDACE"
+      wiki: "WIKI"
+    steps:
+      goal: "Validátoři"
+      step1: "Krok 1"
+      step1_subtitle: "Zjistěte, jestli je pro vás validování to pravé."
+      step1_text: "Validace není pro každého. Vyžaduje trpělivost a smysl pro detail. Nezbytností jsou nějaké zkušenosti s mapováním v OpenStreetMap a HOT projektech, ale nebojte se, není potřeba, abyste byli úplní experti. Pokud je pro vás Missing Maps nebo mapování v OpenStreetMap něco nového, navštivte naši sekci <a href= \"/cs/mapuj/\"> s návody pro začátečníky. </a>Abyste získali přehled, co všechno validace obnáší, podívejte se do sekce <a href= \"/assets/downloads/MissingMaps_validation_faq_en.pdf\"> Validace – časté dotazy . </a>"
+      step2: "Krok 2"
+      step2_subtitle: "Zlepšujte své dovednosti."
+      step2_text: "Abyste se mohli stát validátorem, měli byste být pokročilým mapperem. <a href=\"https://josm.openstreetmap.de/\">JOSM Editor</a>  je uživatelsky přizpůsobitelný editor pro OpenStreetMap s množstvím nástrojů a pluginů pro zjednodušení mapování a validace. Podívejte se na  <a href=\"/assets/downloads/MissingMaps_validation_josm_en.pdf\"> průvodce validací s pomocí JOSM editoru. </a> Instrukce k nastavení JOSM najdete i zde <a href= \"http://learnosm.org/en/josm/\"> Naučte se OSM </a>."
+      step2_video: "Zatímco pro validaci je preferováno využití JOSM, mapy můžete vylepšovat v iD editoru. Pár užitečných věcí najdete v tomhle videu:"
+      step3: "Krok 3"
+      step3_subtitle: "Staňte se součástí širší komunity."
+      step3_text: "Každý validátor má určitou techniku validace. Připojte se k diskuzi na stránce <a href=\"https://hotosm-slack.herokuapp.com/\">HOTOSM Slack</a> nebo se přidejte k <a href=\"https://lists.openstreetmap.org/listinfo/hot\"> HOT Mailing List </a>. Sdílejte zdroje, které vám přijdou užitečné a dávejte zpětnou vazbu komunitě. Být součástí komunity Missing Maps znamená společnou práci v pozitivním prostředí; pokud někomu dáváte zpětnou vazbu, zachovejte pozitivního ducha a myslete na jeho příspěvky a chuť pomoci – to je přesně to, díky čemu se OSM rozrůstají! "
+      step4: "Krok 4"
+      step4_subtitle: "Validace – časté dotazy"
+      faq:
+        question1: "<b>Jak poznám, že jsem připravený validovat?</b>"
+        answer1: "Pokud už máte nějaké zkušenosti s mapováním, může se stát, že se přistihnete, jak opravujete práci ostatních přispěvatelů. Když to děláte pravidelně a zjistíte, že je pro vás jednodušší hledat a opravovat chyby, kontaktujte některou z HOTOSM komunit a požádejte o rady! Jsme rádi za pomoc!"
+        question2: "<b>Můžu validovat pomocí iD Editoru?</b>"
+        answer2: "Ano, je to možné, ale je obtížnější najít všechny chyby. JOSM editor má více nástrojů, které pomohou novým validátorům najít chyby a některé z nich opravit, takže je určitě lepší se nejprve naučit mapovat s JOSM."
+        question3: "<b>Jak začnu validovat?</b>"
+        answer3: "První věc, kterou je potřeba udělat, je zjistit, o čem vlastně validování je. Wiki stránka <a href=\"http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager/Validating_data/\">Validace dat</a> je ideálním místem, kde začít. Taky je dobré naučit se editovat v <a href=\"https://josm.openstreetmap.de/\">JOSM Editoru</a>.  JOSM má spoustu užitečných nástrojů, které validaci zjednodušují a zefektivňují."
+        question4: "<b>Jaký je postup při validaci projektu?</b>"
+        answer4: "Nejprve si pozorně přečtěte instrukce pro projekt, který se chystáte validovat, abyste věděli, co bylo potřeba zmapovat. V každé úloze zkontrolujte, jak kvalitně byla zmapována. Změňte nebo upravte vše, co není v souladu se zadanými instrukcemi a podle toho, kolik máte času, můžete úlohu buď dokončit, nebo zneplatnit a zanechat konstruktivní komentář, proč jste úlohu zneplatnili."
+        question5: "<b>Jak poznám, že je úloha dostatečně zmapovaná? </b>"
+        answer5: "Než začnete validovat, projděte si záložku <i>instrukce</i> v projektu.  Zjistíte, co daná organizace požaduje zmapovat (budovy, budovy a silnice, silnice, využití krajiny atd.). Při kontrole úlohy se ujistěte, že je zmapováno všechno, co bylo potřeba. Při kontrole budov se ujistěte, že mají všechny pravoúhlý nebo kruhový tvar. Řiďte se tvarem základů budovy, protože ne každá budova má čtvercový tvar. Také se ujistěte, že je každý prvek řádně označen, ne jen obecně  <i>area=yes</i>."
+        question6: "<b>Jak by měly být označeny silnice?</b>"
+        answer6: "Většina HOTOSM úloh bude obvykle vyžadovat, abyste se řídili<a href=\"http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa/\">Highway Tag Africa Wiki</a>. Je to proto, že stav silnic v afrických zemích ne vždy odpovídá jejich ekonomické a společenské funkci. Kategorie silnic by měly být rozlišovány dle významu dané silnice, nikoliv podle povrchu nebo vzhledu. "
+        question7: "<b>Mám úlohu jen zkontrolovat a zneplatnit nebo bych ji měl dokončit a validovat? </b>"
+        answer7: "To záleží hlavně na vás, kolik času máte na validaci. Pokud otevřete úlohu a je zřejmé, že nebyly dodrženy zadané instrukce a je zde spousta nezmapovaných prvků, pak úlohu zneplatněte. Jestliže je úloha kompletní, ale ještě potřebuje pár drobných úprav (např. upravit tvar budov, přidat jednu nebo dvě budovy), pak opravte, co je potřeba a zanechte pro uživatele, který úlohu označil jako hotovou, detailní komentář včetně toho, jak by tato úloha mohla být zmapována lépe."
+        question8: "<b>Jak by měla vypadat moje zpětná vazba?</b>"
+        answer8: "<b>Měla by být včasná, pozitivní a konstruktivní.</b>Spoustu úloh zmapují začátečníci na mapathonech. Pamatujte, prosím, na to, <b> že my všichni jsme jednou začínali a že vaše zpětná vazba může ovlivnit rozhodnutí mappera se k mapování znovu vrátit. </b>Jestliže najdete několik úloh, které byly zmapovány jedním mapperem, stačí uživatele označit v jedné nebo ve dvou z nich. Pokud je příspěvek starší víc než 2 týdny, není potřeba uživatele označovat. "
+        answer8_instructions: " Když píšete komentář, označte prosím mappera pomocí „@“. Několik příkladů různých podob komentářů vidíte níže:"
+        answer8_example1: "<b>Velmi dobře zmapovaná (validovaná) úloha:</b> Ahoj @uživatel, díky za příspěvek! Vypadá to, že tady je všechno bez problému!"
+        answer8_example2: "<b>Když je nějaký nový mapper hodně dobrý, dejte mu to najevo!</b> Dobrá práce @uživatel. Správně jsi rozpoznal budovy/silnice na snímcích a zmapoval jsi je přesně podle jejich velikosti a tvaru. Díky za tvůj čas (nebo Díky za tvůj příspěvek do tohoto projektu). Jen tak dál!"
+        answer8_example3: "<b>Dobře zmapovaná (validovaná) úloha:</b> Ahoj @uživatel, díky za příspěvek! Našel jsem pár dalších budov/silnic, které ještě chyběly, tak jsem je doplnil. Taky pamatuj na zarovnání budov. Stačí stisknout „S“ v iD editoru nebo „Q“ v JOSM. Každopádně teď všechno hotovo, ještě jednou díky!"
+        answer8_example4: "<b>Špatně zmapovaná (zneplatněná) úloha:</b> Ahoj @uživatel, díky za příspěvek! Vypadá to, že chybí zmapovat ještě pár budov. Pokud si nejsi jist, že je úloha kompletně zmapovaná, je lepší kliknout na „Ukončit mapování“ než  „Označit jako hotové“. Jestli máš nějaké dotazy ohledně toho, co má být zmapováno, pak si pročti informace v záložce Instrukce. V případě dotazů se neváhej na nás obrátit!"
+    get-started: "Teď můžete klidně začít, mrkněte na tyto úlohy, které čekají na validaci!"
+
+###################
+## Blog CONTENT ##
+###################
+blog:
+  title: "Blog"
+  tags: "Štítky Blogu"
+  categories: "Kategorie"
+  nocontent: "Dosud nebyl publikován žádný blog v angličtině."
+
+#####################
+## OSM STATS ##
+#####################
+countrystats:
+    title: "OSM Statistiky"
+
+#####################
+## 404 ##
+#####################
+lost:
+    title: "Stránka nenalezena."
+    message: "To je nepříjemné. Zdá se, že jste někde, kde jsme to ještě nezmapovali."
+    link: "Pomozte nám zmapovat svět."
