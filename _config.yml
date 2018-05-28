@@ -21,7 +21,7 @@ collections:
 
 # locale settings
 default_locale:     "en"
-authorized_locales: ["en","fr","es"]
+authorized_locales: ["cs", "en", "es", "fr"]
 
 # add support for an atom feed and sitemap
 gems:
