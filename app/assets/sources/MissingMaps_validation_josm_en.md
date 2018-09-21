@@ -159,6 +159,32 @@ After fixing all the Validation errors, we need to start browsing our square to 
 
 Starting in one corner, zoom in close so you can see the details of the imagery and begin to pan through your square and look for things that should be mapped according to the task instructions. If it’s a building task and you find missing buildings, add them. Same with missing roads in a task that calls for them to be mapped. Buildings are generally going to be rectangular. ([You can learn more about drawing buildings in JOSM here.](https://www.youtube.com/watch?v=DcKewl94jR4))
 
+## Validate map data while editing.
+Checks on errors  with the map Paint  style  Inline Validatie
+
+When you install the “Inline Validatie” in your Map Paint Styles  you are direct attended on a number of errors in your task
+This Map Paint style can be downloaded  here : 
+https://github.com/osmlab/appledata/archive/josm_paint_inline_validation.zip
+
+More info can be found here
+https://github.com/osmlab/appledata/wiki/Inline-Validation-Paint-Style-Information
+
+The Checks
+
+*	Roundabout-Link Check
+*	Missing Roundabout Tag Check
+*	Suspicious Roundabout Direction
+*	Missing One Way on Motorway
+*	Missing Layer Check
+* Building-Road Connection Check
+*	BuildingSnapped2Building Style
+*	Building Inside Building Check
+*	Large Building Check
+*	Waterway Connected To Bridge
+*	Continuous Roads Check
+
+
+
 One useful tool for panning across the task is the `markseen` plugin. This plugin will open the `Markseen Viewer` to show areas of the map that you've already reviewed.
 
 <figure>
