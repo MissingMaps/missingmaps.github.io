@@ -250,6 +250,7 @@ The To-Do list plugin is extremely helpful for beginner mappers who may not yet 
 </figure>
 
 ## Using Paint Styles
+
 Paint styles are ways of changing how data is viewed in JOSM. You can use them to highlight certain things that may be incorrect, things that might not come up in the validation checks.
 
 For remote and humanitarian mapping tasks, you often won’t know names of features such as buildings and roads. JOSM Paint styles can highlight where those may have been added by mistake: buildings with names, buildings not tagged 'building=yes', roads with names, and roads that have a highway value in the name key (for example 'name=residential'). Sometimes people add what should be a description as the name, like ‘dirt road’.
@@ -304,6 +305,25 @@ This paint style lets you go through and find these issues quickly and see if th
 You can check the History of that object if you aren’t sure if it’s correct or not, by clicking on it then ctrl-h – that will show you who edited the feature before and might give a reason why they added a certain name or tag.
 
 When in doubt, go with the existing data and tags.
+
+Inline Validatie is another useful map paint style. When you install and actiate Inline Validatie it will show a number of errors, if they are present. This map paint style can be downloaded from https://github.com/osmlab/appledata/archive/josm_paint_inline_validation.zip
+
+More info can be found on GitHub at https://github.com/osmlab/appledata/wiki/Inline-Validation-Paint-Style-Information
+
+The style checks the following:
+
+* Roundabout-Link Check
+* Missing Roundabout Tag Check
+* Suspicious Roundabout Direction
+* Missing One Way on Motorway
+* Missing Layer Check
+* Building-Road Connection Check
+* BuildingSnapped2Building Style
+* Building Inside Building Check
+* Large Building Check
+* Waterway Connected To Bridge
+* Continuous Roads Check
+
 
 ## Communicating with those who mapped
 If everything in the square looks complete and correct go back to the Tasking Manager window, and leave a comment in the comment box.
