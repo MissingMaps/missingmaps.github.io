@@ -55,6 +55,7 @@
     "markdown-pdf": "^8.1.0"
   },
   "dependencies": {
+    "bundle": "^2.1.0",
     "request": "^2.83.0",
     "run-sequence": "^2.2.0"
   }
