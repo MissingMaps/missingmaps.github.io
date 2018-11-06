@@ -42,8 +42,10 @@ To set up the development environment for this website, you'll need to install t
 
 - [Node and npm](http://nodejs.org/)
 - Ruby and [Bundler](http://bundler.io/), preferably through something like [rvm](https://rvm.io/)
-- Gulp ( $ npm install -g gulp )
-
+- Gulp
+```
+$ npm install -g gulp
+```
 After these basic requirements are met, run the following commands in the website's folder:
 ```
 $ npm install
