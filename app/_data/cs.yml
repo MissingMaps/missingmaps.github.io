@@ -134,6 +134,7 @@ events:
   title:        "Události"
   sign_up:      "Přihlásit se"
   all_btn:      "VŠECHNY UDÁLOSTI"
+  register:     "Registrovat mapathon"
 
 ###################
 ## ABOUT CONTENT ##

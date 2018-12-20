@@ -131,6 +131,7 @@ events:
   title:        "Événements"
   sign_up:      "S'INSCRIRE"
   all_btn:      "TOUS LES ÉVÉNEMENTS"
+  register:     "Register your event"
 
 ###################
 ## ABOUT CONTENT ##
