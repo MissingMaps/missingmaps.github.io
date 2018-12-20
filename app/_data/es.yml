@@ -184,7 +184,7 @@ helper-map:
 host:
   title:          "Organizar un Mapathon"
   text:           "A mapathon is a great opportunity for volunteers to digitally connect and map the most vulnerable places in the developing world so that local and international Non-Governmental Organizations (NGO’s) can use these maps and data to better respond to crises affecting these areas. Up to date maps are important for the success of many humanitarian organizations around the world in responding to disasters. Through Missing Maps, you can volunteer your time to help create these maps, and have a real impact on the delivery of healthcare in the field. Check out the video below to learn more about what a mapathon is, and check out our resources on how to host one below."
-  hat_is:        "¿Qué es un Mapathon?"
+  what_is:        "¿Qué es un Mapathon?"
   how_host:       "¿Cómo organizar un Mapathon?"
   prep_btn:       "PLANNING CHECKLIST"
   check_btn:      "DÍA DEL EVENTO"
