@@ -7,6 +7,14 @@ document.querySelector("header").style.display = 'inline-block';
 			<h1 class="title feature-header">{{site.data[locale].events.title}}</h1>
 		</div>
 	</div>
+	<div class="row center-text">
+		<p style="margin-bottom:20px;">
+			<a class="btn btn-blue arw" href="https://docs.google.com/forms/d/e/1FAIpQLScdvsMHLor8mrDrHa-BQs2XzFb96vIrx3u--LHXWd1g7RncPg/viewform">
+				{{site.data[locale].events.register_event}}
+				<img src="{{ site.baseurl }}/assets/graphics/meta/Arrow.svg" alt="" />
+			</a>
+		</p>
+	</div>
 	<div class="row small-up-1 medium-up-1 large-up-2">
 	{% assign current_date = site.time | date: '%Y%m%d' %}
 	{% assign event = (site.data.events.events | sort: 'date' ) %}

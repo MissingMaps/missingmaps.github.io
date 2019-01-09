@@ -134,6 +134,7 @@ events:
   title:        "Eventos"
   sign_up:      "INSCRIBIRSE"
   all_btn:      "TODOS LOS EVENTOS"
+  register_event:     "Register your event"
 
 ###################
 ## ABOUT CONTENT ##
@@ -188,7 +189,7 @@ host:
   prep_btn:       "PLANNING CHECKLIST"
   check_btn:      "DÍA DEL EVENTO"
   materials_btn:  "RECURSOS"
-  mapevent_btn:   "REGISTRAR UN EVENTO"
+  register_event:   "REGISTRAR UN EVENTO"
   see_materials:    "Download a complete Step-by-Step Guide to Hosting a Mapathon from "
   prep_check:     "Planning Checklist"
   prep_check_list:
