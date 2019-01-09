@@ -134,7 +134,7 @@ events:
   title:        "Události"
   sign_up:      "Přihlásit se"
   all_btn:      "VŠECHNY UDÁLOSTI"
-  register:     "Registrovat mapathon"
+  register_event:     "Registrovat mapathon"
 
 ###################
 ## ABOUT CONTENT ##
@@ -189,7 +189,7 @@ host:
   prep_btn:       "KONTROLNÍ SEZNAM – PŘÍPRAVNÉ PRÁCE"
   check_btn:      "KONTROLNÍ SEZNAM – V DEN UDÁLOSTI"
   materials_btn:  "MATERIÁLY"
-  mapevent_btn:   "REGISTRUJTE UDÁLOST"
+  register_event:   "REGISTRUJTE UDÁLOST"
   see_materials:  "Stáhněte si kompletní návod krok za krokem jak pořádat mapathon"
   how_help:       "Jak mohou Missing Maps pomoci?"
   how_help_text:  "Vašemu týmu můžeme poskytnout podporu přímo na místě nebo vzdálenou podporu koordinace a řízení Vašeho mapathonu. Pokud již znáte místo a čas události, kontaktujte koordinátora Missing Maps, který Vám může pomoci s následujícími aktivitami:"
