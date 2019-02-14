@@ -1,12 +1,8 @@
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_mmLogo.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_mmLogo.png)
 
 # Validating for Missing Maps Using JOSM
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_mapathon.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_mapathon.png)
 
 This document covers processes for checking data quality in OpenStreetMap, particularly in the context of [Humanitarian OpenStreetMap Team](https://www.hotosm.org/) and Red Cross Missing Maps projects. The methods demonstrated may be useful in other contexts as well.
 
@@ -34,41 +30,29 @@ When JOSM opens, you'll see a gray screen with some news and updates and a numbe
 
 To do that, click the button that looks like two sliders — that’s the preferences window. (It’s also on your File or JOSM menu.)
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_JOSMmenu.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_JOSMmenu.png)
 
 In the Preferences window, the fourth button down looks like a plug, that's the Plug-In menu. Click it. (On some computers these buttons are very small.)
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_plugin.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_plugin.png)
 
 Now search for `buildings`. You’ll see one called `buildings_tools`. Check its box then click `OK` at the bottom of the screen. It will download, and you’ll need to restart JOSM.
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_buildingsTool.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_buildingsTool.png)
 
 There are a few other settings we need to change also.
 
 Click the Preferences button again. The second button looks like a globe. That's the connection settings.
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_connection.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_connection.png)
 
 Make sure you're logged in with your OpenStreetMap username and password.
 
 Then towards the bottom there’s a button that looks like a remote control. Click that and make sure Enable Remote Control is checked. This will let the HumanitarianOpenStreetMap Team Tasking Manager use JOSM to download your task.
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_remote1.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_remote1.png)
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_remote2.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_remote2.png)
 
 Click `OK` and we're ready to map.
 
@@ -78,17 +62,13 @@ From the HOT Tasking Manager, []http://tasks.hotosm.org](http://tasks.hotosm.org
 
 First you must read the Description and Instructions tab for your task to understand what the goal of the project is, and this will tell you what you’re looking for. Here is the Description and Instructions for one task:
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_taskInstructions.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_taskInstructions.png)
 
 
 ## Getting Started
 If it’s not already open, open JOSM. Next you need to choose a square to validate. Click the Validate tab and you’ll have a few options: you can pick a task by clicking on it; pick a random task; select a group of tasks by drawing a polygon; or pick all the tasks worked on by a particular mapper, for example if you want to validate tasks by beginner mappers first. You can see their level listed as well as the number of tasks they worked on.
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_validationTab.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_validationTab.png)
 
 Once you’ve selected a task or tasks to validate “Start Validating” and then choose JOSM from the dropdown and click “Start Editor”
 
@@ -96,9 +76,7 @@ If imagery loads up automatically, you are ready to map. If not, choose what the
 
 It may be useful to run a quick pre-check of the data using a custom script. First you must activate the `Scripts` plugin.
 
-<figure>
-<img src="https://user-images.githubusercontent.com/31804031/35579766-af89fcac-05e7-11e8-9dfa-94f1ffa40f4b.png">
-</figure>
+![](https://user-images.githubusercontent.com/31804031/35579766-af89fcac-05e7-11e8-9dfa-94f1ffa40f4b.png)
 
 In [this GitHub Repository](https://github.com/MikeTho16/JOSM-Scripts/), download `SelectDuplicateBuildings.js` and save it in a convenient location on your local computer. Open the `Scripting` plugin and click `Run`. Select your downloaded file and run it.
 
@@ -109,37 +87,27 @@ The first step for checking data is to run the Validation tool in JOSM, which wi
 
 Activate the tool by clicking on the Validation Tool button on the left side of JOSM. (This is unnecessary if the Validation panel is already open)
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_validateIcon.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_validateIcon.png)
 
 Next make sure that nothing is selected by clicking in a blank spot on your map. If you have features selected when you run the Validation Tool, only those selected features will be checked. (sometimes you may want to only check certain features, but for now we will check the entire file)
 
 Click the “Validation” button on the panel. That will run a check for a number of potential errors.
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_validateTool.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_validateTool.png)
 
 You will see a list of warnings appear (your list may vary):
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_validateResults.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_validateResults.png)
 
 A new layer also appears on your Layers panel, showing where the errors are. You may find it convenient to hide this layer for now by clicking the eye icon next to the name. It’s a bit easier to see your data with that layer turned off.
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_Layers.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_Layers.png)
 
 Let’s look at a few of the warnings. Most of these we need to fix, but we can ignore “Unnamed ways” since we won’t know these road names.
 
 The rest though, we should look at. To zoom into an issue, click the dropdown then right click one of it and click “Zoom to problem” and it will highlight and zoom to the error.
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_zoomToProblem.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_zoomToProblem.png)
 
 Many times these are errors that we never would have caught without the validation tool.
 
@@ -161,9 +129,7 @@ Starting in one corner, zoom in close so you can see the details of the imagery 
 
 One useful tool for panning across the task is the `markseen` plugin. This plugin will open the `Markseen Viewer` to show areas of the map that you've already reviewed.
 
-<figure>
-<img src="https://github.com/risicle/josm-markseen/blob/master/screen_20170828.png">
-</figure>
+![](https://github.com/risicle/josm-markseen/blob/master/screen_20170828.png)
 
 You may also need to move things to to match the imagery that the task says to use.
 
@@ -176,9 +142,7 @@ Searching in JOSM is a powerful way of reviewing data. It allows you to provide 
 
 To access the search, go to Edit -> Search or press CTRL + F on your keyboard or click the magnifying glass icon on the top of the JOSM window.
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_search.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_search.png)
 
 There are a great many types of query you can search here, and you can see details and examples in the search box itself and by clicking on the “Help” button.
 
@@ -188,17 +152,13 @@ building inview nodes:4-
 
 That will find everything that is a building in your current view that has 4 or more nodes or corners.
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_searchQuery.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_searchQuery.png)
 
 They will all turn red on your screen. Click the q key on your keyboard and that will square all of their corners.
 
 However, be careful! If there are buildings that should not be square, this will make them square anyway. To make sure, hit undo and redo see if any buildings that are round or other shapes were changed by mistake. If so, go fix them to what they should be.
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_undoRedo.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_undoRedo.png)
 
 Another useful tool to find non-squared buildings is the following script.
 
@@ -211,9 +171,7 @@ If roads are missing in your task square, add them using the scheme mentioned in
 
 Another common issue with roads is naming them something incorrect. For remote mapping, we usually will not know what the name is, since we are not familiar with these areas. But sometimes people will mistakenly name roads “road” or add something else that is a description, not a name. The Name field should be a proper name like “Highway 1” or “North Avenue”. To find all the named roads, click ctrl-F and then type `highway=* name=*`
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_searchHighway.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_searchHighway.png)
 
 This will find all the roads that have a name. Click on each one to see what the name is and if it seems correct. If it’s something descriptive like “road” or “dirt road” it may be incorrect, the mapper might have meant to tag it but changed the name by mistake. Remove it if it seems wrong. But be careful, we don’t want to remove accurate data.
 
@@ -225,9 +183,7 @@ Roads should not connect with buildings, unless the road goes through the buildi
 
 Here’s an example. The building on the right is attached to the road – see the larger slightly larger square where they are attached. That bigger square indicates a joined node.
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_unglue.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_unglue.png)
 
 To disconnect them, click the square, then click g on your keyboard, which stands for “unglue”. Then click on one node and move it to where it should be. You may need to hit `q` on your keyboard to square the building again.
 
@@ -237,17 +193,13 @@ Another useful plugin available in JOSM is the To-Do list. The To-Do list plugin
 
 To use the plugin, you need to download it from the plugins menu like you did for the buildings_tool. After adding it, activate it by pressing the to-do list icon on the tools menu. You should then see the To-Do List panel open on the right side of the screen.
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_todoIcon.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_todoIcon.png)
 
 Using the JOSM search function above, you can select all of the features of a certain type that you would like to look at. Once they are selected, press the `Add` button on the To-Do list panel. This will add all of your features to your list. Select the first feature from the list, ensure that it is correctly mapped, and then press `Mark`, which will move you on to the next feature.
 
 The To-Do list plugin is extremely helpful for beginner mappers who may not yet feel comfortable in scanning the image for features, and helps make sure that each individual feature is looked at.
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_todoPanel.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_todoPanel.png)
 
 ## Using Paint Styles
 
@@ -261,23 +213,17 @@ It’s also important to make sure you don’t delete existing accurate data. Ma
 
 To add the paint style, click on the Windows menu and go to Map Paint Styles… which will open a menu on JOSM:
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_paintStyle.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_paintStyle.png)
 
 Then click the paint style settings button at lower right.
 
 Click the plus sign at upper right to add a new one.
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_addStyle.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_addStyle.png)
 
 Type a name like Missing Maps Validation or whatever you'd like, and put https://github.com/MissingMaps/josm_styles/archive/master.zip in the URL field, and the paint style will appear in your Map Paint Styles window.
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_styleName.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_styleName.png)
 
 There are four colors you may see, plus some triangles, corresponding to the errors mentioned earlier:
 
@@ -290,15 +236,11 @@ There are four colors you may see, plus some triangles, corresponding to the err
 
 For example, you may see something like this:
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_styleExample1.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_styleExample1.png)
 
 Or this:
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_styleExample2.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_styleExample2.png)
 
 This paint style lets you go through and find these issues quickly and see if they should be fixed or not. Some of these might be OK, but you’ll need to check to see if they are correct or not.
 
@@ -334,15 +276,11 @@ Whether you validate or invalidate, you should thank those who have worked on th
 
 You can see the list of people who have worked on the task below the comment box:
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_taskComments.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_taskComments.png)
 
 There may have been many people who contributed, so make sure to thank them for their work, even if there are some errors or problems. This can encourage them to come back and map again. If you noticed errors, like any of the validation warnings we saw above or other things like buildings that weren’t squared or roads that were missing, note that in the comment too, politely. This can help the mapper learn so next time they’ll do a better job.
 
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_commentExample.png">
-</figure>
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_commentExample.png)
 
 Here is a sample message you can use:
 >Added a few remaining buildings and roads. Thank you @Stanley1260 @Prinzvizzy @GeoAlex104 for mapping! Don't forget to square your buildings using the `s` key
