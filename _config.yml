@@ -24,6 +24,6 @@ default_locale:     "en"
 authorized_locales: ["cs", "en", "es", "fr"]
 
 # add support for an atom feed and sitemap
-gems:
+plugins:
   - jekyll-feed
   - jekyll-sitemap
