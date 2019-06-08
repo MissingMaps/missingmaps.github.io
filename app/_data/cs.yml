@@ -82,7 +82,7 @@ how_to_participate:
   organize_text: "Pořádání mapathonů je skvělým způsobem, jak dát dohromady komunitu mapujících lidí, kteří se soustředí na stejné místo na světě. Je to také skvělá příležitost, kde se můžete naučit něco nového a získat zkušenosti od ostatních. Mapathony organizují skupiny i jednotlivci po celém světě."
   lead_btn:     "POŘÁDAT MAPATHON"
   join_btn:     "PŘIHLÁSIT SE K ODBĚRU E-MAILŮ"
-  donate:       "Přispějte, vaše pomoc tak bude ještě větší"	
+  donate:       "Přispějte, vaše pomoc tak bude ještě větší"
   donate_text:  "Finanční příspěvek humanitárnímu týmu OpenStreetMap (jeden ze zakladatelů Missing Maps) může pomoci podpořit místní obyvatele v mapování jejich lokalit, vyvíjet takové nástroje a procesy, aby se mohlo zapojit více lidí a rozvinout projekt tak, abychom pomohli ještě více humanitárním organizacím reagovat na krize po celém světě."
   donate_btn:   "PŘISPĚT"
 
@@ -282,7 +282,7 @@ checker:
         answer8_instructions: " Když píšete komentář, označte prosím mappera pomocí „@“. Několik příkladů různých podob komentářů vidíte níže:"
         answer8_example1: "<b>Velmi dobře zmapovaná (validovaná) úloha:</b> Ahoj @uživatel, díky za příspěvek! Vypadá to, že tady je všechno bez problému!"
         answer8_example2: "<b>Když je nějaký nový mapper hodně dobrý, dejte mu to najevo!</b> Dobrá práce @uživatel. Správně jsi rozpoznal budovy/silnice na snímcích a zmapoval jsi je přesně podle jejich velikosti a tvaru. Díky za tvůj čas (nebo Díky za tvůj příspěvek do tohoto projektu). Jen tak dál!"
-        answer8_example3: "<b>Dobře zmapovaná (validovaná) úloha:</b> Ahoj @uživatel, díky za příspěvek! Našel jsem pár dalších budov/silnic, které ještě chyběly, tak jsem je doplnil. Taky pamatuj na zarovnání budov. Stačí stisknout „S“ v iD editoru nebo „Q“ v JOSM. Každopádně teď všechno hotovo, ještě jednou díky!"
+        answer8_example3: "<b>Dobře zmapovaná (validovaná) úloha:</b> Ahoj @uživatel, díky za příspěvek! Našel jsem pár dalších budov/silnic, které ještě chyběly, tak jsem je doplnil. Taky pamatuj na zarovnání budov. Stačí stisknout „Q“ v iD editoru nebo „Q“ v JOSM. Každopádně teď všechno hotovo, ještě jednou díky!"
         answer8_example4: "<b>Špatně zmapovaná (zneplatněná) úloha:</b> Ahoj @uživatel, díky za příspěvek! Vypadá to, že chybí zmapovat ještě pár budov. Pokud si nejsi jist, že je úloha kompletně zmapovaná, je lepší kliknout na „Ukončit mapování“ než  „Označit jako hotové“. Jestli máš nějaké dotazy ohledně toho, co má být zmapováno, pak si pročti informace v záložce Instrukce. V případě dotazů se neváhej na nás obrátit!"
     get-started: "Teď můžete klidně začít, mrkněte na tyto úlohy, které čekají na validaci!"
 
