@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "async": "^2.6.0",
-    "browser-sync": "^2.26.3",
+    "browser-sync": "^2.26.7",
     "chai": "^4.1.2",
     "colors": "^1.1.2",
     "font-awesome": "^4.7.0",
@@ -50,12 +50,13 @@
     "gulp-sourcemaps": "^2.6.4",
     "gulp-uglify": "^3.0.0",
     "gulp-zip": "^4.0.0",
-    "js-yaml": "^3.10.0",
-    "lodash": "^4.17.11",
+    "js-yaml": "^3.13.1",
+    "lodash": "^4.17.15",
     "markdown-pdf": "^9.0.0"
   },
   "dependencies": {
     "bundle": "^2.1.0",
+    "bundler": "^0.8.0",
     "request": "^2.88.0",
     "run-sequence": "^2.2.0"
   }
