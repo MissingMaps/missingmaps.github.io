@@ -1,14 +1,14 @@
 {
   "name": "missingmaps",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/MissingMaps/missingmaps.github.io.git"
   },
   "author": {
     "name": "Missing Maps",
-    "url": "https://missingmaps.org"
+    "url": "https://www.missingmaps.org"
   },
   "license": "BSD-3-Clause",
   "bugs": {
@@ -18,11 +18,9 @@
   "scripts": {
     "postinstall": "[ -f _config-dev.yml ] || echo 'domain: http://localhost:3000\npath_prefix:' > _config-dev.yml",
     "serve": "gulp serve",
-    "build": "gulp",
     "lint": "semistandard app/assets/scripts/**/*.js",
     "test": "echo NO TESTS YET",
-    "install": "bundle install --path bundle/cache",
-    "update:packages": "node updatedep.js && rm -rf node_modules && npm update --save-dev && npm update --save"
+    "install": "bundle install"
   },
   "browserify": {
     "transform": [
@@ -31,33 +29,30 @@
       "envify"
     ]
   },
-  "devDependencies": {
-    "async": "^2.6.0",
+  "devDependencies": {},
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "async": "^3.2.0",
     "browser-sync": "^2.26.7",
-    "chai": "^4.1.2",
-    "colors": "^1.1.2",
-    "font-awesome": "^4.7.0",
-    "foundation-sites": "^6.4.4-rc1",
-    "glob": "^7.1.2",
-    "glob-all": "^3.1.0",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
-    "gulp-clean": "^0.3.2",
+    "chai": "^4.2.0",
+    "colors": "^1.4.0",
+    "foundation-sites": "^6.6.1",
+    "glob": "^7.1.6",
+    "glob-all": "^3.2.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean": "^0.4.0",
     "gulp-concat": "^2.6.1",
-    "gulp-git": "^2.4.2",
-    "gulp-plumber": "^1.1.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.4",
-    "gulp-uglify": "^3.0.0",
-    "gulp-zip": "^4.0.0",
+    "gulp-git": "^2.10.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-zip": "^5.0.1",
     "js-yaml": "^3.13.1",
     "lodash": "^4.17.15",
-    "markdown-pdf": "^9.0.0"
-  },
-  "dependencies": {
-    "bundle": "^2.1.0",
-    "bundler": "^0.8.0",
-    "request": "^2.88.0",
-    "run-sequence": "^2.2.0"
+    "markdown-pdf": "^10.0.0",
+    "request": "^2.88.2",
+    "run-sequence": "^2.2.1"
   }
 }

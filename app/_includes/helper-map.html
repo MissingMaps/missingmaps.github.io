@@ -257,26 +257,26 @@
           var cardContact = []
           // conditional statements, pushing to array contact info provided by person
             if(email.replace(/ /g,'').length > 0) {
-              var emailHTML = '<i class="fa fa-fw fa-envelope" aria-hidden="true"></i><a href="mailto:' + email + '">&nbsp; ' + email  + '</a>';
+              var emailHTML = '<i class="fas fa-fw fa-envelope" aria-hidden="true"></i><a href="mailto:' + email + '">&nbsp; ' + email  + '</a>';
               cardContact.push(emailHTML)
             }
             if(phone.replace(/ /g,'').length > 0) {
-              var phoneHTML = '<i class="fa fa-fw fa-phone" aria-hidden="true"></i>&nbsp; ' + phone;
+              var phoneHTML = '<i class="fas fa-fw fa-phone" aria-hidden="true"></i>&nbsp; ' + phone;
               cardContact.push(phoneHTML)
             }
             if(skype.replace(/ /g,'').length > 0) {
-              var skypeHTML = '<i class="fa fa-fw fa-skype" aria-hidden="true" ></i>&nbsp; ' + skype;
+              var skypeHTML = '<i class="fab fa-fw fa-skype" aria-hidden="true" ></i>&nbsp; ' + skype;
               cardContact.push(skypeHTML)
             }
             if(twitter.replace(/ /g,'').length > 0) {
-              var twitterHTML = '<i class="fa fa-fw fa-twitter" aria-hidden="true"></i><a target="_blank" href="https://twitter.com/' + twitter + '">&nbsp; ' + twitter + '</a>';
+              var twitterHTML = '<i class="fab fa-fw fa-twitter" aria-hidden="true"></i><a target="_blank" href="https://twitter.com/' + twitter + '">&nbsp; ' + twitter + '</a>';
               cardContact.push(twitterHTML)
             }
           return cardContact.join(" </br>");
         }
 
   var osmHtml = function(username) {
-    return '<a target="_blank" href="http://www.openstreetmap.org/user/' + username + '"><i class="fa fa-fw fa-user-circle-o" aria-hidden="true"></i></a>';
+    return '<a target="_blank" href="http://www.openstreetmap.org/user/' + username + '"><i class="fas fa-fw fa-user-circle" aria-hidden="true"></i></a>';
   }
 
 
@@ -367,8 +367,8 @@
       .attr('font-family', 'FontAwesome')
       .attr('class', function(d) {
         if(d[supportKey].length === 1) {
-          return supportClass(d[supportKey][0]);
-        } else { return 'help_all'; }
+          return 'map-font ' + supportClass(d[supportKey][0]);
+        } else { return 'map-font help_all'; }
       })
       .classed('mapmarker', true)
       .on('click', function(d) {
@@ -477,7 +477,7 @@
                       '<h5>' + osmHtml(d[osmKey]) + '&nbsp; ' + d[nameKey] + '</h5>' +
                       '<p><small><span class="support-types">' + support.join(', ') + '</span><br>' +
                       contactInfo(d[emailKey], d[phoneKey], d[skypeKey], d[twitterKey]) + '<br>' +
-                      '<i class="fa fa-fw fa-language" aria-hidden="true"></i>&nbsp; ' + lang.join('; ') + '<br>' +
+                      '<i class="fas fa-fw fa-language" aria-hidden="true"></i>&nbsp; ' + lang.join('; ') + '<br>' +
                       '<em>' + d[noteKey] + '</em>' +
                       '</small></p>' +
                     '</div>' +
