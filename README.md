@@ -44,13 +44,17 @@ To set up the development environment for this website, you'll need to install t
 - Ruby and [Bundler](http://bundler.io/), preferably through something like [rvm](https://rvm.io/)
 - Gulp
 ```
+$ gem install bundler
 $ npm install -g gulp
+$ npm install --global gulp-cli
 ```
 After these basic requirements are met, run the following commands in the website's folder:
 ```
 $ npm install
 ```
 Will also run `bundle install`
+
+If you get a `jekyll-4.0.0 requires rubygems version >= 2.7.0, which is incompatible with the current version` error then try running: `gem update --system`
 
 ### Getting started
 
