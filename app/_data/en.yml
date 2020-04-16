@@ -118,14 +118,14 @@ contribute:
   learn_osm:    "TUTORIALS"
   youtube:      "YOUTUBE"
   beginners:    "Beginners"
-  step1:        "Create an Open Street Map account"
-  step1_text:   "Go to the <a href=\"https://www.openstreetmap.org/login\">OpenStreetMap</a>  website and register to create an account. Follow the link in the email they send to confirm your account."
-  step2:        "Learn to map buildings"
-  step2_text:   "Buildings are one of the most useful things you can add to OpenStreetMap (and they're fun too)! Learn how to add and edit buildings to OSM through the iD editor."
-  step3:        "Learn to map roads"
-  step3_text:   "Roads are also one of the most useful things you can add to OpenStreetMap! Learn how to add and edit roads to OSM through the iD editor."
-  step4:        "Learn to use the Tasking Manager"
-  step4_text:   "Go to the <a href=\"http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps\">Task Manager</a> to find a project and task that interests you. Learn how to lock a task to edit, select an editing program and change the background settings."
+  stepAccount:        "Create an Open Street Map account"
+  stepAccount_text:   "Go to the <a href=\"https://www.openstreetmap.org/login\">OpenStreetMap</a>  website and register to create an account. Follow the link in the email they send to confirm your account."
+  stepBuildings:        "Learn to map buildings"
+  stepBuildings_text:   "Buildings are one of the most useful things you can add to OpenStreetMap (and they're fun too)! Learn how to add and edit buildings to OSM through the iD editor."
+  stepRoads:        "Learn to map roads"
+  stepRoads_text:   "Roads are also one of the most useful things you can add to OpenStreetMap! Learn how to add and edit roads to OSM through the iD editor."
+  stepTM:        "Learn to use the Tasking Manager"
+  stepTM_text:   "Go to the <a href=\"http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps\">Task Manager</a> to find a project and task that interests you. Learn how to lock a task to edit, select an editing program and change the background settings."
 
 ####################
 ## EVENTS CONTENT ##

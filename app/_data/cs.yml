@@ -118,14 +118,14 @@ contribute:
   learn_osm:    "PRŮVODCE"
   youtube:      "YOUTUBE"
   beginners:    "ZAČÁTEČNÍCI"
-  step1:        "Vytvořte si účet na Open Street Map"
-  step1_text:   "Přejděte na webové stránky <a href=\"https://www.openstreetmap.org/login\">OpenStreetMap</a> a zaregistrováním si vytvořte účet. Klikněte na odkaz, který vám příjde do vaší emailové schránky, čímž dokončíte registraci a potvrdíte svůj účet."
-  step2:        "Naučte se mapovat budovy"
-  step2_text:   "Budovy jsou jedním z nejužitečnějších objektů, které můžete přidat do OpenStreetMap (a je s nimi i zábava!) Naučte se, jak přidávat a upravovat budovy v OSM přes iD editor."
-  step3:        "Naučte se mapovat silnice"
-  step3_text:   "Silnice jsou také jednou z nejužitečnějších věcí, které můžete přidat do OpenStreetMap! Naučte se, jak přidávat a upravovat silnice a cesty v OSM přes iD editor."
-  step4:        "Naučte se používat Tasking Manager (Manažer úloh OSM)"
-  step4_text:   "Jděte na <a href=\"http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps\">Task Manager</a>, kde si najdete projekty a úlohy, které vás zajímají. Naučte se, jak uzamknout úlohu, kterou chcete upravovat, jak si vybrat editační program a změnit nastavení."
+  stepAccount:        "Vytvořte si účet na Open Street Map"
+  stepAccount_text:   "Přejděte na webové stránky <a href=\"https://www.openstreetmap.org/login\">OpenStreetMap</a> a zaregistrováním si vytvořte účet. Klikněte na odkaz, který vám příjde do vaší emailové schránky, čímž dokončíte registraci a potvrdíte svůj účet."
+  stepBuildings:        "Naučte se mapovat budovy"
+  stepBuildings_text:   "Budovy jsou jedním z nejužitečnějších objektů, které můžete přidat do OpenStreetMap (a je s nimi i zábava!) Naučte se, jak přidávat a upravovat budovy v OSM přes iD editor."
+  stepRoads:        "Naučte se mapovat silnice"
+  stepRoads_text:   "Silnice jsou také jednou z nejužitečnějších věcí, které můžete přidat do OpenStreetMap! Naučte se, jak přidávat a upravovat silnice a cesty v OSM přes iD editor."
+  stepTM:        "Naučte se používat Tasking Manager (Manažer úloh OSM)"
+  stepTM_text:   "Jděte na <a href=\"http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps\">Task Manager</a>, kde si najdete projekty a úlohy, které vás zajímají. Naučte se, jak uzamknout úlohu, kterou chcete upravovat, jak si vybrat editační program a změnit nastavení."
 
 ####################
 ## EVENTS CONTENT ##

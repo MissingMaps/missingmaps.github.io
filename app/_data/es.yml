@@ -118,14 +118,14 @@ contribute:
   learn_osm:    "TUTORIALES ADICIONALES"
   youtube:      "YOUTUBE"
   beginners:    "Principiantes"
-  step1:        "Crea una cuenta OpenStreetMap"
-  step1_text:   "Ir a la página Web de <a href=\"https://www.openstreetmap.org/login\">OpenStreetMap</a> donde podrás registrarte para crear una cuenta. Luego sigue las instrucciones recibidas por correo electrónico para confirmar la nueva cuenta."
-  step2:        "Aprende a cartografiar edificios"
-  step2_text:   "Los edificios son una de las cosas más útiles que puedes añadir al OpenStreetMap (y además es bastante divertido!) Aprende como añadir y editar edificios en OSM mediante el iD editor."
-  step3:        "Aprende a cartografiar carreteras"
-  step3_text:   "Las carreteras  son también importantes de añadir al OpenStreetMap! Aprende cómo hacerlo y editarlo mediante el iD editor."
-  step4:        "Aprenda el uso del Administrador de tareas"
-  step4_text:   "Ir al <a href=\"http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps\">Administrador de tareas</a> para encontrar un proyecto y la tarea que le interesa. Aprende a bloquear una tarea a editar, a seleccionar un editor y a cambiar la configuración de la herramienta."
+  stepAccount:        "Crea una cuenta OpenStreetMap"
+  stepAccount_text:   "Ir a la página Web de <a href=\"https://www.openstreetmap.org/login\">OpenStreetMap</a> donde podrás registrarte para crear una cuenta. Luego sigue las instrucciones recibidas por correo electrónico para confirmar la nueva cuenta."
+  stepBuildings:        "Aprende a cartografiar edificios"
+  stepBuildings_text:   "Los edificios son una de las cosas más útiles que puedes añadir al OpenStreetMap (y además es bastante divertido!) Aprende como añadir y editar edificios en OSM mediante el iD editor."
+  stepRoads:        "Aprende a cartografiar carreteras"
+  stepRoads_text:   "Las carreteras  son también importantes de añadir al OpenStreetMap! Aprende cómo hacerlo y editarlo mediante el iD editor."
+  stepTM:        "Aprenda el uso del Administrador de tareas"
+  stepTM_text:   "Ir al <a href=\"http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps\">Administrador de tareas</a> para encontrar un proyecto y la tarea que le interesa. Aprende a bloquear una tarea a editar, a seleccionar un editor y a cambiar la configuración de la herramienta."
 
 ####################
 ## EVENTS CONTENT ##
