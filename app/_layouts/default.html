@@ -1,6 +1,8 @@
+{% comment %}Getting the locale from the url{% endcomment %}{% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}{% unless site.authorized_locales contains locale %}{% assign locale = site.default_locale %}{% endunless %}
+
 <!DOCTYPE html>
-<!--[if lt IE 10]> <html class="lt-ie10 no-js"  lang=""> <![endif]-->
-<!--[if gt IE 9]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<!--[if lt IE 10]> <html class="lt-ie10 no-js"  lang="{{locale}}"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="{{locale}}"> <!--<![endif]-->
 
   <head>
     <meta charset="utf-8">
