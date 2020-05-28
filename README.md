@@ -2,7 +2,7 @@
 
 ### Adding events
 
-Events are managed in the events.csv in the [events](https://github.com/MissingMaps/events) repo. Please update all new events there. Be sure to follow the instructions in the [Readme](https://github.com/MissingMaps/events/blob/master/README.md).
+Events are managed through a Google Form and Sheet.
 
 ### Adding Blog Post
 

@@ -42,7 +42,7 @@ var countryKey = "Country?"
 var today = luxon.DateTime.local().startOf('day');
 var siteBaseUrl = "{{ site.baseurl }}";	
 		
-/* USE TABLETOP TO GRAB EVENT DATA FROM GOOGLE SHEET */
+/* USE PAPAPARSE TO GRAB EVENT DATA FROM GOOGLE SHEET */
 function init() {
           Papa.parse('https://docs.google.com/spreadsheets/d/14MaSKvz7WmTS0mrj_hystgtQSgkDUvgVJruT4lnbY_U/pub?output=csv', {
           download: true,
