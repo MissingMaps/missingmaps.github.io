@@ -1,45 +1,79 @@
-<div class="row small-up-1 medium-up-1 large-up-2">
-{% assign current_date = site.time | date: '%Y%m%d' %}
-{% assign event = (site.data.events.events | sort: 'date' ) %}
-{% for e in event %} {% assign event_date = e.date | date: '%Y%m%d' %}
-	{% if event_date >= current_date %}
-		{% assign count = count | plus: 1 %}
-		<div class="column">
-		<div class="event-sub-container">
-			<div class="event-top-section clearfix">
-				<div class="sub-head">
-					<img class="event-images" src="{{ site.baseurl }}/assets/graphics/flags/4x3/{{ e.flag }}.svg" width="24px" />
-					<h3 class="event-header">{{ e.title }}</h3>
-					{% if e. %}
-					<a class="btn btn-grn" href="{{ e.signup_url }}" target="">{{site.data[locale].events.sign_up}}</a>
-					{% endif %}
-				</div>
-			</div>
-			<div class="event-maindetails clearfix">
-				<div class="event-details-left">
-					<span class="emphasizedNumber">
-						{{ e.date | localize: "%d",locale }}
-					</span>
-					<p><b>{{ e.date | localize: "%B",locale }}</b></p>
-				</div>
-				<div class="event-details-right">
-					<div class="textbox" style="padding-top:8px">
-						<p>
-							{% if e.place_url %}
-							<a href="{{ e.place_url }}"><b>{{ e.place_name }}</b></a> {% else %}
-							<b>{{ e.place_name }}</b>
-							{% endif %}
-						</p>
-						<p class="event-details">{{ e.date | localize: "%A",locale }}, {{ e.time_string }}</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		</div>
+<div id="eventList" class="row small-up-1 medium-up-1 large-up-2"></div>
 
-		{% if count == 3 %}
-			{% break %}
-		{% endif %}
-	{% endif %}
-{% endfor %}
-</div>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/luxon@1.24.1/build/global/luxon.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.2.0/papaparse.min.js"></script>
+<script>
+
+
+var eventNameKey = "What is the name of your event?"
+var locationKey = "Where will your mapping party be held?"
+var placeUrlKey = "Please insert a link to your venue on openstreetmap.org"
+var signupKey = "Please insert a link where people can sign up"
+var dateKey = "What date is your event taking place? (as YYYY-MM-DD)"
+var startKey = "What time does your event start?"
+var endKey = "What time does your event end?"
+var countryKey = "Country?"
+
+var today = luxon.DateTime.local().startOf('day');
+var siteBaseUrl = "{{ site.baseurl }}";	
+		
+/* USE PAPAPARSE TO GRAB EVENT DATA FROM GOOGLE SHEET */
+function init() {
+          Papa.parse('https://docs.google.com/spreadsheets/d/e/2PACX-1vSENK52p0o0dEpEfEH-qvloWEkILbcf-X8aSWdStVHKZuAF-G8-80NsRcouqBlB3DSsqerzVvPmnxDu/pub?gid=469941282&single=true&output=csv', {
+          download: true,
+          header: true,
+          complete: function(results) {
+						var data = results.data.filter(function(d){ 
+								return luxon.DateTime.fromISO(d[dateKey]).isValid 
+									&& luxon.DateTime.fromISO(d[dateKey]) >= today;
+						  }).sort(function(x, y){
+						   return d3.ascending(x[dateKey], y[dateKey]);
+							})
+							console.log(data)
+            buildEvents(data.slice(0,4))
+          }
+        })
+			}
+window.addEventListener('DOMContentLoaded', init)
+
+function buildEvents(data){
+	console.log(data)
+	d3.select('#eventList').selectAll('div').data(data)
+		.enter().append('div').classed('column', true)
+		.html(function(d){		
+			var countryIso = d[countryKey].substring(d[countryKey].indexOf("[")+1,d[countryKey].indexOf("]")).toLowerCase();
+			var signupHtml = (!!d[signupKey]) ? '<a class="btn btn-grn" href="' + d[signupKey] + '" target="">' + "{{site.data[locale].events.sign_up}}" + '</a>' : "";			
+			var placeHtml = (!!d[placeUrlKey])	? '<a href="' + d[placeUrlKey] + '"><b>' + d[locationKey] + '</b></a>' : '<b>' + d[locationKey] + '</b>';
+			
+			var eventHtml = '<div class="event-sub-container">' +
+					'<div class="event-top-section clearfix">' +
+						'<div class="sub-head">' +
+							'<img class="event-images" src="'+ siteBaseUrl + '/assets/graphics/flags/4x3/'+ countryIso +'.svg" width="24px" />' +
+							'<h3 class="event-header">' + d[eventNameKey] + '</h3>' +
+							signupHtml +
+						'</div>' +
+					'</div>' +
+					'<div class="event-maindetails clearfix">' +
+						'<div class="event-details-left">' +
+							'<span class="emphasizedNumber">' +
+								luxon.DateTime.fromISO(d[dateKey]).day +
+							'</span>' +
+							'<p><b>' + luxon.DateTime.fromISO(d[dateKey]).setLocale("{{locale}}").toLocaleString({ month: 'long'}) + '</b></p>' +
+						'</div>' +
+						'<div class="event-details-right">' +
+							'<div class="textbox" style="padding-top:8px">' +
+								'<p>' +
+									placeHtml +
+								'</p>' +
+								'<p class="event-details">' + luxon.DateTime.fromISO(d[dateKey]).setLocale("{{locale}}").toLocaleString({ weekday: 'long'}) + ", " + d[startKey] + " - " + d[endKey]  + '</p>' +
+							'</div>' +
+						'</div>' +
+					'</div>' +
+				'</div>';
+			return eventHtml;
+	})
+	
+}
+
+</script>
