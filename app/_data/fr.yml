@@ -10,7 +10,7 @@ nav:
       - text:     "APPRENDRE À LA CARTE"
         url:      "/fr/apprendre/"
       - text:     "APPRENDRE VALIDER"
-        url:      "fr/valider/"
+        url:      "/fr/valider/"
       - text:     "MAPSWIPE"
         url:      "http://mapswipe.org/"
   - text:         "ÉVÉNEMENTS"
