@@ -40,9 +40,8 @@ var countryKey = "Country?"
 var today = luxon.DateTime.local().startOf('day');
 var siteBaseUrl = "{{ site.baseurl }}";	
 		
-/* USE PAPAPARSE TO GRAB EVENT DATA FROM GOOGLE SHEET */
 function init() {
-          Papa.parse('https://cors-anywhere.herokuapp.com/https://docs.google.com/spreadsheets/d/e/2PACX-1vSENK52p0o0dEpEfEH-qvloWEkILbcf-X8aSWdStVHKZuAF-G8-80NsRcouqBlB3DSsqerzVvPmnxDu/pub?gid=469941282&single=true&output=csv', {
+          Papa.parse('{{ site.baseurl }}/assets/google-sheets/events.csv', {
           download: true,
           header: true,
           complete: function(results) {

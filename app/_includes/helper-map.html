@@ -52,13 +52,13 @@
     </div>
 
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/what-input/4.0.6/what-input.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/js/foundation.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/papaparse@5.2.0/papaparse.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.6.0/d3.min.js"></script>
-    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <!-- <script src="https://use.fontawesome.com/eb154e6e77.js"></script> -->
 
   <script>
@@ -281,7 +281,7 @@
 
 
   // get the contact data from the google spreadhsheet
-  var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT12UwGG1A10zICCvRL5tcd4uF89xXNOQ9RS4R9vDLax7H2vMKOUV3kODbFAA5RPP6LQathslaUIO-9/pub?gid=1040223163&single=true&output=csv';
+  var publicSpreadsheetUrl = '{{ site.baseurl }}/assets/google-sheets/eventHelpers.csv';
   function init() {
     Papa.parse(publicSpreadsheetUrl, {
    		download: true,
@@ -357,52 +357,77 @@
     	subdomains: 'abcd',
     	maxZoom: 19
     }).addTo(map);
-
-    // initialize the SVG layer for D3 drawn markers
-    L.svg().addTo(map);
-    // pick up the SVG from the map object
-    var svg = d3.select('#map').select('svg');
-    markersGroup = svg.append('g').attr('id', 'markers').attr('class', 'leaflet-zoom-hide');
-
-    // add markers to the map for each contact
-    mappedContacts = d3.select('svg #markers').selectAll('text').data(validMarkers)
-      .enter().append('text')
-      .text('\uf276')
-      .attr('font-family', 'FontAwesome')
-      .attr('class', function(d) {
-        if(d[supportKey].length === 1) {
-          return 'map-font ' + supportClass(d[supportKey][0]);
-        } else { return 'map-font help_all'; }
-      })
-      .classed('mapmarker', true)
-      .on('click', function(d) {
-        var lang = [];
-        $.each(d[languageKey], function(i, item){ lang.push(languageLookup[item]); });
-        var support = [];
-        $.each(d[supportKey], function(i, item) {
-          support.push('<span class="' + supportClass(item) + '">' + item + '</span>');
-        });
-        var supportHtml = support.join(', ');
-        var htmlpop = '<div><b>' + osmHtml(d[osmKey]) + '&nbsp; ' + d[nameKey] + '</b></div>' +
-            '<div>' +
-            supportHtml + '<br>' +
-            contactInfo(d[emailKey], d[phoneKey], d[skypeKey], d[twitterKey]) + '<br>' +
-            '<i class="fa fa-fw fa-language" aria-hidden="true"></i>&nbsp; ' + lang.join('; ') + '<br>' +
-            '<em>' + d[noteKey] + '</em>' +
-            '</div>';
-        var popup = L.popup({closeOnClick: false})
-          .setLatLng(d.LatLng)
-          .setContent(htmlpop)
-          .openOn(map);
+    
+    validMarkers.forEach(function(d, index){
+      var marker = L.marker(d.LatLng)
+      var lang = [];
+      $.each(d[languageKey], function(i, item){ lang.push(languageLookup[item]); });
+      var support = [];
+      $.each(d[supportKey], function(i, item) {
+        support.push('<span class="' + supportClass(item) + '">' + item + '</span>');
       });
+      var supportHtml = support.join(', ');
+      var htmlpop = '<div><b>' + osmHtml(d[osmKey]) + '&nbsp; ' + d[nameKey] + '</b></div>' +
+          '<div>' +
+          supportHtml + '<br>' +
+          contactInfo(d[emailKey], d[phoneKey], d[skypeKey], d[twitterKey]) + '<br>' +
+          '<i class="fa fa-fw fa-language" aria-hidden="true"></i>&nbsp; ' + lang.join('; ') + '<br>' +
+          '<em>' + d[noteKey] + '</em>' +
+          '</div>';
+      marker.bindPopup(htmlpop);
+      marker.addTo(map);
+    });
+    
+    
+    // ############
+    // ## using D3 to render SVG was really bogging down for  some reason
+    // ############
 
-    // when map view changes adjust the locations of the svg circles
-    updatemarker = function() {
-      mappedContacts.attr('x',function(d) { return map.latLngToLayerPoint(d.LatLng).x; });
-      mappedContacts.attr('y',function(d) { return map.latLngToLayerPoint(d.LatLng).y; });
-    }
-    // set the starting locations of the markers
-    updatemarker();
+    // // initialize the SVG layer for D3 drawn markers
+    // L.svg().addTo(map);
+    // // pick up the SVG from the map object
+    // var svg = d3.select('#map').select('svg');
+    // markersGroup = svg.append('g').attr('id', 'markers').attr('class', 'leaflet-zoom-hide');
+    // 
+    // // add markers to the map for each contact
+    // mappedContacts = d3.select('svg #markers').selectAll('text').data(validMarkers)
+    //   .enter().append('text')
+    //   .text('\uf276')
+    //   .attr('font-family', 'FontAwesome')
+    //   .attr('class', function(d) {
+    //     if(d[supportKey].length === 1) {
+    //       return 'map-font ' + supportClass(d[supportKey][0]);
+    //     } else { return 'map-font help_all'; }
+    //   })
+    //   .classed('mapmarker', true)
+    //   .on('click', function(d) {
+    //     var lang = [];
+    //     $.each(d[languageKey], function(i, item){ lang.push(languageLookup[item]); });
+    //     var support = [];
+    //     $.each(d[supportKey], function(i, item) {
+    //       support.push('<span class="' + supportClass(item) + '">' + item + '</span>');
+    //     });
+    //     var supportHtml = support.join(', ');
+    //     var htmlpop = '<div><b>' + osmHtml(d[osmKey]) + '&nbsp; ' + d[nameKey] + '</b></div>' +
+    //         '<div>' +
+    //         supportHtml + '<br>' +
+    //         contactInfo(d[emailKey], d[phoneKey], d[skypeKey], d[twitterKey]) + '<br>' +
+    //         '<i class="fa fa-fw fa-language" aria-hidden="true"></i>&nbsp; ' + lang.join('; ') + '<br>' +
+    //         '<em>' + d[noteKey] + '</em>' +
+    //         '</div>';
+    //     var popup = L.popup({closeOnClick: false})
+    //       .setLatLng(d.LatLng)
+    //       .setContent(htmlpop)
+    //       .openOn(map);
+    //   });
+    // 
+    // // when map view changes adjust the locations of the svg circles
+    // updatemarker = function() {
+    //   mappedContacts.attr('x',function(d) { return map.latLngToLayerPoint(d.LatLng).x; });
+    //   mappedContacts.attr('y',function(d) { return map.latLngToLayerPoint(d.LatLng).y; });
+    // }
+    // // set the starting locations of the markers
+    // updatemarker();
 
     filter = function(){
 
@@ -497,13 +522,13 @@
     }
 
     toggleMarkerVis = function(language, type) {
-      mappedContacts.each(function(d) {
-        if( (($.inArray(language, d[languageKey]) !== -1) || (language == 'all')) && ( ($.inArray(type, d[supportKey]) !== -1) || (type == 'all'))   ){
-          d3.select(this).classed('no-language', false);
-        } else {
-          d3.select(this).classed('no-language', true);
-        }
-      });
+      // mappedContacts.each(function(d) {
+      //   if( (($.inArray(language, d[languageKey]) !== -1) || (language == 'all')) && ( ($.inArray(type, d[supportKey]) !== -1) || (type == 'all'))   ){
+      //     d3.select(this).classed('no-language', false);
+      //   } else {
+      //     d3.select(this).classed('no-language', true);
+      //   }
+      // });
     }
 
 
@@ -511,8 +536,8 @@
   map.on('load moveend zoomend viewreset', filter);
   // filter();
 
-  // when map view changes adjust the locations of the markers
-  map.on('zoom move viewreset', updatemarker);
+  // // when map view changes adjust the locations of the markers
+  // map.on('zoom move viewreset', updatemarker);
 
   $('#language-filter').change(function(){
     filter();

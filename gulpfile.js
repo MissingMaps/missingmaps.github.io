@@ -8,6 +8,7 @@ const cp = require('child_process');
 const fs = require('fs');
 const git = require('gulp-git');
 const markdownpdf = require("markdown-pdf");
+const path = require('path');
 const plumber = require('gulp-plumber');
 const request = require('request');
 const runSequence = require('run-sequence').use(gulp);
@@ -15,6 +16,38 @@ const sass = require('gulp-sass');
 const sourcemaps = require('gulp-sourcemaps');
 const uglify = require('gulp-uglify');
 const zip = require('gulp-zip');
+
+function grabEvents(cb){
+  var options = {
+    url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSENK52p0o0dEpEfEH-qvloWEkILbcf-X8aSWdStVHKZuAF-G8-80NsRcouqBlB3DSsqerzVvPmnxDu/pub?gid=469941282&single=true&output=csv'
+  };
+  request(options, function (err, res) {
+    var fileName = "events.csv";
+    const outputFile = path.join(__dirname,'app','assets','google-sheets',fileName);
+    if (fs.existsSync(outputFile)) {
+      fs.unlinkSync(outputFile);
+    }
+    fs.writeFileSync(outputFile, res.body, 'utf8');
+    cb();
+  });
+}
+exports.grabEvents = grabEvents;
+
+function grabEventHelpers(cb){
+  var options = {
+    url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT12UwGG1A10zICCvRL5tcd4uF89xXNOQ9RS4R9vDLax7H2vMKOUV3kODbFAA5RPP6LQathslaUIO-9/pub?gid=1040223163&single=true&output=csv'
+  };
+  request(options, function (err, res) {
+    var fileName = "eventHelpers.csv";
+    const outputFile = path.join(__dirname,'app','assets','google-sheets',fileName);
+    if (fs.existsSync(outputFile)) {
+      fs.unlinkSync(outputFile);
+    }
+    fs.writeFileSync(outputFile, res.body, 'utf8');
+    cb();
+  });
+}
+exports.grabEventHelpers = grabEventHelpers;
 
 
 function clean() {
@@ -86,13 +119,6 @@ function validationPdf(cb) {
 }
 exports.validationPdf = validationPdf;
 
-function cloneEvents(cb) {
-  git.clone('https://github.com/MissingMaps/events', {args: './app/_data/events'}, function(err) {
-    // handle err
-    cb();
-  });
-}
-exports.cloneEvents = cloneEvents
 
 function cloneBlog(cb) {
   git.clone('https://github.com/MissingMaps/blog', {args: './app/_posts'}, function(err) {
@@ -137,7 +163,7 @@ function watching() {
 }
 exports.serve = gulp.series(
   clean,
-  gulp.parallel(cloneEvents, cloneBlog),
+  gulp.parallel(cloneBlog, grabEvents, grabEventHelpers),
   jekyll, 
   gulp.parallel(javascripts, styles, icons, zipMaterials, validationPdf), 
   copyAssets, 
@@ -147,7 +173,7 @@ var environment = 'development';
 function setProd(cb) { environment = 'production'; cb(); }
 exports.prod = gulp.series(
   clean, 
-  gulp.parallel(cloneEvents, cloneBlog), 
+  gulp.parallel(cloneBlog, grabEvents, grabEventHelpers), 
   setProd, 
   jekyll, 
   gulp.parallel(javascripts, styles, icons, zipMaterials, validationPdf), 
