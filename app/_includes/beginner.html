@@ -3,16 +3,16 @@
 </script>
 
 <div id="site-canvas">
-  <div class="header-image header-contribute">
+  <div class="header-image header-beginner">
     <div class="dark-overlay center-text">
-      <h1 class="title feature-header">{{site.data[locale].contribute.title}}</h1>
+      <h1 class="title feature-header">{{site.data[locale].beginner.title}}</h1>
     </div>
   </div>
 
   <div class="row">
     <div class="large-12 columns" style="text-align:center">
       <div class="textbox container">
-        <p style="text-align: center">{{site.data[locale].contribute.how_text}}</p>
+        <p style="text-align: center">{{site.data[locale].beginner.how_text}}</p>
       </div>
     </div>
   </div>
@@ -22,99 +22,96 @@
     <div class="small-4 columns" style="text-align: center">
       <a href="http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps">
         <img src="{{ site.baseurl }}/assets/graphics/content/process/Learn-MapNow.svg" alt="learnnow" />
-        <p>
-          <div class="btn btn-grn arw">{{site.data[locale].contribute.map_btn}}
-            <img src="{{ site.baseurl }}/assets/graphics/meta/Arrow.svg" alt="learnnow" />
+        <div class="btn btn-grn arw">{{site.data[locale].beginner.map_btn}}
+          <img src="{{ site.baseurl }}/assets/graphics/meta/Arrow.svg" alt="learnnow" />
+        </div>
       </a>
-      </div>
     </div>
     <div class="small-4 columns" style="text-align: center">
       <a href="#beginner">
         <img src="{{ site.baseurl }}/assets/graphics/content/process/Learn-MapNow.svg" />
-        <p>
-          <div class="btn btn-grn contribute-caps">{{site.data[locale].contribute.beginners}}
+        <div class="btn btn-grn contribute-caps">{{site.data[locale].beginner.beginners}}</div>
       </a>
-      </div>
     </div>
     <div class="small-4 columns" style="text-align: center">
       <a href="/validate/">
         <img src="{{ site.baseurl }}/assets/graphics/content/process/Learn-MapNow.svg" />
-        <p>
-          <div class="btn btn-grn contribute-caps">{{site.data[locale].contribute.validate}}
+        <div class="btn btn-grn contribute-caps">{{site.data[locale].beginner.validate}}</div>
       </a>
-      </div>
     </div>
   </div>
+  
   <div class="row contribute-options">
     <div class="small-offset-2 small-4 columns" style="text-align: center">
       <a href="http://learnosm.org/en/coordination/remote/">
         <img src="{{ site.baseurl }}/assets/graphics/content/process/Learn-Tutorials.svg" />
-        <p>
-          <div class="btn btn-grn arw">{{site.data[locale].contribute.learn_osm}}
-            <img src="{{ site.baseurl }}/assets/graphics/meta/Arrow.svg" />
+        <div class="btn btn-grn arw">{{site.data[locale].beginner.learn_osm}}
+          <img src="{{ site.baseurl }}/assets/graphics/meta/Arrow.svg" />
+        </div>
       </a>
-      </div>
     </div>
     <div class="small-4 columns end" style="text-align: center">
       <a href="https://www.youtube.com/playlist?list=PLHtj0pb6F8G4HuZyHuByZhNLfVP9WpAbZ">
         <img src="{{ site.baseurl }}/assets/graphics/content/process/Learn-YouTube.svg" />
-
-          <div class="btn btn-grn arw">{{site.data[locale].contribute.youtube}}
-            <img src="{{ site.baseurl }}/assets/graphics/meta/Arrow.svg" />
+        <div class="btn btn-grn arw">{{site.data[locale].beginner.youtube}}
+          <img src="{{ site.baseurl }}/assets/graphics/meta/Arrow.svg" />
+        </div>
       </a>
-      </div>
     </div>
   </div>
 
   <div class="contribute-container">
-    <div class="center-text title section-header" id="learn"><a name="beginner">{{site.data[locale].contribute.beginners}}</a></div>
+    <div class="center-text title section-header" id="learn"><a name="beginner">{{site.data[locale].beginner.beginners}}</a></div>
     <div class="row">
       <div class="videobox large-6 small-12 columns"> 
         <!-- Create an Open Street Map account -->
         <iframe width="100%" height="300px" src="https://www.youtube-nocookie.com/embed/suk8uRpIBQw?rel=0" frameborder="0" allowfullscreen=""></iframe>
-        <div class="sub-head" style="text-align: left">1. {{site.data[locale].contribute.stepAccount}}
+        <div class="sub-head" style="text-align: left">1. {{site.data[locale].beginner.stepAccount}}
         </div>
         <hr>
         <div class="textbox">
           <p>
-            {{site.data[locale].contribute.stepAccount_text}}
+            {{site.data[locale].beginner.stepAccount_text}}
           </p>
         </div>
       </div>
       <div class="videobox large-6 small-12 columns">
         <!-- Learn to use the Tasking Manager -->
         <iframe width="100%" height="300px" src="https://www.youtube-nocookie.com/embed/wqQdDgjBOvY?rel=0" frameborder="0" allowfullscreen=""></iframe>
-        <div class="sub-head" style="text-align: left">2. {{site.data[locale].contribute.stepTM}}
+        <div class="sub-head" style="text-align: left">2. {{site.data[locale].beginner.stepTM}}
         </div>
         <hr>
         <div class="textbox">
           <p>
-            {{site.data[locale].contribute.stepTM_text}}
+            {{site.data[locale].beginner.stepTM_text}}
           </p>
         </div>
       </div>
       <div class="videobox large-6 small-12 columns">
         <!-- Learn to map buildings -->
         <iframe width="100%" height="300px" src="https://www.youtube-nocookie.com/embed/lSLe6rjtgi0?rel=0" frameborder="0" allowfullscreen=""></iframe>
-        <div class="sub-head" style="text-align: left">3. {{site.data[locale].contribute.stepBuildings}}
+        <div class="sub-head" style="text-align: left">3. {{site.data[locale].beginner.stepBuildings}}
         </div>
         <hr>
         <div class="textbox">
-          <p>{{site.data[locale].contribute.stepBuildings_text}}</p>
+          <p>{{site.data[locale].beginner.stepBuildings_text}}</p>
         </div>
       </div>
       <div class="videobox large-6 small-12 columns">
          <!-- Learn to map roads -->
         <iframe width="100%" height="300px" src="https://www.youtube-nocookie.com/embed/NzZWur1YG1k?rel=0" frameborder="0" allowfullscreen=""></iframe>
-        <div class="sub-head" style="text-align: left">4. {{site.data[locale].contribute.stepRoads}}
+        <div class="sub-head" style="text-align: left">4. {{site.data[locale].beginner.stepRoads}}
         </div>
         <hr>
         <div class="textbox">
-          <p>{{site.data[locale].contribute.stepRoads_text}}</p>
+          <p>{{site.data[locale].beginner.stepRoads_text}}</p>
         </div>
       </div>
 
     </div>
     <div class="row features">
     </div>
+    
   </div>
+  
+</div> <!-- /site-canvas -->

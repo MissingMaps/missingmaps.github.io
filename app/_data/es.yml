@@ -5,14 +5,18 @@
 home:             "es/"
 
 nav:
-  - text:         "CONTRIBUIR"
+  - text:         "LEARN"
     links:
-      - text:     "APRENDA A MAPA"
-        url:      "/es/aprender/"
-      - text:     "APRENDER A VALIDAR"
-        url:      "/es/validar/"
+      - text:     "BEGINNER MAPPING"
+        url:      "/es/beginner/"
+      - text:     "ADVANCED MAPPING"
+        url:      "/es/advanced/"
+      - text:     "FIELD MAPPING"
+        url:      "/es/field/"
+      - text:     "VALIDATION"
+        url:      "/es/validate/"
       - text:     "MAPSWIPE"
-        url:      "http://mapswipe.org/"
+        url:      "/es/mapswipe/"
   - text:         "EVENTOS"
     links:
       - text:     "PRÓXIMOS EVENTOS"
@@ -41,7 +45,6 @@ nav:
 banner:
   title:          "Poner a las personas más vulnerables de la Tierra en el Mapa"
   subtitle:       "Cada año, los desastres naturales matan cerca de 100.000 personas y afectan o desplazan 200 millones de personas en el mundo. Muchos de los lugares donde ocurren esos desastres son totalmente inexistentes de los mapas existentes. Eso conlleva a que los primeros auxilios carezcan de la información necesaria para poder tomar las decisiones correctas sobre el terreno. Missing Maps es un proyecto abierto, colaborativo en el que se puede participar cartografiando zonas donde las organizaciones humanitarias están tratando de responder a las necesidades de las poblaciones afectadas."
-  get_involved:   "CONTRIBUIR"
 
 how_we_work:
   title:        "Cómo trabajamos"
@@ -82,7 +85,13 @@ how_to_participate:
   organize:     "Organizar un mapathon"
   organize_text: "Organizar un Mapathon es una manera fantástica de constituir una comunidad de cartógrafos que se concentren en una misma región del globo. También es un ambiente propicio al aprendizaje donde los nuevos voluntarios pueden beneficiarse de la experiencia de otros. Mapathones están organizados por grupos e individuos de todo el mundo."
   lead_btn:     "ORGANIZAR UN MAPATHON"
-  join_btn:     "RECIBIR LA NEWSLETTER"
+  join_btn:     "JOIN A MAPATHON"
+  field-mapping: "Field Mapping"
+  field-mapping_text: "Organize field mapping to add more details to the map!"
+  field-mapping_btn: "FIELD MAPPING"
+  blog: "Blog"
+  blog_text: "Blog!"
+  blog_btn: "BLOG"
   donate:       "Donar para hacer una diferencia"
   donate_text:  "Una donación al Equipo Humanitario de OpenStreetMap (En inglés: HOT - Humanitarian OpenStreetMap Team), uno de los fundadores de Missing Maps, puede ayudar a apoyar a la población local en cartografiar sus propias comunidades, a desarrollar herramientas y procesos para que más personas puedan contribuir y finalmente a extender el proyecto con el fin de ayudar a otras más organizaciones humanitarias que responden a crisis en el mundo."
   donate_btn:   "DONAR"
@@ -108,10 +117,10 @@ discover:
 contact:
   title:        "Contacta con nosotros"
 
-########################
-## CONTRIBUTE CONTENT ##
-########################
-contribute:
+##############
+## BEGINNER ##
+##############
+beginner:
   title:        "Aprender a mapear"
   how_text:     "Si eres nuevo en el mundo de la cartografía digital, te recomendamos que mires los videos de la sección “Principiantes” para poder ponerte en marcha. Si ya cartografiaste antes, sigue el enlace “CARTOGRAFIAR”. También puede acceder a tutoriales adicionales con el LearnOSM."
   map_btn:      "CARTOGRAFIAR"
@@ -126,6 +135,13 @@ contribute:
   stepRoads_text:   "Las carreteras  son también importantes de añadir al OpenStreetMap! Aprende cómo hacerlo y editarlo mediante el iD editor."
   stepTM:        "Aprenda el uso del Administrador de tareas"
   stepTM_text:   "Ir al <a href=\"http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps\">Administrador de tareas</a> para encontrar un proyecto y la tarea que le interesa. Aprende a bloquear una tarea a editar, a seleccionar un editor y a cambiar la configuración de la herramienta."
+
+##############
+## ADVANCED ##
+##############
+advanced:
+  title:        "Advanced Mapping"
+  josm:         "JOSM is a powerful OpenStreetMap editing tool that will supercharge your mapping abilities! We recommend that mappers who want to take their mapping to the next level progress to using this tool. First, you’ll need to download the application. You can do that <a href=\"https://josm.openstreetmap.de/wiki/Download\">here</a>. This application is available for both Macs and PCs. Compared to iD Editor, the setup process can be no picnic, so give yourself time to navigate this new tool before you plan to jump into your mapping. Once you are using JOSM you’ll never look back! "
 
 ####################
 ## EVENTS CONTENT ##

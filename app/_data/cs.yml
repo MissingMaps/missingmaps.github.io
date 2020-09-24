@@ -5,14 +5,18 @@
 home:             "cs/"
 
 nav:
-  - text:         "JAK PŘISPĚT"
+  - text:         "LEARN"
     links:
-      - text:     "NAUČTE SE MAPOVAT"
-        url:      "/cs/mapuj/"
-      - text:     "NAUČTE SE VALIDOVAT"
-        url:      "/cs/validuj/"
+      - text:     "BEGINNER MAPPING"
+        url:      "/cs/beginner/"
+      - text:     "ADVANCED MAPPING"
+        url:      "/cs/advanced/"
+      - text:     "FIELD MAPPING"
+        url:      "/cs/field/"
+      - text:     "VALIDATION"
+        url:      "/cs/validate/"
       - text:     "MAPSWIPE"
-        url:      "http://mapswipe.org/"
+        url:      "/cs/mapswipe/"
   - text:         "AKCE"
     links:
       - text:     "NADCHÁZEJÍCÍ AKCE"
@@ -41,7 +45,6 @@ nav:
 banner:
   title:          "Mapujeme situaci lidí v nouzi po celém světě"
   subtitle:       "Různá neštěstí a katastrofy každoročně zabijí téměř 100 000 a postihnou nebo vyženou z domovů okolo 200 milionů lidí po celém světě. Spousta takto postižených míst doslova chybí na mapách. Záchranným složkám, které jsou první na místě, tak scházejí informace při důležitém rozhodování o poskytnutí pomoci. Missing Maps je otevřený, společně vytvářený projekt, ve kterém můžete pomoci zmapovat místa, kde se humanitární organizace snaží uspokojit potřeby lidí v nouzi."
-  get_involved:   "ZAPOJIT SE"
 
 how_we_work:
   title:        "Jak to funguje"
@@ -81,7 +84,13 @@ how_to_participate:
   organize:     "Uspořádejte mapathon"
   organize_text: "Pořádání mapathonů je skvělým způsobem, jak dát dohromady komunitu mapujících lidí, kteří se soustředí na stejné místo na světě. Je to také skvělá příležitost, kde se můžete naučit něco nového a získat zkušenosti od ostatních. Mapathony organizují skupiny i jednotlivci po celém světě."
   lead_btn:     "POŘÁDAT MAPATHON"
-  join_btn:     "PŘIHLÁSIT SE K ODBĚRU E-MAILŮ"
+  join_btn:     "JOIN A MAPATHON"
+  field-mapping: "Field Mapping"
+  field-mapping_text: "Organize field mapping to add more details to the map!"
+  field-mapping_btn: "FIELD MAPPING"
+  blog: "Blog"
+  blog_text: "Blog!"
+  blog_btn: "BLOG"
   donate:       "Přispějte, vaše pomoc tak bude ještě větší"
   donate_text:  "Finanční příspěvek humanitárnímu týmu OpenStreetMap (jeden ze zakladatelů Missing Maps) může pomoci podpořit místní obyvatele v mapování jejich lokalit, vyvíjet takové nástroje a procesy, aby se mohlo zapojit více lidí a rozvinout projekt tak, abychom pomohli ještě více humanitárním organizacím reagovat na krize po celém světě."
   donate_btn:   "PŘISPĚT"
@@ -107,10 +116,10 @@ discover:
 contact:
   title:        "Kontaktujte nás"
 
-########################
-## LEARN CONTENT ##
-########################
-contribute:
+##############
+## BEGINNER ##
+##############
+beginner:
   title:        "Naučte se mapovat"
   how_text:     "Pokud je pro vás mapování nové, doporučujeme podívat se na videa v sekci „ZAČÁTEČNÍCI“, která vás nastartují. Pokud již máte s mapováním zkušenosti, klikněte na odkaz „ZAČÍT MAPOVAT“, nebo se naučte validovat. K dispozici jsou také další výukové programy prostřednictvím průvodce „LearnOSM“. "
   map_btn:      "ZAČÍT MAPOVAT"
@@ -126,6 +135,13 @@ contribute:
   stepRoads_text:   "Silnice jsou také jednou z nejužitečnějších věcí, které můžete přidat do OpenStreetMap! Naučte se, jak přidávat a upravovat silnice a cesty v OSM přes iD editor."
   stepTM:        "Naučte se používat Tasking Manager (Manažer úloh OSM)"
   stepTM_text:   "Jděte na <a href=\"http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps\">Task Manager</a>, kde si najdete projekty a úlohy, které vás zajímají. Naučte se, jak uzamknout úlohu, kterou chcete upravovat, jak si vybrat editační program a změnit nastavení."
+
+##############
+## ADVANCED ##
+##############
+advanced:
+  title:        "Advanced Mapping"
+  josm:         "JOSM is a powerful OpenStreetMap editing tool that will supercharge your mapping abilities! We recommend that mappers who want to take their mapping to the next level progress to using this tool. First, you’ll need to download the application. You can do that <a href=\"https://josm.openstreetmap.de/wiki/Download\">here</a>. This application is available for both Macs and PCs. Compared to iD Editor, the setup process can be no picnic, so give yourself time to navigate this new tool before you plan to jump into your mapping. Once you are using JOSM you’ll never look back! "
 
 ####################
 ## EVENTS CONTENT ##

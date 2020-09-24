@@ -1,0 +1,64 @@
+<script>
+  document.querySelector("header").style.display = 'inline-block';
+</script>
+
+<div id="site-canvas">
+  
+  <div class="header-image header-mapswipe">
+    <div class="dark-overlay center-text">
+      <h1 class="title feature-header">{{site.data[locale].mapswipe.title}}</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="textbox container">
+        <p>{{site.data[locale].mapswipe.intro1}}</p>
+        <p>{{site.data[locale].mapswipe.intro2}}</p>
+        <p>{{site.data[locale].mapswipe.intro3}}</p>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="row center-text">
+    <div class="container">
+      <div class="small-6 columns"> 
+        <img src="{{ site.baseurl }}/assets/graphics/content/mapswipe-before.png" />
+        <p>{{site.data[locale].mapswipe.before}}</p>
+      </div>
+      <div class="small-6 columns"> 
+        <img src="{{ site.baseurl }}/assets/graphics/content/mapswipe-after.png" />
+        <p>{{site.data[locale].mapswipe.after}}</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="textbox container">
+        <div class="center-text panel">
+          <div class="title section-header">{{site.data[locale].mapswipe.how-section}}</div>
+        </div>
+        <p>{{site.data[locale].mapswipe.how-intro}}</p>
+        <ol class="orderedlist-styled textbox">
+          {% for item in site.data[locale].mapswipe.how-list %}
+          <li>{{item.label}}</li>
+          {% endfor %}
+        </ol>
+        <div class="center-text">
+          <img src="{{ site.baseurl }}/assets/graphics/content/mapswipe-squares.png" />
+        </div><br>
+        <p>{{site.data[locale].mapswipe.how-end}}</p>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="large-12 columns center-text ">
+      <img src="{{ site.baseurl }}/assets/graphics/content/mapswipe-footer.png" />
+    </div>
+  </div>  
+      
+</div>
