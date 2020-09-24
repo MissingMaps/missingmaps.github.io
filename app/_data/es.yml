@@ -25,14 +25,14 @@ nav:
     url:          "/es/acercade/"
   - text:         "BLOG"
     url:          "/es/blog/"
-  - text:         "DESCUBRIR"
+  - text:         "EXPLORE"
     links:
       - text:     "PERFIL DE LOS CONTRIBUIDORES"
         url:      "http://www.missingmaps.org/users/"
       - text:     "TABLA DE LÍDERES" #######traduction pas top  ###
         url:      "http://www.missingmaps.org/leaderboards/"
-      - text:     "OSMSTATS"
-        url:      "/es/osmstats/"
+      - text:     "STATISTICS"
+        url:      "/es/statistics/"
 
 #####################
 ## LANDING CONTENT ##

@@ -25,14 +25,14 @@ nav:
     url:          "/cs/o-projektu/"
   - text:         "BLOG"
     url:          "/cs/blog/"
-  - text:         "OBJEVTE VÍCE"
+  - text:         "EXPLORE"
     links:
       - text:     "PROFILY UŽIVATELŮ"
         url:      "http://www.missingmaps.org/users/"
       - text:     "ŽEBŘÍČKY"
         url:      "http://www.missingmaps.org/leaderboards/"
-      - text:     "OSM STATISTIKY"
-        url:      "/cs/osmstats/"
+      - text:     "STATISTIKY"
+        url:      "/cs/statistiky/"
 
 #####################
 ## LANDING CONTENT ##

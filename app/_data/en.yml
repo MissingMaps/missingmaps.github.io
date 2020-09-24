@@ -25,14 +25,14 @@ nav:
     url:          "/about/"
   - text:         "BLOG"
     url:          "/blog/"
-  - text:         "DISCOVER"
+  - text:         "EXPLORE"
     links:
       - text:     "USER PROFILES"
         url:      "http://www.missingmaps.org/users/"
       - text:     "LEADERBOARDS"
         url:      "http://www.missingmaps.org/leaderboards/"
-      - text:     "OSMSTATS"
-        url:      "/osmstats/"
+      - text:     "STATISTICS"
+        url:      "/statistics/"
 
 #####################
 ## LANDING CONTENT ##
