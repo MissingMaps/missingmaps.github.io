@@ -15,6 +15,8 @@ nav:
         url:      "/es/field/"
       - text:     "VALIDATION"
         url:      "/es/validate/"
+      - text:     "USING DATA"
+        url:      "/es/data/"
       - text:     "MAPSWIPE"
         url:      "/es/mapswipe/"
   - text:         "EVENTOS"
@@ -127,6 +129,9 @@ beginner:
   learn_osm:    "TUTORIALES ADICIONALES"
   youtube:      "YOUTUBE"
   beginners:    "Principiantes"
+  advanced:     "Advanced Mapping"
+  field:        "Field Mapping"
+  data:         "Using the Data"
   stepAccount:        "Crea una cuenta OpenStreetMap"
   stepAccount_text:   "Ir a la página Web de <a href=\"https://www.openstreetmap.org/login\">OpenStreetMap</a> donde podrás registrarte para crear una cuenta. Luego sigue las instrucciones recibidas por correo electrónico para confirmar la nueva cuenta."
   stepBuildings:        "Aprende a cartografiar edificios"
@@ -142,6 +147,90 @@ beginner:
 advanced:
   title:        "Advanced Mapping"
   josm:         "JOSM is a powerful OpenStreetMap editing tool that will supercharge your mapping abilities! We recommend that mappers who want to take their mapping to the next level progress to using this tool. First, you’ll need to download the application. You can do that <a href=\"https://josm.openstreetmap.de/wiki/Download\">here</a>. This application is available for both Macs and PCs. Compared to iD Editor, the setup process can be no picnic, so give yourself time to navigate this new tool before you plan to jump into your mapping. Once you are using JOSM you’ll never look back! "
+
+###########
+## FIELD ##
+###########
+field:
+  title:        "Field Mapping"
+  intro1: "So you’ve mapped an area as best you can from satellite imagery, now you want to map your community more in detail. Curious about what to do next? This section of the site will help you navigate planning, carrying out, and processing a community mapping activity."
+  intro2: "The end goal of this activity is to capture the perspective of unique places and people on the map. To do this, ideally you need a diverse community of mappers who can represent the voices of the locality. Establishing a sustainable culture of mapping takes time and effort and there are many steps you can take to get this started, grow and nurture a community."
+  intro3: "Reminder: this is not intended to be a comprehensive guide, but instead to help get you started."
+  volunteers-header: "OpenStreetMap is built by volunteers..."
+  volunteers-description: "OpenStreetMap is built by volunteers who care about places. Unlike many other mapping platforms profit is not the driving factor to create data. Individuals all have unique perspectives on our surroundings and this is when OSM comes alive, when the color of a community is added. A map will only be as good as the depth and breadth of the voices consulted to populate it. Local knowledge is fundamental to creating a comprehensive and sustainable resource by and for your community. Including the wider community and ensuring their involvement in your project is key."
+  before-header: "Before you start mapping..."
+  before-description: "Before you start mapping, it’s important to assess things like community participation, safely, tool usages, and long term data maintenance. We know you can’t wait to dive in, but first consider:"
+  privacy-header: "Privacy:"
+  privacy-about: "Should this area be mapped in a public facing way? Despite your best intentions, it is important to consider if and how spatial information can be used against the community you would like to map. Many communities world-wide are accustomed to having detailed public maps of their area. However, even having the absolute minimal information made public can be dangerous for some communities. Other communities may be comfortable with some information being made public but not all. Although you will never get a full consensus from every community member, it is important to consider this at all stages of your work."
+  physicalsafety-header: "Physical Safety:"
+  physicalsafety-about: "During data collection, people sometimes get caught up in the mapping and forget about what’s going on in their surroundings. Keep your safety in mind and consider the following:"
+  physicalsafety-list:
+    - label: "Be aware of your surroundings! Don’t keep your eyes glued to your clipboard or phone."
+    - label: "Some areas may be more dangerous than others. Consider when and where mappers will be welcome in certain areas. [A.] If possible, consider having a community escort and consulting a local to find out where unsafe locations are. [B.] Make sure your mappers can quickly explain your project to community members if asked. [C.] Is your organization branding known in the community? If so, make sure your mappers are easily identified as part of your group with visible logos etc."
+    - label:  "Keep a list of all your mappers, where they are going, and their contact information. If someone gets lost, you’ll need to know how to find them! [A.] The buddy system is always encouraged. [B.] Can your mappers get in touch with the project organizers while out and about in the community? If there isn’t cell service in the area, consider walkie talkies. [C.] Encourage your mappers to pack external batteries as mapping can drain a phone quickly! [D.] Plan to check on each group at least a couple times a day if out for long periods."
+    - label:  "Can some of your electronic equipment be left in the office? Don’t make yourself more of a target for theft than necessary."
+    - label:  "How will your mappers get to their project site? If leaving them behind, consider having a safe meeting spot preassigned in case they need somewhere to pause while waiting for you to get them."
+    - label:  "Do your mappers have enough food/water for the day?"
+    - label:  "Do your mappers have sun / cold / rain protection?"
+    - label:  "If you are conducting a survey while on the road, always get another person to drive who is solely focussed on driving."
+  who:
+    title: "Who will contribute:"
+    about: "Are there already mappers in the area? Have you reached out and included them in your work?  Are you from this community? If not, who will be your local partner(s)? How will you tell the community about your work? <a href=\"https://wiki.openstreetmap.org/wiki/Category:Flyer\">Flyers OSM</a>"
+  priority:
+    title: "Priority:"
+    about: "What is of priority to you, what is of priority to your community? Are you the right person to speak on the topic? Are you prepared to talk about what you are doing?"
+  scale:
+    title:  "Scale:"
+    about: "Do you just want to go on a map walk in your street? Do you want to collect just one type of feature? Are you looking to plan the mapping of a whole town?"
+  data:
+    title: "Data maintenance:"
+    about: "What do you want to capture, how do you want to capture this, how long will this data be accurate? What’s your plan for keeping it up to date? Do you have helpers?"
+  tools-header: "Understanding your tools"
+  tools-about: "Understanding your tools: Missing Maps does not manage data collection tools, but these are some of our favorite resources from the OSM community:"  
+  tools-list:
+    - label: "<a href=\"https://opendatakit.org/\">Open Data Kit</a> -  Open Data Kit was started to make mobile data collection tools for resource-limited settings. Over the last 13 years, the project has produced two tool suites (<a href=\"https://getodk.org/\">ODK</a>, ODK-X) and has become home to a community of users, implementers and developers. "
+    - label: "<a href=\"https://www.kobotoolbox.org/\">KoBo</a> - KoBoToolbox is a suite of tools for field data collection for use in challenging environments. "
+    - label: "<a href=\"https://maps.me/#gsc.tab=0\">Maps.me</a> - a free, open source mobile app that provides offline maps of 345 countries and islands based on OpenStreetMap data. "
+    - label: "<a href=\"https://osmand.net/\">OSMAnd</a> - a Mapping and navigation map with optional offline capacity."
+    - label: "<a href=\"http://posm.io/posm/intro/\">Portable OpenStreetMap (POSM)</a> - a hardware/software integration developed to conduct mapping in the field when internet and cellular connectivity is unreliable."
+    - label: "<a href=\"https://www.opendronemap.org/\">OpenDroneMap</a> - sustainable solutions for collecting, processing, analyzing and displaying aerial data while supporting the communities built around them. "
+  processing-header: "Processing:"
+  processing-about: "Processing: So now that you have gathered data about a community, you will need to put this information into OpenStreetMap. Depending on how you collected your data, there are a few ways to do this:"
+  processing-list:
+    - label: "Direct editors (Maps.Me; OSMAnd…)"
+    - label: "Reconciling map notes (note=*) - some mappers use OSM editing apps to add geo-tagged notes to OSM to reference later. If you have done this, don’t forget to go through your notes and make the desired changes to the map. You can easily view all notes of an area by turning on the ‘Map Notes’ overlay in OpenStreetMap’s Map Layer settings."
+    - label: "Field Papers upload - after making your notes on Field Papers, you can upload the image to FieldPapers.org to easily integrate the notes for digitizing in JOSM." 
+    - label: "GPS tracks, points and notes"
+    - label: "Processing photos of signs, features etc."
+  giveback-header: "Give back your data to the community!"
+  giveback-about: "Give back your data to the community! Consider hosting a community meeting to share updated maps with local businesses, governments, organizations etc. In addition, consider sharing your data with the wider humanitarian world via a platform like the <a href=\"https://data.humdata.org/\">Humanitarian Data Exchange</a>."
+
+####################
+## USING THE DATA ##
+####################
+data:    
+  title: "Using the Data"
+  about: "Information about using the data coming soon!"
+  
+##############
+## MAPSWIPE ##
+##############
+mapswipe:
+  title:    "MapSwipe"
+  intro1:   "With your mobile phone, you can play a part in helping communities around the world, one swipe at a time."
+  intro2:   "Around the world, millions of individuals are affected by disasters, disease, and conflict. First responders working with these communities often have to cover large areas, but lack the data necessary for an efficient, effective response. Through MapSwipe, volunteers pinpoint where critical infrastructure and populations are located, allowing mappers to focus only on areas where they know features need to be mapped."
+  intro3:   "MapSwipe is an open-source mobile app that is making mapping around the world more coordinated and efficient. Volunteers swipe through satellite images looking for features (ie: buildings, roadways, waterways, etc.) and tap once when they have located them. Each set of imagery is viewed by at least three different individuals to create a mechanism for internal validation of results. We believe that anyone, anywhere should be able to contribute to the Missing Maps project. "
+  before: "This would be a huge area for people to map."
+  after: "This is the result of MapSwipe. Much better."
+  how-section:  "How to use MapSwipe"
+  how-intro: "MapSwipe is very intuitive. Mappers follow these steps:"
+  how-list:
+    - label: "Choose your 'mission'. Each mission will indicate what you are looking for (for example, buildings and roads)."
+    - label: "Swipe left to see the next tile."
+    - label: "Tap once on a square to identify a feature. The square will turn green."
+    - label: "Tap twice if you are not sure, but you think there is a feature. The square will turn orange."
+    - label: "Tap three times to identify bad / no imagery or cloud cover. The square will turn red."
+  how-end: "Since its start in 2015, MapSwipe has scaled to 29,000 users mapping 600,000 km2 (larger than the area of Kenya). MapSwipe is volunteer-driven and community-led. Any organization or mapping community can request to use MapSwipe to help with their activities on the ground. To learn more check out the <a href=\"https://mapswipe.org/\">MapSwipe website </a>.  If you’d like to request a project, email info@mapswipe.org. Happy swiping!"
 
 ####################
 ## EVENTS CONTENT ##
