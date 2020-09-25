@@ -348,7 +348,8 @@ checker:
     intro: "Validace je důležitou součástí projektu Missing Maps. Vytvoření kvalitních dat v OpenStreetMap, která budou využita na nejpotřebnějších místech po celém světě, je dlouhý proces. V rámci něj zmapovaná data postupně prohlédne a zkontroluje několik lidí. Validace vyžaduje důvěru ve své vlastní mapovací schopnosti a také ochotu učit nové mappery a radit jim. Projekt Missing Maps je skupina mapperů s různými zkušenostmi s mapováním, kde všichni mají jeden společný cíl: zlepšit dostupnost kvalitních dat pro humanitární účely."
     links:
       faq: "ČASTÉ DOTAZY"
-      josm: "JOSM VALIDACE"
+      tools: "TOOLS FOR PROJECT MANAGERS"
+      guide: "FULL VALIDATION GUIDE"
       wiki: "WIKI"
     steps:
       goal: "Validátoři"

@@ -337,7 +337,8 @@ checker:
     intro: "Validation is an important part of the Missing Maps process. Getting a second, third, or fourth pair of eyes on mapped features goes a long way in ensuring the quality of data being added to OpenStreetMap and being used in vulnerable communities around the world. Validating requires confidence in your mapping abilities as well as the willingness to help coach and advise newer mappers. The Missing Maps Project is a community of mappers with different levels of mapping experience, all who have a common goal of improving the availability of quality data for humanitarian use."
     links:
       faq: "FAQS"
-      josm: "JOSM VALIDATION"
+      tools: "TOOLS FOR PROJECT MANAGERS"
+      guide: "FULL VALIDATION GUIDE"
       wiki: "WIKI"
     steps:
       goal: "Validate"
