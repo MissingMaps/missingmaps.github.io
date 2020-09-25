@@ -299,6 +299,7 @@ host:
   materials_btn:  "MATERIALS"
   register_event:   "REGISTER YOUR EVENT"
   see_materials:    "Download a complete Step-by-Step Guide to Hosting a Mapathon from "
+  materials_title:      "Training and Event Materials"
   prep_check:     "Planning Checklist"
   prep_check_list:
     - label: "Choose a date"
