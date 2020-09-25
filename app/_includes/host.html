@@ -70,14 +70,12 @@
     <div id="Materials">
       <div class="host-image">
         <img src="{{ site.baseurl }}/assets/graphics/content/process/Checklist-3.svg" width="150" alt="A cartoon clipboard with the missing maps logo at the top and a download symbol.">
-        <div class="sub-head">{{site.data[locale].host.materials}}</div>
+        <div class="sub-head">{{site.data[locale].host.materials.title}}</div>
       </div>
       <div class="host-materials">
-        <ul>
-          {% for item in site.data[locale].host.materials_list %}
-          <li><a href="{{ site.baseurl }}/assets/downloads/{{item.asset}}">{{item.text}}</a></li>
-          {% endfor %}
-        </ul>
+        <div class="text-center">
+            <p><a href="{{site.data[locale].host.materials.url}}">{{site.data[locale].host.materials.text}}</a></p>
+        </div>
       </div>
     </div>
     <div id="helper-map">

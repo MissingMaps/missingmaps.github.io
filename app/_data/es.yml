@@ -235,13 +235,10 @@ host:
     - label: "Get presentations ready"
     - label: "Set up snacks"
     - label: "Have fun mapping!"
-  materials:      "Recursos"
-  # if you have translated assets, put them in the assets folder and include filename here, if not, feel free to use the english versions as listed
-  materials_list:
-    - text:       "Guía paso a paso para organizar un Mapathon (en inglés)"
-      asset:      "mapathon-materials/english/How_to_Host_a_Mapathon_EN.pdf"
-    - text:       "Everything else you need to run a successful mapathon! <i class='fa fa-file-archive-o' aria-hidden='true'></i> (zip folder)"
-      asset:      "mapathon-materials.zip"
+  materials:      
+    title: "Training and Event Materials"
+    text: "Everything you need to run a successful mapathon! (Google Drive folder link)"
+    url:  "https://drive.google.com/drive/folders/1gXkvuQNRhfyOVv6XjmncFFUIK4m_yCTb?usp=sharing"
 
 ##############
 ## Validate ##
