@@ -38,7 +38,7 @@ There are four main steps in incorporating a language:
 ## Development
 
 ### Environment
-To set up the development environment for this website, you'll need to install the following on your system:
+To set up the development envireonment for this website, all you will need to install the following on your system:
 
 - [Node and npm](http://nodejs.org/)
 - Ruby and [Bundler](http://bundler.io/), preferably through something like [rvm](https://rvm.io/)
@@ -61,7 +61,7 @@ If you get a `jekyll-4.0.0 requires rubygems version >= 2.7.0, which is incompat
 ```
 $ gulp serve
 ```
-Compiles the compass files, javascripts, and launches the server making the site available at `http://localhost:3000/`
+Compiles the compass files, javascripts and launches the server making the site available at `http://localhost:3000/`
 The system will watch files and execute tasks whenever one of them changes.
 The site will automatically refresh since it is bundled with livereload.
 
