@@ -37,7 +37,7 @@ There are four main steps in incorporating a language:
 
 ## Development
 
-### Environment
+### Environment Setup
 To set up the development environment for this website, you'll need to install the following on your system:
 
 - [Node and npm](http://nodejs.org/)
