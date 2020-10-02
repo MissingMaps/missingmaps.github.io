@@ -1,18 +1,18 @@
-## [Missing Maps](http://www.missingmaps.org/)
+## [MISSING MAPS](http://www.missingmaps.org/)
 
-### Adding events
+### ADDING EVENTS
 
 Events are managed through a Google Form and Sheet.
 
-### Adding Blog Post
+### ADDING BLOG POST
 
 Blog posts are managed in the [blog](https://github.com/MissingMaps/blog) repo. Add a post following the instructions in the [Readme](https://github.com/MissingMaps/blog/blob/master/README.md).
 
-### Updating 'Mapathon Materials' zip folder
+### UPDATING 'MAPATHON MATERIALS' zip FOLDERS
 
 During the regularly occurring site build process, any files in the `app/assets/downloads/mapathon-materials/` folder will be zipped together and made available for download at http://www.missingmaps.org/assets/downloads/mapathon-materials.zip. Make sure the file at `host.materials_list[0].asset` in each `app/_data/{{language_code}}.yml` file exists in the `downloads` folder (e.g. `mapathon-materials/english/How_to_Host_a_Mapathon_EN.pdf`).
 
-### Adding Language support
+### ADDING LANGUAGE SUPPORTS
 
 The site is configured to support 2-letter core language codes. So english is 'en' not 'en-US' and/or 'en-GB'. Using a longer code will not function.
 
@@ -35,9 +35,9 @@ There are four main steps in incorporating a language:
     1. add documents to assets/downloads
     2. update \_data/```2-letter code```.yml host.materials_list.asset(s) with the filename you created
 
-## Development
+## DEVELOPMENT
 
-### Environment
+### ENVIRONMENT
 To set up the development environment for this website, you'll need to install the following on your system:
 
 - [Node and npm](http://nodejs.org/)
@@ -56,7 +56,7 @@ Will also run `bundle install`
 
 If you get a `jekyll-4.0.0 requires rubygems version >= 2.7.0, which is incompatible with the current version` error then try running: `gem update --system`
 
-### Getting started
+### GETTING STARTED
 
 ```
 $ gulp serve
@@ -67,7 +67,7 @@ The site will automatically refresh since it is bundled with livereload.
 
 The `_config-dev.yml` file will be loaded alongside `_config.yml`.
 
-### Other commands
+### OTHER COMMANDS
 Clean the compiled site. I.e. the `_site` folder
 ```
 $ gulp clean
