@@ -15,8 +15,6 @@ nav:
         url:      "/cs/field/"
       - text:     "VALIDATION"
         url:      "/cs/validate/"
-      - text:     "USING DATA"
-        url:      "/cs/data/"
       - text:     "MAPSWIPE"
         url:      "/cs/mapswipe/"
   - text:         "AKCE"
@@ -131,7 +129,6 @@ beginner:
   beginners:    "ZAČÁTEČNÍCI"
   advanced:     "Advanced Mapping"
   field:        "Field Mapping"
-  data:         "Using the Data"
   stepAccount:        "Vytvořte si účet na Open Street Map"
   stepAccount_text:   "Přejděte na webové stránky <a href=\"https://www.openstreetmap.org/login\">OpenStreetMap</a> a zaregistrováním si vytvořte účet. Klikněte na odkaz, který vám příjde do vaší emailové schránky, čímž dokončíte registraci a potvrdíte svůj účet."
   stepBuildings:        "Naučte se mapovat budovy"
@@ -205,13 +202,6 @@ field:
   giveback-header: "Give back your data to the community!"
   giveback-about: "Give back your data to the community! Consider hosting a community meeting to share updated maps with local businesses, governments, organizations etc. In addition, consider sharing your data with the wider humanitarian world via a platform like the <a href=\"https://data.humdata.org/\">Humanitarian Data Exchange</a>."
 
-####################
-## USING THE DATA ##
-####################
-data:    
-  title: "Using the Data"
-  about: "Information about using the data coming soon!"
-  
 ##############
 ## MAPSWIPE ##
 ##############

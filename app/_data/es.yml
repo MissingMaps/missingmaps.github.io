@@ -15,8 +15,6 @@ nav:
         url:      "/es/field/"
       - text:     "VALIDATION"
         url:      "/es/validate/"
-      - text:     "USING DATA"
-        url:      "/es/data/"
       - text:     "MAPSWIPE"
         url:      "/es/mapswipe/"
   - text:         "EVENTOS"
@@ -131,7 +129,6 @@ beginner:
   beginners:    "Principiantes"
   advanced:     "Advanced Mapping"
   field:        "Field Mapping"
-  data:         "Using the Data"
   stepAccount:        "Crea una cuenta OpenStreetMap"
   stepAccount_text:   "Ir a la página Web de <a href=\"https://www.openstreetmap.org/login\">OpenStreetMap</a> donde podrás registrarte para crear una cuenta. Luego sigue las instrucciones recibidas por correo electrónico para confirmar la nueva cuenta."
   stepBuildings:        "Aprende a cartografiar edificios"
@@ -205,12 +202,6 @@ field:
   giveback-header: "Give back your data to the community!"
   giveback-about: "Give back your data to the community! Consider hosting a community meeting to share updated maps with local businesses, governments, organizations etc. In addition, consider sharing your data with the wider humanitarian world via a platform like the <a href=\"https://data.humdata.org/\">Humanitarian Data Exchange</a>."
 
-####################
-## USING THE DATA ##
-####################
-data:    
-  title: "Using the Data"
-  about: "Information about using the data coming soon!"
   
 ##############
 ## MAPSWIPE ##
