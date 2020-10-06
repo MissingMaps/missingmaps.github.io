@@ -1,3 +1,48 @@
+##################
+## IMG ALT TEXT ##
+##################
+img-alt:
+  wright-stuff: "..."
+  arrow: "..."
+  blog: "..."
+  Edit: "..."
+  Changeset: "..."
+  Building: "..."
+  Road: "..."
+  MM-White:  "..."
+  mapswipe-before: "..."
+  mapswipe-after:  "..."
+  mapswipe-squares:  "..."
+  mapswipe-footer:  "..."
+  MapNow: "A cartoon laptop is displayed. An image on the screen shows two cartoon characters with lifesize map components. A man is placing a boundary around a structure, while the woman is running towards the man with a PointOfInterest (POI) icon."
+  Mapathon: "A diverse group of five cartoon characters are at a mapathon. Four are at computers, while one is supervizing and eating pizza."
+  Donate: "A cartoon man and cartoon woman shake hands and smile."
+  Checklist: "Cartoon of a checklist on a clipboard with four items. Two are checked off.  There is also a power strip and pencil and the twitter icon bird."
+  Checklist-2: "A cartoon checklist with four items. Three are checked off.  There is also a pencil."
+  Checklist-3: "A cartoon clipboard with the missing maps logo at the top and a download symbol."
+  LeaderboardGraphic: "Two charts: one blue and one green. No data is in them."
+  Learn-MapNow: "A cartoon computer, with an OSM logo on it. The OSM logo is a magnifying glass on top of a map"
+  Learn-Tutorials: "A cartoon computer with a LearnOSM logo on it.  The LearnOSM logo is a magnifying glass on top of a green rectanglar map."
+  Learn-YouTube: "A cartoon computer with a YouTube logo on it.  The YouTube logo is a red square with a while triangle play symbol. "
+  MMlogo-Outlined: "The Missing Maps logo is a gray circle with milti-colored rectangles filling in the circle. "
+  Process(outlined-text): "An three piece image.  The first has two cartoon people at computers on a blue background.  There is a slice of pizza. Text says 'How we work: Step 1. Remote volunteers trace satellite imagery into OpenStreetMap.'.  The second had one cartoon person moving between two structures while holding a computer. The background is green. The structure on the left is a building with a peaked roof.  The structure on the right is a building with a round mushroom roof. Text says 'Step 2. Community volunteers add local details such as neighborhoods, street names, and evacuation centers.'.  The third has three cartoon people on an orange background. The middle person has his arms around the people next to him. He has a Red Cross emblem on his shirt. There are two building icons in the background. Text says 'Step three. Humanitarian organizations use mapped information to plan risk reduction and disaster response activities that save lives."
+  Process-PartOne: "Two cartoon people at computers on a blue background.  There is a slice of pizza. Text says 'How we work: Step 1. Remote volunteers trace satellite imagery into OpenStreetMap.'"
+  Process-PartTwo: "One cartoon person moving between two structures while holding a computer. The background is green. The structure on the left is a building with a peaked roof.  The structure on the right is a building with a round mushroom roof. Text says 'Step 2. Community volunteers add local details such as neighborhoods, street names, and evacuation centers.'"
+  Process-PartThree: "Three cartoon people on an orange background. The middle person has his arms around the people next to him. He has a Red Cross emblem on his shirt. There are two building icons in the background. Text says 'Step three. Humanitarian organizations use mapped information to plan risk reduction and disaster response activities that save lives.'"
+  ProfileGraphic: "A cartoon image of a computer screen showing the user profile layout.  The top navigation bar is gray, and there is a mock profile picture of a gray cartoon person with a small Missing Maps logo on their chest."
+  SatelliteOfLove: "A cartoon image of a satellite.  It is orange and open pointing down."
+  Stars: "Image is blank."
+  helper: "A mock profile picture for a gray cartoon person with a small Missing Maps logo on their chest."
+  404: "Man in Red vest with 'Liberian Red Cross' logo points accorss a river."
+  mapathon: "Two women smile while enjoying their volunteering and look at the computer."
+  mapathon2: "Classroom setting with multiple tables. Mappers are at each one with computers and drinks. "
+  mapathon3: "Three men examine map attached to the wall. One points with a pen."
+  mapathon4: "Three people look at a map attached on the wall.  One woman smiles and two men take notes with pens."
+  mapathon5: "Man in button up shirt with a button up shirt leads a volunteer event. People look at a screen display behind him."
+  mapathon6: "People gather in a covered open space and listen and watch a woman with a Red Cross t-shirt on. She has a phone and is recording information."
+  process: "A yellow satellite beams its rays down on the earth. On the left, two blue stick figures sit at a desk with computers under a banner 'Step 1: Remote volunteers trace satellite imagery into OpenStreetMap'. Under the rays, three round huts are on the earth's surface with text above.  Text reads 'Step 2: Community volunteers add local details such as neighborhoods, street names, and evacuation centers'.  On the right, three red stick figures cluster.  The middle person has a red cross emblem on their chest.  Above text reads 'Step 3: Humanitarian organizations use mapped information to plan risk reduction and disaster response activities that save live.' "
+  validate: "Close up of a desk, five computers are open to mapping. We see a map of the world and a printout of mapping instructions. A hand is on the keypad of the computer."
+
 ####################
 ## HEADER CONTENT ##
 ####################
