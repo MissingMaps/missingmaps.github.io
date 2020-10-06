@@ -25,7 +25,7 @@ document.querySelector("header").style.display = 'inline-block';
       </a>
     </div>
     <div class="small-3 columns" style="text-align: center">
-      <a href="#">
+      <a href="{{ site.baseurl }}/assets/downloads/{{site.data[locale].checker.links.tools-filename}}">
         <img src="{{ site.baseurl }}/assets/graphics/content/process/Learn-MapNow.svg"></img>
         <div class="btn btn-grn contribute-caps">{{site.data[locale].checker.links.tools}}</div>
       </a>
@@ -48,7 +48,11 @@ document.querySelector("header").style.display = 'inline-block';
   </div>
 
         <div class="validate-container">
-          <div class="row center-text title section-header large-12 small-6 columns" id="learn"><a name="validate">{{site.data[locale].checker.steps.goal}}</a></div>
+          <div class="row" id="learn">
+            <div class="small-12 columns center-text title section-header">
+              <a name="validate">{{site.data[locale].checker.steps.goal}}</a>
+            </div>
+          </div>
           <div class="row">
             <div class="videobox large-6 small-12 columns">
               <div class="sub-head" style="text-align: left">1. {{site.data[locale].checker.steps.step1_subtitle}}

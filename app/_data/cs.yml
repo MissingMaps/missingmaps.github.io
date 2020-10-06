@@ -340,6 +340,8 @@ checker:
     links:
       faq: "ČASTÉ DOTAZY"
       tools: "TOOLS FOR PROJECT MANAGERS"
+      tools-filename: "Tools for Project Managers_EN.pdf"  
+      ### NOTE: above file needs to exist in `/app/assets/downloads/` folder
       guide: "FULL VALIDATION GUIDE"
       wiki: "WIKI"
     steps:
