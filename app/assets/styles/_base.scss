@@ -352,24 +352,8 @@ header{
   margin-bottom: 4rem;
 }
 
-.header-beginner {
+.header-contribute {
   background-image: url("/assets/graphics/old/mapathon.jpg");
-}
-
-.header-advanced {
-  background-image: url("/assets/graphics/old/mapathon.jpg");
-}
-
-.header-advanced {
-  background-image: url("/assets/graphics/old/mapathon.jpg");
-}
-
-.header-field {
-  background-image: url("/assets/graphics/old/mapathon.jpg");
-}
-
-.header-mapswipe {
-  background-image: url("/assets/graphics/old/mapswipe.jpg");
 }
 
 .header-events {
@@ -600,7 +584,7 @@ input[type="text"]{
   cursor:pointer;
   transition: active 0.25s;
   color: white;
-  padding: 8px 14px 6px 14px;
+  padding: 8px 14px 8px 14px;
   margin: 10px 8px 6px 0px;
   font-size: 0.8em;
   font-weight: 400;
@@ -853,4 +837,11 @@ input[type="text"]{
 .member {
   max-width: 120px;
   max-height: 60px;
+}
+
+.custom-gray {
+  color: #b0b0b0 !important;
+}
+.custom-gray > * {
+  color: #b0b0b0 !important;
 }
