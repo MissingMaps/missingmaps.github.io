@@ -5,16 +5,16 @@
 home:             "fr/"
 
 nav:
-  - text: "LEARN"
+  - text: "APPRENDRE"
     links:
-      - text:     "BEGINNER MAPPING"
-        url:      "/fr/beginner/"
-      - text:     "ADVANCED MAPPING"
-        url:      "/fr/advanced/"
-      - text:     "FIELD MAPPING"
-        url:      "/fr/field/"
+      - text:     "DÉBUTANT EN CARTOGRAPHIE"
+        url:      "/fr/débutant/"
+      - text:     "CARTOGRAPHIE AVANCÉE"
+        url:      "/fr/avancé/"
+      - text:     "CARTOGRAPHIE DE TERRAIN"
+        url:      "/fr/terrain/"
       - text:     "VALIDATION"
-        url:      "/fr/validate/"
+        url:      "/fr/validé/"
       - text:     "MAPSWIPE"
         url:      "/fr/mapswipe/"
   - text:         "ÉVÉNEMENTS"
@@ -23,29 +23,28 @@ nav:
         url:      "/fr/evenements/"
       - text:     "ORGANISER UN ÉVÉNEMENT"
         url:      "/fr/organiser/"
-      - text:     "MAPATHON SUPPORT"
+      - text:     "SUPPORT MAPATHON"
         url:      "/fr/organiser/#helper-map-contents"
   - text:         "À PROPOS"
     url:          "/fr/apropos/"
   - text:         "BLOG"
     url:          "/fr/blog/"
-  - text:         "EXPLORE"
+  - text:         "EXPLORER"
     links:
       - text:     "PROFILS DES CONTRIBUTEURS"
         url:      "http://www.missingmaps.org/users/"
       - text:     "PALMARES"
         url:      "http://www.missingmaps.org/leaderboards/"
-      - text:     "STATISTICS"
-        url:      "/fr/statistics/"
+      - text:     "STATISTIQUES"
+        url:      "/fr/statistiques/"
 
 #####################
 ## LANDING CONTENT ##
 #####################
 
 banner:
-  title:          "Remettre les personnes les plus vulnérables de la Terre sur la carte" #Formulation du tagline?
-  subtitle:       "Chaque année, les catastrophes naturelles tuent près de 100 000 personnes et touchent ou déplacent 200 millions de personnes dans le monde. La plupart des endroits où se produisent ces catastrophes sont littéralement 'absents' des cartes et les premiers secours manquent d'informations pour prendre les bonnes décisions sur le terrain. Missing Maps est un projet ouvert et collaboratif auquel vous pouvez participer, en cartographiant les zones où les organisations humanitaires essaient de répondre aux besoins des populations touchées."
-
+  title:          "Mettre les communautés les plus vulnérables du monde sur la carte" #Formulation du tagline?
+  subtitle:       "Chaque année, des catastrophes tuent près de 100 000 personnes et touchent ou déplacent 200 milions de personnes dans le monde. La plupart des endroits où se produisent ces catastrophes sont littéralement 'absents' des cartes libres et accessibles et les premiers secours manquent d'informations pour prendre les bonnes décisions sur le terrain. Missing Maps est un projet ouvert, collaboratif auquel vous pouvez participer, en cartographiant les zones où les organisations humanitaires essaient de répondre aux besoin des populations qui vivent dans la peur de catastrophes ou de crises."
 how_we_work:
   title:        "Comment nous travaillons"
   # the "step" lines are for insertion in an svg
@@ -75,22 +74,22 @@ how_we_work:
 
 how_to_participate:
   title:        "Comment participer"
-  start:        "Commencez à cartographier"
-  start_text:   "Ce n'est pas un problème si vous n'avez jamais cartographié avant - l'apprentissage n'est pas long. Visitez notre section débutants pour apprendre comment cartographier. Si vous savez déjà comment éditer dans OpenStreetMap, vous pouvez commencer."
+  start:        "Commencez à cartographier - Étape 1"
+  start_text:   "Ce n'est pas un problème si vous n'avez jamais cartographié avant. L'aprentissage n'est pas long - seulement un après-midi ! Visitez notre section pour les débutants sur notre page Apprenez à Cartographier pour savoir comment faire. Si vous savez déjà comment éditer sur OpenStreetMap (OSM), n'hésitez pas à commencer."
   map_btn:      "CARTOGRAPHIER"
   learn_btn:    "APPRENDRE A CARTOGRAPHIER"
   organize:     "Organiser un mapathon"
-  organize_text: "Organiser un mapathon est un moyen fantastique de développer une communauté de cartographes se concentrant sur une région du globe. C'est aussi un environnement propice à l'apprentissage, où les nouveaux peuvent bénéficier de l'expérience des autres. Des mapathons sont organisés par des groupes et des individus partout dans le monde."
+  organize_text: "Organiser des mapathons est un moyen fantastique de construire une communauté de cartographes. C'est aussi un environnement propice à l'apprentissage, où les nouveaux peuvent bénéficier de l'expérience des autres tout en contribuant à un but commun. Des mapathons sont organisés par des groupes et des individus partout dans le monde."
   lead_btn:     "ORGANISER UN MAPATHON"
-  join_btn:     "JOIN A MAPATHON"
-  field-mapping: "Field Mapping"
-  field-mapping_text: "Organize field mapping to add more details to the map!"
-  field-mapping_btn: "FIELD MAPPING"
-  blog: "Blog"
-  blog_text: "Blog!"
-  blog_btn: "BLOG"
+  join_btn:     "REJOIGNEZ UN MAPATHON"
+  field-mapping: "Cartographiez sa communauté - Étape 2"
+  field-mapping_text: "Beaucoup d'organisations utilisent OSM pour compléter leurs programmes. OSM est un bon moyen de collecter des données de terrain tout en valorisant des communautés. Si vous êtes intéressé par la création et l'utilisation de données provenant d'OSM pour vos projets, ces guides vous aiderons à vous y familiariser"
+  field-mapping_btn: "CARTOGRAPHIE DE TERRAIN"
+  blog: "Découvrez notre travail - Étape 3"
+  blog_text: "Missing Maps es un collectif d'organisations utilisant et développant OSM pour mieux servir les communautés à travers le monde. Si vous voulez en savoir plus sur ce qui se passe ensuite, regardez le blog Missing Maps."
+  blog_btn: "Lisez le blog"
   donate:       "Faire un don pour faire une différence"
-  donate_text:  "Une donation à l'équipe humanitaire d'OpenStreetMap (Humanitarian OSM Team) nous aide à soutenir les populations locales dans le développement de leur communauté et de leur cartographie, à développer des outils et méthodes permettant à plus de personnes de contribuer, et à étendre le projet afin d'aider plus d'organisations humanitaires à répondre aux crises tout autour de la planète."
+  donate_text:  "Une donation à <a href=\"https://www.hotosm.org/donate/\">l'équipe humanitaire d'OpenStreetMap</a> (l'un des fondateurs de Missing Maps) peut aider à supporter les populations locales à cartographier leur propres communautés, développer des outils et des processus pour que plus de personnes puissent contribuer, et étendre ce travail pour que davantage d'intervenants et d'organisations humanitaires dans le monde aient accès à des cartes et des données leur permettant de prendre des décisions urgentes, basées sur des données."
   donate_btn:   "DONNER"
 
 contributions:
@@ -119,14 +118,14 @@ contact:
 ##############
 beginner:
   title:        "Comment contribuer"
-  how_text:     "Si vous êtes nouveau contributeur, nous vous recommandons de regarder les vidéos de la section 'Débutants' ci-dessous pour bien démarrer. Si vous avez déjà cartographié suivez le lien 'Cartographier'. Il existe aussi d'autres tutoriels disponible via LearnOSM."
+  how_text:     "Si vous débutez en cartographie, nous vous recommandons de regarder les vidéos de la section 'Débutants' ci-dessous pour bien démarrer. Pour accéder à une intro complète sur le mapathon, et pour les vidéos supplémentaires, cliquez sur le bouton Youtube. Si vous avez déjà cartographié avant, prenez en compte l'apprentissage pour valider vos connaissances. Il y a aussi des didacticiels supplémentaires disponibles via LearnOSM."
   map_btn:      "CARTOGRAPHIER"
   learn_osm:    "PLUS DE TUTORIAUX"
   youtube:      "YOUTUBE"
   beginners:    "Débutants"
-  advanced:     "Advanced Mapping"
-  field:        "Field Mapping"
-  stepAccount:        "Créez un Compte OpenStreetMap"
+  advanced:     "CARTOGRAPHIE AVANCÉE"
+  field:        "CARTOGRAPHIE DE TERRAIN"
+  stepAccount:        "Créez un compte OpenStreetMap et Tasking Manager"
   stepAccount_text:   "Allez sur le site <a href=\"https://www.openstreetmap.org/login\">OpenStreetMap</a> inscrivez-vous vous pour créer un compte. Suivez le lien dans le mail qui vous sera envoyé pour valider la création de votre compte."
   stepBuildings:        "Apprenez à cartographier les bâtiments"
   stepBuildings_text:   "Les bâtiments sont un des éléments les plus utiles que vous pouvez ajouter à OpenStreetMap (et c'est amusant aussi)! Apprenez comment ajouter ou éditer les bâtiments dans OSM avec l'éditeur iD."
