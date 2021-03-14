@@ -1,0 +1,422 @@
+
+
+<!DOCTYPE html>
+<!--[if lt IE 10]> <html class="lt-ie10 no-js"  lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>MapSwipe Tutorial</title>
+    <meta name="description" content="MapSwipe relies on users being able to interpret what they see in the satellite imagery provided. This tutorial gives some guidance on how best to do that.">
+
+    <link rel="canonical" href="/blog/2016/07/18/mapswipetutorial/">
+    <link rel="alternate" type="application/rss+xml" title="Missing Maps" href="/feed.xml">
+
+    <link rel="stylesheet" href="/assets/styles/main.css">
+
+    <link rel="author" type="text/plain" href="humans.txt" />
+
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400|Hind:700,300,600' rel='stylesheet' type='text/css'>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/graphics/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/graphics/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/graphics/favicon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/graphics/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/graphics/favicon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/graphics/favicon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/graphics/favicon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/graphics/favicon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/graphics/favicon/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/graphics/favicon/apple-touch-icon-180x180.png">
+  <link rel="shortcut icon" href="/assets/graphics/favicon/favicon.ico">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/assets/graphicsfavicon/favicon-32x32.png" sizes="32x32">
+
+  <meta name="description" content="Putting the World's Vulnerable People on the Map">
+  <meta itemprop="name" content="MissingMaps">
+  <meta itemprop="description" content="Putting the World's Vulnerable People on the Map" >
+  <meta itemprop="image" content="http://i.imgur.com/sSUhfmc.png" >
+  <meta name="twitter:card" content="product" >
+  <meta name="twitter:site" content="@themissingmaps" >
+  <meta name="twitter:title" content="MissingMaps" >
+  <meta name="twitter:description" content="Putting the World's Vulnerable People on the Map" >
+  <meta name="twitter:creator" content="@themissingmaps" >
+  <meta name="twitter:image" content="http://i.imgur.com/sSUhfmc.png" >
+
+  <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Missing Maps" />
+  </head>
+
+  <body>
+    <!--[if lt IE 11]>
+      <div id="nocando">
+        <h1>No can do!</h1>
+        <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      </div>
+    <![endif]-->
+
+    
+
+<header>
+	<div class="navbar-background">
+		<div class="nav-icon">
+			<a href="/">
+				<img src="/assets/graphics/meta/MM-White.svg" width="94px">
+			</a>
+		</div>
+		<div class="nav-list">
+			<ul>
+				
+				
+				<li class="nav-item nav-dropdown">CONTRIBUTE
+					<div class="dropdown-content">
+						
+						<a href="/learn/"><div class="nav-item">LEARN TO MAP</div></a>
+						
+						<a href="/validate/"><div class="nav-item">LEARN TO VALIDATE</div></a>
+						
+						<a href="http://mapswipe.org/"><div class="nav-item">MAPSWIPE</div></a>
+						
+					</div>
+				</li>
+				
+				
+				
+				<li class="nav-item nav-dropdown">EVENTS
+					<div class="dropdown-content">
+						
+						<a href="/events/"><div class="nav-item">CURRENT EVENTS</div></a>
+						
+						<a href="/host/"><div class="nav-item">ORGANIZE AN EVENT</div></a>
+						
+						<a href="/host/#helper-map-contents"><div class="nav-item">MAPATHON SUPPORT</div></a>
+						
+					</div>
+				</li>
+				
+				
+				
+				<a href="/about/">
+					<li class="nav-item">ABOUT</li>
+				</a>
+				
+				
+				
+				<a href="/blog/">
+					<li class="nav-item">BLOG</li>
+				</a>
+				
+				
+				
+				<li class="nav-item nav-dropdown">DISCOVER
+					<div class="dropdown-content">
+						
+						<a href="http://www.missingmaps.org/users/"><div class="nav-item">USER PROFILES</div></a>
+						
+						<a href="http://www.missingmaps.org/leaderboards/"><div class="nav-item">LEADERBOARDS</div></a>
+						
+						<a href="/osmstats/"><div class="nav-item">OSMSTATS</div></a>
+						
+					</div>
+				</li>
+				
+				
+				|
+				<li class="nav-item nav-dropdown">en
+					<div class="dropdown-content">
+						
+						
+
+						<a href="">
+							<div class="nav-item item-centered">cs</div>
+						</a>
+						
+						
+
+						<a href="">
+							<div class="nav-item item-centered">en</div>
+						</a>
+						
+						
+
+						<a href="">
+							<div class="nav-item item-centered">es</div>
+						</a>
+						
+						
+
+						<a href="">
+							<div class="nav-item item-centered">fr</div>
+						</a>
+						
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="resp-navbar navbar-background resp-nav-dropdown">
+		<p>MENU</p>
+		<div class="resp-dropdown-content">
+			
+			
+			<a href="/learn/">
+				<li class="nav-item">LEARN TO MAP</li>
+			</a>
+			
+			<a href="/validate/">
+				<li class="nav-item">LEARN TO VALIDATE</li>
+			</a>
+			
+			<a href="http://mapswipe.org/">
+				<li class="nav-item">MAPSWIPE</li>
+			</a>
+			
+			
+			
+			<a href="/events/">
+				<li class="nav-item">CURRENT EVENTS</li>
+			</a>
+			
+			<a href="/host/">
+				<li class="nav-item">ORGANIZE AN EVENT</li>
+			</a>
+			
+			<a href="/host/#helper-map-contents">
+				<li class="nav-item">MAPATHON SUPPORT</li>
+			</a>
+			
+			
+			
+			<a href="/about/">
+				<li class="nav-item">ABOUT</li>
+			</a>
+			
+			
+			
+			<a href="/blog/">
+				<li class="nav-item">BLOG</li>
+			</a>
+			
+			
+			
+			<a href="http://www.missingmaps.org/users/">
+				<li class="nav-item">USER PROFILES</li>
+			</a>
+			
+			<a href="http://www.missingmaps.org/leaderboards/">
+				<li class="nav-item">LEADERBOARDS</li>
+			</a>
+			
+			<a href="/osmstats/">
+				<li class="nav-item">OSMSTATS</li>
+			</a>
+			
+			
+			<div class="mobile-languages">
+				 
+				<a href="/cs/">
+					<div class="lang">cs</div>
+				</a>
+				  
+				<a href="/">
+					<div class="lang">en</div>
+				</a>
+				  
+				<a href="/es/">
+					<div class="lang">es</div>
+				</a>
+				  
+				<a href="/fr/">
+					<div class="lang">fr</div>
+				</a>
+				 
+			</div>
+		</div>
+	</div>
+</header>
+
+
+<script>
+  document.querySelector("header").style.display = 'inline-block';
+</script>
+
+<div id="site-canvas">
+  
+  <div class="header-image" style="background-image: url('https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20160714_mapswipe.jpg');">
+  
+    <div class="dark-overlay center-text">
+      <h1 class="title feature-header">MapSwipe Tutorial</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="textbox blog-container">
+        <div class="blog-date">18 July 2016</div>
+        <h2 id="mapswipe-how-to-map-from-the-satellite-imagery">MapSwipe: How to map from the satellite imagery!</h2>
+
+<p>First of all, thank you so much for contributing to the Missing Maps project via <a href="http://mapswipe.org">MapSwipe</a>. We are blown away by your response so far!</p>
+
+<p>Many of you have been in touch to give your comments, suggestions and bug reports. We’d like to try and address one of the main requests: guidance on mapping from the satellite imagery.</p>
+
+<blockquote>
+  <p>MapSwipe pro tip - did you know if you hold down a tile it will zoom so that you see it more carefully?</p>
+</blockquote>
+
+<p>Mapping is never straightforward. Buildings and roads differ hugely from country to country. This blog post aims to give some examples but is by no means comprehensive. In the future, we also hope to build training and support into the app. Please feel free to keep your feedback coming!</p>
+
+<p>We will be looking at imagery from the Niger State (Nigeria) missions for the following items:</p>
+
+<h3 id="buildings">Buildings:</h3>
+
+<p>There are <strong>two main types of building in this area; rectangular structures with metal or wooden roofs and round huts with roofs of straw</strong>.</p>
+
+<figure>
+<img src="https://wiki.openstreetmap.org/w/images/e/e2/MSSS3.JPG" alt="Building examples" />
+<p class="caption">Building examples</p>
+</figure>
+
+<p>The rectangular buildings are much easier to spot as they are generally square and usually fairly large. The round huts, however, are often smaller and blend more into the landscape. You can see the differences in the examples below.</p>
+
+<figure>
+<img src="https://wiki.openstreetmap.org/w/images/8/82/MSSS1.JPG" alt="Rectangular buildings" />
+<p class="caption">Rectangular buildings</p>
+</figure>
+
+<p>The <strong>round huts can</strong> be differentiated from natural features, such as trees and rocks because they usually appear to be a (near-perfect) circle. They are also often grouped together into villages or hamlets.</p>
+
+<figure>
+<img src="https://wiki.openstreetmap.org/w/images/5/51/MSSS2.JPG" alt="Round huts" />
+<p class="caption">Round huts</p>
+</figure>
+
+<p>It is very important that we try and identify all structures in this task, so take your time when swiping and look out for these groups of shapes. <strong>Remember, if you are unsure you can always tap it twice to turn the tile yellow indicating “maybe”.</strong> It is often better to be on the safe side and tap to indicate a feature as other mappers will review and map the areas you have identified.</p>
+
+<h3 id="roads">Roads:</h3>
+<p>Road and tracks are sometimes easy to see and sometimes very faint in the satellite imagery. Major roads are usually obvious, but the smaller paths can be tricky to identify. Many people have asked whether we want them to map just major roads or paths and tracks as well. Unfortunately, it is not that simple!</p>
+
+<figure>
+<img src="https://wiki.openstreetmap.org/w/images/c/c4/MSSS4.JPG" alt="Road example" />
+<p class="caption">Road example</p>
+</figure>
+
+<p>What we need is the <strong>road networks</strong>. This will always include well-established roads. Does it include tracks and paths? Sometimes!</p>
+
+<figure>
+<img src="https://wiki.openstreetmap.org/w/images/2/28/MSSS5.JPG" alt="Road and path examples" />
+<p class="caption">Road and path examples</p>
+</figure>
+
+<p>If a <strong>track or a path</strong> leads to a village or hamlet (or to a larger road), we need to know where it is. If it leads to a field, it is not necessary to map. However, because you only have a limited view of the area, it is often difficult to tell. It’s a good idea to swipe left and right to see if you can see where the path or track goes.</p>
+
+<figure>
+<img src="https://wiki.openstreetmap.org/w/images/2/20/MSSS6.JPG" alt="Dead end path examples" />
+<p class="caption">Dead end path examples</p>
+</figure>
+
+<p>So, where you see that a track or path ends before hitting a village, hamlet or another road, please ignore it. Otherwise, please identify it. <strong>Remember, if you are unsure you can always tap it twice to turn the tile yellow indicating “maybe”.</strong></p>
+
+<h3 id="rivers-and-river-beds">Rivers and river beds</h3>
+
+<p>In the example above, you can see there is a <strong>dry riverbed</strong>. We are not generally asking for waterways to be mapped in these tasks, but <strong>it looks like this one is also used as a path</strong>, so we would ask for it to be mapped.</p>
+
+<figure>
+<img src="https://wiki.openstreetmap.org/w/images/a/ae/MSSS7.JPG" alt="River bed example" />
+<p class="caption">River bed example</p>
+</figure>
+
+<p>Often, you can identify a river because they meander, whereas roads tend to go straight from one place to another. Swipe left and right to see how the feature moves if you can.</p>
+
+<p>If you are unsure of anything, it might be best to double tap the area to indicate a possible feature as other mappers will come later to map the areas you have identified and they will be able to check.</p>
+
+<h3 id="bad-imagery-and-clouds">Bad imagery and clouds</h3>
+
+<p>By triple tapping on a square turning the tile red, you can indicate that you cannot see the landscape. This could be because you have encountered <strong>an absence of imagery, poor quality imagery or clouds</strong>.</p>
+
+<p>The ‘'’camera icon’’’ in the first example means there is no imagery available for this area. Triple tapping here is important because it lets us know where we need to find alternative sources for imagery.</p>
+
+<figure>
+<img src="https://wiki.openstreetmap.org/w/images/c/ce/MSSS8.JPG" alt="Missing imagery example" />
+<p class="caption">Missing imagery example</p>
+</figure>
+
+<p>In the second example, you would triple tap because the cloud is obscuring your view of the area.</p>
+
+<figure>
+<img src="https://wiki.openstreetmap.org/w/images/c/c9/MSSS9.JPG" alt="Cloudy imagery example" />
+<p class="caption">Cloudy imagery example</p>
+</figure>
+
+<p>However, in the third example, there is a little cloud, but you can see clearly that there is nothing underneath it, so you can swipe this one.</p>
+
+<figure>
+<img src="https://wiki.openstreetmap.org/w/images/9/92/MSSS10.JPG" alt="Cloudy imagery example" />
+<p class="caption">Cloudy imagery example</p>
+</figure>
+
+<h3 id="and-finally">And, finally…!</h3>
+<p>We hope this is a useful resource for you. Please feel free to share it so others may also benefit. If you have any feedback on this or any other aspects of MapSwipe, please feel free to use the <a href="https://docs.google.com/forms/d/e/1FAIpQLSe5-LIScH0URlymhTzXAyrbTJUEMmfBvWfBVuW38Zw9PnxPzA/viewform?c=0&amp;w=1">feedback form</a>.</p>
+
+<p>Also, remember that no one person is responsible for any area. Multiple people look at every tile. If you miss something, others might see it. Although, obviously, please try not to miss anything ;)</p>
+
+<p><strong>Thanks again for helping humanitarians…..</strong></p>
+
+        <hr class="blog-end">
+        <p class="author">by Pete Masters</p>
+      </div>
+    </div>
+  </div>
+
+
+    
+
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-container">
+      <div class="center-text">
+        <div class="row">
+          <div class="title section-header">Contact Us</div>
+        </div>
+        <a href="https://twitter.com/TheMissingMaps" class="btn btn-blue"><i class="fab fa-twitter"></i> TWITTER </a>
+        <a href="https://www.facebook.com/TheMissingMaps" class="btn btn-blue"><i class="fab fa-facebook fa-fw"></i> FACEBOOK </a>
+        <a href="https://github.com/MissingMaps" class="btn btn-blue"><i class="fab fa-github fa-fw"></i> GITHUB </a>
+        <a href="http://wiki.openstreetmap.org/wiki/Missing_Maps_Project" class="btn btn-blue"><i class="far fa-newspaper fa-fw"></i> WIKI </a>
+        <a href="https://www.flickr.com/photos/126636925@N06/" class="btn btn-blue"><i class="fab fa-flickr fa-fw"></i> FLICKR </a>
+        <a href="https://www.instagram.com/themissingmaps/" class="btn btn-blue"><i class="fab fa-instagram fa-fw"></i> INSTAGRAM </a>
+        <a href="mailto:info@hotosm.org" class="btn btn-blue"><i class="fas fa-envelope fa-fw"></i> EMAIL </a>
+        <a href="/assets/downloads/mapathon-materials/english/MissingMapsMediaGuideGeneral_Web.png" class="btn btn-blue"><i class="fas fa-microphone fa-fw"></i> MEDIA GUIDE </a>
+      </div>
+      <div class="footer-mm center-text">
+        CC-BY Missing Maps
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-55969124-1');ga('send','pageview');
+    </script>
+
+    <!-- build:js assets/scripts/main.js -->
+    <script src="/assets/scripts/main.min.js"></script>
+    <!-- endbuild -->
+
+  </body>
+
+</html>

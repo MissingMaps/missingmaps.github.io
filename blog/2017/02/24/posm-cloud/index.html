@@ -1,0 +1,451 @@
+
+
+<!DOCTYPE html>
+<!--[if lt IE 10]> <html class="lt-ie10 no-js"  lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>POSM Cloud</title>
+    <meta name="description" content="Portable OpenStreetMap (POSM) can run in the cloud. This walkthrough will help you get your own POSM up and running on Amazon EC2.">
+
+    <link rel="canonical" href="/blog/2017/02/24/posm-cloud/">
+    <link rel="alternate" type="application/rss+xml" title="Missing Maps" href="/feed.xml">
+
+    <link rel="stylesheet" href="/assets/styles/main.css">
+
+    <link rel="author" type="text/plain" href="humans.txt" />
+
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400|Hind:700,300,600' rel='stylesheet' type='text/css'>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/graphics/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/graphics/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/graphics/favicon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/graphics/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/graphics/favicon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/graphics/favicon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/graphics/favicon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/graphics/favicon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/graphics/favicon/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/graphics/favicon/apple-touch-icon-180x180.png">
+  <link rel="shortcut icon" href="/assets/graphics/favicon/favicon.ico">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/assets/graphicsfavicon/favicon-32x32.png" sizes="32x32">
+
+  <meta name="description" content="Putting the World's Vulnerable People on the Map">
+  <meta itemprop="name" content="MissingMaps">
+  <meta itemprop="description" content="Putting the World's Vulnerable People on the Map" >
+  <meta itemprop="image" content="http://i.imgur.com/sSUhfmc.png" >
+  <meta name="twitter:card" content="product" >
+  <meta name="twitter:site" content="@themissingmaps" >
+  <meta name="twitter:title" content="MissingMaps" >
+  <meta name="twitter:description" content="Putting the World's Vulnerable People on the Map" >
+  <meta name="twitter:creator" content="@themissingmaps" >
+  <meta name="twitter:image" content="http://i.imgur.com/sSUhfmc.png" >
+
+  <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Missing Maps" />
+  </head>
+
+  <body>
+    <!--[if lt IE 11]>
+      <div id="nocando">
+        <h1>No can do!</h1>
+        <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      </div>
+    <![endif]-->
+
+    
+
+<header>
+	<div class="navbar-background">
+		<div class="nav-icon">
+			<a href="/">
+				<img src="/assets/graphics/meta/MM-White.svg" width="94px">
+			</a>
+		</div>
+		<div class="nav-list">
+			<ul>
+				
+				
+				<li class="nav-item nav-dropdown">CONTRIBUTE
+					<div class="dropdown-content">
+						
+						<a href="/learn/"><div class="nav-item">LEARN TO MAP</div></a>
+						
+						<a href="/validate/"><div class="nav-item">LEARN TO VALIDATE</div></a>
+						
+						<a href="http://mapswipe.org/"><div class="nav-item">MAPSWIPE</div></a>
+						
+					</div>
+				</li>
+				
+				
+				
+				<li class="nav-item nav-dropdown">EVENTS
+					<div class="dropdown-content">
+						
+						<a href="/events/"><div class="nav-item">CURRENT EVENTS</div></a>
+						
+						<a href="/host/"><div class="nav-item">ORGANIZE AN EVENT</div></a>
+						
+						<a href="/host/#helper-map-contents"><div class="nav-item">MAPATHON SUPPORT</div></a>
+						
+					</div>
+				</li>
+				
+				
+				
+				<a href="/about/">
+					<li class="nav-item">ABOUT</li>
+				</a>
+				
+				
+				
+				<a href="/blog/">
+					<li class="nav-item">BLOG</li>
+				</a>
+				
+				
+				
+				<li class="nav-item nav-dropdown">DISCOVER
+					<div class="dropdown-content">
+						
+						<a href="http://www.missingmaps.org/users/"><div class="nav-item">USER PROFILES</div></a>
+						
+						<a href="http://www.missingmaps.org/leaderboards/"><div class="nav-item">LEADERBOARDS</div></a>
+						
+						<a href="/osmstats/"><div class="nav-item">OSMSTATS</div></a>
+						
+					</div>
+				</li>
+				
+				
+				|
+				<li class="nav-item nav-dropdown">en
+					<div class="dropdown-content">
+						
+						
+
+						<a href="">
+							<div class="nav-item item-centered">cs</div>
+						</a>
+						
+						
+
+						<a href="/blog/2017/02/24/posm-cloud/">
+							<div class="nav-item item-centered">en</div>
+						</a>
+						
+						
+
+						<a href="">
+							<div class="nav-item item-centered">es</div>
+						</a>
+						
+						
+
+						<a href="">
+							<div class="nav-item item-centered">fr</div>
+						</a>
+						
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="resp-navbar navbar-background resp-nav-dropdown">
+		<p>MENU</p>
+		<div class="resp-dropdown-content">
+			
+			
+			<a href="/learn/">
+				<li class="nav-item">LEARN TO MAP</li>
+			</a>
+			
+			<a href="/validate/">
+				<li class="nav-item">LEARN TO VALIDATE</li>
+			</a>
+			
+			<a href="http://mapswipe.org/">
+				<li class="nav-item">MAPSWIPE</li>
+			</a>
+			
+			
+			
+			<a href="/events/">
+				<li class="nav-item">CURRENT EVENTS</li>
+			</a>
+			
+			<a href="/host/">
+				<li class="nav-item">ORGANIZE AN EVENT</li>
+			</a>
+			
+			<a href="/host/#helper-map-contents">
+				<li class="nav-item">MAPATHON SUPPORT</li>
+			</a>
+			
+			
+			
+			<a href="/about/">
+				<li class="nav-item">ABOUT</li>
+			</a>
+			
+			
+			
+			<a href="/blog/">
+				<li class="nav-item">BLOG</li>
+			</a>
+			
+			
+			
+			<a href="http://www.missingmaps.org/users/">
+				<li class="nav-item">USER PROFILES</li>
+			</a>
+			
+			<a href="http://www.missingmaps.org/leaderboards/">
+				<li class="nav-item">LEADERBOARDS</li>
+			</a>
+			
+			<a href="/osmstats/">
+				<li class="nav-item">OSMSTATS</li>
+			</a>
+			
+			
+			<div class="mobile-languages">
+				 
+				<a href="/cs/">
+					<div class="lang">cs</div>
+				</a>
+				  
+				<a href="/">
+					<div class="lang">en</div>
+				</a>
+				  
+				<a href="/es/">
+					<div class="lang">es</div>
+				</a>
+				  
+				<a href="/fr/">
+					<div class="lang">fr</div>
+				</a>
+				 
+			</div>
+		</div>
+	</div>
+</header>
+
+
+<script>
+  document.querySelector("header").style.display = 'inline-block';
+</script>
+
+<div id="site-canvas">
+  
+  <div class="header-image" style="background-image: url('https://arcmaps.s3.amazonaws.com/share/blog-pictures/posmcloud.jpg');">
+  
+    <div class="dark-overlay center-text">
+      <h1 class="title feature-header">POSM Cloud</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="textbox blog-container">
+        <div class="blog-date">24 February 2017</div>
+        <h2 id="posm-guides">POSM Guides</h2>
+
+<p>This is the first of several post that we will be releasing in the next few weeks and months to better document Portable OSM. We use POSM extensively in our work and more and more people have asked how they can get started. This guide will cover how to get POSM up and running on an Amazon EC2 instance. Future guides will walkthrough how to install POSM on an Intel NUC and our model and methods for doing large scale OSM field data collection.</p>
+
+<h2 id="running-posm-in-the-cloud">Running POSM in the Cloud</h2>
+
+<p>Interested in running POSM in the cloud? This type of setup is great for semi-connected instances when you want the integration of OpenMapKit/Field Papers/OSM but have more regular connectivity with your surveyors.</p>
+
+<p>First, this guide will walk through how to set things up in Amazon Web Services, specifically EC2. If you like another flavor or cloud services such as Azure, this process will still work but may look slightly different. This guide will also <em>not</em> show you how to get an AWS account, they already have great <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html">documentation</a>.</p>
+
+<h2 id="get-a-fully-qualified-domain-name">Get a Fully Qualified Domain Name</h2>
+<p>Before installation, you should choose a domain name and host to use to access your new POSM and configure it with your DNS provider. If you don’t do this, you won’t be able to access the OpenStreetMap interface.</p>
+
+<p>Create the subdomain <code class="highlighter-rouge">osm.example.org</code> . You’ll configure the DNS later.</p>
+
+<h2 id="instance-setup">Instance Setup</h2>
+
+<p>The first thing you will need to do is start a new instance. In your AWS EC2 Dashboard click on Launch instance. Scroll all the way down and find Ubuntu 14.04 LTS. The posm-build process only works on Ubuntu 14.04 at this time.</p>
+
+<figure>
+<img src="https://i.imgur.com/i7i2ogE.png" alt="" />
+<p class="caption">Be sure the chose Ubuntu 14.04 LTS</p>
+</figure>
+
+<p>After selecting your instance type you’ll need to fill out a couple more things. Below are the recommended specs.</p>
+
+<figure>
+<img src="https://i.imgur.com/nZG3h71.png" alt="" />
+<p class="caption">Pick the instance that works for you</p>
+</figure>
+
+<p>Recommended specs for your instance are:</p>
+<ul>
+  <li>Ubuntu 14.04 <strong><em>mandatory</em></strong></li>
+  <li>At least 2GB RAM, 8GB+ preferred
+    <ul>
+      <li>If you use less than 8GB, you will not be able to run the OSM part of POSM. OpenMapKit Server runs happily on 2GB.</li>
+      <li>If using SuperPOSM (OpenDroneMap), the more RAM the better</li>
+    </ul>
+  </li>
+  <li>At least 10GB of attached storage
+    <ul>
+      <li>Not an issue unless you have lots of photos or will be processing OpenDroneMap images</li>
+    </ul>
+  </li>
+  <li>Open ports 22 and 80
+    <ul>
+      <li>22 is needed to SSH into the server for administration and setup</li>
+      <li>80 is needed to view the various resources</li>
+    </ul>
+  </li>
+  <li>Our internal instance runs on a t3.medium with 8GB of RAM</li>
+</ul>
+
+<h2 id="configure-dns">Configure DNS</h2>
+
+<p>After the instance is created, also create an elastic IP and assign it to the instance you just created. AWS has a <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html#working-with-eips">great guide</a> for this.</p>
+
+<p>Now configure the DNS. Create an @ record and point it to the IP address that you just created and assigned to your instance.</p>
+
+<p>Sample DNS records:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>example.org     A     1.2.3.4
+osm.example.org CNAME example.org
+</code></pre></div></div>
+<p><br /></p>
+
+<h2 id="install-posm">Install POSM</h2>
+
+<p>POSM Cloud uses posm-build to install because the live ubuntu instance for physical devices doesn’t work. The process take a little longer and requires a little bit of command line knowledge.</p>
+
+<p>To configure POSM on your cloud host, <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html">connect to it</a> using <code class="highlighter-rouge">ssh</code> and run the following commands.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># become root</span>
+<span class="nb">sudo</span> <span class="nt">-i</span>
+
+<span class="c"># update instance for security patches</span>
+apt-get <span class="nb">install </span>update <span class="o">&amp;&amp;</span> apt-get <span class="nb">install </span>upgrade
+
+<span class="c"># install git if necessary</span>
+apt update <span class="o">&amp;&amp;</span> apt <span class="nb">install</span> <span class="nt">--no-install-recommends</span> <span class="nt">-y</span> git
+
+<span class="c"># clone this repository</span>
+git clone https://github.com/AmericanRedCross/posm-build
+
+<span class="c"># edit your settings (posm_hostname, posm_domain)</span>
+vi posm-build/kickstart/etc/settings
+
+</code></pre></div></div>
+
+<p>The important things to edit are <em>posm_hostname</em> and <em>posm_domain</em>. Set these equal to your hostname and domain that your purchased earlier. You can comfortably ignore all the wifi settings.</p>
+
+<p>If you are not comfortable with editing files via command line here is a quick guide to using <a href="https://www.cs.colostate.edu/helpdocs/vi.html">vi</a>. The important thing is to hit <code class="highlighter-rouge">i</code> to edit and then after making changes hit <code class="highlighter-rouge">ESC</code> and then <code class="highlighter-rouge">:</code> and type <code class="highlighter-rouge">wq</code> to “write and quit”</p>
+
+<figure>
+<img src="https://i.imgur.com/uSo3ZCU.png" alt="" />
+<p class="caption">Adjust posm_hostname and posm_domain</p>
+</figure>
+
+<p>The last thing is to install everything. This will take a while; go get a snack and come back.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/root/posm-build/kickstart/scripts/bootstrap.sh base virt nodejs ruby gis mysql postgis nginx osm fieldpapers omk tl carto tessera admin
+</code></pre></div></div>
+<p>The above command will install everything needed to run POSM Cloud but <em>will not install</em> OpenDroneMap.</p>
+
+<p>To add SuperPOSM capabilities (OpenDroneMap + GeoTIFF processing), use the following instead.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/root/posm-build/kickstart/scripts/bootstrap.sh base virt nodejs ruby gis mysql postgis nginx osm fieldpapers omk tl carto tessera admin docker redis opendronemap imagery
+</code></pre></div></div>
+<p><br /></p>
+<h2 id="omk-server-settings">OMK Server Settings</h2>
+
+<p>OpenMapKit server does not apply authentication out of the box; you will need to set it up to ensure that sensitive information cannot be viewed on your cloud instance. This step requires more command line knowledge.</p>
+
+<p>If the POSM cloud install was successful, then you should now be able edit your OMK server settings. You will need to uncomment the lines starting with “auth” and add in the credentials you would like.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo vi /opt/omk/OpenMapKitServer/settings.js
+</code></pre></div></div>
+
+<p>Your screen should looks something like this. <strong>Notice the added comma after the last <code class="highlighter-rouge">}</code> for osmApi</strong></p>
+
+<figure>
+<img src="https://i.imgur.com/uNfakt8.jpg" alt="" />
+<p class="caption">Adding auth for OMK Server</p>
+</figure>
+
+<p>After saving, just reboot your server and authentication should be working when you go to OMK Server.</p>
+
+<h2 id="success">Success</h2>
+
+<p>After everything is configured you can go to your domain and you should see the following screen.</p>
+
+<figure>
+<img src="https://i.imgur.com/7yr7hfy.png" alt="" />
+<p class="caption">Success</p>
+</figure>
+
+        <hr class="blog-end">
+        <p class="author">by Dale Kunce</p>
+      </div>
+    </div>
+  </div>
+
+
+    
+
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-container">
+      <div class="center-text">
+        <div class="row">
+          <div class="title section-header">Contact Us</div>
+        </div>
+        <a href="https://twitter.com/TheMissingMaps" class="btn btn-blue"><i class="fab fa-twitter"></i> TWITTER </a>
+        <a href="https://www.facebook.com/TheMissingMaps" class="btn btn-blue"><i class="fab fa-facebook fa-fw"></i> FACEBOOK </a>
+        <a href="https://github.com/MissingMaps" class="btn btn-blue"><i class="fab fa-github fa-fw"></i> GITHUB </a>
+        <a href="http://wiki.openstreetmap.org/wiki/Missing_Maps_Project" class="btn btn-blue"><i class="far fa-newspaper fa-fw"></i> WIKI </a>
+        <a href="https://www.flickr.com/photos/126636925@N06/" class="btn btn-blue"><i class="fab fa-flickr fa-fw"></i> FLICKR </a>
+        <a href="https://www.instagram.com/themissingmaps/" class="btn btn-blue"><i class="fab fa-instagram fa-fw"></i> INSTAGRAM </a>
+        <a href="mailto:info@hotosm.org" class="btn btn-blue"><i class="fas fa-envelope fa-fw"></i> EMAIL </a>
+        <a href="/assets/downloads/mapathon-materials/english/MissingMapsMediaGuideGeneral_Web.png" class="btn btn-blue"><i class="fas fa-microphone fa-fw"></i> MEDIA GUIDE </a>
+      </div>
+      <div class="footer-mm center-text">
+        CC-BY Missing Maps
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-55969124-1');ga('send','pageview');
+    </script>
+
+    <!-- build:js assets/scripts/main.js -->
+    <script src="/assets/scripts/main.min.js"></script>
+    <!-- endbuild -->
+
+  </body>
+
+</html>

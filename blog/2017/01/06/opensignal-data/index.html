@@ -1,0 +1,433 @@
+
+
+<!DOCTYPE html>
+<!--[if lt IE 10]> <html class="lt-ie10 no-js"  lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Mapping cell phone signals</title>
+    <meta name="description" content="This past spring/summer, over 100 Red Cross volunteers conducted field mapping in the border regions of Guinea, Liberia, and Sierra Leone. In addition to the...">
+
+    <link rel="canonical" href="/blog/2017/01/06/opensignal-data/">
+    <link rel="alternate" type="application/rss+xml" title="Missing Maps" href="/feed.xml">
+
+    <link rel="stylesheet" href="/assets/styles/main.css">
+
+    <link rel="author" type="text/plain" href="humans.txt" />
+
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400|Hind:700,300,600' rel='stylesheet' type='text/css'>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/graphics/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/graphics/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/graphics/favicon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/graphics/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/graphics/favicon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/graphics/favicon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/graphics/favicon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/graphics/favicon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/graphics/favicon/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/graphics/favicon/apple-touch-icon-180x180.png">
+  <link rel="shortcut icon" href="/assets/graphics/favicon/favicon.ico">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/assets/graphicsfavicon/favicon-32x32.png" sizes="32x32">
+
+  <meta name="description" content="Putting the World's Vulnerable People on the Map">
+  <meta itemprop="name" content="MissingMaps">
+  <meta itemprop="description" content="Putting the World's Vulnerable People on the Map" >
+  <meta itemprop="image" content="http://i.imgur.com/sSUhfmc.png" >
+  <meta name="twitter:card" content="product" >
+  <meta name="twitter:site" content="@themissingmaps" >
+  <meta name="twitter:title" content="MissingMaps" >
+  <meta name="twitter:description" content="Putting the World's Vulnerable People on the Map" >
+  <meta name="twitter:creator" content="@themissingmaps" >
+  <meta name="twitter:image" content="http://i.imgur.com/sSUhfmc.png" >
+
+  <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Missing Maps" />
+  </head>
+
+  <body>
+    <!--[if lt IE 11]>
+      <div id="nocando">
+        <h1>No can do!</h1>
+        <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      </div>
+    <![endif]-->
+
+    
+
+<header>
+	<div class="navbar-background">
+		<div class="nav-icon">
+			<a href="/">
+				<img src="/assets/graphics/meta/MM-White.svg" width="94px">
+			</a>
+		</div>
+		<div class="nav-list">
+			<ul>
+				
+				
+				<li class="nav-item nav-dropdown">CONTRIBUTE
+					<div class="dropdown-content">
+						
+						<a href="/learn/"><div class="nav-item">LEARN TO MAP</div></a>
+						
+						<a href="/validate/"><div class="nav-item">LEARN TO VALIDATE</div></a>
+						
+						<a href="http://mapswipe.org/"><div class="nav-item">MAPSWIPE</div></a>
+						
+					</div>
+				</li>
+				
+				
+				
+				<li class="nav-item nav-dropdown">EVENTS
+					<div class="dropdown-content">
+						
+						<a href="/events/"><div class="nav-item">CURRENT EVENTS</div></a>
+						
+						<a href="/host/"><div class="nav-item">ORGANIZE AN EVENT</div></a>
+						
+						<a href="/host/#helper-map-contents"><div class="nav-item">MAPATHON SUPPORT</div></a>
+						
+					</div>
+				</li>
+				
+				
+				
+				<a href="/about/">
+					<li class="nav-item">ABOUT</li>
+				</a>
+				
+				
+				
+				<a href="/blog/">
+					<li class="nav-item">BLOG</li>
+				</a>
+				
+				
+				
+				<li class="nav-item nav-dropdown">DISCOVER
+					<div class="dropdown-content">
+						
+						<a href="http://www.missingmaps.org/users/"><div class="nav-item">USER PROFILES</div></a>
+						
+						<a href="http://www.missingmaps.org/leaderboards/"><div class="nav-item">LEADERBOARDS</div></a>
+						
+						<a href="/osmstats/"><div class="nav-item">OSMSTATS</div></a>
+						
+					</div>
+				</li>
+				
+				
+				|
+				<li class="nav-item nav-dropdown">en
+					<div class="dropdown-content">
+						
+						
+
+						<a href="">
+							<div class="nav-item item-centered">cs</div>
+						</a>
+						
+						
+
+						<a href="/blog/2017/01/06/opensignal-data/">
+							<div class="nav-item item-centered">en</div>
+						</a>
+						
+						
+
+						<a href="">
+							<div class="nav-item item-centered">es</div>
+						</a>
+						
+						
+
+						<a href="">
+							<div class="nav-item item-centered">fr</div>
+						</a>
+						
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="resp-navbar navbar-background resp-nav-dropdown">
+		<p>MENU</p>
+		<div class="resp-dropdown-content">
+			
+			
+			<a href="/learn/">
+				<li class="nav-item">LEARN TO MAP</li>
+			</a>
+			
+			<a href="/validate/">
+				<li class="nav-item">LEARN TO VALIDATE</li>
+			</a>
+			
+			<a href="http://mapswipe.org/">
+				<li class="nav-item">MAPSWIPE</li>
+			</a>
+			
+			
+			
+			<a href="/events/">
+				<li class="nav-item">CURRENT EVENTS</li>
+			</a>
+			
+			<a href="/host/">
+				<li class="nav-item">ORGANIZE AN EVENT</li>
+			</a>
+			
+			<a href="/host/#helper-map-contents">
+				<li class="nav-item">MAPATHON SUPPORT</li>
+			</a>
+			
+			
+			
+			<a href="/about/">
+				<li class="nav-item">ABOUT</li>
+			</a>
+			
+			
+			
+			<a href="/blog/">
+				<li class="nav-item">BLOG</li>
+			</a>
+			
+			
+			
+			<a href="http://www.missingmaps.org/users/">
+				<li class="nav-item">USER PROFILES</li>
+			</a>
+			
+			<a href="http://www.missingmaps.org/leaderboards/">
+				<li class="nav-item">LEADERBOARDS</li>
+			</a>
+			
+			<a href="/osmstats/">
+				<li class="nav-item">OSMSTATS</li>
+			</a>
+			
+			
+			<div class="mobile-languages">
+				 
+				<a href="/cs/">
+					<div class="lang">cs</div>
+				</a>
+				  
+				<a href="/">
+					<div class="lang">en</div>
+				</a>
+				  
+				<a href="/es/">
+					<div class="lang">es</div>
+				</a>
+				  
+				<a href="/fr/">
+					<div class="lang">fr</div>
+				</a>
+				 
+			</div>
+		</div>
+	</div>
+</header>
+
+
+<script>
+  document.querySelector("header").style.display = 'inline-block';
+</script>
+
+<div id="site-canvas">
+  
+  <div class="header-image" style="background-image: url('https://arcmaps.s3.amazonaws.com/share/blog-pictures/signal_strength.png');">
+  
+    <div class="dark-overlay center-text">
+      <h1 class="title feature-header">Mapping cell phone signals</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="textbox blog-container">
+        <div class="blog-date">06 January 2017</div>
+        <h1 id="mapping-cell-phone-signals-with-opensignal">Mapping cell phone signals with OpenSignal</h1>
+
+<p>This past spring/summer, over 100 Red Cross volunteers conducted field mapping in the border regions of Guinea, Liberia, and Sierra Leone. In addition to the actual mapping, we also asked the volunteers to record their GPS tracks each day, and we set their phones to automatically collect cell signal strength data using OpenSignal, an app which crowdsources this information.</p>
+
+<p>Connectivity is very poor in this region, and volunteers often had to travel several hours to different cities if they wanted to be able to use their phones to make calls. By collecting signal strength data, we hope to make it easier for people to know where there is a useable cell phone signal.</p>
+
+<p>Now that the fieldwork has finished, we’ve had a chance to start going through all this data to see what connectivity looks like in West Africa. We haven’t come across much about working with OpenSignal data, so this post documents our workflow for using the data, the challenges we had, and our results.</p>
+
+<h2 id="getting-merging-and-cleaning-the-data">Getting, merging, and cleaning the data</h2>
+
+<p>For this project, we used 14 Samsung Galaxy S5 phones and about 100 Blu Advance 5.0 phones. We’ve tried a lot of different phones in the field, and the Blu’s are our favourite so far - cheap, hardy, easy to use, and they have a reliable GPS signal.</p>
+
+<p>We loaded OpenSignal onto all of the phones before the fieldwork began, then downloaded the data at the end of the project, following the <a href="https://opensignal.com/blog/2015/06/08/updated-data-collection-format/">instructions from OpenSignal</a>.</p>
+
+<p>OpenSignal generated three types of CSV files: wifi, speedtests, and cell signals:</p>
+
+<figure>
+<img src="https://arcmaps.s3.amazonaws.com/share/blog-pictures/file_types.png" alt="File types" />
+<p class="caption">CC-BY American Red Cross.</p>
+</figure>
+
+<p>Since we only care about the cell signal strength, I put all these into a folder and then ran a quick command in Terminal to merge them:</p>
+
+<p><code class="highlighter-rouge">cd [folder with .csv files]</code>
+ <code class="highlighter-rouge">cat *.csv &gt; merged.csv</code></p>
+
+<p>The resulting file was a little strange. First, the individual files didn’t have consistent header rows - some exports had considerably more columns, and the columns didn’t match up between the different formats; the Samsung and Blu phones exported very different formats. I split the files by phone type (Samsung vs Blu) and concatenated the two batches separately, then combined them and made the columns line up. This worked out.</p>
+
+<p>The next step was figuring what all this data means. <a href="https://opensignal.com/blog/2015/06/08/updated-data-collection-format/">OpenSignal’s handy post</a> explained almost everything we needed to know, with one exception: signal strength was measured on different scales and had to be converted into a consistent scale. More on this below. (Note: there have been several updates to the OpenSignal app since we started the project, and the file structure may be different. We’ll play around with the latest version and post any updates later at the bottom of this post)</p>
+
+<p>Finally, I cleaned up a few parts of the data:</p>
+
+<ol>
+  <li>Timestamps are given in Linux/Unix epoch format, measuring the number of milliseconds since 1970. I converted these to a human readable date in Microsoft Excel so I could check how often OpenSignal was recording data. I’ve read that Microsoft Excel date formats are slightly different depending on whether you’re using Windows/Mac OS, but on my Mac I actually needed to use the Windows conversion. The formula for this is:</li>
+</ol>
+
+<p><code class="highlighter-rouge">=(((X/1000)-(T*3600))/86400)+(DATEVALUE("1-1-1970") - DATEVALUE("1-1-1900"))</code></p>
+
+<p>where X is the cell with the time in epoch and T is offset from GMT time, in hours. You’ll need to change the format of those cells to a date, as well.</p>
+
+<h3 id="location-inaccuracy">Location inaccuracy</h3>
+<p>The maximum location inaccuracy was almost 5 km. I discarded any records with a location inaccuracy greater than 1000 metres. This seems like a very high number to me, but it eliminated almost a quarter of my dataset, dropping it from 200,000 records down to 150,000.</p>
+
+<h3 id="rssi-received-signal-strength-indicator">RSSI (Received Signal Strength Indicator)</h3>
+<p>RSSI (Received Signal Strength Indicator) measures the signal strength. HOWEVER, it’s measured differently depending on the network type. For EDGE, GPRS, HSPAP, and sometimes HSDPA and HSPA, it is measured on a scale of -1 to 31. On other HSDPA and HSPA networks, it’s measured in dBm, on a scale of -113 to -51.</p>
+
+<p>There were other instances where we had “unknown” and “out of service” networks with an RSSI of 99. I wasn’t sure if this was code for “no signal”, or if it meant that RSSI was being measured on yet another scale - the internet tells me that the RSSI max is 99 on Cisco equipment. These records added up to only 1% of the data so I just discarded them.</p>
+
+<p>I converted the RSSI column into dBm in Excel in one fell swoop:
+<code class="highlighter-rouge">=IF(RSSI&lt;(-50),RSSI,IF(RSSI&gt;31,"",(RSSI*2-113)))</code></p>
+
+<p>This leaves values already measured in dBm, converts those on the -1 to 31 RSSI scale (the formula is: <code class="highlighter-rouge">RSSI*2 - 113 = dBm</code>), and returns an empty value for anything above 31.</p>
+
+<p>When I put this data into GIS, I coded the dBm values into signal strength categories. I found several different scales for this, so I ended up with the following “compromise”:</p>
+
+<p>-113 to -101: Very poor<br />
+-100 to -86: Weak<br />
+-85 to -71: Good<br />
+-70 to -51: Excellent</p>
+
+<h3 id="latlong">Lat/long</h3>
+
+<p>Because we set the phones up in the US, I discarded any lat/long pairings taken outside of West Africa.</p>
+
+<p>This gave me a clean dataset ready to be saved as a Windows CSV and loaded into GIS.</p>
+
+<p>A few comments about this data:</p>
+
+<ol>
+  <li>
+    <p>It would be really helpful if OpenSignal data contained the IMEI number of the phone. This would let me sort through the data and group by phone, to better understand how much data was recorded on a phone, which might be split into several files.</p>
+  </li>
+  <li>
+    <p>Data cleaning would have been easier if OpenSignal data was set to export with consistent column headers. (Note: This may have something to do with the different phones we used, or may have changed sin new versions of the app)</p>
+  </li>
+  <li>
+    <p>The number of records seems really low. With over 100 phones being used for weeks and weeks, I would expect more than 150,000 usable records. This didn’t make sense so I calculated the interval between records. This didn’t make any sense to me - there wasn’t a consistent interval between pings, and it looks like several pings were recorded at the exact same time, then there would be a huge gap (hours, days) until the next ping. I didn’t find any documentation about this, so I can’t tell if this means that OpenSignal wasn’t looking for a signal (and why not?), or if there was no signal at all (which is still important to record), or if perhaps the phone was overwriting old data (but the file sizes didn’t seem to have a cut-off point, so this is unlikely). This seemed to be a major problem with using OpenSignal; the data would have much more value if we had a record every 5 mins, or something like that. More on this later.</p>
+  </li>
+</ol>
+
+<p>The cleaned dataset (as a shapefile) and QGIS style file are <a href="https://www.dropbox.com/s/e4piya18hburba0/opensignaldata.zip?dl=0">here</a> in case anyone wants to play with them.</p>
+
+<h2 id="gis-analysis-and-data-issues">GIS analysis… and data issues</h2>
+
+<p>I loaded the CSV file into GIS and converted it into an equal-area projection (to enable accurate distance/area calculations).</p>
+
+<p>Again, the data look very sparse compared to the amount of volunteers and time spent in the field. The image below shows the OpenSignal data overlaid on GPX tracks collected by volunteers (shown in grey) for the West African region. The OpenSignal data covers some main highways across the region and some clusters in certain cities, but it’s extremely sparse compared to what I was expecting.</p>
+
+<figure>
+<img src="https://arcmaps.s3.amazonaws.com/share/blog-pictures/signal_strength.png" alt="Signal strength" />
+<p class="caption">CC-BY American Red Cross.</p>
+</figure>
+
+<p>The settings on the OpenSignal app explain, “Data is collected when the app is open and at a low rate when it is closed (around 10 signal readings per hour).”</p>
+
+<p>That’s not what I see in the West Africa data. The snippet below contains data from a few different files. In each of these files, a phone collects data briefly when set up in late March… then nothing until a month later, at the end of April. When the phones are logging data, they are doing so at the expected rate of about 10x per hour… it’s just that there are huge gaps between the readings.</p>
+
+<figure>
+<img src="https://arcmaps.s3.amazonaws.com/share/blog-pictures/timestamps.png" alt="time stamps" />
+<p class="caption">CC-BY American Red Cross.</p>
+</figure>
+
+<p>We reached out to the OpenSignal team to chat about this and learned that the data collection engine had changed and a new app version was released around the same time as we began our fieldwork. We’ll play around with the new one and see how the data records look.</p>
+
+<h2 id="next-steps">Next steps</h2>
+
+<p>Next steps for the data involve turning the OpenSignal data into a raster (ie pixellated) grid that covers the area, turning it into a full-coverage surface rather than a collection of points. There isn’t enough data to do this comprehensively for the region, as we’d hoped, but we can analyze local areas where the dataset is larger.</p>
+
+<p>To do this, we zoomed in to an area in the Eastern Province of Sierra Leone with a high density of signal recordings. We took the RSSI values for these recordings and then performed <a href="http://www.qgistutorials.com/en/docs/interpolating_point_data.html">kriging</a> using the inverse distance weighting method. What this means: we have a set of points and we want to fill in the gaps between them to predict what the cell signal strength will be in other areas nearby. When doing this, we set a distance limit on how far away the kriging will examine. Too small, and we won’t learn that much. Too large, and the results won’t be very accurate. Even with an appropriate distance limit, predictions won’t be perfect because we aren’t factoring in topography or other things that might affect signal strength. But this is still enough to help understand the gaps in the data for a local area. The output from the kriging is a grid of cells, each of which has a predicted RSSI value. This helps us to understand connectivity “hotspots” in the local area.</p>
+
+<figure>
+<img src="https://arcmaps.s3.amazonaws.com/share/blog-pictures/kriging.png" alt="IDW kriging surface. Cell size is set to 10m" />
+<p class="caption">CC-BY American Red Cross.</p>
+</figure>
+
+<p>Distributing maps like these would be helpful for local Red Cross volunteers and community members in general, who often end up traveling between cities in order to make a phone call.</p>
+
+<p>These data could be combined with population datasets like <a href="http://www.worldpop.org.uk/">WorldPop</a> to examine populations groups with (and without) access to cell connectivity.</p>
+
+        <hr class="blog-end">
+        <p class="author">by Emily Eros</p>
+      </div>
+    </div>
+  </div>
+
+
+    
+
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-container">
+      <div class="center-text">
+        <div class="row">
+          <div class="title section-header">Contact Us</div>
+        </div>
+        <a href="https://twitter.com/TheMissingMaps" class="btn btn-blue"><i class="fab fa-twitter"></i> TWITTER </a>
+        <a href="https://www.facebook.com/TheMissingMaps" class="btn btn-blue"><i class="fab fa-facebook fa-fw"></i> FACEBOOK </a>
+        <a href="https://github.com/MissingMaps" class="btn btn-blue"><i class="fab fa-github fa-fw"></i> GITHUB </a>
+        <a href="http://wiki.openstreetmap.org/wiki/Missing_Maps_Project" class="btn btn-blue"><i class="far fa-newspaper fa-fw"></i> WIKI </a>
+        <a href="https://www.flickr.com/photos/126636925@N06/" class="btn btn-blue"><i class="fab fa-flickr fa-fw"></i> FLICKR </a>
+        <a href="https://www.instagram.com/themissingmaps/" class="btn btn-blue"><i class="fab fa-instagram fa-fw"></i> INSTAGRAM </a>
+        <a href="mailto:info@hotosm.org" class="btn btn-blue"><i class="fas fa-envelope fa-fw"></i> EMAIL </a>
+        <a href="/assets/downloads/mapathon-materials/english/MissingMapsMediaGuideGeneral_Web.png" class="btn btn-blue"><i class="fas fa-microphone fa-fw"></i> MEDIA GUIDE </a>
+      </div>
+      <div class="footer-mm center-text">
+        CC-BY Missing Maps
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-55969124-1');ga('send','pageview');
+    </script>
+
+    <!-- build:js assets/scripts/main.js -->
+    <script src="/assets/scripts/main.min.js"></script>
+    <!-- endbuild -->
+
+  </body>
+
+</html>

@@ -1,0 +1,383 @@
+
+
+<!DOCTYPE html>
+<!--[if lt IE 10]> <html class="lt-ie10 no-js"  lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Supporting Open Data Kit</title>
+    <meta name="description" content="The Open Data Kit (ODK) community produces free and open-source software for collecting, managing, and using data in resource-constrained environments. The v...">
+
+    <link rel="canonical" href="/blog/2019/01/08/odk-collect-improvements/">
+    <link rel="alternate" type="application/rss+xml" title="Missing Maps" href="/feed.xml">
+
+    <link rel="stylesheet" href="/assets/styles/main.css">
+
+    <link rel="author" type="text/plain" href="humans.txt" />
+
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400|Hind:700,300,600' rel='stylesheet' type='text/css'>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/graphics/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/graphics/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/graphics/favicon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/graphics/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/graphics/favicon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/graphics/favicon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/graphics/favicon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/graphics/favicon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/graphics/favicon/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/graphics/favicon/apple-touch-icon-180x180.png">
+  <link rel="shortcut icon" href="/assets/graphics/favicon/favicon.ico">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/assets/graphicsfavicon/favicon-32x32.png" sizes="32x32">
+
+  <meta name="description" content="Putting the World's Vulnerable People on the Map">
+  <meta itemprop="name" content="MissingMaps">
+  <meta itemprop="description" content="Putting the World's Vulnerable People on the Map" >
+  <meta itemprop="image" content="http://i.imgur.com/sSUhfmc.png" >
+  <meta name="twitter:card" content="product" >
+  <meta name="twitter:site" content="@themissingmaps" >
+  <meta name="twitter:title" content="MissingMaps" >
+  <meta name="twitter:description" content="Putting the World's Vulnerable People on the Map" >
+  <meta name="twitter:creator" content="@themissingmaps" >
+  <meta name="twitter:image" content="http://i.imgur.com/sSUhfmc.png" >
+
+  <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Missing Maps" />
+  </head>
+
+  <body>
+    <!--[if lt IE 11]>
+      <div id="nocando">
+        <h1>No can do!</h1>
+        <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      </div>
+    <![endif]-->
+
+    
+
+<header>
+	<div class="navbar-background">
+		<div class="nav-icon">
+			<a href="/">
+				<img src="/assets/graphics/meta/MM-White.svg" width="94px">
+			</a>
+		</div>
+		<div class="nav-list">
+			<ul>
+				
+				
+				<li class="nav-item nav-dropdown">CONTRIBUTE
+					<div class="dropdown-content">
+						
+						<a href="/learn/"><div class="nav-item">LEARN TO MAP</div></a>
+						
+						<a href="/validate/"><div class="nav-item">LEARN TO VALIDATE</div></a>
+						
+						<a href="http://mapswipe.org/"><div class="nav-item">MAPSWIPE</div></a>
+						
+					</div>
+				</li>
+				
+				
+				
+				<li class="nav-item nav-dropdown">EVENTS
+					<div class="dropdown-content">
+						
+						<a href="/events/"><div class="nav-item">CURRENT EVENTS</div></a>
+						
+						<a href="/host/"><div class="nav-item">ORGANIZE AN EVENT</div></a>
+						
+						<a href="/host/#helper-map-contents"><div class="nav-item">MAPATHON SUPPORT</div></a>
+						
+					</div>
+				</li>
+				
+				
+				
+				<a href="/about/">
+					<li class="nav-item">ABOUT</li>
+				</a>
+				
+				
+				
+				<a href="/blog/">
+					<li class="nav-item">BLOG</li>
+				</a>
+				
+				
+				
+				<li class="nav-item nav-dropdown">DISCOVER
+					<div class="dropdown-content">
+						
+						<a href="http://www.missingmaps.org/users/"><div class="nav-item">USER PROFILES</div></a>
+						
+						<a href="http://www.missingmaps.org/leaderboards/"><div class="nav-item">LEADERBOARDS</div></a>
+						
+						<a href="/osmstats/"><div class="nav-item">OSMSTATS</div></a>
+						
+					</div>
+				</li>
+				
+				
+				|
+				<li class="nav-item nav-dropdown">en
+					<div class="dropdown-content">
+						
+						
+
+						<a href="">
+							<div class="nav-item item-centered">cs</div>
+						</a>
+						
+						
+
+						<a href="/blog/2019/01/08/odk-collect-improvements/">
+							<div class="nav-item item-centered">en</div>
+						</a>
+						
+						
+
+						<a href="">
+							<div class="nav-item item-centered">es</div>
+						</a>
+						
+						
+
+						<a href="">
+							<div class="nav-item item-centered">fr</div>
+						</a>
+						
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="resp-navbar navbar-background resp-nav-dropdown">
+		<p>MENU</p>
+		<div class="resp-dropdown-content">
+			
+			
+			<a href="/learn/">
+				<li class="nav-item">LEARN TO MAP</li>
+			</a>
+			
+			<a href="/validate/">
+				<li class="nav-item">LEARN TO VALIDATE</li>
+			</a>
+			
+			<a href="http://mapswipe.org/">
+				<li class="nav-item">MAPSWIPE</li>
+			</a>
+			
+			
+			
+			<a href="/events/">
+				<li class="nav-item">CURRENT EVENTS</li>
+			</a>
+			
+			<a href="/host/">
+				<li class="nav-item">ORGANIZE AN EVENT</li>
+			</a>
+			
+			<a href="/host/#helper-map-contents">
+				<li class="nav-item">MAPATHON SUPPORT</li>
+			</a>
+			
+			
+			
+			<a href="/about/">
+				<li class="nav-item">ABOUT</li>
+			</a>
+			
+			
+			
+			<a href="/blog/">
+				<li class="nav-item">BLOG</li>
+			</a>
+			
+			
+			
+			<a href="http://www.missingmaps.org/users/">
+				<li class="nav-item">USER PROFILES</li>
+			</a>
+			
+			<a href="http://www.missingmaps.org/leaderboards/">
+				<li class="nav-item">LEADERBOARDS</li>
+			</a>
+			
+			<a href="/osmstats/">
+				<li class="nav-item">OSMSTATS</li>
+			</a>
+			
+			
+			<div class="mobile-languages">
+				 
+				<a href="/cs/">
+					<div class="lang">cs</div>
+				</a>
+				  
+				<a href="/">
+					<div class="lang">en</div>
+				</a>
+				  
+				<a href="/es/">
+					<div class="lang">es</div>
+				</a>
+				  
+				<a href="/fr/">
+					<div class="lang">fr</div>
+				</a>
+				 
+			</div>
+		</div>
+	</div>
+</header>
+
+
+<script>
+  document.querySelector("header").style.display = 'inline-block';
+</script>
+
+<div id="site-canvas">
+  
+  <div class="header-image" style="background-image: url('https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20190108_banner.jpg');">
+  
+    <div class="dark-overlay center-text">
+      <h1 class="title feature-header">Supporting Open Data Kit</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="textbox blog-container">
+        <div class="blog-date">08 January 2019</div>
+        <p><em><strong>This was originally posted on on the <a href="https://www.redcross.org/about-us/our-work/international-services.html">American Red Cross International Services Department</a> Data Team <a href="https://americanredcross.github.io/2019/01/08/odk-collect-improvements/">blog</a>.</strong></em></p>
+
+<h2 id="open-data-kit-and-the-benefits-of-open-source">Open Data Kit and the benefits of open source</h2>
+
+<p>The <a href="http://opendatakit.org">Open Data Kit</a> (ODK) community produces free and open-source software for collecting, managing, and using data in resource-constrained environments. The various ODK tools enable cost effective, scalable, and user-friendly implementation of mobile data activities.</p>
+
+<p>Many of ODK’s users are engaged in humanitarian, environmental, development, and civic work. These users may not be able to afford software that requires purchasing a subscription or license. In ODK, they have a robust and accessible mobile data collection solution that is free and open source. ODK is supported by developers, users, organizations, and others giving what they can, when they can. Members of the community write code, fix bugs, create manuals and documentation, help each other troubleshoot via an online forum, give feedback, suggest changes, fund improvements, and tell others about how great the ODK tools are!</p>
+
+<p>ODK has many advantages due to being an open source project. Different groups are able to pool limited resources and share in the work. The software is not tied to any one organization which helps to mitigate software discontinuation risks. A diversity of voices can suggest feature ideas and help realize an effective evolution of the software. Investments have a ripple effect, with small contributions benefiting a large group of users and stakeholders.</p>
+
+<h2 id="open-data-kit-usage-in-the-global-red-cross-red-crescent-network">Open Data Kit usage in the Global Red Cross Red Crescent Network</h2>
+
+<p>One of the key components is ODK Collect, an Android app enabling users to retrieve, fill out, and submit surveys digitally from a smart device. <a href="https://twitter.com/OpenDataKit/status/1110995026916593664">@OpenDataKit</a> tweeted on March 27, 2019: “In the last year, ODK Collect has had 2,500,000 users! The app now runs on 12,000 different devices, supports 50 languages, and is most used in Southern Asia, East and West Africa. Oh, and in the time it’s taken you to read this tweet, 15 forms have been submitted using Collect.”</p>
+
+<p>Staff and volunteers of the Red Cross Red Crescent network are among the 2.5 million users in the past year of ODK Collect and other ODK software like the Aggregate server and the Briefcase desktop app. Conducting damage assessments and registering people for relief distributions are two of the many ways the technology can be used to improve the efficiency and impact of humanitarian action.</p>
+
+<figure>
+<img alt="tweets from Namibia Red Cross and Indian Red Cross about using ODK" src="https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20190108_supporting-odk-society-tweets.png" />
+<p class="caption">Tweets from Namibia Red Cross and Indian Red Cross about using ODK</p>
+</figure>
+
+<p>Paid software is not an equally affordable expense around the Red Cross and Red Crescent network, and benefit only the National Society for which the software is purchased. By using and sharing free and open source software within our global network, the costs of technology adoption are much lower. By investing in commonly used open source such as ODK, it also helps the software work well for everyone.</p>
+
+<p>Some of the Red Cross and Red Crescent investment is through community involvement. It helps ODK when people blog or post on social media about their positive experiences using the software. It helps when people suggest new features or report bugs in the software. It helps when people answer support questions on the community forum. I serve on the ODK Suite Technical Steering Committee, and Raquel Bernedo from Spanish Red Cross serves on the ODK-X Suite Technical Steering Committee. Community is important, but it’s also financial support that keeps the project running and maintained, helping to quickly implement bug fixes and new features, by funding ODK developers.</p>
+
+<h2 id="process">Process</h2>
+
+<p>The <a href="https://www.redcross.org">American Red Cross</a> was able to support improvements to ODK; we selected the improvements out of both ideas solicited from the Red Cross and Red Crescent network and a review of existing items on the project roadmap that lacked funding. We narrowed the ideas based on relevance to humanitarian data collection, past challenges when using ODK, the amount of our funding, and the potential magnitude of the benefits to the wider ODK community.</p>
+
+<p>We chose Nafundi to implement the improvements. Nafundi is a professional services company that invests significant time and energy in developing and maintaining the various ODK components and contributing under the project’s open license so that anyone can use the technology. Nafundi’s principals, Yaw Anokwa and Hélène Martin, are lead maintainers on ODK so given their years of work on ODK and long-running support of the project, they made an ideal partner.</p>
+
+<p>Each idea went through an open feedback and consultation phase. Conversations occurred mostly on the community forum, and helped ensure the technical feasibility of the ideas, check our assumptions, and confirm compatibility with the larger ecosystem. Developers then coded the improvements and pushed them out in the next release of the products.</p>
+
+<h2 id="contributions">Contributions</h2>
+
+<h3 id="export-standard-geoformats">Export standard geoformats</h3>
+
+<p>The American Red Cross funded a data export option that allows the user to get their survey data in a GeoJSON geographic file format instead of the standard spreadsheet. The functionality makes it easier to use the data in a GIS or other downstream tool. The functionality was intended to be implemented in both Aggregate and Briefcase. Briefcase v1.13 included the feature  for both the graphical user interface and via command line. Implementing the feature in Aggregate with Google App Engine support, a key part of many existing server deployments, was going to be too costly so we pivoted that funding into additional features (see the last section below). The community discussion for the feature can be found on the <a href="https://forum.opendatakit.org/t/add-a-geojson-export-to-briefcase-and-aggregate/15184">forum</a>. The improvement was tracked and implemented on <a href="https://github.com/opendatakit/roadmap/issues/26">GitHub</a> and released in <a href="https://forum.opendatakit.org/t/odk-briefcase-v1-13/16442">Briefcase v1.13</a>.</p>
+
+<figure>
+<img alt="a tweet from @OpenDataKit about the Briefcase release" src="https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20190108_supporting-odk-tweet-briefcase.png" />
+<p class="caption">A tweet from <a href="https://twitter.com/i/web/status/1066995088511897600" target="_blank">@OpenDataKit about the Briefcase release</a></p>
+</figure>
+
+<h3 id="collect-gps-coordinates-for-audit-purposes">Collect GPS coordinates for audit purposes</h3>
+
+<p>We funded an optional feature to occasionally collect GPS coordinates in the background to provide evidence that data was collected in a particular place. There are many legitimate use-cases for this feature but also the potential for abuse; the community discussion around this feature included a good debate about privacy. The discussion for the feature can be found on the <a href="https://forum.opendatakit.org/t/collect-extend-audit-log-to-include-gps-coordinates/15162">forum</a>. The improvement was released in <a href="https://forum.opendatakit.org/t/odk-collect-v1-20-beta/18021">Collect v1.20 Beta</a> along with related updates to ODK XForms spec, pyxform, XLSForm Online, XLSForm Offline, and the user <a href="https://docs.opendatakit.org/form-audit-log/">documentation</a>.</p>
+
+<figure>
+<img alt="a tweet from @OpenDataKit about the ODK Collect release" src="https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20190108_supporting-odk-tweet-odk-audit.png" />
+  <p class="caption">A tweet from <a href="https://twitter.com/arphp/status/1100019065882583041" target="_blank">@OpenDataKit about the Collect release</a></p>
+</figure>
+
+<h3 id="standardize-on-iso8601-when-exporting-datetime-from-aggregate-and-briefcase">Standardize on ISO8601 when exporting <code class="highlighter-rouge">dateTime</code> from Aggregate and Briefcase</h3>
+
+<p>Our team funded standardization of date and time formats in data exports. Dealing with dates, times, and time zones in software can get really complicated. There are many different ways various devices record time and we needed to support a standard date format to make data analysis easier. The community discussion for this feature can be found on the <a href="https://forum.opendatakit.org/t/standardize-on-iso8601-for-date-and-time-exports-in-briefcase-aggregate-central/15159">forum</a>. Aggregate v2.0 exports dates in the very popular ISO8601 format. Briefcase will also export standardized dates, but since it is a potentially breaking change for users it is being held for Briefcase v2.0 and is tracked on <a href="https://github.com/opendatakit/briefcase/issues/720">GitHub</a>.</p>
+
+<h3 id="additional-features">Additional features</h3>
+
+<p>Due to necessary changes in the implementation of some of the originally envisioned features, and some of the work taking less time than predicted, we were able to fund a couple more features.</p>
+
+<p>In Briefcase it is now easier to create an audit file with data from all submissions, it’s possible to remove group names from CSV header (making data analysis easier), and some of the underlying software processes were improved.</p>
+
+<p>Aggregate was improved to have more consistent date and location formats within the user interface, and the code cleaned up to reduce the size of the application from 146 MB to 35 MB.</p>
+
+<h2 id="everyone-can-contribute">Everyone can contribute</h2>
+
+<p>The American Red Cross plans to continue to find ways to support ODK in the future. We hope you might consider doing so as well. You can fund bug fixes and maintenance, fund improvements, contribute to the conversations on the forum, or just spread the word. Get started by heading over to the ODK forum to say hi and <a href="https://forum.opendatakit.org/t/introduce-yourself-here/6671">introduce yourself</a>!</p>
+
+        <hr class="blog-end">
+        <p class="author">by Dan Joseph</p>
+      </div>
+    </div>
+  </div>
+
+
+    
+
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-container">
+      <div class="center-text">
+        <div class="row">
+          <div class="title section-header">Contact Us</div>
+        </div>
+        <a href="https://twitter.com/TheMissingMaps" class="btn btn-blue"><i class="fab fa-twitter"></i> TWITTER </a>
+        <a href="https://www.facebook.com/TheMissingMaps" class="btn btn-blue"><i class="fab fa-facebook fa-fw"></i> FACEBOOK </a>
+        <a href="https://github.com/MissingMaps" class="btn btn-blue"><i class="fab fa-github fa-fw"></i> GITHUB </a>
+        <a href="http://wiki.openstreetmap.org/wiki/Missing_Maps_Project" class="btn btn-blue"><i class="far fa-newspaper fa-fw"></i> WIKI </a>
+        <a href="https://www.flickr.com/photos/126636925@N06/" class="btn btn-blue"><i class="fab fa-flickr fa-fw"></i> FLICKR </a>
+        <a href="https://www.instagram.com/themissingmaps/" class="btn btn-blue"><i class="fab fa-instagram fa-fw"></i> INSTAGRAM </a>
+        <a href="mailto:info@hotosm.org" class="btn btn-blue"><i class="fas fa-envelope fa-fw"></i> EMAIL </a>
+        <a href="/assets/downloads/mapathon-materials/english/MissingMapsMediaGuideGeneral_Web.png" class="btn btn-blue"><i class="fas fa-microphone fa-fw"></i> MEDIA GUIDE </a>
+      </div>
+      <div class="footer-mm center-text">
+        CC-BY Missing Maps
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-55969124-1');ga('send','pageview');
+    </script>
+
+    <!-- build:js assets/scripts/main.js -->
+    <script src="/assets/scripts/main.min.js"></script>
+    <!-- endbuild -->
+
+  </body>
+
+</html>

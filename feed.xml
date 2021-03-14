@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-03-13T21:34:31-05:00</updated><id>/feed.xml</id><title type="html">Missing Maps</title><entry xml:lang="en"><title type="html">Mobile Methods Minimizing Malaria Cases in Eastern Burundi</title><link href="/blog/2021/01/29/MSF-Malaria-Burundi/" rel="alternate" type="text/html" title="Mobile Methods Minimizing Malaria Cases in Eastern Burundi" /><published>2021-01-29T00:00:00-05:00</published><updated>2021-01-29T00:00:00-05:00</updated><id>/blog/2021/01/29/MSF-Malaria-Burundi</id><content type="html" xml:base="/blog/2021/01/29/MSF-Malaria-Burundi/">&lt;h2 id=&quot;mobile-methods-minimizing-malaria-cases-in-eastern-burundi&quot;&gt;Mobile Methods Minimizing Malaria Cases in Eastern Burundi&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;MSF Response in Burundi&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;MSF has provided medical assistance in the country since 1992. In the last years, MSF has had projects and emergency  interventions in several provinces, including Bujumbura, Cibitoke, Rumonge, Bujumbura, Muyinga, and Ruyigi. In Bujumbura, MSF has been providing surgical care and consultations for patients with trauma in the Arche Kigobe trauma centre. In June 2019, Burundi experienced a major cholera outbreak, with cases rising to more than 1,000. In an effort to curb an unprecedented epidemic, MSF built and supported four treatment facilities in Bujumbura, Cibitoke and Rumonge provinces, trained public health staff and contributed to awareness-raising.&lt;/p&gt;
+
+&lt;p&gt;In 2019, the number of people who contracted malaria significantly rose in Burundi with nearly nine million cases noted between January and December. MSF launched a response to this outbreak in the province of Ruyigi in Kinyinya health district, one of the most severely affected in the country. In June 2019, MSF teams started supporting 14 health centres and two hospitals by providing free malaria treatment. While treating the patients helps to save lives, it was not enough to tackle the problem at the source.&lt;/p&gt;
+
+&lt;p&gt;It was time to think about how to prevent tiny mosquitoes from transmitting the disease to a sizeable chunk of population. In September 2019, MSF supported the Ministry of Health  in the setting up of a &lt;a href=&quot;https://www.missingmaps.org/blog/2020/01/29/a-year-of-blogs/&quot;&gt;first round of indoor residual spraying (IRS) campaign&lt;/a&gt;. This technique involves spraying individual houses with insecticide to kill off mosquitoes. In one month, the MSF teams sprayed 59,731 homes, protecting close to 287,000 inhabitants for a period estimated up to nine months.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20210129_photo4.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Spraying at a household level against malaria-carrying mosquitoes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For the IRS campaign to be effective, it needs to be repeated. In this case, the spraying of the houses in the area would be done every year over the course of three years. That leads to renewing the protection of the households, and lowering the number of malaria-transmitting mosquitoes in the community. A Missing Maps activation had helped to obtain a base map with updated buildings based on recent satellite imagery with help of volunteers before the 1st round of IRS. Once data were available on openstreetmap, the experts in Geographic Information Systems (GIS) and Internet and Communication Technologies (ICT) uploaded the in mobile phones and computers to prepare the IRS Data Collection strategy.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20210129_photo1.png&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt; MSF team adding data to phones&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;To carry out the second round of the IRS campaign meant to mobilize local authorities and the community, both in the sense of ensuring a sufficient capacity of those to implement it, but also in terms of ensuring the cooperation of the population to open their houses and respect the Covid-19 precautions. With the global pandemic, it has been difficult for international organizations to conduct trainings as usual. It was challenging for MSF to organize the travel of the international staff and find a safe way to train more than 1,000 people during the preparation phase. The MSF campaign was delayed by a few weeks due to COVID-19 restrictions, while other organizations simply had to cancel theirs.&lt;/p&gt;
+
+&lt;p&gt;Overall, 468 sprayers and 330 community health workers were dispatched in the hills to prepare and conduct the campaign. Luckily, over 80% were field workers involved in the first round of the IRS campaign in 2019, so it was possible to do the training over the course of three weeks. Close to 100 local staff were trained in mobile data collection in OSMand and Kobo applications. During the campaign, building information was updated in the mobile mapping applications directly by the team leaders to monitor the progress and compiled always at the end of the day by the GIS expert.&lt;/p&gt;
+
+&lt;p float=&quot;left&quot;&gt;
+  &lt;img src=&quot;https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20210129_photo2.png&quot; width=&quot;300&quot; /&gt;
+  &lt;img src=&quot;https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20210129_photo3.png&quot; width=&quot;300&quot; /&gt; 
+  &lt;p class=&quot;caption&quot;&gt;What a  team leader sees on the mobile screen: Black dots are houses sprayed, yellow yet to be sprayed and red – spraying refused or not possible.&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Apart from the adaptation to the pandemic context, the challenges included also a poor internet connection in one the communes, the accessibility of some households, and a tight timeframe to finish the campaign before the rainy season. Some houses are tough to access even by a bicycle and the dwellings in the more remote areas are spread far apart, while the spraying equipment is relatively heavy and voluminous. Before spraying, everything has to be carried outside of the house, and the residents would not accept that if it was raining. In addition, in its first year, the campaign achieved a very good coverage, which became also a challenge. The GIS Superviser commented, „if we did 96% last year (…) we had to do better than what we did last time.“ The aim was also high quality, with the spraying done according to the WatSan recommendations, while having the best coverage possible.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What we learned&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;According to the GIS Superviser, it was better for the spraying teams to start far and gradually move in to closer points. If it rained, the accessibility over unpaved roads would be harder, so the teams would rather go to a closer location. Another lesson learned since the beginning of the IRS intervention is to cross-check the coverage of the households on several sources of information, not only the mobile screen and PC at different levels of the organization, but also with the community, for example by calling the village chief.&lt;/p&gt;
+
+&lt;p&gt;Even though the second year included new houses, the 2020 campaign succeeded to have a higher coverage than the first year: 311,500 people protected in the three communes (97% of total population), with 98% of the houses sprayed. Thankfully, a tangible impact with a more than 85% reduction of malaria cases in the district following the 2019 intervention made the MSF team usually welcome by the local people. These good results led to the interest of the National Programme to learn from the MSF experience and best practices. The experience shows that the desired results may be reached, but require a complex planning, logistics and considerable human resources including the training and a multi-year implementation with use of the Geographic Information Systems.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20210129_photo5.png&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt; Spraying equipment is quite heavy!&lt;/p&gt;
+&lt;/figure&gt;</content><author><name>Jana Bauerova</name></author><category term="blog" /><category term="Medecins Sans Frontieres" /><category term="Malaria" /><category term="Burundi" /><summary type="html">Building on the first year of pilot Indoor Residual Spraying campaign, the Médecins Sans Frontières (MSF) recently conducted a second round. Lessons learned could be incorporated during the repeated exercise and results are encouraging.</summary></entry><entry xml:lang="en"><title type="html">The Maps may be Missing, but We are Still Here – A Year of Blogs – Dec 2020</title><link href="/blog/2020/12/28/a-year-of-blogs/" rel="alternate" type="text/html" title="The Maps may be Missing, but We are Still Here – A Year of Blogs – Dec 2020" /><published>2020-12-28T00:00:00-05:00</published><updated>2020-12-28T00:00:00-05:00</updated><id>/blog/2020/12/28/a-year-of-blogs</id><content type="html" xml:base="/blog/2020/12/28/a-year-of-blogs/">&lt;p&gt;&lt;strong&gt;The Maps may be Missing, but We are Still Here&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;International cooperation in mapping is important, but who is really leading?&lt;/p&gt;
+
+&lt;p&gt;How should you map seas of islands in the Pacific? The region, like others in the world, is threatened by disasters and the climate crisis, and mapping can help in responding to such major issues. But first, listen. There is a popular saying across the ocean, from Pilipinas to Aotearoa:
+&lt;em&gt;If you want to reach your destination, then remember where you came from.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;As humanitarian mapping and other major geospatial projects continue in Moana Oceania, also known as the Pacific, it should be remembered that we the people who are born and raised in this ocean and its islands are descendants of the greatest navigators, the &lt;a href=&quot;https://en.wikipedia.org/wiki/Austronesian_peoples&quot;&gt;Austronesians&lt;/a&gt;. I am of the Kapampangan and Tagalog peoples who descend from Luzon Island, which is part of the seas of islands of Pilipinas (the Philippines). The map below depicts a migration of my ancestors and their relatives from Taiwan to the regions of Madagasikara (Madagascar), Aotearoa (New Zealand), and beyond. They accomplished this by observing the waves, winds, stars, birds, and many other signs; inventing seafaring technologies; and taking care of communities along the way. They were mapmakers, &lt;a href=&quot;https://en.wikipedia.org/wiki/Enrique_of_Malacca&quot;&gt;from whom western colonisers borrowed expertise&lt;/a&gt; during the colonisation of the ocean, which continues today.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20201228_photo1.png&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt; Figure 1. The Austronesian migration &lt;a href=&quot;https://www.researchgate.net/figure/Map-outlining-migratory-paths-of-Austronesian-speaking-populations-including-estimated_fig1_224709266&quot; target=&quot;\_blank&quot;&gt;credit&lt;/a&gt;&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Hence before you proceed, please be aware that my way of reasoning and aspiring may seem tautological and mundane. But the reader must recognise that I descend from and tap into an oceanic wayfinding culture that regards spacetime as cyclical, recursive, and highly relational. This means that the past is in front of us while the future is behind us in an ever-living present. In international buzzwords, it is called “iteration” and “networking”. This also means that I draw from an intergenerational body of geographic knowledge that is not limited by shapefiles or map tiles. For example, our relatives in what was called Micronesia, which is in fact a group of large ocean states, have been making maps about the relationships between seas of islands for a very long time.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20201228_photo2.png&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt; Figure 2. An ocean chart by Indigenous wayfinders of Micronesia &lt;a href=&quot;https://www.nationalgeographic.org/media/micronesian-stick-chart/&quot; target=&quot;\_blank&quot;&gt;credit&lt;/a&gt;&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We know where we are going because we know where we came from. This means that our intergenerational geographical knowledges are with us and should be respected, while we have been under threat by colonialism, imperialism, capitalism, patriarchy, and many other systems of oppression for hundreds of years.&lt;/p&gt;
+
+&lt;p&gt;If you look at history and geography with a deep sense of time and space, then you will know this important truth: we are not missing from the maps. In fact, we have been overmapped. For hundreds of years, Western cartographers and ethnographers have been profiling our interrelated peoples, absurdly slicing the ocean, and concocting controversial racial hierarchies and questionable regional categories. These problematic patterns persist until today, whether in outputs or organisations who do the mapping and storytelling. &lt;a href=&quot;https://thebaffler.com/latest/the-map-and-the-territory-aguilar-gil&quot;&gt;Mapping has been very troublesome&lt;/a&gt;. And while maps may be missing from digital platforms and social networks, we are still here.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20201228_photo3.png&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt; Figure 3. A racialised and segregated 1832 map of Oceania, made by the cartographer, explorer, and coloniser Dumont d’Urville &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;“&lt;a href=&quot;https://en.wikipedia.org/wiki/Primum_non_nocere&quot;&gt;First, do no harm&lt;/a&gt;”, say many manuals in the humanitarian sector. Truth be told, cartography and geospatial technologies, which are intertwined with colonial projects, have been harmful and traumatic for the vast majority of the peoples of the world. The extractive methods of producing geographic knowledge are a core part of the painful construction of international systems that belittle, misunderstand, disrespect, and exploit us peoples of the ocean and our other living relatives. For example, the US military, as it was mapping the Philippines, hosted the largest overseas US military base in our town and left toxic waste that has been making the children suffer. The experience has been &lt;a href=&quot;https://www.theguardian.com/world/2020/oct/11/poisoning-the-pacific-new-book-details-us-military-contamination-of-islands-and-ocean&quot;&gt;the same across the Pacific&lt;/a&gt;. This trend towards extinction continues today, as colonial powers remain present in many seas of islands such as Guåhan, Ryukyu, West Papua, Australia, Kanaky, Hawaiʻi, Tahiti, Aotearoa. The list goes on. Hence, remember that the context of our mapping is that we do not live in a postcolonial age; instead, we are inside a recolonising milieu. Remember that colonialism is an ongoing disaster, and we must confront it, too, to alleviate suffering, uphold human rights, and redefine development.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Maps have done a lot to confuse things for people. And I think more lands have been lost to native peoples probably through mapping than through physical conflict.”&lt;/em&gt; &lt;a href=&quot;https://aeon.co/videos/native-cartography-a-bold-mapmaking-project-that-challenges-western-notions-of-place&quot;&gt;Jim Enote&lt;/a&gt;, Zuni Nation&lt;/p&gt;
+
+&lt;p&gt;How can we avoid such harms in the production of geospatial knowledge, especially in large geospatial projects? First, there must be opportunities and safeguards for the refusal of mapping. Another top priority is to revisit the ethos, including humanitarian ones, that we enunciate and internalise during our mapping. Next, we must critically support mapping projects led by Indigenous organisations. While we do this we must work with and follow &lt;a href=&quot;https://www.indigenousmaps.com/&quot;&gt;organisations&lt;/a&gt; that respect Indigenous peoples and Indigenous sovereignty.&lt;/p&gt;
+
+&lt;p&gt;Last year, we hosted a mapathon here in Aotearoa, also known as New Zealand, for mapping seas of islands here in our ocean. The event, organised with the support of &lt;a href=&quot;https://www.osgeo.org/events/foss4g-sotm-oceania-2019/&quot;&gt;FOSS4G-SotM Oceania 2019&lt;/a&gt;, was attended by folks of various backgrounds across the large ocean states. We were making maps for, with, and by the Pacific. I acknowledge the Indigenous peoples of Aotearoa for the space and opportunity to do this work, while I follow their leadership in the journey towards the full decolonisation of New Zealand and the rest of the Pacific.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20201228_photo4.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20201228_photo5.png&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt; Figure 4 and 5. Participants in the Missing Maps mapathon in Wellington, Aotearoa (New Zealand) last November 2019. Photos by conference organisers&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Remember that the job of the mapmaker is not just to produce visuals or provide data. Through the peoples and places they make maps with, a mapmaker creates meaning that weaves together space, knowledge, and power. Now, what will that meaning be? Will it just be about a reproduction of colonial, imperial, extractive, and patriarchal projects that devalue, traumatise, and annihilate life? Or will it help in the emancipation of marginalised peoples, abolition of oppressive structures, and regeneration of Indigenous power? If you are a mapmaker, then ask yourself, “who are you making maps for?” and “who are you making maps &lt;em&gt;with&lt;/em&gt;?” More importantly, who is leading your mapping?&lt;/p&gt;
+
+&lt;p&gt;As international geospatial projects continue, I strongly hope that more spaces are created for the leadership of Indigenous peoples in Indigenous-led geospatial organisations. In this transition that is already happening, it is necessary to frame mapping not just in terms of representation, but also of power.  It is not just the maps that matters. Who makes the maps matters. Who tells the stories of the mapping matters, too. Who leads the mapping and storytelling also matters. Who gets powerful due to the mapping and storytelling matters most.&lt;/p&gt;
+
+&lt;p&gt;For many years, I have been participating in and organising mapping hackathons, meetups, and many other mapping projects in the Philippines, UK, Aotearoa (New Zealand), etc. With other volunteers like you, I have been giving my labour, time, expertise, stories, and so much more. Like you, I take mapping seriously. And like my ancestors, we the children of this ocean and its islands are mapmakers. But we are not your laboratory, pilot project, best practice, report cover, click farm, or geospatial dot. In fact, international organisations need us the natives and our Indigenous relatives more than we need them.&lt;/p&gt;
+
+&lt;p&gt;How should you map seas of islands in the Pacific? If you are helping us do that, then please remember that you are not our saviours. You are not here to save us. Instead, you are here to contribute to our survival and success, which we have already been doing, and support the reclamation of our sovereignty as peoples of this ocean. The work for social and spatial justice, including the decolonial, is very messy, uncomfortable, and seemingly endless, but let us do that together, with natives and Indigenous peoples present and leading. There is a popular saying across Moana Oceania Pacific:
+&lt;em&gt;If you want to reach your destination, then remember where you came from.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The maps may be missing, but we are still here.&lt;/p&gt;
+
+&lt;p&gt;– 
+David Garcia (@mapmakerdavid) is a PhD candidate in Geospatial Science. At present, he is supporting the Ministry of Mapping (@mappingministry), a geospatial collective in the  Philippines. He loves making maps of his home, the Pacific. And if the ocean is unsettling, then be the ocean.&lt;/p&gt;</content><author><name>David Garcia</name></author><category term="blog" /><category term="Community" /><category term="MeetTheMapper" /><category term="Pacific" /><summary type="html">International cooperation in mapping is important, but who is really leading?</summary></entry><entry xml:lang="en"><title type="html">Help to Grow MapSwipe by Joining the Collective – A Year of Blogs – Nov 2020</title><link href="/blog/2020/11/24/a-year-of-blogs/" rel="alternate" type="text/html" title="Help to Grow MapSwipe by Joining the Collective – A Year of Blogs – Nov 2020" /><published>2020-11-24T00:00:00-05:00</published><updated>2020-11-24T00:00:00-05:00</updated><id>/blog/2020/11/24/a-year-of-blogs</id><content type="html" xml:base="/blog/2020/11/24/a-year-of-blogs/">&lt;p&gt;&lt;strong&gt;MapSwipe - Why we’re setting up a collective…&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you’re reading this blog post today, you might have tried the app MapSwipe. Thank you for that, the minutes you and about 3000 other people spend every month looking at imagery does make a difference, whether it’s in the fight against Covid in Mali, or Ebola in the DRC.&lt;/p&gt;
+
+&lt;p&gt;I joined the MapSwipe team just over 2 years ago, when Benni Herfort told me he was looking for an app developer who could help him fix a few bugs. I knew the technology he needed, I had a bit of time on my hands, so I offered to help out “for 3 weeks”. The few bugs became many, and soon we were planning a major update of the app which came out in October 2019, after almost a year of work. Another year later, we’ve released 8 more versions of the app (and over 120 test versions).&lt;/p&gt;
+
+&lt;p&gt;This work has allowed us to provide lots of improvements, many of which you are not aware of as the user, but are important anyway. We’ve translated the app to 14 languages, made it possible to find changes over time in imagery, added a great tutorial to help new users understand how to use the app. We’ve also improved access to the resulting data, built a leaderboard, complied with GDPR, made the app more responsive and fixed countless little issues, many of which we only discovered thanks to your bug reports. Then there is the truly boring work, like upgrading software dependencies so that the app can continue working on new phones, or writing to Google when they drop the app from the PlayStore because it talks about Covid.&lt;/p&gt;
+
+&lt;p&gt;All of this has taken thousands of hours of work by designers, translators, bloggers, developers, testers, and many others. Some of it was paid for, but a lot was volunteered time. Today, over 20 people contribute to making MapSwipe work, even before any mapping is done. Only a few months ago, this number was closer to 5 (the biggest increase came from translators, if you wonder). The biggest risk for the project right now is what is known as a &lt;a href=&quot;https://en.wikipedia.org/wiki/Bus_factor&quot;&gt;bus factor&lt;/a&gt; of 1. If any of the core people were hit by a bus (or something less dramatic, like they simply had other priorities), there is nobody else who knows how to do their job. So we need help, new members who can help us keep the project going and getting better.&lt;/p&gt;
+
+&lt;p&gt;Today, I want to ask for your help with a small donation to our brand new &lt;a href=&quot;https://opencollective.com/mapswipe&quot;&gt;OpenCollective&lt;/a&gt;. I love MapSwipe, its goals and the team. But realistically, if we want the app to keep working reliably, we can’t just rely on people’s goodwill to spend all these days working on it. We are working with the organisations that use the results from MapSwipe (MSF, HOT, the Red Cross…) to get some support from them, but we also want to make sure this does not just become their project (and to be fair, they already provide a lot of support). We believe that many other organizations could benefit from MapSwipe, and your donation can help us reach out to them, and offer to support their work for free.&lt;/p&gt;
+
+&lt;p&gt;But more importantly, the entire core team (excluding translators) is made up of Western Europeans and Americans, all white, and mostly male (I’m one of them). I find it a bit sad, especially considering that the focus of the project is the “Global South”. I believe the reasons for this are complex, but a key one is opportunity. As I wrote at the start of this post, the main reason I could join the team was because I had a bit of free time. I could afford to work for a few days without pay. There are tons of very talented people out there who unfortunately do not have this luxury. So when we rely on volunteers to run the project, we are also limiting the talent pool, and skewing it very strongly towards people like me. And while I think we’ve done an ok job so far, I’m convinced we could do so much better with a more diverse team.&lt;/p&gt;
+
+&lt;p&gt;Join us today, make a donation on our &lt;a href=&quot;https://opencollective.com/mapswipe#section-contribute&quot;&gt;OpenCollective page&lt;/a&gt;, &lt;a href=&quot;https://mapswipe.slack.com/join/shared_invite/zt-8plrc8j9-4Y7kvxyOqIB0zbow13t3pw&quot;&gt;join our Slack group&lt;/a&gt; to say hi, or &lt;a href=&quot;mailto:info@mapswipe.org&quot;&gt;drop us an email&lt;/a&gt;, and help us shape the future of MapSwipe!&lt;/p&gt;
+
+&lt;p&gt;Thank you for your support!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Laurent and the whole team&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Laurent Savaëte</name></author><category term="blog" /><category term="MapSwipe" /><category term="Volunteers" /><category term="Fundraising" /><summary type="html">Why we're setting up a collective to support MapSwipe</summary></entry><entry xml:lang="en"><title type="html">Missing Maps Project awarded at the Red Cross Humanitarian Technology Awards – A Year of Blogs – Oct 2020</title><link href="/blog/2020/10/26/a-year-of-blogs/" rel="alternate" type="text/html" title="Missing Maps Project awarded at the Red Cross Humanitarian Technology Awards – A Year of Blogs – Oct 2020" /><published>2020-10-26T00:00:00-04:00</published><updated>2020-10-26T00:00:00-04:00</updated><id>/blog/2020/10/26/a-year-of-blogs</id><content type="html" xml:base="/blog/2020/10/26/a-year-of-blogs/">&lt;p&gt;Back in February, the Missing Maps Project was awarded the Cruz Roja Award at the &lt;a href=&quot;https://www2.cruzroja.es/premios-tecnologia-humanitaria&quot;&gt;Red Cross Humanitarian Technology Awards (IV Edition)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20201026_photo2.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The Red Cross Humanitarian Technology Awards (IV Edition) are awards that promote the humanitarian use of technology to build a better world and are awarded to developments which promote the humanitarian use of technology.&lt;/p&gt;
+
+&lt;p&gt;The Missing Maps Project members are delighted to have been awarded the Cruz Roja Award, and are proud to stand alongside the other award winners, whose projects, ideas and prototypes demonstrate the power of emerging technology for humanitarian action.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20201026_photo1.jpg&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We are incredibly honoured to be part of a passionate, humanitarian network of mappers who have created to this technology and community. This award belongs to all the volunteers, community groups and contributors who make the objectives and ethics that the Missing Maps Project stands for come to life.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;OpenStreetMap GeoWeek 2020 #osmgeoweek&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Get involved in OpenStreetMap GeoWeek with the Red Cross Red Crescent network and map for preparedness programmes!&lt;/em&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20201026_photo.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This 15th — 21st November is &lt;a href=&quot;https://osmgeoweek.org/index.html&quot;&gt;OpenStreetMap GeoWeek&lt;/a&gt;, bringing together community groups, map enthusiasts, humanitarians and others to celebrate geography. During the week we’ll create maps with OpenStreetMap (OSM), the free, open source map of the world that the Missing Maps Project contributes to and uses to build maps for programmes and preparedness.&lt;/p&gt;
+
+&lt;p&gt;Together with IFRC regional offices this OSMGeoWeek, we’re also aiming to expand and grow awareness of the Missing Maps Project, humanitarian mapping, awareness of open map data, and build mappers within the Red Cross Red Crescent movement globally.
+There’ll be mapathon events, information sessions and skill sharing sessions among other activities! Find out about the public events and sign up on the Missing Maps or OSMGeoWeek websites or even submit your own event!&lt;/p&gt;</content><author><name>Paul Knight</name></author><category term="blog" /><category term="Awards" /><category term="Red Cross" /><summary type="html">Back in February, the Missing Maps Project was awarded the Cruz Roja Award at the Red Cross Humanitarian Technology Awards (IV Edition)</summary></entry><entry xml:lang="en"><title type="html">‘Anticipating and addressing epidemics’ – A Year of Blogs – Sept 2020</title><link href="/blog/2020/09/24/a-year-of-blogs/" rel="alternate" type="text/html" title="'Anticipating and addressing epidemics' – A Year of Blogs – Sept 2020" /><published>2020-09-24T00:00:00-04:00</published><updated>2020-09-24T00:00:00-04:00</updated><id>/blog/2020/09/24/a-year-of-blogs</id><content type="html" xml:base="/blog/2020/09/24/a-year-of-blogs/">&lt;h1 id=&quot;anticipating-and-addressing-epidemics---the-potential-of-open-data-initiatives&quot;&gt;Anticipating and addressing epidemics - the potential of open data initiatives&lt;/h1&gt;
+
+&lt;p&gt;In order for FbF to work, we need to decide quickly, when and where to act. In order to predict impact, we need good exposure data, to plan our interventions we need maps: For both we rely on our friends from OSM, HOT and HeiGIT. Find out more about them and their work on the COVID-19 response in this article.&lt;/p&gt;
+
+&lt;h2 id=&quot;forecast-based-action-and-the-use-of-openstreetmap-data&quot;&gt;Forecast-based Action and the use of OpenStreetMap data&lt;/h2&gt;
+
+&lt;p&gt;A huge focus in the humanitarian world over the past months has been on epidemics, in particular the COVID-19 outbreak. As infectious disease modelers and epidemiologists work on forecasting disease outbreaks, not dissimilar to how hydrometeorological hazards are modelled and then used in Forecast-based Action (FbA), we want to explore how these two worlds can be brought together to strengthen early action for epidemics.&lt;/p&gt;
+
+&lt;p&gt;For a FbA system to flourish, key elements should be in place, namely: triggers, actions and finances. An essential part of the decision-making process to decide when, where and why to trigger early action is the use of impact-based forecasting to create so-called early action intervention and activation maps. In order to conduct this forecast and risk analysis, comprehensive and good quality geospatial data is required which covers aspects of vulnerability, exposure and hazard. This is where &lt;a href=&quot;https://www.openstreetmap.org&quot;&gt;OpenStreetMap (OSM)&lt;/a&gt; comes in, in particular &lt;a href=&quot;https://www.hotosm.org/&quot;&gt;Humanitarian OpenStreetMap Team (HOT)&lt;/a&gt; and the Missing Maps project.&lt;/p&gt;
+
+&lt;p&gt;Missing Maps is supporting FbA, making OSM more and more essential for the process of deciding when, where and why to trigger early action. OSM exposure data such as houses, schools, hospitals, roads, water points, bridges, etc. are very important to understanding what is likely to be impacted by a hazard. Of course, this depends on the vulnerability of these buildings, infrastructure and the people who interact with them. Many parts of the world have very limited data of sufficient quality on exposure and vulnerability. To address this gap, OSM offers open access data that can be used in combination with weather and climate forecasts (and other data) to move towards the future of forecasting: “Impact-based forecasting”. This is one of the key elements of a FbA system to trigger early action to protect the lives and livelihoods of the most vulnerable people in the world.&lt;/p&gt;
+
+&lt;p&gt;Currently, FbA projects in Peru and Indonesia are using OSM data, flood forecasts and other data to trigger early action before potential dangerous floods occur. In both countries, Missing Maps projects have been instrumental in expanding the map to areas that are at high risk of floods but that were previously unmapped. This strengthens our capacity to act early. There is still more work to be done to expand the map to cover all the potential communities that could be affected by growing risk, particularly in the face of a changing climate, armed conflicts and increased vulnerability due to COVID-19.&lt;/p&gt;
+
+&lt;h2 id=&quot;fba-and-epidemics&quot;&gt;FbA and Epidemics&lt;/h2&gt;
+
+&lt;p&gt;Missing Maps members have been laying the groundwork for a potential use of FbA for epidemics in their involvement in COVID-19 responses. Some of their activities are presented below.&lt;/p&gt;
+
+&lt;h2 id=&quot;hot-activities&quot;&gt;HOT Activities&lt;/h2&gt;
+
+&lt;p&gt;Since March, the HOT community and their partners have worked across three continents to provide data needed for COVID-19 responses, mapping over 227 locations, engaging over 10,000 volunteers to date and providing eight &lt;a href=&quot;https://www.hotosm.org/projects/hot-covid-19-response/&quot;&gt;Microgrants&lt;/a&gt; to local communities to map in support of COVID-19 responses in their own countries.
+In responding to COVID-19, HOT has identified three key areas of support:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Help government agencies and responders with data so they can provide essential services to all communities, including those in rural and under-mapped areas&lt;/li&gt;
+  &lt;li&gt;Identify populations most at risk by identifying and addressing data gaps on risk factors such as age, pre-existing conditions and access to public health services and public gathering and resource distribution centers like markets that households may depend on for food and livelihoods&lt;/li&gt;
+  &lt;li&gt;Increase map creation in at-risk locations by supporting local mapping communities in creating maps that local responders can use
+The types of features being mapped vary based on the local needs, but can include building footprints, roads, clinics, handwashing stations, markets and other gathering places, place names and administrative boundaries. Together, these items support the priorities above by enabling governments and communities to reach previously unmapped communities and households, gauge the risk of both the pandemic and the side-effects of lockdowns like loss of livelihoods, plan public health interventions and help individuals to find essential services.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In &lt;a href=&quot;https://hotosm.us9.list-manage.com/track/click?u=5191e27b207136970f2a9ec1b&amp;amp;id=0fc5623a76&amp;amp;e=12fee999b0&quot;&gt;Botswana&lt;/a&gt;, HOT has been mapping at the request of the Botswana Institute of Geoinformatics to support the national COVID-19 response. While the mapping of the initial priority region has been completed, efforts are now expanding to map the entire country in OSM.&lt;/p&gt;
+
+&lt;p&gt;In &lt;a href=&quot;https://hotosm.us9.list-manage.com/track/click?u=5191e27b207136970f2a9ec1b&amp;amp;id=885ea70ba0&amp;amp;e=12fee999b0&quot;&gt;Mali&lt;/a&gt;, HOT is supporting the COVID-19 coalition, which includes members of the local OpenStreetMap community and the Mali Red Cross, so they can better plan and respond to coronavirus impacts.&lt;/p&gt;
+&lt;figure&gt; &lt;img src=&quot;https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20200924_MaliMappingCovid.jpg&quot; /&gt; &lt;p class=&quot;caption&quot;&gt; HOT mapping task supporting COVID-19 response in Mali.&lt;/p&gt; &lt;/figure&gt;
+
+&lt;p&gt;In &lt;a href=&quot;https://hotosm.us9.list-manage.com/track/click?u=5191e27b207136970f2a9ec1b&amp;amp;id=0a0f40644b&amp;amp;e=12fee999b0&quot;&gt;Peru&lt;/a&gt;, HOT has mapped the entire Cusco region, home to 1.2 million people and with extremely varied terrain; from Altiplano communities living at 5,000m altitude to Amazonian jungle. Creating better maps has allowed government workers to begin using the data to assess healthcare needs. This is particularly vital for maternal healthcare services, which have been largely unavailable over the past few months due to quarantine. For more information please check out this &lt;a href=&quot;https://www.hotosm.org/updates/covid-19-pandemic-in-peru-mapping-health-implications/&quot;&gt;blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://hotosm.us9.list-manage.com/track/click?u=5191e27b207136970f2a9ec1b&amp;amp;id=9de542c26e&amp;amp;e=12fee999b0&quot;&gt;Philippines&lt;/a&gt; OSM community has mapped Quezon City, one of the most densely populated places in Manila and the hardest hit by COVID-19 at the time the project started. This has been in partnership with the Pacific Disaster Center as part of their project to map critical lifeline infrastructure across the country.&lt;/p&gt;
+
+&lt;p&gt;In addition, local OSM communities and partner organizations have been setting up mapping projects around the world, with 20 currently underway on the &lt;a href=&quot;http://www.tasks.hotosm.org/&quot;&gt;HOT Tasking Manager&lt;/a&gt;, mapping their own locations and interests regarding the coronavirus&lt;/p&gt;
+
+&lt;h2 id=&quot;heigit-activities&quot;&gt;HeiGIT Activities&lt;/h2&gt;
+
+&lt;p&gt;Awareness of local health capacity is of the utmost importance when planning and conducting humanitarian projects and in disaster response contexts in general. This again became very apparent in the current global COVID-19 response.&lt;/p&gt;
+
+&lt;p&gt;The Heidelberg Institute for Geoinformation Technology (HeiGIT gGmbH), also a Missing Maps member, was launched to improve knowledge and technology transfer from fundamental research in geoinformatics to practical applications with a specific focus on user-generated geodata, e.g. OSM, and environmental and humanitarian contexts. In this vein, HeiGIT develops related applications, workflows and approaches.&lt;/p&gt;
+
+&lt;p&gt;To enable awareness of local health capacities and building on the data created through HOT efforts, in the scope of the COVID-19 response the HeiGIT team developed an extension of their &lt;a href=&quot;https://ohsome.org/apps/osm-history-explorer/#/amenity_clinic_healthcare_clinic_ptpl/2020-06-01T00:00:00Z/2/0/0&quot;&gt;OSM History Explorer&lt;/a&gt; (ohsome hex) which allows analyses of OSM completeness in mapping health facilities in Sub-Saharan Africa. This extension facilitates quick and simple assessment of health facilities in areas of interest and to respectively raise awareness of vulnerable areas.&lt;/p&gt;
+
+&lt;p&gt;Additionally, the team conducted several related research studies and developed a &lt;a href=&quot;https://covid-19.heigit.org/clinical_trials.html&quot;&gt;“Map of Hope”&lt;/a&gt; that provides a comprehensive overview of COVID-19 related clinical trials, using OSM as a base layer for localization.&lt;/p&gt;
+&lt;figure&gt; &lt;img src=&quot;https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20200924_Explorer.JPG&quot; /&gt; &lt;p class=&quot;caption&quot;&gt; OSM History Explorer showing completeness of health facilities in sub-saharan Africa.&lt;/p&gt; &lt;/figure&gt;
+
+&lt;h2 id=&quot;what-next&quot;&gt;What next?&lt;/h2&gt;
+
+&lt;p&gt;Both HOT and HeiGIT have demonstrated the power of leveraging OSM in responding to the COVID-19 outbreak. The newly created OSM data has played a crucial role in better planning and responding to COVID-19 impacts, and invaluable lessons have been learned from this that could help in building the first steps of early action for future epidemics.&lt;/p&gt;
+
+&lt;p&gt;For one, location data is not the only kind of data needed for a useful map. Data users working to address pandemics need to know not only where places like markets and water points were located, but also details such as user capacity and hours of operation in order to fully gauge risks.&lt;/p&gt;
+
+&lt;p&gt;In fact, in many places where this kind of detailed data about the availability, use, and risk of services, resources, and public spaces is needed, the general base map of roads and buildings is already largely complete. Due to this, the greatest need for volunteers is often in local mapping rather than remote, digital mapping. HOT has found it invaluable to provide support to existing local mapping communities in purchasing equipment, accessing training and the like so they could address local mapping needs more effectively.&lt;/p&gt;
+
+&lt;p&gt;There is also a need to develop long-term partnerships in anticipation of a need to generate open map data. There are countries that are currently heavily impacted by COVID-19 and unmapped in OpenStreetMap, but where there have not been requests for assistance in mapping. There is an opportunity need to develop relationships with government at all levels, civil society, and volunteer mappers, in order to be well positioned to provide assistance with mapping for pandemic response in the future.&lt;/p&gt;
+
+&lt;p&gt;OSM offers an immense opportunity to manage risks in a new way by considering the nature of compound and cascading hazards and where climate, epidemic, conflict and other hazards collide. The better the map, the better our capacity to identify who and what could be impacted. This allows the development of tailored solutions in the short, medium and long term. Both digital and in-person Red Cross Red Crescent volunteers have been playing an enormous role in enhancing OSM data. By increasing our digital volunteer capacity to map remotely in mapathons and by ensuring that local mapping and validation is done, we will be able to increase and enhance the amount of crucial information that is available not only for anticipatory action, but in general to adapt and reduce risks at all times.&lt;/p&gt;
+
+&lt;p&gt;Volunteers have been the foundation of the RCRC movement since it’s beginning and are a central part of all activities.  We therefore encourage the RCRC movement to invest in volunteers’ capacity to map all over the world and across all different types of programmes, from health, to shelter, to DRR and livelihoods. By doing so the benefit will be multiplied to make the difference that is really needed and fulfil our 2018 goal of leaving no one behind.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;We encourage you to share your thoughts:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Melanie Eckle, HeiGIT, melanie.eckle[at]heigit.org&lt;/p&gt;
+
+&lt;p&gt;Rebecca Firth, HOT, rebecca.firth[at]hotosm.org&lt;/p&gt;
+
+&lt;p&gt;Catalina Jaime, Red Cross Red Crescent Climate Centre, jaime[at]climatecentre.org&lt;/p&gt;
+
+&lt;p&gt;Katharina Lorenz, German Red Cross, katharina.lorenz[at]drk.de&lt;/p&gt;</content><author><name>Katharina Lorenz</name></author><category term="blog" /><category term="epidemics" /><category term="FBF" /><category term="Year-of-Blogs" /><summary type="html">In order for FbF to work, we need to decide quickly, when and where to act.</summary></entry><entry xml:lang="en"><title type="html">‘The State of OpenStreetMap in Africa’ – A Year of Blogs – Aug 2020</title><link href="/blog/2020/08/28/a-year-of-blogs/" rel="alternate" type="text/html" title="'The State of OpenStreetMap in Africa' – A Year of Blogs – Aug 2020" /><published>2020-08-28T00:00:00-04:00</published><updated>2020-08-28T00:00:00-04:00</updated><id>/blog/2020/08/28/a-year-of-blogs</id><content type="html" xml:base="/blog/2020/08/28/a-year-of-blogs/">&lt;h1 id=&quot;the-state-of-openstreetmaposm-in-africa&quot;&gt;The State of OpenStreetMap(OSM) in Africa&lt;/h1&gt;
+
+&lt;p&gt;OpenStreetMap Africa is a network of OSM communities from all over Africa working together to grow OSM on the continent. Ahead of the &lt;a href=&quot;https://2020.stateofthemap.org/&quot;&gt;State of the Map 2020&lt;/a&gt; conference, which was supposed to take in place in Africa for the first time, but was held online due to COVID-19, OSM Africa surveyed OSM community leaders in different countries in Africa, to assess the state of OSM in their countries. The purpose of the survey was to see where we are as OSM Africa, where we need to be, and how we can focus on achieving our goal to map each and every corner of Africa. We heard back from 52 out of the 55 countries in Africa and the results were &lt;a href=&quot;https://youtu.be/gHqmQp7gbqE&quot;&gt;presented at the conference&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20200828_photo1.png&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt; The brightest spots on the map above illustrate substantial amounts of OSM node density in different places in Africa.  &lt;a href=&quot;https://tyrasd.github.io/osm-node-density/#4/3.03/-0.70/latest,places&quot; target=&quot;\_blank&quot;&gt;OSM Node Density&lt;/a&gt; &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://flo.uri.sh/visualisation/2648157/embed&quot;&gt;This&lt;/a&gt; visualization shows the total number of mapped buildings per year in each country from 2007 to 2020. It also shows the history and journey of OSM editing in Africa. By June 2020, there was a total of 57,766,001 mapped buildings in Africa, with Tanzania leading at 11 million, thanks to the work done there by the &lt;a href=&quot;https://www.hotosm.org/&quot;&gt;Humanitarian OpenStreetMap Team (HOT)&lt;/a&gt;, the &lt;a href=&quot;https://youtu.be/328t90vkots&quot;&gt;World Bank&lt;/a&gt; through &lt;a href=&quot;https://ramanihuria.org/en/&quot;&gt;Ramani Huria&lt;/a&gt; and &lt;a href=&quot;https://crowd2map.wordpress.com/&quot;&gt;Crowd2Map Tanzania&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We also looked at the population in comparison to the number of mapped objects, to measure map completeness in each country.  This shows Eswatini, Lesotho, Seychelles, Botswana and Zimbabwe as the most mapped countries. &lt;a href=&quot;https://www.maplesotho.com/&quot;&gt;Map Lesotho&lt;/a&gt; is an interesting case where the Government is leading in the use of OSM for rural and urban planning.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20200828_photo2.png&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt; Population in comparison to the number of mapped objects. &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;existence-of-active-osm-communities&quot;&gt;Existence of active OSM Communities&lt;/h1&gt;
+
+&lt;p&gt;Sixty-five percent of the countries that participated in the survey indicated there is an OSM community in their country, although the levels of activity differ from country to country, from very active to inactive. It is also interesting to note some countries like Egypt and Morocco where there is active mapping but no single community.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20200828_photo3.png&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt; Existing OSM communities. &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;what-makes-a-community&quot;&gt;What makes a community?&lt;/h1&gt;
+
+&lt;h2 id=&quot;definition-of-membership&quot;&gt;Definition of Membership&lt;/h2&gt;
+
+&lt;p&gt;Over the years, the different OSM communities have been growing their membership and it is interesting to see how they define their membership, which is different from country to country.  For example, 56% of respondents answered everyone who contributes to OSM in our country belonged in their group while 38% of respondents answered all those who participated in events e.g. mapping parties, mapathons and Meetups.  Lastly, 6% answered only people who have paid a membership fee.&lt;/p&gt;
+
+&lt;h2 id=&quot;meeting-frequency&quot;&gt;Meeting Frequency&lt;/h2&gt;
+
+&lt;p&gt;OSM communities in Africa do meetups for mapathons, mapping parties, and planning. Meetups are a good way to keep the community engaged and active. It requires space, an internet connection, a team to organize, and in most cases funds to pay for these resources including snacks and refreshments. From the survey we found out that 46% of the communities have not met in a long time, meaning that the community is in place but not particularly active. Out of all of the communities, 24% have never had any meetup, which suggests there is not an active network in place. The remaining 30% meet regularly, either weekly, biweekly, or monthly. The regular Meetups indicate the existence of leadership and the capacity to raise funds or resources through membership fees, through funded projects or through partnerships with a university, NGO, or company that can provide space and internet.&lt;/p&gt;
+
+&lt;h2 id=&quot;communication-channels&quot;&gt;Communication Channels&lt;/h2&gt;
+&lt;p&gt;When it comes to communication, most OSM communities in Africa communicate through Facebook and WhatsApp. The other communication channels used are Telegram and the Talk Mailing Lists. Only 34% of the communities have a website.&lt;/p&gt;
+
+&lt;p&gt;When reaching out to these communities, it is important to use their preferred channels. Otherwise they may miss out on the information.&lt;/p&gt;
+
+&lt;h2 id=&quot;leadership-structures&quot;&gt;Leadership Structures&lt;/h2&gt;
+
+&lt;p&gt;Having a leadership and organizational structure for an OSM community is an asset for  community growth as it makes it easier to partner with other organizations and even take on a wider scale of projects. Of the 52 countries that responded to the survey, 45% have some kind of leadership structure for the community.&lt;/p&gt;
+
+&lt;p&gt;It is also interesting to note that there is no uniform leadership structure. One of the challenges that new communities face is deciding on what kind of leadership or organizational structure to put in place. In particular, the structure they choose should be able to accommodate different groups promoting OSM in a single country. If not done properly, this choice can lead to divisions within the local OSM community as some groups may feel left out.&lt;/p&gt;
+
+&lt;p&gt;For countries that have a leadership structure in place, they have chosen a range of options for their structure. Some have governing boards, others have a president and other officers, and still others build their structure around a country coordinator and project coordinators. Some communities eschew a formal structure and instead are built around an ad hoc core group.  For the communities that are built around YouthMappers chapters, they adopted that organization’s leadership structure.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-sparks-communities&quot;&gt;What sparks communities?&lt;/h1&gt;
+
+&lt;p&gt;For the countries where there are existing OSM communities, we look at some of the factors behind their existence that were pointed out in the survey. Depending on how long the community has been in place, each community defined success in a different way. Some have focused on running mapping projects with support of a HOT Microgrant or participation in the Open Cities Project, and others aimed for organizing regular meetups for training and mapathons. Others looked at long term sustainability through registration as a non-profit organization, establishing YouthMappers chapters, and growing partnerships with government and other players to make open data available for humanitarian response and development.&lt;/p&gt;
+
+&lt;h2 id=&quot;youthmappers-in-africa&quot;&gt;YouthMappers in Africa&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youthmappers.org/&quot;&gt;YouthMappers&lt;/a&gt;, one of the Missing Maps partner organizations, is an international network of university student-led chapters who organize, collaborate, and implement mapping activities that respond to development needs around the globe, creating and using geospatial data and information that is made publicly available through OSM. One of the reasons for the growth of OSM communities in Africa is the rise of chapters. Although it only started in 2018, there are now 105 YouthMappers chapters in universities across Africa, which is 50% of the total number globally. Nigeria and Tanzania have the most chapters with 17 and 15 respectively. Growing OSM through universities is a good model, as the students have a direct incentive to volunteer through mapping and are gaining geospatial skills while at the same time contributing to open data. YouthMappers provide Leadership and Research Fellowships to a number of students per year, who go on to become leaders of OSM communities in their countries.&lt;/p&gt;
+
+&lt;h2 id=&quot;humanitarian-openstreetmap-team-in-africa&quot;&gt;Humanitarian OpenStreetMap Team in Africa&lt;/h2&gt;
+
+&lt;p&gt;Since 2015, &lt;a href=&quot;https://www.hotosm.org/&quot;&gt;HOTOSM&lt;/a&gt; has run country programs in eight countries in Africa and also supported OSM communities with devices and Microgrants in 19 countries in Africa. In most of the countries where HOT has worked, they have engaged the local communities in different projects, and have helped start up communities.&lt;/p&gt;
+
+&lt;h2 id=&quot;open-cities-africa&quot;&gt;Open Cities Africa&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://opencitiesproject.org/&quot;&gt;Open Cities Africa&lt;/a&gt; is a World Bank project that promotes collaborative mapping to build resilient societies in 16 cities in 13 countries in Africa. This project collects data, and builds skills and networks to support disaster risk management in Africa and makes the much needed connection for OSM communities and governments to collaborate on projects.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-are-some-community-challenges&quot;&gt;What are some community challenges?&lt;/h1&gt;
+
+&lt;p&gt;Growing an OSM community in Africa comes with challenges. The countries which have active communities are the ones who have managed to find solutions to these challenges. The biggest challenge expressed by several communities is a lack of resources or funding for internet, devices, and meeting space, followed by lack of leadership within the community. There is also a challenge of an absent volunteer culture because of high unemployment rates, and an absent open source culture. In some countries, political challenges like civil war and occupation by other countries makes mapping dangerous. Low resolution, unclear imagery, especially in informal settings, makes mapping difficult. Some communities also cited gender imbalances where there are fewer women engaged in mapping as a challenge.&lt;/p&gt;
+
+&lt;h1 id=&quot;solutions-to-these-challenges&quot;&gt;Solutions to these challenges:&lt;/h1&gt;
+
+&lt;p&gt;For all the challenges faced, there are solutions which have worked in some countries that can also be applied in the other countries facing the same challenges. Formal registration as an organization opens up opportunities for funding, partnerships, and projects which helps communities to get access to internet, devices, and working space. Organizing State of the Map Africa conferences and even smaller meetups at local levels helps communities come together to share resources and learn from each other. There is also a need to grow awareness about OpenStreetMap, open data, and open source methods through training and collaboration among different actors, including GIS professionals, businesses, and government. Most importantly, the communities that are already existing are helping to start up new ones where they don’t exist, including creating new YouthMappers chapters.&lt;/p&gt;
+
+&lt;h2 id=&quot;osmf-microgrants-2020&quot;&gt;OSMF Microgrants 2020&lt;/h2&gt;
+
+&lt;p&gt;One of the major challenges, pointed out in the survey was lack of access to funds for internet access and other things. Yet communities in only 11 countries from Africa applied for the OSMF Microgrants this year! For the countries with no applications, some had communities that were not aware of the call for applications or no active community to begin with. For others there was just a lack of capacity, with no team to work on a proposal, and a few felt they had no need for a microgrant.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20200828_photo4.png&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt; OSMF microgrant applicants.. &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;osmf-membership&quot;&gt;OSMF Membership&lt;/h2&gt;
+
+&lt;p&gt;The OSM Foundation has a &lt;a href=&quot;https://join.osmfoundation.org/&quot;&gt;membership scheme&lt;/a&gt;  which costs £15 per year. It also has the option of a fee waiver for people who don’t have access to suitable money transfer options or can’t afford the fee because of financial hardship. Members of the OSM communities in Africa need to become members of the Foundation so they can participate in the decision making process about the future of OpenStreetMap and so they can propose things that work for them within OSM. However, only 32% of the people who responded to the survey are members of the OSMF Foundation. The following were given as some of the limitations for becoming members.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Payment platform limitations - Paypal is not accessible in several countries.&lt;/li&gt;
+  &lt;li&gt;Some were not aware of OSMF membership at all.&lt;/li&gt;
+  &lt;li&gt;Some felt being OMS volunteers was enough for them and didn’t see the need to be members.&lt;/li&gt;
+  &lt;li&gt;Others expressed that they had a lack of funds, suggesting they were not aware of the fee waiver option.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The lack of awareness shows the need for the foundation to consider using different communication channels when reaching out to the communities in Africa, including Facebook and Whatsapp. Otherwise many will be left out.&lt;/p&gt;
+
+&lt;h2 id=&quot;osmf-working-groups&quot;&gt;OSMF Working Groups&lt;/h2&gt;
+
+&lt;p&gt;The OSM Foundation has different &lt;a href=&quot;https://wiki.osmfoundation.org/wiki/Working_Groups&quot;&gt;Working Groups&lt;/a&gt; through which the Foundation supports OpenStreetMap in specific areas. These include the Licensing, Data, Operations, Engineering, Communication, StateoftheMap Organizing Committee, Membership, Local Chapters and Communities Working Groups. It is important for OSM Africa members to also participate in these working groups, not only to support the foundation, but also to be part of the process of shaping OpenStreetMap in a way that works for us.&lt;/p&gt;
+
+&lt;p&gt;When asked about participation in the OSMF Working Groups, 36% didn’t know about the existence of Working Groups at all, 41% participate in some way, and 23% were aware but unable to participate. Several reasons were given for lack of participation in the OSMF Working Groups, including a lack of awareness of the existence of the Working Groups, lack of time, lack of access to the internet, and the language barrier as most of the communications happens in English.&lt;/p&gt;
+
+&lt;h2 id=&quot;establishing-osmf-local-chapters-in-africa&quot;&gt;Establishing OSMF Local Chapters in Africa&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wiki.osmfoundation.org/wiki/Local_Chapters&quot;&gt;Local Chapters&lt;/a&gt; are country level or region level organizations affiliated with the OSM Foundation. There are several benefits in becoming a local chapter, among which is being a legal entity representing OpenStreetMap and mappers when dealing with the local government, business, and media. At the moment there are only 9 official Local Chapters recognized by the OSM Foundation globally and none of those are in Africa.&lt;/p&gt;
+
+&lt;p&gt;Why are there 33 OSM communities in Africa, yet no local chapters affiliated with the OSM Foundation? We asked the members what steps should be taken to change this. They reported that we have to start by growing individual membership in OSMF as well as setting up local leadership structures. We need to participate in the Local Chapters and Communities Working Group to be part of the discussion to make the application process easier. Most importantly, there is a need to create more awareness about the process and benefits of becoming a local chapter which can be done by inviting the OSM Foundation to speak to OSM Africa as well provide mentorship to the young communities to grow into local chapters.&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion---where-will-osm-be-in-10-years&quot;&gt;Conclusion - Where will OSM be in 10 Years?&lt;/h1&gt;
+
+&lt;p&gt;Lastly, we asked the OSM Africa community leaders about their vision for OpenStreetMap in 10 years time. The community wants OSM to be the main source of free geospatial data in Africa for governments, organizations, and development, spearheading solutions and policies. Entire countries will be mapped in OSM, with more strong communities, more users, and more job creation. OSM will be the number one basemap used in the world and there will be more integration of OSM in games, 3D Mapping, Points Clouds, VR, and entertainment.&lt;/p&gt;
+
+&lt;p&gt;Note: For the full report, please see my &lt;a href=&quot;https://medium.com/@kateregga1/the-state-of-openstreetmap-in-africa-223ecadd5556&quot;&gt;full write up&lt;/a&gt; or watch this &lt;a href=&quot;https://www.youtube.com/watch?v=gHqmQp7gbqE&quot;&gt;State of the Map 2020&lt;/a&gt; talk.&lt;/p&gt;</content><author><name>Geoffrey Kateregga</name></author><category term="blog" /><category term="OSMAfrica" /><category term="HOTOSM" /><category term="Year-of-Blogs" /><summary type="html">In this article we concentrate on Human Centered Design and how you can help us to build a platform that meets the needs of the people using it.</summary></entry><entry xml:lang="en"><title type="html">‘How to Host a Virtual Mapathon’ – A Year of Blogs – July 2020</title><link href="/blog/2020/07/29/a-year-of-blogs/" rel="alternate" type="text/html" title="'How to Host a Virtual Mapathon' – A Year of Blogs – July 2020" /><published>2020-07-29T00:00:00-04:00</published><updated>2020-07-29T00:00:00-04:00</updated><id>/blog/2020/07/29/a-year-of-blogs</id><content type="html" xml:base="/blog/2020/07/29/a-year-of-blogs/">&lt;p&gt;&lt;strong&gt;Virtual mapathons: a social activity during trying times&lt;/strong&gt;
+“I realized right after the French lockdown that online mapathons were very important to me during this isolation period. At first, it was a dedicated time during which I could talk with a lot of people. I especially appreciated the fact that we weren’t just talking about COVID-19. It allowed me to connect with new people with shared interests such as cartography or GIS, which represents a proper treat for me since such topics are quite specific. We discussed other topics, such as biodiversity and cooking; it was a precious time to think about something else and relax.” - Feedback from a volunteer at a mapathon with &lt;a href=&quot;https://www.cartong.org/&quot;&gt;CartONG&lt;/a&gt; For full quote, see below.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20200729_photo1.png&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt; [The Missing Maps team wishes you a happy virtual mapathon!]&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Hosting a Virtual Mapathon&lt;/strong&gt;
+Virtual mapathons are all the rage right now. Over the last couple months we’ve learnt that a few simple recommendations can drastically improve the quality of an online mapathon. If you are planning on hosting a virtual event, please see the below for our best practices and additional resources.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Considerations Before Planning&lt;/strong&gt;
+1) Event Size:
+These days, most online video platforms can accommodate very large groups and almost all include a chat and mute function which are key. We recommend you size your mapathon based on support options and experience. If you are new to mapathon facilitation, consider hosting an event with 20 mappers max. Once you are more comfortable with your facilitation skills, we recommend scaling up your event based on your helper capacity.  Most new mappers will have a question or two, so you’ll want to make sure a system is in place to answer questions quickly. Remind your helpers that they can and should interrupt you if needed.&lt;/p&gt;
+
+&lt;p&gt;One way to break down your helper support is to assign them types of questions to answer:
+1 helper to answer all questions for a small group
+4 helpers to answer specific questions for a large group:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Platform Support&lt;/li&gt;
+  &lt;li&gt;Account Support&lt;/li&gt;
+  &lt;li&gt;New Mapper Questions&lt;/li&gt;
+  &lt;li&gt;Advanced Mapper Questions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In your outreach, you might want to consider encouraging your participants to bring their partners, pets, roommates and young people to the call.  Right now, many of us have caretaking responsibilities, so letting people know that we anticipate and encourage extra guests might help them feel more comfortable fitting into a volunteer event even with everything on their plates right now.&lt;/p&gt;
+
+&lt;p&gt;2) Platform:
+For online platforms, we recommend muting your participants on entry and setting expectations ahead of time on video preferences. To decide which platform specifically works best, a good starting point is to ask your group what they are already using. No matter your choice, having a chat space is key, and a breakout space to allow for screen sharing and follow up questions is very helpful!&lt;/p&gt;
+
+&lt;p&gt;If you are considering using Zoom, please keep in mind that “zoombombing” is still happening.  Here are &lt;a href=&quot;https://palantetech.coop/zoomboming-self-defense/tech-guide&quot;&gt;two&lt;/a&gt; &lt;a href=&quot;https://docs.google.com/document/d/1KLRrnm6g5YvD8QRSPwwNWq6NPk9FYvMpZPy_XEyOmMM/edit#heading=h.1on1dg3umpkx&quot;&gt;guides&lt;/a&gt; to help inform your decision.&lt;/p&gt;
+
+&lt;p&gt;3) Event Run of Show:
+Remote mapathons run about the same amount of time as an in-person event.  Ninety minutes or 2 hours is an ideal time to allow your mappers to get comfortable with the new skill set and get in plenty of mapping time.  We recommend you check in on your platform with your helpers about 15-30 mins early. Make sure to test screen sharing permissions, that your audio is nice and clear, and that if you are going to play music or a video that the audio is picked up clearly by the participants. Because your participants might have a lot on their plates, we suggest you slow down your training. Additionally, if you’d typically demonstrate something twice, try adding in a third example of the skill.&lt;/p&gt;
+
+&lt;p&gt;4) Facilitator:
+Remember to be patient. Many of your mappers might be learning a new skill during a particularly complicated time in their lives. Set expectations with your helpers that they might answer similar or even the same questions multiple times. Mappers are juggling a lot these days, so make sure to celebrate the wins, both small and large!&lt;/p&gt;
+
+&lt;p&gt;5) Materials to Send Ahead of Time:
+To get started with success, make sure to have your participants sign up for an OpenStreetMap (OSM) account ahead of time. One option is to have them watch this &lt;a href=&quot;https://www.youtube.com/watch?v=wqQdDgjBOvY&amp;amp;feature=emb_title&quot;&gt;video&lt;/a&gt; as part of their pre-event prep. It can’t hurt to remind them again the day before and mention it again at the start of your event while people are getting situated.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tips for during your event&lt;/strong&gt;
+1) Introduce yourself and your fellow mappers: Spend a few minutes at the beginning to humanize yourself and break the ice with other participants. Turn on your camera when you introduce yourself, encourage your mappers to do the same. Consider doing a short ice breaker. It’s helpful to have a shared background / naming convention with your helpers so you are easy to identify if someone wasn’t paying 100% attention during these introductions.&lt;/p&gt;
+
+&lt;p&gt;2) Screen Share: During the event screen sharing is going to be the best tool in your toolbelt.  When demonstrating a skill, consider practicing twice or three times instead of just the once. If you have a question that comes in over the chat feature and there is a break in the conversation, consider doing a live demonstration with a screen share instead of typing out the answer. Remember, if one mapper has the question, chances are more are wondering the same thing.&lt;/p&gt;
+
+&lt;p&gt;3) Warnings and Errors: Occasionally when making edits in OSM, the system will issue a warning or error with your mapping when you try and upload your changes. When demonstrating these, consider asking open ended questions. “I’ve forgotten a step, does anyone know which one? How would I know that?”&lt;/p&gt;
+
+&lt;p&gt;4) Wrap Up: Don’t forget to send a thank you note and remind people how they can keep up with their mapping. Now that most of our events are online, we are no longer limited by our location. Consider sharing a link to a recurring event in another city!&lt;/p&gt;
+
+&lt;p&gt;The Red Cross and Missing Maps groups have written longer piece, so consider checking out &lt;a href=&quot;https://docs.google.com/document/d/1Shy05ZnRJp5xSbZWcUH_41caBNaV2yzazECbN5ngwOU/edit&quot;&gt;this guide&lt;/a&gt; for more details. 
+&lt;strong&gt;Thanks again for hosting a mapathon to support Missing Maps! Happy Mapping!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Full Feedback from volunteers on attending remote mapathons during lockdown:&lt;/strong&gt;
+I realized right after the French lockdown that online mapathons were very important to me during this isolation period.
+At first, it was a dedicated time during which I could talk with a lot of people. I especially appreciated the fact that we weren’t just talking about COVID-19. It allowed me to connect with new people with shared interests such as cartography or GIS, which represents a proper treat for me since such topics are quite specific. We discussed other topics, such as biodiversity and cooking ; it was a precious time to think about something else and relax. Sometimes people didn’t come back, in a way it was similar to a carpool ride : we exchanged, we talked, told where we came from, it was a nice small window into each other’s life.
+Getting people to come and do a short presentation about the past Missing Maps projects and the way data gathered through remote mapping events helped them in their projects was a nice addition and a very enlightening part for us that are remote mappers. I greatly appreciated the feedback.
+It was also a time during which I saw the same faces on a regular basis : our volunteer data quality control group as well as the Missing Maps team of CartONG.  Despite the lockdown, our group dynamic did not change, and with hindsight, I think that with all the upheavals and changes of these troubled times, it was crucial to have one constant thing that remains the same. I would even go as far to say that on the contrary, the bond we already had became stronger. As of now, I know our little data quality control « family » better, a testimony of closer ties with each other. To me, the diversity in terms of ages and country of origin (people coming from France, DRC, Canada, Italy, Finland…) made the experience more enjoyable and fruitful.
+CartONG Missing Maps team was very attentive to our feedback. For instance, when we expressed our uneasiness about having to always hear the same presentations on OSM, Missing Maps or about the fact that we were, at first, intimidated by exchanging with people we didn’t know at all, CartONG’s Missing Maps team set up a parallel skype chat called “Petit Bain” (which in French translates to “shallow end of the pool”) with newcomers only in order to provide for them a proper introduction to humanitarian participatory mapping. They would then swim back to the deep end of the pool e.g. the main chat called “Grand Bain” and rejoin us, experienced OSM contributors. We were then able to answer their beginner mappers’ questions.
+Congrats for your sympathetic ear since you had to adapt your activities from something that initially works with “in person”interactions to a fully digital and remote format. This should not have been technically easy for your team.&lt;/p&gt;</content><author><name>Sam Colchester, Melanie Chabot, Rachel Levine, Léonie Miège</name></author><category term="blog" /><category term="remote mapathons" /><category term="Year-of-Blogs" /><summary type="html">I realized right after the French lockdown that online mapathons were very important to me during this isolation period.</summary></entry><entry xml:lang="en"><title type="html">Congrats HOTOSM</title><link href="/blog/2020/06/29/ted-hot/" rel="alternate" type="text/html" title="Congrats HOTOSM" /><published>2020-06-29T00:00:00-04:00</published><updated>2020-06-29T00:00:00-04:00</updated><id>/blog/2020/06/29/ted-hot</id><content type="html" xml:base="/blog/2020/06/29/ted-hot/">&lt;h1 id=&quot;congratulations-humanitarian-openstreetmap-team&quot;&gt;Congratulations Humanitarian OpenStreetMap Team&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;15 years ago&lt;/strong&gt; Steve Coast had a wild idea. He wanted to create a free and open map of the world. &lt;a href=&quot;http://openstreetmap.org/&quot;&gt;OpenStreetMap&lt;/a&gt; was born.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;10 years ago&lt;/strong&gt; a 7.0 magnitude earthquake in Haiti showed the humanitarian impact of maps and brought about the  &lt;a href=&quot;http://hotosm.org/&quot;&gt;Humanitarian OpenStreetMap Team (HOT)&lt;/a&gt;. HOT as it would later be known, helped humanitarians understand and work with communities in a way never thought possible with the existing map services of the day.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;7 years ago&lt;/strong&gt; &lt;a href=&quot;https://wiki.openstreetmap.org/wiki/Typhoon_Haiyan&quot;&gt;Typhoon Haiyan&lt;/a&gt; hit the Philippines and HOT created maps of the potential area before the  typhoon even made landfall. The resulting data in OpenStreetMap became &lt;a href=&quot;https://www.theatlantic.com/technology/archive/2013/11/how-online-mapmakers-are-helping-the-red-cross-save-lives-in-the-philippines/281366/&quot;&gt;the map for all humanitarians&lt;/a&gt; on the ground and sped up aid deliveries by over one month.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;6 years ago&lt;/strong&gt; &lt;a href=&quot;https://wiki.openstreetmap.org/wiki/2014_West_Africa_Ebola_Response&quot;&gt;Ebola&lt;/a&gt; ravaged West Africa killing over 10,000 people. The HOT community again rose to the challenge to fill in the gaps and blank spots on the map. Médecins Sans Frontières, the Red Cross, and other organizations were not only reliant on the data but helped to create it in coordination with HOT volunteers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;6 years ago&lt;/strong&gt; HOT, the American Red Cross, the British Red Cross, and Médecins Sans Frontières came together to form the Missing Maps project with the intention of mapping areas where people live at risk of disasters and crises. By contributing to OpenStreetMap (OSM), the collective hoped that individuals, communities, and organizations could use the data, and shared tools to better prepare, respond, and support vulnerable communities around the world.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5 years ago&lt;/strong&gt; These goals were put to the test almost immediately when a &lt;a href=&quot;https://wiki.openstreetmap.org/wiki/2015_Nepal_earthquake&quot;&gt;7.8 magnitude earthquake&lt;/a&gt; struck the Kathmandu Valley in Nepal. HOT &lt;a href=&quot;https://www.wired.co.uk/article/mapping-nepal-after-the-earthquake&quot;&gt;volunteers&lt;/a&gt; supported the local mapping community in Nepal alongside members from Missing Maps and other organizations supporting response efforts in Nepal.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Over the past 5 years&lt;/strong&gt; The Missing Maps project has brought over 150,000 mappers from around the world together to continually contribute to OpenStreetMap and support these wider humanitarian initiatives. HOT has supported Missing Maps member organisations and their beneficiaries in crises like the &lt;a href=&quot;http://k1z.blog.uni-heidelberg.de/2020/01/27/mapping-rohingya-refugee-camps-in-bangladesh-%e2%80%93-an-analysis-using-the-oshdb-api/?fbclid=IwAR3gjUpane83Q5j215jaWD8ILg6Rw8n0Y95pIKlBfDT9EX24gNFyk2ceW-o&quot;&gt;massive displacement of nearly 800 000 Rohingya refugees&lt;/a&gt;, the &lt;a href=&quot;https://wiki.openstreetmap.org/wiki/2017_Mexico_Earthquakes&quot;&gt;earthquakes in Mexico&lt;/a&gt;, the &lt;a href=&quot;https://www.hotosm.org/projects/fosmco-mapping-for-migration-response/&quot;&gt;political crisis in Venezuela&lt;/a&gt;, and as well during last year’s &lt;a href=&quot;https://www.msf.org.uk/article/cyclone-idai-digital-volunteers-help-msfs-response&quot;&gt;cyclones Idai and Kenneth in Mozambique&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NOW&lt;/strong&gt; The &lt;a href=&quot;https://audaciousproject.org/ideas/2020/humanitarian-openstreetmap-te&quot;&gt;TED Audacious Project&lt;/a&gt; has labeled this project as one of the “jaw-dropping ideas for global change” and will support HOT to map the homes of &lt;em&gt;1 billion people&lt;/em&gt; experiencing poverty or living at risk of disaster. Over the next five years, this grant will make possible the next phase of work for HOT and the OpenStreetMap project. It will allow rapid growth in local mapping, enabling the people living in the most vulnerable places in our world to map their communities. This will mean the map better reflects our world and the people in it. It will build equity for all people.&lt;/p&gt;
+
+&lt;p&gt;From all of us here at the Missing Maps collective, we want to share a big congratulations to HOT and to each and every volunteer and person who played a role in helping us reach this next phase of our work. We look forward to supporting them as they take this &lt;em&gt;audacious&lt;/em&gt; next step!&lt;/p&gt;
+
+&lt;p&gt;Go read HOTOSM’s &lt;a href=&quot;https://www.hotosm.org/projects/audacious/&quot;&gt;post and initial 5-year plan&lt;/a&gt; to get involved.&lt;/p&gt;</content><author><name>Missing Maps Group</name></author><category term="blog" /><category term="HOTOSM" /><category term="TED" /><summary type="html">HOTOSM receives TED Audacious Grant</summary></entry><entry xml:lang="en"><title type="html">‘Developing baseline health facility data with Healthsites’ – A Year of Blogs – May 2020</title><link href="/blog/2020/05/29/a-year-of-blogs/" rel="alternate" type="text/html" title="'Developing baseline health facility data with Healthsites' – A Year of Blogs – May 2020" /><published>2020-05-29T00:00:00-04:00</published><updated>2020-05-29T00:00:00-04:00</updated><id>/blog/2020/05/29/a-year-of-blogs</id><content type="html" xml:base="/blog/2020/05/29/a-year-of-blogs/">&lt;h1 id=&quot;human-centered-design-to-drive-the-development-of-baseline-health-facility-data-with-healthsites--a-year-of-blogs--may-2020&quot;&gt;Human Centered Design to drive the development of baseline health facility data with Healthsites – A Year of Blogs – May 2020&lt;/h1&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20200529_photo1.png&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt; Mapping health facilities in Saint Louis, Senegal  &lt;a href=&quot;https://twitter.com/lamineyasey/&quot; target=&quot;\_blank&quot;&gt;@lamineyasey&lt;/a&gt; &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Gathering an open, global dataset for healthcare data is something that healthsites.io is passionate about. Deciding how and what to gather for such a global dataset is a challenge. There are many stakeholders and many aspects of a given facility that could be collected. Healthsites is embarking on this with a user centered design approach. Our goal is to build a platform that collates data that is relevant to the questions that healthcare facility users need answered. In this article we concentrate on Human Centered Design and how it will help us to build a platform that meets the needs of the people using it.&lt;/p&gt;
+
+&lt;p&gt;We want you to share user stories.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-is-user-human-centered-design&quot;&gt;What is user Human Centered Design?&lt;/h1&gt;
+
+&lt;p&gt;A Human Centered Design approach to design drives the requirements and functionality of a platform based on the direct needs expressed by its users. We can express these needs in simple sentences that share a common structure :&lt;/p&gt;
+
+&lt;h3 id=&quot;as-a--i-would-like-to--so-that-i-can-&quot;&gt;As a &amp;lt;……….&amp;gt; I would like to &amp;lt;……….&amp;gt; so that I can &amp;lt;……….&amp;gt;&lt;/h3&gt;
+
+&lt;p&gt;Let’s look at some tangible examples, one from chatting with an expectant mother and one from a conversation with a civil servant working for a health ministry:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;As a&lt;/strong&gt; pregnant mom expecting twins &lt;strong&gt;I would like to&lt;/strong&gt; know where the nearest emergency care facility is &lt;strong&gt;so that I can&lt;/strong&gt;  plan for potential complications during childbirth.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;As a&lt;/strong&gt; pregnant mom &lt;strong&gt;I would like to&lt;/strong&gt; know where the nearest birthing center is &lt;strong&gt;so that I can&lt;/strong&gt; plan for the birth of my child.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;As a&lt;/strong&gt; ministry of health data administrator, &lt;strong&gt;I want to&lt;/strong&gt; know how long it takes citizens to get to health facilities &lt;strong&gt;so that I can&lt;/strong&gt; optimize access to health care.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;As a&lt;/strong&gt; ministry of health data administrator, &lt;strong&gt;I want to&lt;/strong&gt; know the geographic coordinates of health facilities &lt;strong&gt;so that I can&lt;/strong&gt; perform a spatial analysis.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;As a&lt;/strong&gt; PATH health data administrator, &lt;strong&gt;I want to&lt;/strong&gt; know where the operational clinics are &lt;strong&gt;so that I can&lt;/strong&gt; plan a vaccination rollout campaign.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Collating these stories from users of the platform for different persona’s in the healthcare environment provides us with an understanding  of what problems need to be solved and what data are needed to solve them.&lt;/p&gt;
+
+&lt;h3 id=&quot;deconstructing-the-user-stories&quot;&gt;Deconstructing the user stories&lt;/h3&gt;
+
+&lt;p&gt;When we deconstruct user stories, we can understand what kind of information is needed to support the story. Taking our examples above we can see:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;**Who&lt;/th&gt;
+      &lt;th&gt;What&lt;/th&gt;
+      &lt;th&gt;Why**&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pregnant mom&lt;/td&gt;
+      &lt;td&gt;Emergency care&lt;/td&gt;
+      &lt;td&gt;plan for potential complications during childbirth&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pregnant mom&lt;/td&gt;
+      &lt;td&gt;know where the nearest birthing center is&lt;/td&gt;
+      &lt;td&gt;plan for the birth of my child&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ministry of Health data administrator&lt;/td&gt;
+      &lt;td&gt;how long it takes citizens to get to health facilities&lt;/td&gt;
+      &lt;td&gt;optimize access to health care&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ministry of Health data administrator&lt;/td&gt;
+      &lt;td&gt;know the geographic coordinates of health facilities&lt;/td&gt;
+      &lt;td&gt;perform a spatial analysis&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PATH health data administrator&lt;/td&gt;
+      &lt;td&gt;know where the operational clinics are&lt;/td&gt;
+      &lt;td&gt;plan a vaccination rollout campaign&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;In 2018 the Healthsites project decided to switch to a data model built almost entirely upon the OpenStreetMap.org (OSM) platform. As well as leveraging the power of the world’s most amazing open data project, this approach also introduces constraints in the design of our platform and how we can mobilise data to meet the needs of our users that emerge through their stories. The constraints are the normative guidelines that the OSM project places on the capture of data for any feature (healthcare or otherwise). For example, it is difficult to introduce new concepts on the platform which is shy of ‘concept proliferation’, and considerable effort needs to be made to understand the existing concepts within the OSM tagging system. So, to meet the needs of people interested in healthcare data, we need to ‘map’ concepts. Taking the ‘what’ column from the above table, we can identify which attributes in the Healthsites schema are the most important to focus on.&lt;/p&gt;
+
+&lt;p&gt;The user stories above tell us the following baseline health facility attributes are important:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;No&lt;/th&gt;
+      &lt;th&gt;Key&lt;/th&gt;
+      &lt;th&gt;Value&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;amenity&lt;/td&gt;
+      &lt;td&gt;clinic, &lt;strong&gt;doctors&lt;/strong&gt;, hospital, dentist, pharmacy&lt;/td&gt;
+      &lt;td&gt;For describing useful and important facilities for visitors and residents&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;healthcare&lt;/td&gt;
+      &lt;td&gt;doctor, pharmacy, hospital, clinic, dentist, physiotherapist, alternative, laboratory, optometrist, rehabilitation, blood_donation, &lt;strong&gt;birthing_center&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;A key to tag all places that provide healthcare (are part of the healthcare sector)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;healthcare:speciality&lt;/td&gt;
+      &lt;td&gt;biology, blood_check, clinical_pathology, diagnostic_radiology, medical_physics, medical_engineering, radiology&lt;/td&gt;
+      &lt;td&gt;A key to detail the special services provided by a healthcare facility. To be used in conjunction with the ‘healthcare=*’ tag. For example ‘healthcare=laboratory’, and ‘healthcare:speciality=blood_check’&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;9&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;operational_status&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;operational, non_operational, unknown&lt;/td&gt;
+      &lt;td&gt;Used to document an observation of the current functional status of a mapped feature&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;14&lt;/td&gt;
+      &lt;td&gt;healthcare:equipment&lt;/td&gt;
+      &lt;td&gt;ultrasound, mri, x_ray, dialysis, operating_theater, laboratory, imaging_equipment, intensive_care_unit, &lt;strong&gt;emergency_department&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Indicates what type of speciality medical equipment is available at the health facility&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;17&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;emergency&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;yes, no&lt;/td&gt;
+      &lt;td&gt;This key describes various emergency services&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wiki.openstreetmap.org/wiki/Global_Healthsites_Mapping_Project#Complete&quot;&gt;Healthsites schema&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;open-data-policy-development&quot;&gt;Open data policy development&lt;/h1&gt;
+&lt;p&gt;In this context stakeholders in the health cluster can define open data policies that support these user stories and improve base line health facility data.&lt;/p&gt;
+
+&lt;p&gt;In a three day workshop ‘ Developing a Strategic Agenda around Outbreak and Humanitarian Data Collection and Analytics’ held at the Wellcome Trust between 20-22 March 2019 the following recommendations were established:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cross functional teams need to be part of the conversation and include field staff&lt;/li&gt;
+  &lt;li&gt;Lack of a labour market to retain trained staff is a significant threat to sustainability&lt;/li&gt;
+  &lt;li&gt;Countries require the data infrastructure, human resources and computational capacity to predict and model both climate risks and mitigation strategies&lt;/li&gt;
+  &lt;li&gt;Timely, standardised, shared data&lt;/li&gt;
+  &lt;li&gt;Improved focus on ‘climate induced humanitarian emergencies’&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can read more about the workshops findings here &lt;a href=&quot;https://www.tephinet.org/workshop-on-%E2%80%9Cdeveloping-a-strategic-agenda-around-outbreak-and-humanitarian-data-collection-and&quot;&gt;A joint way forward in developing tools, methods, training and dissemination with a consortium of global partners&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The COVID-19 pandemic is generating new user stories. These need to be understood and communicated.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;As both TB and COVID-19 share similar clinical presentation (cough, fever, shortness of breath etc.) and are transmitted through respiratory droplets and aerosols, a combined strategy needs to be applied. This would utilise resources effectively while providing both short term and long term benefits. - &lt;a href=&quot;https://www.nicd.ac.za/wp-content/uploads/2020/05/Impact-of-Covid-19-interventions-on-TB-testing-in-South-Africa-10-May-2020.pdf&quot;&gt;Impact of COVID-19 intervention on TB testing in South Africa.&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;healthsites-invites-local-practitioners-to-make-contact-and-help-define-user-stories-that-drive-the-development-of-baseline-health-facility-data-where-it-is-needed-most&quot;&gt;Healthsites invites local practitioners to &lt;a href=&quot;https://healthsites.io/contact/&quot;&gt;make contact&lt;/a&gt; and help define user stories that drive the development of baseline health facility data where it is needed most.&lt;/h2&gt;
+
+&lt;p&gt;The Healthsites team&lt;br /&gt;
+&lt;a href=&quot;https://healthsites.io/&quot;&gt;https://healthsites.io/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://twitter.com/sharehealthdata&quot;&gt;@sharehealthdata&lt;/a&gt;&lt;/p&gt;</content><author><name>Mark Herringer</name></author><category term="blog" /><category term="healthsites" /><category term="Year-of-Blogs" /><summary type="html">In this article we concentrate on Human Centered Design and how you can help us to build a platform that meets the needs of the people using it.</summary></entry><entry xml:lang="en"><title type="html">‘Leveraging Missing Maps for The Community Epidemic and Pandemic Preparedness Program (CP3) in Guinea’ – A Year of Blogs – April 2020</title><link href="/blog/2020/04/30/a-year-of-blogs/" rel="alternate" type="text/html" title="'Leveraging Missing Maps for The Community Epidemic and Pandemic Preparedness Program (CP3) in Guinea' – A Year of Blogs – April 2020" /><published>2020-04-30T00:00:00-04:00</published><updated>2020-04-30T00:00:00-04:00</updated><id>/blog/2020/04/30/a-year-of-blogs</id><content type="html" xml:base="/blog/2020/04/30/a-year-of-blogs/">&lt;figure&gt;
+&lt;img src=&quot;https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20200430_Image1.png&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt; [Image 1: Two participants gathering building information during field data collection]&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The ultimate goal of the &lt;a href=&quot;https://media.ifrc.org/ifrc/community-epidemic-pandemic-preparedness&quot;&gt;Community Epidemic and Pandemic Preparedness Program (CP3)&lt;/a&gt;, a program led by the International Federation of the Red Cross (IFRC), is to strengthen the ability of communities and civil society groups to prevent, detect, and respond to disease threats and play a central and significant role in assessing future risks.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_CP3_data_readiness_1pager.pdf&quot;&gt;Data Readiness&lt;/a&gt; is one priority and workstream within CP3. Through this workstream, we want national societies to be equipped to use quality and timely information to influence operations and planning; this is all with the goal of being able to respond effectively to disasters. CP3 relies on the methods and community engagement from the Missing Maps program to create base mapping data for many of the communities where CP3 is active.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20200430_Image2.png&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt; [Image 2: Map of Faranah by David Luswata]&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;osmmissing-maps-for-faranah-prefecture-guinea&quot;&gt;OSM/Missing Maps for Faranah Prefecture, Guinea&lt;/h2&gt;
+
+&lt;p&gt;Over the past several months, the CP3 team and the Guinean Red Cross Society (GRCS) mobilized around an intensive community mapping activity. This has been an multi-step process facilitated by key stakeholders including:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;IFRC&lt;/li&gt;
+  &lt;li&gt;GeoSynapse Guinée&lt;/li&gt;
+  &lt;li&gt;Youth Mappers&lt;/li&gt;
+  &lt;li&gt;Missing Maps&lt;/li&gt;
+  &lt;li&gt;American Red Cross&lt;/li&gt;
+  &lt;li&gt;Guinean Red Cross Society (GRCS)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The three phases of community mapping are outlined below followed by the takeaway points of the project:&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20200430_Image3.png&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt; [Image 3: Guinean Red Cross Society members and volunteers from Geo-synapses gather for a mapathon in Conakry]&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;phase-1-remote-mapping&quot;&gt;Phase 1: Remote mapping&lt;/h2&gt;
+
+&lt;p&gt;Staff and volunteers from the various organizations (most notably from the GRCS and GeoSynapse Guinée) came together and took part in mapathons and worked remotely to populate &lt;a href=&quot;http://taches.francophonelibre.org/?sort_by=priority&amp;amp;direction=asc&amp;amp;search=faranah&quot;&gt;buildings and roads&lt;/a&gt; in Faranah, Guinea.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;#&lt;/th&gt;
+      &lt;th&gt;Sub Prefectures Remote Mapped&lt;/th&gt;
+      &lt;th&gt;Buildings&lt;/th&gt;
+      &lt;th&gt;Roads (Kms)&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;Banian&lt;/td&gt;
+      &lt;td&gt;14,133&lt;/td&gt;
+      &lt;td&gt;1,661.16&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;Beindou&lt;/td&gt;
+      &lt;td&gt;6,071&lt;/td&gt;
+      &lt;td&gt;486.24&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;Faranah centre&lt;/td&gt;
+      &lt;td&gt;17,868&lt;/td&gt;
+      &lt;td&gt;1,222.31&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;Ghaleah et Tindo&lt;/td&gt;
+      &lt;td&gt;8,558&lt;/td&gt;
+      &lt;td&gt;478.02&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;Heremakono&lt;/td&gt;
+      &lt;td&gt;9,730&lt;/td&gt;
+      &lt;td&gt;826.54&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;Kobokoro&lt;/td&gt;
+      &lt;td&gt;3,912&lt;/td&gt;
+      &lt;td&gt;452.29&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;Marella&lt;/td&gt;
+      &lt;td&gt;1,009&lt;/td&gt;
+      &lt;td&gt;123.22&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;Passayah&lt;/td&gt;
+      &lt;td&gt;4,809&lt;/td&gt;
+      &lt;td&gt;872.76&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;9&lt;/td&gt;
+      &lt;td&gt;Sandeniah&lt;/td&gt;
+      &lt;td&gt;3,102&lt;/td&gt;
+      &lt;td&gt;843.52&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;Songoyah&lt;/td&gt;
+      &lt;td&gt;4,127&lt;/td&gt;
+      &lt;td&gt;453.75&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;11&lt;/td&gt;
+      &lt;td&gt;Tiro&lt;/td&gt;
+      &lt;td&gt;6,445&lt;/td&gt;
+      &lt;td&gt;391.15&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Total&lt;/td&gt;
+      &lt;td&gt;79,764.00&lt;/td&gt;
+      &lt;td&gt;7,810.96&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;span class=&quot;caption&quot;&gt;[Table 1 showing remote mapping statistics in Faranah prefecture courtesy of Tino Toupane]&lt;/span&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://arcmaps.s3.amazonaws.com/share/blog-pictures/missingmaps-blog_20200430_Image4.png&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;[Image 4: A picture of the participants taken from the 4-day field data collection training.]&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;phase-2-training-and-field-data-collection&quot;&gt;Phase 2: Training and Field Data Collection&lt;/h2&gt;
+
+&lt;p&gt;After the remote mapping activity was complete, the American Red Cross, IFRC, and CP3 teams led a four-day training for the field data collection participants. The goal of this training was to equip CP3 and GRCS team members with technical skills necessary for a comprehensive data collection through data management workshops and data collection demo sessions.&lt;/p&gt;
+
+&lt;p&gt;During the training, participants were introduced to the &lt;a href=&quot;https://docs.google.com/document/d/1SGc0y1N0BoCCgYV5qSmtjOtJxpYVOHYD0Ayb-ZF9c24/edit?usp=sharing&quot;&gt;Data Model&lt;/a&gt; that was structured for the collected points of interest to be brought into OSM.&lt;/p&gt;
+
+&lt;p&gt;At the end of this field data collection activity, the following features were mapped across all of Faranah prefecture.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;Feature Mapped&lt;/th&gt;
+      &lt;th&gt;Total feature count in Faranah&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;Number of sub-prefectures mapped&lt;/td&gt;
+      &lt;td&gt;11&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;Communities mapped&lt;/td&gt;
+      &lt;td&gt;399&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;Health Facilities&lt;/td&gt;
+      &lt;td&gt;55&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;Administrative and community infrastructure&lt;/td&gt;
+      &lt;td&gt;106&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;Security services&lt;/td&gt;
+      &lt;td&gt;33&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;Market Places&lt;/td&gt;
+      &lt;td&gt;56&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;Points of Entry (Border Crossing)&lt;/td&gt;
+      &lt;td&gt;24&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;Sub branches of Guinea Red Cross across the prefecture of Faranah&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;9&lt;/td&gt;
+      &lt;td&gt;Education Facilities&lt;/td&gt;
+      &lt;td&gt;220&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;Water Facilities&lt;/td&gt;
+      &lt;td&gt;491&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;11&lt;/td&gt;
+      &lt;td&gt;Places of Worship&lt;/td&gt;
+      &lt;td&gt;373&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;Guest Houses&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;13&lt;/td&gt;
+      &lt;td&gt;Cemeteries&lt;/td&gt;
+      &lt;td&gt;160&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;14&lt;/td&gt;
+      &lt;td&gt;Communication Towers&lt;/td&gt;
+      &lt;td&gt;28&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;15&lt;/td&gt;
+      &lt;td&gt;Community Radios&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;16&lt;/td&gt;
+      &lt;td&gt;Social Facilities&lt;/td&gt;
+      &lt;td&gt;87&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;span class=&quot;caption&quot;&gt;[Table 2 showing data collected during the community mapping activities in Faranah]&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;phase-3-community-validation-of-the-collected-dataset-in-the-sub-prefectures&quot;&gt;Phase 3: Community Validation of the Collected Dataset in the Sub-Prefectures&lt;/h2&gt;
+
+&lt;p&gt;In the next phase of this work, there was a scheduled community validation session where GRCS and the CP3 team will sit down with the community to discuss the data collected and any gaps that may exist within them. Unfortunately, this last step has been delayed due to the COVID-19 pandemic crisis. After this validation process takes place, the data will be uploaded into OSM for public consumption and usage. While we wait to meet with the community for this group validation session, data from the project can be found &lt;a href=&quot;https://data.humdata.org/search?groups=gin&amp;amp;organization=american-red-cross&amp;amp;q=guinea&amp;amp;ext_page_size=25&amp;amp;sort=score%20desc%2C%20if(gt(last_modified%2Creview_date)%2Clast_modified%2Creview_date)%20desc&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;west-africa-mapping-project&quot;&gt;West Africa Mapping Project&lt;/h2&gt;
+
+&lt;p&gt;This is not the first time a Missing Maps activity has taken place in Guinea. Missing Maps was involved with the West Africa Mapping Project that took place in 2016, after the Ebola crisis in the country. &lt;a href=&quot;https://www.missingmaps.org/blog/2017/01/24/west-africa-mapping-hub-end/&quot;&gt;Here&lt;/a&gt; in this post are some valuable lessons learned from that previous community mapping work.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-takeaway&quot;&gt;The Takeaway&lt;/h2&gt;
+
+&lt;p&gt;With this productive collaboration between the major stakeholders, the Guinean Red Cross Society and the Guinea/CP3 staff and volunteers learned how to create their own data in OSM both remotely and via training/data collection. The processes that teams learned in remote mapping, training and field data collection, allowed them to have insight into how mapping data was produced, uploaded, and downloaded from OSM (and other open-data platforms like HDX).&lt;/p&gt;
+
+&lt;p&gt;We hope this post demonstrates our community mapping workflow with other technical teams interested in adding a data collection or map component to their program.&lt;/p&gt;
+
+&lt;p&gt;Very recently, the GRCS offices have been creating contingency plans to address the COVID-19 response in Guinea. The dataset compiled and uploaded during this community mapping work allowed the headquarters teams to have a more up-to-date list of border crossing points (including international travel areas) and &lt;a href=&quot;https://umap.openstreetmap.fr/en/map/faranah-health-facilities_452095#&quot;&gt;health facilities for Faranah&lt;/a&gt;, information which are vital to the current emergency planning and response efforts.&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;450px&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; src=&quot;https://umap.openstreetmap.fr/en/map/guinea-red-cross-branches_447688?scaleControl=false&amp;amp;miniMap=false&amp;amp;scrollWheelZoom=false&amp;amp;zoomControl=true&amp;amp;allowEdit=false&amp;amp;moreControl=true&amp;amp;searchControl=null&amp;amp;tilelayersControl=null&amp;amp;embedControl=null&amp;amp;datalayersControl=true&amp;amp;onLoadPanel=none&amp;amp;captionBar=false&quot;&gt;&lt;/iframe&gt;
+&lt;p class=&quot;caption&quot;&gt;[A map of GRCS offices across Guinea]&lt;/p&gt;
+
+&lt;p&gt;Guinea Red Cross, with all her 38 branches, continues to serve humanity in the territorial boundaries of the Republic of Guinea, and we are all very glad to support these efforts.&lt;/p&gt;</content><author><name>Jennifer Duong, David Luswata, and Tino Toupane</name></author><category term="blog" /><category term="Preparedness" /><category term="CP3" /><category term="Year-of-Blogs" /><summary type="html">In recent months, the Guinean Red Cross Society and the Community Epidemic and Pandemic Preparedness Program (CP3) teams created their own map data, tracing remotely in OSM and via field data collection. The staff and volunteers involved gained valuable insight in how information is compiled and shared from OSM and other open source platforms.</summary></entry></feed>
