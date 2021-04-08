@@ -352,32 +352,36 @@ header{
   margin-bottom: 4rem;
 }
 
-.header-contribute {
+.header-beginner {
   background-image: url("/assets/graphics/old/mapathon.jpg");
 }
-
+.header-advanced {
+  background-image: url("/assets/graphics/old/mapathon2.jpg");
+}
+.header-field {
+  background-image: url("/assets/graphics/old/mapathon3.jpg");
+}
+.header-validate {
+  background-image: url("/assets/graphics/old/validate.jpg");
+}
+.header-mapswipe {
+  background-image: url("/assets/graphics/old/mapathon4.jpg");
+}
 .header-events {
   background-image: url("/assets/graphics/old/mapathon2.jpg");
 }
-
+.header-host {
+  background-image: url("/assets/graphics/old/mapathon5.jpg");
+}
 .header-about {
   background-image: url("/assets/graphics/old/mapathon4.jpg");
 }
-
-.header-hosting {
-  background-image: url("/assets/graphics/old/mapathon5.jpg");
-}
-
 .header-blog {
   background-image: url("/assets/graphics/old/mapathon6.jpg");
 }
 
 .header-404 {
   background-image: url("/assets/graphics/old/404.jpg");
-}
-
-.header-checker {
-  background-image: url("/assets/graphics/old/validate.jpg");
 }
 
 /*----------------------------------------------*/
