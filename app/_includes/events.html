@@ -33,9 +33,10 @@ var locationKey = "Where will your mapping party be held?"
 var placeUrlKey = "Please insert a link to your venue on openstreetmap.org"
 var signupKey = "Please insert a link where people can sign up"
 var dateKey = "What date is your event taking place? (as YYYY-MM-DD)"
-var startKey = "What time does your event start?"
+var startKey = "What time does your event start? "
 var endKey = "What time does your event end?"
 var countryKey = "Country?"
+var eventTypeKey = "What will the event that you are hosting include? Check all that apply:"
 
 var today = luxon.DateTime.local().startOf('day');
 var siteBaseUrl = "{{ site.baseurl }}";	
@@ -87,7 +88,10 @@ function buildEvents(data){
 								'<p>' +
 									placeHtml +
 								'</p>' +
-								'<p class="event-details">' + luxon.DateTime.fromISO(d[dateKey]).setLocale("{{locale}}").toLocaleString({ weekday: 'long'}) + ", " + d[startKey] + " - " + d[endKey]  + '</p>' +
+								'<p class="event-details">' + luxon.DateTime.fromISO(d[dateKey]).setLocale("{{locale}}").toLocaleString({ weekday: 'long'}) + ", " + d[startKey] + " - " + d[endKey]  + ' UTC</p>' +
+								// '<p class="event-details">' +
+								// 	d[eventTypeKey] +
+								// '</p>' +
 							'</div>' +
 						'</div>' +
 					'</div>' +
