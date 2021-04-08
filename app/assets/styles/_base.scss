@@ -385,6 +385,10 @@ header{
 /* weights: 300 thin, 400 regular, 700 bold, 900 black */
 /*----------------------------------------------*/
 
+.green-title {
+  color:#71a333 !important;
+}
+
 a{
   text-decoration: none;
   color: darken($mmGreen, 10);

@@ -452,6 +452,26 @@ checker:
         question12: "I notice that some tasks limit who can validate. What does this mean?"
         answer12: "Some projects are available for validation by intermediate or advanced mappers. Other projects require that you join a validation team, to the right under the Teams and Permissions section in the Tasking Manager is a link to join the teams that are approved for that specific project.  HOT manages a global team of validations that many of the response projects on the Tasking Manager require you to join. To join, please follow the instructions below or use <a href=\"http://bit.ly/HOTValidators\">this link</a> to connect with the team manager."
     get-started: "Now get started, check out these tasks that are in need of validation!"
+    dataquality:
+      title: "Data Quality Tools for Project Managers"
+      text: "Are you managing projects using a tasking manager? Are you curious to see how the mapping is going but don’t want to wait until your mappers finish the project? Try using these tools:"
+      subtitle1:
+        title: "OSMCha"
+        text: "<a href=\"https://osmcha.org/\">OSMCha</a> short for OpenStreetMap Changeset Analyzer is a web tool to help mappers analyze and review data changes to OSM. The objective of the tool is to help detect vandalism and act on bad changes to the map data.  If using the HOT-TM, you’ll find this tool at the bottom of your project page."
+      subtitle2:
+        title: "Osmose"
+        text: "<a href=\"osmose.openstreetmap.fr\"> Osmose</a> is a quality assurance tool that detects issues in OpenStreetMap data by showing anomalies. It is also useful for integrating third-party data sets by conflation."
+      subtitle3:
+        title: "Ohsome"
+        text: "The <a href=\"https://api.ohsome.org/\">ohsome API</a> is a generic web API for analysing OSM history data. The ohsome API lets you analyze the rich data source of the OpenStreetMap history and is based on the OpenStreetMap History Database (OSHDB). You can either perform analyses using a dashboard-like application, or use the ohsome API directly and work with its CSV, JSON or GeoJSON responses."
+      subtitle4:
+        title: "CartONG Mapathon Dashboard"
+        text: "Looking for another way to track your group’s edits? CartONG has you <a target=\"_blank\" href=\"http://mapathon.cartong.org/\">covered</a>."
+      subtitle5:
+        title: "MapRoulette"
+        text: "<a href=\"https://maproulette.org/\">MapRoulette</a> is a gamified approach to fixing OSM bugs that breaks common OpenStreetMap data problems into micro tasks. This tool is best used after your event."
+
+
 
 ###################
 ## Blog CONTENT ##

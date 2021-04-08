@@ -49,8 +49,8 @@ document.querySelector("header").style.display = 'inline-block';
 
         <div class="validate-container">
           <div class="row" id="learn">
-            <div class="small-12 columns center-text title section-header">
-              <a name="validate">{{site.data[locale].checker.steps.goal}}</a>
+            <div class="small-12 columns center-text title green-title section-header">
+              {{site.data[locale].checker.steps.goal}}
             </div>
           </div>
           <div class="row">
@@ -132,4 +132,26 @@ document.querySelector("header").style.display = 'inline-block';
           <div class="row features">
           </div>
         </div>
+        
+  <div class="row container">
+    <div class="columns">
+      <div class="center-text title section-header green-title">
+        {{site.data[locale].checker.dataquality.title}}
       </div>
+      <div class="textbox">
+        <p>{{site.data[locale].checker.dataquality.text}}</p>
+        <p class="sub-head">{{site.data[locale].checker.dataquality.subtitle1.title}}</p>
+        <p>{{site.data[locale].checker.dataquality.subtitle1.text}}</p>
+        <p class="sub-head">{{site.data[locale].checker.dataquality.subtitle2.title}}</p>
+        <p>{{site.data[locale].checker.dataquality.subtitle2.text}}</p>
+        <p class="sub-head">{{site.data[locale].checker.dataquality.subtitle3.title}}</p>
+        <p>{{site.data[locale].checker.dataquality.subtitle3.text}}</p>
+        <p class="sub-head">{{site.data[locale].checker.dataquality.subtitle4.title}}</p>
+        <p>{{site.data[locale].checker.dataquality.subtitle4.text}}</p>
+        <p class="sub-head">{{site.data[locale].checker.dataquality.subtitle5.title}}</p>
+        <p>{{site.data[locale].checker.dataquality.subtitle5.text}}</p>
+      </div>
+    </div>
+  </div>
+        
+</div> <!-- /site-canvas -->
