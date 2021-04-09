@@ -25,7 +25,7 @@ img-alt:
   Learn-Tutorials: "A cartoon computer with a LearnOSM logo on it.  The LearnOSM logo is a magnifying glass on top of a green rectanglar map."
   Learn-YouTube: "A cartoon computer with a YouTube logo on it.  The YouTube logo is a red square with a while triangle play symbol. "
   MMlogo-Outlined: "The Missing Maps logo is a gray circle with milti-colored rectangles filling in the circle. "
-  Process(outlined-text): "An three piece image.  The first has two cartoon people at computers on a blue background.  There is a slice of pizza. Text says 'How we work: Step 1. Remote volunteers trace satellite imagery into OpenStreetMap.'.  The second had one cartoon person moving between two structures while holding a computer. The background is green. The structure on the left is a building with a peaked roof.  The structure on the right is a building with a round mushroom roof. Text says 'Step 2. Community volunteers add local details such as neighborhoods, street names, and evacuation centers.'.  The third has three cartoon people on an orange background. The middle person has his arms around the people next to him. He has a Red Cross emblem on his shirt. There are two building icons in the background. Text says 'Step three. Humanitarian organizations use mapped information to plan risk reduction and disaster response activities that save lives."
+  Process(outlined-text): "A three piece image.  The first has two cartoon people at computers on a blue background.  There is a slice of pizza. Text says 'How we work: Step 1. Remote volunteers trace satellite imagery into OpenStreetMap.'.  The second had one cartoon person moving between two structures while holding a computer. The background is green. The structure on the left is a building with a peaked roof.  The structure on the right is a building with a round mushroom roof. Text says 'Step 2. Community volunteers add local details such as neighborhoods, street names, and evacuation centers.'.  The third has three cartoon people on an orange background. The middle person has his arms around the people next to him. He has a Red Cross emblem on his shirt. There are two building icons in the background. Text says 'Step three. Humanitarian organizations use mapped information to plan risk reduction and disaster response activities that save lives."
   Process-PartOne: "Two cartoon people at computers on a blue background.  There is a slice of pizza. Text says 'How we work: Step 1. Remote volunteers trace satellite imagery into OpenStreetMap.'"
   Process-PartTwo: "One cartoon person moving between two structures while holding a computer. The background is green. The structure on the left is a building with a peaked roof.  The structure on the right is a building with a round mushroom roof. Text says 'Step 2. Community volunteers add local details such as neighborhoods, street names, and evacuation centers.'"
   Process-PartThree: "Three cartoon people on an orange background. The middle person has his arms around the people next to him. He has a Red Cross emblem on his shirt. There are two building icons in the background. Text says 'Step three. Humanitarian organizations use mapped information to plan risk reduction and disaster response activities that save lives.'"
@@ -88,8 +88,8 @@ nav:
 #####################
 
 banner:
-  title:          "Putting the World's Vulnerable People on the Map"
-  subtitle:       "Each year, disasters around the world kill nearly 100,000 and affect or displace 200 million people. Many of the places where these disasters occur are literally 'missing' from any map and first responders lack the information to make valuable decisions regarding relief efforts. Missing Maps is an open, collaborative project in which you can help to map areas where humanitarian organisations are trying to meet the needs of vulnerable people."
+  title:          "Putting the World's Vulnerable Communities on the Map"
+  subtitle:       "Each year, disasters around the world kill nearly 100,000 and affect or displace 200 million people. Many of the places where these disasters occur are literally 'missing' from open and accessible maps and first responders lack the information to make valuable decisions regarding relief efforts. Missing Maps is an open, collaborative project in which you can help to map areas where humanitarian organisations are trying to meet the needs of people who live at risk of disasters and crises."
 
 
 how_we_work:
@@ -123,22 +123,22 @@ how_we_work:
 
 how_to_participate:
   title:        "How to participate"
-  start:        "Start Mapping Now"
-  start_text:   "It is no problem if you have never mapped before - it doesn't take long to learn. Visit our beginners section to find out how. If you already know how to edit OpenStreetMap, feel free to just get started."
+  start:        "Start mapping now - Step 1"
+  start_text:   "It is no problem if you have never mapped before. It doesn't take long to learn - just about an afternoon! Visit our beginners section in our Learn to Map page to find out how. If you already know how to edit OpenStreetMap (OSM), feel free to just get started."
   map_btn:      "MAP NOW"
   learn_btn:    "LEARN TO MAP"
-  organize:     "Organize a mapathon"
-  organize_text: "Organizing mapathons is a fantastic way to build a community of mappers all focusing on the same area of the world. It is also a great learning environment, where new mappers can learn from the experiences of others. Mapathons are organised by groups and individuals all over the world."
+  organize:     "Organise a mapathon"
+  organize_text: "Organising mapathons is a fantastic way to build a community of mappers. It is also a great learning environment, where new mappers can learn from the experiences of others while contributing to a shared goal. Mapathons are organised by groups and individuals all over the world."
   lead_btn:     "LEAD A MAPATHON"
   join_btn:     "JOIN A MAPATHON"
-  field-mapping: "Field Mapping"
-  field-mapping_text: "Organize field mapping to add more details to the map!"
+  field-mapping: "Map your community - Step 2"
+  field-mapping_text: "Many organizations are using OSM to inform their programs. OSM is great for collecting field data while empowering communities. If you are interested in creating and using data from OSM in your work, these guides will help you get started."
   field-mapping_btn: "FIELD MAPPING"
-  blog: "Blog"
-  blog_text: "Blog!"
-  blog_btn: "BLOG"
+  blog: "Learn about our work - Step 3"
+  blog_text: "Missing Maps is a collective of organizations using and growing OSM to best serve communities all over the world. If you want to read more about what happens next, check out the Missing Maps blog."
+  blog_btn: "Read the blog!"
   donate:       "Donate to make an impact"
-  donate_text:  "A donation to the Humanitarian OpenStreetMap Team (one of the founders of Missing Maps) can help to support local people in mapping their own communities, to develop tools and processes so that more people can contribute, and to scale the project so that we can help even more humanitarian organisations responding to crises all over the world."
+  donate_text:  "A donation to the <a href=\"https://www.hotosm.org/donate/\">Humanitarian OpenStreetMap Team</a> (one of the founders of Missing Maps) can help support local people to map their own communities, develop tools and processes so that more people can contribute, and scale this work so that even more responders and humanitarian organisations around the world have maps and open data that enable them to make time-critical, data-driven decisions."
   donate_btn:   "DONATE"
 
 contributions:
@@ -167,7 +167,7 @@ contact:
 ##############
 beginner:
   title:        "Learn to Map"
-  how_text:     "If you're new to mapping we recommend watching the videos in the 'Beginners' section to get up and running. If you've mapped before follow the 'Map Now' link, or consider learning to validate. There is also additional tutorials available via LearnOSM."
+  how_text:     "If you're new to mapping, we recommend watching the videos in the 'Beginners' section below to get set up. For a full mapathon intro, and additional videos, click the YouTube button. If you've mapped before, consider learning to validate. There are also additional tutorials available via LearnOSM."
   map_btn:      "MAP NOW"
   validate:     "VALIDATE"
   learn_osm:    "TUTORIALS"
@@ -175,14 +175,14 @@ beginner:
   beginners:    "Beginners"
   advanced:     "Advanced Mapping"
   field:        "Field Mapping"
-  stepAccount:        "Create an Open Street Map account"
-  stepAccount_text:   "Go to the <a href=\"https://www.openstreetmap.org/login\">OpenStreetMap</a>  website and register to create an account. Follow the link in the email they send to confirm your account."
+  stepAccount:        "Create an OpenStreetMap and Tasking Manager account"
+  stepAccount_text:   "Go to the Humanitarian OpenStreetMap Team’s <a href=\"tasks.hotosm.org\">Tasking Manager website</a> to create an account. Follow the link in the email they send to confirm your account."
   stepBuildings:        "Learn to map buildings"
   stepBuildings_text:   "Buildings are one of the most useful things you can add to OpenStreetMap (and they're fun too)! Learn how to add and edit buildings to OSM through the iD editor."
   stepRoads:        "Learn to map roads"
   stepRoads_text:   "Roads are also one of the most useful things you can add to OpenStreetMap! Learn how to add and edit roads to OSM through the iD editor."
   stepTM:        "Learn to use the Tasking Manager"
-  stepTM_text:   "Go to the <a href=\"http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps\">Task Manager</a> to find a project and task that interests you. Learn how to lock a task to edit, select an editing program and change the background settings."
+  stepTM_text:   "Go to the Task Manager to find a project and task that interests you. Learn how to lock a task to edit, select an editing program and change the background settings. Note: when your task is reviewed, you’ll get an email. Make sure to give those a read."
   
 ##############
 ## ADVANCED ##
@@ -289,7 +289,7 @@ about:
       text1:   "Missing Maps is a project led by a collective of organizations working towards a common goal of creating accessible map data where humanitarian organizations are operating. Each member organization carries out their own mapping activities with their wider communities guided by shared ethics. Missing Maps would be nothing without this collaboration of participating organizations, communities and individuals. To achieve this goal, Missing Maps organizations grow a global community of mappers to support those living in places at risk as they put themselves on the map. OpenStreetMap is the volunteer-driven open data mapping platform which makes all of this possible, supported by the not-for-profit OpenStreetMap Foundation. Welcome to the community!"
   objectives:
     title:      "Objectives"
-    text1:      "To map the most vulnerable places in the developing world, in order that international and local NGOs and individuals can use the maps and data to better respond to crises affecting the areas."
+    text1:      "To map areas where people live at risk of disasters and crises by contributing to <a href=\"openstreetmap.org\">OpenStreetMap</a> (OSM) so that individuals, communities and organizations can use the data and maps to better prepare and respond."
     text2:      "To support <a href=\"http://openstreetmap.org\">OpenStreetMap</a> , specifically the <a href=\"http://hotosm.org\">Humanitarian OpenStreetMap Team (HOT)</a>, in developing technologies, skills, workflows, and communities."
   ethics:
     title:  "Ethics"
@@ -321,7 +321,7 @@ about:
   madepossible: "Missing Maps is made possible thanks to the following organizations."
   founders:     "Founders"
   members:      "Members"
-  osm_text:     "is the volunteer-driven open data mapping platform which makes all of this possible, supported by the not-for-profit"
+  osm_text:     "is the volunteer-driven open data mapping platform which makes all of this possible, supported by the not-for-profit" #this should be deleted
 
 ##########################
 ## MAPATHON SUPPORT MAP ##
@@ -329,7 +329,7 @@ about:
 
 helper-map:
   title:        "Mapathon Support"
-  description:  "The Missing Maps team can support you in a number of ways. Please reach out to us via Twitter or Facebook for help with task selection or if you have any questions.  Additionally, volunteer mapathon supporters are located around the globe! Please use the below map to connect to someone in your area. You can filter by language using the dropdowns.  Zooming the map will help you narrow down the list to people in your area."
+  description:  "The Missing Maps team can support you in a number of ways. Please reach out to us via Twitter or Facebook for help with task selection or if you have any questions. Additionally, volunteer mapathon supporters are located around the globe! Please use the below map to connect to someone in your area. You can filter by language using the dropdowns. Zooming the map will help you narrow down the list to people in your area."
   signup-txt:   "Volunteer to help out by adding your contact info to the map via the button below. To remove or edit your data please send an <a href='mailto:info@hotosm.org'>email</a>."
   signup-btn:   "Sign up"
   filter-lang:  "Filter by a language"
@@ -343,7 +343,7 @@ helper-map:
 #####################
 host:
   title:          "Hosting a Mapathon"
-  text:           "A mapathon is a great opportunity for volunteers to digitally connect and map the most vulnerable places in the developing world so that local and international Non-Governmental Organizations (NGO’s) can use these maps and data to better respond to crises affecting these areas. Up to date maps are important for the success of many humanitarian organizations around the world in responding to disasters. Through Missing Maps, you can volunteer your time to help create these maps, and have a real impact on the delivery of healthcare in the field. Check out the video below to learn more about what a mapathon is, and check out our resources on how to host one below."
+  text:           "A mapathon is a great opportunity for volunteers to digitally connect and create urgently needed data for communities around the world so that local and international decision-makers can use these maps and data to better respond to crises affecting these areas. Up-to-date maps are important for the success of many humanitarian initiatives around the world in responding to disasters. Through Missing Maps, you can volunteer your time to help inform these maps, and have a real impact on the delivery of healthcare and other services in these communities. Check out the video below to learn more about what a mapathon is, and check out our resources on how to host one below."
   what_is:        "What is a Mapathon?"
   how_host:       "How to Host a Mapathon"
   prep_btn:       "PLANNING CHECKLIST"
