@@ -9,38 +9,38 @@ img-alt:
   Changeset: "..."
   Building: "..."
   Road: "..."
-  MM-White:  "..."
+  MM-White: "..."
   mapswipe-before: "..."
-  mapswipe-after:  "..."
-  mapswipe-squares:  "..."
-  mapswipe-footer:  "..."
-  MapNow: “Se muestra un ordenador portátil de dibujos animados. Una imagen en la pantalla muestra dibujos animados de dos personajes con componentes de mapas a tamaño real. Un hombre coloca límites alrededor de una estructura, mientras que la mujer corre hacia el hombre con un icono de punto de interés (PoI,del inglés PointOfInterest).”
-  Mapathon: “Un grupo diverso de cinco personajes de dibujos animados están en un mapaton. Cuatro están en los ordenadores, mientras el otro esta supervisando y comiendo pizza.”
+  mapswipe-after: "..."
+  mapswipe-squares: "..."
+  mapswipe-footer: "..."
+  MapNow: "Se muestra un ordenador portátil de dibujos animados. Una imagen en la pantalla muestra dibujos animados de dos personajes con componentes de mapas a tamaño real. Un hombre coloca límites alrededor de una estructura, mientras que la mujer corre hacia el hombre con un icono de punto de interés (PoI,del inglés PointOfInterest)."
+  Mapathon: "Un grupo diverso de cinco personajes de dibujos animados están en un mapaton. Cuatro están en los ordenadores, mientras el otro esta supervisando y comiendo pizza."
   Donate: "Un hombre y una mujer de dibujos animados  caricatura y una mujer caricatura se dan el mano y sonrien."
-  Checklist: “Ilustración de un listado con cuatro elementos. Dos están marcados. También hay una regleta, un lápiz y el icono del pájaro de Twitter.”
-  Checklist-2: “Ilustración de un listado con cuatro elementos. Tres están marcados. También hay un lápiz.”
-  Checklist-3: “Ilustración de un portapapeles con el logo de Missing Maps en la parte de arriba y el símbolo de descarga.”
-  LeaderboardGraphic: “Dos graficas: una azul y una verde. No hay datos en ellas.”
+  Checklist: "Ilustración de un listado con cuatro elementos. Dos están marcados. También hay una regleta, un lápiz y el icono del pájaro de Twitter."
+  Checklist-2: "Ilustración de un listado con cuatro elementos. Tres están marcados. También hay un lápiz."
+  Checklist-3: "Ilustración de un portapapeles con el logo de Missing Maps en la parte de arriba y el símbolo de descarga."
+  LeaderboardGraphic: "Dos graficas: una azul y una verde. No hay datos en ellas."
   Learn-MapNow: "Un ordenador de dibujos animados, con el logotipo de OSM en él. El logotipo de OSM es una lupa encima de un mapa"
-  Learn-Tutorials: “Una ilustración de un ordenador, con el logotipo de LearnOSM en él. El logotipo de LearnOSM es una lupa encima de un mapa rectangular verde"
-  Learn-YouTube: “Una ilustración de un ordenador con el logotipo de YouTube en él. El logotipo de YouTube es un cuadrado rojo con un triángulo de ‘play’ blanco."
+  Learn-Tutorials: "Una ilustración de un ordenador, con el logotipo de LearnOSM en él. El logotipo de LearnOSM es una lupa encima de un mapa rectangular verde"
+  Learn-YouTube: "Una ilustración de un ordenador con el logotipo de YouTube en él. El logotipo de YouTube es un cuadrado rojo con un triángulo de ‘play’ blanco."
   MMlogo-Outlined: "El logotipo de Missing Maps es un círculo gris con rectángulos en múltiples colores dentro el círculo."
-  Process(outlined-text): "Una imagen en tres piezas. La primera tiene dos personas de dibujos animados en ordenadores con un fondo azul. Hay una porción de pizza. El texto dice ‘Como trabajamos: Paso 1. Voluntarios remotos trazan imagen satelital en OpenStreetMap.’. La segunda tiene una persona de dibujos animados moviéndose entre dos estructuras mientras aguanta un ordenador. El fondo es verde. La estructura de la izquierda es un edificio con un techo en punta. La estructura de la derecha es un edificio con un techo redondo en forma de seta, el texto dice ‘Paso 2. Voluntarios de la comunidad añaden detalles locales como barrios, nombres de calles y centros de evacuación.’ La tercera tiene tres personas de dibujos animados en un fondo naranja. La persona del medio tiene sus brazos alrededor de la persona de al lado. Él tiene un emblema de la Cruz Roja en la camiseta. Hay dos iconos de edificios en el fondo. El texto dice ‘Paso tres. Organizaciones humanitarias usan información mapeada para planear reducción de riesgos y actividades de respuesta a desastres que salvan vidas.”
-  Process-PartOne: “Dos personas de dibujos animados en ordenadores con un fondo azul. Hay una porción de pizza. El texto dice ‘Como trabajamos: Paso 1. Voluntarios remotos trazan imagen satelital en OpenStreetMap.’”
-  Process-PartTwo: “Una persona de dibujos animados moviéndose entre dos estructuras mientras aguanta un ordenador. El fondo es verde. La estructura de la izquierda es un edificio con un techo en punta. La estructura de la derecha es un edificio con un techo redondo en forma de seta, el texto dice ‘Paso 2. Voluntarios de la comunidad añaden detalles locales como barrios, nombres de calles y centros de evacuación.’”
-  Process-PartThree: “Tres personas de dibujos animados en un fondo naranja. La persona del medio tiene sus brazos alrededor de la persona de al lado. Él tiene un emblema de la Cruz Roja en la camiseta. Hay dos iconos de edificios en el fondo. El texto dice ‘Paso tres. Organizaciones humanitarias usan información mapeada para planear reducción de riesgos y actividades de respuesta a desastres que salvan vidas.”
-  ProfileGraphic: "Una ilustración de una pantalla de ordenador que muestra el diseño del perfil del usuario.  La barra de navegación superior es gris, y hay una imagen de perfil simulada con una ilustración de una persona en gris con un pequeño logotipo de Missing Maps en el pecho".
-  SatelliteOfLove: “Una ilustración de un satélite. Es naranja y está abierto apuntando hacia abajo.”
-  Stars: “Imagen en blanco.”
-  helper: “Una simulación de fotografía de perfil con un pequeño dibujo gris de una persona con un logo de Missing Maps en el pecho.”
-  404: “Un hombre con chaleco rojo con el logo de ‘Liberian Red Cross’ señala a través del rio.”
-  mapathon: “Dos mujeres sonríen mientras disfrutan de su voluntariado y miran al ordenador.”
-  mapathon2: “Entorno del aula con múltiples mesas. Mapeadores están en cada una con ordenadores y bebidas.”
+  Process(outlined-text): "Una imagen en tres piezas. La primera tiene dos personas de dibujos animados en ordenadores con un fondo azul. Hay una porción de pizza. El texto dice ‘Como trabajamos: Paso 1. Voluntarios remotos trazan imagen satelital en OpenStreetMap.’. La segunda tiene una persona de dibujos animados moviéndose entre dos estructuras mientras aguanta un ordenador. El fondo es verde. La estructura de la izquierda es un edificio con un techo en punta. La estructura de la derecha es un edificio con un techo redondo en forma de seta, el texto dice ‘Paso 2. Voluntarios de la comunidad añaden detalles locales como barrios, nombres de calles y centros de evacuación.’ La tercera tiene tres personas de dibujos animados en un fondo naranja. La persona del medio tiene sus brazos alrededor de la persona de al lado. Él tiene un emblema de la Cruz Roja en la camiseta. Hay dos iconos de edificios en el fondo. El texto dice ‘Paso tres. Organizaciones humanitarias usan información mapeada para planear reducción de riesgos y actividades de respuesta a desastres que salvan vidas."
+  Process-PartOne: "Dos personas de dibujos animados en ordenadores con un fondo azul. Hay una porción de pizza. El texto dice ‘Como trabajamos: Paso 1. Voluntarios remotos trazan imagen satelital en OpenStreetMap.’"
+  Process-PartTwo: "Una persona de dibujos animados moviéndose entre dos estructuras mientras aguanta un ordenador. El fondo es verde. La estructura de la izquierda es un edificio con un techo en punta. La estructura de la derecha es un edificio con un techo redondo en forma de seta, el texto dice ‘Paso 2. Voluntarios de la comunidad añaden detalles locales como barrios, nombres de calles y centros de evacuación.’"
+  Process-PartThree: "Tres personas de dibujos animados en un fondo naranja. La persona del medio tiene sus brazos alrededor de la persona de al lado. Él tiene un emblema de la Cruz Roja en la camiseta. Hay dos iconos de edificios en el fondo. El texto dice ‘Paso tres. Organizaciones humanitarias usan información mapeada para planear reducción de riesgos y actividades de respuesta a desastres que salvan vidas."
+  ProfileGraphic: "Una ilustración de una pantalla de ordenador que muestra el diseño del perfil del usuario.  La barra de navegación superior es gris, y hay una imagen de perfil simulada con una ilustración de una persona en gris con un pequeño logotipo de Missing Maps en el pecho."
+  SatelliteOfLove: "Una ilustración de un satélite. Es naranja y está abierto apuntando hacia abajo."
+  Stars: "Imagen en blanco."
+  helper: "Una simulación de fotografía de perfil con un pequeño dibujo gris de una persona con un logo de Missing Maps en el pecho."
+  404: "Un hombre con chaleco rojo con el logo de ‘Liberian Red Cross’ señala a través del rio."
+  mapathon: "Dos mujeres sonríen mientras disfrutan de su voluntariado y miran al ordenador."
+  mapathon2: "Entorno del aula con múltiples mesas. Mapeadores están en cada una con ordenadores y bebidas."
   mapathon3: "Tres hombres examinan un mapa pegado a la pared. Uno señala con un bolígrafo"
-  mapathon4: “Tres personas miran un mapa colgado de la pared. Una mujer sonríe y dos hombres toman notas con bolígrafos.”
-  mapathon5: “Un hombre en camisa de vestir lidera un evento para voluntarios. La gente mira la pantalla que se muestra detrás suyo.”
-  mapathon6: “La gente se agrupa en un espacio abierto cubierto y escuchan y miran a una mujer con una camiseta de la Cruz Roja. Ella tiene un teléfono y está grabando información”
-  process: “Un rayo de luz amarillo de un satélite emana hacia la tierra. A la izquierda, 2 figuras de palo azules están sentadas en una mesa con ordenadores bajo un cartel. “Paso 1: Voluntarios remotos trazan imágenes satelitales en OpenStreetMap’. Debajo de los rayos, tres cabañas redondas  se encuentran en la superficie de la Tierra con texto encima. El texto lee: ‘Paso 2: Voluntarios de la comunidad añaden detalles locales como barrios, nombres de calles, y centros de evacuación’. A la derecha, se juntan tres figuras de palo rojas. La persona del medio tiene un emblema de la cruz roja en el pecho. Arriba, el texto lee ‘ Paso 3: Organizaciones humanitarias usan información mapeada para planear actividades en reducción de riesgos y respuesta a desastres que salvan vidas.’”
+  mapathon4: "Tres personas miran un mapa colgado de la pared. Una mujer sonríe y dos hombres toman notas con bolígrafos."
+  mapathon5: "Un hombre en camisa de vestir lidera un evento para voluntarios. La gente mira la pantalla que se muestra detrás suyo."
+  mapathon6: "La gente se agrupa en un espacio abierto cubierto y escuchan y miran a una mujer con una camiseta de la Cruz Roja. Ella tiene un teléfono y está grabando información"
+  process: "Un rayo de luz amarillo de un satélite emana hacia la tierra. A la izquierda, 2 figuras de palo azules están sentadas en una mesa con ordenadores bajo un cartel. 'Paso 1: Voluntarios remotos trazan imágenes satelitales en OpenStreetMap'. Debajo de los rayos, tres cabañas redondas  se encuentran en la superficie de la Tierra con texto encima. El texto lee: ‘Paso 2: Voluntarios de la comunidad añaden detalles locales como barrios, nombres de calles, y centros de evacuación’. A la derecha, se juntan tres figuras de palo rojas. La persona del medio tiene un emblema de la cruz roja en el pecho. Arriba, el texto lee ‘ Paso 3: Organizaciones humanitarias usan información mapeada para planear actividades en reducción de riesgos y respuesta a desastres que salvan vidas."
   validate: "Vista de cerca de una mesa, cinco ordenadores están abiertos para mapear. Vemos un mapa del mundo y un impreso de las instrucciones para mapear. Una mano está en el teclado del ordenador."
 
 ####################
@@ -89,7 +89,7 @@ nav:
 
 banner:
   title:          "Poner en el mapa a las comunidades vulnerables del mundo."
-  subtitle:       "Cada año, las catástrofes en el mundo matan a casi 100.000 personas y afectan o desplazan a 200 millones. Muchos de los lugares donde se producen estas catástrofes están literalmente "desaparecidos" de los mapas abiertos y accesibles, y los primeros intervinientes carecen de la información necesaria para tomar decisiones valiosas en materia de ayuda. Missing Maps es un proyecto abierto y colaborativo en el que puedes ayudar a cartografiar las zonas en las que las organizaciones humanitarias tratan de satisfacer las necesidades de las personas que viven en riesgo de catástrofes y crisis."
+  subtitle:       "Cada año, las catástrofes en el mundo matan a casi 100.000 personas y afectan o desplazan a 200 millones. Muchos de los lugares donde se producen estas catástrofes están literalmente \"desaparecidos\" de los mapas abiertos y accesibles, y los primeros intervinientes carecen de la información necesaria para tomar decisiones valiosas en materia de ayuda. Missing Maps es un proyecto abierto y colaborativo en el que puedes ayudar a cartografiar las zonas en las que las organizaciones humanitarias tratan de satisfacer las necesidades de las personas que viven en riesgo de catástrofes y crisis."
 
 how_we_work:
   title:        "Cómo trabajamos"
@@ -167,7 +167,7 @@ contact:
 ##############
 beginner:
   title:        "Aprender a mapear"
-  how_text:     "Si eres nuevo en el mundo de la cartografía digital, te recomendamos que veas los videos de la sección “Principiantes” más abajo, para ponerte en marcha. Para una introducción a un Mapatón completo, y videos adicionales, clica sobre el botón de YouTube. Si ya has mapeado con anterioridad, considera aprender a validar. También puedes acceder a tutoriales adicionales a través de LearnOSM."
+  how_text:     "Si eres nuevo en el mundo de la cartografía digital, te recomendamos que veas los videos de la sección \"Principiantes\" más abajo, para ponerte en marcha. Para una introducción a un Mapatón completo, y videos adicionales, clica sobre el botón de YouTube. Si ya has mapeado con anterioridad, considera aprender a validar. También puedes acceder a tutoriales adicionales a través de LearnOSM."
   map_btn:      "CARTOGRAFIAR"
   validate:     "VALIDAR"
   learn_osm:    "TUTORIALES ADICIONALES"
@@ -196,7 +196,7 @@ advanced:
 ###########
 field:
   title:        "Aprende a cartografiar el terreno"
-  intro1: "Ahora que has mapeado un área como mejor has podido a partir de imágenes de satélite, quieres mapear tu comunidad con mayor detalle. ¿Tienes curiosidad acerca de qué hacer a continuación? Esta sección te ayudará a navegar la planificación, realización y procesado de una actividad de mapeo de la comunidad".
+  intro1: "Ahora que has mapeado un área como mejor has podido a partir de imágenes de satélite, quieres mapear tu comunidad con mayor detalle. ¿Tienes curiosidad acerca de qué hacer a continuación? Esta sección te ayudará a navegar la planificación, realización y procesado de una actividad de mapeo de la comunidad."
   intro2: "El objetivo final de esta actividad es capturar la perspectiva de lugares y personas únicos en el mapa. Para ello, lo ideal es contar con una comunidad diversa de mapeadores que pueden representar a las voces de la localidad. El establecimiento de una cultura sostenible de mapeo lleva tiempo y esfuerzo, y hay muchos pasos que puedes tomar para arrancar, hacer crecer y cuidar una comunidad."
   intro3: "Recordatorio: esto no pretende ser una guía completa, sino sólo ayudarte a arrancar."
   volunteers-header: "OpenStreetMap está elaborado por voluntarios..."
@@ -229,7 +229,7 @@ field:
     title: "Mantenimiento de datos:"
     about: "¿Qué es lo que deseas capturar, cómo se desea capturar, cuánto tiempo serán exactos estos datos? ¿Cuál es tu plan para mantenerlos actualizados? ¿Tienes ayudantes?"
   tools-header: "Entender tus herramientas:"
-  tools-about: "Entender tus herramientas: Missing Maps no gestiona herramientas de recopilación de datos, pero estos son algunos de nuestros recursos favoritos de la comunidad de OSM." 
+  tools-about: "Entender tus herramientas: Missing Maps no gestiona herramientas de recopilación de datos, pero estos son algunos de nuestros recursos favoritos de la comunidad de OSM."
   tools-list:
     - label: "<a href=\"https://opendatakit.org/\"> Open Data Kit </a> -. Open Data Kit se puso en marcha para crear herramientas móviles de recogida de datos para entornos con recursos limitados. A lo largo de los últimos 13 años, el proyecto ha producido dos conjuntos de herramientas (<a href=\"https://getodk.org/\"> ODK </a>, ODK-X) y se ha convertido en el hogar de una comunidad de usuarios, implementadores y desarrolladores."
     - label: "<a href=\"https://www.kobotoolbox.org/\"> Kobo </a> - KoBoToolbox es un conjunto de herramientas para la recolección de datos para su uso en entornos difíciles."
@@ -248,7 +248,7 @@ field:
   giveback-header: "¡Devuelve tus datos a la comunidad!"
   giveback-about: "Devuelve tus datos a la comunidad! Considera la organización de una reunión con la comunidad para compartir mapas actualizados con las empresas locales, gobiernos, organizaciones, etc. Además, considera la posibilidad de compartir tus datos con el mundo humanitario en general a través de una plataforma como <a href = \" https://data.humdata.org/\">Humanitarian Data Exchange </a>."
 
-  
+
 ##############
 ## MAPSWIPE ##
 ##############
@@ -285,20 +285,20 @@ about:
   title:        "Acerca de"
   who_we_are:
       title:  "Quiénes somos"
-      text1:   "Missing Maps es un proyecto dirigido por un colectivo de organizaciones que trabajan con el objetivo común de crear datos cartográficos accesibles en los lugares donde operan las organizaciones humanitarias. Cada organización miembro lleva a cabo sus propias actividades cartográficas con sus comunidades más amplias guiadas por una ética compartida. Missing Maps no sería nada sin esta colaboración de las organizaciones, comunidades e individuos participantes. Para lograr este objetivo, las organizaciones de Missing Maps hacen crecer una comunidad global de mapeadores para apoyar a quienes viven en lugares de riesgo mientras se ponen en el mapa. OpenStreetMap es la plataforma de mapeo de datos abiertos impulsada por voluntarios que hace todo esto posible, con el apoyo de la Fundación OpenStreetMap sin ánimo de lucro. Bienvenidos a la comunidad".
+      text1:   "Missing Maps es un proyecto dirigido por un colectivo de organizaciones que trabajan con el objetivo común de crear datos cartográficos accesibles en los lugares donde operan las organizaciones humanitarias. Cada organización miembro lleva a cabo sus propias actividades cartográficas con sus comunidades más amplias guiadas por una ética compartida. Missing Maps no sería nada sin esta colaboración de las organizaciones, comunidades e individuos participantes. Para lograr este objetivo, las organizaciones de Missing Maps hacen crecer una comunidad global de mapeadores para apoyar a quienes viven en lugares de riesgo mientras se ponen en el mapa. OpenStreetMap es la plataforma de mapeo de datos abiertos impulsada por voluntarios que hace todo esto posible, con el apoyo de la Fundación OpenStreetMap sin ánimo de lucro. Bienvenidos a la comunidad."
   objectives:
     title:      "Objetivos"
-    text1:      "Cartografiar las zonas en las que viven las personas en riesgo de sufrir catástrofes y crisis contribuyendo a <a href=\"openstreetmap.org\">OpenStreetMap</a> (OSM) para que las personas, las comunidades y las organizaciones puedan utilizar los datos y los mapas para prepararse y responder mejor".
+    text1:      "Cartografiar las zonas en las que viven las personas en riesgo de sufrir catástrofes y crisis contribuyendo a <a href=\"openstreetmap.org\">OpenStreetMap</a> (OSM) para que las personas, las comunidades y las organizaciones puedan utilizar los datos y los mapas para prepararse y responder mejor."
     text2:      "Apoyar a <a href=\"http://openstreetmap.org\">OpenStreetMap</a>, y específicamente al <a href=\"http://hotosm.org\">Equipo Humanitario de OpenStreetMap</a> (HOT), en el desarrollo de una comunidad de voluntarios respaldada por los recursos financieros, tecnológicos y humanos necesarios para facilitar el crecimiento del proyecto Missing Maps y apoyar las necesidades de las organizaciones miembros del proyecto Missing Maps."
   ethics:    
     title:  "Ética"
     people: 
       title: "Personas"
       text1: "Las personas siempre están antes que los datos. Todas las actividades de Missing Maps tendrán en cuenta los intereses y derechos de la comunidad y de las personas, antes de añadir datos a OSM."
-      text2: ""Todas las actividades del proyecto Missing Maps se guían por los principios humanitarios de humanidad, neutralidad, imparcialidad e independencia. Seguimos <a href=\"https://www.hotosm.org/code-of-conduct\" >el código de conducta de HOT</a>."
+      text2: "Todas las actividades del proyecto Missing Maps se guían por los principios humanitarios de humanidad, neutralidad, imparcialidad e independencia. Seguimos <a href=\"https://www.hotosm.org/code-of-conduct\" >el código de conducta de HOT</a>."
     open:
       title: "Abrir"
-      text1: "Abierto bajo la (licencia ODbL)[https://opendatacommons.org/licenses/odbl/]: Respetando las directrices y las mejores prácticas de la Fundación OpenStreetMap (OSMF) y de OSM, las organizaciones miembros del proyecto Missing Maps garantizan que todos los datos no sensibles recogidos bajo el estandarte del proyecto Missing Maps serán gratuitos, abiertos y disponibles para su uso."
+      text1: "Abierto bajo la <a href=\"https://opendatacommons.org/licenses/odbl/\">licencia ODbL</a>: Respetando las directrices y las mejores prácticas de la Fundación OpenStreetMap (OSMF) y de OSM, las organizaciones miembros del proyecto Missing Maps garantizan que todos los datos no sensibles recogidos bajo el estandarte del proyecto Missing Maps serán gratuitos, abiertos y disponibles para su uso."
       text2: "Abierto a todos los creadores de herramientas: Cualquier creación de metodología, herramientas, software o tecnología del proyecto Missing Maps por parte de las organizaciones miembros del proyecto Missing Maps será de código abierto y permitirá la contribución de la red global de voluntarios."
       text3: "Abierto a todas las voces y perspectivas: Todas las actividades del proyecto Missing Maps están diseñadas para ser accesibles y abiertas a la participación de los individuos, las comunidades y las organizaciones que deseen contribuir a los objetivos del proyecto Missing Maps."
     sustainable:
@@ -393,81 +393,81 @@ host:
 ##############
 
 checker:
-    title: "Aprende a Validar"
-    intro: "La validación es una parte importante del proceso de Missing Maps. Conseguir un segundo, tercer, o cuarto par de ojos en los elementos mapeados contribuye en gran medida a garantizar la calidad de los datos que se añaden a OpenStreetMap y que se utilizan en comunidades vulnerables de todo el mundo. La validación requiere confianza en las propias habilidades cartográficas, así como la voluntad de ayudar a entrenar y aconsejar a los nuevos mapeadores. El proyecto Missing Maps es una comunidad de mapeadores con diferentes niveles de experiencia en mapeo, todos ellos con el objetivo común de mejorar la disponibilidad de datos de calidad para uso humanitario."
-    links:
-      faq: "Preguntas más frecuentes"
-      tools: "HERRAMIENTAS PARA GESTORES DE PROYECTOS"
-      tools-filename: "Tools for Project Managers_EN.pdf"  
-      ### NOTE: above file needs to exist in `/app/assets/downloads/` folder
-      guide: "GUÍA COMPLETA  DE VALIDACIÓN"
-      wiki: "WIKI"
-    steps:
-      goal: "Validar"
-      step1: "Paso 1"
-      step1_subtitle: "Identifica si convertirte en validador es adecuado para ti".
-      step1_text: "Validar no es para todo el mundo; la validación requiere paciencia y atención al detalle. Es imprescindible tener algo de experiencia en mapeo en OpenStreetMap y en proyectos HOT, pero no sientas que tienes que ser un experto para empezar. Una vez que tenga algo de experiencia en la elaboración de mapas, es posible que te encuentres corrigiendo el trabajo de otros colaboradores. Cuando descubras que lo haces con regularidad, y te resulte más fácil detectar y corregir los errores, ¡puede que estés listo para validar!
-      step1_text2: "Si eres nuevo en Missing Maps o en el mapeo de OpenStreetMap en general, dirígete a nuestros recursos para nuevos mapeadores. Si has mapeado antes usando iDEditor, asegúrate de revisar nuestra sección de mapeo avanzado para comenzar con JOSM primero. La validación en iDEditor es posible, pero es mejor utilizar JOSM."
-      step2: "Paso 2"
-      step2_subtitle: "Construye tus habilidades."
-      step2_text: "Convertirse en un mapeador más eficiente es crucial para convertirse en un validador. El <a href="https://josm.openstreetmap.de/">EditorJOSM</a> es un editor personalizable para OpenStreetMap con una serie de herramientas y plugins para facilitar el mapeo y la validación. Echa un vistazo a esta <a href="/assets/downloads/MissingMaps_validation_josm_en.pdf">guía de validación con el editor JOSM. </a>."
-      step2_video: "Si bien se prefiere validar en JOSM, también puede comenzar a mejorar el mapa a través del editor de iD. Vea este video para aprender algunas de las cosas que debe buscar:"
-      step3: "Paso 3"
-      step3_subtitle: "Colabora como parte de la comunidad extendida."
-      step3_text: "Diferentes validadores tienen diferentes técnicas para validar. Únete a la conversación en el canal de validación <a href="http://slack.hotosm.org\"> HOTOSM slack </a> o contacta con la lista de correo <a href="https://lists.openstreetmap.org/listinfo/hot\"> HOT </a>. También tenemos un grupo de trabajo de Control de Calidad [https://www.hotosm.org/community/working-groups/], al que nos encantaría que te unieras. Algunos proyectos están limitados a los del equipo de validación.  Utiliza este enlace [[http://bit.ly/HOTValidators] para unirte cuando estés preparado. ¡Contribuye con los recursos que encuentres útiles y devuelve a la comunidad! Formar parte de la comunidad de Missing Maps significa trabajar juntos en un entorno positivo e inclusivo; cuando des tu opinión a mapeadores, asegúrate de mantener un tono positivo y de tener en cuenta sus contribuciones y su deseo de ayudar: ¡es lo que hace que OSM siga creciendo!"
-      step4: "Paso 4"
-      step4_subtitle: "Validación de preguntas frecuentes"
-      faq:
-        question1: "<b>¿Cuáles son los pasos para validar un proyecto? </b>"
-        answer1: "Lo primero que hay que hacer es leer detenidamente las instrucciones del proyecto que se va a validar para entender lo que se pide a los mapeadores. Cuando revises cada tarea, haz un repaso rápido para evaluar la calidad del mapeo. Si tu objetivo es arreglar el recuadro, haz los ajustes necesarios. Si tu objetivo es hacer una revisión, toma nota de los errores. Asegúrate de dejar estos comentarios constructivos en la sección de comentarios."
-        question2: "<b>¿Cómo sé que la tarea está suficientemente bien mapeada?</b>"
-        answer2: "Antes de empezar a validar comprueba la pestaña de instrucciones del proyecto. Fíjate en lo que busca la organización solicitante (edificios, edificios y carreteras, carreteras, uso del suelo, etc.). Cuando compruebes una tarea, asegúrate de que todo lo que se solicita está mapeado. Si se trata de edificios, asegúrate de que todos ellos están encuadrados (esquinas en ángulo recto) o están rodondeados, dependiendo de la forma. Házlo edificio por edificio, ya que no todos los edificios necesitan bordes cuadrados. Asegúrate de que todas las características están etiquetadas, no sólo área=sí. Asegúrate de que ningún edificio se superponga a otros elementos. Si estás validando carreteras, asegúrate de que están vinculadas a una red y etiquetadas adecuadamente."
-        question3: "<b>¿Cuándo debo arreglar el mapeo y cuándo debo pedir a otros mapeadores que lo arreglen?</b>"
-        answer3: "Dependiendo de la cantidad de tiempo que puedas invertir en la validación, puedes arreglar los errores de un mapeador y marcar la tarea como completa o puedes marcarla como inválida (no bien mapeada) y dejar sugerencias para el mapeador. Esto depende en gran medida de tus preferencias o de la urgencia del proyecto. Si sólo hay que hacer ediciones menores o cambios avanzados, puede ser mejor que los hagas tú mismo. Si hay problemas importantes, como la falta de muchos edificios, un etiquetado incorrecto extenso o características muy mal dibujadas, puede ser mejor invalidar la tarea".
-        question4: "<b>¿Cuáles son los pasos a la hora de validar un proyecto?</b>"
-        answer4: "Lo primero que hay que hacer es leer detenidamente las instrucciones del proyecto que se va a validar para entender lo que se pide a los mapeadores. Al comprobar cada tarea, haz un repaso rápido para evaluar la calidad de la cartografía. Cambia o modifica lo que no esté en línea con las instrucciones proporcionadas y, dependiendo del tiempo que tengas disponible, completa la tarea tal y como debería ser mapeada o invalídala y deja un comentario constructivo sobre por qué la invalidas".
-        question5: "<b>¿Volverá el mismo mapeador a arreglar un recuadro no válido?</b>
-        answer5: "La invalidación puede ser un gran momento de enseñanza para los nuevos mapeadores si son capaces de rehacer su mapeo y aprender de sus errores. Sin embargo, este no es siempre el camino más rápido hacia el éxito porque algunos nuevos mapeadores no vuelven a la plataforma y otros voluntarios la mapearán primero."
-        question6: "<b>¿Cómo sé qué mapeadores completaron el mapeo? </b>"
-        answer6: "Para ver qué usuarios añadieron o editaron características específicas en el mapa, puedes ver el historial de edición para un elemento utilizando la herramienta de Historial de Objetos en JOSM [https://josm.openstreetmap.de/wiki/Help/Action/ObjectHistory] seleccionándolo y pulsando Ctrl + H. Puedes ver qué mapeadores han bloqueado o completado una tarea de mapeo individual dentro del Gestor de Tareas en la pestaña "Historial" cuando tú mismo la tienes bloqueada."
-        question7: "<b>Soy un validador experimentado en mi país de origen, ¿debo validar trabajos en una región desconocida?</b>"
-        answer7: "Mientras que puedes estar familiarizado con la forma de validar en general, OSM tiene diferentes convenciones de etiquetado a través de diferentes regiones y países. La arquitectura y las imágenes de satélite también pueden ser muy diferentes de lo que estás acostumbrado. Es mejor familiarizarse con el mapeo de una nueva región antes de comenzar a validar el trabajo de otras personas en esa área. Aquí tienes algunos recursos que pueden ayudarte a familiarizarte con la arquitectura local".
-        answer7_2: "Utiliza este recurso<https://www.pinterest.co.uk/TheMissingMaps/> para ver ejemplos de estructuras en algunas de nuestras zonas de proyectos frecuentes:"
-        answer7_3: "Utiliza estas guías para ver ejemplos de las características de las carreteras de todo el mundo: Carreteras africanas <https://wiki.openstreetmap.org/wiki/Highway_Tag_Africa> y carreteras <https://wiki.openstreetmap.org/wiki/Key:highway>.  Nota, las imágenes y las descripciones pueden ser útiles incluso si no se mapea en esa zona específica. Ten en cuenta que los materiales de la superficie de la carretera utilizados no siempre transmiten la importancia de una ruta.  Por favor, ten en cuenta el contexto así como los materiales cuando etiquetes las carreteras."
-        question8: "<b>¿Qué tipo de feedback debo dar?</b>"
-        answer8: "<b>Oportuno, positivo y constructivo.</b> Muchos proyectos son mapeados por principiantes en los Mapatones. Por favor, recuerda que <b>todos fuimos mapeadores novatos en algún momento, y considera cómo tu tono podría impactar en la decisión de un mapeador de volver a mapear de nuevo.</b>".
-        answer8_instructions: "Cuando dejes un comentario, por favor, etiqueta al mapeador en el comentario utilizando la tecla "@". Mira algunos ejemplos de comentarios útiles a continuación."
-        answer8_example1: "<b>Tarea bien mapeada (validada):</b> Hola @usuario, ¡gracias por contribuir! ¡Todo se ve muy bien!"
-        answer8_example2: "<b>Cuando un mapeador muy nóvel es bueno, ¡házselo saber!</b> Buen trabajo @usuario. Estás identificando correctamente los edificios/caminos a partir de las imágenes de fondo y mapeándolos con el tamaño y la forma correctos. Gracias por tu tiempo (o Gracias por contribuir a este proyecto). ¡Por favor, sigue mapeando!".
-        answer8_example3: "<b>Tarea bien mapeada (validada):</b> Hola @usuario, ¡gracias por contribuir! Encontré unos cuantos edificios/caminos adicionales que podrían ser mapeados aquí, así que me adelanté y los mapeé. También, por favor, asegúrate de escuadrar tus edificios, lo que se puede hacer pulsando `Q` tanto en el editor iD como en JOSM. He terminado todo aquí. ¡Gracias de nuevo!".
-        answer8_example4: "<b>Tarea mal mapeada (Invalidada):</b> Hola @usuario, ¡gracias por contribuir! Parece que quedan bastantes edificios por mapear aquí. Asegúrate de que si la tarea no está completa, hacer clic en "mapeo terminado" en lugar de "hecho". Si tienes dudas sobre lo que hay que mapear, consulta la pestaña de instrucciones. No dudes en contactar con nosotros si tienes alguna duda".
-        question9: "<b> ¿Debo validar las carreteras en un proyecto de edificios? <b>"
-        answer9: ""Por favor, céntrate en validar las características clave para ese proyecto específico. Es importante leer primero las instrucciones del gestor del proyecto para entender cuál era el objetivo de los mapeadores. Sin embargo, si detectas un pequeño cambio que pueda ser modificado, apreciamos tu gestión del mapa. Si hay que hacer grandes cambios en otros elementos, la mejor manera de hacerlo es a través de una tarea separada con las instrucciones correspondientes. Es posible que ya exista un proyecto de este tipo. Si no encuentras la tarea correspondiente, ponte en contacto directamente con el responsable del proyecto si ves que hay que hacer grandes cambios en ese área del proyecto."
-        question10: "<b>¿Qué plugins de JOSM son más útiles para validar?<b>"
-        answer10: "Los plugins son herramientas que deben añadirse mediante el cuadro de diálogo de preferencias. Despliegue el menú de edición, haga clic en preferencias y haga clic en la toma de corriente. Aquí están los plugins que sugerimos para mapear/editar/validar JOSM: apache-commons; auto-tools; buildings_tools; ejml; geotools; imagery_offset_db; jaxb; jts; mapwithai; opendata; scripting; todo; utilsplugin2."
-        question11: "<b>¿Debo borrar los elementos mal dibujados?</b>"
-        answer11: "Siempre que sea posible, se recomienda arreglar las entidades mal dibujadas en lugar de borrarlas y volver a dibujarlas. Esto se hace para preservar el historial de edición de la entidad. Hay una manera fácil de hacer esto con el UtilsPlugin2 utilizando la 'Herramienta de Reemplazo de Geometría' [https://wiki.openstreetmap.org/wiki/JOSM/Plugins/utilsplugin2#Replace_geometry_.28Ctrl.2BShift.2BG.29] En algunos casos, es más trabajo del que merece la pena arreglar las entidades y la única solución práctica es borrarlas y volver a dibujarlas. Antes de eliminar elementos, asegúrese siempre de que no han sido creados por un mapeador local. Comprueba la fecha del mapeo y si el comentario del conjunto de cambios está vinculado a un mapeo utilizando la función de historial de objetos en JOSM".
-        question12: "<b>Observo que algunas tareas limitan quién puede validar. ¿Qué significa esto?<b>"
-        answer12: "Algunos proyectos están disponibles para su validación por parte de mapeadores intermedios o avanzados. Otros proyectos requieren que se una a un equipo de validación, a la derecha bajo la sección Equipos y Permisos en el Administrador de Tareas hay un enlace para unirse a los equipos que están aprobados para ese proyecto específico.  HOT gestiona un equipo global de validaciones al que muchos de los proyectos de respuesta en el Gestor de Tareas requieren que se una. Para unirse, siga las instrucciones que aparecen a continuación o utilice este enlace para conectar con el gestor del equipo. [http://bit.ly/HOTValidators]."  
-    get-started: "¡Ahora  empiece, eche un vistazo a estas tareas que tienen necesidad de validación!"
-    dataquality:
-      title: "Herramientas de Calidad de Datos para Jefes de Proyecto:"
-      text: "¿Está gestionando proyectos utilizando un administrador de tareas? ¿Tiene curiosidad a ver cómo va el mapeo pero no quiere esperar hasta que sus mapeadores cumplan el proyecto? Pruebe estas herramientas:"
-      subtitle1:
-        title: "OSMCha"
-        text: "<a href=\"https://osmcha.org/\">OSMCha</a> abreviatura de OpenStreetMap Changeset Analyzer, es una herramienta web que ayuda a los mapeadores a analizar y revisar los cambios en los datos de OSM. El objetivo de la herramienta es ayudar a detectar el vandalismo y actuar sobre los malos cambios en los datos del mapa. Si utiliza el HOT-TM, encontrará esta herramienta en la parte inferior de la página de tu proyecto."
-      subtitle2:
-        title: "Osmose"
-        text: "<a href=\"osmose.openstreetmap.fr\"> Osmose</a> es una herramienta de control de calidad que detecta problemas en los datos de OpenStreetMap mostrando anomalías. También es útil para integrar conjuntos de datos de terceros mediante la fusión."
-      subtitle3:
-        title: "Ohsome"
-        text: "The <a href=\"https://api.ohsome.org/\">ohsome API</a> es una API web genérica para analizar los datos históricos de OSM. La API ohsome permite analizar fuente de datos enriquecidas del historial de OpenStreetMap y se basa en la base de datos histórica de OpenStreetMap (OSHDB). Puedes realizar análisis utilizando una aplicación tipo dashboard, o utilizar la API ohsome directamente y trabajar con sus respuestas CSV, JSON o GeoJSON."
-      subtitle4:
-        title: "Cuadro de mandos Mapatón CartONG "
-        text: "¿Buscas otra forma de estar al tanto de las ediciones de tu grupo? CartONG href=\"http://mapathon.cartong.org/\">te ayuda</a>."
-      subtitle5:
-        title: "MapRoulette"
-        text: "<a href=\"https://maproulette.org/\">MapRoulette</a> es un enfoque gamificado para corregir errores de OSM que descompone problemas comunes de datos en OpenStreetMap en microtareas. Mejor usar esta herramienta después de tu evento."
+  title: "Aprende a Validar"
+  intro: "La validación es una parte importante del proceso de Missing Maps. Conseguir un segundo, tercer, o cuarto par de ojos en los elementos mapeados contribuye en gran medida a garantizar la calidad de los datos que se añaden a OpenStreetMap y que se utilizan en comunidades vulnerables de todo el mundo. La validación requiere confianza en las propias habilidades cartográficas, así como la voluntad de ayudar a entrenar y aconsejar a los nuevos mapeadores. El proyecto Missing Maps es una comunidad de mapeadores con diferentes niveles de experiencia en mapeo, todos ellos con el objetivo común de mejorar la disponibilidad de datos de calidad para uso humanitario."
+  links:
+    faq: "Preguntas más frecuentes"
+    tools: "HERRAMIENTAS PARA GESTORES DE PROYECTOS"
+    tools-filename: "Tools for Project Managers_EN.pdf"  
+    ### NOTE: above file needs to exist in `/app/assets/downloads/` folder
+    guide: "GUÍA COMPLETA  DE VALIDACIÓN"
+    wiki: "WIKI"
+  steps:
+    goal: "Validar"
+    step1: "Paso 1"
+    step1_subtitle: "Identifica si convertirte en validador es adecuado para ti."
+    step1_text: "Validar no es para todo el mundo; la validación requiere paciencia y atención al detalle. Es imprescindible tener algo de experiencia en mapeo en OpenStreetMap y en proyectos HOT, pero no sientas que tienes que ser un experto para empezar. Una vez que tenga algo de experiencia en la elaboración de mapas, es posible que te encuentres corrigiendo el trabajo de otros colaboradores. Cuando descubras que lo haces con regularidad, y te resulte más fácil detectar y corregir los errores, ¡puede que estés listo para validar!"
+    step1_text2: "Si eres nuevo en Missing Maps o en el mapeo de OpenStreetMap en general, dirígete a nuestros recursos para nuevos mapeadores. Si has mapeado antes usando iDEditor, asegúrate de revisar nuestra sección de mapeo avanzado para comenzar con JOSM primero. La validación en iDEditor es posible, pero es mejor utilizar JOSM."
+    step2: "Paso 2"
+    step2_subtitle: "Construye tus habilidades."
+    step2_text: "Convertirse en un mapeador más eficiente es crucial para convertirse en un validador. El <a href=\"https://josm.openstreetmap.de/\">EditorJOSM</a> es un editor personalizable para OpenStreetMap con una serie de herramientas y plugins para facilitar el mapeo y la validación. Echa un vistazo a esta <a href=\"/assets/downloads/MissingMaps_validation_josm_en.pdf\">guía de validación con el editor JOSM. </a>."
+    step2_video: "Si bien se prefiere validar en JOSM, también puede comenzar a mejorar el mapa a través del editor de iD. Vea este video para aprender algunas de las cosas que debe buscar:"
+    step3: "Paso 3"
+    step3_subtitle: "Colabora como parte de la comunidad extendida."
+    step3_text: "Diferentes validadores tienen diferentes técnicas para validar. Únete a la conversación en el canal de validación <a href=\"http://slack.hotosm.org\"> HOTOSM slack </a> o contacta con la lista de correo <a href=\"https://lists.openstreetmap.org/listinfo/hot\"> HOT </a>. También tenemos un grupo de trabajo de Control de Calidad <a href=\"https://www.hotosm.org/community/working-groups/\">https://www.hotosm.org/community/working-groups/</a>, al que nos encantaría que te unieras. Algunos proyectos están limitados a los del equipo de validación.  Utiliza este enlace <a href=\"http://bit.ly/HOTValidators\">http://bit.ly/HOTValidators</a> para unirte cuando estés preparado. ¡Contribuye con los recursos que encuentres útiles y devuelve a la comunidad! Formar parte de la comunidad de Missing Maps significa trabajar juntos en un entorno positivo e inclusivo; cuando des tu opinión a mapeadores, asegúrate de mantener un tono positivo y de tener en cuenta sus contribuciones y su deseo de ayudar: ¡es lo que hace que OSM siga creciendo!"
+    step4: "Paso 4"
+    step4_subtitle: "Validación de preguntas frecuentes"
+    faq:
+      question1: "<b>¿Cuáles son los pasos para validar un proyecto? </b>"
+      answer1: "Lo primero que hay que hacer es leer detenidamente las instrucciones del proyecto que se va a validar para entender lo que se pide a los mapeadores. Cuando revises cada tarea, haz un repaso rápido para evaluar la calidad del mapeo. Si tu objetivo es arreglar el recuadro, haz los ajustes necesarios. Si tu objetivo es hacer una revisión, toma nota de los errores. Asegúrate de dejar estos comentarios constructivos en la sección de comentarios."
+      question2: "<b>¿Cómo sé que la tarea está suficientemente bien mapeada?</b>"
+      answer2: "Antes de empezar a validar comprueba la pestaña de instrucciones del proyecto. Fíjate en lo que busca la organización solicitante (edificios, edificios y carreteras, carreteras, uso del suelo, etc.). Cuando compruebes una tarea, asegúrate de que todo lo que se solicita está mapeado. Si se trata de edificios, asegúrate de que todos ellos están encuadrados (esquinas en ángulo recto) o están rodondeados, dependiendo de la forma. Házlo edificio por edificio, ya que no todos los edificios necesitan bordes cuadrados. Asegúrate de que todas las características están etiquetadas, no sólo área=sí. Asegúrate de que ningún edificio se superponga a otros elementos. Si estás validando carreteras, asegúrate de que están vinculadas a una red y etiquetadas adecuadamente."
+      question3: "<b>¿Cuándo debo arreglar el mapeo y cuándo debo pedir a otros mapeadores que lo arreglen?</b>"
+      answer3: "Dependiendo de la cantidad de tiempo que puedas invertir en la validación, puedes arreglar los errores de un mapeador y marcar la tarea como completa o puedes marcarla como inválida (no bien mapeada) y dejar sugerencias para el mapeador. Esto depende en gran medida de tus preferencias o de la urgencia del proyecto. Si sólo hay que hacer ediciones menores o cambios avanzados, puede ser mejor que los hagas tú mismo. Si hay problemas importantes, como la falta de muchos edificios, un etiquetado incorrecto extenso o características muy mal dibujadas, puede ser mejor invalidar la tarea."
+      question4: "<b>¿Cuáles son los pasos a la hora de validar un proyecto?</b>"
+      answer4: "Lo primero que hay que hacer es leer detenidamente las instrucciones del proyecto que se va a validar para entender lo que se pide a los mapeadores. Al comprobar cada tarea, haz un repaso rápido para evaluar la calidad de la cartografía. Cambia o modifica lo que no esté en línea con las instrucciones proporcionadas y, dependiendo del tiempo que tengas disponible, completa la tarea tal y como debería ser mapeada o invalídala y deja un comentario constructivo sobre por qué la invalidas."
+      question5: "<b>¿Volverá el mismo mapeador a arreglar un recuadro no válido?</b>"
+      answer5: "La invalidación puede ser un gran momento de enseñanza para los nuevos mapeadores si son capaces de rehacer su mapeo y aprender de sus errores. Sin embargo, este no es siempre el camino más rápido hacia el éxito porque algunos nuevos mapeadores no vuelven a la plataforma y otros voluntarios la mapearán primero."
+      question6: "<b>¿Cómo sé qué mapeadores completaron el mapeo? </b>"
+      answer6: "Para ver qué usuarios añadieron o editaron características específicas en el mapa, puedes ver el historial de edición para un elemento utilizando la herramienta de <a href=\"https://josm.openstreetmap.de/wiki/Help/Action/ObjectHistory\"> Historial de Objetos en JOSM</a> seleccionándolo y pulsando Ctrl + H. Puedes ver qué mapeadores han bloqueado o completado una tarea de mapeo individual dentro del Gestor de Tareas en la pestaña \"Historial\" cuando tú mismo la tienes bloqueada."
+      question7: "<b>Soy un validador experimentado en mi país de origen, ¿debo validar trabajos en una región desconocida?</b>"
+      answer7: "Mientras que puedes estar familiarizado con la forma de validar en general, OSM tiene diferentes convenciones de etiquetado a través de diferentes regiones y países. La arquitectura y las imágenes de satélite también pueden ser muy diferentes de lo que estás acostumbrado. Es mejor familiarizarse con el mapeo de una nueva región antes de comenzar a validar el trabajo de otras personas en esa área. Aquí tienes algunos recursos que pueden ayudarte a familiarizarte con la arquitectura local."
+      answer7_2: "Utiliza este recurso<https://www.pinterest.co.uk/TheMissingMaps/> para ver ejemplos de estructuras en algunas de nuestras zonas de proyectos frecuentes:"
+      answer7_3: "Utiliza estas guías para ver ejemplos de las características de las carreteras de todo el mundo: Carreteras africanas <https://wiki.openstreetmap.org/wiki/Highway_Tag_Africa> y carreteras <https://wiki.openstreetmap.org/wiki/Key:highway>.  Nota, las imágenes y las descripciones pueden ser útiles incluso si no se mapea en esa zona específica. Ten en cuenta que los materiales de la superficie de la carretera utilizados no siempre transmiten la importancia de una ruta.  Por favor, ten en cuenta el contexto así como los materiales cuando etiquetes las carreteras."
+      question8: "<b>¿Qué tipo de feedback debo dar?</b>"
+      answer8: "<b>Oportuno, positivo y constructivo.</b> Muchos proyectos son mapeados por principiantes en los Mapatones. Por favor, recuerda que <b>todos fuimos mapeadores novatos en algún momento, y considera cómo tu tono podría impactar en la decisión de un mapeador de volver a mapear de nuevo.</b>."
+      answer8_instructions: "Cuando dejes un comentario, por favor, etiqueta al mapeador en el comentario utilizando la tecla \"@\". Mira algunos ejemplos de comentarios útiles a continuación."
+      answer8_example1: "<b>Tarea bien mapeada (validada):</b> Hola @usuario, ¡gracias por contribuir! ¡Todo se ve muy bien!"
+      answer8_example2: "<b>Cuando un mapeador muy nóvel es bueno, ¡házselo saber!</b> Buen trabajo @usuario. Estás identificando correctamente los edificios/caminos a partir de las imágenes de fondo y mapeándolos con el tamaño y la forma correctos. Gracias por tu tiempo (o Gracias por contribuir a este proyecto). ¡Por favor, sigue mapeando!"
+      answer8_example3: "<b>Tarea bien mapeada (validada):</b> Hola @usuario, ¡gracias por contribuir! Encontré unos cuantos edificios/caminos adicionales que podrían ser mapeados aquí, así que me adelanté y los mapeé. También, por favor, asegúrate de escuadrar tus edificios, lo que se puede hacer pulsando `Q` tanto en el editor iD como en JOSM. He terminado todo aquí. ¡Gracias de nuevo!"
+      answer8_example4: "<b>Tarea mal mapeada (Invalidada):</b> Hola @usuario, ¡gracias por contribuir! Parece que quedan bastantes edificios por mapear aquí. Asegúrate de que si la tarea no está completa, hacer clic en \"mapeo terminado\" en lugar de \"hecho\". Si tienes dudas sobre lo que hay que mapear, consulta la pestaña de instrucciones. No dudes en contactar con nosotros si tienes alguna duda."
+      question9: "<b> ¿Debo validar las carreteras en un proyecto de edificios? <b>"
+      answer9: "Por favor, céntrate en validar las características clave para ese proyecto específico. Es importante leer primero las instrucciones del gestor del proyecto para entender cuál era el objetivo de los mapeadores. Sin embargo, si detectas un pequeño cambio que pueda ser modificado, apreciamos tu gestión del mapa. Si hay que hacer grandes cambios en otros elementos, la mejor manera de hacerlo es a través de una tarea separada con las instrucciones correspondientes. Es posible que ya exista un proyecto de este tipo. Si no encuentras la tarea correspondiente, ponte en contacto directamente con el responsable del proyecto si ves que hay que hacer grandes cambios en ese área del proyecto."
+      question10: "<b>¿Qué plugins de JOSM son más útiles para validar?<b>"
+      answer10: "Los plugins son herramientas que deben añadirse mediante el cuadro de diálogo de preferencias. Despliegue el menú de edición, haga clic en preferencias y haga clic en la toma de corriente. Aquí están los plugins que sugerimos para mapear/editar/validar JOSM: apache-commons; auto-tools; buildings_tools; ejml; geotools; imagery_offset_db; jaxb; jts; mapwithai; opendata; scripting; todo; utilsplugin2."
+      question11: "<b>¿Debo borrar los elementos mal dibujados?</b>"
+      answer11: "Siempre que sea posible, se recomienda arreglar las entidades mal dibujadas en lugar de borrarlas y volver a dibujarlas. Esto se hace para preservar el historial de edición de la entidad. Hay una manera fácil de hacer esto con el UtilsPlugin2 utilizando la 'Herramienta de Reemplazo de Geometría' <a href=\"https://wiki.openstreetmap.org/wiki/JOSM/Plugins/utilsplugin2#Replace_geometry_.28Ctrl.2BShift.2BG.29\">https://wiki.openstreetmap.org/wiki/JOSM/Plugins/utilsplugin2#Replace_geometry_.28Ctrl.2BShift.2BG.29</a> En algunos casos, es más trabajo del que merece la pena arreglar las entidades y la única solución práctica es borrarlas y volver a dibujarlas. Antes de eliminar elementos, asegúrese siempre de que no han sido creados por un mapeador local. Comprueba la fecha del mapeo y si el comentario del conjunto de cambios está vinculado a un mapeo utilizando la función de historial de objetos en JOSM."
+      question12: "<b>Observo que algunas tareas limitan quién puede validar. ¿Qué significa esto?<b>"
+      answer12: "Algunos proyectos están disponibles para su validación por parte de mapeadores intermedios o avanzados. Otros proyectos requieren que se una a un equipo de validación, a la derecha bajo la sección Equipos y Permisos en el Administrador de Tareas hay un enlace para unirse a los equipos que están aprobados para ese proyecto específico.  HOT gestiona un equipo global de validaciones al que muchos de los proyectos de respuesta en el Gestor de Tareas requieren que se una. Para unirse, siga las instrucciones que aparecen a continuación o utilice este enlace para conectar con el gestor del equipo. <a href=\"http://bit.ly/HOTValidators/\">http://bit.ly/HOTValidators/</a>." 
+  get-started: "¡Ahora  empiece, eche un vistazo a estas tareas que tienen necesidad de validación!"
+  dataquality:
+    title: "Herramientas de Calidad de Datos para Jefes de Proyecto:"
+    text: "¿Está gestionando proyectos utilizando un administrador de tareas? ¿Tiene curiosidad a ver cómo va el mapeo pero no quiere esperar hasta que sus mapeadores cumplan el proyecto? Pruebe estas herramientas:"
+    subtitle1:
+      title: "OSMCha"
+      text: "<a href=\"https://osmcha.org/\">OSMCha</a> abreviatura de OpenStreetMap Changeset Analyzer, es una herramienta web que ayuda a los mapeadores a analizar y revisar los cambios en los datos de OSM. El objetivo de la herramienta es ayudar a detectar el vandalismo y actuar sobre los malos cambios en los datos del mapa. Si utiliza el HOT-TM, encontrará esta herramienta en la parte inferior de la página de tu proyecto."
+    subtitle2:
+      title: "Osmose"
+      text: "<a href=\"osmose.openstreetmap.fr\"> Osmose</a> es una herramienta de control de calidad que detecta problemas en los datos de OpenStreetMap mostrando anomalías. También es útil para integrar conjuntos de datos de terceros mediante la fusión."
+    subtitle3:
+      title: "Ohsome"
+      text: "The <a href=\"https://api.ohsome.org/\">ohsome API</a> es una API web genérica para analizar los datos históricos de OSM. La API ohsome permite analizar fuente de datos enriquecidas del historial de OpenStreetMap y se basa en la base de datos histórica de OpenStreetMap (OSHDB). Puedes realizar análisis utilizando una aplicación tipo dashboard, o utilizar la API ohsome directamente y trabajar con sus respuestas CSV, JSON o GeoJSON."
+    subtitle4:
+      title: "Cuadro de mandos Mapatón CartONG "
+      text: "¿Buscas otra forma de estar al tanto de las ediciones de tu grupo? CartONG href=\"http://mapathon.cartong.org/\">te ayuda</a>."
+    subtitle5:
+      title: "MapRoulette"
+      text: "<a href=\"https://maproulette.org/\">MapRoulette</a> es un enfoque gamificado para corregir errores de OSM que descompone problemas comunes de datos en OpenStreetMap en microtareas. Mejor usar esta herramienta después de tu evento."
 ###################
 ## Blog CONTENT ##
 ###################

@@ -136,6 +136,7 @@ function jekyll(done) {
   switch (environment) {
     case 'development':
       args.push('--config=_config.yml,_config-dev.yml');
+      args.push('--trace');
     break;
     case 'production':
       args.push('--config=_config.yml');
