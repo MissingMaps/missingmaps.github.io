@@ -356,7 +356,7 @@ host:
   prep_check_list:
     - label: "Decide if you'll do an in-person or remote event"
     - label: "Choose a date"
-    - label: "Recruit volunteers to help"
+    - label: "Recruit volunteers to help plan the event"
     - label: "Book a space"
     - label: "Register your event <a target='_blank' href='https://docs.google.com/forms/d/e/1FAIpQLScdvsMHLor8mrDrHa-BQs2XzFb96vIrx3u--LHXWd1g7RncPg/viewform'>here</a>"
     - label: "Recruit participants using Eventbrite"
