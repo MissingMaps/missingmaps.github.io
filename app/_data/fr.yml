@@ -408,7 +408,7 @@ checker:
     step1_text2: "ISi vous êtes nouveau à la cartographie sur Missing Maps ou OpenStreetMap, dirigez vous vers nos ressources pour les nouveaux cartographes. Si vous avez déjà cartographié en utilisant iD Editor, assurez vous de vérifier notre section de cartographie avancée pour commencer avec JOSM. La validation sur iD Editor est possible, mais il vaut mieux utiliser JOSM."
     step2: "Étape 2"
     step2_subtitle: "Développer vos compétences."
-    step2_text: "Devenir un meilleur cartographe est essentiel pour devenir un validateur. Le <a href=\"https://josm.openstreetmap.de\">JOSM Editor</a> est un éditeur personnalisable pour OpenStreetMap avec un nombre d'outils et de plugins pour faciliter la cartographie et de la validation ! Regardez ça <a href=\"/assets/downloads/MissingMaps_validation_josm_en.pdf\"> guide de validation utilisant l'éditeur JOSM. </a> "
+    step2_text: "Devenir un meilleur cartographe est essentiel pour devenir un validateur. Le <a href=\"https://josm.openstreetmap.de\">JOSM Editor</a> est un éditeur personnalisable pour OpenStreetMap avec un nombre d'outils et de plugins pour faciliter la cartographie et de la validation ! Regardez ça <a href=\"/assets/downloads/Validating_Data_EN.pdf\"> guide de validation utilisant l'éditeur JOSM. </a> "
     step2_video: "Bien que la validation dans JOSM soit préférable, vous pouvez également commencer à améliorer la carte via l'éditeur iD. Regardez cette vidéo pour quelques-unes des choses à rechercher:"
     step3: "Étape 3"
     step3_subtitle: "Collaborez au sein d'une large communauté."
