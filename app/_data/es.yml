@@ -410,7 +410,7 @@ checker:
     step1_text2: "Si eres nuevo en Missing Maps o en el mapeo de OpenStreetMap en general, dirígete a nuestros recursos para nuevos mapeadores. Si has mapeado antes usando iDEditor, asegúrate de revisar nuestra sección de mapeo avanzado para comenzar con JOSM primero. La validación en iDEditor es posible, pero es mejor utilizar JOSM."
     step2: "Paso 2"
     step2_subtitle: "Construye tus habilidades."
-    step2_text: "Convertirse en un mapeador más eficiente es crucial para convertirse en un validador. El <a href=\"https://josm.openstreetmap.de/\">EditorJOSM</a> es un editor personalizable para OpenStreetMap con una serie de herramientas y plugins para facilitar el mapeo y la validación. Echa un vistazo a esta <a href=\"/assets/downloads/MissingMaps_validation_josm_en.pdf\">guía de validación con el editor JOSM. </a>."
+    step2_text: "Convertirse en un mapeador más eficiente es crucial para convertirse en un validador. El <a href=\"https://josm.openstreetmap.de/\">EditorJOSM</a> es un editor personalizable para OpenStreetMap con una serie de herramientas y plugins para facilitar el mapeo y la validación. Echa un vistazo a esta <a href=\"/assets/downloads/Validating_Data_EN.pdf\">guía de validación con el editor JOSM. </a>."
     step2_video: "Si bien se prefiere validar en JOSM, también puede comenzar a mejorar el mapa a través del editor de iD. Vea este video para aprender algunas de las cosas que debe buscar:"
     step3: "Paso 3"
     step3_subtitle: "Colabora como parte de la comunidad extendida."
