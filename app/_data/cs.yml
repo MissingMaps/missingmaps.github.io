@@ -20,7 +20,7 @@ img-alt:
   Checklist: "Obrázek checklistu (seznamu úkolů) na tabuli se čtyřmi úkoly. Dva z nich jsou již odškrtnuté. Na obrázku je také prodlužovačka, tužka a ikona Twitteru."
   Checklist-2: "Obrázek checklistu (seznamu úkolů) se čtyřmi úkoly. Tři z nich jsou již odškrtnuté. Na obrázku je také tužka."
   Checklist-3: "A cartoon clipboard with the missing maps logo at the top and a download symbol."
-  LeaderboardGraphic: ""Dva grafy: jeden modrý a druhý zelený. Neobsahují žádná data."
+  LeaderboardGraphic: "Dva grafy: jeden modrý a druhý zelený. Neobsahují žádná data."
   Learn-MapNow: "Kreslený počítač s logem OSM. Logo OSM je lupa nad mapou."
   Learn-Tutorials: "Kreslený počítač s logem LearnOSM. Logo LearnOSM je lupa nad zelenou obdélníkovou mapou."
   Learn-YouTube: "Kreslený počítač s logem YouTube. Logo YouTube je červený čtverec s bílým trojúhelníkovým symbolem pro přehrání."
@@ -40,7 +40,7 @@ img-alt:
   mapathon4: "Tři muži zkoumají mapu na zdi. Jeden ukazuje perem."
   mapathon5: "Muž v košili vede dobrovolnické setkání. Lidé sledují projekci za ním."
   mapathon6: "Lidé se shromažďují v krytém otevřeném prostoru, poslouchají a sledují ženu v triku s Červeným křížem. Žena má telefon, se kterým nahrává informace."
-  process: "Paprsky žlutého satelitu vysílají dolů na Zem. Nalevo, pod nápisem 'Krok 1: Vzdálení dobrovolníci trasují satelitní snímky do OpenStreetMap',  sedí u stolu s počítači dvě modré postavy. " Pod paprsky jsou na zemském povrchu tři kulaté chýše s textem nad sebou. Text uvádí 'Krok 2: Místní dobrovolníci přidávají detaily jako čtvrti, názvy ulic a evakuační centra.' Napravo skupina tří červených postav. Prostřední z nich má znak červeného kříže na hrudi. Text nad nimi říká ' Krok 3: Humanitární organizace využívají zmapované informace k plánování snižování rizik a odpovídající reakce na katastrofu, které zachraňují životy.'"
+  process: "Paprsky žlutého satelitu vysílají dolů na Zem. Nalevo, pod nápisem 'Krok 1: Vzdálení dobrovolníci trasují satelitní snímky do OpenStreetMap',  sedí u stolu s počítači dvě modré postavy. Pod paprsky jsou na zemském povrchu tři kulaté chýše s textem nad sebou. Text uvádí 'Krok 2: Místní dobrovolníci přidávají detaily jako čtvrti, názvy ulic a evakuační centra.' Napravo skupina tří červených postav. Prostřední z nich má znak červeného kříže na hrudi. Text nad nimi říká ' Krok 3: Humanitární organizace využívají zmapované informace k plánování snižování rizik a odpovídající reakce na katastrofu, které zachraňují životy.'"
   validate: "Close up of a desk, five computers are open to mapping. We see a map of the world and a printout of mapping instructions. A hand is on the keypad of the computer."
 
 ####################
@@ -440,12 +440,12 @@ blog:
 ## OSM STATS ##
 #####################
 countrystats:
-    title: "OSM Statistiky"
+  title: "OSM Statistiky"
 
 #####################
 ## 404 ##
 #####################
 lost:
-    title: "Stránka nenalezena."
-    message: "To je nepříjemné. Zdá se, že jste někde, kde jsme to ještě nezmapovali."
-    link: "Pomozte nám zmapovat svět."
+  title: "Stránka nenalezena."
+  message: "To je nepříjemné. Zdá se, že jste někde, kde jsme to ještě nezmapovali."
+  link: "Pomozte nám zmapovat svět."
