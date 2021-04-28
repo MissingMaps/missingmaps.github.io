@@ -1,3 +1,48 @@
+##################
+## IMG ALT TEXT ##
+##################
+img-alt:
+  wright-stuff: "..."
+  arrow: "..."
+  blog: "..."
+  Edit: "..."
+  Changeset: "..."
+  Building: "..."
+  Road: "..."
+  MM-White: "..."
+  mapswipe-before: "..."
+  mapswipe-after: "..."
+  mapswipe-squares: "..."
+  mapswipe-footer: "..."
+  MapNow: "Je zobrazen kreslený notebook. Obrazovka notebooku zobrazuje dvě kreslené postavy s mapovými komponenty v životní velikosti. Muž umisťuje ohraničení okolo struktury, zatímco žena běží směrem k muži a drží v rukou ikonu bodu zájmu (PointOfInterest, POI)."
+  Mapathon: "Různorodá skupina pěti kreslených postav je na mapathonu. Čtyří sedí u počítačů a jeden na ně dohlíží a jí přitom pizzu."
+  Donate: "Kreslené postavy muže a ženy si potřásají rukama a usmívají se."
+  Checklist: "Obrázek checklistu (seznamu úkolů) na tabuli se čtyřmi úkoly. Dva z nich jsou již odškrtnuté. Na obrázku je také prodlužovačka, tužka a ikona Twitteru."
+  Checklist-2: "Obrázek checklistu (seznamu úkolů) se čtyřmi úkoly. Tři z nich jsou již odškrtnuté. Na obrázku je také tužka."
+  Checklist-3: "A cartoon clipboard with the missing maps logo at the top and a download symbol."
+  LeaderboardGraphic: ""Dva grafy: jeden modrý a druhý zelený. Neobsahují žádná data."
+  Learn-MapNow: "Kreslený počítač s logem OSM. Logo OSM je lupa nad mapou."
+  Learn-Tutorials: "Kreslený počítač s logem LearnOSM. Logo LearnOSM je lupa nad zelenou obdélníkovou mapou."
+  Learn-YouTube: "Kreslený počítač s logem YouTube. Logo YouTube je červený čtverec s bílým trojúhelníkovým symbolem pro přehrání."
+  MMlogo-Outlined: "Logo Missing Maps je šedé kolečko vyplněné různobarevnými obdélníky."
+  Process(outlined-text): "Obrázek skládající se ze tří částí. V první části jsou dvě kreslené postavy u počítačů na modrém pozadí. U nich je kousek pizzy. Text říká 'Jak pracujeme: Krok 1. Vzdálení dobrovolníci překreslují satelitní snímky do OpenStreetMapy.'. Ve druhé části je jedna kreslená postava držící počítač a pohybující se mezi dvěma stavbami. Pozadí je zelené. Stavba vlevo je budova se špičatou střechou. Stavba vpravo je budova s kulatou střechou ve tvaru houby. Text říká 'Krok 2. Dobrovolníci z místních komunit přidají místní detaily jako čtvrtě, názvy ulic a evakuační centra.'. Ve třetí části jsou tři kreslené postavy na oranžovém pozadí. Prostřední postava má ruce kolem ramen postav vedle něj. Na košili má logo Červeného Kříže. V pozadí jsou dvě ikony budov. Text říká 'Krok tři. Humanitární organizace použijí výsledky mapování při plánování činností pro snížení rizika a při reakci na katastrofy, aby zachránily životy."
+  Process-PartOne: "Dvě kreslené postavy u počítačů na modrém pozadí. U nich je kousek pizzy. Text říká 'Jak pracujeme: Krok 1. Vzdálení dobrovolníci překreslují satelitní snímky do OpenStreetMapy.'"
+  Process-PartTwo: "Jedna kreslená postava držící počítač a pohybující se mezi dvěma stavbami. Pozadí je zelené. Stavba vlevo je budova se špičatou střechou. Stavba vpravo je budova s kulatou střechou ve tvaru houby. Text říká 'Krok 2. Dobrovolníci z místní komunity přidají místní detaily jako čtvrtě, názvy ulic a evakuační centra.'"
+  Process-PartThree: "Tři kreslené postavy na oranžovém pozadí. Prostřední postava má  ruce kolem ramen postav vedle něj. Na své košili má logo Červeného Kříže. V pozadí jsou dvě ikony budov. Text říká 'Krok tři. Humanitární organizace použijí výsledky mapování při plánování činností pro snížení rizika a při reakci na katastrofy, aby zachránily životy.'"
+  ProfileGraphic: "Kreslený obrázek počítačové plochy ukazuje rozložení uživatelského profilu. Hlavní orientační panel je šedý, a je zde napodobenina profilového obrázku s šedou kreslenou postavou s malým logem Missing Maps na hrudi."
+  SatelliteOfLove: "Kreslený obrázek satelitu. Je oranžový a ukazuje dolů."
+  Stars: "Obrázek je prázdný."
+  helper: "Napodobenina profilového obrázku s šedou kreslenou postavou s malým logem Missing Maps na hrudi."
+  404: "Man in Red vest with 'Liberian Red Cross' logo points accorss a river."
+  mapathon: "Muž v červené vestě s logem Liberijského červeného kříže ukazuje přes řeku."
+  mapathon2: "Dvě ženy se usmívají, zatímco si užívají dobrovolničení a dívají se na počítač. "
+  mapathon3: "Učebna vybavená množstvím stolů. Za každým jsou mappeři s počítači a nápoji."
+  mapathon4: "Tři muži zkoumají mapu na zdi. Jeden ukazuje perem."
+  mapathon5: "Muž v košili vede dobrovolnické setkání. Lidé sledují projekci za ním."
+  mapathon6: "Lidé se shromažďují v krytém otevřeném prostoru, poslouchají a sledují ženu v triku s Červeným křížem. Žena má telefon, se kterým nahrává informace."
+  process: "Paprsky žlutého satelitu vysílají dolů na Zem. Nalevo, pod nápisem 'Krok 1: Vzdálení dobrovolníci trasují satelitní snímky do OpenStreetMap',  sedí u stolu s počítači dvě modré postavy. " Pod paprsky jsou na zemském povrchu tři kulaté chýše s textem nad sebou. Text uvádí 'Krok 2: Místní dobrovolníci přidávají detaily jako čtvrti, názvy ulic a evakuační centra.' Napravo skupina tří červených postav. Prostřední z nich má znak červeného kříže na hrudi. Text nad nimi říká ' Krok 3: Humanitární organizace využívají zmapované informace k plánování snižování rizik a odpovídající reakce na katastrofu, které zachraňují životy.'"
+  validate: "Close up of a desk, five computers are open to mapping. We see a map of the world and a printout of mapping instructions. A hand is on the keypad of the computer."
+
 ####################
 ## HEADER CONTENT ##
 ####################
@@ -5,16 +50,16 @@
 home:             "cs/"
 
 nav:
-  - text:         "LEARN"
+  - text:         "NAUČIT SE"
     links:
-      - text:     "BEGINNER MAPPING"
-        url:      "/cs/beginner/"
-      - text:     "ADVANCED MAPPING"
-        url:      "/cs/advanced/"
-      - text:     "FIELD MAPPING"
-        url:      "/cs/field/"
-      - text:     "VALIDATION"
-        url:      "/cs/validate/"
+      - text:     "MAPOVÁNÍ PRO ZAČÁTEČNÍKY"
+        url:      "/cs/začátečník/"
+      - text:     "POKROČILÉ MAPOVÁNÍ"
+        url:      "/cs/pokročilý/"
+      - text:     "MAPOVÁNÍ TERÉNU"
+        url:      "/cs/terén/"
+      - text:     "VALIDACE"
+        url:      "/cs/validace/"
       - text:     "MAPSWIPE"
         url:      "/cs/mapswipe/"
   - text:         "AKCE"
@@ -29,7 +74,7 @@ nav:
     url:          "/cs/o-projektu/"
   - text:         "BLOG"
     url:          "/cs/blog/"
-  - text:         "EXPLORE"
+  - text:         "PROZKOUMAT"
     links:
       - text:     "PROFILY UŽIVATELŮ"
         url:      "http://www.missingmaps.org/users/"
@@ -43,8 +88,8 @@ nav:
 #####################
 
 banner:
-  title:          "Mapujeme situaci lidí v nouzi po celém světě"
-  subtitle:       "Různá neštěstí a katastrofy každoročně zabijí téměř 100 000 a postihnou nebo vyženou z domovů okolo 200 milionů lidí po celém světě. Spousta takto postižených míst doslova chybí na mapách. Záchranným složkám, které jsou první na místě, tak scházejí informace při důležitém rozhodování o poskytnutí pomoci. Missing Maps je otevřený, společně vytvářený projekt, ve kterém můžete pomoci zmapovat místa, kde se humanitární organizace snaží uspokojit potřeby lidí v nouzi."
+  title:          "Mapujeme celosvětovou situaci komunit v nouzi."
+  subtitle:       "Různá neštěstí a katastrofy každoročně zabijí téměř 100 000 a postihnou nebo vyženou z domovů okolo 200 milionů lidí po celém světě. Spousta takto postižených míst doslova chybí na dostupných mapách. Záchranným složkám, které jsou první na místě, tak scházejí informace při důležitém rozhodování o poskytnutí pomoci. Missing Maps je otevřený, společně vytvářený projekt, ve kterém můžete pomoci zmapovat místa, kde se humanitární organizace snaží uspokojit potřeby lidí, kterým hrozí katastrofa či nouze."
 
 how_we_work:
   title:        "Jak to funguje"
@@ -77,22 +122,22 @@ how_we_work:
 
 how_to_participate:
   title:        "Jak se zapojit "
-  start:        "Začněte mapovat"
-  start_text:   "Pokud jste nikdy nemapovali, určitě to není překážka – naučit se to nezabere moc času. Navštivte naši sekci pro začátečníky a zjistěte, jak na to. Pokud už umíte editovat v OpenStreetMap, klidně začněte mapovat. "
+  start:        "Začněte mapovat nyní - Krok 1"
+  start_text:   "Pokud jste nikdy předtím nemapovali, určitě to není překážka. Naučit se to nezabere moc času - pouze jedno odpoledne! Navštivte naši sekci pro začátečníci na naší stránce Naučit se mapovat, abyste zjistili, jak na to. Pokud už umíte editovat v OpenStreetMap (OSM), klidně začněte mapovat."
   map_btn:      "ZAČÍT MAPOVAT"
   learn_btn:    "NAUČIT SE MAPOVAT"
   organize:     "Uspořádejte mapathon"
-  organize_text: "Pořádání mapathonů je skvělým způsobem, jak dát dohromady komunitu mapujících lidí, kteří se soustředí na stejné místo na světě. Je to také skvělá příležitost, kde se můžete naučit něco nového a získat zkušenosti od ostatních. Mapathony organizují skupiny i jednotlivci po celém světě."
+  organize_text: "Uspořádání mapathonů je skvělým způsobem, jak dát dohromady komunitu mapujících lidí. Je to skvělé prostředí pro učení, kde se noví mapující mohou učit ze zkušeností ostatních, zatímco přispívají ke společnému cíli. Mapathony jsou organizovány skupinami a jednotlivci po celém světě."
   lead_btn:     "POŘÁDAT MAPATHON"
-  join_btn:     "JOIN A MAPATHON"
-  field-mapping: "Field Mapping"
-  field-mapping_text: "Organize field mapping to add more details to the map!"
-  field-mapping_btn: "FIELD MAPPING"
+  join_btn:     "PŘIPOJIT SE K MAPATHONU"
+  field-mapping: "Zmapujte svou komunitu - Krok 2"
+  field-mapping_text: "Mnoho organizací používá OSM k informování svých programů. OSM je skvělý nástroj pro sběr dat z terénu pro posílení komunit. Pokud máte zájem o vytváření a používání dat z OSM při své práci, tyto návody Vám s tím pomohou."
+  field-mapping_btn: "MAPOVÁNÍ TERÉNU"
   blog: "Blog"
   blog_text: "Blog!"
   blog_btn: "BLOG"
   donate:       "Přispějte, vaše pomoc tak bude ještě větší"
-  donate_text:  "Finanční příspěvek humanitárnímu týmu OpenStreetMap (jeden ze zakladatelů Missing Maps) může pomoci podpořit místní obyvatele v mapování jejich lokalit, vyvíjet takové nástroje a procesy, aby se mohlo zapojit více lidí a rozvinout projekt tak, abychom pomohli ještě více humanitárním organizacím reagovat na krize po celém světě."
+  donate_text:  "Finanční příspěvek <a href=\"https://www.hotosm.org/donate/\">humanitárnímu týmu OpenStreetMap</a> (jeden ze zakladatelů Missing Maps)pomáhá podpořit místní obyvatele v mapování jejich lokalit, vyvíjet takové nástroje a procesy, aby se mohlo zapojit více lidí a rozšířit projekt tak, abychom zprostředkovali  ještě více pracovníkům a humanitárním organizacím po celém světě mapy a data, které jim umožní rychle a účelně reagovat."
   donate_btn:   "PŘISPĚT"
 
 contributions:
@@ -121,15 +166,15 @@ contact:
 ##############
 beginner:
   title:        "Naučte se mapovat"
-  how_text:     "Pokud je pro vás mapování nové, doporučujeme podívat se na videa v sekci „ZAČÁTEČNÍCI“, která vás nastartují. Pokud již máte s mapováním zkušenosti, klikněte na odkaz „ZAČÍT MAPOVAT“, nebo se naučte validovat. K dispozici jsou také další výukové programy prostřednictvím průvodce „LearnOSM“. "
+  how_text:     "Pokud je pro vás mapování nové, doporučujeme podívat se na videa v sekci „ZAČÁTEČNÍCI“ než se do toho pustíte Pro celý mapovací úvod a další videa, klikněte na YouTube odkaz. Pokud již máte s mapováním zkušenosti, zvažte zda se nenaučit validovat. K dispozici jsou také další výukové programy prostřednictvím průvodce „LearnOSM“."
   map_btn:      "ZAČÍT MAPOVAT"
   validate:     "VALIDACE"
   learn_osm:    "PRŮVODCE"
   youtube:      "YOUTUBE"
   beginners:    "ZAČÁTEČNÍCI"
-  advanced:     "Advanced Mapping"
-  field:        "Field Mapping"
-  stepAccount:        "Vytvořte si účet na Open Street Map"
+  advanced:     "Pokročilé mapování"
+  field:        "Mapování terénu"
+  stepAccount:        "Vytvořte si účet na Open Street Map a na HOT Tasking Manageru"
   stepAccount_text:   "Přejděte na webové stránky <a href=\"https://www.openstreetmap.org/login\">OpenStreetMap</a> a zaregistrováním si vytvořte účet. Klikněte na odkaz, který vám příjde do vaší emailové schránky, čímž dokončíte registraci a potvrdíte svůj účet."
   stepBuildings:        "Naučte se mapovat budovy"
   stepBuildings_text:   "Budovy jsou jedním z nejužitečnějších objektů, které můžete přidat do OpenStreetMap (a je s nimi i zábava!) Naučte se, jak přidávat a upravovat budovy v OSM přes iD editor."
