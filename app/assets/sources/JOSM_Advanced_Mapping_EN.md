@@ -235,7 +235,5 @@ Based on the interpolation method chosen in the dialog box, the plugin will fill
 If you do not like the results, press `Ctrl+Z` to undo and try the plugin again. Ensure that the new polygons are tagged appropriately (e.g.`address=house`).
 
 ## Other Resources
-- Imagery offsets (HOT webinar)
-- [JOSM Conflict Resolution](https://learnosm.org/en/josm/josm-conflict-resolution/) (LearnOSM)
-- Filters (HOT webinar)
-- [JOSM Relations](https://learnosm.org/en/josm/josm-relations/) (LearnOSM)
+- [JOSM Conflict Resolution](https://learnosm.org/en/josm/josm-conflict-resolution/)
+- [JOSM Relations](https://learnosm.org/en/josm/josm-relations/)
