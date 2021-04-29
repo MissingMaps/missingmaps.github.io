@@ -20,7 +20,7 @@ img-alt:
   Checklist: "Obrázek checklistu (seznamu úkolů) na tabuli se čtyřmi úkoly. Dva z nich jsou již odškrtnuté. Na obrázku je také prodlužovačka, tužka a ikona Twitteru."
   Checklist-2: "Obrázek checklistu (seznamu úkolů) se čtyřmi úkoly. Tři z nich jsou již odškrtnuté. Na obrázku je také tužka."
   Checklist-3: "A cartoon clipboard with the missing maps logo at the top and a download symbol."
-  LeaderboardGraphic: ""Dva grafy: jeden modrý a druhý zelený. Neobsahují žádná data."
+  LeaderboardGraphic: "Dva grafy: jeden modrý a druhý zelený. Neobsahují žádná data."
   Learn-MapNow: "Kreslený počítač s logem OSM. Logo OSM je lupa nad mapou."
   Learn-Tutorials: "Kreslený počítač s logem LearnOSM. Logo LearnOSM je lupa nad zelenou obdélníkovou mapou."
   Learn-YouTube: "Kreslený počítač s logem YouTube. Logo YouTube je červený čtverec s bílým trojúhelníkovým symbolem pro přehrání."
@@ -40,7 +40,7 @@ img-alt:
   mapathon4: "Tři muži zkoumají mapu na zdi. Jeden ukazuje perem."
   mapathon5: "Muž v košili vede dobrovolnické setkání. Lidé sledují projekci za ním."
   mapathon6: "Lidé se shromažďují v krytém otevřeném prostoru, poslouchají a sledují ženu v triku s Červeným křížem. Žena má telefon, se kterým nahrává informace."
-  process: "Paprsky žlutého satelitu vysílají dolů na Zem. Nalevo, pod nápisem 'Krok 1: Vzdálení dobrovolníci trasují satelitní snímky do OpenStreetMap',  sedí u stolu s počítači dvě modré postavy. " Pod paprsky jsou na zemském povrchu tři kulaté chýše s textem nad sebou. Text uvádí 'Krok 2: Místní dobrovolníci přidávají detaily jako čtvrti, názvy ulic a evakuační centra.' Napravo skupina tří červených postav. Prostřední z nich má znak červeného kříže na hrudi. Text nad nimi říká ' Krok 3: Humanitární organizace využívají zmapované informace k plánování snižování rizik a odpovídající reakce na katastrofu, které zachraňují životy.'"
+  process: "Paprsky žlutého satelitu vysílají dolů na Zem. Nalevo, pod nápisem 'Krok 1: Vzdálení dobrovolníci trasují satelitní snímky do OpenStreetMap',  sedí u stolu s počítači dvě modré postavy. Pod paprsky jsou na zemském povrchu tři kulaté chýše s textem nad sebou. Text uvádí 'Krok 2: Místní dobrovolníci přidávají detaily jako čtvrti, názvy ulic a evakuační centra.' Napravo skupina tří červených postav. Prostřední z nich má znak červeného kříže na hrudi. Text nad nimi říká ' Krok 3: Humanitární organizace využívají zmapované informace k plánování snižování rizik a odpovídající reakce na katastrofu, které zachraňují životy.'"
   validate: "Close up of a desk, five computers are open to mapping. We see a map of the world and a printout of mapping instructions. A hand is on the keypad of the computer."
 
 ####################
@@ -201,7 +201,7 @@ field:
   volunteers-header: "OSM je vybudován dobrovolníky..."
   volunteers-description: "OpenStreetMap je vytvářen dobrovolníky, kteří se o místa zajímají. Narozdíl od mnoha mapovacích platform, zisk není hnacím faktorem pro vytváření dat. Všichni jednotlivci mají jedinečnou perspektivu na naše okolí a to je kdy projekt OSM ožívá, kdy je přidána barva komunity. Mapa bude pouze tak dobrá, jako je hloubka a šířka konzulutujících hlasů za jejím naplněním. Místní znalost je základem pro vytváření obsáhlého a udržitelného zdroje od vaší komunity a pro ni. Zapojení širší komunity a zajištění jejich zapojení do vašeho projektu je klíčové."
   before-header: "Než začnete mapovat..."
-  before-description: "Než začnete mapovat, je důležité zhodnotit věci jako je zapojení komunity, bezpečnost, využití nástrojů a dlouhodobá údržba dat. Víme, že už se nemůžete dočkat, až se do toho "ponoříte", ale zvažte nejprve"
+  before-description: "Než začnete mapovat, je důležité zhodnotit věci jako je zapojení komunity, bezpečnost, využití nástrojů a dlouhodobá údržba dat. Víme, že už se nemůžete dočkat, až se do toho \"ponoříte\", ale zvažte nejprve"
   privacy-header: "Soukromí:"
   privacy-about: "Měla by být tato oblast mapována veřejně? Navzdory vašim dobrým záměrům je důležité zvážit, zda a jak lze použít prostorové informace proti komunitě, kterou byste chtěli zmapovat. Mnoho komunit po celém světě je zvyklých mít podrobné veřejné mapy svých oblastí. Dokonce i zveřejnění minimálních informací může být pro některé komunity nebezpečné. Některým komunitám může vyhovovat zveřejňování některých informací, ale ne všech. Ačkoli nikdy nedosáhnete úplné shody všech členů komunity, je důležité toto zvážit ve všech fázích vaší práce."
   physicalsafety-header: "Fyzická bezpečnost:"
@@ -240,7 +240,7 @@ field:
   processing-about: "Zpracování: Takže teď, když už jste sesbírali data o komunitě, budete potřebovat zadat tyto informace do OpenStreetMap. V závislosti na tom, jak jste data sesbírali, existuje několik způsobů, jak to provést:"
   processing-list:
     - label: "Přímé editory (Maps.Me; OSMAnd…)"
-    - label: "Urovnávnání mapových zápisků (poznámka=*) - někteří mapeři používají OSM editační aplikace k přidání zeměpisně označených zápisků do OSM, aby se na ně mohli později odkázat. Pokud jste to tak udělali, nezapoměňte projít své zápisky a udělejte žádoucí změny do map. Můžete snadno zobrazit všechny zápisky oblasti tím, že zapnete "Map Notes" překrytí v nastavení mapových vrstev v OpenStreetMap."
+    - label: "Urovnávnání mapových zápisků (poznámka=*) - někteří mapeři používají OSM editační aplikace k přidání zeměpisně označených zápisků do OSM, aby se na ně mohli později odkázat. Pokud jste to tak udělali, nezapoměňte projít své zápisky a udělejte žádoucí změny do map. Můžete snadno zobrazit všechny zápisky oblasti tím, že zapnete \"Map Notes\" překrytí v nastavení mapových vrstev v OpenStreetMap."
     - label: "Nahrávání Field Papers - po vytvoření zápisků na Field Papers, můžete nahrát obrázek na FieldPapers.org za účelem snadného včlenění zápisků pro digitalizaci v JOSM."
     - label: "GPS trasy, body a zápisky"
     - label: "Zpracování fotek, značek, funkcí atd."
@@ -254,14 +254,14 @@ mapswipe:
   title:    "MapSwipe"
   intro1:   "Se svým mobilním telefonem se můžete podílet na pomoci komunitám po celém světě."
   intro2:   "Po celém světě jsou miliony lidí zasaženi katastrofami, nemocemi a konflikty. Záchranné složky pracující s těmito komunitami často musí pokrýt velké oblasti, ale chybí jim potřebná data pro účinnou a efektivní reakci. Skrz MapSwipe dobrovolníci přesně určují, kde se nachází nezbytná unfrastruktura a populace, což umožňuje maperům soustředit se pouze na oblasti, kde vědí, že je potřeba zmapovat objekty."
-  intro3:   "MapSwipe je mobilní aplikace, ve které může kdokoliv editovat a která dělá mapování na celém světě více koordinované a efektivní. Dobrovolníci "svajpují"-přetahují prstem satelitní fotky a vyhledávají objekty (např. budovy, silnice, vodní cesty atd.) a ťuknou na obrazovku, když je lokalizují. Každý set fotek je zobrazen minimálně třemi různými osobami, aby byl vytvořen mechanismus vnitřní validace výsledků. Věříme, že kdokoliv a kdekoliv by měl být schopen přispívat do projektu Missing Maps."
+  intro3:   "MapSwipe je mobilní aplikace, ve které může kdokoliv editovat a která dělá mapování na celém světě více koordinované a efektivní. Dobrovolníci \"svajpují\"-přetahují prstem satelitní fotky a vyhledávají objekty (např. budovy, silnice, vodní cesty atd.) a ťuknou na obrazovku, když je lokalizují. Každý set fotek je zobrazen minimálně třemi různými osobami, aby byl vytvořen mechanismus vnitřní validace výsledků. Věříme, že kdokoliv a kdekoliv by měl být schopen přispívat do projektu Missing Maps."
   before: "Toto by byla moc velká oblast na zmapování."
   after: "Toto je výsledek z MapSwipe. Mnohem lepší."
   how-section:  "Jak používat MapSwipe"
   how-intro: "MapSwipe je velmi intuitivní. Mapeři postupují podle těchto kroků:"
   how-list:
     - label: "Vyberte si svou 'misi'. U každé mise je označeno, co má být zaznamenáno (např. budovy a silnice)."
-    - label: ""Přejeďte po displeji doleva pro zobrazení další dlaždice."
+    - label: "Přejeďte po displeji doleva pro zobrazení další dlaždice."
     - label: "Klikněte na čtverec jednou pro označení prvku. Čtverec se označí zeleně."
     - label: "Klikněte dvakrát, pokud si nejste jisti, ale myslíte si, že se tam nachází nějaký prvek. Čtverec se označí oranžově."
     - label: "Klikněte třikrát pro označení špatného / chybějícího snímku nebo překrytí mraky. Čtverec se označí červeně."
@@ -282,14 +282,14 @@ events:
 about:
   title:        "O Missing Maps"
   who_we_are:
-      title:  "Kdo jsme"
-      text1:   "Missing Maps je projekt vedený skupinou organizací, které se společně snaží vytvořit dostupná mapová data v místech, kde operují humanitární organizace. Každá členská organizace provádí vlastní mapovací aktivity se svými širšími komunitami na základě sdílených pravidel. Missing Maps by nebylo nic bez této spolupráce organizací, komunit a jednotlivců. Pro dosažení tohoto cíle si organizace Missing Maps buduje globální komunitu mapujících, aby mohli podporovat ty, kteří žijí v ohrožených místech. OpenStreetMapa je otevřená mapovací platforma založená na principu dobrovolnictví, která toto vše umožňuje, a která je podporována neziskovou organizací OpenStreetMap Foundation. Vítejte v komunitě!"
+    title:  "Kdo jsme"
+    text1:   "Missing Maps je projekt vedený skupinou organizací, které se společně snaží vytvořit dostupná mapová data v místech, kde operují humanitární organizace. Každá členská organizace provádí vlastní mapovací aktivity se svými širšími komunitami na základě sdílených pravidel. Missing Maps by nebylo nic bez této spolupráce organizací, komunit a jednotlivců. Pro dosažení tohoto cíle si organizace Missing Maps buduje globální komunitu mapujících, aby mohli podporovat ty, kteří žijí v ohrožených místech. OpenStreetMapa je otevřená mapovací platforma založená na principu dobrovolnictví, která toto vše umožňuje, a která je podporována neziskovou organizací OpenStreetMap Foundation. Vítejte v komunitě!"
   objectives:
     title:      "Cíle"
     people: 
       title: "Lidé"
       text1: "Lidé jsou vždy důležitější než data. Všechny aktivity Missing Maps plně respektují nejlepší zájmy a potřeby komunity a jednotlivcům, před přidáním dat do OSM."
-      text2: ""Všechny aktivity projektu Missing Maps jsou řízeny podle humanitárních principů humanity, neutrality, nestrannosti a nezávislosti. Následujeme <a href=\"https://www.hotosm.org/code-of-conduct\" >HOT kód řízení</a>."
+      text2: "Všechny aktivity projektu Missing Maps jsou řízeny podle humanitárních principů humanity, neutrality, nestrannosti a nezávislosti. Následujeme <a href=\"https://www.hotosm.org/code-of-conduct\" >HOT kód řízení</a>."
     open:
       title: "Otevřené"
       text1: "Otevřené pod <a href =\"https://opendatacommons.org/licenses/odbl/\">ODbL licencí</a>: Při respektování pokynů a zkušeností OpenStreetMap Foundation (OSMF) a OSM, členské organizace projektu Missing Maps zajišťují, že všechna data, která nejsou příliš senzitivní, budou k dispozici zdarma dostupné pro použití."
@@ -486,12 +486,12 @@ blog:
 ## OSM STATS ##
 #####################
 countrystats:
-    title: "OSM Statistiky"
+  title: "OSM Statistiky"
 
 #####################
 ## 404 ##
 #####################
 lost:
-    title: "Stránka nenalezena."
-    message: "To je nepříjemné. Zdá se, že jste někde, kde jsme to ještě nezmapovali."
-    link: "Pomozte nám zmapovat svět."
+  title: "Stránka nenalezena."
+  message: "To je nepříjemné. Zdá se, že jste někde, kde jsme to ještě nezmapovali."
+  link: "Pomozte nám zmapovat svět."
