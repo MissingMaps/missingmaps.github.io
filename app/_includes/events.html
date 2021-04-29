@@ -11,7 +11,7 @@ document.querySelector("header").style.display = 'inline-block';
 		<p style="margin-bottom:20px;">
 			<a class="btn btn-blue arw" href="https://forms.gle/Y9YogcXtrdTBxWjh6">
 				{{site.data[locale].events.register_event}}
-				<img src="{{ site.baseurl }}/assets/graphics/meta/Arrow.svg" alt="" />
+				<img src="{{ site.baseurl }}/assets/graphics/meta/Arrow.svg" alt="{{site.data[locale].img-alt.Arrow}}" />
 			</a>
 		</p>
 	</div>
@@ -33,9 +33,10 @@ var locationKey = "Where will your mapping party be held?"
 var placeUrlKey = "Please insert a link to your venue on openstreetmap.org"
 var signupKey = "Please insert a link where people can sign up"
 var dateKey = "What date is your event taking place? (as YYYY-MM-DD)"
-var startKey = "What time does your event start?"
+var startKey = "What time does your event start? "
 var endKey = "What time does your event end?"
 var countryKey = "Country?"
+var eventTypeKey = "What will the event that you are hosting include? Check all that apply:"
 
 var today = luxon.DateTime.local().startOf('day');
 var siteBaseUrl = "{{ site.baseurl }}";	
@@ -66,7 +67,12 @@ function buildEvents(data){
 			var countryIso = d[countryKey].substring(d[countryKey].indexOf("[")+1,d[countryKey].indexOf("]")).toLowerCase();
 			var signupHtml = (!!d[signupKey]) ? '<a class="btn btn-grn" href="' + d[signupKey] + '" target="">' + "{{site.data[locale].events.sign_up}}" + '</a>' : "";			
 			var placeHtml = (!!d[placeUrlKey])	? '<a href="' + d[placeUrlKey] + '"><b>' + d[locationKey] + '</b></a>' : '<b>' + d[locationKey] + '</b>';
-			
+			var eventType = d[eventTypeKey].replace(" (buildings in iD Editor)","")
+																		 .replace(" (roads, waterways, JOSM)","")
+																		 .replace(" (review tasks as a group)","")
+																		 .replace(" (map-walks, map-drives, map-cycling map-dogsledding in your own community)","")
+																		 .replace(" (tool share)","")
+
 			var eventHtml = '<div class="event-sub-container">' +
 					'<div class="event-top-section clearfix">' +
 						'<div class="sub-head">' +
@@ -87,7 +93,10 @@ function buildEvents(data){
 								'<p>' +
 									placeHtml +
 								'</p>' +
-								'<p class="event-details">' + luxon.DateTime.fromISO(d[dateKey]).setLocale("{{locale}}").toLocaleString({ weekday: 'long'}) + ", " + d[startKey] + " - " + d[endKey]  + '</p>' +
+								'<p class="event-details">' + luxon.DateTime.fromISO(d[dateKey]).setLocale("{{locale}}").toLocaleString({ weekday: 'long'}) + ", " + d[startKey].replace(":00 ","") + " - " + d[endKey].replace(":00 ","")  + ' UTC</p>' +
+								'<p class="event-details">' +
+									eventType +
+								'</p>' +
 							'</div>' +
 						'</div>' +
 					'</div>' +

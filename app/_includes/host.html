@@ -3,7 +3,7 @@
 </script>
 
 <div id="site-canvas">
-  <div class="header-image header-hosting">
+  <div class="header-image header-host">
     <div class="dark-overlay center-text">
       <h1 class="title feature-header">{{site.data[locale].host.title}}</h1>
     </div>
@@ -17,25 +17,25 @@
     </div>
 
     <div class="videobox large-6 small-12 columns">
-      <iframe width="100%" height="300px" src="https://www.youtube.com/embed/pAcsCmvG2hs" frameborder="0" allowfullscreen=""></iframe>
+      <iframe width="100%" height="300px" src="https://www.youtube-nocookie.com/embed/pAcsCmvG2hs" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <div class="sub-head" style="text-align: center">{{site.data[locale].host.what_is}}</div>
     </div>
     <div class="videobox large-6 small-12 columns">
-      <iframe width="100%" height="300px" src="https://www.youtube.com/embed/njxePdKn1pI" frameborder="0" allowfullscreen=""></iframe>
+      <iframe width="100%" height="300px" src="https://www.youtube-nocookie.com/embed/njxePdKn1pI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <div class="sub-head" style="text-align: center">{{site.data[locale].host.how_host}}</div>
     </div>
     <div class="host-button-box">
       <a href="{{ site.baseurl }}{{site.data[locale].host.url}}#Preparation" class="btn btn-blue">{{site.data[locale].host.prep_btn}}</a>
       <a href="{{ site.baseurl }}{{site.data[locale].host.url}}#EventDay" class="btn btn-blue">{{site.data[locale].host.check_btn}}</a>
       <a href="{{ site.baseurl }}{{site.data[locale].host.url}}#Materials" class="btn btn-blue">{{site.data[locale].host.materials_btn}}</a>
-      <a href="https://forms.gle/Y9YogcXtrdTBxWjh6" class="btn btn-grn arw">{{site.data[locale].host.register_event}}   <img src="{{ site.baseurl }}/assets/graphics/meta/Arrow.svg" alt="" /></a>
+      <a href="https://forms.gle/Y9YogcXtrdTBxWjh6" class="btn btn-grn arw">{{site.data[locale].host.register_event}}   <img src="{{ site.baseurl }}/assets/graphics/meta/Arrow.svg" alt="{{site.data[locale].img-alt.Arrow}}" /></a>
     </div>
 
     <div id="Preparation">
       <div class="host-image">
-        <img src="{{ site.baseurl }}/assets/graphics/content/process/Checklist.svg" width="150" alt="Cartoon of a checklist on a clipboard with four items. Two are checked off.  There is also a power strip and pencil and the twitter icon bird.">
+        <img src="{{ site.baseurl }}/assets/graphics/content/process/Checklist.svg" width="150" alt="{{site.data[locale].img-alt.Checklist}}">
         <div class="sub-head">{{site.data[locale].host.prep_check}}</div>
-        <p>{{site.data[locale].host.see_materials}} <a href="{{site.data[locale].host.url}}#Materials">{{site.data[locale].host.materials}}</a>.</p>
+        <p>{{site.data[locale].host.see_materials}} <a href="{{site.data[locale].host.url}}#Materials">{{site.data[locale].host.materials_title}}</a>.</p>
       </div>
       <div class="about-textbox">
         <div class="row">
@@ -51,9 +51,9 @@
     </div>
     <div id="EventDay">
       <div class="host-image">
-        <img src="{{ site.baseurl }}/assets/graphics/content/process/Checklist-2.svg" width="150" alt="A cartoon checklist with four items. Three are checked off.  There is also a pencil.">
+        <img src="{{ site.baseurl }}/assets/graphics/content/process/Checklist-2.svg" width="150" alt="{{site.data[locale].img-alt.Checklist-2}}">
         <div class="sub-head">{{site.data[locale].host.event_check}}</div>
-        <p>{{site.data[locale].host.see_materials}} <a href="{{site.data[locale].host.url}}#Materials">{{site.data[locale].host.materials}}</a>.</p>
+        <p>{{site.data[locale].host.see_materials}} <a href="{{site.data[locale].host.url}}#Materials">{{site.data[locale].host.materials_title}}</a>.</p>
       </div>
       <div class="about-textbox">
         <div class="row">
@@ -69,15 +69,13 @@
     </div>
     <div id="Materials">
       <div class="host-image">
-        <img src="{{ site.baseurl }}/assets/graphics/content/process/Checklist-3.svg" width="150" alt="A cartoon clipboard with the missing maps logo at the top and a download symbol.">
-        <div class="sub-head">{{site.data[locale].host.materials}}</div>
+        <img src="{{ site.baseurl }}/assets/graphics/content/process/Checklist-3.svg" width="150" alt="{{site.data[locale].img-alt.Checklist-3}}">
+        <div class="sub-head">{{site.data[locale].host.materials.title}}</div>
       </div>
       <div class="host-materials">
-        <ul>
-          {% for item in site.data[locale].host.materials_list %}
-          <li><a href="{{ site.baseurl }}/assets/downloads/{{item.asset}}">{{item.text}}</a></li>
-          {% endfor %}
-        </ul>
+        <div class="text-center">
+            <p><a href="{{site.data[locale].host.materials.url}}">{{site.data[locale].host.materials.text}}</a></p>
+        </div>
       </div>
     </div>
     <div id="helper-map">

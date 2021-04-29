@@ -111,13 +111,25 @@ function validationPdf(cb) {
   markdownpdf({
         cssPath: 'app/assets/styles/github-markdown.css',
         paperFormat: 'Letter'})
-    .from('app/assets/sources/MissingMaps_validation_josm_en.md')
-    .to(".tmp/assets/downloads/MissingMaps_validation_josm_en.pdf", function () { 
-      console.log("Done converting MissingMaps_validation_josm_en.md to PDF.")
+    .from('app/assets/sources/JOSM_Advanced_Mapping_EN.md')
+    .to(".tmp/assets/downloads/JOSM_Advanced_Mapping_EN.pdf", function () { 
+      console.log("Done converting JOSM_Advanced_Mapping_EN.md to PDF.")
       cb();
     }) 
 }
 exports.validationPdf = validationPdf;
+
+function josmPdf(cb) {
+  markdownpdf({
+        cssPath: 'app/assets/styles/github-markdown.css',
+        paperFormat: 'Letter'})
+    .from('app/assets/sources/Validating_Data_EN.md')
+    .to(".tmp/assets/downloads/Validating_Data_EN.pdf", function () { 
+      console.log("Done converting Validating_Data_EN.md to PDF.")
+      cb();
+    }) 
+}
+exports.josmPdf = josmPdf;
 
 
 function cloneBlog(cb) {
@@ -136,6 +148,7 @@ function jekyll(done) {
   switch (environment) {
     case 'development':
       args.push('--config=_config.yml,_config-dev.yml');
+      args.push('--trace');
     break;
     case 'production':
       args.push('--config=_config.yml');
@@ -165,7 +178,7 @@ exports.serve = gulp.series(
   clean,
   gulp.parallel(cloneBlog, grabEvents, grabEventHelpers),
   jekyll, 
-  gulp.parallel(javascripts, styles, icons, zipMaterials, validationPdf), 
+  gulp.parallel(javascripts, styles, icons, zipMaterials, validationPdf, josmPdf), 
   copyAssets, 
   watching);
 
@@ -176,7 +189,7 @@ exports.prod = gulp.series(
   gulp.parallel(cloneBlog, grabEvents, grabEventHelpers), 
   setProd, 
   jekyll, 
-  gulp.parallel(javascripts, styles, icons, zipMaterials, validationPdf), 
+  gulp.parallel(javascripts, styles, icons, zipMaterials, validationPdf, josmPdf), 
   copyAssets);
 
 

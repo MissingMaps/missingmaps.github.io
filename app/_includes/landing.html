@@ -10,16 +10,15 @@
 <div class="welcome-container">
   <div class="center-text">
     <div class="">
-      <img src="/assets/graphics/layout/Intro.svg" width="500px" />
+      <img src="/assets/graphics/layout/Intro.svg" width="500px" alt="{{site.data[locale].img-alt.Intro}}"/>
     </div>
     <div class="section-headerwelcome">
       <div class="titlewhite">
-        <p>{{site.data[locale].banner.title}}</p>
+        <h1>{{site.data[locale].banner.title}}</h1>
       </div>
       <div class="sub-head">
-        <p>{{site.data[locale].banner.subtitle}}</p>
+        <p class="custom-gray">{{site.data[locale].banner.subtitle}}</p>
       </div>
-      <div class="btn btn-blue"><a href="{{ site.baseurl }}/{% if locale != site.default_locale %}{{ locale }}{% endif %}#contribute">{{site.data[locale].banner.get_involved}}</a></div>
     </div>
   </div>
 </div>
@@ -49,15 +48,15 @@
   <div class="row">
     <div class="large-4 columns actions-img">
       <div class="contribute-image">
-        <img class="image-action" src="{{ site.baseurl }}/assets/graphics/content/process/MapNow.svg" width="280" alt="A cartoon laptop is displayed. An image on the screen shows two cartoon characters with lifesize map components. A man is placing a boundary around a structure, while the woman is running towards the man with a PointOfInterest (POI) icon." />
+        <img class="image-action" src="{{ site.baseurl }}/assets/graphics/content/process/MapNow.svg" width="280" alt="{{site.data[locale].img-alt.MapNow}}" />
       </div>
     </div>
     <div class="large-8 columns">
       <div class="contribute-base">
         <div class="sub-head">{{site.data[locale].how_to_participate.start}}</div>
         <div class="textbox"> {{site.data[locale].how_to_participate.start_text}}</div>
-        <div class="btn btn-grn"><a href="http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps">{{site.data[locale].how_to_participate.map_btn}}</a></div>
         <div class="btn btn-grn"><a href="{{ site.baseurl }}{{site.data[locale].nav[0].links[0].url}}">{{site.data[locale].how_to_participate.learn_btn}}</a></div>
+        <div class="btn btn-grn"><a href="http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps">{{site.data[locale].how_to_participate.map_btn}}</a></div>
       </div>
     </div>
   </div>
@@ -67,15 +66,17 @@
   <div class="row">
     <div class="large-4 large-push-8 columns actions-img">
       <div class="contribute-image">
-        <img src="{{ site.baseurl }}/assets/graphics/content/process/Mapathon.svg" width="250" alt="A diverse group of five cartoon characters are at a mapathon. Four are at computers, while one is supervizing and eating pizza.">
+        <img src="{{ site.baseurl }}/assets/graphics/content/process/Mapathon.svg" width="250" alt="{{site.data[locale].img-alt.Mapthon}}">
       </div>
     </div>
     <div class="large-8 large-push-4 columns">
       <div class="contribute-base">
         <div class="sub-head">{{site.data[locale].how_to_participate.organize}}</div>
         <div class="contribute-box textbox">{{site.data[locale].how_to_participate.organize_text}}</div>
-        <p><a href="{{ site.baseurl }}{{site.data[locale].nav[1].links[1].url}}" class="btn btn-grn">{{site.data[locale].how_to_participate.lead_btn}}</a>
-          <a href="http://communicatoremail.com/F/QTwz9iBiyP0vavUEMRJ6SQ/" class="btn btn-grn">{{site.data[locale].how_to_participate.join_btn}}</a></p>
+        <p>
+          <a href="{{ site.baseurl }}{{site.data[locale].nav[1].links[1].url}}" class="btn btn-grn">{{site.data[locale].how_to_participate.lead_btn}}</a>
+          <a href="{{ site.baseurl }}{{site.data[locale].nav[1].links[0].url}}" class="btn btn-grn">{{site.data[locale].how_to_participate.join_btn}}</a>
+        </p>
       </div>
     </div>
   </div>
@@ -84,17 +85,55 @@
 <div class="action-container">
   <div class="row">
     <div class="large-4 columns actions-img">
-      <div clas="contribute-image">
-        <p>
-          <img src="{{ site.baseurl }}/assets/graphics/content/process/Donate.svg" width="300" alt="A cartoon man and cartoon woman shake hands and smile.">
-        </p>
+      <div class="contribute-image">
+        <img src="{{ site.baseurl }}/assets/graphics/content/process/wright-stuff.svg" width="250" alt="{{site.data[locale].img-alt.wright-stuff}}">
       </div>
     </div>
     <div class="large-8 columns">
       <div class="contribute-base">
+        <div class="sub-head">{{site.data[locale].how_to_participate.field-mapping}}</div>
+        <div class="contribute-box textbox">{{site.data[locale].how_to_participate.field-mapping_text}}</div>
+        <p>
+          <a href="{{ site.baseurl }}{{site.data[locale].nav[0].links[2].url}}" class="btn btn-grn">{{site.data[locale].how_to_participate.field-mapping_btn}}</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="action-container">
+  <div class="row">
+    <div class="large-4  large-push-8  columns actions-img">
+      <div clas="contribute-image">
+        <p>
+          <img src="{{ site.baseurl }}/assets/graphics/content/process/Donate.svg" width="300" alt="{{site.data[locale].img-alt.Donate}}">
+        </p>
+      </div>
+    </div>
+    <div class="large-8 large-push-4 columns">
+      <div class="contribute-base">
         <div class="sub-head">{{site.data[locale].how_to_participate.donate}}</div>
         <div class="contribute-box textbox">{{site.data[locale].how_to_participate.donate_text}}</div>
-        <p><a href="https://www.hotosm.org/donate" class="btn btn-grn arw">{{site.data[locale].how_to_participate.donate_btn}} <img src="{{ site.baseurl }}/assets/graphics/meta/Arrow.svg" /></a></p>
+        <p><a href="https://www.hotosm.org/donate" class="btn btn-grn arw">{{site.data[locale].how_to_participate.donate_btn}} <img src="{{ site.baseurl }}/assets/graphics/meta/Arrow.svg" alt="{{site.data[locale].img-alt.Arrow}}"/></a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="action-container">
+  <div class="row">
+    <div class="large-4 columns actions-img">
+      <div class="contribute-image">
+        <img src="{{ site.baseurl }}/assets/graphics/content/process/blog.svg" width="250" alt="{{site.data[locale].img-alt.blog}}">
+      </div>
+    </div>
+    <div class="large-8 columns">
+      <div class="contribute-base">
+        <div class="sub-head">{{site.data[locale].how_to_participate.blog}}</div>
+        <div class="contribute-box textbox">{{site.data[locale].how_to_participate.blog_text}}</div>
+        <p>
+          <a href="{{ site.baseurl }}{{site.data[locale].nav[0].links[2].url}}" class="btn btn-grn">{{site.data[locale].how_to_participate.blog_btn}}</a>
+        </p>
       </div>
     </div>
   </div>
@@ -109,46 +148,50 @@
       <div class="title section-header">{{site.data[locale].contributions.title}}</div>
     </div>
     <div class="row">
+      <img src="../assets/graphics/content/missing_maps_projects_small.gif" width="500px">
+    </div>
+    <br>
+    <div class="row">
       <div class="Discover-Stats">
-        <div class="sub-head Discover-Title">
+        <div class="sub-head Discover-Title custom-gray">
           {{site.data[locale].contributions.subtitle}}
         </div>
         <div class="Discover-Split">
           <div class="Stat-Item">
-            <img src="../assets/graphics/staticons/Changeset.svg" width="70px" />
+            <img src="../assets/graphics/staticons/Changeset.svg" width="70px" alt="{{site.data[locale].img-alt.Changeset}}" />
             <div class="emphasizedNumber" id="stats-usersCount">
               0
             </div>
-            <div class="title">
+            <div class="title custom-gray">
               {{site.data[locale].contributions.total}}
             </div>
           </div>
           <div class="Stat-Item">
-            <img src="../assets/graphics/staticons/Edit.svg" width="70px" />
+            <img src="../assets/graphics/staticons/Edit.svg" width="70px" alt="{{site.data[locale].img-alt.Edit}}" />
             <div class="emphasizedNumber" id="stats-editsCount">
               0
             </div>
-            <div class="title">
+            <div class="title custom-gray">
               {{site.data[locale].contributions.edits}}
             </div>
           </div>
         </div>
         <div class="Discover-Split">
           <div class="Stat-Item">
-            <img src="../assets/graphics/staticons/Building.svg" width="70px" />
+            <img src="../assets/graphics/staticons/Building.svg" width="70px" alt="{{site.data[locale].img-alt.Building}}" />
             <div class="emphasizedNumber" id="stats-buildingsCount">
               0
             </div>
-            <div class="title">
+            <div class="title custom-gray">
               {{site.data[locale].contributions.buildings}}
             </div>
           </div>
           <div class="Stat-Item">
-            <img src="../assets/graphics/staticons/Road.svg" width="70px" />
+            <img src="../assets/graphics/staticons/Road.svg" width="70px" alt="{{site.data[locale].img-alt.Road}}" />
             <div class="emphasizedNumber" id="stats-roadsCount">
               0
             </div>
-            <div class="title">
+            <div class="title custom-gray">
               {{site.data[locale].contributions.roads}}
             </div>
           </div>
@@ -163,7 +206,7 @@
     {{site.data[locale].discover.subtitle}}
   </div>
   <div class="osmanalytic-item-container medium-6 columns">
-    <img src="../assets/graphics/content/process/ProfileGraphic.svg" width="200px" />
+    <img src="../assets/graphics/content/process/ProfileGraphic.svg" width="200px" alt="{{site.data[locale].img-alt.ProfileGraphic}}" />
     <div class="title">{{site.data[locale].discover.profiles}}</div>
     <div class="textbox">
       <p style="text-align: center">{{site.data[locale].discover.profile_text}}</p>
@@ -171,7 +214,7 @@
     <div class="btn btn-blue"><a href="http://www.missingmaps.org/users/">{{site.data[locale].discover.profile_btn}}</a></div>
   </div>
   <div class="osmanalytic-item-container medium-6 columns">
-    <img src="{{ site.baseurl }}/assets/graphics/content/process/LeaderboardGraphic.svg" width="200px" />
+    <img src="{{ site.baseurl }}/assets/graphics/content/process/LeaderboardGraphic.svg" width="200px" alt="{{site.data[locale].img-alt.LeaderboardGraphic}}" />
     <div class="title">{{site.data[locale].discover.projects}}</div>
     <div class="textbox">
       <p style="text-align: center">{{site.data[locale].discover.project_text}}</p>

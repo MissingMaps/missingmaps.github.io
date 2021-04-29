@@ -1,3 +1,48 @@
+##################
+## IMG ALT TEXT ##
+##################
+img-alt:
+  wright-stuff: "..."
+  arrow: "..."
+  blog: "..."
+  Edit: "..."
+  Changeset: "..."
+  Building: "..."
+  Road: "..."
+  MM-White: "..."
+  mapswipe-before: "..."
+  mapswipe-after: "..."
+  mapswipe-squares: "..."
+  mapswipe-footer: "..."
+  MapNow: "A cartoon laptop is displayed. An image on the screen shows two cartoon characters with lifesize map components. A man is placing a boundary around a structure, while the woman is running towards the man with a PointOfInterest (POI) icon."
+  Mapathon: "A diverse group of five cartoon characters are at a mapathon. Four are at computers, while one is supervizing and eating pizza."
+  Donate: "A cartoon man and cartoon woman shake hands and smile."
+  Checklist: "Cartoon of a checklist on a clipboard with four items. Two are checked off.  There is also a power strip and pencil and the twitter icon bird."
+  Checklist-2: "A cartoon checklist with four items. Three are checked off.  There is also a pencil."
+  Checklist-3: "A cartoon clipboard with the missing maps logo at the top and a download symbol."
+  LeaderboardGraphic: "Two charts: one blue and one green. No data is in them."
+  Learn-MapNow: "A cartoon computer, with an OSM logo on it. The OSM logo is a magnifying glass on top of a map"
+  Learn-Tutorials: "A cartoon computer with a LearnOSM logo on it.  The LearnOSM logo is a magnifying glass on top of a green rectanglar map."
+  Learn-YouTube: "A cartoon computer with a YouTube logo on it.  The YouTube logo is a red square with a while triangle play symbol. "
+  MMlogo-Outlined: "The Missing Maps logo is a gray circle with milti-colored rectangles filling in the circle. "
+  Process(outlined-text): "A three piece image.  The first has two cartoon people at computers on a blue background.  There is a slice of pizza. Text says 'How we work: Step 1. Remote volunteers trace satellite imagery into OpenStreetMap.'.  The second had one cartoon person moving between two structures while holding a computer. The background is green. The structure on the left is a building with a peaked roof.  The structure on the right is a building with a round mushroom roof. Text says 'Step 2. Community volunteers add local details such as neighborhoods, street names, and evacuation centers.'.  The third has three cartoon people on an orange background. The middle person has his arms around the people next to him. He has a Red Cross emblem on his shirt. There are two building icons in the background. Text says 'Step three. Humanitarian organizations use mapped information to plan risk reduction and disaster response activities that save lives."
+  Process-PartOne: "Two cartoon people at computers on a blue background.  There is a slice of pizza. Text says 'How we work: Step 1. Remote volunteers trace satellite imagery into OpenStreetMap.'"
+  Process-PartTwo: "One cartoon person moving between two structures while holding a computer. The background is green. The structure on the left is a building with a peaked roof.  The structure on the right is a building with a round mushroom roof. Text says 'Step 2. Community volunteers add local details such as neighborhoods, street names, and evacuation centers.'"
+  Process-PartThree: "Three cartoon people on an orange background. The middle person has his arms around the people next to him. He has a Red Cross emblem on his shirt. There are two building icons in the background. Text says 'Step three. Humanitarian organizations use mapped information to plan risk reduction and disaster response activities that save lives.'"
+  ProfileGraphic: "A cartoon image of a computer screen showing the user profile layout.  The top navigation bar is gray, and there is a mock profile picture of a gray cartoon person with a small Missing Maps logo on their chest."
+  SatelliteOfLove: "A cartoon image of a satellite.  It is orange and open pointing down."
+  Stars: "Image is blank."
+  helper: "A mock profile picture for a gray cartoon person with a small Missing Maps logo on their chest."
+  404: "Man in Red vest with 'Liberian Red Cross' logo points accorss a river."
+  mapathon: "Two women smile while enjoying their volunteering and look at the computer."
+  mapathon2: "Classroom setting with multiple tables. Mappers are at each one with computers and drinks. "
+  mapathon3: "Three men examine map attached to the wall. One points with a pen."
+  mapathon4: "Three people look at a map attached on the wall.  One woman smiles and two men take notes with pens."
+  mapathon5: "Man in button up shirt with a button up shirt leads a volunteer event. People look at a screen display behind him."
+  mapathon6: "People gather in a covered open space and listen and watch a woman with a Red Cross t-shirt on. She has a phone and is recording information."
+  process: "A yellow satellite beams its rays down on the earth. On the left, two blue stick figures sit at a desk with computers under a banner 'Step 1: Remote volunteers trace satellite imagery into OpenStreetMap'. Under the rays, three round huts are on the earth's surface with text above.  Text reads 'Step 2: Community volunteers add local details such as neighborhoods, street names, and evacuation centers'.  On the right, three red stick figures cluster.  The middle person has a red cross emblem on their chest.  Above text reads 'Step 3: Humanitarian organizations use mapped information to plan risk reduction and disaster response activities that save live.' "
+  validate: "Close up of a desk, five computers are open to mapping. We see a map of the world and a printout of mapping instructions. A hand is on the keypad of the computer."
+
 ####################
 ## HEADER CONTENT ##
 ####################
@@ -5,14 +50,18 @@
 home:             ""
 
 nav:
-  - text:         "CONTRIBUTE"
+  - text:         "LEARN"
     links:
-      - text:     "LEARN TO MAP"
-        url:      "/learn/"
-      - text:     "LEARN TO VALIDATE"
+      - text:     "BEGINNER MAPPING"
+        url:      "/beginner/"
+      - text:     "ADVANCED MAPPING"
+        url:      "/advanced/"
+      - text:     "FIELD MAPPING"
+        url:      "/field/"
+      - text:     "VALIDATION"
         url:      "/validate/"
       - text:     "MAPSWIPE"
-        url:      "http://mapswipe.org/"
+        url:      "/mapswipe/"
   - text:         "EVENTS"
     links:
       - text:     "CURRENT EVENTS"
@@ -25,23 +74,23 @@ nav:
     url:          "/about/"
   - text:         "BLOG"
     url:          "/blog/"
-  - text:         "DISCOVER"
+  - text:         "EXPLORE"
     links:
       - text:     "USER PROFILES"
         url:      "http://www.missingmaps.org/users/"
       - text:     "LEADERBOARDS"
         url:      "http://www.missingmaps.org/leaderboards/"
-      - text:     "OSMSTATS"
-        url:      "/osmstats/"
+      - text:     "STATISTICS"
+        url:      "/statistics/"
 
 #####################
 ## LANDING CONTENT ##
 #####################
 
 banner:
-  title:          "Putting the World's Vulnerable People on the Map"
-  subtitle:       "Each year, disasters around the world kill nearly 100,000 and affect or displace 200 million people. Many of the places where these disasters occur are literally 'missing' from any map and first responders lack the information to make valuable decisions regarding relief efforts. Missing Maps is an open, collaborative project in which you can help to map areas where humanitarian organisations are trying to meet the needs of vulnerable people."
-  get_involved:   "GET INVOLVED"
+  title:          "Putting the World's Vulnerable Communities on the Map"
+  subtitle:       "Each year, disasters around the world kill nearly 100,000 and affect or displace 200 million people. Many of the places where these disasters occur are literally 'missing' from open and accessible maps and first responders lack the information to make valuable decisions regarding relief efforts. Missing Maps is an open, collaborative project in which you can help to map areas where humanitarian organisations are trying to meet the needs of people who live at risk of disasters and crises."
+
 
 how_we_work:
   title:        "How we work"
@@ -74,16 +123,22 @@ how_we_work:
 
 how_to_participate:
   title:        "How to participate"
-  start:        "Start Mapping Now"
-  start_text:   "It is no problem if you have never mapped before - it doesn't take long to learn. Visit our beginners section to find out how. If you already know how to edit OpenStreetMap, feel free to just get started."
+  start:        "Start mapping now - Step 1"
+  start_text:   "It is no problem if you have never mapped before. It doesn't take long to learn - just about an afternoon! Visit our beginners section in our Learn to Map page to find out how. If you already know how to edit OpenStreetMap (OSM), feel free to just get started."
   map_btn:      "MAP NOW"
   learn_btn:    "LEARN TO MAP"
-  organize:     "Organize a mapathon"
-  organize_text: "Organizing mapathons is a fantastic way to build a community of mappers all focusing on the same area of the world. It is also a great learning environment, where new mappers can learn from the experiences of others. Mapathons are organised by groups and individuals all over the world."
+  organize:     "Organise a mapathon"
+  organize_text: "Organising mapathons is a fantastic way to build a community of mappers. It is also a great learning environment, where new mappers can learn from the experiences of others while contributing to a shared goal. Mapathons are organised by groups and individuals all over the world."
   lead_btn:     "LEAD A MAPATHON"
-  join_btn:     "JOIN EMAIL LIST"
+  join_btn:     "JOIN A MAPATHON"
+  field-mapping: "Map your community - Step 2"
+  field-mapping_text: "Many organizations are using OSM to inform their programs. OSM is great for collecting field data while empowering communities. If you are interested in creating and using data from OSM in your work, these guides will help you get started."
+  field-mapping_btn: "FIELD MAPPING"
+  blog: "Learn about our work - Step 3"
+  blog_text: "Missing Maps is a collective of organizations using and growing OSM to best serve communities all over the world. If you want to read more about what happens next, check out the Missing Maps blog."
+  blog_btn: "Read the blog!"
   donate:       "Donate to make an impact"
-  donate_text:  "A donation to the Humanitarian OpenStreetMap Team (one of the founders of Missing Maps) can help to support local people in mapping their own communities, to develop tools and processes so that more people can contribute, and to scale the project so that we can help even more humanitarian organisations responding to crises all over the world."
+  donate_text:  "A donation to the <a href=\"https://www.hotosm.org/donate/\">Humanitarian OpenStreetMap Team</a> (one of the founders of Missing Maps) can help support local people to map their own communities, develop tools and processes so that more people can contribute, and scale this work so that even more responders and humanitarian organisations around the world have maps and open data that enable them to make time-critical, data-driven decisions."
   donate_btn:   "DONATE"
 
 contributions:
@@ -107,25 +162,114 @@ discover:
 contact:
   title:        "Contact Us"
 
-########################
-## LEARN CONTENT ##
-########################
-contribute:
+##############
+## BEGINNER ##
+##############
+beginner:
   title:        "Learn to Map"
-  how_text:     "If you're new to mapping we recommend watching the videos in the 'Beginners' section to get up and running. If you've mapped before follow the 'Map Now' link, or consider learning to validate. There is also additional tutorials available via LearnOSM."
+  how_text:     "If you're new to mapping, we recommend watching the videos in the 'Beginners' section below to get set up. For a full mapathon intro, and additional videos, click the YouTube button. If you've mapped before, consider learning to validate. There are also additional tutorials available via LearnOSM."
   map_btn:      "MAP NOW"
   validate:     "VALIDATE"
   learn_osm:    "TUTORIALS"
   youtube:      "YOUTUBE"
   beginners:    "Beginners"
-  stepAccount:        "Create an Open Street Map account"
-  stepAccount_text:   "Go to the <a href=\"https://www.openstreetmap.org/login\">OpenStreetMap</a>  website and register to create an account. Follow the link in the email they send to confirm your account."
+  advanced:     "Advanced Mapping"
+  field:        "Field Mapping"
+  stepAccount:        "Create an OpenStreetMap and Tasking Manager account"
+  stepAccount_text:   "Go to the Humanitarian OpenStreetMap Team’s <a href=\"tasks.hotosm.org\">Tasking Manager website</a> to create an account. Follow the link in the email they send to confirm your account."
   stepBuildings:        "Learn to map buildings"
   stepBuildings_text:   "Buildings are one of the most useful things you can add to OpenStreetMap (and they're fun too)! Learn how to add and edit buildings to OSM through the iD editor."
   stepRoads:        "Learn to map roads"
   stepRoads_text:   "Roads are also one of the most useful things you can add to OpenStreetMap! Learn how to add and edit roads to OSM through the iD editor."
   stepTM:        "Learn to use the Tasking Manager"
-  stepTM_text:   "Go to the <a href=\"http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps\">Task Manager</a> to find a project and task that interests you. Learn how to lock a task to edit, select an editing program and change the background settings."
+  stepTM_text:   "Go to the Task Manager to find a project and task that interests you. Learn how to lock a task to edit, select an editing program and change the background settings. Note: when your task is reviewed, you’ll get an email. Make sure to give those a read."
+  
+##############
+## ADVANCED ##
+##############
+advanced:
+  title:        "Advanced Mapping"
+  guide: "JOSM Guide"
+  josm:         "JOSM is a powerful OpenStreetMap editing tool that will supercharge your mapping abilities! We recommend that mappers who want to take their mapping to the next level progress to using this tool. First, you’ll need to download the application. You can do that <a href=\"https://josm.openstreetmap.de/wiki/Download\">here</a>. This application is available for both Macs and PCs. Compared to iD Editor, the setup process can be no picnic, so give yourself time to navigate this new tool before you plan to jump into your mapping. Once you are using JOSM you’ll never look back! "
+
+###########
+## FIELD ##
+###########
+field:
+  title:        "Field Mapping"
+  intro1: "So you’ve mapped an area as best you can from satellite imagery, now you want to map your community more in detail. Curious about what to do next? This section of the site will help you navigate planning, carrying out, and processing a community mapping activity."
+  intro2: "The end goal of this activity is to capture the perspective of unique places and people on the map. To do this, ideally you need a diverse community of mappers who can represent the voices of the locality. Establishing a sustainable culture of mapping takes time and effort and there are many steps you can take to get this started, grow and nurture a community."
+  intro3: "Reminder: this is not intended to be a comprehensive guide, but instead to help get you started."
+  volunteers-header: "OpenStreetMap is built by volunteers..."
+  volunteers-description: "OpenStreetMap is built by volunteers who care about places. Unlike many other mapping platforms profit is not the driving factor to create data. Individuals all have unique perspectives on our surroundings and this is when OSM comes alive, when the color of a community is added. A map will only be as good as the depth and breadth of the voices consulted to populate it. Local knowledge is fundamental to creating a comprehensive and sustainable resource by and for your community. Including the wider community and ensuring their involvement in your project is key."
+  before-header: "Before you start mapping..."
+  before-description: "Before you start mapping, it’s important to assess things like community participation, safely, tool usages, and long term data maintenance. We know you can’t wait to dive in, but first consider:"
+  privacy-header: "Privacy:"
+  privacy-about: "Should this area be mapped in a public facing way? Despite your best intentions, it is important to consider if and how spatial information can be used against the community you would like to map. Many communities world-wide are accustomed to having detailed public maps of their area. However, even having the absolute minimal information made public can be dangerous for some communities. Other communities may be comfortable with some information being made public but not all. Although you will never get a full consensus from every community member, it is important to consider this at all stages of your work."
+  physicalsafety-header: "Physical Safety:"
+  physicalsafety-about: "During data collection, people sometimes get caught up in the mapping and forget about what’s going on in their surroundings. Keep your safety in mind and consider the following:"
+  physicalsafety-list:
+    - label: "Be aware of your surroundings! Don’t keep your eyes glued to your clipboard or phone."
+    - label: "Some areas may be more dangerous than others. Consider when and where mappers will be welcome in certain areas. [A.] If possible, consider having a community escort and consulting a local to find out where unsafe locations are. [B.] Make sure your mappers can quickly explain your project to community members if asked. [C.] Is your organization branding known in the community? If so, make sure your mappers are easily identified as part of your group with visible logos etc."
+    - label:  "Keep a list of all your mappers, where they are going, and their contact information. If someone gets lost, you’ll need to know how to find them! [A.] The buddy system is always encouraged. [B.] Can your mappers get in touch with the project organizers while out and about in the community? If there isn’t cell service in the area, consider walkie talkies. [C.] Encourage your mappers to pack external batteries as mapping can drain a phone quickly! [D.] Plan to check on each group at least a couple times a day if out for long periods."
+    - label:  "Can some of your electronic equipment be left in the office? Don’t make yourself more of a target for theft than necessary."
+    - label:  "How will your mappers get to their project site? If leaving them behind, consider having a safe meeting spot preassigned in case they need somewhere to pause while waiting for you to get them."
+    - label:  "Do your mappers have enough food/water for the day?"
+    - label:  "Do your mappers have sun / cold / rain protection?"
+    - label:  "If you are conducting a survey while on the road, always get another person to drive who is solely focussed on driving."
+  who:
+    title: "Who will contribute:"
+    about: "Are there already mappers in the area? Have you reached out and included them in your work?  Are you from this community? If not, who will be your local partner(s)? How will you tell the community about your work? <a href=\"https://wiki.openstreetmap.org/wiki/Category:Flyer\"> OSM Flyers</a>"
+  priority:
+    title: "Priority:"
+    about: "What is of priority to you, what is of priority to your community? Are you the right person to speak on the topic? Are you prepared to talk about what you are doing?"
+  scale:
+    title:  "Scale:"
+    about: "Do you just want to go on a map walk in your street? Do you want to collect just one type of feature? Are you looking to plan the mapping of a whole town?"
+  data:
+    title: "Data maintenance:"
+    about: "What do you want to capture, how do you want to capture this, how long will this data be accurate? What’s your plan for keeping it up to date? Do you have helpers?"
+  tools-header: "Understanding your tools"
+  tools-about: "Understanding your tools: Missing Maps does not manage data collection tools, but these are some of our favorite resources from the OSM community:"  
+  tools-list:
+    - label: "<a href=\"https://opendatakit.org/\">Open Data Kit</a> -  Open Data Kit was started to make mobile data collection tools for resource-limited settings. Over the last 13 years, the project has produced two tool suites (<a href=\"https://getodk.org/\">ODK</a>, ODK-X) and has become home to a community of users, implementers and developers. "
+    - label: "<a href=\"https://www.kobotoolbox.org/\">KoBo</a> - KoBoToolbox is a suite of tools for field data collection for use in challenging environments. "
+    - label: "<a href=\"https://maps.me/#gsc.tab=0\">Maps.me</a> - a free, open source mobile app that provides offline maps of 345 countries and islands based on OpenStreetMap data. "
+    - label: "<a href=\"https://osmand.net/\">OSMAnd</a> - a Mapping and navigation map with optional offline capacity."
+    - label: "<a href=\"http://posm.io/posm/intro/\">Portable OpenStreetMap (POSM)</a> - a hardware/software integration developed to conduct mapping in the field when internet and cellular connectivity is unreliable."
+    - label: "<a href=\"https://www.opendronemap.org/\">OpenDroneMap</a> - sustainable solutions for collecting, processing, analyzing and displaying aerial data while supporting the communities built around them. "
+  processing-header: "Processing:"
+  processing-about: "Processing: So now that you have gathered data about a community, you will need to put this information into OpenStreetMap. Depending on how you collected your data, there are a few ways to do this:"
+  processing-list:
+    - label: "Direct editors (Maps.Me; OSMAnd…)"
+    - label: "Reconciling map notes (note=*) - some mappers use OSM editing apps to add geo-tagged notes to OSM to reference later. If you have done this, don’t forget to go through your notes and make the desired changes to the map. You can easily view all notes of an area by turning on the ‘Map Notes’ overlay in OpenStreetMap’s Map Layer settings."
+    - label: "Field Papers upload - after making your notes on Field Papers, you can upload the image to FieldPapers.org to easily integrate the notes for digitizing in JOSM." 
+    - label: "GPS tracks, points and notes"
+    - label: "Processing photos of signs, features etc."
+  giveback-header: "Give back your data to the community!"
+  giveback-about: "Give back your data to the community! Consider hosting a community meeting to share updated maps with local businesses, governments, organizations etc. In addition, consider sharing your data with the wider humanitarian world via a platform like the <a href=\"https://data.humdata.org/\">Humanitarian Data Exchange</a>."
+  
+##############
+## MAPSWIPE ##
+##############
+mapswipe:
+  title:    "MapSwipe"
+  intro1:   "With your mobile phone, you can play a part in helping communities around the world, one swipe at a time."
+  intro2:   "Around the world, millions of individuals are affected by disasters, disease, and conflict. First responders working with these communities often have to cover large areas, but lack the data necessary for an efficient, effective response. Through MapSwipe, volunteers pinpoint where critical infrastructure and populations are located, allowing mappers to focus only on areas where they know features need to be mapped."
+  intro3:   "MapSwipe is an open-source mobile app that is making mapping around the world more coordinated and efficient. Volunteers swipe through satellite images looking for features (ie: buildings, roadways, waterways, etc.) and tap once when they have located them. Each set of imagery is viewed by at least three different individuals to create a mechanism for internal validation of results. We believe that anyone, anywhere should be able to contribute to the Missing Maps project. "
+  before: "This would be a huge area for people to map."
+  after: "This is the result of MapSwipe. Much better."
+  how-section:  "How to use MapSwipe"
+  how-intro: "MapSwipe is very intuitive. Mappers follow these steps:"
+  how-list:
+    - label: "Choose your 'mission'. Each mission will indicate what you are looking for (for example, buildings and roads)."
+    - label: "Swipe left to see the next tile."
+    - label: "Tap once on a square to identify a feature. The square will turn green."
+    - label: "Tap twice if you are not sure, but you think there is a feature. The square will turn orange."
+    - label: "Tap three times to identify bad / no imagery or cloud cover. The square will turn red."
+  how-end: "Since its start in 2015, MapSwipe has scaled to 29,000 users mapping 600,000 km2 (larger than the area of Kenya). MapSwipe is volunteer-driven and community-led. Any organization or mapping community can request to use MapSwipe to help with their activities on the ground. To learn more check out the <a href=\"https://mapswipe.org/\">MapSwipe website </a>.  If you’d like to request a project, email info@mapswipe.org. Happy swiping!"
+    
+
 
 ####################
 ## EVENTS CONTENT ##
@@ -141,18 +285,35 @@ events:
 ###################
 about:
   title:        "About"
+  who_we_are:
+      title:  "Who we are"
+      text1:   "Missing Maps is a project led by a collective of organizations working towards a common goal of creating accessible map data where humanitarian organizations are operating. Each member organization carries out their own mapping activities with their wider communities guided by shared ethics. Missing Maps would be nothing without this collaboration of participating organizations, communities and individuals. To achieve this goal, Missing Maps organizations grow a global community of mappers to support those living in places at risk as they put themselves on the map. OpenStreetMap is the volunteer-driven open data mapping platform which makes all of this possible, supported by the not-for-profit OpenStreetMap Foundation. Welcome to the community!"
   objectives:
     title:      "Objectives"
-    text1:      "To map the most vulnerable places in the developing world, in order that international and local NGOs and individuals can use the maps and data to better respond to crises affecting the areas."
+    text1:      "To map areas where people live at risk of disasters and crises by contributing to <a href=\"openstreetmap.org\">OpenStreetMap</a> (OSM) so that individuals, communities and organizations can use the data and maps to better prepare and respond."
     text2:      "To support <a href=\"http://openstreetmap.org\">OpenStreetMap</a> , specifically the <a href=\"http://hotosm.org\">Humanitarian OpenStreetMap Team (HOT)</a>, in developing technologies, skills, workflows, and communities."
   ethics:
-    title:      "Ethics"
-    text1:      "Using OpenStreetMap ensures that all data gathered under the project banner will be free, open, and available for use under <a href=\"http://wiki.openstreetmap.org/wiki/OpenStreetMap_License\">OpenStreetMap’s open license</a>."
-    text2:      "All 'in country' activities, i.e. local mapping and data collection, will be carried out in collaboration with local people and in a respectful manner at all times."
-    text3:      "When working locally, people come before the data. Meaning if the goal is to map a city there needs to be a plan in place to ensure access to technology and training for those living in that community to continue using the maps after project completion."
-    text4:      "Members of Missing Maps actively contribute to Missing Map's objectives, the OpenStreetMap repository and benefitting communities, both local and international."
-    text5:      "Missing Maps activities emphasize building, and leaving behind, local capacity and access. We are cautious about rapid data collection without significant local participation, and always make efforts to ensure local access."
-    text6:      "Missing Maps activities are designed to be accessible and open for participation for individuals who want to contribute towards the project objectives."
+    title:  "Ethics"
+    people: 
+      title: "People"
+      text1: "People always come before data. All Missing Maps activities will take into account the best interests and rights of the community and individuals, before adding data to OSM."
+      text2: "All Missing Maps project activities are guided by the humanitarian principles of humanity, neutrality, impartiality and independence. We follow the <a href=\"https://www.hotosm.org/code-of-conduct\" >HOT code of conduct</a>."
+    open:
+      title: "Open"
+      text1: "Open under the <a href =\"https://opendatacommons.org/licenses/odbl/\">ODbL license</a>: Respecting the guidelines and best practices of the OpenStreetMap Foundation (OSMF) and OSM, Missing Maps project member organizations ensure that all non-sensitive data gathered under the Missing Maps project banner will be free, open and available for use."
+      text2: "Open to all tool creators: Any creation of Missing Maps project methodology, tools, software or technology by Missing Maps project member organizations will be open source and enable global volunteer network contribution."
+      text3: "Open to all voices and perspectives: All Missing Maps project activities are designed to be accessible and open for participation for individuals, communities and organizations who want to contribute towards the Missing Maps project objectives."
+    sustainable:
+      title: "Sustainable"
+      text1: "Whenever possible, Missing Maps project activities are undertaken in collaboration with local individuals, communities, and organizations and in a respectful manner at all times."
+      text2: "Missing Maps project activities will build sustainable local capacity, and will ensure access to open mapping community tools and technology, and provide access to training for individuals and communities they work with."
+    collaborative:
+      title: "Collaborative"
+      text1: "The Missing Maps community will work together to share, develop, improve and implement mapping and data collection processes."
+      text2: "Missing Maps member organizations will support, grow and learn from the global network of digital humanitarian volunteers."
+    quality:
+      title: "Quality"
+      text1: "Missing Maps member organizations will ensure that quality assurance and control processes are in place for all of their activities. We are cautious about rapid data collection without significant local participation, and always make efforts to ensure local access."
   membership:
     title:      "Membership"
     text1:      "Membership of the the Missing Maps Project is open to any NGO, educational establishment or civil society group willing to contribute to the goals, and abide by the ethics, stated above. Approval of membership is the responsibility of the current member organisations."
@@ -161,7 +322,7 @@ about:
   madepossible: "Missing Maps is made possible thanks to the following organizations."
   founders:     "Founders"
   members:      "Members"
-  osm_text:     "is the volunteer-driven open data mapping platform which makes all of this possible, supported by the not-for-profit"
+  osm_text:     "is the volunteer-driven open data mapping platform which makes all of this possible, supported by the not-for-profit" #this should be deleted
 
 ##########################
 ## MAPATHON SUPPORT MAP ##
@@ -169,7 +330,7 @@ about:
 
 helper-map:
   title:        "Mapathon Support"
-  description:  "The Missing Maps team can support you in a number of ways. Please reach out to us via Twitter or Facebook for help with task selection or if you have any questions.  Additionally, volunteer mapathon supporters are located around the globe! Please use the below map to connect to someone in your area. You can filter by language using the dropdowns.  Zooming the map will help you narrow down the list to people in your area."
+  description:  "The Missing Maps team can support you in a number of ways. Please reach out to us via Twitter or Facebook for help with task selection or if you have any questions. Additionally, volunteer mapathon supporters are located around the globe! Please use the below map to connect to someone in your area. You can filter by language using the dropdowns. Zooming the map will help you narrow down the list to people in your area."
   signup-txt:   "Volunteer to help out by adding your contact info to the map via the button below. To remove or edit your data please send an <a href='mailto:info@hotosm.org'>email</a>."
   signup-btn:   "Sign up"
   filter-lang:  "Filter by a language"
@@ -183,7 +344,7 @@ helper-map:
 #####################
 host:
   title:          "Hosting a Mapathon"
-  text:           "A mapathon is a great opportunity for volunteers to digitally connect and map the most vulnerable places in the developing world so that local and international Non-Governmental Organizations (NGO’s) can use these maps and data to better respond to crises affecting these areas. Up to date maps are important for the success of many humanitarian organizations around the world in responding to disasters. Through Missing Maps, you can volunteer your time to help create these maps, and have a real impact on the delivery of healthcare in the field. Check out the video below to learn more about what a mapathon is, and check out our resources on how to host one below."
+  text:           "A mapathon is a great opportunity for volunteers to digitally connect and create urgently needed data for communities around the world so that local and international decision-makers can use these maps and data to better respond to crises affecting these areas. Up-to-date maps are important for the success of many humanitarian initiatives around the world in responding to disasters. Through Missing Maps, you can volunteer your time to help inform these maps, and have a real impact on the delivery of healthcare and other services in these communities. Check out the video below to learn more about what a mapathon is, and check out our resources on how to host one below."
   what_is:        "What is a Mapathon?"
   how_host:       "How to Host a Mapathon"
   prep_btn:       "PLANNING CHECKLIST"
@@ -191,10 +352,12 @@ host:
   materials_btn:  "MATERIALS"
   register_event:   "REGISTER YOUR EVENT"
   see_materials:    "Download a complete Step-by-Step Guide to Hosting a Mapathon from "
+  materials_title:      "Training and Event Materials"
   prep_check:     "Planning Checklist"
   prep_check_list:
+    - label: "Decide if you'll do an in-person or remote event"
     - label: "Choose a date"
-    - label: "Recruit volunteers to help"
+    - label: "Recruit volunteers to help plan the event"
     - label: "Book a space"
     - label: "Register your event <a target='_blank' href='https://docs.google.com/forms/d/e/1FAIpQLScdvsMHLor8mrDrHa-BQs2XzFb96vIrx3u--LHXWd1g7RncPg/viewform'>here</a>"
     - label: "Recruit participants using Eventbrite"
@@ -209,6 +372,9 @@ host:
     - label: "Extra extension cords"
     - label: "Print materials"
     - label: "Order snacks"
+    - label: "Prepare training materials"
+    - label: "Remind participants to create their OSM profile and download a browser that is not Internet Explore"
+    - label: "If hosting remote event, test platform including microphone and screenshare"
   event_check:    "Event Day Checklist"
   event_check_list:
     - label: "Set up room"
@@ -219,13 +385,11 @@ host:
     - label: "Get presentations ready"
     - label: "Set up snacks"
     - label: "Have fun mapping!"
-  materials:      "Training and Event Materials"
-  # if you have translated assets, put them in the assets folder and include filename here, if not, feel free to use the english versions as listed
-  materials_list:
-    - text:       "Step-by-Step Guide to Hosting a Mapathon"
-      asset:      "mapathon-materials/english/How_to_Host_a_Mapathon_EN.pdf"
-    - text:       "Everything else you need to run a successful mapathon! &nbsp; <i class='fa fa-file-archive-o' aria-hidden='true'></i> (zip folder)"
-      asset:      "mapathon-materials.zip"
+  materials:      
+    title: "Training and Event Materials"
+    text: "Everything you need to run a successful mapathon! (Google Drive folder link)"
+    url:  "https://drive.google.com/drive/folders/1gXkvuQNRhfyOVv6XjmncFFUIK4m_yCTb?usp=sharing"
+ 
 
 ##############
 ## Validate ##
@@ -236,16 +400,20 @@ checker:
     intro: "Validation is an important part of the Missing Maps process. Getting a second, third, or fourth pair of eyes on mapped features goes a long way in ensuring the quality of data being added to OpenStreetMap and being used in vulnerable communities around the world. Validating requires confidence in your mapping abilities as well as the willingness to help coach and advise newer mappers. The Missing Maps Project is a community of mappers with different levels of mapping experience, all who have a common goal of improving the availability of quality data for humanitarian use."
     links:
       faq: "FAQS"
-      josm: "JOSM VALIDATION"
+      tools: "TOOLS FOR PROJECT MANAGERS"
+      tools-filename: "Tools for Project Managers_EN.pdf"  
+      ### NOTE: above file needs to exist in `/app/assets/downloads/` folder
+      guide: "FULL VALIDATION GUIDE"
       wiki: "WIKI"
     steps:
       goal: "Validators"
       step1: "Step 1"
       step1_subtitle: "Identify if becoming a validator is right for you."
       step1_text: "Validating isn’t for everyone; validation requires patience and attention to detail. Some experience mapping in OpenStreetMap and HOT projects is a must, but don’t feel that you need to be an expert to start. If you’re new to Missing Maps or OpenStreetMap mapping in general, head over to our <a href= \"/learn\"> resources for new mappers. </a> Check out our <a href= \"/assets/downloads/MissingMaps_validation_faq_en.pdf\"> Validation FAQs </a> to gain some insight on what validating entails."
+      step1_text2: "If you’re new to Missing Maps or OpenStreetMap mapping in general, head over to our resources for new mappers. If you’ve mapped before using iDdEditor, make sure to check out our advanced mapping section to get started with JOSM first. Validating in iDEditor is possible, but it’s best to use JOSM."
       step2: "Step 2"
       step2_subtitle: "Build your skills."
-      step2_text: "Becoming a more efficient mapper is crucial to becoming a validator. The <a href=\"https://josm.openstreetmap.de/\">JOSM Editor</a> is a customizable editor for OpenStreetMap with a number of tools and plugins to make mapping and validating easier! Check out this <a href=\"/assets/downloads/MissingMaps_validation_josm_en.pdf\"> guide to validation using the JOSM editor. </a> For instruction setting up JOSM, you can also head over to <a href= \"http://learnosm.org/en/josm/\"> LearnOSM </a>."
+      step2_text: "Becoming a more efficient mapper is crucial to becoming a validator. The <a href=\"https://josm.openstreetmap.de/\">JOSM Editor</a> is a customizable editor for OpenStreetMap with a number of tools and plugins to make mapping and validating easier! Check out this <a href=\"/assets/downloads/Validating_Data_EN.pdf\"> guide to validation using the JOSM editor. </a> For instruction setting up JOSM, you can also head over to <a href= \"http://learnosm.org/en/josm/\"> LearnOSM </a>."
       step2_video: "While validating in JOSM is preferred, you can also begin to improve the map through iD editor. Check out this video to learn some of the things to look for:"
       step3: "Step 3"
       step3_subtitle: "Collaborate as part of the broader community."
@@ -253,28 +421,58 @@ checker:
       step4: "Step 4"
       step4_subtitle: "Validation FAQs"
       faq:
-        question1: "<b>How do I know when I’m ready to validate?</b>"
+        question1: "<b>How do I know when I’m ready to validate?<b>"
         answer1: "After you’ve had some experience mapping, you may find yourself correcting other contributors work. When you find that you are doing this on a regular basis, and you are finding it easier to spot and correct the mistakes, Validating is not to every person's liking but reach out to the HOTOSM community and ask for guidance! We’re happy to help!"
-        question2: "<b>Can I validate with iD Editor?</b>"
+        question2: "<b>Can I validate with iD Editor?<b>"
         answer2: "Yes you can, but it is a lot more difficult to catch all the errors. JOSM Editor has a lot more tools that help new validators find the errors and also to fix some of them, so it is preferable that you learn to map with JOSM first."
-        question3: "<b>How do I get started validating?</b>"
+        question3: "<b>How do I get started validating?<b>"
         answer3: "The first thing you need to do is learn about what validating is. The <a href=\"http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager/Validating_data\">Validating Data</a> wiki is a great place to start. You’ll want to learn to edit using the <a href=\"https://josm.openstreetmap.de/\">JOSM Editor</a>. JOSM has a number of very useful validation tools which can make the process much easier and more efficient."
-        question4: "<b>What are the steps when validating a project?</b>"
+        question4: "<b>What are the steps when validating a project?<b>"
         answer4: "The first thing to do is carefully read the instructions for the project you are going to validate so that you understand what the mappers are being asked to do. When checking out each task, do a quick once-over to size up the quality of the mapping. Change or modify what is not in-line with the provided instructions, and depending on the amount of time you have available, either complete the task to how it should be mapped or invalidate and leave a constructive comment on why you are invalidating."
-        question5: "<b>How do I know the task is mapped well enough?</b>"
+        question5: "<b>How do I know the task is mapped well enough?<b>"
         answer5: "Before you start validating check out the <i>instructions</i> tab on the project. See what the requesting organization is looking for (buildings, buildings and roads, roads, landuse, etc.). When you check out a task make sure that everything being requested is mapped. If looking at buildings make sure they are all squared (corners right angles) or circled, depending on the shape. Do this on a building by building basis as not every building will need squared edges. Make sure every feature is tagged, not just <i>area=yes</i>."
-        question6: "<b>How should I be tagging roads?</b>"
+        question6: "<b>How should I be tagging roads?<b>"
         answer6: "Typically, most HOTOSM tasks will request that you follow the <a href=\"http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa\">Highway Tag Africa Wiki</a>. This is due to “the road conditions in African countries not always corresponding to their economic and social role. A road typology should be based on the road importance and not on the surface or the visual appearance of a road."
-        question7: "<b>Should I just review the task and invalidate or should I finish the task and validate?</b>"
+        question7: "<b>Should I just review the task and invalidate or should I finish the task and validate?<b>"
         answer7: "This ultimately depends on how much time you have to validate. If you open the task and it’s obvious that the instructions weren’t followed and there are a lot of features that remain unmapped, then invalidate. If the task is complete but just needs some cleaning up (i.e. squared buildings, adding one or two more buildings) then it is advised that you fix what needs to be fixed in the task, and leave a detailed comment for the user who marked it as done including ways that this task could have been mapped better."
-        question8: "<b>What sort of feedback should I give?</b>"
+        answer7_2: "Use <a href=\"https://www.pinterest.co.uk/TheMissingMaps/\">this resource</a> to see examples of structures in some of our frequent project areas."
+        answer7_3: "Use these guides to see examples of road features around the world: <a href=\"https://wiki.openstreetmap.org/wiki/Highway_Tag_Africa\">African highways</a> and <a href=\"https://wiki.openstreetmap.org/wiki/Key:highway\">highways</a>.  Note, images and descriptions might be helpful even if not mapping in that specific area. Note, road surface materials used doesn't always convey the importance of a route.  Please keep in mind context as well as materials when tagging roads."
+        question8: "<b>What sort of feedback should I give?<b>"
         answer8: "<b>Timely, positive, and constructive.</b> Many projects are mapped by beginners at mapathons. Please remember that <b>we were all new mappers at one point, and consider how your tone could impact the decision of a mapper to return to map again.</b> If you find a number of tasks that have been completed by the same mapper, you only need to tag them in the comment once or twice. If the contribution by the mapper is over 2 weeks old, it is not necessary to tag the user. "
         answer8_instructions: "When leaving a comment, please tag the mapper in the comment using the “@” key. See some examples of useful comments below:"
         answer8_example1: "<b>Well-mapped task (Validated):</b> Hi @user, thanks for contributing! Everything here looks great!"
         answer8_example2: "<b>When a very new mapper is good, let them know!</b> Good work @user. You are correctly identifying the buildings/roads from the background imagery and mapping them at the correct size and shape.  Thank you for your time (or Thank you for contributing to this Project). Please keep mapping!"
         answer8_example3: "<b>Okay-mapped task (Validated):</b> Hi @user, thanks for contributing! I found a few additional buildings/roads that could be mapped here, so I went ahead and mapped them. Also, please be sure to square your buildings, which can be done by pressing `Q` in both iD editor and JOSM. I finished everything up here. Thanks again!"
         answer8_example4: "<b>Poorly-mapped task (Invalidated):</b> Hi @user, thanks for contributing! It looks like there are quite a few buildings left to map here. Make sure if the task isn’t complete, to click `finished mapping` instead of `done`. If you have questions about what should be mapped, check out the instructions tab. Please reach out if you have any questions!"
+        question9: "<b>Should I validate roads on a buildings project?<b>"
+        answer9: "Please focus on validating the key features for that specific project. It’s important to read the Project Managers instruction first so you understand what the mappers goal was. However if you spot a small change that could be tweaked we appreciate your map stewardship. If large changes need to be made on other features, the best way to do this is via a separate task with corresponding instructions. Such a project may already exist! If you can’t find a corresponding task, please reach out to the project PM directly if you notice large changes that need to be made in that project area."
+        question10: "<b>What JOSM plugins are most useful for validating?<b>"
+        answer10: "Plugins are tools that must be added using the preferences dialogue box. Pull down the edit menu, click on preferences and click on the electric cord/wall outlet. Here are plugins that we suggest for JOSM mapping/editing/validating: apache-commons; auto-tools; buildings_tools; ejml; geotools; imagery_offset_db; jaxb; jts; mapwithai; opendata; scripting; todo; utilsplugin2."
+        question11: "<b>Should I delete poorly drawn features?<b>"
+        answer11: "Where possible, it is encouraged to fix poorly drawn features rather than deleting and redrawing them. This is done to preserve the edit history of the feature. There is an easy way to do this with the UtilsPlugin2 by using the <a href=\"https://wiki.openstreetmap.org/wiki/JOSM/Plugins/utilsplugin2#Replace_geometry_.28Ctrl.2BShift.2BG.29\">Replace Geometry Tool.</a> In some cases, it is more work than it is worth to fix features and the only practical solution is to delete them and redraw. Before deleting features, always ensure that it was not created by a local mapper! Check on the date of the mapping and if the changeset comment links to a mapathon using the Object History function in JOSM."
+        question12: "<b>I notice that some tasks limit who can validate. What does this mean?<b>"
+        answer12: "Some projects are available for validation by intermediate or advanced mappers. Other projects require that you join a validation team, to the right under the Teams and Permissions section in the Tasking Manager is a link to join the teams that are approved for that specific project.  HOT manages a global team of validations that many of the response projects on the Tasking Manager require you to join. To join, please follow the instructions below or use <a href=\"http://bit.ly/HOTValidators\">this link</a> to connect with the team manager."
     get-started: "Now get started, check out these tasks that are in need of validation!"
+    dataquality:
+      title: "Data Quality Tools for Project Managers"
+      text: "Are you managing projects using a tasking manager? Are you curious to see how the mapping is going but don’t want to wait until your mappers finish the project? Try using these tools:"
+      subtitle1:
+        title: "OSMCha"
+        text: "<a href=\"https://osmcha.org/\">OSMCha</a> short for OpenStreetMap Changeset Analyzer is a web tool to help mappers analyze and review data changes to OSM. The objective of the tool is to help detect vandalism and act on bad changes to the map data.  If using the HOT-TM, you’ll find this tool at the bottom of your project page."
+      subtitle2:
+        title: "Osmose"
+        text: "<a href=\"osmose.openstreetmap.fr\"> Osmose</a> is a quality assurance tool that detects issues in OpenStreetMap data by showing anomalies. It is also useful for integrating third-party data sets by conflation."
+      subtitle3:
+        title: "Ohsome"
+        text: "The <a href=\"https://api.ohsome.org/\">ohsome API</a> is a generic web API for analysing OSM history data. The ohsome API lets you analyze the rich data source of the OpenStreetMap history and is based on the OpenStreetMap History Database (OSHDB). You can either perform analyses using a dashboard-like application, or use the ohsome API directly and work with its CSV, JSON or GeoJSON responses."
+      subtitle4:
+        title: "CartONG Mapathon Dashboard"
+        text: "Looking for another way to track your group’s edits? CartONG has you <a target=\"_blank\" href=\"http://mapathon.cartong.org/\">covered</a>."
+      subtitle5:
+        title: "MapRoulette"
+        text: "<a href=\"https://maproulette.org/\">MapRoulette</a> is a gamified approach to fixing OSM bugs that breaks common OpenStreetMap data problems into micro tasks. This tool is best used after your event."
+
+
 
 ###################
 ## Blog CONTENT ##
