@@ -198,9 +198,9 @@ field:
   intro1: "Une fois que vous avez cartographié du mieux possible une zone à partir de l'imagerie satellite, vous pouvez maintenant cartographier votre communauté avec plus de détails. Vous êtes curieux de ce que vous pouvez faire ensuite ? Cette section du site vous aidera à planifier votre navigation, votre exécution, et votre traitement des activités de cartographie communautaire."
   intro2: "TLe but final de cette activité est de capturer le point de vue de lieux uniques et de personnes sur la carte. Pour cela, l'idéal serait d'avoir une communauté variée de cartographes qui peuvent représenter les voix des locaux. L'établissement d'une culture de cartographie durable prend du temps et demande des efforts et il y a beaucoup d'étapes à mettre en oeuvre pour commencer, faire grandir et soutenir une communauté."
   intro3: "Rappel : l'objectif de ce guide n'est pas d'être complet, mais plutôt de vous aidez à démarrer."
-  volunteers-header: "OpenStreetMap a été construit par des bénévoles..."
+  volunteers-header: "OpenStreetMap a été construit par des bénévoles"
   volunteers-description: "OpenStreetMap a été construit par des bénévoles qui se soucient des lieux. Contrairement à beaucoup d'autres plateformes de cartographie, le profit n'est pas un facteur déterminant pour créer des données. Les individus ont tous un point de vue unique de leur environnement et c'est à ce moment qu'OSM prend vit, quand la couleur d'une communauté y est ajoutée. Une carte sera aussi correcte que l'intensité et l'ampleur des voix consultées pour la remplir. Les connaissances locales sont fondamentales pour créer une ressource complète et viable par votre communauté et pour votre communauté. Inclure une plus large communauté et assurer son implication dans votre projet est la clé de la réussite."
-  before-header: "Avant que vous ne commenciez à cartographier..."
+  before-header: "Avant que vous ne commenciez à cartographier"
   before-description: "Avant que vous ne commenciez à cartographier, il est important d'évaluer certains éléments comme la participation de la communauté, la sécurité, l'utilisation des outils et la maintenance des outils sur le long terme. Nous savons que vous avez hâte de commencer, mais réfléchissez y d'abord."
   privacy-header: "Vie privée"
   privacy-about: "Est-ce que cette zone devrait être cartographié sur une voie publique? Malgrés toutes vos bonnes intentions, il est important d'évaluer si  les informations spatiales peuvent être utiliser contre la communauté que vous souhaitez cartographier et comment. Beaucoup de communautés dans le monde sont habituées à avoir accès à des cartes publiques détaillées de leur région. Cependant, même le fait absolu de rendre public la moindre information peut être dangereuse pour certaines communautés. D'autres communautés peuvent accepter que certaines informations soient rendues publiques mais pas toutes. Même si vous n'obtiendrez jamais un consensus total de la part de chaque membre de la communauté, il est important de considérer cela dans toutes les étapes de votre travail."
@@ -227,8 +227,8 @@ field:
   data:
     title: "Maintenance des données"
     about: "Qu'est-ce que vous voulez capturer, comment voulez-vous le capturez, combien de temps cette donnée sera valable? Quel est votre plan pour la maintenir à jour? Est-ce que vous avez besoin d'aide?"
-  tools-header: "Comprendre vos outils:"
-  tools-about: "Comprendre les outils : Missing Maps ne gère pas les outils de collecte de données, mais ce sont quelques-unes de nos ressources préférées de la communauté OSM."  
+  tools-header: "Comprendre vos outils"
+  tools-about: "Missing Maps ne gère pas les outils de collecte de données, mais ce sont quelques-unes de nos ressources préférées de la communauté OSM."  
   tools-list:
     - label: "<a href=\"https://opendatakit.org\">Open Data Kit</a> - Open Data Kit a commencé à faire des outils de collecte de données sur téléphone pour des paramètres à ressources limitées. Sur les 13 dernières années, le projet a produit deux séries d'outils (<a href=\"https://getodk.org\">ODK</a>, ODK-X) et est devenu le foyer d'une communauté d'utilisateurs, de réalisateurs et de développeurs."
     - label: "<a href=\"https://www.kobotoolbox.org\">KoBo</a> - KoBoToolbox est une série d'outils qui collecte des données de terrain pour les utiliser dans des environnements exigeants."
@@ -237,7 +237,7 @@ field:
     - label: "<a href=\"http://posm.io/posm/intro\">Portable OpenStreetMap (POSM)</a> - Un hardware/software d'intégration développé pour conduire des cartographies sur des terrains avec une faible connexion internet et cellulaire."
     - label: "<a href=\"https://www.opendronemap.org\">OpenDroneMap</a> - des solutions durables pour collecter, traiter, analyser et afficher des données aériennes avec le support de la communauté construite autour d'elles."
   processing-header: "Traitement"
-  processing-about: "Traitement : Maintenant que vous avez récolté les données sur une communauté, vous aurez besoin de mettre cette informations sur OpenStreetMap. En fonction de la façon dont vous collectez vos données, il y a différentes façons de le faire."
+  processing-about: "Maintenant que vous avez récolté les données sur une communauté, vous aurez besoin de mettre cette informations sur OpenStreetMap. En fonction de la façon dont vous collectez vos données, il y a différentes façons de le faire."
   processing-list:
     - label: "Éditeurs directs (Maps.Me ; OSMAnd...)"
     - label: "Reconcilier des notes cartographiques (note=*) - quelques cartographes utilisent des applications d'édition OSM pour ajouter des notes géolocalisées à OSM pour les référencer ultérieurement. Si vous avez fait cela, n'oubliez pas de parcourir vos notes et de faire les changements désirés sur la carte. Vous pouvez facilement observer toutes les notes d'une zone en activant la superposition 'Map Notes' dans les paramètres de couches de cartes d'OpenStreetMaps."
