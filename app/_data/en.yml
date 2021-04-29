@@ -232,7 +232,7 @@ field:
   tools-header: "Understanding your tools"
   tools-about: "Missing Maps does not manage data collection tools, but these are some of our favorite resources from the OSM community:"  
   tools-list:
-    - label: "<a href=\"https://opendatakit.org/\">Open Data Kit</a> -  Open Data Kit was started to make mobile data collection tools for resource-limited settings. Over the last 13 years, the project has produced two tool suites (<a href=\"https://getodk.org/\">ODK</a>, ODK-X) and has become home to a community of users, implementers and developers. "
+    - label: "<a href=\"https://opendatakit.org/\">Open Data Kit</a> -  Open Data Kit was started to make mobile data collection tools for resource-limited settings. Over the last 13 years, the project has produced two tool suites (<a href=\"https://getodk.org/\">ODK</a>, <a href=\"https://docs.odk-x.org/app-designer-intro/\">ODK-X</a>) and has become home to a community of users, implementers and developers. "
     - label: "<a href=\"https://www.kobotoolbox.org/\">KoBo</a> - KoBoToolbox is a suite of tools for field data collection for use in challenging environments. "
     - label: "<a href=\"https://maps.me/#gsc.tab=0\">Maps.me</a> - a free, open source mobile app that provides offline maps of 345 countries and islands based on OpenStreetMap data. "
     - label: "<a href=\"https://osmand.net/\">OSMAnd</a> - a Mapping and navigation map with optional offline capacity."
