@@ -232,7 +232,7 @@ field:
   tools-header: "Entender tus herramientas"
   tools-about: "Missing Maps no gestiona herramientas de recopilación de datos, pero estos son algunos de nuestros recursos favoritos de la comunidad de OSM."
   tools-list:
-    - label: "<a href=\"https://opendatakit.org/\"> Open Data Kit </a> -. Open Data Kit se puso en marcha para crear herramientas móviles de recogida de datos para entornos con recursos limitados. A lo largo de los últimos 13 años, el proyecto ha producido dos conjuntos de herramientas (<a href=\"https://getodk.org/\"> ODK </a>, ODK-X) y se ha convertido en el hogar de una comunidad de usuarios, implementadores y desarrolladores."
+    - label: "<a href=\"https://opendatakit.org/\"> Open Data Kit </a> -. Open Data Kit se puso en marcha para crear herramientas móviles de recogida de datos para entornos con recursos limitados. A lo largo de los últimos 13 años, el proyecto ha producido dos conjuntos de herramientas (<a href=\"https://getodk.org/\"> ODK </a>, <a href=\"https://docs.odk-x.org/app-designer-intro/\">ODK-X</a>) y se ha convertido en el hogar de una comunidad de usuarios, implementadores y desarrolladores."
     - label: "<a href=\"https://www.kobotoolbox.org/\"> Kobo </a> - KoBoToolbox es un conjunto de herramientas para la recolección de datos para su uso en entornos difíciles."
     - label: "<a href=\"https://maps.me/#gsc.tab=0\"> Maps.me </a> - una aplicación móvil libre, de código abierto que proporciona mapas sin conexión de 345 países e islas basados en datos de OpenStreetMap."
     - label: "<a href=\"https://osmand.net/\"> Osmand </a> -. Un mapa y navegación con capacidad sin conexión opcional."
