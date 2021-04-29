@@ -198,9 +198,9 @@ field:
   intro1: "Zmapoval jsi úsek jak nejlépe šlo ze satelitních snímků a nyní chcete zmapovat svou lokalitu detailněji. Jsi zvědavý co dělat dál? Tahle část ti pomůže v orientaci plánování, realizaci a zpracovávání lokálního mapování."
   intro2: "Cílem této aktivity je zachytit perspektivu unikátních míst a lidí na mapu. Abys toho docílil, potřebuješ  rozmanitou komunitu mapperů, kteří jsou schopni zastupovat lokalitu. Zavedení udržitelné kultury mapování vyžaduje čas a úsilí a existuje mnoho kroků, které můžete podniknout, abyste mohli začít, rozvíjet a vychovávat komunitu."
   intro3: "Nezapomeň: tohle není obsáhlý průvodce, ale pomocník jak začít."
-  volunteers-header: "OSM je vybudován dobrovolníky..."
+  volunteers-header: "OSM je vybudován dobrovolníky"
   volunteers-description: "OpenStreetMap je vytvářen dobrovolníky, kteří se o místa zajímají. Narozdíl od mnoha mapovacích platform, zisk není hnacím faktorem pro vytváření dat. Všichni jednotlivci mají jedinečnou perspektivu na naše okolí a to je kdy projekt OSM ožívá, kdy je přidána barva komunity. Mapa bude pouze tak dobrá, jako je hloubka a šířka konzulutujících hlasů za jejím naplněním. Místní znalost je základem pro vytváření obsáhlého a udržitelného zdroje od vaší komunity a pro ni. Zapojení širší komunity a zajištění jejich zapojení do vašeho projektu je klíčové."
-  before-header: "Než začnete mapovat..."
+  before-header: "Než začnete mapovat"
   before-description: "Než začnete mapovat, je důležité zhodnotit věci jako je zapojení komunity, bezpečnost, využití nástrojů a dlouhodobá údržba dat. Víme, že už se nemůžete dočkat, až se do toho \"ponoříte\", ale zvažte nejprve"
   privacy-header: "Soukromí:"
   privacy-about: "Měla by být tato oblast mapována veřejně? Navzdory vašim dobrým záměrům je důležité zvážit, zda a jak lze použít prostorové informace proti komunitě, kterou byste chtěli zmapovat. Mnoho komunit po celém světě je zvyklých mít podrobné veřejné mapy svých oblastí. Dokonce i zveřejnění minimálních informací může být pro některé komunity nebezpečné. Některým komunitám může vyhovovat zveřejňování některých informací, ale ne všech. Ačkoli nikdy nedosáhnete úplné shody všech členů komunity, je důležité toto zvážit ve všech fázích vaší práce."
@@ -227,8 +227,8 @@ field:
   data:
     title: "Údržba dat:"
     about: "Co chcete zachytit, jak to chcete zachytit, jak dlouho budou data přesná/relevantní? Jaký je váš plán pro udržení aktuálních dat? Máte pomocníky?"
-  tools-header: "Porozumění vašim nástrojům:"
-  tools-about: "Porozumění vašim nástrojům: Missing Maps nespravuje nástroje sbírání dat, ale jsou zde některé z našich oblíbených zdrojů z OSM komunity:"  
+  tools-header: "Porozumění vašim nástrojům"
+  tools-about: "Missing Maps nespravuje nástroje sbírání dat, ale jsou zde některé z našich oblíbených zdrojů z OSM komunity:"  
   tools-list:
     - label: "<a href=\"https://opendatakit.org/\">Open Data Kit</a> - Open Data Kit byl vytvořen jako nástroj pro sběr mobilních dat pro nastavení omezená na zdroje. Za posledních 13 let projekt vyvinul dvě sady nástrojů (<a href=\"https://getodk.org/\">ODK</a>, ODK-X), které se staly domovem pro komunitu uživatelů, realizátorů a vývojářů."
     - label: "<a href=\"https://www.kobotoolbox.org/\">KoBo</a> - KoBoToolbox je sada nástrojů pro sběr dat v terénu pro použití v náročných podmínkách. "
@@ -236,8 +236,8 @@ field:
     - label: "<a href=\"https://osmand.net/\">OSMAnd</a> - mapa pro mapování a navigaci s volitelnou možností offline kapacity."
     - label: "<a href=\"http://posm.io/posm/intro/\">Portable OpenStreetMap (POSM)</a> - hardwarová/softwarová integrace vyvinutá pro mapování v terénu při nespolehlivém připojení k Internetu."
     - label: "<a href=\"https://www.opendronemap.org/\">OpenDroneMap</a> - udržitelná řešení pro sběr, zpracování, analýzu a zobrazení leteckých dat pro podporu komunit, které se jimi zabývají."
-  processing-header: "Zpracování:"
-  processing-about: "Zpracování: Takže teď, když už jste sesbírali data o komunitě, budete potřebovat zadat tyto informace do OpenStreetMap. V závislosti na tom, jak jste data sesbírali, existuje několik způsobů, jak to provést:"
+  processing-header: "Zpracování"
+  processing-about: "Takže teď, když už jste sesbírali data o komunitě, budete potřebovat zadat tyto informace do OpenStreetMap. V závislosti na tom, jak jste data sesbírali, existuje několik způsobů, jak to provést:"
   processing-list:
     - label: "Přímé editory (Maps.Me; OSMAnd…)"
     - label: "Urovnávnání mapových zápisků (poznámka=*) - někteří mapeři používají OSM editační aplikace k přidání zeměpisně označených zápisků do OSM, aby se na ně mohli později odkázat. Pokud jste to tak udělali, nezapoměňte projít své zápisky a udělejte žádoucí změny do map. Můžete snadno zobrazit všechny zápisky oblasti tím, že zapnete \"Map Notes\" překrytí v nastavení mapových vrstev v OpenStreetMap."
