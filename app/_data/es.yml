@@ -200,9 +200,9 @@ field:
   intro1: "Ahora que has mapeado un área como mejor has podido a partir de imágenes de satélite, quieres mapear tu comunidad con mayor detalle. ¿Tienes curiosidad acerca de qué hacer a continuación? Esta sección te ayudará a navegar la planificación, realización y procesado de una actividad de mapeo de la comunidad."
   intro2: "El objetivo final de esta actividad es capturar la perspectiva de lugares y personas únicos en el mapa. Para ello, lo ideal es contar con una comunidad diversa de mapeadores que pueden representar a las voces de la localidad. El establecimiento de una cultura sostenible de mapeo lleva tiempo y esfuerzo, y hay muchos pasos que puedes tomar para arrancar, hacer crecer y cuidar una comunidad."
   intro3: "Recordatorio: esto no pretende ser una guía completa, sino sólo ayudarte a arrancar."
-  volunteers-header: "OpenStreetMap está elaborado por voluntarios..."
+  volunteers-header: "OpenStreetMap está elaborado por voluntarios"
   volunteers-description: "OpenStreetMap está creado por voluntarios que se preocupan por los lugares. A diferencia de muchas otras plataformas de mapeo el beneficio económico no es el factor principal para crear datos. Todos nosotros tenemos perspectivas únicas sobre nuestro entorno y es así como OSM se hace realidad, cuando se añade el color de una comunidad. La calidad de un mapa viene dada por la cantidad y diversidad de las voces consultadas para completarlo. El conocimiento local es fundamental para crear un recurso integral y sostenible por y para tu comunidad. La inclusión de la comunidad en general y asegurar su participación en el proyecto es clave."
-  before-header: "Antes empieza a cartografiar... "
+  before-header: "Antes empieza a cartografiar"
   before-description: "Antes de empezar a cartografiar, es importante evaluar aspectos como la participación de la comunidad, la seguridad, los usos de las herramientas y el mantenimiento de los datos a largo plazo. Sabemos que no puedes esperar a sumergirte, pero primero considera."
   privacy-header: "Privacidad"
   privacy-about: "¿Debería mapearse esta zona de forma pública? A pesar de tus mejores intenciones, es importante considerar si y cómo la información espacial puede ser utilizada en contra de la comunidad que deseas mapear. Muchas comunidades en todo el mundo están acostumbradas a tener detallados mapas públicos de su zona. Sin embargo, a veces hacer pública incluso la más mínima información puede ser peligroso para algunas comunidades. Otras comunidades pueden estar conformes con un poco de información que se haga pública, pero no toda. Aunque nunca alcanzarás un pleno consenso de todos los miembros de la comunidad, es importante tener en cuenta esto en todas las etapas de tu trabajo."
@@ -229,8 +229,8 @@ field:
   data:
     title: "Mantenimiento de datos:"
     about: "¿Qué es lo que deseas capturar, cómo se desea capturar, cuánto tiempo serán exactos estos datos? ¿Cuál es tu plan para mantenerlos actualizados? ¿Tienes ayudantes?"
-  tools-header: "Entender tus herramientas:"
-  tools-about: "Entender tus herramientas: Missing Maps no gestiona herramientas de recopilación de datos, pero estos son algunos de nuestros recursos favoritos de la comunidad de OSM."
+  tools-header: "Entender tus herramientas"
+  tools-about: "Missing Maps no gestiona herramientas de recopilación de datos, pero estos son algunos de nuestros recursos favoritos de la comunidad de OSM."
   tools-list:
     - label: "<a href=\"https://opendatakit.org/\"> Open Data Kit </a> -. Open Data Kit se puso en marcha para crear herramientas móviles de recogida de datos para entornos con recursos limitados. A lo largo de los últimos 13 años, el proyecto ha producido dos conjuntos de herramientas (<a href=\"https://getodk.org/\"> ODK </a>, ODK-X) y se ha convertido en el hogar de una comunidad de usuarios, implementadores y desarrolladores."
     - label: "<a href=\"https://www.kobotoolbox.org/\"> Kobo </a> - KoBoToolbox es un conjunto de herramientas para la recolección de datos para su uso en entornos difíciles."
@@ -239,7 +239,7 @@ field:
     - label: "<a href=\"http://posm.io/posm/intro/\">Portable OpenStreetMap (POSM)</a> -  una integración de hardware y software desarrollada para llevar a cabo la cartografía sobre el terreno cuando la conectividad a Internet y a los móviles no es fiable."
     - label: "<a href=\"https://www.opendronemap.org/\"> OpenDroneMap </a> -. Soluciones sostenibles para la recogida, el tratamiento, el análisis y la visualización de datos aéreos, apoyando al mismo tiempo a las comunidades construidas a su alrededor."
   processing-header: "Procesamiento"
-  processing-about: "Procesamiento: Ahora que se han reunido datos sobre una comunidad, tendrás que poner esta información en OpenStreetMap. Dependiendo de la forma en que han recopilado los datos, hay varias maneras de hacerlo:"
+  processing-about: "Ahora que se han reunido datos sobre una comunidad, tendrás que poner esta información en OpenStreetMap. Dependiendo de la forma en que han recopilado los datos, hay varias maneras de hacerlo:"
   processing-list:
     - label: "Editores directos (Maps.Me; Osmand ...)"
     - label: "Conciliación de las notas del mapa (nota = *) - algunos cartógrafos utilizan aplicaciones de edición de OSM para añadir notas de geo-etiquetado para su posterior consulta a OSM. Si has hecho esto, no te olvides de ir a tus notas y hacer los cambios deseados en el mapa. Puedes ver todas las notas de un área mediante la activación de la superposición 'Notas de mapa' en la configuración de capas de mapa de OpenStreetMap."
