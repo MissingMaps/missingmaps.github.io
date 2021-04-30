@@ -468,7 +468,7 @@ checker:
         text: "<a href=\"https://osmcha.org/\">OSMCha</a> short for OpenStreetMap Changeset Analyzer is a web tool to help mappers analyze and review data changes to OSM. The objective of the tool is to help detect vandalism and act on bad changes to the map data.  If using the HOT-TM, you’ll find this tool at the bottom of your project page."
       subtitle2:
         title: "Osmose"
-        text: "<a href=\"osmose.openstreetmap.fr\"> Osmose</a> is a quality assurance tool that detects issues in OpenStreetMap data by showing anomalies. It is also useful for integrating third-party data sets by conflation."
+        text: "<a href=\"https://wiki.openstreetmap.org/wiki/Osmose/\"> Osmose</a> is a quality assurance tool that detects issues in OpenStreetMap data by showing anomalies. It is also useful for integrating third-party data sets by conflation."
       subtitle3:
         title: "Ohsome"
         text: "The <a href=\"https://api.ohsome.org/\">ohsome API</a> is a generic web API for analysing OSM history data. The ohsome API lets you analyze the rich data source of the OpenStreetMap history and is based on the OpenStreetMap History Database (OSHDB). You can either perform analyses using a dashboard-like application, or use the ohsome API directly and work with its CSV, JSON or GeoJSON responses."
