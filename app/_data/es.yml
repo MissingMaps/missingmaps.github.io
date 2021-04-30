@@ -292,7 +292,7 @@ about:
   objectives:
     title:      "Objetivos"
     text1:      "Cartografiar las zonas en las que viven las personas en riesgo de sufrir catástrofes y crisis contribuyendo a <a href =\"https://www.openstreetmap.org/\">OpenStreetMap</a> (OSM) para que las personas, las comunidades y las organizaciones puedan utilizar los datos y los mapas para prepararse y responder mejor."
-    text2:      "Apoyar a <a href=\"https://wiki.openstreetmap.org/wiki/Main_Page/\">OpenStreetMap</a>, y específicamente al <a href=\"http://hotosm.org\">Equipo Humanitario de OpenStreetMap</a> (HOT), en el desarrollo de una comunidad de voluntarios respaldada por los recursos financieros, tecnológicos y humanos necesarios para facilitar el crecimiento del proyecto Missing Maps y apoyar las necesidades de las organizaciones miembros del proyecto Missing Maps."
+    text2:      "Apoyar a <a href=\"https://wiki.openstreetmap.org/wiki/Main_Page\">OpenStreetMap</a>, y específicamente al <a href=\"http://hotosm.org\">Equipo Humanitario de OpenStreetMap</a> (HOT), en el desarrollo de una comunidad de voluntarios respaldada por los recursos financieros, tecnológicos y humanos necesarios para facilitar el crecimiento del proyecto Missing Maps y apoyar las necesidades de las organizaciones miembros del proyecto Missing Maps."
   ethics:    
     title:  "Ética"
     people: 
