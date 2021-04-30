@@ -292,7 +292,7 @@ about:
       text1:   "Missing Maps is a project led by a collective of organizations working towards a common goal of creating accessible map data where humanitarian organizations are operating. Each member organization carries out their own mapping activities with their wider communities guided by shared ethics. Missing Maps would be nothing without this collaboration of participating organizations, communities and individuals. To achieve this goal, Missing Maps organizations grow a global community of mappers to support those living in places at risk as they put themselves on the map. OpenStreetMap is the volunteer-driven open data mapping platform which makes all of this possible, supported by the not-for-profit OpenStreetMap Foundation. Welcome to the community!"
   objectives:
     title:      "Objectives"
-    text1:      "To map areas where people live at risk of disasters and crises by contributing to <a href=\"openstreetmap.org\">OpenStreetMap</a> (OSM) so that individuals, communities and organizations can use the data and maps to better prepare and respond."
+    text1:      "To map areas where people live at risk of disasters and crises by contributing to <a href =\"https://www.openstreetmap.org/\">OpenStreetMap</a> (OSM) so that individuals, communities and organizations can use the data and maps to better prepare and respond."
     text2:      "To support <a href=\"https://wiki.openstreetmap.org/wiki/Main_Page/\">OpenStreetMap</a> , specifically the <a href=\"http://hotosm.org\">Humanitarian OpenStreetMap Team (HOT)</a>, in developing technologies, skills, workflows, and communities."
   ethics:
     title:  "Ethics"
