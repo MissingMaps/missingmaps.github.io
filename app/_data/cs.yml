@@ -288,6 +288,10 @@ about:
     text1:   "Missing Maps je projekt vedený skupinou organizací, které se společně snaží vytvořit dostupná mapová data v místech, kde operují humanitární organizace. Každá členská organizace provádí vlastní mapovací aktivity se svými širšími komunitami na základě sdílených pravidel. Missing Maps by nebylo nic bez této spolupráce organizací, komunit a jednotlivců. Pro dosažení tohoto cíle si organizace Missing Maps buduje globální komunitu mapujících, aby mohli podporovat ty, kteří žijí v ohrožených místech. OpenStreetMapa je otevřená mapovací platforma založená na principu dobrovolnictví, která toto vše umožňuje, a která je podporována neziskovou organizací OpenStreetMap Foundation. Vítejte v komunitě!"
   objectives:
     title:      "Cíle"
+    text1: "To map areas where people live at risk of disasters and crises by contributing to <a href=\"openstreetmap.org\">OpenStreetMap</a> (OSM) so that individuals, communities and organizations can use the data and maps to better prepare and respond."
+    text2: "To support <a href=\"http://openstreetmap.org\">OpenStreetMap</a> , specifically the <a href=\"http://hotosm.org\">Humanitarian OpenStreetMap Team (HOT)</a>, in developing technologies, skills, workflows, and communities."
+  ethics:  
+    title:  "Ethics"
     people: 
       title: "Lidé"
       text1: "Lidé jsou vždy důležitější než data. Všechny aktivity Missing Maps plně respektují nejlepší zájmy a potřeby komunity a jednotlivcům, před přidáním dat do OSM."
