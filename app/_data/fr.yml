@@ -459,10 +459,10 @@ checker:
       text: "<a href=\"https://osmcha.org/\">OSMCha</a> abréviation d'OpenStreetMap Changeset Analyzer est un outil en ligne pour aider les contributeurs à analyser et revoir les changements de données apportés à OSM. L'objectif de cet outil est d'aider à détecter le vandalisme et les mauvais changements dans les données de la carte. Si vous utilisez le Tasking Manager de HOT, vous trouverez cet outil en bas de la page projet."
     subtitle2:
       title: "Osmose"
-      text: "<a href=\"osmose.openstreetmap.fr\"> Osmose</a> est un outil de contrôle de qualité détectant les problèmes dans les données OSM en indiquant les anomalies. C'est aussi utile pour intégrer un jeu de données tierce par couplage."
+      text: "<a href=\"https://wiki.openstreetmap.org/wiki/Osmose/\"> Osmose</a> est un outil de contrôle de qualité détectant les problèmes dans les données OSM en indiquant les anomalies. C'est aussi utile pour intégrer un jeu de données tierce par couplage."
     subtitle3:
       title: "Ohsome"
-      text: "The <a href=\"https://api.ohsome.org/\">ohsome API</a> iest une interface générique de programme d'application (API) en ligne pour analyser l'historique de données OSM. Ohsome API vous permet d'analyser la riche source de données de l'historique d'OpenStreetMap à partir de la base de données de l'historique d'OSM (OSHDB). Vous pouvez soit effectuer des analyses à l'aide d'une application de type tableau de bord, soit utiliser directement l'API ohsome et travailler avec ses réponses CSV, JSON ou GeoJSON."
+      text: "<a href=\"https://api.ohsome.org/\"> Le ohsome API</a> est une interface générique de programme d'application (API) en ligne pour analyser l'historique de données OSM. Ohsome API vous permet d'analyser la riche source de données de l'historique d'OpenStreetMap à partir de la base de données de l'historique d'OSM (OSHDB). Vous pouvez soit effectuer des analyses à l'aide d'une application de type tableau de bord, soit utiliser directement l'API ohsome et travailler avec ses réponses CSV, JSON ou GeoJSON."
     subtitle4:
       title: "Tableau de bord des mapathons CartONG"
       text: "A la recherche d'un autre moyen de suivre les modifications de votre groupe ? CartONG vous met à disposition <a target=\"_blank\" href=\"http://mapathon.cartong.org/\">vous met à disposition</a>."
