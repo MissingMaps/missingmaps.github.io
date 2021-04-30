@@ -289,7 +289,7 @@ about:
   objectives:
     title:      "Cíle"
     text1: "To map areas where people live at risk of disasters and crises by contributing to <a href =\"https://www.openstreetmap.org/\">OpenStreetMap</a> (OSM) so that individuals, communities and organizations can use the data and maps to better prepare and respond."
-    text2: "To support <a href=\"https://wiki.openstreetmap.org/wiki/Main_Page/\">OpenStreetMap</a> , specifically the <a href=\"http://hotosm.org\">Humanitarian OpenStreetMap Team (HOT)</a>, in developing technologies, skills, workflows, and communities."
+    text2: "To support <a href=\"https://wiki.openstreetmap.org/wiki/Main_Page\">OpenStreetMap</a> , specifically the <a href=\"http://hotosm.org\">Humanitarian OpenStreetMap Team (HOT)</a>, in developing technologies, skills, workflows, and communities."
   ethics:  
     title:  "Ethics"
     people: 
