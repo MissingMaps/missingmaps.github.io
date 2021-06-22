@@ -623,15 +623,30 @@
   text-transform: uppercase;
 }
 
-.videobox{
+.videobox-light{
   padding: 10px 30px 60px 30px;
   .sub-head{
     padding-top: 10px;
     font-size: 1.2em;
   }
+  hr{
+    margin: 2px 0px 10px 0px;
+  }
+}
+
+.videobox{
+  padding: 10px 30px 60px 30px;
+  .sub-head{
+    padding-top: 10px;
+    font-size: 1.2em;
+    color: #b0b0b0;
+  }
   .textbox{
     p{
-      color: #797b7b;
+      color: #b0b0b0;
+    }
+    li {
+      color: #b0b0b0;
     }
   }
   hr{
