@@ -175,7 +175,7 @@ beginner:
   advanced: "CARTOGRAPHIE AVANCÉE"
   field: "CARTOGRAPHIE DE TERRAIN"
   stepAccount: "Créez un compte OpenStreetMap et Tasking Manager"
-  stepAccount_text:   "Allez sur le <a href=\"tasks.hotosm.org\">Tasking Manager</a> de l'équipe humanitaire OpenStreetMap pour créer un compte. Suivez le lien dans le mail qui vous sera envoyé pour valider la création de votre compte."
+  stepAccount_text:   "Allez sur le <a href=\"https://tasks.hotosm.org/\">Tasking Manager</a> de l'équipe humanitaire OpenStreetMap pour créer un compte. Suivez le lien dans le mail qui vous sera envoyé pour valider la création de votre compte."
   stepBuildings: "Apprenez à cartographier les bâtiments"
   stepBuildings_text:   "Les bâtiments sont un des éléments les plus utiles que vous pouvez ajouter à OpenStreetMap (et c'est amusant aussi)! Apprenez comment ajouter ou éditer les bâtiments dans OSM avec l'éditeur iD."
   stepRoads: "Apprenez à cartographier les routes"

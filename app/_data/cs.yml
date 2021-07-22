@@ -177,7 +177,7 @@ beginner:
   advanced:     "Pokročilé mapování"
   field:        "Mapování terénu"
   stepAccount:        "Vytvořte si účet na Open Street Map a na HOT Tasking Manageru"
-  stepAccount_text:   "Navštivte webovou stránku <a href=\"tasks.hotosm.org\">Tasking Manageru humanitárního OpenStreetMap týmu</a> pro vytvoření účtu. Přejděte na webový odkaz v emailu, který Vám bude odeslán pro potvrzení účtu."
+  stepAccount_text:   "Navštivte webovou stránku <a href=\"https://tasks.hotosm.org/\">Tasking Manageru humanitárního OpenStreetMap týmu</a> pro vytvoření účtu. Přejděte na webový odkaz v emailu, který Vám bude odeslán pro potvrzení účtu."
   stepBuildings:        "Naučte se mapovat budovy"
   stepBuildings_text:   "Budovy jsou jedním z nejužitečnějších objektů, které můžete přidat do OpenStreetMap (a je s nimi i zábava!) Naučte se, jak přidávat a upravovat budovy v OSM přes iD editor."
   stepRoads:        "Naučte se mapovat silnice"

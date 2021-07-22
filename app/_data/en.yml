@@ -178,7 +178,7 @@ beginner:
   advanced:     "Advanced Mapping"
   field:        "Field Mapping"
   stepAccount:        "Create an OpenStreetMap and Tasking Manager account"
-  stepAccount_text:   "Go to the Humanitarian OpenStreetMap Team’s <a href=\"tasks.hotosm.org\">Tasking Manager website</a> to create an account. Follow the link in the email they send to confirm your account."
+  stepAccount_text:   "Go to the Humanitarian OpenStreetMap Team’s <a href=\"https://tasks.hotosm.org/\">Tasking Manager website</a> to create an account. Follow the link in the email they send to confirm your account."
   stepBuildings:        "Learn to map buildings"
   stepBuildings_text:   "Buildings are one of the most useful things you can add to OpenStreetMap (and they're fun too)! Learn how to add and edit buildings to OSM through the iD editor."
   stepRoads:        "Learn to map roads"
