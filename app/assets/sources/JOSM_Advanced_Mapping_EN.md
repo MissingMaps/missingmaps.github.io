@@ -171,7 +171,7 @@ To map with the Extrude tool," first draw a rectangle using the `buildings_tool`
 
 Another way to map complex buildings is by combining multiple simple shapes. This is particularly useful if a building has a round feature or is too complex to be properly orthogonalized with the `Q` shortcut. Draw as many shapes as necessary to complete the building. Ensure that individual shapes are orthogonalized or made circular and that they all overlap with at least one other shape. Using the `buildings_tool` plugin is very helpful for this step, especially when having the first shape selected so that the proceeding shapes are drawn in alignment. When all shapes are drawn, select them all and use the "join overlapping areas" tool with the shortcut `Shift+J`. You may have to do a bit of cleanup after the join to remove unwanted nodes.
 
-![](ComplexShapes2.png)
+![](https://arcmaps.s3.amazonaws.com/share/validationPictures/ComplexShapes2.png)
 
 Another tip for drawing complex buildings is to first trace along the roof of the building where the shape is more visible as seen in the above example. After you're satisfied with the shape, move it by dragging it and align it properly with the building footprint.
 
