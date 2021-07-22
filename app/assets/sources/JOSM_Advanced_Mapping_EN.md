@@ -117,7 +117,6 @@ Basic:
 - `A` = add nodes tool
 - `M` = merge nodes
 - `G` = unglue nodes
-- `M` = merge nodes
 - `C` = combine two sections of way into one
 - `P` = splits a section of a way
 - `Shift+Ctrl` = rotate object
