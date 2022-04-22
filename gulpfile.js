@@ -119,7 +119,7 @@ function validationPdf(cb) {
 }
 exports.validationPdf = validationPdf;
 
-function josmPdf(cb) {
+function josmPdfEN(cb) {
   markdownpdf({
         cssPath: 'app/assets/styles/github-markdown.css',
         paperFormat: 'Letter'})
@@ -129,7 +129,19 @@ function josmPdf(cb) {
       cb();
     }) 
 }
-exports.josmPdf = josmPdf;
+exports.josmPdfEN = josmPdfEN;
+
+function josmPdfES(cb) {
+  markdownpdf({
+        cssPath: 'app/assets/styles/github-markdown.css',
+        paperFormat: 'Letter'})
+    .from('app/assets/sources/Validating_Data_ES.md')
+    .to(".tmp/assets/downloads/Validating_Data_ES.pdf", function () { 
+      console.log("Done converting Validating_Data_ES.md to PDF.")
+      cb();
+    }) 
+}
+exports.josmPdfES = josmPdfES;
 
 
 function cloneBlog(cb) {
@@ -178,7 +190,7 @@ exports.serve = gulp.series(
   clean,
   gulp.parallel(cloneBlog, grabEvents, grabEventHelpers),
   jekyll, 
-  gulp.parallel(javascripts, styles, icons, zipMaterials, validationPdf, josmPdf), 
+  gulp.parallel(javascripts, styles, icons, zipMaterials, validationPdf, josmPdfEN, josmPdfES), 
   copyAssets, 
   watching);
 
@@ -189,7 +201,7 @@ exports.prod = gulp.series(
   gulp.parallel(cloneBlog, grabEvents, grabEventHelpers), 
   setProd, 
   jekyll, 
-  gulp.parallel(javascripts, styles, icons, zipMaterials, validationPdf, josmPdf), 
+  gulp.parallel(javascripts, styles, icons, zipMaterials, validationPdf, josmPdfEN, josmPdfES), 
   copyAssets);
 
 
