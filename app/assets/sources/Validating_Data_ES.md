@@ -42,13 +42,13 @@ Antes de validar el trabajo de los demás, usted mismo debe ser un mapeador expe
 En el [HOT Tasking Manager](http://tasks.hotosm.org), elija un proyecto para validar desde la página "Explorar proyectos". El progreso de cada proyecto está marcado por una barra visible en la parte inferior de cada tarjeta de proyecto. La porción roja indica la cantidad validada, la porción gris oscuro indica la cantidad mapeada y la porción gris claro indica la cantidad que queda por mapear. Al hacer clic en el proyecto, puede pasar el cursor sobre cada sección de la barra de progreso para obtener porcentajes exactos.
 
 
-![](https://www.missingmaps.org/img/images/ValidGettingStarted1_ES.png)
+![](https://missingmaps.org/img/images/ValidGettingStarted1_ES.png)
 
 
 
 Observe en la página principal del proyecto en "Equipos y permisos" que solo ciertos usuarios pueden mapear y validar un proyecto. Estos permisos son configurados por el Administrador de proyectos. Si no cumple con el nivel de experiencia especificado o no forma parte del equipo enumerado, no puede contribuir al proyecto.
 
-![](https://www.missingmaps.org/img/images/ValidGettingStarted2_ES.png)
+![](https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidGettingStarted2_ES.png)
 
 
 
@@ -57,7 +57,7 @@ Continúe mapeando y construyendo sus habilidades hasta que cumpla con los requi
 Antes de comenzar a validar, debe comprender el objetivo del proyecto leyendo sus pestañas "Descripción" e "Instrucciones". La descripción estará en la página principal del proyecto, mientras que las instrucciones se pueden leer después de presionar el botón 'Contribuir'. Esto le dirá qué entidades debe asignar, cómo etiquetarlas, qué imágenes usar y cualquier otra consideración del Gestor de proyecto. Cada proyecto es único y es importante seguir cuidadosamente las instrucciones del Gestor de Proyecto para asegurarse de que el área se mapea de manera consistente. Aquí hay un ejemplo de la descripción y las instrucciones para una tarea:
 
 
-![](https://www.missingmaps.org/img/images/UnderstandingYourProject1_ES.png)
+![](https://raw.githubusercontent.com/MissingMaps/img/main/images/UnderstandingYourProject1_ES.png)
 
 
 ### Tareas de apertura
@@ -82,7 +82,7 @@ Si hay un problema de mapeo que un usuario intermedio o avanzado de JOSM puede s
 También debe verificar si el proyecto aún se está trabajando. Si la última persona en editar el proyecto lo hizo hace varios meses, es mejor que termine lo que queda y valide. Lo mismo ocurre si el usuario cuyo trabajo está validando no ha utilizado OSM en muchos meses. Puede ver la actividad del proyecto en la página principal del proyecto. Una vez que abra una tarea, puede ver su actividad dentro de la pestaña "Historial" de la barra lateral a la derecha. Las actividades individuales del usuario se pueden encontrar haciendo clic en el nombre de usuario del usuario en esta pestaña. Se le llevará a su perfil de Tasking Manager. Si vuelve a hacer clic en su nombre de usuario en esta página donde ve el símbolo de OSM, se le llevará a su perfil de OSM.
 
 
-![](https://www.missingmaps.org/img/images/ValidGettingStarted3_ES.png)
+![](https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidGettingStarted3_ES.png)
 
 
 
@@ -93,13 +93,13 @@ Una vez que haya revisado la tarea asignada de un usuario, puede marcar la tarea
 Puede ver la lista de personas que han trabajado en la tarea debajo de la pestaña historial:
 
 
-![](https://www.missingmaps.org/img/images/ValidGettingStarted4_ES.png)
+![](https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidGettingStarted4_ES.png)
 
 
 Es posible que haya habido muchas personas que contribuyeron, así que asegúrese de agradecerles por su trabajo, incluso si hay algunos errores o problemas. Esto puede animarlos a volver y mapear de nuevo. Si notó errores, como cualquiera de las advertencias de validación que vimos anteriormente u otras cosas como edificios que no estaban cuadrados o carreteras que faltaban, tenga en cuenta eso en el comentario también, cortésmente. Esto puede ayudar al mapeador a aprender para que la próxima vez haga un mejor trabajo.
 
 
-![](https://www.missingmaps.org/img/images/ValidGettingStarted5_ES.png)
+![](https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidGettingStarted5_ES.png)
 
 
 
@@ -149,7 +149,7 @@ Si tiene elementos seleccionados, la herramienta Validación solo verificará es
 Haga clic en el botón "Validación" en el panel. Eso ejecutará una comprobación de una serie de errores potenciales.
 
 
-![](https://www.missingmaps.org/img/images/JOSM01_Validacion.png)
+![](https://raw.githubusercontent.com/MissingMaps/img/main/images/JOSM01_Validacion.png)
 
 
 
@@ -157,14 +157,14 @@ Verá aparecer una lista de advertencias (su lista puede variar):
 
 
 
-![](https://www.missingmaps.org/img/images/JOSM02_Resultados%20validacion.png)
+![](https://raw.githubusercontent.com/MissingMaps/img/main/images/JOSM02_Resultados%20validacion.png)
 
 
 
 También aparece una nueva capa en el panel Capas, que muestra dónde están los errores. Es posible que le resulte conveniente ocultar esta capa por ahora haciendo clic en el icono del ojo junto al nombre. Es un poco más fácil ver sus datos con esa capa desactivada.
 
 
-![](https://www.missingmaps.org/img/images/JOSM03_Layers.png)
+![](https://raw.githubusercontent.com/MissingMaps/img/main/images/JOSM03_Layers.png)
 
 
 Veamos algunas de las advertencias. La mayoría de estos necesitamos arreglarlos, pero podemos ignorar "caminos sin nombre" ya que no sabremos estos nombres de carreteras.
@@ -172,7 +172,7 @@ Veamos algunas de las advertencias. La mayoría de estos necesitamos arreglarlos
 El resto, sin embargo, debemos mirarlo. Para ampliar un problema, haga clic en el menú desplegable, luego haga clic derecho en uno de ellos y haga clic en "Acercar al problema" y se resaltará y ampliará el error.
 
 
-![](https://www.missingmaps.org/img/images/JOSM04_zoom%20to%20problem.png)
+![](https://raw.githubusercontent.com/MissingMaps/img/main/images/JOSM04_zoom%20to%20problem.png)
 
 
 Muchas veces se trata de errores que nunca hubiéramos detectado sin la herramienta de Validación.
@@ -200,7 +200,7 @@ Una herramienta útil para desplazarse a través de la tarea es el complemento m
 "Markseen Viewer" para mostrar áreas del mapa que ya has revisado.
 
 
-![](https://www.missingmaps.org/img/images/screen_20170828.png)
+![](https://raw.githubusercontent.com/MissingMaps/img/main/images/screen_20170828.png)
 
 
 ## Carreteras
@@ -212,7 +212,7 @@ Si faltan carreteras en el cuadrado de tareas, agréguelas utilizando el esquema
 Otro problema común con las carreteras es nombrarlas de forma incorrecta. Para el mapeo remoto, generalmente no sabremos cuál es el nombre, ya que no estamos familiarizados con estas áreas. Pero a veces las personas nombran erróneamente a las carreteras "carretera" o agregan algo más que es una descripción, no un nombre. El campo Nombre debe ser un nombre propio como "Autopista 1" o "Avenida Norte". Para encontrar todas las carreteras con nombre, haga clic en 'Ctrl + F' y luego escriba 'highway=* name=*'
 
 
-![](https://www.missingmaps.org/img/images/JOSM06_buscar.png)
+![](https://raw.githubusercontent.com/MissingMaps/img/main/images/JOSM06_buscar.png)
 
 
 Así encontrarán todos los caminos que tienen nombre. Haga clic en cada uno para ver cuál es el nombre y si parece correcto. Si es algo descriptivo como "carretera" o "camino de tierra", puede ser incorrecto, el mapeador podría haber tenido la intención de etiquetarlo, pero cambió el nombre por error. Retírelo si le parece mal. Pero tenga cuidado, no queremos eliminar datos precisos.
@@ -266,7 +266,7 @@ Los polígonos etiquetados como edificios con más de 4 nodos a menudo deben hac
 De esta forma encontrará todo lo que está etiquetado como un edificio en su vista actual con 4 o más nodos.
 
 
-![](https://www.missingmaps.org/img/images/JOSM07_building4.png)
+![](https://raw.githubusercontent.com/MissingMaps/img/main/images/JOSM07_building4.png)
 
 
 
@@ -294,7 +294,7 @@ Al editar entidades en un área ya asignada, es importante preservar la informac
 Ejemplo de ediciones de mapeo de Tasking Manager:
 
 
-![](https://www.missingmaps.org/img/images/JOSM08_historial.png)
+![](https://raw.githubusercontent.com/MissingMaps/img/main/images/JOSM08_historial.png)
 
 
 Ejemplo de ediciones de un mapeador local:
@@ -318,7 +318,7 @@ Usando la función de búsqueda JOSM anterior, puede seleccionar todos los eleme
 El complemento Todo List es extremadamente útil para los mapeadores principiantes que aún no se sienten cómodos al escanear la imagen en busca de elementos, y ayuda a asegurarse de que se mire cada elemento individual. Para obtener más información, consulte la [Página wiki del complemento Todo List](https://wiki.openstreetmap.org/wiki/JOSM/Plugins/TODO_list).
 
 
-![](https://www.missingmaps.org/img/images/JOSM09_todo%20list.png)
+![](https://raw.githubusercontent.com/MissingMaps/img/main/images/JOSM09_todo%20list.png)
 
 
 ### Uso de estilos de pintura
@@ -334,7 +334,7 @@ También es importante asegurarse de no eliminar los datos precisos existentes. 
 Para agregar el estilo de pintura, haga clic en el menú de Windows y vaya a Asignar estilos de pintura ... que abrirá un menú en JOSM:
 
 
-![](https://www.missingmaps.org/img/images/JOSM10_estilos.png)
+![](https://raw.githubusercontent.com/MissingMaps/img/main/images/JOSM10_estilos.png)
 
 
 Luego haga clic en el botón de configuración de estilo de pintura en la parte inferior derecha.
@@ -342,13 +342,13 @@ Luego haga clic en el botón de configuración de estilo de pintura en la parte 
 Haga clic en el signo más en la parte superior derecha para agregar uno nuevo.
 
 
-![](https://www.missingmaps.org/img/images/JOSM11_config%20estilos.png)
+![](https://raw.githubusercontent.com/MissingMaps/img/main/images/JOSM11_config%20estilos.png)
 
 
 Escriba un nombre como Validación de mapas pendientes o lo que desee, y coloque [https://github.com/MissingMaps/josm_styles/archive/master.zip](https://github.com/MissingMaps/josm_styles/archive/master.zip) en el campo URL, y el estilo de pintura aparecerá en la ventana Estilos de pintura de mapa.
 
 
-![](https://www.missingmaps.org/img/images/JOSM12_MMaps%20validation.png)
+![](https://raw.githubusercontent.com/MissingMaps/img/main/images/JOSM12_MMaps%20validation.png)
 
 
 Hay cuatro colores que puede ver, más algunos triángulos, correspondientes a los errores mencionados anteriormente:
