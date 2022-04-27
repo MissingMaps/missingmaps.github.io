@@ -42,7 +42,7 @@ Antes de validar el trabajo de los demás, usted mismo debe ser un mapeador expe
 En el [HOT Tasking Manager](http://tasks.hotosm.org), elija un proyecto para validar desde la página "Explorar proyectos". El progreso de cada proyecto está marcado por una barra visible en la parte inferior de cada tarjeta de proyecto. La porción roja indica la cantidad validada, la porción gris oscuro indica la cantidad mapeada y la porción gris claro indica la cantidad que queda por mapear. Al hacer clic en el proyecto, puede pasar el cursor sobre cada sección de la barra de progreso para obtener porcentajes exactos.
 
 
-![](https://missingmaps.org/img/images/ValidGettingStarted1_ES.png)
+![](https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidGettingStarted1_ES.png)
 
 
 
