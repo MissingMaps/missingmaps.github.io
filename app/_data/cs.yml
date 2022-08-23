@@ -190,6 +190,9 @@ beginner:
 ##############
 advanced:
   title:        "Pokročilé mapování"
+  links:
+    guide: "JOSM Guide"
+    advancedJOSM_pdf: "JOSM_Advanced_Mapping_EN.pdf"
   josm:         "JOSM je silný OSM editovací nástroj, který znásobí tvoje mapovací dovednosti! Doporučujeme maperům, kteří chtějí povznést své mapování na vyšší level používat tento nástroj. Nejprve si musíte aplikaci stáhnout <a href=\"https://josm.openstreetmap.de/wiki/Download\">zde</a> Aplikace je dostupná pro PC i MAC. V porovnání s iD editorem nemusí být nastavení tak snadné, proto počítejte s dostatkem času k orientaci v JOSM před tím než se pustíte do samotného mapování. Jakmile začnete jednou mapovat v JOSM, nebudete chtít jinak!"
 
 ###########

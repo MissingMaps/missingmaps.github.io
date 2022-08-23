@@ -107,7 +107,7 @@ function zipMaterials() {
 }
 exports.zipMaterials = zipMaterials;
 
-function validationPdf(cb) {
+function AdvJosmPdfEN(cb) {
   markdownpdf({
         cssPath: 'app/assets/styles/github-markdown.css',
         paperFormat: 'Letter'})
@@ -117,9 +117,21 @@ function validationPdf(cb) {
       cb();
     }) 
 }
-exports.validationPdf = validationPdf;
+exports.AdvJosmPdfEN = AdvJosmPdfEN;
 
-function josmPdfEN(cb) {
+function AdvJosmPdfFR(cb) {
+  markdownpdf({
+        cssPath: 'app/assets/styles/github-markdown.css',
+        paperFormat: 'Letter'})
+    .from('app/assets/sources/JOSM_Advanced_Mapping_FR.md')
+    .to(".tmp/assets/downloads/JOSM_Advanced_Mapping_FR.pdf", function () { 
+      console.log("Done converting JOSM_Advanced_Mapping_FR.md to PDF.")
+      cb();
+    }) 
+}
+exports.AdvJosmPdfFR = AdvJosmPdfFR;
+
+function validationPdfEN(cb) {
   markdownpdf({
         cssPath: 'app/assets/styles/github-markdown.css',
         paperFormat: 'Letter'})
@@ -129,9 +141,9 @@ function josmPdfEN(cb) {
       cb();
     }) 
 }
-exports.josmPdfEN = josmPdfEN;
+exports.validationPdfEN = validationPdfEN;
 
-function josmPdfES(cb) {
+function validationPdfES(cb) {
   markdownpdf({
         cssPath: 'app/assets/styles/github-markdown.css',
         paperFormat: 'Letter'})
@@ -141,7 +153,7 @@ function josmPdfES(cb) {
       cb();
     }) 
 }
-exports.josmPdfES = josmPdfES;
+exports.validationPdfES = validationPdfES;
 
 
 function cloneBlog(cb) {
@@ -190,7 +202,7 @@ exports.serve = gulp.series(
   clean,
   gulp.parallel(cloneBlog, grabEvents, grabEventHelpers),
   jekyll, 
-  gulp.parallel(javascripts, styles, icons, zipMaterials, validationPdf, josmPdfEN, josmPdfES), 
+  gulp.parallel(javascripts, styles, icons, zipMaterials, AdvJosmPdfEN, AdvJosmPdfFR, validationPdfEN, validationPdfES), 
   copyAssets, 
   watching);
 
@@ -201,7 +213,7 @@ exports.prod = gulp.series(
   gulp.parallel(cloneBlog, grabEvents, grabEventHelpers), 
   setProd, 
   jekyll, 
-  gulp.parallel(javascripts, styles, icons, zipMaterials, validationPdf, josmPdfEN, josmPdfES), 
+  gulp.parallel(javascripts, styles, icons, zipMaterials, AdvJosmPdfEN, AdvJosmPdfFR, validationPdfEN, validationPdfES), 
   copyAssets);
 
 
