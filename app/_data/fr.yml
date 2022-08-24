@@ -191,7 +191,7 @@ advanced:
   title: "CARTOGRAPHIE AVANCÉE"
   links:
     guide: "Manuel de cartographie avancée avec JOSM"
-    advancedJOSM_pdf: "JOSM_Advanced_Mapping_EN.pdf"
+    advancedJOSM_pdf: "JOSM_Advanced_Mapping_FR.pdf"
   josm: "JOSM est un outil d'édition puissant d'OpenStreetMap qui optimisera vos compétences cartographiques ! Nous recommandons aux cartographes qui veulent améliorer leur cartographie d'utiliser cet outil. Premièrement, vous aurez besoin de télécharger l'application. Vous pouvez le faire <a href=\"https://josm.openstreetmap.de/wiki/Download\">ici</a>. Cette application est disponible pour les Macs et les PCs. En comparaison avec l'iD Editor, le processus d'installation n'est pas de tout repos, alors laissez vous du temps pour naviguer sur ce nouvel outil avant de commencer à cartographier. Une fois que vous êtes familier avec JOSM, vous ne reviendrez plus jamais en arrière !"
   
 ###########
