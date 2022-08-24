@@ -191,7 +191,9 @@ beginner:
 ##############
 advanced:
   title:        "Mapeo Avanzado"
-  guide: "JOSM Guide"
+  links:
+    guide: "JOSM Guide"
+    advancedJOSM_pdf: "JOSM_Advanced_Mapping_EN.pdf"
   josm:         "JOSM es una potente herramienta de edición de OpenStreetMap que impulsará tu capacidad de mapeo. Recomendamos que los mapeadores que quieren mejorar su nivel de mapeo empiecen a utilizar esta herramienta. En primer lugar, tendrás que descargar la aplicación. Puedes hacerlo <a href=\"https://josm.openstreetmap.de/wiki/Download\">aquí</a> . Esta aplicación está disponible tanto para Mac como PC. Comparada con el editor de iD, el proceso de instalación puede no ser nada fácil, así que date tiempo para navegar por esta nueva herramienta antes de saltar a mapear. ¡Una vez que empieces a usar JOSM nunca te plantearás volver a lo de antes!"
 
 ###########
