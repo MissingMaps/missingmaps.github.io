@@ -131,6 +131,18 @@ function AdvJosmPdfFR(cb) {
 }
 exports.AdvJosmPdfFR = AdvJosmPdfFR;
 
+function AdvJosmPdfES(cb) {
+  markdownpdf({
+        cssPath: 'app/assets/styles/github-markdown.css',
+        paperFormat: 'Letter'})
+    .from('app/assets/sources/JOSM_Advanced_Mapping_ES.md')
+    .to(".tmp/assets/downloads/JOSM_Advanced_Mapping_ES.pdf", function () { 
+      console.log("Done converting JOSM_Advanced_Mapping_ES.md to PDF.")
+      cb();
+    }) 
+}
+exports.AdvJosmPdfES = AdvJosmPdfES;
+
 function validationPdfEN(cb) {
   markdownpdf({
         cssPath: 'app/assets/styles/github-markdown.css',
@@ -202,7 +214,7 @@ exports.serve = gulp.series(
   clean,
   gulp.parallel(cloneBlog, grabEvents, grabEventHelpers),
   jekyll, 
-  gulp.parallel(javascripts, styles, icons, zipMaterials, AdvJosmPdfEN, AdvJosmPdfFR, validationPdfEN, validationPdfES), 
+  gulp.parallel(javascripts, styles, icons, zipMaterials, AdvJosmPdfEN, AdvJosmPdfFR, AdvJosmPdfES, validationPdfEN, validationPdfES), 
   copyAssets, 
   watching);
 
@@ -213,7 +225,7 @@ exports.prod = gulp.series(
   gulp.parallel(cloneBlog, grabEvents, grabEventHelpers), 
   setProd, 
   jekyll, 
-  gulp.parallel(javascripts, styles, icons, zipMaterials, AdvJosmPdfEN, AdvJosmPdfFR, validationPdfEN, validationPdfES), 
+  gulp.parallel(javascripts, styles, icons, zipMaterials, AdvJosmPdfEN, AdvJosmPdfFR, AdvJosmPdfES, validationPdfEN, validationPdfES), 
   copyAssets);
 
 
