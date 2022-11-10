@@ -13,6 +13,7 @@ Inicie JOSM. Es posible que tenga que hacer clic con el botón derecho y elegir 
 Cuando JOSM se abra, verás una pantalla gris con algunas noticias y actualizaciones y una serie de botones. Queremos añadir algunos plugins incluyendo el plugin “building_tools” para ayudar a mapear más eficientemente.
  
 Para añadir plugins, haz clic en el botón que parece dos deslizadores: esta la ventana de preferencias. También se puede acceder a ella en el menú "Edición" o pulsando “F12”).
+
 <img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/AdvJOSM_ES_03_Preferences.png" width="600"/>
  
 En la ventana de Preferencias, el cuarto botón hacia abajo parece una pieza de rompecabezas, ese es el menú Plug-In. Haga clic en él. (En algunos ordenadores estos botones son muy pequeños).
