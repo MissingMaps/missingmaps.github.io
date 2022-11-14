@@ -1,8 +1,8 @@
-![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_mmLogo.png)
+![01_MissingMaps logo](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_mmLogo.png)
 
 # Advanced Mapping Using JOSM
 
-![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_mapathon.png)
+![02_People mapping together](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_mapathon.png)
 
 ## Pre-Mapping Setup
 
@@ -14,15 +14,15 @@ When JOSM opens, you'll see a gray screen with some news and updates and a numbe
 
 To add plugins, click the button that looks like two sliders - that's the preferences window. It can also be accessed in the menu under "Edit" or by pressing `F12`.)
 
-![](https://arcmaps.s3.amazonaws.com/share/validationPictures/PreMappingOverview.png)
+![03_preferences](https://arcmaps.s3.amazonaws.com/share/validationPictures/PreMappingOverview.png)
 
 In the Preferences window, the fourth button down looks like a puzzle piece, that's the Plug-In menu. Click it. (On some computers these buttons are very small.)
 
-![](https://arcmaps.s3.amazonaws.com/share/validationPictures/PreMappingplug.png)
+![04_Plugin button](https://arcmaps.s3.amazonaws.com/share/validationPictures/PreMappingplug.png)
 
 Now search for `buildings`. You'll see one called `buildings_tools`. Check its box then click `OK` at the bottom of the screen. It will download, and you'll need to restart JOSM.
 
-![](https://arcmaps.s3.amazonaws.com/share/validationPictures/PreMappingBuildings.png)
+![05_JOSM plugins - buildings_tools](https://arcmaps.s3.amazonaws.com/share/validationPictures/PreMappingBuildings.png)
 
 We suggest you also download the below plugins as well. They will help you with your mapping/editing. There are plenty more plugins that you can explore [here](https://josm.openstreetmap.de/wiki/Plugins).
 
@@ -41,15 +41,15 @@ There are a few other settings we need to change also.
 
 Click the "Preferences" button again. The second button looks like two computers. That's the connection settings.
 
-![](https://arcmaps.s3.amazonaws.com/share/validationPictures/PreMappingComputers.png)
+![06_Connexion icon](https://arcmaps.s3.amazonaws.com/share/validationPictures/PreMappingComputers.png)
 
 Make sure you're logged in with your OpenStreetMap username and password.
 
 Then towards the bottom of the screen, there's a button that looks like a remote control. Click that and make sure "Enable Remote Control" is checked. This will let the Humanitarian OpenStreetMap Team Tasking Manager use JOSM to download your task.
 
-![](https://arcmaps.s3.amazonaws.com/share/validationPictures/PreMappingRemote.png)
+![07_Remote control icon](https://arcmaps.s3.amazonaws.com/share/validationPictures/PreMappingRemote.png)
 
-![](https://arcmaps.s3.amazonaws.com/share/validationPictures/PreMappingRemoteSettings.png)
+![08_Remote control details](https://arcmaps.s3.amazonaws.com/share/validationPictures/PreMappingRemoteSettings.png)
 
 
 ## Getting Started
@@ -58,19 +58,19 @@ Then towards the bottom of the screen, there's a button that looks like a remote
 
 From the [HOT Tasking Manager](http://tasks.hotosm.org), choose a project to map. Before you begin mapping, you should understand the goal of the project by reading its "Description" and "Instructions" tabs. The description will be on the project's main page while the instructions can be read after pressing the `Contribute` button. This will tell you what features you are to map, how to tag them, what imagery to use and any other considerations from the Project Manager. Every project is unique and it is important to follow the Project Manager's instructions carefully to ensure that the area is mapped consistently. Here is an example of the Description and Instructions for one task:
 
-![](https://arcmaps.s3.amazonaws.com/share/validationPictures/UnderstandingYourProject1.png)
+![09_Example of HOT task description](https://arcmaps.s3.amazonaws.com/share/validationPictures/UnderstandingYourProject1.png)
 
 **Opening Task in JOSM**
 
 If it's not already open, open JOSM. On the project overview page, ensure that you have "JOSM" selected in the Editor dropdown menu before selecting a task to map. You can change your default editor in the settings page of the Tasking Manager.
 
-![](https://arcmaps.s3.amazonaws.com/share/validationPictures/OpenMappingTask1.png)
+![10_Change editor](https://arcmaps.s3.amazonaws.com/share/validationPictures/OpenMappingTask1.png)
 
 If imagery loads up automatically, you are ready to map. If not, JOSM will display a black background. Check the project instructions and enable the correct imagery layer from the "Imagery" dropdown menu, found along the top of the JOSM editor.
 
 You'll notice that the task boundary is now indicated by a gray box surrounded by a hatched area. This has replaced the pink border that you might be familiar with from the iD Editor. Avoid mapping in the hatched areas unless a feature extends into multiple tasks. You can always lock and map the adjacent task after you have completed your square.
 
-![](https://arcmaps.s3.amazonaws.com/share/validationPictures/OpenMappingTask2.png)
+![11_Limit of task in JOSM](https://arcmaps.s3.amazonaws.com/share/validationPictures/OpenMappingTask2.png)
 
 
 ## JOSM Basics
@@ -79,7 +79,7 @@ You'll notice that the task boundary is now indicated by a gray box surrounded b
 
 Apart from the top menu bar, there are four main areas of the JOSM editor: two rows of icons along the left and the top of the window with frequently used tools and shortcuts; a centre area for mapping; and a sidebar on the right side of the window. If you cannot view the map or side panels, you must first download map data using "Download data..." in the "File" menu or by pressing `Ctrl+Shift+Down`. You can then load imagery by opening the "Imagery" menu along the top of the window and selecting the imagery you would like to use.
 
-![](https://arcmaps.s3.amazonaws.com/share/validationPictures/NavigatingJOSM1.png)
+![12_Sections of JOSM Editor](https://arcmaps.s3.amazonaws.com/share/validationPictures/NavigatingJOSM1.png)
 
 The icons along the top of the editor are a configurable quick access selection of tools that are also available from the dropdown menus above it. The icons on the left-hand side of the window are split into two groups. The upper icons are all related to selecting different edit modes, and the lower ones toggle the visibility of the windows on the sidebar on the right. At a minimum, make sure that the "Layers" and "Tags/Memberships" windows are visible on the right hand side.
 
@@ -101,7 +101,7 @@ It is fairly common to come across previously mapped features that need a bit of
 
 It can be helpful to **adjust the visibility** of your imagery layer(s) in JOSM. Select an imagery layer from the Layers window and click the icon at the base of the window indicated below:
 
-![](https://arcmaps.s3.amazonaws.com/share/validationPictures/GeneralMapping.png)
+![13_Visibility](https://raw.githubusercontent.com/MissingMaps/img/main/images/AdvJOSM_EN_13_Visibility.png)
 
 The visibility of the layer can then be adjusted with a series of sliders. Increasing the Gamma tends to make features standout from the landscape. 
 
@@ -147,7 +147,7 @@ Some of these shortcuts will only work when the needed plugins are installed (e.
 
 **Saving Your Edits**
 
-Like editing in the iD Editor, you need to make sure that you frequently save your edits. Select the hard disk icon with an upwards green arrow (or `Ctrl + Shift + Up`) to display the Upload popup. Here you can alter the changeset comments and execute the upload by selecting "Upload Changes" or hitting `Enter` on your keyboard.
+Like editing in the iD Editor, you need to make sure that you frequently save your edits. Select the upwards green arrow (or `Ctrl + Shift + Up`) to display the Upload popup. Here you can alter the changeset comments and execute the upload by selecting "Upload Changes" or hitting `Enter` on your keyboard.
 
 ## Mapping Buildings
 
@@ -159,29 +159,29 @@ This plugin will draw rectangles parallel to any other feature on the map that y
 
 You might have found a **circular building**. First make sure you are in building mode, if not hit `B`. Now switch your building tool to circle mode by selecting `Alt+Z` on your keyboard. Trace the diameter of the circular building and it will automatically create a perfect tagged circular building. Switch back to rectangle building mode by selecting `Alt+R` on your keyboard. 
 
-You can change the tag that is applied to the shapes with this tool by opening its advanced settings. In the top toolbar, go to "Tools" then "Set buildings size and shape" and select "Advanced..." In this window, you can change the tag or add additional tags to be applied. Always keep in mind the tagging instructions outlined by the Project Manager if mapping through the HOT Tasking Manager.
+You can change the tag that is applied to the shapes with this tool by opening its advanced settings. In the top toolbar, go to "Data" then "Set buildings size" and select "Advanced..." In this window, you can change the tag or add additional tags to be applied. Always keep in mind the tagging instructions outlined by the Project Manager if mapping through the HOT Tasking Manager.
 
 **Complex Shapes**
 
 You might have a building that is an **unusual shape** like a L, T or U rather than a simple rectangle. Here are two ways to go about drawing these features: using the extrude tool and combining overlapping shapes. The best way of mapping for you will depend on the building complexity and your preferences. 
 
-To map with the Extrude tool," first draw a rectangle using the `buildings_tool` plugin (press "b") along the longest edge of the building. Then press `X` on your keyboard, this activates a powerful tool in the editor called the Extrude tool. Double click to add a point at the edge of your rectangle where the building extends. Now drag the edge you want to extend until it fits the footprint.
+To map with the Extrude tool, first draw a rectangle using the `buildings_tool` plugin (press "b") along the longest edge of the building. Then press `X` on your keyboard, this activates a powerful tool in the editor called the Extrude tool. Double click to add a point at the edge of your rectangle where the building extends. Now drag the edge you want to extend until it fits the footprint.
 
-![](https://arcmaps.s3.amazonaws.com/share/validationPictures/ComplexShapes1.png)
+![14_Drawing L shape building](https://arcmaps.s3.amazonaws.com/share/validationPictures/ComplexShapes1.png)
 
-Another way to map complex buildings is by combining multiple simple shapes. This is particularly useful if a building has a round feature or is too complex to be properly orthogonalized with the `Q` shortcut. Draw as many shapes as necessary to complete the building. Ensure that individual shapes are orthogonalized or made circular and that they all overlap with at least one other shape. Using the `buildings_tool` plugin is very helpful for this step, especially when having the first shape selected so that the proceeding shapes are drawn in alignment. When all shapes are drawn, select them all and use the "join overlapping areas" tool with the shortcut `Shift+J`. You may have to do a bit of cleanup after the join to remove unwanted nodes.
+Another way to map complex buildings is by combining multiple simple shapes. This is particularly useful if a building has a round feature or is too complex to be properly orthogonalized with the `Q` shortcut. Draw as many shapes as necessary to complete the building. Ensure that individual shapes are orthogonalized or made circular and that they all overlap with at least one other shape. Using the `buildings_tool` plugin is very helpful for this step, especially when having the first shape selected so that the proceeding shapes are drawn in alignment. When all shapes are drawn, select them all and use the "join overlapping areas" tool with the shortcut `Shift+J`. You may have to do a bit of cleanup after the join to remove unwanted nodes. To do so, you can remove the unnecessary nodes manually, or use the “Simplify Ways” tool with the shortcut `Shift + Y`. 
 
-![](https://arcmaps.s3.amazonaws.com/share/validationPictures/ComplexShapes2.png)
+![15_Drawing complex building](https://arcmaps.s3.amazonaws.com/share/validationPictures/ComplexShapes2.png)
 
 Another tip for drawing complex buildings is to first trace along the roof of the building where the shape is more visible as seen in the above example. After you're satisfied with the shape, move it by dragging it and align it properly with the building footprint.
 
 For **buildings with courtyards**, you will need to create a multipolygon. There are two easy ways to do this. You can draw segments of overlapping buildings leaving a space in the middle for the courtyard and combining them with `Shift+J` to merge the overlapping buildings into one. The building color will change to purple which indicates that you have successfully created a multipolygon.  
 
-![](https://arcmaps.s3.amazonaws.com/share/validationPictures/ComplexShapes3.png)
+![16_Drawing building with court method 1](https://arcmaps.s3.amazonaws.com/share/validationPictures/ComplexShapes3.png)
 
 The other way to do this is by mapping the outside and inside as two separate features. Once you are satisfied with their shapes, select them both and create a multipolygon. In the top toolbar, select "Tools" then "Create Multipolygon" or use the  `Ctrl+B` shortcut. The building color will change to purple which indicates that you have successfully created a multipolygon. The inner shape should not be shaded in and should look like a hole in the building.
 
-![](https://arcmaps.s3.amazonaws.com/share/validationPictures/ComplexShapes4.png)
+![17_Drawing building with court method 2](https://arcmaps.s3.amazonaws.com/share/validationPictures/ComplexShapes4.png)
 
 ## Other Useful Plugins
 ### utilsplugin2
@@ -202,15 +202,15 @@ This plugin greatly eases the digitization process for large, complex shapes suc
 
 To start using the plugin, press `Shift+F`. While there are many ways to use the tool as outlined in the [Wiki](https://wiki.openstreetmap.org/wiki/JOSM/Plugins/FastDraw), one easy way to begin is to move your cursor to where you want to start drawing, hold down the spacebar and drag your cursor around the shape. If you want to stop dropping nodes, release the spacebar until you are ready to trace again. You can press the spacebar once to drop a single point along the way. Press `Backspace` to delete the most recently drawn node. When you're finished drawing a shape, press `Enter`.
 
-![](https://arcmaps.s3.amazonaws.com/share/validationPictures/FastDraw1.png)
+![18_FastDraw 01](https://arcmaps.s3.amazonaws.com/share/validationPictures/FastDraw1.png)
 
 The way will be simplified (extraneous nodes removed) and turn orange. If the shape has been oversimplified, use the up arrow `↑` to add more nodes. If the shape has too many nodes, use the down arrow `↓` to remove nodes. It is important to reduce the number of nodes a feature has in OpenStreetMap to limit the required memory to store the data. When you are happy with your shape, press `Enter` for a 2nd time and your shape will be created. To draw another shape with the plugin, press `Shift+F`.
 
-![](https://arcmaps.s3.amazonaws.com/share/validationPictures/FastDraw2.png)
+![19_FastDraw 02](https://arcmaps.s3.amazonaws.com/share/validationPictures/FastDraw2.png)
 
 To access the FastDraw settings menu, press `Q` when the plugin is active (i.e. after pressing `Shift+F`). Within this menu, you can modify the number of points drawn while you drag your mouse along the map. In addition, you can add the tags you'd like to be applied to your feature under "Add auto tags" if you are drawing multiple features in a row. You can also select "Draw closed polygons only" if you are drawing polygons instead of lines to make the digitization quicker.
 
-![](https://arcmaps.s3.amazonaws.com/share/validationPictures/FastDraw3.png)
+![20_FastDraw configuration](https://arcmaps.s3.amazonaws.com/share/validationPictures/FastDraw3.png)
 
 For more information on the FastDraw plugin, see its page in the [Wiki](https://wiki.openstreetmap.org/wiki/JOSM/Plugins/FastDraw).
 
@@ -221,15 +221,15 @@ The second method of drawing these buildings is preferred as it illustrates more
 
 To use the Terracer plugin, first trace the outer outline of the entire terrace (the extent of all units). This can be done easily with the building_tools plugin installed and pressing `B`. Be sure that your shape is a quadrilateral (4 sides) and that it is aligned properly with the imagery. Rotate `Shift+Ctrl`, resize `Ctrl+Alt` and move the shape as needed until satisfied. 
 
-![](https://arcmaps.s3.amazonaws.com/share/validationPictures/Terracer1.png)
+![21_Drawing building](https://arcmaps.s3.amazonaws.com/share/validationPictures/Terracer1.png)
 
 Next, you are ready to use the Terracer plugin and break the shape up into individual, attached units. With the polygon selected, press `Shift+T` to enable the plugin and launch the "Terrace a house" dialog box. In this dialog box, indicate how many units you would like to be created in the "Segments" line. This example shows how addresses can be added to the units by indicating the lowest unit number (1) and the highest (7). 
 
-![](https://arcmaps.s3.amazonaws.com/share/validationPictures/Terracer2.png)
+![22_Terracer settings](https://arcmaps.s3.amazonaws.com/share/validationPictures/Terracer2.png)
 
 Based on the interpolation method chosen in the dialog box, the plugin will fill in the units' address tag according to those numbers and the number of segments/units. The "Even/Odd" interpolation method will skip every other address number whereas the "All" method will use every number. Press `OK` and the plugin will perform its actions. 
 
-![](https://arcmaps.s3.amazonaws.com/share/validationPictures/Terracer3.png)
+![23_Terracer result](https://arcmaps.s3.amazonaws.com/share/validationPictures/Terracer3.png)
 
 If you do not like the results, press `Ctrl+Z` to undo and try the plugin again. Ensure that the new polygons are tagged appropriately (e.g.`address=house`).
 
