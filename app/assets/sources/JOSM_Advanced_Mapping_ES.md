@@ -1,8 +1,11 @@
 ![01_MissingMaps logo](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_mmLogo.png)
  
+#  
+
 # Mapeo avanzado con JOSM
  
-![02_People mapping togetherJOSM interface showing where preferences are located](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_mapathon.png)
+
+![02_People mapping together](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_mapathon.png)
  
 ## Configuración previa al mapeo
  
@@ -14,7 +17,7 @@ Cuando JOSM se abra, verás una pantalla gris con algunas noticias y actualizaci
  
 Para añadir plugins, haz clic en el botón que parece dos deslizadores: esta la ventana de preferencias. También se puede acceder a ella en el menú "Edición" o pulsando `F12`).
 
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/AdvJOSM_ES_03_Preferences.png" width="600"/>
+![03_preferences](https://raw.githubusercontent.com/MissingMaps/img/main/images/AdvJOSM_ES_03_Preferences.png)
  
 En la ventana de Preferencias, el cuarto botón hacia abajo parece una pieza de rompecabezas, ese es el menú Plug-In. Haga clic en él. (En algunos ordenadores estos botones son muy pequeños).
  
@@ -99,8 +102,7 @@ Es bastante común encontrarse con características previamente mapeadas que nec
  
 Puede ser útil **ajustar la visibilidad** de su(s) capa(s) de imágenes en JOSM. Seleccione una capa de imágenes en la ventana de capas y haga clic en el icono de la base de la ventana que se indica a continuación:
  
-<!--- 13_Visibility -->
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/AdvJOSM_ES_13_Visibility.png" width="350"/>
+![13_Visibility](https://raw.githubusercontent.com/MissingMaps/img/main/images/AdvJOSM_ES_13_Visibility.png)
  
 La visibilidad de la capa se puede ajustar con una serie de controles deslizantes. Aumentar el Gamma tiende a hacer que las características destaquen del paisaje.
  
