@@ -365,6 +365,7 @@ host:
     - label: "Capta voluntarios para ayudar"
     - label: "Reserva un espacio de encuentro"
     - label: "Registra tu evento <a target='_blank' href='https://docs.google.com/forms/d/e/1FAIpQLScdvsMHLor8mrDrHa-BQs2XzFb96vIrx3u--LHXWd1g7RncPg/viewform'> aquí </a>"
+    - label: "Crea pancartas o carteles para el evento con el logotipo de Missing Maps y/o la plantilla de logotipo de la comunidad personalizable"
     - label: "Capta participantes usando Eventbrite o una plataforma similar"
     - label: "Elegir una tarea utilizando el </a> <a target='_blank' href='http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps'> Gestor de tareas"
     - label: "Garantiza un Wi-Fi fuerte"
@@ -393,6 +394,8 @@ host:
   materials:      
     title: "Materiales de Formación y Eventos"
     text: "¡Todo lo que necesitas para organizar un mapatón con éxito! (Enlace a la carpeta de Google Drive)"
+    url:  "https://drive.google.com/drive/folders/1gXkvuQNRhfyOVv6XjmncFFUIK4m_yCTb?usp=sharing"
+    text: "¡Puede descargar el logotipo de Missing Maps en formatos comunes, así como un logotipo personalizable para crear uno para su comunidad"
     url:  "https://drive.google.com/drive/folders/1gXkvuQNRhfyOVv6XjmncFFUIK4m_yCTb?usp=sharing"
 
 ##############
