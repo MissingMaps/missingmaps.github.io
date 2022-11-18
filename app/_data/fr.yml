@@ -362,7 +362,7 @@ host:
     - label: "Choisissez une date."
     - label: "Recrutez des bénévoles pour aider."
     - label: "Réservez un lieu de réunion."
-    - label: "Créez des bannières ou des affiches en utilisant <a target='_blank' href='https://drive.google.com/drive/folders/1y-PJ3MoHndFtm_Xcm_7qPMjtNYxbygCs?usp=share_link'>le logo Missing Maps et/ou le modèle du logo personnalisable pour les communautés Missing Maps</a>"
+    - label: "Créez des bannières ou des affiches en utilisant <a target='_blank' href='https://drive.google.com/drive/folders/1y-PJ3MoHndFtm_Xcm_7qPMjtNYxbygCs'>le logo Missing Maps et/ou le modèle du logo personnalisable pour les communautés Missing Maps</a>"
     - label: "Enregistrez votre évènement <a target='_blank' href='https://docs.google.com/forms/d/e/1FAIpQLScdvsMHLor8mrDrHa-BQs2XzFb96vIrx3u--LHXWd1g7RncPg/viewform'>ici</a>"
     - label: "Recrutez des participants utilisant Eventbrite ou une plateforme similaire."
     - label: "Choisissez une tâche en utilisant le <a target='_blank' href='http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps'>Tasking Manager</a>"
@@ -394,7 +394,7 @@ host:
     text: "Tout ce dont vous avez besoin pour réussir un mapathon ! (lien vers le dossier Google Drive)"
     url: "https://drive.google.com/drive/folders/1gXkvuQNRhfyOVv6XjmncFFUIK4m_yCTb?usp=sharing"
     text: "Vous pouvez également télécharger le logo de Missing Maps, ainsi qu'un modèle personnalisable du logo pour en créer un pour votre communauté."
-    url:  "https://drive.google.com/drive/folders/1y-PJ3MoHndFtm_Xcm_7qPMjtNYxbygCs?usp=share_link"
+    url:  "https://drive.google.com/drive/folders/1y-PJ3MoHndFtm_Xcm_7qPMjtNYxbygCs"
 
 ##############
 ## Validate ##
