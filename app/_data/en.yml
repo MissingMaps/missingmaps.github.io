@@ -365,7 +365,7 @@ host:
     - label: "Choose a date"
     - label: "Recruit volunteers to help plan the event"
     - label: "Book a space"
-    - label: "Make banners or posters using the Missing Maps logo and/or the customizable community logo template"
+    - label: "Make banners or posters using <a target='_blank' href='https://drive.google.com/drive/folders/1y-PJ3MoHndFtm_Xcm_7qPMjtNYxbygCs'>the Missing Maps logo and/or the customizable community logo template</a>"
     - label: "Register your event <a target='_blank' href='https://docs.google.com/forms/d/e/1FAIpQLScdvsMHLor8mrDrHa-BQs2XzFb96vIrx3u--LHXWd1g7RncPg/viewform'>here</a>"
     - label: "Recruit participants using Eventbrite"
     - label: "Pick a task using the <a target='_blank' href='http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps'>Tasking Manager</a>"
