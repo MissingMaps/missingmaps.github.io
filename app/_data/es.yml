@@ -365,7 +365,7 @@ host:
     - label: "Capta voluntarios para ayudar"
     - label: "Reserva un espacio de encuentro"
     - label: "Registra tu evento <a target='_blank' href='https://docs.google.com/forms/d/e/1FAIpQLScdvsMHLor8mrDrHa-BQs2XzFb96vIrx3u--LHXWd1g7RncPg/viewform'> aquí </a>"
-    - label: "Crea pancartas o carteles para el evento con el logotipo de Missing Maps y/o la plantilla de logotipo de la comunidad personalizable"
+    - label: "Crea pancartas o carteles para el evento con <a target='_blank' href='https://drive.google.com/drive/folders/1y-PJ3MoHndFtm_Xcm_7qPMjtNYxbygCs'> el logotipo de Missing Maps y/o la plantilla de logotipo de la comunidad personalizable </a>"
     - label: "Capta participantes usando Eventbrite o una plataforma similar"
     - label: "Elegir una tarea utilizando el </a> <a target='_blank' href='http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps'> Gestor de tareas"
     - label: "Garantiza un Wi-Fi fuerte"
