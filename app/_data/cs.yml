@@ -372,7 +372,7 @@ host:
     - label: "Vyzvat dobrovolníky k pomoci"
     - label: "Rezervovat místo"
     - label: "Registrovat mapathon <a target='_blank' href='https://docs.google.com/forms/d/e/1FAIpQLScdvsMHLor8mrDrHa-BQs2XzFb96vIrx3u--LHXWd1g7RncPg/viewform'>zde</a>"
-    - label: "Vytvořte bannery a/nebo plakáty na událost s Missing Maps logem, nebo editovatelnou verzí loga pro MM komunity"
+    - label: "Vytvořte bannery a/nebo plakáty na událost s <a target='_blank' href='https://drive.google.com/drive/folders/1y-PJ3MoHndFtm_Xcm_7qPMjtNYxbygCs'>Missing Maps logem, nebo editovatelnou verzí loga pro MM komunity</a>"
     - label: "Oslovit dobrovolníky s pomocí Eventbrite"
     - label: "Vybrat mapovací úlohu na  <a target='_blank' href='http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps'>Tasking Manageru</a>"
     - label: "Ověřit si výkon Wi-Fi"
