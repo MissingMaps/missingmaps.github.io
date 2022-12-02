@@ -185,7 +185,7 @@ beginner:
   stepRoads_text:   "Roads are also one of the most useful things you can add to OpenStreetMap! Learn how to add and edit roads to OSM through the iD editor."
   stepTM:        "Learn to use the Tasking Manager"
   stepTM_text:   "Go to the Task Manager to find a project and task that interests you. Learn how to lock a task to edit, select an editing program and change the background settings. Note: when your task is reviewed, you’ll get an email. Make sure to give those a read."
-  
+
 ##############
 ## ADVANCED ##
 ##############
@@ -234,7 +234,7 @@ field:
     title: "Data maintenance:"
     about: "What do you want to capture, how do you want to capture this, how long will this data be accurate? What’s your plan for keeping it up to date? Do you have helpers?"
   tools-header: "Understanding your tools"
-  tools-about: "Missing Maps does not manage data collection tools, but these are some of our favorite resources from the OSM community:"  
+  tools-about: "Missing Maps does not manage data collection tools, but these are some of our favorite resources from the OSM community:"
   tools-list:
     - label: "<a href=\"https://opendatakit.org/\">Open Data Kit</a> -  Open Data Kit was started to make mobile data collection tools for resource-limited settings. Over the last 13 years, the project has produced two tool suites (<a href=\"https://getodk.org/\">ODK</a>, <a href=\"https://docs.odk-x.org/app-designer-intro/\">ODK-X</a>) and has become home to a community of users, implementers and developers. "
     - label: "<a href=\"https://www.kobotoolbox.org/\">KoBo</a> - KoBoToolbox is a suite of tools for field data collection for use in challenging environments. "
@@ -247,12 +247,12 @@ field:
   processing-list:
     - label: "Direct editors (Maps.Me; OSMAnd…)"
     - label: "Reconciling map notes (note=*) - some mappers use OSM editing apps to add geo-tagged notes to OSM to reference later. If you have done this, don’t forget to go through your notes and make the desired changes to the map. You can easily view all notes of an area by turning on the ‘Map Notes’ overlay in OpenStreetMap’s Map Layer settings."
-    - label: "Field Papers upload - after making your notes on Field Papers, you can upload the image to FieldPapers.org to easily integrate the notes for digitizing in JOSM." 
+    - label: "Field Papers upload - after making your notes on Field Papers, you can upload the image to FieldPapers.org to easily integrate the notes for digitizing in JOSM."
     - label: "GPS tracks, points and notes"
     - label: "Processing photos of signs, features etc."
   giveback-header: "Give back your data to the community!"
   giveback-about: "Give back your data to the community! Consider hosting a community meeting to share updated maps with local businesses, governments, organizations etc. In addition, consider sharing your data with the wider humanitarian world via a platform like the <a href=\"https://data.humdata.org/\">Humanitarian Data Exchange</a>."
-  
+
 ##############
 ## MAPSWIPE ##
 ##############
@@ -272,7 +272,7 @@ mapswipe:
     - label: "Tap twice if you are not sure, but you think there is a feature. The square will turn orange."
     - label: "Tap three times to identify bad / no imagery or cloud cover. The square will turn red."
   how-end: "Since its start in 2015, MapSwipe has scaled to 29,000 users mapping 600,000 km2 (larger than the area of Kenya). MapSwipe is volunteer-driven and community-led. Any organization or mapping community can request to use MapSwipe to help with their activities on the ground. To learn more check out the <a href=\"https://mapswipe.org/\">MapSwipe website </a>.  If you’d like to request a project, email info@mapswipe.org. Happy swiping!"
-    
+
 
 
 ####################
@@ -298,7 +298,7 @@ about:
     text2:      "To support <a href=\"https://wiki.openstreetmap.org/wiki/Main_Page\">OpenStreetMap</a> , specifically the <a href=\"http://hotosm.org\">Humanitarian OpenStreetMap Team (HOT)</a>, in developing technologies, skills, workflows, and communities."
   ethics:
     title:  "Ethics"
-    people: 
+    people:
       title: "People"
       text1: "People always come before data. All Missing Maps activities will take into account the best interests and rights of the community and individuals, before adding data to OSM."
       text2: "All Missing Maps project activities are guided by the humanitarian principles of humanity, neutrality, impartiality and independence. We follow the <a href=\"https://www.hotosm.org/code-of-conduct\" >HOT code of conduct</a>."
@@ -392,12 +392,10 @@ host:
     - label: "Get presentations ready"
     - label: "Set up snacks"
     - label: "Have fun mapping!"
-  materials:      
+  materials:
     title: "Training and Event Materials"
-    text: "Everything you need to run a successful mapathon! (Google Drive folder link)"
-    url:  "https://drive.google.com/drive/folders/1gXkvuQNRhfyOVv6XjmncFFUIK4m_yCTb?usp=sharing"
-    text: "You can also download the Missing Maps logo in common formats, as well as a customizable logo to make one for your community!"
-    url:  "https://drive.google.com/drive/folders/1y-PJ3MoHndFtm_Xcm_7qPMjtNYxbygCs"
+    text1: "Everything you need to run a successful mapathon! (<a target='_blank' href='https://drive.google.com/drive/folders/1gXkvuQNRhfyOVv6XjmncFFUIK4m_yCTb?usp=sharing'>Google Drive folder</a>)"
+    text2: "You can also <a target='_blank' href='https://drive.google.com/drive/folders/1y-PJ3MoHndFtm_Xcm_7qPMjtNYxbygCs'>download the Missing Maps logo in common formats</a>, as well as a customizable logo to make one for your community!"
 
 ##############
 ## Validate ##
@@ -409,7 +407,7 @@ checker:
   links:
     faq: "FAQS"
     tools: "TOOLS FOR PROJECT MANAGERS"
-    tools-filename: "Tools for Project Managers_EN.pdf"  
+    tools-filename: "Tools for Project Managers_EN.pdf"
     ### NOTE: above file needs to exist in `/app/assets/downloads/` folder
     guide: "FULL VALIDATION GUIDE"
     validating_pdf: "Validating_Data_EN.pdf"
