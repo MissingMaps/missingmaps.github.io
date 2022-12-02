@@ -233,7 +233,7 @@ field:
     title: "Údržba dat:"
     about: "Co chcete zachytit, jak to chcete zachytit, jak dlouho budou data přesná/relevantní? Jaký je váš plán pro udržení aktuálních dat? Máte pomocníky?"
   tools-header: "Porozumění vašim nástrojům"
-  tools-about: "Missing Maps nespravuje nástroje sbírání dat, ale jsou zde některé z našich oblíbených zdrojů z OSM komunity:"  
+  tools-about: "Missing Maps nespravuje nástroje sbírání dat, ale jsou zde některé z našich oblíbených zdrojů z OSM komunity:"
   tools-list:
     - label: "<a href=\"https://opendatakit.org/\">Open Data Kit</a> - Open Data Kit byl vytvořen jako nástroj pro sběr mobilních dat pro nastavení omezená na zdroje. Za posledních 13 let projekt vyvinul dvě sady nástrojů (<a href=\"https://getodk.org/\">ODK</a>, <a href=\"https://docs.odk-x.org/app-designer-intro/\">ODK-X</a>), které se staly domovem pro komunitu uživatelů, realizátorů a vývojářů."
     - label: "<a href=\"https://www.kobotoolbox.org/\">KoBo</a> - KoBoToolbox je sada nástrojů pro sběr dat v terénu pro použití v náročných podmínkách. "
@@ -293,9 +293,9 @@ about:
     title:      "Cíle"
     text1: "To map areas where people live at risk of disasters and crises by contributing to <a href =\"https://www.openstreetmap.org/\">OpenStreetMap</a> (OSM) so that individuals, communities and organizations can use the data and maps to better prepare and respond."
     text2: "To support <a href=\"https://wiki.openstreetmap.org/wiki/Main_Page\">OpenStreetMap</a> , specifically the <a href=\"http://hotosm.org\">Humanitarian OpenStreetMap Team (HOT)</a>, in developing technologies, skills, workflows, and communities."
-  ethics:  
+  ethics:
     title:  "Ethics"
-    people: 
+    people:
       title: "Lidé"
       text1: "Lidé jsou vždy důležitější než data. Všechny aktivity Missing Maps plně respektují nejlepší zájmy a potřeby komunity a jednotlivcům, před přidáním dat do OSM."
       text2: "Všechny aktivity projektu Missing Maps jsou řízeny podle humanitárních principů humanity, neutrality, nestrannosti a nezávislosti. Následujeme <a href=\"https://www.hotosm.org/code-of-conduct\" >HOT kód řízení</a>."
@@ -372,6 +372,7 @@ host:
     - label: "Vyzvat dobrovolníky k pomoci"
     - label: "Rezervovat místo"
     - label: "Registrovat mapathon <a target='_blank' href='https://docs.google.com/forms/d/e/1FAIpQLScdvsMHLor8mrDrHa-BQs2XzFb96vIrx3u--LHXWd1g7RncPg/viewform'>zde</a>"
+    - label: "Vytvořte bannery a/nebo plakáty na událost s <a target='_blank' href='https://drive.google.com/drive/folders/1y-PJ3MoHndFtm_Xcm_7qPMjtNYxbygCs'>Missing Maps logem, nebo editovatelnou verzí loga pro MM komunity</a>"
     - label: "Oslovit dobrovolníky s pomocí Eventbrite"
     - label: "Vybrat mapovací úlohu na  <a target='_blank' href='http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps'>Tasking Manageru</a>"
     - label: "Ověřit si výkon Wi-Fi"
@@ -398,10 +399,10 @@ host:
     - label: "Připravit prezentaci"
     - label: "Potvrdit objednávky nápojů a občerstvení"
     - label: "Užít si mapování"
-  materials:      
+  materials:
     title: "Výukové a informační materiály"
-    text: "Vše co potřebujete k úspěšné organizaci mapathonu"
-    url: "https://drive.google.com/drive/folders/1gXkvuQNRhfyOVv6XjmncFFUIK4m_yCTb?usp=sharing"
+    text1: "<a target='_blank' href='https://drive.google.com/drive/folders/1gXkvuQNRhfyOVv6XjmncFFUIK4m_yCTb?usp=sharing'>Vše co potřebujete k úspěšné organizaci mapathonu</a>"
+    text2: "<a target='_blank' href='https://drive.google.com/drive/folders/1y-PJ3MoHndFtm_Xcm_7qPMjtNYxbygCs'>Můžete si stáhnout logo Missing Maps v běžných formátech</a>, i upravitelné logo, se kterým si můžete vytvořit verzi loga přímo pro svou komunitu!"
 
 ##############
 ## Validate ##
@@ -413,7 +414,7 @@ checker:
   links:
     faq: "ČASTÉ DOTAZY"
     tools: "Pomůcky pro správce projektů"
-    tools-filename: "Tools for Project Managers_EN.pdf"  
+    tools-filename: "Tools for Project Managers_EN.pdf"
     ### NOTE: above file needs to exist in `/app/assets/downloads/` folder
     guide: "FULL VALIDATION GUIDE"
     validating_pdf: "Validating_Data_EN.pdf"
@@ -424,7 +425,7 @@ checker:
     step1_subtitle: "Zjistěte, jestli je pro vás validování to pravé."
     step1_text: "Validace není pro každého. Vyžaduje trpělivost a smysl pro detail. Nezbytností jsou nějaké zkušenosti s mapováním v OpenStreetMap a HOT projektech, ale nebojte se, není potřeba, abyste byli úplní experti. Jakmile budete mít nějaké zkušenosti s mapováním, budete moci opravovat práci dalších přispěvovatelů. Pokud to budete provádět pravidelně, bude pro Vás jednoduší najít a opravit chyby a pak budete připraveni validovat!"
     step1_text2: "If you’re new to Missing Maps or OpenStreetMap mapping in general, head over to our resources for new mappers. If you’ve mapped before using iDdEditor, make sure to check out our advanced mapping section to get started with JOSM first. Validating in iDEditor is possible, but it’s best to use JOSM."
-    step2: "Krok 2"    
+    step2: "Krok 2"
     step2_subtitle: "Build your skills."
     step2_text: "Becoming a more efficient mapper is crucial to becoming a validator. The <a href=\"https://josm.openstreetmap.de/\">JOSM Editor</a> is a customizable editor for OpenStreetMap with a number of tools and plugins to make mapping and validating easier! Check out this <a href=\"/assets/downloads/Validating_Data_EN.pdf\"> guide to validation using the JOSM editor. </a> For instruction setting up JOSM, you can also head over to <a href= \"http://learnosm.org/en/josm/\"> LearnOSM </a>."
     step2_video: "While validating in JOSM is preferred, you can also begin to improve the map through iD editor. Check out this video to learn some of the things to look for:"

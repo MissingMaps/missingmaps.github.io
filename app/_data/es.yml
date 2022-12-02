@@ -295,9 +295,9 @@ about:
     title:      "Objetivos"
     text1:      "Cartografiar las zonas en las que viven las personas en riesgo de sufrir catástrofes y crisis contribuyendo a <a href =\"https://www.openstreetmap.org/\">OpenStreetMap</a> (OSM) para que las personas, las comunidades y las organizaciones puedan utilizar los datos y los mapas para prepararse y responder mejor."
     text2:      "Apoyar a <a href=\"https://wiki.openstreetmap.org/wiki/Main_Page\">OpenStreetMap</a>, y específicamente al <a href=\"http://hotosm.org\">Equipo Humanitario de OpenStreetMap</a> (HOT), en el desarrollo de una comunidad de voluntarios respaldada por los recursos financieros, tecnológicos y humanos necesarios para facilitar el crecimiento del proyecto Missing Maps y apoyar las necesidades de las organizaciones miembros del proyecto Missing Maps."
-  ethics:    
+  ethics:
     title:  "Ética"
-    people: 
+    people:
       title: "Personas"
       text1: "Las personas siempre están antes que los datos. Todas las actividades de Missing Maps tendrán en cuenta los intereses y derechos de la comunidad y de las personas, antes de añadir datos a OSM."
       text2: "Todas las actividades del proyecto Missing Maps se guían por los principios humanitarios de humanidad, neutralidad, imparcialidad e independencia. Seguimos <a href=\"https://www.hotosm.org/code-of-conduct\" >el código de conducta de HOT</a>."
@@ -350,7 +350,7 @@ host:
   text:           "Un mapatón es una gran oportunidad para que los voluntarios conecten digitalmente y creen datos que se necesitan con urgencia para las comunidades de todo el mundo, de modo que los responsables locales e internacionales puedan utilizar estos mapas y datos para responder mejor a las crisis que afectan a estas zonas. Los mapas actualizados son importantes para el éxito de muchas iniciativas humanitarias en todo el mundo a la hora de responder a las catástrofes. A través de Missing Maps, puedes ofrecer tu tiempo para ayudar a elaborar estos mapas, y tener un impacto real en la prestación de asistencia sanitaria y otros servicios en estas comunidades. Consulta el siguiente vídeo para saber más sobre lo que es un mapatón, y consulta nuestros recursos sobre cómo organizar uno más abajo."
   what_is:        "¿Qué es un Mapathon?"
   how_host:       "¿Cómo organizar un Mapathon?"
-  large_event_title: "¿Estás pensando en realizar un mapatón de grandes dimensiones?" 
+  large_event_title: "¿Estás pensando en realizar un mapatón de grandes dimensiones?"
   large_event: "En Missing Maps nos encanta recibir a nuevas personas mapeadoras, pero es importante recordar que formamos parte de una comunidad mucho más amplia de OpenStreetMap (OSM). Los datos producidos en OSM, ya sea por nosotros o por demás mapeadoras/es, se utilizan en tiempo real. Por lo tanto, es importante que les apoyemos adecuadamente. Sin una formación específica, supervisión y limpieza de datos adecuada, las personas iniciantes pueden divertirse mucho mapeando pero a la vez crear un enorme desorden en OSM. Por ello, recomendamos encarecidamente empezar por asistir a eventos más pequeños y así desarrollar sus capacidades, antes de celebrar grandes mapatones. Sugerimos que un/a anfitrión/a novel de un mapatón comience organizando un primer evento para 20-25 participantes. Si está pensando en organizar un evento más grande (para más de 50 participantes), póngase en contacto con info@hotosm.org. Si quiere organizar un evento más grande y no tiene tiempo para adquirir sus capacidades formativas, considere la posibilidad de organizar un evento <a href=\"https://www.missingmaps.org/es/mapswipe/\">MapSwipe</a> en su lugar. Estos eventos pueden involucrar más fácilmente a grupos más grandes de manera responsable."
   prep_btn:       "LISTA DE PLANIFICACIÓN"
   check_btn:      "DÍA DEL EVENTO"
@@ -365,6 +365,7 @@ host:
     - label: "Capta voluntarios para ayudar"
     - label: "Reserva un espacio de encuentro"
     - label: "Registra tu evento <a target='_blank' href='https://docs.google.com/forms/d/e/1FAIpQLScdvsMHLor8mrDrHa-BQs2XzFb96vIrx3u--LHXWd1g7RncPg/viewform'> aquí </a>"
+    - label: "Crea pancartas o carteles para el evento con <a target='_blank' href='https://drive.google.com/drive/folders/1y-PJ3MoHndFtm_Xcm_7qPMjtNYxbygCs'> el logotipo de Missing Maps y/o la plantilla de logotipo de la comunidad personalizable </a>"
     - label: "Capta participantes usando Eventbrite o una plataforma similar"
     - label: "Elegir una tarea utilizando el </a> <a target='_blank' href='http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps'> Gestor de tareas"
     - label: "Garantiza un Wi-Fi fuerte"
@@ -390,10 +391,10 @@ host:
     - label: "Preparar las presentaciones"
     - label: "Prepara los aperitivos"
     - label: "¡Diviértete mapeando!"
-  materials:      
+  materials:
     title: "Materiales de Formación y Eventos"
-    text: "¡Todo lo que necesitas para organizar un mapatón con éxito! (Enlace a la carpeta de Google Drive)"
-    url:  "https://drive.google.com/drive/folders/1gXkvuQNRhfyOVv6XjmncFFUIK4m_yCTb?usp=sharing"
+    text1: "¡Todo lo que necesitas para organizar un mapatón con éxito! (<a target='_blank' href='https://drive.google.com/drive/folders/1gXkvuQNRhfyOVv6XjmncFFUIK4m_yCTb?usp=sharing'>Enlace a la carpeta de Google Drive</a>)"
+    text2: "¡<a target='_blank' href='https://drive.google.com/drive/folders/1gXkvuQNRhfyOVv6XjmncFFUIK4m_yCTb?usp=sharing'>Puede descargar el logotipo de Missing Maps en formatos comunes</a>, así como un logotipo personalizable para crear uno para su comunidad"
 
 ##############
 ## Validate ##
@@ -405,7 +406,7 @@ checker:
   links:
     faq: "Preguntas más frecuentes"
     tools: "HERRAMIENTAS PARA GESTORES DE PROYECTOS"
-    tools-filename: "Tools for Project Managers_EN.pdf"  
+    tools-filename: "Tools for Project Managers_EN.pdf"
     ### NOTE: above file needs to exist in `/app/assets/downloads/` folder
     guide: "GUÍA COMPLETA  DE VALIDACIÓN"
     validating_pdf: "Validating_Data_ES.pdf"
@@ -456,7 +457,7 @@ checker:
       question11: "<b>¿Debo borrar los elementos mal dibujados?</b>"
       answer11: "Siempre que sea posible, se recomienda arreglar las entidades mal dibujadas en lugar de borrarlas y volver a dibujarlas. Esto se hace para preservar el historial de edición de la entidad. Hay una manera fácil de hacer esto con el UtilsPlugin2 utilizando la <a href=\"https://wiki.openstreetmap.org/wiki/JOSM/Plugins/utilsplugin2#Replace_geometry_.28Ctrl.2BShift.2BG.29\">Herramienta de Reemplazo de Geometría</a> En algunos casos, es más trabajo del que merece la pena arreglar las entidades y la única solución práctica es borrarlas y volver a dibujarlas. Antes de eliminar elementos, asegúrese siempre de que no han sido creados por un mapeador local. Comprueba la fecha del mapeo y si el comentario del conjunto de cambios está vinculado a un mapeo utilizando la función de historial de objetos en JOSM."
       question12: "<b>Observo que algunas proyectos limitan quién puede validar. ¿Qué significa esto?<b>"
-      answer12: "Algunos proyectos están disponibles para su validación por parte de mapeadores intermedios o avanzados. Otros proyectos requieren que se una a un equipo de validación. A la derecha bajo la sección Equipos y Permisos en el Administrador de Tareas hay un enlace para unirse a los equipos que están aprobados para ese proyecto específico.  HOT gestiona un equipo global de validadores al que muchos de los proyectos de respuesta en el Gestor de Tareas requieren que se una. Para unirse, siga las instrucciones que aparecen a continuación o utilice este enlace para conectar con el gestor del equipo. <a href=\"http://bit.ly/HOTValidators/\">http://bit.ly/HOTValidators/</a>." 
+      answer12: "Algunos proyectos están disponibles para su validación por parte de mapeadores intermedios o avanzados. Otros proyectos requieren que se una a un equipo de validación. A la derecha bajo la sección Equipos y Permisos en el Administrador de Tareas hay un enlace para unirse a los equipos que están aprobados para ese proyecto específico.  HOT gestiona un equipo global de validadores al que muchos de los proyectos de respuesta en el Gestor de Tareas requieren que se una. Para unirse, siga las instrucciones que aparecen a continuación o utilice este enlace para conectar con el gestor del equipo. <a href=\"http://bit.ly/HOTValidators/\">http://bit.ly/HOTValidators/</a>."
   get-started: "¡Ahora  empiece, eche un vistazo a estas tareas que tienen necesidad de validación!"
   dataquality:
     title: "Herramientas de Calidad de Datos para Jefes de Proyecto:"

@@ -193,7 +193,7 @@ advanced:
     guide: "Manuel de cartographie avancée avec JOSM"
     advancedJOSM_pdf: "JOSM_Advanced_Mapping_FR.pdf"
   josm: "JOSM est un outil d'édition puissant d'OpenStreetMap qui optimisera vos compétences cartographiques ! Nous recommandons aux cartographes qui veulent améliorer leur cartographie d'utiliser cet outil. Premièrement, vous aurez besoin de télécharger l'application. Vous pouvez le faire <a href=\"https://josm.openstreetmap.de/wiki/Download\">ici</a>. Cette application est disponible pour les Macs et les PCs. En comparaison avec l'iD Editor, le processus d'installation n'est pas de tout repos, alors laissez vous du temps pour naviguer sur ce nouvel outil avant de commencer à cartographier. Une fois que vous êtes familier avec JOSM, vous ne reviendrez plus jamais en arrière !"
-  
+
 ###########
 ## FIELD ##
 ###########
@@ -232,7 +232,7 @@ field:
     title: "Maintenance des données"
     about: "Qu'est-ce que vous voulez capturer, comment voulez-vous le capturez, combien de temps cette donnée sera valable? Quel est votre plan pour la maintenir à jour? Est-ce que vous avez besoin d'aide?"
   tools-header: "Comprendre vos outils"
-  tools-about: "Missing Maps ne gère pas les outils de collecte de données, mais ce sont quelques-unes de nos ressources préférées de la communauté OSM."  
+  tools-about: "Missing Maps ne gère pas les outils de collecte de données, mais ce sont quelques-unes de nos ressources préférées de la communauté OSM."
   tools-list:
     - label: "<a href=\"https://opendatakit.org\">Open Data Kit</a> - Open Data Kit a commencé à faire des outils de collecte de données sur téléphone pour des paramètres à ressources limitées. Sur les 13 dernières années, le projet a produit deux séries d'outils (<a href=\"https://getodk.org\">ODK</a>, <a href=\"https://docs.odk-x.org/app-designer-intro/\">ODK-X</a>) et est devenu le foyer d'une communauté d'utilisateurs, de réalisateurs et de développeurs."
     - label: "<a href=\"https://www.kobotoolbox.org\">KoBo</a> - KoBoToolbox est une série d'outils qui collecte des données de terrain pour les utiliser dans des environnements exigeants."
@@ -245,13 +245,13 @@ field:
   processing-list:
     - label: "Éditeurs directs (Maps.Me ; OSMAnd...)"
     - label: "Reconcilier des notes cartographiques (note=*) - quelques cartographes utilisent des applications d'édition OSM pour ajouter des notes géolocalisées à OSM pour les référencer ultérieurement. Si vous avez fait cela, n'oubliez pas de parcourir vos notes et de faire les changements désirés sur la carte. Vous pouvez facilement observer toutes les notes d'une zone en activant la superposition 'Map Notes' dans les paramètres de couches de cartes d'OpenStreetMaps."
-    - label: "Télécharger Field Papers - après avoir réalisé vos notes sur Field Papers, vous pouvez télécharger l'image de FieldPapers.org pour intégrer facilement les notes à numériser sur JOSM." 
+    - label: "Télécharger Field Papers - après avoir réalisé vos notes sur Field Papers, vous pouvez télécharger l'image de FieldPapers.org pour intégrer facilement les notes à numériser sur JOSM."
     - label: "Traces GPS, points et notes."
     - label: "Traitement de photos de panneaux, de caractéristiques etc."
   giveback-header: "Redonnez vos données à la communauté !"
   giveback-about: "Redonnez vos données à la communauté ! Envisagez d'organiser une réunion communautaire pour partager des cartes mises à jour avec les entreprises locales, les gouvernements, les organisations etc. De plus, envisagez à partager vos données à une plus large échelle au monde humanitaire grâce à la plate-forme comme le <a href=\"https://data.humdata.org\">Humanitarian Data Exchange</a>."
 
-  
+
 ##############
 ## MAPSWIPE ##
 ##############
@@ -271,7 +271,7 @@ mapswipe:
     - label: "Tapez deux fois si vous n'êtes pas sûr, mais que vous pensez qu'il y a un élément. Le carré deviendra orange."
     - label: "Tapez trois fois pour identifier une mauvaise/une absence d'image ou une couverture nuageuse. Le carré deviendra rouge."
   how-end: "Depuis le début de l'année 2015, MapSwipe a atteint 29 000 utilisateurs qui ont cartographié 600 000 km2 (plus grand que le Kenya). MapSwipe est dirigé par des volontaires et par la communauté. Chaque organisation ou communauté de cartographie peut demander d'utiliser MapSwipe pour aider ses activités sur le terrain. Pour en apprendre plus, suivez <a href=\"https://mapswipe.org/\">ce lien </a>. Si vous voulez faire une demande pour un projet, envoyez un mail à info@mapswipe.org. Bonne recherche !"
-  
+
 ####################
 ## EVENTS CONTENT ##
 ####################
@@ -295,7 +295,7 @@ about:
     text2: "Soutenir  l'écosystème d'<a href=\"https://wiki.openstreetmap.org/wiki/Main_Page\">OpenStreetMap</a>, et particulièrement l'<a href=\"http//hotosm.org\">Équipe Humanitaire OpenStreetMap</a>, en développant une communauté de volontaires soutenue par des ressources financières, technologiques et humaines nécessaires pour faciliter le développement du projet Missing Maps et pour soutenir les besoins des organisations membres du projet Missing Maps."
   ethics:
     title: "Éthique"
-    people: 
+    people:
       title: "Personnes"
       text1: "Les personnes passent toujours avant les données. Toutes les activités de Missing Maps prendront en compte avant tout les intérêts et droits de la communauté et des individus, avant d'ajouter des données à OSM."
       text2: "Toutes les activités du projet Missing Maps sont dirigées par les principes humanitaires d'humanité, de neutralité, d'impartialité et d'indépendance. Nous suivons <a href=\"https://www.hotosm.org/code-of-conduct\" >le code de conduite HOT</a>."
@@ -363,6 +363,7 @@ host:
     - label: "Recrutez des bénévoles pour aider."
     - label: "Réservez un lieu de réunion."
     - label: "Enregistrez votre évènement <a target='_blank' href='https://docs.google.com/forms/d/e/1FAIpQLScdvsMHLor8mrDrHa-BQs2XzFb96vIrx3u--LHXWd1g7RncPg/viewform'>ici</a>"
+    - label: "Créez des bannières ou des affiches en utilisant <a target='_blank' href='https://drive.google.com/drive/folders/1y-PJ3MoHndFtm_Xcm_7qPMjtNYxbygCs'>le logo Missing Maps et/ou le modèle du logo personnalisable pour les communautés Missing Maps</a>"
     - label: "Recrutez des participants utilisant Eventbrite ou une plateforme similaire."
     - label: "Choisissez une tâche en utilisant le <a target='_blank' href='http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps'>Tasking Manager</a>"
     - label: "Assurez vous d'une connexion Wi-Fi puissante."
@@ -390,8 +391,8 @@ host:
     - label: "Amusez vous à cartographier !"
   materials:
     title: "Entraînement et contenu évènementiel"
-    text: "Tout ce dont vous avez besoin pour réussir un mapathon ! (lien vers le dossier Google Drive)"
-    url: "https://drive.google.com/drive/folders/1gXkvuQNRhfyOVv6XjmncFFUIK4m_yCTb?usp=sharing"
+    text1: "Tout ce dont vous avez besoin pour réussir un mapathon ! (<a target='_blank' href='https://drive.google.com/drive/folders/1gXkvuQNRhfyOVv6XjmncFFUIK4m_yCTb?usp=sharing'>lien vers le dossier Google Drive</a>)"
+    text2: "<a target='_blank' href='https://drive.google.com/drive/folders/1y-PJ3MoHndFtm_Xcm_7qPMjtNYxbygCs'>Vous pouvez également télécharger le logo de Missing Maps</a>, ainsi qu'un modèle personnalisable du logo pour en créer un pour votre communauté."
 
 ##############
 ## Validate ##
