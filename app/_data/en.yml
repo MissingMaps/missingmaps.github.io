@@ -323,6 +323,11 @@ about:
     text1:      "Membership of the the Missing Maps Project is open to any NGO, educational establishment or civil society group willing to contribute to the goals, and abide by the ethics, stated above. Approval of membership is the responsibility of the current member organisations."
     text2:      "If you are interested in putting an organisation forward for membership, please contact us using the form below."
   contact_btn:  "CONTACT US ABOUT BECOMING A MEMBER"
+  communities:
+    title:      "Communities"
+    text1:      "We appreciate that Missing Maps activities are often community-organized, whether it is by the existing OSM communities or by local communities of Missing Maps volunteers."
+    text2:      "This led us to make available an editable version of the Missing Maps logo, so the communities can adapt it adding their country, or city."
+  reach_btn:  "CUSTOMIZE OUR LOGO FOR YOUR GROUP"
   madepossible: "Missing Maps is made possible thanks to the following organizations."
   founders:     "Founders"
   members:      "Members"
