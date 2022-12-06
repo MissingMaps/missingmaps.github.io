@@ -320,6 +320,11 @@ about:
     text1:      "Členství na projektu Missing Maps je otevřeno jakékoliv nevládní organizaci, vzdělávacímu zřízení či občanským sdružením, která jsou ochotna přispívat k plnění cílů projektu a zároveň respektovat výše uvedené etické zásady. Schválení členství je zodpovědnost současných členských organizací."
     text2:      "Pokud máte zájem o zařazení organizace mezi členské organizace, kontaktujte nás prosím pomocí níže uvedeného formuláře."
   contact_btn:  "KONTAKTUJTE NÁS – JAK SE STÁT ČLENEM"
+  communities:
+    title:      "Místní skupiny"
+    text1:      "Ceníme si toho, že jsou aktivity Missing Maps organizované komunitně – ať už stávající komunitou OSM nebo místními dobrovolníky Missing Maps."
+    text2:      "Proto jsme vytvořili upravitelnou šablonu našeho loga, tak, abyste si jej mohli přizpůsobit třeba přidáním své země nebo svého města."
+  reach_btn:  "PŘIZPŮSOBTE SI NAŠE LOGO PRO VAŠI SKUPINU"
   madepossible: "Missing Maps je umožněn díky následujícím organizacím."
   founders:     "Zakladatelé"
   members:      "Členové"
@@ -372,7 +377,7 @@ host:
     - label: "Vyzvat dobrovolníky k pomoci"
     - label: "Rezervovat místo"
     - label: "Registrovat mapathon <a target='_blank' href='https://docs.google.com/forms/d/e/1FAIpQLScdvsMHLor8mrDrHa-BQs2XzFb96vIrx3u--LHXWd1g7RncPg/viewform'>zde</a>"
-    - label: "Vytvořte bannery a/nebo plakáty na událost s <a target='_blank' href='https://drive.google.com/drive/folders/1y-PJ3MoHndFtm_Xcm_7qPMjtNYxbygCs'>Missing Maps logem, nebo editovatelnou verzí loga pro MM komunity</a>"
+    - label: "Vytvořte bannery a/nebo plakáty pro vaši událost s logem Missing Maps, <a target='_blank' href='https://drive.google.com/drive/folders/1y-PJ3MoHndFtm_Xcm_7qPMjtNYxbygCs'>nebo s editovatelnou verzí loga pro Missing Maps komunity.</a>"
     - label: "Oslovit dobrovolníky s pomocí Eventbrite"
     - label: "Vybrat mapovací úlohu na  <a target='_blank' href='http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps'>Tasking Manageru</a>"
     - label: "Ověřit si výkon Wi-Fi"
@@ -402,7 +407,7 @@ host:
   materials:
     title: "Výukové a informační materiály"
     text1: "<a target='_blank' href='https://drive.google.com/drive/folders/1gXkvuQNRhfyOVv6XjmncFFUIK4m_yCTb?usp=sharing'>Vše co potřebujete k úspěšné organizaci mapathonu</a>"
-    text2: "<a target='_blank' href='https://drive.google.com/drive/folders/1y-PJ3MoHndFtm_Xcm_7qPMjtNYxbygCs'>Můžete si stáhnout logo Missing Maps v běžných formátech</a>, i upravitelné logo, se kterým si můžete vytvořit verzi loga přímo pro svou komunitu!"
+    text2: "Logo Missing Maps si můžete stáhnout v běžných formátech, kromě toho <a target='_blank' href='https://drive.google.com/drive/folders/1y-PJ3MoHndFtm_Xcm_7qPMjtNYxbygCs'>je pro vás k dispozici editovatelné logo</a>. To si můžete přizpůsobit přímo pro vaši komunitu."
 
 ##############
 ## Validate ##
