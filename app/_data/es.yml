@@ -322,7 +322,7 @@ about:
     text1:      "La adhesión al proyecto está abierta a cualquier ONG, institución de educación o grupo de la sociedad civil dispuestos a contribuir a los objetivos y cumplir con la ética expuesta anteriormente. La aprobación de la adhesión es responsabilidad de las organizaciones actualmente afiliadas."
     text2:      "Si estás interesado en adherirse como miembro, por favor ponte en contacto con nosotros mediante el siguiente formulario."
   contact_btn:  "CONTÁCTANOS PARA CONVERTIRTE EN MIEMBRO"
-   communities:
+  communities:
     title:      "Comunidades"
     text1:      "Agradecemos que las actividades de Missing Maps a menudo sean organizadas de manera comunitaria, ya sea por las comunidades existentes de OSM o por las comunidades locales de voluntarios de Missing Maps."
     text2:      "Hemos puesto a disposición una versión editable del logo de Missing Maps, para que las comunidades puedan adaptarlo agregando su país o ciudad."
