@@ -320,6 +320,11 @@ about:
     text1: "Les membres fondateurs du projet Missing Maps invitent les autres ONG, établissements d'enseignement et associations qui souhaitent contribuer à ses objectifs et dans le respect de l'éthique de ce dernier, à rejoindre le projet. L'acceptation de cette adhésion est sous la responsabilité des organisatinos membres actuelles"
     text2: "Si vous êtes intéressés, merci de nous contacter via le formulaire ci-dessous."
   contact_btn: "CONTACTEZ-NOUS POUR DEVENIR MEMBRE"
+  communities:
+    title:      "Communautés"
+    text1:      "Nous apprécions que les activités de Missing Maps soient souvent organisées par la communauté, que ce soit par les communautés OSM existantes ou par les communautés locales des bénévoles de Missing Maps."
+    text2:      "Cela nous a amenés à mettre à disposition une version modifiable du logo Missing Maps afin que les communautés puissent l'adapter à leur pays ou à leur ville."
+  reach_btn:  "CUSTOMISEZ NOTRE LOGO POUR VOTRE GROUPE"
   madepossible: "Missing Maps a pu être possible grâce aux organisations suivantes."
   founders: "Fondateurs"
   members: "Membres"
