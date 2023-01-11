@@ -1,18 +1,16 @@
 
 [//]: <> (MM Logo)
+<figure>
 <img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_mmLogo.png" width=50%>
 </figure>
-
   
 
 # Comment valider les données cartographiques
 
-  
-
 [//]: <> (Photo of in-person Mapathon)
+<figure>
 <img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_mapathon.png" width=100%>
 </figure>
-
   
 
 ## Contexte
@@ -81,17 +79,19 @@ Avant de valider le travail d'autrui, vous devez être vous-même un cartographe
 Dans le [Gestionnaire de tâche](http://tasks.hotosm.org), choisissez un projet à valider dans la page "Explorer les projets". La progression'avancement de chaque projet est marquéemarqué par une barre visible en bas de chaque fiche de projet. La partie rouge indique la portion validée, la partie gris foncé indique la portion cartographiée et la partie gris clair indique la portion restante à cartographier. Lorsque vous cliquez sur le projet, vous pouvez survoler chaque section de la barre de progression pour connaître les pourcentages exacts.
 
   
-
-![Tasking Manager contribution tab](https://arcmaps.s3.amazonaws.com/share/validationPictures/ValidGettingStarted1.png)
-
+[//]: <> (Tasking Manager Contribution Tab)
+<figure>
+<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/ValidGettingStarted1.png" width=50%>
+</figure>
   
 
 Remarquez sur la page principale du projet, sous "Équipes et autorisations", que seuls certains utilisateurs peuvent cartographier et valider un projet. Ces permissions sont définies par le chef de projet. Si vous n'avez pas le niveau d'expérience spécifié ou si vous ne faites pas partie de l'équipe indiquée, vous ne pouvez pas contribuer au projet.
 
   
-
-![teams and permissions](https://arcmaps.s3.amazonaws.com/share/validationPictures/ValidGettingStarted2.png)
-
+[//]: <> (HOT Tasking Manager teams and permissions)
+<figure>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_ValidGettingStarted2.PNG" width=80%>
+</figure>
   
 
 Continuez à cartographier et à développer vos compétences jusqu'à ce que vous répondiez aux exigences. Si vous vous sentez prêt à rejoindre l'équipe de validateurs de HOT, demandez à la rejoindre en remplissant [ce questionnaire](http://bit.ly/HOTValidators). Vous pouvez vérifier votre niveau d'expérience dans l'onglet "Mes contributions" du Ggestionnaire de tâches. Cliquez sur "Mes équipes" pour afficher votre appartenance à l'équipe.
@@ -101,9 +101,10 @@ Continuez à cartographier et à développer vos compétences jusqu'à ce que vo
 Avant de commencer à valider, vous devez comprendre l'objectif du projet en lisant ses onglets "Description" et "Instructions". La description se trouve sur la page principale du projet tandis que les instructions sont disponibles après avoir appuyé sur le bouton "Contribuer". Ces instructions vous indiqueront quels éléments doivent être cartographiés, comment les baliser, quelles images satellites utiliser et toute autre considération du chef de projet. Chaque projet est unique et il est important de suivre attentivement les instructions du chef de projet pour s'assurer que la zone est cartographiée de manière cohérente. Voici un exemple de description et d'instructions pour une tâche :
 
   
-
-![project description](https://arcmaps.s3.amazonaws.com/share/validationPictures/UnderstandingYourProject1.png)
-
+[//]: <> (project description)
+<figure>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_UnderstandingYourProject1.PNG" width=80%>
+</figure>
   
 
 ### Ouverture des tâches
@@ -153,8 +154,11 @@ Certains validateurs trouvent utile de prendre des notes pendant qu'ils révisen
 
 Vous devez également vérifier s'il reste du travail à faire sur la tâche du Gestionnaire de tâches HOT. Si la tâche n'est pas tout à fait complète, vous devez déterminer, selon le contexte, s'il est préférable de terminer la cartographie vous-même ou de renvoyer la tâche à l'étape de cartographie. Si les dernières contributions ont été faites il y a plusieurs mois, ou si l'utilisateur dont vous validez le travail n'a pas utilisé OSM depuis de nombreux mois, il serait mieux que le validateur termine ce qui reste à cartographier, pour ensuite valider. Vous pouvez visualiser l'activité du projet sur la page principale du projet. Lorsque vous ouvrez une tâche, vous pouvez voir l'activité liée à cette tâche dans l'onglet "Contributions" de la barre latérale de droite. Les activités des utilisateurs individuels peuvent être trouvées en cliquant sur le nom d'utilisateur dans cet onglet. Vous serez dirigé vers leur profil du Gestionnaire de tâches. Si vous cliquez à nouveau sur son nom d'utilisateur sur cette page où vous voyez le symbole OSM, vous serez dirigé vers son profil OSM.
 
-![validation workflow](https://arcmaps.s3.amazonaws.com/share/validationPictures/ValidGettingStarted3.png)
 
+[//]: <> (validation workflow)
+<figure>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_ValidGettingStarted3.png" width=70%>
+</figure>
   
 
 ### Fermer les tâches et envoyer des commentaires
@@ -166,17 +170,19 @@ Une fois que vous avez passé en revue la tâche cartographiée d'un utilisateur
 Vous pouvez voir la liste des personnes qui ont travaillé sur la tâche en dessous de l'onglet historique :
 
   
-
-![Tasking Manager History](https://arcmaps.s3.amazonaws.com/share/validationPictures/ValidGettingStarted4.png)
-
+[//]: <> (Tasking Manager History)
+<figure>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_ValidGettingStarted4.png" width=55%>
+</figure>
   
 
 Il se peut que de nombreuses personnes aient contribué, alors assurez-vous de les remercier pour leur travail, même s'il y a quelques erreurs ou problèmes. Cela peut les encourager à revenir et à cartographier à nouveau. Si vous avez remarqué des erreurs, comme l'un des éléments que nous avons nommé plus haut, ou d'autres erreurs, comme des bâtiments qui ne sont pas carrés ou des routes manquantes, notez-le également dans le commentaire, poliment. Cela peut aider le cartographe débutant à apprendre, afin qu'il fasse un meilleur travail la prochaine fois.
 
   
-
-![Tasking Manager task completion status](https://arcmaps.s3.amazonaws.com/share/validationPictures/ValidGettingStarted5.png)
-
+[//]: <> (Tasking Manager task completion status)
+<figure>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_ValidGettingStarted5.PNG" width=52%>
+</figure>
   
 
 Voici un exemple de message que vous pouvez utiliser :
@@ -258,9 +264,10 @@ L'outil de validation est exécuté automatiquement lorsque vous transférez té
 Activez l'outil en cliquant sur le bouton de l'outil de validation sur le côté gauche de l'éditeur JOSM. (Cette opération est inutile si le panneau de validation est déjà ouvert).
 
   
-
-![validation tool icon](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_validateIcon.png)
-
+[//]: <> (validation tool icon)
+<figure>
+<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_validateIcon.png" width=6%>
+</figure>
   
 
 Si vous avez des éléments sélectionnés, l'outil de validation ne vérifiera que ces éléments. Il peut arriver que vous souhaitiez ne vérifier que certains éléments, mais pour l'instant nous allons vérifier l'ensemble du fichier. Pour tout désélectionner, appuyez sur la touche `Esc`.
@@ -270,25 +277,28 @@ Si vous avez des éléments sélectionnés, l'outil de validation ne vérifiera 
 Cliquez sur le bouton "Validation" dans le panneau. Cela permettra de vérifier un certain nombre d'erreurs potentielles.
 
   
-
-![validation tool button](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_validateTool.png)
-
+[//]: <> (validation tool button)
+<figure>
+<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_validateTool.png" width=20%>
+</figure>
   
 
 Vous verrez apparaître une liste d'avertissements (votre liste peut varier) :
 
   
-
-![validation results panel](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_validateResults.png)
-
+[//]: <> (validation results panel)
+<figure>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_validateResults.PNG" width=50%>
+</figure>
   
 
 Une nouvelle couche apparaît également dans votre panneau Calques, montrant où se trouvent les erreurs. Vous trouverez peut-être pratique de masquer cette couche en cliquant sur l'icône en forme d'œil à côté de son nom. Il est plus facile de voir vos données lorsque cette couche est désactivée.
 
   
-
-![Layers panel](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_Layers.png)
-
+[//]: <> (Layers panel - FR version)
+<figure>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_Layers.PNG" width=50%>
+</figure>
   
 
 Examinons quelques-uns des avertissements. La plupart d'entre eux doivent être corrigés, mais nous pouvons ignorer "Unnamed ways" puisque vous ne connaissez probablement pas le nom des routes.
@@ -298,9 +308,10 @@ Examinons quelques-uns des avertissements. La plupart d'entre eux doivent être 
 Le reste, en revanche, doit être examiné. Pour zoomer sur un problème, cliquez sur la liste déroulante, puis sélectionnez un des problèmes avec le bouton droit de la souris, puis cliquez sur "Zoomer sur le problème" ; l'erreur sera mise en évidence et le zoom sera effectué.
 
   
-
-![Zoom to problem](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_zoomToProblem.png)
-
+[//]: <> (Zoom to problem)
+<figure>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_zoomToProblem.PNG" width=50%>
+</figure>
   
 
 Il s'agit souvent d'erreurs que nous n'aurions jamais détectées sans l'outil de validation.
@@ -346,9 +357,10 @@ La façon la plus simple de procéder est de commencer dans un coin, de zoomer p
 Le plugin markseen est un outil utile pour parcourir la tâche. Ce plugin ouvre le "Markseen Viewer" pour montrer les zones de la carte que vous avez déjà examinées.
 
   
-
-![Markseen viewer](https://github.com/risicle/josm-markseen/blob/master/screen_20170828.png?raw=true)
-
+[//]: <> (Markseen viewer)
+<figure>
+<img src="https://raw.githubusercontent.com/risicle/josm-markseen/master/screen_20170828.png" width=60%>
+</figure>
   
 
 ## Routes
@@ -366,9 +378,10 @@ Si des routes manquent dans la tâche, ajoutez-les selon les instructions mentio
 Un autre problème courant avec les routes est de leur donner un nom incorrect. Lorsque nous cartographions à distance, nous ne savons généralement pas le nom des routes, car nous ne sommes pas familiers avec les lieux cartographiés. Autrement, il est possible que les utilisateurs nomment les routes avec une description, comme "route", plutôt qu'un nom. Le champ Nom doit représenter les noms de la route, comme "Highway 1" ou "North Avenue". Pour trouver toutes les routes nommées dans les données à valider, cliquez sur `Ctrl+F` et tapez `highway=* name=*`'.
 
   
-
-![search string: highway=* name =*](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_searchHighway.png)
-
+[//]: <> (search string: highway=* name =*)
+<figure>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_searchHighway.PNG" width=50%>
+</figure>
   
 
 Vous trouverez ainsi toutes les routes auxquelles un nom a été attribué. Cliquez sur chacune d'elles pour voir quel est le nom et si celui-ci semble correct. Si le nom attribué est descriptif comme "route" ou "chemin de terre", c'est peut-être incorrect, le cartographe a peut-être voulu mettre une balise, mais a changé le nom par erreur. Supprimez-le s'il semble incorrect. Mais faites attention, nous ne voulons pas supprimer des données exactes.
@@ -391,8 +404,10 @@ Voici un exemple. Le bâtiment de droite est rattaché à la route - voir le car
 
   
 
-![building node joined to highway node](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_unglue.png)
-
+[//]: <> (building node joined to highway node)
+<figure>
+<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_unglue.png" width=60%>
+</figure>
   
 
 Pour les déconnecter, cliquez sur le nœud joint, puis sur `G` sur votre clavier, qui est le raccourci pour "décoller". Ensuite, cliquez sur un nœud et déplacez-le là où il doit être. Vous devrez peut-être appuyer sur `Q` sur votre clavier pour rendre le bâtiment orthogonal.
@@ -411,8 +426,10 @@ Pour accéder aux options de recherche, allez dans Édition -> Recherche ou appu
 
   
 
-![Loop icon](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_search.png)
-
+[//]: <> (Loop icon)
+<figure>
+<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_search.png" width=8%>
+</figure>
   
 
 Il existe un grand nombre de requêtes que vous pouvez rechercher ici, et vous pouvez voir des détails et des exemples dans la boîte de recherche elle-même et en cliquant sur le bouton "Aide". Visitez la [page Wiki de la fonction de recherche JOSM](https://wiki.openstreetmap.org/wiki/JOSM/Search_function) pour plus d'exemples.
@@ -467,10 +484,11 @@ Vous trouverez tout ce qui est marqué comme bâtiment dans votre vue actuelle a
 
   
 
-![Search string: building inview nodes:4-](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_searchQuery.png)
-
+[//]: <> (Search string: building inview nodes:4-)
+<figure>
+<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_searchQuery.png" width=50%>
+</figure>
   
-
   
 
 Ils deviendront tous rouges sur votre écran. Cliquez sur la touche `Q` de votre clavier et cela orthogonalisera les formes.mettra tous leurs coins au carré.
@@ -486,29 +504,19 @@ Cependant, faites attention ! S'il y a des bâtiments qui ne devraient pas être
   
 
 Si vous souhaitez trier plus facilement les bâtiments un par un, ajoutez les résultats de la recherche ci-dessus au plugin Todo List. Cela vous permettra de trier rapidement les polygones pour vérifier visuellement s'ils doivent être orthogonalisésmis au carré. Plus d'informations sur ce plugin ci-dessous.
-
   
-
   
-
-![Undo and redo icons](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_undoRedo.png)
-
+[//]: <> (Undo and redo icons)
+<figure>
+<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_undoRedo.png" width=15%>
+</figure>
   
-
   
-
 #### Utilisation de scripts pour identifier les bâtiments qui devraient être mis au carré
-
   
-
   
-
 Le script suivant est un autre outil utile pour trouver les bâtiments non carrés.
-
   
-
-  
-
 Naviguez vers [ce répertoire GitHub](https://github.com/MikeTho16/JOSM-Scripts/). Cherchez `SelectNonOrthogonalBuilding.js` dans la liste et téléchargez-le. Enregistrez-le dans un répertoire facile à trouver sur votre ordinateur local. Ouvrez l'onglet script dans JOSM et cliquez sur "run" et sélectionnez le fichier téléchargé. Après l'avoir sélectionné, exécutez le script. Maintenant, tous les bâtiments qui répondent aux paramètres du script seront surlignés en rouge. Vous pouvez d'abord les vérifier dans votre tâche, puis appuyer sur `Q` pour les mettre tous en carré. Exécutez à nouveau le script pour voir s'il reste des bâtiments non orthogonaux. Vérifiez d'abord ceux-ci, car il peut y avoir des cas où les bâtiments sont joints par des nœuds. Détachez ces nœuds en appuyant sur `G` et cliquez à nouveau sur le bouton `Q`.
 
   
@@ -532,9 +540,10 @@ Exemple d'éditions à partir du projet de cartographie sur le Gestionnaire de t
   
 
   
-
-![History of a feature](https://arcmaps.s3.amazonaws.com/share/validationPictures/ValidHistory1.png)
-
+[//]: <> (History of a feature)
+<figure>
+<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/ValidHistory1.png" width=70%>
+</figure>
   
 
   
@@ -545,8 +554,10 @@ Exemple de modifications apportées par un cartographe local :
 
   
 
-![History of a feature after validation](https://arcmaps.s3.amazonaws.com/share/validationPictures/ValidHistory2.png)
-
+[//]: <> (History of a feature after validation)
+<figure>
+<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/ValidHistory2.png" width=70%>
+</figure>
   
 
   
@@ -569,8 +580,10 @@ Pour utiliser le plugin, vous devez le télécharger depuis le menu des plugins 
 
   
 
-![todo list icon](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_todoIcon.png)
-
+[//]: <> (todo list icon)
+<figure>
+<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_todoIcon.png" width=5%>
+</figure>
   
 
   
@@ -586,9 +599,10 @@ Le plugin Todo List est extrêmement utile pour les cartographesmappeurs débuta
   
 
   
-
-![todo list panel](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_todoPanel.png)
-
+[//]: <> (todo list panel)
+<figure>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_todoPanel.PNG" width=45%>
+</figure>
   
 
   
@@ -628,9 +642,10 @@ Pour ajouter les modèles de rendu, cliquez sur le menu Windows et cliquez sur C
   
 
   
-
-![Map paint styles](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_paintStyle.png)
-
+[//]: <> (Map paint styles)
+<figure>
+<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_paintStyle.png" width=65%>
+</figure>
   
 
   
@@ -647,8 +662,10 @@ Cliquez sur le symbole d’addition, en haut à droite, pour en ajouter un nouve
 
   
 
-![Map paint styles - add style](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_addStyle.png)
-
+[//]: <> (Map paint styles - add style)
+<figure>
+<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_addStyle.png" width=100%>
+</figure>
   
 
   
@@ -659,8 +676,10 @@ Tapez un nom, tel que Validation Missing Maps, et copier l’URL suivant https:/
 
   
 
-![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_styleName.png)
-
+[//]: <> (Map paint styles - add style, style name)
+<figure>
+<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_styleName.png" width=70%>
+</figure>
   
 
   
@@ -712,9 +731,10 @@ Par exemple, vous pouvez voir quelque chose comme ceci :
   
 
   
-
-![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_styleExample1.png)
-
+[//]: <> (Validation Missing Maps - example 1)
+<figure>
+<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_styleExample1.png" width=70%>
+</figure>
   
 
   
@@ -725,8 +745,10 @@ Ou ceci :
 
   
 
-![](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_styleExample2.png)
-
+[//]: <> (Validation Missing Maps - example2)
+<figure>
+<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_styleExample2.png" width=70%>
+</figure>
   
 
   
