@@ -412,7 +412,7 @@ checker:
     tools-filename: "Tools for Project Managers_EN.pdf"
     ### NOTE: above file needs to exist in `/app/assets/downloads/` folder
     guide: "GUIDE DE VALIDATION COMPLET"
-    validating_pdf: "Validating_Data_EN.pdf"
+    validating_pdf: "Validating_Data_FR.pdf"
     wiki: "WIKI"
   steps:
     goal: "Validé"

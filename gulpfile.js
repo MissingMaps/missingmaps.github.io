@@ -167,6 +167,17 @@ function validationPdfES(cb) {
 }
 exports.validationPdfES = validationPdfES;
 
+function validationPdfFR(cb) {
+  markdownpdf({
+        cssPath: 'app/assets/styles/github-markdown.css',
+        paperFormat: 'Letter'})
+    .from('app/assets/sources/Validating_Data_FR.md')
+    .to(".tmp/assets/downloads/Validating_Data_FR.pdf", function () { 
+      console.log("Done converting Validating_Data_FR.md to PDF.")
+      cb();
+    }) 
+}
+exports.validationPdfFR = validationPdfFR;
 
 function cloneBlog(cb) {
   git.clone('https://github.com/MissingMaps/blog', {args: './app/_posts'}, function(err) {
@@ -214,7 +225,7 @@ exports.serve = gulp.series(
   clean,
   gulp.parallel(cloneBlog, grabEvents, grabEventHelpers),
   jekyll, 
-  gulp.parallel(javascripts, styles, icons, zipMaterials, AdvJosmPdfEN, AdvJosmPdfFR, AdvJosmPdfES, validationPdfEN, validationPdfES), 
+  gulp.parallel(javascripts, styles, icons, zipMaterials, AdvJosmPdfEN, AdvJosmPdfFR, AdvJosmPdfES, validationPdfEN, validationPdfES, validationPdfFR), 
   copyAssets, 
   watching);
 
@@ -225,7 +236,7 @@ exports.prod = gulp.series(
   gulp.parallel(cloneBlog, grabEvents, grabEventHelpers), 
   setProd, 
   jekyll, 
-  gulp.parallel(javascripts, styles, icons, zipMaterials, AdvJosmPdfEN, AdvJosmPdfFR, AdvJosmPdfES, validationPdfEN, validationPdfES), 
+  gulp.parallel(javascripts, styles, icons, zipMaterials, AdvJosmPdfEN, AdvJosmPdfFR, AdvJosmPdfES, validationPdfEN, validationPdfES, validationPdfFR), 
   copyAssets);
 
 
