@@ -157,7 +157,7 @@ Vous devez également vérifier s'il reste du travail à faire sur la tâche du 
 
 [//]: <> (validation workflow)
 <figure>
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_ValidGettingStarted3.png" width=70%>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_ValidGettingStarted3.png" width=50%>
 </figure>
   
 
@@ -297,7 +297,7 @@ Une nouvelle couche apparaît également dans votre panneau Calques, montrant o�
   
 [//]: <> (Layers panel - FR version)
 <figure>
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_Layers.PNG" width=50%>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_Layers.PNG" width=45%>
 </figure>
   
 
@@ -644,7 +644,7 @@ Pour ajouter les modèles de rendu, cliquez sur le menu Windows et cliquez sur C
   
 [//]: <> (Map paint styles)
 <figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_paintStyle.png" width=65%>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_PaintStyle.PNG" width=45%>
 </figure>
   
 
@@ -664,7 +664,7 @@ Cliquez sur le symbole d’addition, en haut à droite, pour en ajouter un nouve
 
 [//]: <> (Map paint styles - add style)
 <figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_addStyle.png" width=100%>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_addStyle.PNG" width=70%>
 </figure>
   
 
@@ -678,7 +678,7 @@ Tapez un nom, tel que Validation Missing Maps, et copier l’URL suivant https:/
 
 [//]: <> (Map paint styles - add style, style name)
 <figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_styleName.png" width=70%>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_styleName.PNG" width=60%>
 </figure>
   
 
