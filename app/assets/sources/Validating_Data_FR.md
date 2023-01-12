@@ -81,7 +81,7 @@ Dans le [Gestionnaire de tâche](http://tasks.hotosm.org), choisissez un projet 
   
 [//]: <> (Tasking Manager Contribution Tab)
 <figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/ValidGettingStarted1.png" width=50%>
+<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/ValidGettingStarted1.png" width=45%>
 </figure>
   
 
@@ -90,7 +90,7 @@ Remarquez sur la page principale du projet, sous "Équipes et autorisations", qu
   
 [//]: <> (HOT Tasking Manager teams and permissions)
 <figure>
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_ValidGettingStarted2.PNG" width=80%>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_ValidGettingStarted2.PNG" width=60%>
 </figure>
   
 
@@ -172,7 +172,7 @@ Vous pouvez voir la liste des personnes qui ont travaillé sur la tâche en dess
   
 [//]: <> (Tasking Manager History)
 <figure>
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_ValidGettingStarted4.png" width=55%>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_ValidGettingStarted4.png" width=45%>
 </figure>
   
 
@@ -279,7 +279,7 @@ Cliquez sur le bouton "Validation" dans le panneau. Cela permettra de vérifier 
   
 [//]: <> (validation tool button)
 <figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_validateTool.png" width=20%>
+<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_validateTool.png" width=15%>
 </figure>
   
 
