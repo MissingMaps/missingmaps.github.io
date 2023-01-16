@@ -34,7 +34,7 @@ There are four main steps in incorporating a language:
 6. (OPTIONAL) Add translations of pdf assets
     1. add documents to assets/downloads
     2. update \_data/```2-letter code```.yml host.materials_list.asset(s) with the filename you created
-    
+
 If the Jeykll build is failing when parsing one of the `/app/_data/*.yml` files, it can be useful to install and use [`yamllint`](https://yamllint.readthedocs.io/en/stable/). Running, for example, `yamllint ./app/_data/fr.yml` will output a large number of errors but you can find the critical ones base on the description, such as:
 ```
   138:73    error    syntax error: expected <block end>, but found '<scalar>' (syntax)
@@ -45,11 +45,11 @@ If the Jeykll build is failing when parsing one of the `/app/_data/*.yml` files,
 ### Environment
 To set up the development environment for this website, you'll need to install the following on your system:
 
-- [Node and npm](http://nodejs.org/)
-- Ruby and [Bundler](http://bundler.io/), preferably through something like [rvm](https://rvm.io/)
+- [Node and npm](http://nodejs.org/) (version in `.nvmrc` file)
+- Ruby and [Bundler](http://bundler.io/), preferably through something like [rvm](https://rvm.io/) (version in `.ruby-version` file)
 - Gulp
 ```
-$ gem install bundler
+$ gem install bundler  -v 2.4.3
 $ npm install -g gulp
 $ npm install --global gulp-cli
 ```

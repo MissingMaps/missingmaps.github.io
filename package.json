@@ -32,8 +32,8 @@
   "devDependencies": {},
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
-    "async": "^3.2.0",
-    "browser-sync": "^2.27.5",
+    "async": "^3.2.4",
+    "browser-sync": "^2.27.11",
     "chai": "^4.2.0",
     "colors": "^1.4.0",
     "foundation-sites": "^6.6.1",
