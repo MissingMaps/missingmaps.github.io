@@ -179,9 +179,17 @@ table {
       margin-top: 0; }
     table tr th :last-child, table tr td :last-child {
       margin-bottom: 0; }
+ 
+figure {
+  text-align: left; }
 
 img {
   max-width: 100%; }
+
+.caption {
+  text-align: left;
+  font-size: 0.8em;
+  font-style: italic;}
 
 span.frame {
   display: block;
