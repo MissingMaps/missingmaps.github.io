@@ -45,7 +45,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-git": "^2.10.0",
     "gulp-plumber": "^1.2.1",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
     "gulp-zip": "^5.0.1",
