@@ -1,18 +1,11 @@
 
-[//]: <> (MM Logo)
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_mmLogo.png" width=50%>
-</figure>
+![MM Logo](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_mmLogo.png)
   
-
 # Comment valider les données cartographiques
 
-[//]: <> (Photo of in-person Mapathon)
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_mapathon.png" width=100%>
-</figure>
-  
 
+![Photo of in-person Mapathon](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_mapathon.png)
+  
 ## Contexte
 
 La validation des données est une partie importante d'OpenStreetMap et de la cartographie humanitaire. OpenStreetMap est construit par des bénévoles de tous niveaux de compétences, provenant de pays et de milieux différents, mais aussi d'expériences variées. Bien que la présence d'une telle variété de cartographes soit un avantage pour le projet, elle peut également entraîner des incohérences dans la cartographie. Les incohérences sont particulièrement fréquentes lorsque des cartographes débutants travaillent sur de petites sections isolées de la carte dans des pays qui leur sont peu familiers - comme c'est souvent le cas sur le [Gestionnaire de tâches HOT](https://tasks.hotosm.org/).
@@ -35,7 +28,7 @@ Les validateurs sont des bénévoles expérimentés en cartographie qui examinen
 
   
 
-Les exigences spécifiques de chaque projet de cartographie sur le Gestionnaire de tâches HOT varient, ainsi que les protocoles de balisage régionaux. Pour cette raison, il est difficile d'élaborer un guide complet pour les validateurs qui couvre tout ce qui doit être vérifié. Tout comme pour la cartographie, les validateurs ont tous leurs propres préférences et processus flux de travail pour la révision des données. Gardez à l'esprit les responsabilités ci-dessus. Ce document est destiné à être un guide général ; un bon point de départ pour apprendre de nouvelles astuces. Discutez avec les chefs de projet et la communauté des validateurs sur [Slack de HOT](https://slack.hotosm.org/) et continuez à apprendre et à améliorer vos compétences.
+  Les exigences spécifiques de chaque projet de cartographie sur le Gestionnaire de tâches HOT varient, ainsi que les protocoles de balisage régionaux. Pour cette raison, il est difficile d'élaborer un guide complet pour les validateurs qui couvre tout ce qui doit être vérifié. Tout comme pour la cartographie, les validateurs ont tous leurs propres préférences et processus de travail pour la révision des données. Gardez à l'esprit les responsabilités ci-dessus. Ce document est destiné à être un guide général; un bon point de départ pour apprendre de nouvelles astuces. Discutez avec les chefs de projet et la communauté des validateurs sur [Slack de HOT](https://slack.hotosm.org/) et continuez à apprendre et à améliorer vos compétences.
 
   
 
@@ -55,7 +48,7 @@ Avant de valider le travail d'autrui, vous devez être vous-même un cartographe
 
   
 
-- Savoir comment améliorer de manière efficacement les données, sans perdre les informations locales.
+- Savoir comment améliorer de manière efficace les données, sans perdre les informations locales.
 
   
 
@@ -63,12 +56,12 @@ Avant de valider le travail d'autrui, vous devez être vous-même un cartographe
 
   
 
-- Utiliser avec confiance les plates-formes de cartographie nécessaires, telles que le Gestionnaire de tâches HOT et le [l'Éditeur JOSM](https://josm.openstreetmap.de/).
+- Utiliser avec confiance les plateformes de cartographie nécessaires, telles que le Gestionnaire de tâches HOT et le [l'Éditeur JOSM](https://josm.openstreetmap.de/).
 
   
-  
 
-## Processus Flux de travail général
+
+## Processus de travail général
 
   
 
@@ -76,35 +69,26 @@ Avant de valider le travail d'autrui, vous devez être vous-même un cartographe
 
   
 
-Dans le [Gestionnaire de tâche](http://tasks.hotosm.org), choisissez un projet à valider dans la page "Explorer les projets". La progression'avancement de chaque projet est marquéemarqué par une barre visible en bas de chaque fiche de projet. La partie rouge indique la portion validée, la partie gris foncé indique la portion cartographiée et la partie gris clair indique la portion restante à cartographier. Lorsque vous cliquez sur le projet, vous pouvez survoler chaque section de la barre de progression pour connaître les pourcentages exacts.
+Dans le [Gestionnaire de tâche](http://tasks.hotosm.org), choisissez un projet à valider dans la page "Explorer les projets". La progression de chaque projet est marquée par une barre visible en bas de chaque fiche de projet. La partie rouge indique la portion validée, la partie gris foncé indique la portion cartographiée et la partie gris clair indique la portion restante à cartographier. Lorsque vous cliquez sur le projet, vous pouvez survoler chaque section de la barre de progression pour connaître les pourcentages exacts.
+  
 
-  
-[//]: <> (Tasking Manager Contribution Tab)
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/ValidGettingStarted1.png" width=45%>
-</figure>
-  
+
+![Tasking Manager Contribution Tab](https://arcmaps.s3.amazonaws.com/share/validationPictures/ValidGettingStarted1.png)
 
 Remarquez sur la page principale du projet, sous "Équipes et autorisations", que seuls certains utilisateurs peuvent cartographier et valider un projet. Ces permissions sont définies par le chef de projet. Si vous n'avez pas le niveau d'expérience spécifié ou si vous ne faites pas partie de l'équipe indiquée, vous ne pouvez pas contribuer au projet.
 
   
-[//]: <> (HOT Tasking Manager teams and permissions)
-<figure>
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_ValidGettingStarted2.PNG" width=60%>
-</figure>
+![HOT Tasking Manager teams and permissions](https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_ValidGettingStarted2.PNG)
   
 
-Continuez à cartographier et à développer vos compétences jusqu'à ce que vous répondiez aux exigences. Si vous vous sentez prêt à rejoindre l'équipe de validateurs de HOT, demandez à la rejoindre en remplissant [ce questionnaire](http://bit.ly/HOTValidators). Vous pouvez vérifier votre niveau d'expérience dans l'onglet "Mes contributions" du Ggestionnaire de tâches. Cliquez sur "Mes équipes" pour afficher votre appartenance à l'équipe.
+Continuez à cartographier et à développer vos compétences jusqu'à ce que vous répondiez aux exigences. Si vous vous sentez prêt à rejoindre l'équipe de validateurs de HOT, demandez à la rejoindre en remplissant [ce questionnaire](http://bit.ly/HOTValidators). Vous pouvez vérifier votre niveau d'expérience dans l'onglet "Mes contributions" du Gestionnaire de tâches. Cliquez sur "Mes équipes" pour afficher votre appartenance à l'équipe.
 
   
 
 Avant de commencer à valider, vous devez comprendre l'objectif du projet en lisant ses onglets "Description" et "Instructions". La description se trouve sur la page principale du projet tandis que les instructions sont disponibles après avoir appuyé sur le bouton "Contribuer". Ces instructions vous indiqueront quels éléments doivent être cartographiés, comment les baliser, quelles images satellites utiliser et toute autre considération du chef de projet. Chaque projet est unique et il est important de suivre attentivement les instructions du chef de projet pour s'assurer que la zone est cartographiée de manière cohérente. Voici un exemple de description et d'instructions pour une tâche :
 
   
-[//]: <> (project description)
-<figure>
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_UnderstandingYourProject1.PNG" width=80%>
-</figure>
+![HOT Tasking Manager project description](https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_UnderstandingYourProject1.PNG)
   
 
 ### Ouverture des tâches
@@ -115,7 +99,7 @@ L'ouverture des tâches à valider suit un processus similaire à celui utilisé
 
   
 
-### Révision de la cartographiee
+### Révision de la cartographie
 
   
 
@@ -140,7 +124,7 @@ Comme mentionné précédemment, il existe une grande variété de projets de ca
 
   
 
-En fonction de vos préférences et de l'urgence du projet de cartographie, vous souhaiterez peut-être corriger une partie ou la totalité des problèmes que vous avez découverts lors de la révision, le cas échéant. Tenez compte de la facilité avec laquelle ces problèmes peuvent être résolus par un cartographe débutant. Si vous voyez une opportunité où les cartographes débutants peuvent aider au nettoyage des données - lorsque de nombreux bâtiments doivent être orthogonalisés,orthogonaliser, par exemple - vous pouvez laisser ces corrections aux autres et passer plus de temps à valider d'autres tâches.
+En fonction de vos préférences et de l'urgence du projet de cartographie, vous souhaiterez peut-être corriger une partie ou la totalité des problèmes que vous avez découverts lors de la révision, le cas échéant. Tenez compte de la facilité avec laquelle ces problèmes peuvent être résolus par un cartographe débutant. Si vous voyez une opportunité où les cartographes débutants peuvent aider au nettoyage des données - lorsque de nombreux bâtiments doivent être orthogonalisés, par exemple - vous pouvez laisser ces corrections aux autres et passer plus de temps à valider d'autres tâches.
 
   
 
@@ -155,10 +139,7 @@ Certains validateurs trouvent utile de prendre des notes pendant qu'ils révisen
 Vous devez également vérifier s'il reste du travail à faire sur la tâche du Gestionnaire de tâches HOT. Si la tâche n'est pas tout à fait complète, vous devez déterminer, selon le contexte, s'il est préférable de terminer la cartographie vous-même ou de renvoyer la tâche à l'étape de cartographie. Si les dernières contributions ont été faites il y a plusieurs mois, ou si l'utilisateur dont vous validez le travail n'a pas utilisé OSM depuis de nombreux mois, il serait mieux que le validateur termine ce qui reste à cartographier, pour ensuite valider. Vous pouvez visualiser l'activité du projet sur la page principale du projet. Lorsque vous ouvrez une tâche, vous pouvez voir l'activité liée à cette tâche dans l'onglet "Contributions" de la barre latérale de droite. Les activités des utilisateurs individuels peuvent être trouvées en cliquant sur le nom d'utilisateur dans cet onglet. Vous serez dirigé vers leur profil du Gestionnaire de tâches. Si vous cliquez à nouveau sur son nom d'utilisateur sur cette page où vous voyez le symbole OSM, vous serez dirigé vers son profil OSM.
 
 
-[//]: <> (validation workflow)
-<figure>
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_ValidGettingStarted3.png" width=50%>
-</figure>
+![validation workflow](https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_ValidGettingStarted3.png)
   
 
 ### Fermer les tâches et envoyer des commentaires
@@ -170,20 +151,14 @@ Une fois que vous avez passé en revue la tâche cartographiée d'un utilisateur
 Vous pouvez voir la liste des personnes qui ont travaillé sur la tâche en dessous de l'onglet historique :
 
   
-[//]: <> (Tasking Manager History)
-<figure>
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_ValidGettingStarted4.png" width=45%>
-</figure>
-  
+![Tasking Manager History](https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_ValidGettingStarted4.png)
 
+
+  
 Il se peut que de nombreuses personnes aient contribué, alors assurez-vous de les remercier pour leur travail, même s'il y a quelques erreurs ou problèmes. Cela peut les encourager à revenir et à cartographier à nouveau. Si vous avez remarqué des erreurs, comme l'un des éléments que nous avons nommé plus haut, ou d'autres erreurs, comme des bâtiments qui ne sont pas carrés ou des routes manquantes, notez-le également dans le commentaire, poliment. Cela peut aider le cartographe débutant à apprendre, afin qu'il fasse un meilleur travail la prochaine fois.
 
   
-[//]: <> (Tasking Manager task completion status)
-<figure>
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_ValidGettingStarted5.PNG" width=52%>
-</figure>
-  
+![Tasking Manager task completion status](https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_ValidGettingStarted5.PNG)
 
 Voici un exemple de message que vous pouvez utiliser :
 
@@ -241,7 +216,7 @@ Voici quelques exemples de problèmes courants qui doivent être corrigés :
 
   
 
-- **Balisage inexact :** Pour ce qui est des attributs, reportez-vous aux exigences listées dans les instructions du projet. Souvent, les chefs de projet demandent que les bâtiments soient étiquetés avec l'attribut générique `building=yes` par opposition à `building=house`. Si les éléments sont dessinés par l'entremise du Gestionnaire de tâches HOT, corriger les attributs erronés. *Attention de ne pas faire de modifications si les informations proviennent d’unu cartographe local*. Vous pouvez toujours vérifier les hashtags dans l'historique des objets.
+- **Balisage inexact :** Pour ce qui est des attributs, reportez-vous aux exigences listées dans les instructions du projet. Souvent, les chefs de projet demandent que les bâtiments soient étiquetés avec l'attribut générique `building=yes` par opposition à `building=house`. Si les éléments sont dessinés par l'entremise du Gestionnaire de tâches HOT, corriger les attributs erronés. *Attention de ne pas faire de modifications si les informations proviennent d’un cartographe local*. Vous pouvez toujours vérifier les hashtags dans l'historique des objets. 
 
   
 
@@ -253,23 +228,19 @@ Voici quelques exemples de problèmes courants qui doivent être corrigés :
 
   
 
-De nombreux validateurs commencent le processus de révision en exécutant l'outil de validation dans JOSM. Cet outil vérifie automatiquement les données que vous avez ouvertes pour détecter les erreurs suspectes. Il est particulièrement utile pour trouver les erreurs de **géographie**, mais serait moins utile pour identifier les erreurs d'attributs. En fonction de l'état des données et des préférences individuelles, les validateurs peuvent également choisir d'exécuter l'outil de validation à la fin de leur processusflux de travail pour voir s'ils ont manqué des éléments à corriger.
+De nombreux validateurs commencent le processus de révision en exécutant l'outil de validation dans JOSM. Cet outil vérifie automatiquement les données que vous avez ouvertes pour détecter les erreurs suspectes. Il est particulièrement utile pour trouver les erreurs de **géométrie**, mais serait moins utile pour identifier les erreurs d'attributs. En fonction de l'état des données et des préférences individuelles, les validateurs peuvent également choisir d'exécuter l'outil de validation à la fin de leur processus de travail pour voir s'ils ont manqué des éléments à corriger.
 
   
 
-L'outil de validation est exécuté automatiquement lorsque vous transférez téléchargez des éléments dans OSM. Toutefois, lorsqu'il est exécuté à ce stade, il n'évalue que les éléments qui ont été modifiés au cours de cette session. Il n'évalue pas tous les éléments qui ont été téléchargés. Par exemple, si vous téléchargez un quartier et dessinez un nouveau bâtiment, l'outil de validation qui s'exécute lorsque vous sélectionnez le bouton de transfert téléchargement ne recherchera les erreurs que dans le nouveau bâtiment et non dans l'ensemble du quartier. En exécutant cet outil en dehors de la fenêtre de transferttéléchargement, il évaluera tous les éléments.
+L'outil de validation est exécuté automatiquement lorsque vous mettez en ligne des données cartographiques. Toutefois, lorsque l’outil est exécuté à ce stade, il n'évalue que les éléments qui ont été modifiés au cours de cette session de cartographie. Il n'évalue pas tous les éléments qui ont été téléchargés. Par exemple, si vous téléchargez un quartier et dessinez un nouveau bâtiment, l'outil de validation qui s'exécute lorsque vous sélectionnez le bouton de mise en ligne des données ne recherchera les erreurs que dans le nouveau bâtiment et non dans l'ensemble du quartier. En exécutant cet outil en dehors de la fenêtre de mise en ligne, il évaluera tous les éléments.
 
   
 
 Activez l'outil en cliquant sur le bouton de l'outil de validation sur le côté gauche de l'éditeur JOSM. (Cette opération est inutile si le panneau de validation est déjà ouvert).
 
-  
-[//]: <> (validation tool icon)
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_validateIcon.png" width=6%>
-</figure>
-  
+![validation tool icon](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_validateIcon.png) 
 
+  
 Si vous avez des éléments sélectionnés, l'outil de validation ne vérifiera que ces éléments. Il peut arriver que vous souhaitiez ne vérifier que certains éléments, mais pour l'instant nous allons vérifier l'ensemble du fichier. Pour tout désélectionner, appuyez sur la touche `Esc`.
 
   
@@ -277,42 +248,29 @@ Si vous avez des éléments sélectionnés, l'outil de validation ne vérifiera 
 Cliquez sur le bouton "Validation" dans le panneau. Cela permettra de vérifier un certain nombre d'erreurs potentielles.
 
   
-[//]: <> (validation tool button)
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_validateTool.png" width=15%>
-</figure>
+![validation tool button](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_validateTool.png) 
   
 
 Vous verrez apparaître une liste d'avertissements (votre liste peut varier) :
 
   
-[//]: <> (validation results panel)
-<figure>
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_validateResults.PNG" width=50%>
-</figure>
-  
+![validation results panel](https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_validateResults.PNG)
+
+
 
 Une nouvelle couche apparaît également dans votre panneau Calques, montrant où se trouvent les erreurs. Vous trouverez peut-être pratique de masquer cette couche en cliquant sur l'icône en forme d'œil à côté de son nom. Il est plus facile de voir vos données lorsque cette couche est désactivée.
 
   
-[//]: <> (Layers panel - FR version)
-<figure>
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_Layers.PNG" width=45%>
-</figure>
-  
+![Layers panel - FR version](https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_Layers.PNG)
 
 Examinons quelques-uns des avertissements. La plupart d'entre eux doivent être corrigés, mais nous pouvons ignorer "Unnamed ways" puisque vous ne connaissez probablement pas le nom des routes.
 
   
 
-Le reste, en revanche, doit être examiné. Pour zoomer sur un problème, cliquez sur la liste déroulante, puis sélectionnez un des problèmes avec le bouton droit de la souris, puis cliquez sur "Zoomer sur le problème" ; l'erreur sera mise en évidence et le zoom sera effectué.
+Le reste, en revanche, doit être examiné. Pour zoomer sur un problème, cliquez sur la liste déroulante, puis sélectionnez un des problèmes avec le bouton droit de la souris, puis cliquez sur "Zoomer sur le problème"; l'erreur sera mise en évidence et le zoom sera effectué.
+  
 
-  
-[//]: <> (Zoom to problem)
-<figure>
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_zoomToProblem.PNG" width=50%>
-</figure>
-  
+![Zoom to problem](https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_zoomToProblem.PNG)
 
 Il s'agit souvent d'erreurs que nous n'aurions jamais détectées sans l'outil de validation.
 
@@ -326,11 +284,11 @@ Certains avertissements, tels que "Crossing waterway/highway", ne sont pas néce
 
   
 
-Une fois l'erreur corrigée, relancez l'outil de validation et elle disparaîtra de la liste. Cependant, il arrive qu'une correction puisse causer d'autres problèmes, c'est pourquoi il est important d' exécuter l'outil plusieurs fois.
+Une fois l'erreur corrigée, relancez l'outil de validation et elle disparaîtra de la liste. Cependant, il arrive qu'une correction puisse causer d'autres problèmes, c'est pourquoi il est important d'exécuter l'outil plusieurs fois.
 
   
 
-"Untagged ways" est un avertissement que vous rencontrerez couramment avec l'outil de validation dans les tâches HOT. Il s'agit d'une ligne ou d'un polygone qu’un utilisateur a oublié de baliser. La solution est très simple: ajoutez la bonne balise. (REMARQUE : il s'agit de voies ou de zones non balisées, et non de voies non nommées. Nous pouvons ignorer l'avertissement "Unnamed ways").
+"Untagged ways" est un avertissement que vous rencontrerez couramment avec l'outil de validation dans les tâches HOT. Il s'agit d'une ligne ou d'un polygone qu’un utilisateur a oublié de baliser. La solution est très simple: ajoutez la bonne balise. (REMARQUE: il s'agit de voies ou de zones non balisées, et non de voies non nommées. Nous pouvons ignorer l'avertissement "Unnamed ways").
 
   
 
@@ -346,7 +304,7 @@ Il y aura également d'autres erreurs que l'outil de validation n'aura pas déte
 
   
 
-Commençons cette deuxième étape en parcourant la tâche à la recherche de problèmes non détectés par l'outil de validation. Ces erreurs pourraient notamment être : des éléments manquants ou mal placés, des routes attachées à des bâtiments, et/ou des éléments qui ne sont pas balisés correctement. Il existe de nombreuses façons de procéder à cette étape. Chaque validateur aura ses propres préférences et utilisera souvent une combinaison des techniques décrites ci-dessous, comme l'utilisation de la fonction de recherche et du plugin Todo List. Trouvez ce qui fonctionne le mieux pour vous !
+Commençons cette deuxième étape en parcourant la tâche à la recherche de problèmes non détectés par l'outil de validation. Ces erreurs pourraient notamment être: des éléments manquants ou mal placés, des routes attachées à des bâtiments, et/ou des éléments qui ne sont pas balisés correctement. Il existe de nombreuses façons de procéder à cette étape. Chaque validateur aura ses propres préférences et utilisera souvent une combinaison des techniques décrites ci-dessous, comme l'utilisation de la fonction de recherche et du plugin Todo List. Trouvez ce qui fonctionne le mieux pour vous!
 
   
 
@@ -357,10 +315,7 @@ La façon la plus simple de procéder est de commencer dans un coin, de zoomer p
 Le plugin markseen est un outil utile pour parcourir la tâche. Ce plugin ouvre le "Markseen Viewer" pour montrer les zones de la carte que vous avez déjà examinées.
 
   
-[//]: <> (Markseen viewer)
-<figure>
-<img src="https://raw.githubusercontent.com/risicle/josm-markseen/master/screen_20170828.png" width=60%>
-</figure>
+![Markseen viewer](https://raw.githubusercontent.com/risicle/josm-markseen/master/screen_20170828.png)
   
 
 ## Routes
@@ -371,19 +326,16 @@ Si vous validez une tâche qui demande de cartographier les routes, un certain n
 
   
 
-Si des routes manquent dans la tâche, ajoutez-les selon les instructions mentionnées dans la tâche. Portez attention aux routes résidentielles ou aux de petits chemins, car ceux-ci sont souvent oubliés, même lorsque la tâche spécifie de les ajouter. Parfois, les gens marquent des routes comme étant plus importantes qu'elles ne devraient l'être - marquant une route qui devrait être résidentielle, non classifiée ou même une piste balisée comme une autoroute ou une route principale - ces erreurs doivent être corrigées.
-
+Si des routes manquent dans la tâche, ajoutez-les selon les instructions mentionnées dans la tâche. Portez attention aux routes résidentielles ou aux petits chemins, car ceux-ci sont souvent oubliés, même lorsque la tâche spécifie de les ajouter. Parfois, les gens marquent des routes comme étant plus importantes qu'elles ne devraient l'être - marquant une route qui devrait être résidentielle, non classifiée ou même une piste balisée comme une autoroute ou une route principale - ces erreurs doivent être corrigées.
   
 
-Un autre problème courant avec les routes est de leur donner un nom incorrect. Lorsque nous cartographions à distance, nous ne savons généralement pas le nom des routes, car nous ne sommes pas familiers avec les lieux cartographiés. Autrement, il est possible que les utilisateurs nomment les routes avec une description, comme "route", plutôt qu'un nom. Le champ Nom doit représenter les noms de la route, comme "Highway 1" ou "North Avenue". Pour trouver toutes les routes nommées dans les données à valider, cliquez sur `Ctrl+F` et tapez `highway=* name=*`'.
+Un autre problème courant avec les routes est de leur donner un nom incorrect. Lorsque nous cartographions à distance, nous ne savons généralement pas le nom des routes, car nous ne sommes pas familiers avec les lieux cartographiés. Autrement, il est possible que les utilisateurs nomment les routes avec une description, comme "route", plutôt qu'un nom. Le champ Nom doit représenter les noms de la route, comme "Highway 1" ou "North Avenue". Pour trouver toutes les routes nommées dans les données à valider, cliquez sur `Ctrl+F` et tapez `highway=* name=*`.
 
   
-[//]: <> (search string: highway=* name =*)
-<figure>
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_searchHighway.PNG" width=50%>
-</figure>
-  
+![search string: highway=* name =*](https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_searchHighway.PNG)
 
+
+  
 Vous trouverez ainsi toutes les routes auxquelles un nom a été attribué. Cliquez sur chacune d'elles pour voir quel est le nom et si celui-ci semble correct. Si le nom attribué est descriptif comme "route" ou "chemin de terre", c'est peut-être incorrect, le cartographe a peut-être voulu mettre une balise, mais a changé le nom par erreur. Supprimez-le s'il semble incorrect. Mais faites attention, nous ne voulons pas supprimer des données exactes.
 
   
@@ -403,13 +355,10 @@ Les routes ne doivent pas être reliées à des bâtiments, sauf si la route tra
 Voici un exemple. Le bâtiment de droite est rattaché à la route - voir le carré légèrement plus grand où ils sont attachés. Ce carré plus grand indique un nœud joint.
 
   
+![building node joined to highway node](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_unglue.png)
 
-[//]: <> (building node joined to highway node)
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_unglue.png" width=60%>
-</figure>
+
   
-
 Pour les déconnecter, cliquez sur le nœud joint, puis sur `G` sur votre clavier, qui est le raccourci pour "décoller". Ensuite, cliquez sur un nœud et déplacez-le là où il doit être. Vous devrez peut-être appuyer sur `Q` sur votre clavier pour rendre le bâtiment orthogonal.
 
   
@@ -425,13 +374,9 @@ La recherche dans JOSM est un moyen puissant d'examiner les données. Elle vous 
 Pour accéder aux options de recherche, allez dans Édition -> Recherche ou appuyez sur `Ctrl+F` sur votre clavier ou cliquez sur l'icône de la loupe en haut de la fenêtre JOSM.
 
   
-
-[//]: <> (Loop icon)
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_search.png" width=8%>
-</figure>
   
-
+![Loop icon](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_search.png)
+  
 Il existe un grand nombre de requêtes que vous pouvez rechercher ici, et vous pouvez voir des détails et des exemples dans la boîte de recherche elle-même et en cliquant sur le bouton "Aide". Visitez la [page Wiki de la fonction de recherche JOSM](https://wiki.openstreetmap.org/wiki/JOSM/Search_function) pour plus d'exemples.
 
   
@@ -444,15 +389,15 @@ Remarquez les options dans le coin supérieur gauche pour limiter les résultats
 
   
 
-Si vous identifiez des cartographes spécifiques qui font la même erreur à plusieurs reprises, vous pouvez rapidement identifier tous les éléments qu'ils ont éditées en utilisant la requête de recherche suivante :
+Si vous identifiez des cartographes spécifiques qui font la même erreur à plusieurs reprises, vous pouvez rapidement identifier tous les éléments qu'ils ont éditées en utilisant la requête de recherche suivante:
 
   
 
->utilisateur : "*nom*"
+>utilisateur: "*nom*"
 
   
 
->e.g. utilisateur : "OSMF Redaction Account" (compte de correction OSMF)
+>e.g. utilisateur: "OSMF Redaction Account" (compte de correction OSMF)
 
   
 
@@ -460,15 +405,13 @@ Cela sélectionnera tous les objets qui ont été modifiés en dernier par cet u
 
   
 
-**Recherche de bâtiments à orthogonaliser***.
+**Recherche de bâtiments à orthogonaliser**
 
   
 
   
 
-Les polygones étiquetés comme bâtiments avec 4 nœuds et plus auront souvent besoin d’être orthogonalisés. Ces éléments peuvent facilement être trouvés en utilisant la fonction de recherche et mis au carré en masse. Cependant, gardez à l'esprit que les bâtiments circulaires ont plus de 4 nœuds et ne doivent pas être orthonogalisésmis au carré. Par conséquent, nous voulons lancer une requête de recherche dans une petite section de la carte que nous pouvons vérifier visuellement - comme celle qui est visible. Pour trouver ces éléments, exécutez la requête de recherche suivante :
-
-  
+Les polygones étiquetés comme bâtiments avec 4 nœuds et plus auront souvent besoin d’être orthogonalisés. Ces éléments peuvent facilement être trouvés en utilisant la fonction de recherche, puis orthogonalisés tous en même temps et mis au carré en masse. Cependant, gardez à l'esprit que les bâtiments circulaires ont plus de 4 nœuds et ne doivent pas être orthonogalisés. Par conséquent, nous voulons lancer une requête de recherche dans une petite section de la carte que nous pouvons vérifier visuellement - comme celle qui est visible. Pour trouver ces éléments, exécutez la requête de recherche suivante:
 
   
 
@@ -478,45 +421,44 @@ Les polygones étiquetés comme bâtiments avec 4 nœuds et plus auront souvent 
 
   
 
+  
+
 Vous trouverez tout ce qui est marqué comme bâtiment dans votre vue actuelle avec 4 nœuds ou plus.
 
   
-
-  
-
-[//]: <> (Search string: building inview nodes:4-)
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_searchQuery.png" width=50%>
-</figure>
   
   
+![Search string: building inview nodes:4-](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_searchQuery.png)
 
-Ils deviendront tous rouges sur votre écran. Cliquez sur la touche `Q` de votre clavier et cela orthogonalisera les formes.mettra tous leurs coins au carré.
+
+  
+  Ils deviendront tous rouges sur votre écran. Cliquez sur la touche `Q` de votre clavier et cela orthogonalisera les formes.
 
   
 
   
+Cependant, faites attention! S'il y a des bâtiments qui ne devraient pas être carrés, cela les rendra carrés quand même. Pour vous en assurer, appuyez sur `undo` et `redo` pour voir si des bâtiments ronds ou d'autres formes ont été modifiés par erreur. Si c'est le cas, corrigez-les pour qu'ils soient comme ils devraient être.
 
-Cependant, faites attention ! S'il y a des bâtiments qui ne devraient pas être carrés, cela les rendra carrés quand même. Pour vous en assurer, appuyez sur “undo” et “redo” pour voir si des bâtiments ronds ou d'autres formes ont été modifiés par erreur. Si c'est le cas, corrigez-les pour qu'ils soient comme ils devraient être.
 
+Si vous souhaitez trier plus facilement les bâtiments un par un, ajoutez les résultats de la recherche ci-dessus au plugin Todo List. Cela vous permettra de trier rapidement les polygones pour vérifier visuellement s'ils doivent être orthogonalisés. Plus d'informations sur ce plugin ci-dessous.  
+
+
+
+![Undo and redo icons](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_undoRedo.png)
+  
+  
   
 
-  
-
-Si vous souhaitez trier plus facilement les bâtiments un par un, ajoutez les résultats de la recherche ci-dessus au plugin Todo List. Cela vous permettra de trier rapidement les polygones pour vérifier visuellement s'ils doivent être orthogonalisésmis au carré. Plus d'informations sur ce plugin ci-dessous.
-  
-  
-[//]: <> (Undo and redo icons)
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_undoRedo.png" width=15%>
-</figure>
-  
-  
 #### Utilisation de scripts pour identifier les bâtiments qui devraient être mis au carré
+
   
+
   
+
+  
+
 Le script suivant est un autre outil utile pour trouver les bâtiments non carrés.
-  
+
 Naviguez vers [ce répertoire GitHub](https://github.com/MikeTho16/JOSM-Scripts/). Cherchez `SelectNonOrthogonalBuilding.js` dans la liste et téléchargez-le. Enregistrez-le dans un répertoire facile à trouver sur votre ordinateur local. Ouvrez l'onglet script dans JOSM et cliquez sur "run" et sélectionnez le fichier téléchargé. Après l'avoir sélectionné, exécutez le script. Maintenant, tous les bâtiments qui répondent aux paramètres du script seront surlignés en rouge. Vous pouvez d'abord les vérifier dans votre tâche, puis appuyer sur `Q` pour les mettre tous en carré. Exécutez à nouveau le script pour voir s'il reste des bâtiments non orthogonaux. Vérifiez d'abord ceux-ci, car il peut y avoir des cas où les bâtiments sont joints par des nœuds. Détachez ces nœuds en appuyant sur `G` et cliquez à nouveau sur le bouton `Q`.
 
   
@@ -529,39 +471,30 @@ Naviguez vers [ce répertoire GitHub](https://github.com/MikeTho16/JOSM-Scripts/
 
   
 
-Lorsque vous modifiez des éléments dans une zone déjà cartographiée, il est important de préserver les informations locales, en particulier lorsque vous cartographiez dans une région avec laquelle vous n’êtes pas familier. *Vérifiez toujours que les éléments ne contiennent pas d'informations locales ou de balises avant de les supprimer.* Une bonne façon de vérifier est d'ouvrir l'historique des objets. Avec un élément sélectionné, appuyez sur `Ctrl+H`. La fenêtre vous indiquera quand l'objet a été créé, quels utilisateurs l'ont créé ou modifié et les commentaires associés. Comparez les dates, les noms d'utilisateurs et les commentaires de modifications (hashtags) à ceux que vous vous attendez à voir dans l'historique des projets et des tâches due Gestionnaire de tâchesTasking Manager. Si les modifications ont eu lieu précédemment au projet du Gestionnaire de tâchesTasking Manager, elles ont pu être effectuées par un cartographe local. N'oubliez pas : vous pouvez toujours améliorer les données cartographiques sans supprimer des objects.
+Lorsque vous modifiez des éléments dans une zone déjà cartographiée, il est important de préserver les informations locales, en particulier lorsque vous cartographiez dans une région avec laquelle vous n’êtes pas familier. *Vérifiez toujours que les éléments ne contiennent pas d'informations locales ou de balises avant de les supprimer.* Une bonne façon de vérifier est d'ouvrir l'historique des objets. Avec un élément sélectionné, appuyez sur `Ctrl+H`. La fenêtre vous indiquera quand l'objet a été créé, quels utilisateurs l'ont créé ou modifié et les commentaires associés. Comparez les dates, les noms d'utilisateurs et les commentaires de modifications (hashtags) à ceux que vous vous attendez à voir dans l'historique des projets et des tâches du Gestionnaire de tâches. Si les modifications ont eu lieu précédemment au projet du Gestionnaire de tâches, elles ont pu être effectuées par un cartographe local. N'oubliez pas: vous pouvez toujours améliorer les données cartographiques sans supprimer des objets.
 
   
 
   
 
-Exemple d'éditions à partir du projet de cartographie sur le Gestionnaire de tâchesTasking Manager :
+  Exemple d'éditions à partir du projet de cartographie sur le Gestionnaire de tâches:
+  
+  
+  
+
+
+![History of a feature](https://arcmaps.s3.amazonaws.com/share/validationPictures/ValidHistory1.png)
+  
+
+  Exemple de modifications apportées par un cartographe local:
 
   
 
-  
-[//]: <> (History of a feature)
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/ValidHistory1.png" width=70%>
-</figure>
+
+![History of a feature after validation](https://arcmaps.s3.amazonaws.com/share/validationPictures/ValidHistory2.png)
   
 
   
-
-Exemple de modifications apportées par un cartographe local :
-
-  
-
-  
-
-[//]: <> (History of a feature after validation)
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/ValidHistory2.png" width=70%>
-</figure>
-  
-
-  
-
 ## Plugin “Todo List”
 
   
@@ -574,58 +507,48 @@ Un autre plugin utile disponible dans JOSM est le plugin Todo List. Ce plugin vo
 
   
 
-Pour utiliser le plugin, vous devez le télécharger depuis le menu des plugins comme vous l'avez fait pour l'outil “buildings_tool”. Après l'avoir ajouté, activez-le en cliquant sur l'icône “Todo List” dans le menu “Outils”. Vous devriez alors voir le panneau “Liste des tâches” s'ouvrir sur le côté droit de l'écran.
+  
+
+Pour utiliser le plugin, vous devez le télécharger depuis le menu des plugins comme vous l'avez fait pour l'outil `buildings_tool`. Après l'avoir ajouté, activez-le en cliquant sur l'icône “Todo List” dans le menu `Todo List`. Vous devriez alors voir le panneau `Liste des tâches` s'ouvrir sur le côté droit de l'écran.
+  
+  
+
+
+![todo list icon](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_todoIcon.png)
+  
+
+
+En utilisant la fonction de recherche JOSM ci-dessus, vous pouvez sélectionner tous les éléments d'un certain type que vous souhaitez examiner. Une fois qu'ils sont sélectionnés, appuyez sur le bouton `Ajouter` dans le panneau `Liste des tâches`. Cela ajoutera tous les éléments à votre liste. Sélectionnez le premier élément de la liste, assurez-vous qu'il est correctement cartographié, puis appuyez sur le bouton "Marquer" ou sur la touche "]", ce qui vous permettra de passer à l’élément suivant.
 
   
 
   
 
-[//]: <> (todo list icon)
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_todoIcon.png" width=5%>
-</figure>
-  
+Le plugin Todo List est extrêmement utile pour les cartographes débutants qui ne se sentent pas encore à l'aise pour scanner l'image à la recherche d’élément, et permet de s'assurer que chaque élément sur la carte est examiné. Pour plus d'informations, voir la [Page Wiki du plugin Todo List] (https://wiki.openstreetmap.org/wiki/JOSM/Plugins/TODO_list).
 
   
-
-En utilisant la fonction de recherche JOSM ci-dessus, vous pouvez sélectionner tous les éléments d'un certain type que vous souhaitez examiner. Une fois qu'ilselles sont sélectionnées, appuyez sur le bouton "Ajouter" dans le panneau “Liste des tâches”. Cela ajoutera tous les éléments à votre liste. Sélectionnez le premier élément de la liste, assurez-vous qu'il est correctement cartographié, puis appuyez sur le bouton "Marquer" ou sur la touche "]", ce qui vous permettra de passer à l’élément suivant.
-
   
 
-  
 
-Le plugin Todo List est extrêmement utile pour les cartographesmappeurs débutants qui ne se sentent pas encore à l'aise pour scanner l'image à la recherche de d’élément, et permet de s'assurer que chaque élément sur la carte est examiné. Pour plus d'informations, voir la [Page Wiki du plugin Todo List] (https://wiki.openstreetmap.org/wiki/JOSM/Plugins/TODO_list).
-
+![todo list panel](https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_todoPanel.PNG)
   
-
-  
-[//]: <> (todo list panel)
-<figure>
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_todoPanel.PNG" width=45%>
-</figure>
-  
-
   
 
 #### Utilisation des modèles de rendu cartographique
 
   
 
-  
 
 Les modèles de rendu sont des moyens de modifier la visualisation des données. Vous pouvez les utiliser pour mettre en évidence certains éléments qui pourraient être incorrects, et qui n’ont pas été identifiés par l’outil de validation.
-
   
 
-  
-
-Pour les tâches de cartographie à distance et de cartographie humanitaire, il est fréquent que le cartographe ne connaisse pas les noms des bâtiments et des routes. Les modèles de rendu JOSM peuvent mettre en évidence les endroits où ces éléments ont été ajoutés par erreur : les bâtiments avec des noms, les bâtiments non étiquetés 'building=yes', les routes avec des noms, et les routes qui ont une valeur d'autoroute dans la clé de nom une valeur d'autoroute (par exemple 'name=residential'). Parfois, les gens ajoutent au nom ce qui devrait être une description, comme "chemin de terre".
-
-  
+Pour les tâches de cartographie à distance et de cartographie humanitaire, il est fréquent que le cartographe ne connaisse pas les noms des bâtiments et des routes. Les modèles de rendu JOSM peuvent mettre en évidence les endroits où ces éléments ont été ajoutés par erreur: les bâtiments avec des noms, les bâtiments non étiquetés 'building=yes', les routes avec des noms, et les routes qui ont une valeur d'autoroute dans la clé de nom une valeur d'autoroute (par exemple 'name=residential'). Parfois, les gens ajoutent au nom ce qui devrait être une description, comme "chemin de terre".
 
   
 
 Comme pour les avertissements de validation, les modèles de rendu n'identifient pas les erreurs, mais il met en évidence ce qui devrait être vérifié.
+
+  
 
   
 
@@ -637,16 +560,16 @@ Il est également important de s'assurer que vous ne supprimez pas les données 
 
   
 
-Pour ajouter les modèles de rendu, cliquez sur le menu Windows et cliquez sur Coloriage... ce qui ouvrira un menu sur JOSM :
-
   
 
+Pour ajouter les modèles de rendu, cliquez sur le menu Windows et cliquez sur Coloriage... ce qui ouvrira un menu sur JOSM:
+
   
-[//]: <> (Map paint styles)
-<figure>
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_PaintStyle.PNG" width=45%>
-</figure>
   
+  
+
+
+![Map paint styles](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_paintStyle.png)
 
   
 
@@ -661,30 +584,22 @@ Cliquez sur le symbole d’addition, en haut à droite, pour en ajouter un nouve
   
 
   
+![Map paint styles - add style](https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_addStyle.PNG)
 
-[//]: <> (Map paint styles - add style)
-<figure>
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_addStyle.PNG" width=70%>
-</figure>
+
   
-
   
 
 Tapez un nom, tel que Validation Missing Maps, et copier l’URL suivant https://github.com/MissingMaps/josm_styles/archive/master.zip dans le champ URL, puis le modèle de rendu apparaîtra dans votre fenêtre Coloriage.
 
   
-
+  
+![Map paint styles - add style, style name](https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_styleName.PNG)
   
 
-[//]: <> (Map paint styles - add style, style name)
-<figure>
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/ValidationFR_styleName.PNG" width=60%>
-</figure>
-  
+Ce modèle de rendu inclus quatre couleurs et des triangles, correspondant aux erreurs mentionnées précédemment:
 
   
-
-Ce modèle de rendu inclus quatre couleurs et des triangles, correspondant aux erreurs mentionnées précédemment :
 
   
 
@@ -696,7 +611,7 @@ Ce modèle de rendu inclus quatre couleurs et des triangles, correspondant aux e
 
   
 
-- les bâtiments qui ne sont pas marqués `building=yes` sont **orangeés**.
+- les bâtiments qui ne sont pas marqués `building=yes` sont **orangés**.
 
   
 
@@ -720,42 +635,32 @@ Ce modèle de rendu inclus quatre couleurs et des triangles, correspondant aux e
 
   
 
-- les bâtiments qui sont connectés à d'autres bâtiments sont des **triangles **oranges**.
+  
 
+- les bâtiments qui sont connectés à d'autres bâtiments sont des **triangles oranges**.
+
+  
+
+  Par exemple, vous pouvez voir quelque chose comme ceci:
+  
+  
+  
+
+
+![Validation Missing Maps - example 1](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_styleExample1.png)
   
 
   
 
-Par exemple, vous pouvez voir quelque chose comme ceci :
+Ou ceci:
 
   
 
-  
-[//]: <> (Validation Missing Maps - example 1)
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_styleExample1.png" width=70%>
-</figure>
-  
 
-  
-
-Ou ceci :
-
-  
-
-  
-
-[//]: <> (Validation Missing Maps - example2)
-<figure>
-<img src="https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_styleExample2.png" width=70%>
-</figure>
-  
-
+![Validation Missing Maps - example2](https://arcmaps.s3.amazonaws.com/share/validationPictures/validation_styleExample2.png)
   
 
 Ce modèle de rendu vous permet de trouver rapidement ces problèmes et de voir s'ils doivent être corrigés ou non. Certains d'entre eux peuvent être corrects, mais vous devrez vérifier s'ils sont corrects ou non.
-
-  
 
   
 
@@ -763,11 +668,7 @@ S’il y a un élément pour lequel vous êtes incertain, vous pouvez vérifier 
 
   
 
-  
-
 En cas de doute, utilisez les données et les balises existantes.
-
-  
 
   
 
@@ -775,15 +676,11 @@ Inline Validation est un autre modèle de rendu cartographique utile. Lorsque vo
 
   
 
-  
-
 Vous trouverez plus d'informations sur GitHub à l'adresse https://github.com/osmlab/appledata/wiki/Inline-Validation-Paint-Style-Information.
 
   
 
-  
-
-Ce style vérifie les éléments suivants :
+Ce style vérifie les éléments suivants:
 
   
 
@@ -855,14 +752,14 @@ Ce style vérifie les éléments suivants :
   
 
   
+## Pour en savoir d’avantage:
 
-## Pour en savoir d’avantage :
-
-  
 
   
 
-- Le wiki OpenStreetMap, pour tout ce qui concerne OSM : http://wiki.openstreetmap.org
+- Le wiki OpenStreetMap, pour tout ce qui concerne OSM: http://wiki.openstreetmap.org
+
+  
 
   
 
@@ -874,15 +771,13 @@ Ce style vérifie les éléments suivants :
 
   
 
+
 - La page de validation de LearnOSM: http://learnosm.org/en/coordination/review/
 
   
-  
-
-- Vidéo de formation de HOT sur la validation : https://www.youtube.com/watch?v=YQ18XfRM6d4
-
+- Vidéo de formation de HOT sur la validation: https://www.youtube.com/watch?v=YQ18XfRM6d4
   
 
   
 
-- Page de Missing Maps “Apprenez à valider” : https://www.missingmaps.org/validate/
+- Page de Missing Maps “Apprenez à valider”: [https://www.missingmaps.org/validate/](https://www.missingmaps.org/validate/)
