@@ -61,7 +61,7 @@ nav:
       - text:     "MAPOVÁNÍ TERÉNU"
         url:      "/cs/terén/"
       - text:     "VALIDACE"
-        url:      "/cs/validace/"
+        url:      "/cs/validuj/"
       - text:     "MAPSWIPE"
         url:      "/cs/mapswipe/"
   - text:         "AKCE"
