@@ -78,10 +78,6 @@ nav:
     url:          "/cs/blog/"
   - text:         "PROZKOUMAT"
     links:
-      - text:     "PROFILY UŽIVATELŮ"
-        url:      "http://www.missingmaps.org/users/"
-      - text:     "ŽEBŘÍČKY"
-        url:      "http://www.missingmaps.org/leaderboards/"
       - text:     "STATISTIKY"
         url:      "/cs/statistiky/"
 

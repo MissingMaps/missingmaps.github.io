@@ -31,7 +31,6 @@
 						{% else %}
 							{% assign pg = site.pages | where:"lang",{{loc}} | where:"id",page.id | first %}
 						{% endif %}
-
 						<a href="{{site.baseurl}}{{pg.url}}">
 							<div class="nav-item item-centered">{{loc}}</div>
 						</a>

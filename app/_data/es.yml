@@ -78,10 +78,6 @@ nav:
     url:          "/es/blog/"
   - text:         "EXPLORAR"
     links:
-      - text:     "PERFIL DE LOS CONTRIBUIDORES"
-        url:      "http://www.missingmaps.org/users/"
-      - text:     "TABLA DE LÍDERES" #######traduction pas top  ###
-        url:      "http://www.missingmaps.org/leaderboards/"
       - text:     "ESTADÍSTICAS"
         url:      "/es/statistics/"
 
