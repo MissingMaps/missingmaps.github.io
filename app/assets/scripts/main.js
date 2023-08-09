@@ -4,7 +4,7 @@ the root Missing Maps API endpoint.
 */
 
 const xmlhttp = new XMLHttpRequest();
-const url = "https://demo.contributions-stats.ohsome.org/api";
+const url = "https://stats.now.ohsome.org/api";
 
 xmlhttp.onreadystatechange = function() {
   if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
