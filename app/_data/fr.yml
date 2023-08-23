@@ -78,10 +78,6 @@ nav:
     url:          "/fr/blog/"
   - text:         "EXPLORER"
     links:
-      - text:     "PROFILS DES CONTRIBUTEURS"
-        url:      "http://www.missingmaps.org/users/"
-      - text:     "PALMARES"
-        url:      "http://www.missingmaps.org/leaderboards/"
       - text:     "STATISTIQUES"
         url:      "/fr/statistiques/"
 

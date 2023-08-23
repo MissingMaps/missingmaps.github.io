@@ -78,10 +78,6 @@ nav:
     url:          "/blog/"
   - text:         "EXPLORE"
     links:
-      - text:     "USER PROFILES"
-        url:      "http://www.missingmaps.org/users/"
-      - text:     "LEADERBOARDS"
-        url:      "http://www.missingmaps.org/leaderboards/"
       - text:     "STATISTICS"
         url:      "/statistics/"
 
