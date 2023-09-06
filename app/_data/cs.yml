@@ -146,16 +146,6 @@ contributions:
   buildings:    "budov"
   roads:        "km silnic"
 
-discover:
-  title:        "Objevte více"
-  subtitle:     "Pro sledování vlastních a projektových příspěvků nabízí Missing Maps dva nástroje. "
-  profiles:     "Profily uživatelů"
-  profile_text: "Zkontrolujte své příspěvky v HOT úlohách!"
-  profile_btn:  "VYHLEDAT UŽIVATELE"
-  projects:     "Žebříčky projektu"
-  project_text: "Zjistěte, jak si vedete v porovnání s ostatními!"
-  project_btn:  "NAJÍT ŽEBŘÍČEK"
-
 contact:
   title:        "Kontaktujte nás"
 

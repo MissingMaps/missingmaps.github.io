@@ -144,16 +144,6 @@ contributions:
   buildings:    "Modifications de bâtiments"
   roads:        "Routes (km)"
 
-discover:
-  title:        "Découvrir"
-  subtitle:     "Pour suivre vos contributions individuelles et par projet, Missing Maps fournit deux outils."
-  profiles:     "Profils des Contributeurs"
-  profile_text: "Vérifiez vos contributions sur les tâches de HOT !"
-  profile_btn:  "TROUVER UN CONTRIBUTEUR"
-  projects:     "Tableau des meneurs des projets"
-  project_text: "Découvrez où vous en êtes parmi d'autres !"
-  project_btn:  "ALLER AU TABLEAU DES MENEURS"
-
 contact:
   title:        "Contactez-nous"
 

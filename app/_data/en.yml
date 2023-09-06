@@ -147,16 +147,6 @@ contributions:
   buildings:    "Building Edits"
   roads:        "Roads (km)"
 
-discover:
-  title:        "Discover"
-  subtitle:     "To track your individual & project contributions Missing Maps provides two tools."
-  profiles:     "User Profiles"
-  profile_text: "Check out your contributions to HOT tasks!"
-  profile_btn:  "FIND A USER"
-  projects:     "Project Leaderboards"
-  project_text: "Find out where you stand among contributed hashtags!"
-  project_btn:  "FIND A LEADERBOARD"
-
 contact:
   title:        "Contact Us"
 
