@@ -232,7 +232,7 @@ field:
   tools-list:
     - label: "<a href=\"https://opendatakit.org\">Open Data Kit</a> - Open Data Kit a commencé à faire des outils de collecte de données sur téléphone pour des paramètres à ressources limitées. Sur les 13 dernières années, le projet a produit deux séries d'outils (<a href=\"https://getodk.org\">ODK</a>, <a href=\"https://docs.odk-x.org/app-designer-intro/\">ODK-X</a>) et est devenu le foyer d'une communauté d'utilisateurs, de réalisateurs et de développeurs."
     - label: "<a href=\"https://www.kobotoolbox.org\">KoBo</a> - KoBoToolbox est une série d'outils qui collecte des données de terrain pour les utiliser dans des environnements exigeants."
-    - label: "<a href=\"https://maps.me/#gsc.tab=0\">Maps.me</a> - une application mobile gratuite et libre d'accès qui fournit des cartes hors lignes sur 345 pays et îles basées sur des données d'OpenStreetMap."
+    - label: "<a href=\"https://organicmaps.app/\">Organic Maps</a> - une application mobile gratuite et libre d'accès qui fournit des cartes hors lignes basées sur des données d'OpenStreetMap."
     - label: "<a href=\"https://osmand.net\">OSMAnd</a> - Une carte de cartographie et de navigation avec en option des capacités hors connexion."
     - label: "<a href=\"http://posm.io/posm/intro\">Portable OpenStreetMap (POSM)</a> - Un hardware/software d'intégration développé pour conduire des cartographies sur des terrains avec une faible connexion internet et cellulaire."
     - label: "<a href=\"https://www.opendronemap.org\">OpenDroneMap</a> - des solutions durables pour collecter, traiter, analyser et afficher des données aériennes avec le support de la communauté construite autour d'elles."
