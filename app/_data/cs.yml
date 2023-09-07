@@ -78,8 +78,8 @@ nav:
     url:          "/cs/blog/"
   - text:         "PROZKOUMAT"
     links:
-      - text:     "STATISTIKY"
-        url:      "/cs/statistiky/"
+      - text:     "STATISTIKY <svg width='9' height='9' viewBox='0 0 11 11' title='externalLink' style='height: 9px;'><path fill='currentColor' d='M9.778 9.778H1.222V1.222H5.5V0H1.222C.544 0 0 .55 0 1.222v8.556C0 10.45.544 11 1.222 11h8.556C10.45 11 11 10.45 11 9.778V5.5H9.778v4.278zM6.722 0v1.222h2.194L2.91 7.23l.862.862 6.007-6.007v2.194H11V0H6.722z'></path></svg>"
+        url:      "https://stats.now.ohsome.org/"
 
 #####################
 ## LANDING CONTENT ##
@@ -145,16 +145,6 @@ contributions:
   edits:        "změn"
   buildings:    "budov"
   roads:        "km silnic"
-
-discover:
-  title:        "Objevte více"
-  subtitle:     "Pro sledování vlastních a projektových příspěvků nabízí Missing Maps dva nástroje. "
-  profiles:     "Profily uživatelů"
-  profile_text: "Zkontrolujte své příspěvky v HOT úlohách!"
-  profile_btn:  "VYHLEDAT UŽIVATELE"
-  projects:     "Žebříčky projektu"
-  project_text: "Zjistěte, jak si vedete v porovnání s ostatními!"
-  project_btn:  "NAJÍT ŽEBŘÍČEK"
 
 contact:
   title:        "Kontaktujte nás"

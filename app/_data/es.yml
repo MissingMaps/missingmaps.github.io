@@ -78,8 +78,8 @@ nav:
     url:          "/es/blog/"
   - text:         "EXPLORAR"
     links:
-      - text:     "ESTADÍSTICAS"
-        url:      "/es/statistics/"
+      - text:     "ESTADÍSTICAS <svg width='9' height='9' viewBox='0 0 11 11' title='externalLink' style='height: 9px;'><path fill='currentColor' d='M9.778 9.778H1.222V1.222H5.5V0H1.222C.544 0 0 .55 0 1.222v8.556C0 10.45.544 11 1.222 11h8.556C10.45 11 11 10.45 11 9.778V5.5H9.778v4.278zM6.722 0v1.222h2.194L2.91 7.23l.862.862 6.007-6.007v2.194H11V0H6.722z'></path></svg>"
+        url:      "https://stats.now.ohsome.org/"
 
 #####################
 ## LANDING CONTENT ##
@@ -146,17 +146,6 @@ contributions:
   edits:        "Ediciones"
   buildings:    "Edición de edificios"
   roads:        "Carreteras (km)"
-
-discover:
-  title:        "Descubrir"
-  subtitle:     "Para seguir tus contribuciones individuales y de proyecto, Missing Maps proporciona dos herramientas."
-  profiles:     "Perfiles de usuarios"
-  profile_text: "Revisa tus contribuciones en las tareas del HOT!"
-  profile_btn:  "BUSCAR UN CONTRIBUIDOR"
-  projects:     "Tabla de líderes de proyectos"
-  project_text: "Averigua su clasificación de contribuciones!"
-  project_btn:  "IR A TABLA DE LÍDERES"
-
 contact:
   title:        "Contacta con nosotros"
 
