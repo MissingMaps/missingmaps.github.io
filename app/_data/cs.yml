@@ -237,7 +237,7 @@ field:
   tools-list:
     - label: "<a href=\"https://opendatakit.org/\">Open Data Kit</a> - Open Data Kit byl vytvořen jako nástroj pro sběr mobilních dat pro nastavení omezená na zdroje. Za posledních 13 let projekt vyvinul dvě sady nástrojů (<a href=\"https://getodk.org/\">ODK</a>, <a href=\"https://docs.odk-x.org/app-designer-intro/\">ODK-X</a>), které se staly domovem pro komunitu uživatelů, realizátorů a vývojářů."
     - label: "<a href=\"https://www.kobotoolbox.org/\">KoBo</a> - KoBoToolbox je sada nástrojů pro sběr dat v terénu pro použití v náročných podmínkách. "
-    - label: "<a href=\"https://organicmaps.app/\">Organic Maps</a> - open source mobilní aplikace zdarma, která poskytuje offline mapy z 345 zemí a ostrovů ze zdrojů OpenStreetMap dat."
+    - label: "<a href=\"https://organicmaps.app/\">Organic Maps</a> - open source mobilní aplikace zdarma, která poskytuje offline mapy ze zdrojů OpenStreetMap dat."
     - label: "<a href=\"https://osmand.net/\">OSMAnd</a> - mapa pro mapování a navigaci s volitelnou možností offline kapacity."
     - label: "<a href=\"http://posm.io/posm/intro/\">Portable OpenStreetMap (POSM)</a> - hardwarová/softwarová integrace vyvinutá pro mapování v terénu při nespolehlivém připojení k Internetu."
     - label: "<a href=\"https://www.opendronemap.org/\">OpenDroneMap</a> - udržitelná řešení pro sběr, zpracování, analýzu a zobrazení leteckých dat pro podporu komunit, které se jimi zabývají."
