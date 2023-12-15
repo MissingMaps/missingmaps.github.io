@@ -1,0 +1,393 @@
+
+
+<!DOCTYPE html>
+<!--[if lt IE 10]> <html class="lt-ie10 no-js"  lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Mapping landcover with OSM Cameroon</title>
+    <meta name="description" content="In order to improve Cameroon’s landcover and landuse mapping, OSM Cameroon strived to collect better data and enrich the OSM map that shows landcover pattern...">
+
+    <link rel="canonical" href="/blog/2022/10/14/mapping-landcover-with-OSM-Cameroon/">
+    <link rel="alternate" type="application/rss+xml" title="Missing Maps" href="/feed.xml">
+
+    <link rel="stylesheet" href="/assets/styles/main.css">
+
+    <link rel="author" type="text/plain" href="humans.txt" />
+
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400|Hind:700,300,600' rel='stylesheet' type='text/css'>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/graphics/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/graphics/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/graphics/favicon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/graphics/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/graphics/favicon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/graphics/favicon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/graphics/favicon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/graphics/favicon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/graphics/favicon/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/graphics/favicon/apple-touch-icon-180x180.png">
+  <link rel="shortcut icon" href="/assets/graphics/favicon/favicon.ico">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/assets/graphicsfavicon/favicon-32x32.png" sizes="32x32">
+
+  <meta name="description" content="Putting the World's Vulnerable People on the Map">
+  <meta itemprop="name" content="MissingMaps">
+  <meta itemprop="description" content="Putting the World's Vulnerable People on the Map" >
+  <meta itemprop="image" content="http://i.imgur.com/sSUhfmc.png" >
+  <meta name="twitter:card" content="product" >
+  <meta name="twitter:site" content="@themissingmaps" >
+  <meta name="twitter:title" content="MissingMaps" >
+  <meta name="twitter:description" content="Putting the World's Vulnerable People on the Map" >
+  <meta name="twitter:creator" content="@themissingmaps" >
+  <meta name="twitter:image" content="http://i.imgur.com/sSUhfmc.png" >
+
+  <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Missing Maps" />
+  </head>
+
+  <body>
+    <!--[if lt IE 11]>
+      <div id="nocando">
+        <h1>No can do!</h1>
+        <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      </div>
+    <![endif]-->
+
+    
+
+<header>
+	<div class="navbar-background">
+		<div class="nav-icon">
+			<a href="/">
+				<img src="/assets/graphics/meta/MM_white_typography.svg" width="94px" alt="...">
+			</a>
+		</div>
+		<div class="nav-list">
+			<ul>
+				
+				
+				<li class="nav-item nav-dropdown">LEARN
+					<div class="dropdown-content">
+						
+						<a href="/beginner/"><div class="nav-item">BEGINNER MAPPING</div></a>
+						
+						<a href="/advanced/"><div class="nav-item">ADVANCED MAPPING</div></a>
+						
+						<a href="/field/"><div class="nav-item">FIELD MAPPING</div></a>
+						
+						<a href="/validate/"><div class="nav-item">VALIDATION</div></a>
+						
+						<a href="/mapswipe/"><div class="nav-item">MAPSWIPE</div></a>
+						
+					</div>
+				</li>
+				
+				
+				
+				<li class="nav-item nav-dropdown">EVENTS
+					<div class="dropdown-content">
+						
+						<a href="/events/"><div class="nav-item">CURRENT EVENTS</div></a>
+						
+						<a href="/host/"><div class="nav-item">ORGANIZE AN EVENT</div></a>
+						
+						<a href="/host/#helper-map-contents"><div class="nav-item">MAPATHON SUPPORT</div></a>
+						
+					</div>
+				</li>
+				
+				
+				
+				<a href="/about/">
+					<li class="nav-item">ABOUT</li>
+				</a>
+				
+				
+				
+				<a href="/blog/">
+					<li class="nav-item">BLOG</li>
+				</a>
+				
+				
+				
+				<li class="nav-item nav-dropdown">EXPLORE
+					<div class="dropdown-content">
+						
+						<a href="https://stats.now.ohsome.org/"><div class="nav-item">STATISTICS <svg width='9' height='9' viewBox='0 0 11 11' title='externalLink' style='height: 9px;'><path fill='currentColor' d='M9.778 9.778H1.222V1.222H5.5V0H1.222C.544 0 0 .55 0 1.222v8.556C0 10.45.544 11 1.222 11h8.556C10.45 11 11 10.45 11 9.778V5.5H9.778v4.278zM6.722 0v1.222h2.194L2.91 7.23l.862.862 6.007-6.007v2.194H11V0H6.722z'></path></svg></div></a>
+						
+					</div>
+				</li>
+				
+				
+				|
+				<li class="nav-item nav-dropdown">en
+					<div class="dropdown-content">
+						
+						
+						<a href="">
+							<div class="nav-item item-centered">cs</div>
+						</a>
+						
+						
+						<a href="/blog/2022/10/14/mapping-landcover-with-OSM-Cameroon/">
+							<div class="nav-item item-centered">en</div>
+						</a>
+						
+						
+						<a href="">
+							<div class="nav-item item-centered">es</div>
+						</a>
+						
+						
+						<a href="">
+							<div class="nav-item item-centered">fr</div>
+						</a>
+						
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="resp-navbar navbar-background resp-nav-dropdown">
+		<p>MENU</p>
+		<div class="resp-dropdown-content">
+			
+			
+			<a href="/beginner/">
+				<li class="nav-item">BEGINNER MAPPING</li>
+			</a>
+			
+			<a href="/advanced/">
+				<li class="nav-item">ADVANCED MAPPING</li>
+			</a>
+			
+			<a href="/field/">
+				<li class="nav-item">FIELD MAPPING</li>
+			</a>
+			
+			<a href="/validate/">
+				<li class="nav-item">VALIDATION</li>
+			</a>
+			
+			<a href="/mapswipe/">
+				<li class="nav-item">MAPSWIPE</li>
+			</a>
+			
+			
+			
+			<a href="/events/">
+				<li class="nav-item">CURRENT EVENTS</li>
+			</a>
+			
+			<a href="/host/">
+				<li class="nav-item">ORGANIZE AN EVENT</li>
+			</a>
+			
+			<a href="/host/#helper-map-contents">
+				<li class="nav-item">MAPATHON SUPPORT</li>
+			</a>
+			
+			
+			
+			<a href="/about/">
+				<li class="nav-item">ABOUT</li>
+			</a>
+			
+			
+			
+			<a href="/blog/">
+				<li class="nav-item">BLOG</li>
+			</a>
+			
+			
+			
+			<a href="https://stats.now.ohsome.org/">
+				<li class="nav-item">STATISTICS <svg width='9' height='9' viewBox='0 0 11 11' title='externalLink' style='height: 9px;'><path fill='currentColor' d='M9.778 9.778H1.222V1.222H5.5V0H1.222C.544 0 0 .55 0 1.222v8.556C0 10.45.544 11 1.222 11h8.556C10.45 11 11 10.45 11 9.778V5.5H9.778v4.278zM6.722 0v1.222h2.194L2.91 7.23l.862.862 6.007-6.007v2.194H11V0H6.722z'></path></svg></li>
+			</a>
+			
+			
+			<div class="mobile-languages">
+				 
+				<a href="/cs/">
+					<div class="lang">cs</div>
+				</a>
+				  
+				<a href="/">
+					<div class="lang">en</div>
+				</a>
+				  
+				<a href="/es/">
+					<div class="lang">es</div>
+				</a>
+				  
+				<a href="/fr/">
+					<div class="lang">fr</div>
+				</a>
+				 
+			</div>
+		</div>
+	</div>
+</header>
+
+
+<script>
+  document.querySelector("header").style.display = 'inline-block';
+</script>
+
+<div id="site-canvas">
+  
+  <div class="header-image" style="background-image: url('https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_banner.png');">
+  
+    <div class="dark-overlay center-text">
+      <h1 class="title feature-header">Mapping landcover with OSM Cameroon</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="textbox blog-container">
+        <div class="blog-date">14 October 2022</div>
+        <h3 id="introduction">Introduction</h3>
+<p>Cameroon is often called “<em>Africa in miniature</em>” because of the country’s diversity in landscapes and how the various geographic landscapes adorning the African continent can almost all be found in Cameroon. The country is such an interesting case for mapping landcover and who else is better to do so than its OSM Community?</p>
+
+<figure> 
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_teampic2.png" /> <p class="caption"></p> 
+</figure>
+
+<p>The OpenStreetMap Cameroon team has been hard at work over the past years, improving the map of their country through data collection and the collaboration with local partners, notably the vocational training <a href="http://eurekageo.space/">Centre Eurêka Geo</a>, which supported the team with training on OSM digitization. Under <a href="https://www.openstreetmap.org/user/Steveeen">Christin Steve Nwagoum Keyamfe</a>’s supervision, <a href="https://www.openstreetmap.org/user/NIKOYO%20EMOUGOU%20Yves%20Emmanuel">Yves Emmanuel Nikoyo Emougou</a>, <a href="https://www.openstreetmap.org/user/victoire%20Tsajio">Victoire Tsajio</a>, <a href="https://www.openstreetmap.org/user/Sylvie%20GALAGO">Sylvie Galago</a>, <a href="https://www.openstreetmap.org/user/ongalisma">Ismael Ebenezer Ongali Tsala</a>,  <a href="https://www.openstreetmap.org/user/Le%20Mago">Ian Jocelyn Kemme Kemme</a>, <a href="https://www.openstreetmap.org/user/Guy%20Berlin%20Boutchouang">Guy Berlin Boutchouang</a>  carried out the mapping of landcover for the whole country of Cameroon. Within 6 months, from December 2019 to May 2020, their daily volunteer work yielded fruits. Here is a look back on how they did it, their methods and the challenges they overcame.</p>
+<h4 id="editor-and-imagery-choices">Editor and Imagery choices</h4>
+<p>The mapping was done using the <a href="https://josm.openstreetmap.de/">JavaOpenstreetMap (JOSM) editor</a> which is an OSM editor that has advanced features for digital mapping of topographic features (rivers, roads, buildings) and landcover, unlike other editors like ID Editor. Versions 15322 and 15238 were the most widely used versions of the editor, while the choice of imagery depended on the availability of the vendor. For instance, Maxar Premium, which was the selected imagery for the implementation of this project, was unavailable for a good period of the project’s duration. Thus, Mapbox satellite and Esri Mondial were the imageries used to overcome this problem of unavailability.</p>
+<h4 id="landcover--landuse">Landcover &amp; landuse</h4>
+<p>One of the many important aspects of mapping is depicting landuse, which helps people understand how the land is being used and what vegetates on it. This information is critical for development planning, disaster response, and many other purposes. As the name implies, <a href="https://www.google.com/url?q=https://wiki.openstreetmap.org/wiki/Land_use&amp;sa=D&amp;source=docs&amp;ust=1665498066836565&amp;usg=AOvVaw3Iir-sOXoql5spmP6eTNHV">landuse</a> describes what an area of land is used for, such as housing, commercial activities, farming, education, leisure, and so on. It is related to <a href="https://www.google.com/url?q=https://wiki.openstreetmap.org/wiki/Landcover&amp;sa=D&amp;source=docs&amp;ust=1665498066837017&amp;usg=AOvVaw18x3tMn82uw7sg0lz3wdG5">landcover</a>, which describes the physical thing and surface that covers the land. The two ideas are complementary and can be used in tandem, however in the case of OSM Cameroon’s work, the team mainly mapped the landcover of Cameroon. 
+In order to improve Cameroon’s landcover mapping, OSM Cameroon strived to collect better data,  enrich the OSM map that shows landcover patterns across the country and to produce maps at 1/20000. Their collaboration amongst members and hard work has resulted in more accurate and up-to-date landcover maps. Their self-organised and cross-functional team created meaningful data, and we could learn a lot from their knowledge and their process.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FfCFtaNTOaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="data-collection-and-improved-collaboration">Data collection and improved collaboration</h3>
+<p>The overarching understanding is that, to do landcover and landuse mapping in OSM, it is very important to know the local area and to avoid mapping conflicts. As a matter of fact, by knowing the environment where one is mapping it is easier to interpret the aerial imagery. And through collaboration and open communication, risks of conflicts are avoided.</p>
+<h4 id="the-importance-of-avoiding-conflicts">The importance of avoiding conflicts</h4>
+<p>Whether a task is set up on the <a href="https://tasks.hotosm.org/">HOT Tasking Manager</a>, or the boundaries and grid are defined in <a href="https://www.qgis.org/en/site/">QGIS</a>, it is best to let mappers not work on squares close to each other. For instance, OSM Cameroon’s strategy was to let one mapper start in the north, and the other in the south. It is advised to use a grid as it makes it easier to coordinate the work between different mappers and a conflict in mapping will be avoided. It allowed the OSM Cameroon team to be more efficient in their work and avoid members wasting time and energy on a single task.
+Here’s the method used by OSM Cameroon with examples: First, they chose the landcover or landuse that they wanted to map; farmland for instance. While drawing the area, it is best to avoid the landcover or landuse to connect nodes with roads. Roads can be crossed, but landcover or landuse should not connect to roads. When the area is drawn, then the attributes can be added: eg. landuse=farmland.</p>
+
+<figure> 
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp1_presenceofroads.png" /> <p class="caption">Good practice of landuse mapping in the presence of roads</p> 
+</figure>
+
+<p>Once the first landcover or landuse is drawn, the drawing of the second one can follow. In the example of the OSM Cameroon team, this was a residential area. It is important to assure the connectivity of the residential area nodes to the neighbouring landuse of the farmland area, which was drawn previously. The first node between the two different landuses has to be joined, then pressing F, one follows the existing line of the residential area. The use of the <a href="https://github.com/MissingMaps/josm_styles/archive/master.zip">Missing Maps/Youthmappers Map Paint style</a> can show warning triangles if they are connected with each other. To avoid these triangles, it is important to create multipolygons by selecting the two layers and pressing CTRL+B.</p>
+
+<p>Yves Emmanuel Nikyo Emougou explains:  “<em>if the landcover or landuse area that you want to map is very large, you could also map multiple polygons that you merge afterwards. First you map your first landcover area, after you continue with a new polygon next to the one already mapped. If the polygons are small and carry the same attributes, they can be joined together. To do so, select both polygons and press SHIFT+J. After the confirmation, select what to keep and select ‘apply’. Making one large polygon from the beginning is fair too. An important point to take into account is the limit of nodes that one can upload. When uploading the data online, if the nodes are greater than 2000, an error message will be received and it will not be possible to send your data.</em>”</p>
+
+<p>But what if a residential area is within farmland? “<em>Since it is not good practice to make landcover and landuse overlapping with each other, they should be mapped as a relation. For this, the best practice to adopt would be to first map the farmland area, and then the residential area within it. Next, select both areas and press CTRL+B to create a multipolygon. Note that, the outside polygon is called outer and the inside polygon inter.</em>”</p>
+
+<figure> 
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp2_lackofrelations.png" /> <p class="caption">Illustration of the lack of relations in landcover and landuse mapping on OSM</p> 
+</figure>
+
+<figure> 
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp3_usingrelations.png" /> <p class="caption">Using relations in landcover and landuse mapping on OSM</p> 
+</figure>
+
+<h4 id="the-importance-of-local-knowledge">The importance of local knowledge</h4>
+<p>Although the best practices for landcover and landuse mapping share common ground (no pun intended), they should be adapted to the area’s landscape. The definition of common classes that encompass various landscapes and ecoregions can be a challenge in landcover and landuse mapping and classification. OSM as a global project uses tags to map landcover and landuse around the world. As a result, it is critical to specify how these tags should be used in a specific ecoregion. The types of forest in Belgium and the types of forests in Cameroon are not the same. Moreover, on aerial imagery, it can be difficult to understand the specificity of the land. So, how should these be classified? Good instructions with pictures and local knowledge are key to understand what type of landcover and landuse will be mapped. The importance of local knowledge is paramount to collect accurate data and classify them properly.</p>
+
+<p>Landcover and landuse is now mapped with a variety of tags in OpenStreetMap, as it has evolved over time. However, a challenge the team faced was the absence of tags adapted to the Cameroonian ecosystem classes on OSM. Indeed, not all landcover and landuse classes that are existing in Africa have dedicated tags on OSM. Cameroon is divided into four geographical regions: northern, central, southern, and western. The savanna plain that occupies the country’s center descends in elevation as it approaches the Lake Chad basin north of the Benue (Bénoué) River. Although approximately 20% of the surface on Earth is covered by savanna, it remains absent as a classification on OSM. In order to adapt to the existing confines, it has been tagged as ‘meadow’ by the OSM Cameroon team.</p>
+
+<p>The challenges of not having local knowledge can hinder the collection of accurate data. From aerial imagery, one could make the mistake of mapping some places as residential areas when in reality, they are actually buildings to store materials for farming activities. Another instance is with agricultural lands. Agricultural land with its crops, perennial or annual, is constantly evolving. From one year to another, agricultural land uses can change, or stay the same for over a decade. Even further, there can be confusion with forests. A palm oil, coffee or cocoa field may look like a forest on aerial imagery. Only local knowledge can elucidate and take into consideration the organisation of the objects you see. Natural objects such as forests are quite disorganised, however in some cases you are able to distinguish farmland from forest based on aerial imagery. Like for example  the palm groves in the figure, which are better organised and characterised by the presence of access roads to facilitate the transportation of crops.</p>
+
+<figure> 
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp4_landcoverorganisation_eng.png" /> <p class="caption">Illustration of the organisation of a forest and palm groves</p> 
+</figure>
+
+<h3 id="what-next">What next?</h3>
+<p>OSM Cameroon is committed to continue improving their landcover mapping in order to provide better information. Their effort doesn’t end here, as the team is now doing quality control. OSM could be utilised more extensively in operational applications and environmental research, such as monitoring landcover change in connection with vegetation and climate modelling. The achievements of <a href="https://www.openstreetmap.org/user/Steveeen">Christin Steve Nwagoum Keyamfe</a>, <a href="https://www.openstreetmap.org/user/NIKOYO%20EMOUGOU%20Yves%20Emmanuel">Yves Emmanuel Nikoyo Emougou</a>, <a href="https://www.openstreetmap.org/user/victoire%20Tsajio">Victoire Tsajio</a>, <a href="https://www.openstreetmap.org/user/Sylvie%20GALAGO">Sylvie Galago</a>, <a href="https://www.openstreetmap.org/user/ongalisma">Ismael Ebenezer Ongali Tsala</a>,  <a href="https://www.openstreetmap.org/user/Le%20Mago">Ian Jocelyn Kemme Kemme</a>, and <a href="https://www.openstreetmap.org/user/Guy%20Berlin%20Boutchouang">Guy Berlin Boutchouang</a> are a great example of OSM communities’ capabilities and activities around the world, and more so how their contribution to open geospatial data can be used for various types of decision-making.</p>
+
+<h4 id="have-a-look-at-their-social-media-accounts">Have a look at their social media accounts!</h4>
+<p><a href="https://www.facebook.com/OpenStreetMap-Cameroun-799439470157013/">Facebook</a></p>
+
+<p><a href="https://twitter.com/OSMCameroun">Twitter</a></p>
+
+<h4 id="curious-about-mapping-landcover-and-landuse-have-a-look-at-these">Curious about mapping landcover and landuse? Have a look at these:</h4>
+<ul>
+  <li>
+    <p><a href="https://osmlanduse.org/">OSM Landuse Landcover</a>, a WebGIS application to explore the OpenStreetMap database specifically in terms of landuse and landcover information.</p>
+  </li>
+  <li>
+    <p><a href="https://wiki.openstreetmap.org/wiki/Land_use">Wiki page for Land use</a>.</p>
+  </li>
+  <li>
+    <p><a href="https://wiki.openstreetmap.org/wiki/Landcover">Wiki page for Land Cover</a>.</p>
+  </li>
+  <li>
+    <p><a href="https://www.missingmaps.org/assets/downloads/JOSM_Advanced_Mapping_EN.pdf">Advanced Mapping using JOSM</a>, MissingMaps’ guide to learn about the ins and outs of JOSM.</p>
+  </li>
+  <li>
+    <p><a href="https://www.linkedin.com/pulse/openstreetmap-comme-support-%C3%A0-la-production-de-2673-coupures-sob/">OpenStreetMap as a support for the production of 2673 national topographic maps at the 1:25,000 scale</a>, from <a href="https://www.hotosm.org/people/willy-franck-sob/">Willy Franck Sob</a>, 2021.</p>
+  </li>
+</ul>
+
+<p>To improve landcover and landuse mapping in OpenStreetMap, you too can participate in landcover and landuse mapping efforts for humanitarian organisations. The <a href="https://tasks.hotosm.org/explore/filters?types=LAND_USE">HOT Tasking Manager’s explore page</a> allows users to filter projects by types of mapped objects or key words, and one can always choose the ‘landuse’ option to find new tasks!</p>
+
+<h4 id="médecins-sans-frontières-set-up-a-task-for-the-landuse-and-landcover-mapping-of-gummi-nigeria-if-youd-like-to-contribute">Médecins Sans Frontières set up a task for the <a href="https://tasks.hotosm.org/projects/13625/">landuse and landcover mapping of Gummi, Nigeria</a> if you’d like to contribute!</h4>
+
+
+        <hr class="blog-end">
+        <p class="author">by Yves Emmanuel Nikoyo Emougou, Jorieke Vyncke, Lale Pirlot</p>
+      </div>
+    </div>
+  </div>
+
+
+    
+
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-container">
+      <div class="center-text">
+        <div class="row">
+          <div class="title section-header">Contact Us</div>
+        </div>
+        <a href="https://twitter.com/TheMissingMaps" class="btn btn-blue"><i class="fab fa-twitter"></i> TWITTER </a>
+        <a href="https://www.facebook.com/TheMissingMaps" class="btn btn-blue"><i class="fab fa-facebook fa-fw"></i> FACEBOOK </a>
+        <a href="https://github.com/MissingMaps" class="btn btn-blue"><i class="fab fa-github fa-fw"></i> GITHUB </a>
+        <a href="http://wiki.openstreetmap.org/wiki/Missing_Maps_Project" class="btn btn-blue"><i class="far fa-newspaper fa-fw"></i> WIKI </a>
+        <a href="https://www.flickr.com/photos/126636925@N06/" class="btn btn-blue"><i class="fab fa-flickr fa-fw"></i> FLICKR </a>
+        <a href="https://www.instagram.com/themissingmaps/" class="btn btn-blue"><i class="fab fa-instagram fa-fw"></i> INSTAGRAM </a>
+        <a href="mailto:info@hotosm.org" class="btn btn-blue"><i class="fas fa-envelope fa-fw"></i> EMAIL </a>
+        <a href="/assets/downloads/mapathon-materials/english/MissingMapsMediaGuideGeneral_Web.png" class="btn btn-blue"><i class="fas fa-microphone fa-fw"></i> MEDIA GUIDE </a>
+      </div>
+      <div class="footer-mm center-text">
+        CC-BY Missing Maps
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55969124-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-55969124-1');
+    </script>
+
+    <!-- build:js assets/scripts/main.js -->
+    <script src="/assets/scripts/main.min.js"></script>
+    <!-- endbuild -->
+
+  </body>
+
+</html>

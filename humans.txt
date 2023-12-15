@@ -1,0 +1,73 @@
+        _         _
+  /\/\ (_)___ ___(_)_ __   __ _  /\/\   __ _ _ __  ___
+ /    \| / __/ __| | '_ \ / _` |/    \ / _` | '_ \/ __|
+/ /\/\ \ \__ \__ \ | | | | (_| / /\/\ \ (_| | |_) \__ \
+\/    \/_|___/___/_|_| |_|\__, \/    \/\__,_| .__/|___/
+                          |___/             |_|
+   ___            _        _ _           _
+  / __\___  _ __ | |_ _ __(_) |__  _   _| |_ ___  _ __ ___
+ / /  / _ \| '_ \| __| '__| | '_ \| | | | __/ _ \| '__/ __|
+/ /__| (_) | | | | |_| |  | | |_) | |_| | || (_) | |  \__ \
+\____/\___/|_| |_|\__|_|  |_|_.__/ \__,_|\__\___/|_|  |___/
+
+============================================================
+
+
+/* Team */
+
+Contributor: dalekunce
+Github: https://github.com/dalekunce
+
+Contributor: pedrito1414
+Github: https://github.com/pedrito1414
+
+Contributor: danbjoseph
+Github: https://github.com/danbjoseph
+
+Contributor: abenrob
+Github: https://github.com/abenrob
+
+Contributor: smit1678
+Github: https://github.com/smit1678
+
+Contributor: anjikoc
+Github: https://github.com/anjikoc
+
+Contributor: DrishT
+Github: https://github.com/DrishT
+
+Contributor: DylanMoriarty
+Github: https://github.com/DylanMoriarty
+
+Contributor: cljohn
+Github: https://github.com/cljohn
+
+Contributor: ViolaineCartONG
+Github: https://github.com/ViolaineCartONG
+
+Contributor: filbertkm
+Github: https://github.com/filbertkm
+
+Contributor: nbumbarger
+Github: https://github.com/nbumbarger
+
+Contributor: harry-wood
+Github: https://github.com/harry-wood
+
+Contributor: aawiseman
+Github: https://github.com/aawiseman
+
+Contributor: Nick-Tallguy
+Github: https://github.com/Nick-Tallguy
+
+Contributor: mikelmaron
+Github: https://github.com/mikelmaron
+
+Contributor: cgiovando
+Github: https://github.com/cgiovando
+
+Contributor: 1ec5
+Github: https://github.com/1ec5
+
+Contributor: tsamaya
+Github: https://github.com/tsamaya

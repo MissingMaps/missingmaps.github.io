@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-12-15T06:42:32-05:00</updated><id>/feed.xml</id><title type="html">Missing Maps</title><entry xml:lang="en"><title type="html">Participatory Mapping taken one step further - The new version of the Sketch Map Tool</title><link href="/blog/2023/07/14/sketch_map_tool_new_version/" rel="alternate" type="text/html" title="Participatory Mapping taken one step further - The new version of the Sketch Map Tool" /><published>2023-07-14T00:00:00-04:00</published><updated>2023-07-14T00:00:00-04:00</updated><id>/blog/2023/07/14/sketch_map_tool_new_version</id><content type="html" xml:base="/blog/2023/07/14/sketch_map_tool_new_version/">&lt;h2 id=&quot;sketch-map-tool-smt---an-easy-to-use-way-to-create-and-digitalize-paper-maps-for-offline-data-collection-in-the-field&quot;&gt;Sketch Map Tool (SMT) - An easy-to-use way to create and digitalize paper maps for offline data collection in the field&lt;/h2&gt;
+
+&lt;p&gt;The HeiGIT (Heidelberg Institute for Geoinformation Technology) team recently launched a new version of the &lt;a href=&quot;https://sketch-map-tool.heigit.org/&quot;&gt;https://sketch-map-tool.heigit.org/&lt;/a&gt; - an easy-to-use tool for participatory sketch mapping through &lt;strong&gt;offline&lt;/strong&gt; data collection, digitization and georeferencing of &lt;strong&gt;local spatial knowledge&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thanks to the support of the &lt;a href=&quot;https://www.drk.de/en/aid-worldwide/what-we-do-1/&quot;&gt;German Red Cross&lt;/a&gt; and funding from the &lt;a href=&quot;https://www.auswaertiges-amt.de/en&quot;&gt;German Federal Foreign Office&lt;/a&gt;, a more stable and user-friendly version of the &lt;a href=&quot;https://heigit.org/&quot;&gt;HeiGIT/GIScience&lt;/a&gt; tool has now been developed.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-special-about-the-sketch-map-tool&quot;&gt;What is special about the Sketch Map Tool?&lt;/h2&gt;
+
+&lt;p&gt;The variety of mapping methods already in use demonstrates the importance of the spatial aspect of local knowledge and perception for project planning. At the same time, accessing and recording spatial perceptions of community members with existing online and offline data collection tools remains a significant challenge.&lt;/p&gt;
+
+&lt;p&gt;The Sketch Map Tool addresses this prevailing need by facilitating the mapping of local knowledge, perceptions and wishes on paper-based maps, the so-called Sketch Maps. With the help of a base map, participants can easily orientate themselves. By uploading the marked maps to the Sketch Map Tool online application, the uploaded map and collected data are automatically georeferenced and digitized.&lt;/p&gt;
+
+&lt;p&gt;This automatic transfer from analogue to digital data saves a large amount of time and simplifies the analysis of field data with other data sources like satellite images, flood models or additional vulnerability data. The Sketch Map Tool provides an opportunity to close the gap between local experiences and more abstract geoinformatics analysis. The tool supports every important step of participatory mapping, from the creation of the base map and the analysis of its suitability for participatory mapping to the digitization of the results.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-do-i-use-the-sketch-map-tool&quot;&gt;How Do I Use the Sketch Map Tool?&lt;/h2&gt;
+
+&lt;p&gt;The tool, through a user-friendly interface and setup as well as supporting and training materials, enables the usage and involvement of interested stakeholders with multiple levels of expertise and tech experience.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1-map-creation&quot;&gt;Step 1: Map Creation&lt;/h3&gt;
+
+&lt;p&gt;In the first step, the Sketch Map Tool allows you to create sketch maps based on Open Street Map (OSM) data for your area of ​​interest. With the background map, the participants can orientate themselves on streets and central locations when collecting data.&lt;/p&gt;
+
+&lt;p&gt;Since OSM is a participatory project to create a global geodatabase, additional map data and thus its quality can be improved in cooperation with the OSM community if required. The integrated quality analysis of the OSM base map data by the HeiGIT &lt;a href=&quot;https://oqt.ohsome.org/&quot;&gt;ohsome quality analyst&lt;/a&gt; provides users with information on the usability of the map through a traffic light system as well as further analysis and recommendations.&lt;/p&gt;
+
+&lt;p&gt;The Sketch Maps can be created and printed in different paper sizes to support different capture options. For example, larger paper sizes are optimal for mapping in groups, while smaller sizes are preferred for mapping individually.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2-mapping-in-the-field&quot;&gt;Step 2: Mapping in the Field&lt;/h3&gt;
+
+&lt;p&gt;Sketch maps can be used for local mapping directly in the areas of interest and collaborative mapping in workshops. The circumstances, facilities or areas to be recorded are marked with a pen or marker.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3-digitalization&quot;&gt;Step 3: Digitalization&lt;/h3&gt;
+
+&lt;p&gt;After data collection, the marked sketch maps can be photographed or scanned and uploaded to the Sketch Map Tool. This is followed by automatic georeferencing as well as identification and digitization of all markings. The Sketch Map Tool then makes the complete map and all markers available for download in digital formats.
+In more technical terms, the tool will start the automatic georeferencing of the maps and color detection of the marked features. These results can be downloaded as geodata (GeoTIFF and GeoJson) and further analyzed in the Geographic Information System software of your choice.
+This step requires hardly any technical knowledge and avoids much manual work and thus valuable time. In addition, the analysis of the recorded data and a simple link to other data sources such as satellite data or flood models is made possible. The Sketch Map Tool offers a way to bridge the gap between local knowledge and experience and more abstract geographic simulations and modelling.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://www.missingmaps.org/img/images/missingmaps-blog-20230714_map.png&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;Sketch Map of Risk Areas from a project in Colombia (Letzner 2023)&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;selected-use-cases-of-the-sketch-map-tool&quot;&gt;Selected use cases of the Sketch Map Tool&lt;/h2&gt;
+
+&lt;p&gt;The Sketch Map Tool can be used by local stakeholders to engage communities in gathering information about their experience and perception of previous flood events or other hazards in their neighborhoods. In the past, the tool has been used by various actors in risk assessments, to design risk reduction measures, or to enhance communication by increasing risk awareness among citizens.&lt;/p&gt;
+
+&lt;p&gt;The development of the first prototypes of the Sketch Map Tool started over four years ago in the &lt;a href=&quot;https://www.geog.uni-heidelberg.de/gis/waterproofing.html&quot;&gt;Waterproofing data project&lt;/a&gt; to support the collection of flood risk perception in two vulnerable Brazilian communities.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://www.missingmaps.org/img/images/missingmaps-blog-20230714_group.png&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;Brazil (Klonner 2019)&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Since then, the tool has been tested in different contexts and projects around the world including Germany, Mozambique and Madagascar. In Mozambique, for example, users recorded flood areas and regions with increased crime using the Sketch Map Tool in workshops. The collected data was used in disaster risk reduction projects by the German Red Cross and &lt;a href=&quot;https://piroi.croix-rouge.fr/piroi/members-of-piroi/mozambique-red-cross-society/?lang=en&quot;&gt;Mozambique Red Cross Society&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://www.missingmaps.org/img/images/missingmaps-blog-20230714_double.png&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;Mozambique (György 2022)&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Currently, our former HeiGIT intern Kimon Letzner explores the potential and limitations of the Sketch Map Tool in the scope of his Master’s studies at Lund University. His focus is on the community mapping process in the context of the &lt;a href=&quot;https://communityengagementhub.org/resource/evca-guide/&quot;&gt;Enhanced Vulnerability and Capacity Assessment (EVCA)&lt;/a&gt; in the International Red Cross Red Crescent Movement based on a project with the &lt;a href=&quot;https://www.cruzrojacolombiana.org/&quot;&gt;Colombian Red Cross National Society&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://www.missingmaps.org/img/images/missingmaps-blog-20230714_community_mapping.jpeg&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;Community mapping (Letzner 2023)&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In May 2023, the Sketch Map tool was presented and used in a practical exercise at a regional training of the &lt;a href=&quot;https://www.ifrc.org/&quot;&gt;International Federation of Red Cross and Red Crescent Societies&lt;/a&gt; “Road Map to Community Resilience via Enhanced Vulnerability and Capacity Assessment (EVCA)” in Kuala Lumpur, Malaysia. A write-up of the training can be found [here] (https://heigit.org/training-on-digitalization-of-participatory-mapping-in-kuala-lumpur/). This event represented another crucial step towards implementing the tool in the standard processes of the Red Cross Red Crescent Movement worldwide.&lt;/p&gt;
+
+&lt;h2 id=&quot;outlook&quot;&gt;Outlook&lt;/h2&gt;
+
+&lt;p&gt;The application examples presented here represent only a small part of the current projects in which the Sketch Map Tool has already been deployed. Due to the Sketch Map Tool’s functions and the easy handling of the tool, the HeiGIT team receives consistent information and ideas about applications and further development from the Red Cross and Red Crescent Movement and beyond. In cooperation with our partners, we are also currently conducting numerous workshops and training on the Sketch Map Tool and planning updates and expansions for the application.&lt;/p&gt;
+
+&lt;p&gt;On Friday, June 9th at 4:30 PM EST, the Sketch Map Tool was presented at the State of the Map US 2023, the annual OSM conference in the USA, with additional information available &lt;a href=&quot;https://2023.stateofthemap.us/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Melanie Eckle and Alec Schulze-Eckle</name></author><category term="blog" /><category term="participatory mapping" /><category term="analog map" /><category term="digital map" /><category term="sketch tool" /><summary type="html">The Heidelberg Institute for Geoinformation Technology team recently launched a new version of the Skecth Map Tool - an easy-to-use tool for participatory sketch mapping through offline data collection, digitization and georeferencing of local spatial knowledge.</summary></entry><entry xml:lang="en"><title type="html">Geodata guiding health interventions in IDP camps around Goma</title><link href="/blog/2023/06/19/DRC-MSF-Health-Intervention/" rel="alternate" type="text/html" title="Geodata guiding health interventions in IDP camps around Goma" /><published>2023-06-19T00:00:00-04:00</published><updated>2023-06-19T00:00:00-04:00</updated><id>/blog/2023/06/19/DRC-MSF-Health-Intervention</id><content type="html" xml:base="/blog/2023/06/19/DRC-MSF-Health-Intervention/">&lt;h1 id=&quot;geodata-guiding-health-interventions-in-idp-camps-around-goma&quot;&gt;Geodata guiding health interventions in IDP camps around Goma&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Amidst the ongoing conflict and displacement crisis in the Democratic Republic of Congo, utilizing geodata contributes to an effective evaluation of the situation, understanding the extent of displacement in a setting where estimating the number and spread of population is never an easy task.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Since March 2022, around one million of people have fled the upsurge of heavy fighting between the Congolese army and militant groups, including the M23, in North Kivu. This is adding to the already high number of internally displaced people (IDPs) in North-Kivu, reaching now a total of approximately 2.3 million (according to the United-Nations Office for the Coordination of Humanitarian Affairs &lt;a href=&quot;https://reliefweb.int/attachments/57b22a3d-d220-46b9-aef8-4451c3b30bbd/Rapport%20de%20situation%20pour%20la%20Province%20du%20NK%20-%202%20juin%202023.pdf&quot;&gt;(OCHA, 2023)&lt;/a&gt;. Displacement is still ongoing and very few IDPs dare to return. The majority of IDPs have moved closer to Goma to seek safety and established temporary camps on its outskirts. Living conditions were dire, with people lacking everything; from shelter and food, to clean water and toilets, exposed to the risk of disease outbreaks, as well as sexual violence. Médecins Sans Frontières (MSF) was one of the first humanitarian actors to respond in several of the camps around Goma.&lt;/p&gt;
+
+&lt;p&gt;MSF teams are working in several displacement sites close to Goma, including Kanyaruchinya, Munigi, Rusayo, Eloime, Shabindu, Bulengo, Lushagala, Nzulu, ake and Shasha. The MSF teams first responded urgently to cholera and measles outbreaks in several sites, by providing medical care, building latrines and showers, and bringing thousands of liters of drinkable water for disease prevention. Today, MSF is additionally providing free medical services related to paediatric care and support for sexual violence survivors.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://www.missingmaps.org/img/images/missingmaps-blog_20230619_DRC1_GISspecialist.JPEG&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;GIS Specialist and Public Health Analyst preparing for a field survey, DRC 2023. © MSF
+&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;While implementing activities in displacement camps, MSF teams have also conducted field surveys to understand “How many people are there?” and “What is the mortality rate, reasons and places of death?”. In this context, geodata is used as an effective tool for population estimation, mortality assessment, and planning for ongoing and future health interventions.&lt;/p&gt;
+
+&lt;h2 id=&quot;remote-mapping-and-sampling&quot;&gt;Remote mapping and sampling&lt;/h2&gt;
+
+&lt;p&gt;The difficulty for establishing water and sanitation measures or a vaccination plan was that there were no recent, accurate, or specific IDP counts and maps in the massive displacement sites. Through the &lt;a href=&quot;https://www.missingmaps.org/&quot;&gt;Missing Maps&lt;/a&gt; project, that aims to map areas where people live at risk of or affected by disasters and crises, the MSF emergency operations requested to map the newly established camps in OpenStreetMap (OSM). With help of recent aerial images, the MSF Missing Maps team set up projects in the Humanitarian OpenStreetMap Team (HOT) Tasking Manager, used for managing projects mapped at mapathons. From late March to early May 2023, a handful of experienced Missing Maps volunteers digitized in the JOSM editor over 56,000 shelters and buildings of host community in six IDP camps near Goma in a matter of days: Lushagala, Bulengo, Kashaka, Rusayo, Don Bosco, and Nzulu. These are mappers, who have been taking part in regular community mapathons, supporting MSF operations with the Missing Maps London or Missing Maps Czechia and Slovakia communities.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“This type of mapping was challenging in the beginning. First task open, I was stunned by how many tents had been constructed in such a small area. With more and more mapped tents, I got more comfortable with the precision and speed of the mapping. The overwhelming feeling that I am sitting comfortably at home and mapping this area remotely, while people there are forced to live completely different lives, is still with me,”&lt;/em&gt; shared an expert mapper, who goes by the OSM name anthaas.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://www.missingmaps.org/img/images/missingmaps-blog_20230619_DRC2_Map_BulengoCamp.png&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;Rapid map of Bulengo Camp © MSF
+&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;With this base map data, a field survey could be organized. The tools used for the survey have been QGIS, Kobo collect, OSMAnd, and the RStudio Statistical Software package, all free and open-source tools. The mapping of the shelters of the camp was followed by spatial sampling. Employing the QGIS software, Oluwaseyi Ojo, the Geographic Information Systems (GIS) intern at the Manson Unit based at the MSF UK, randomly selected a specific number of buildings in each camp that would be represented by points, and grouped and named the selected buildings for easy usage for the surveyors in OsmAnd. Using QGIS, he also produced rapid reference maps.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://www.missingmaps.org/img/images/missingmaps-blog_20230619_DRC3_Map_SurveySampling.jpg&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;MSF used the buildings mapped by the Missing Maps volunteers to conduct a random survey sampling of several IDP camps.  © MSF
+&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The geodata sample was shared with the GIS specialist and the Public Health Analyst in the DRC. In teams of two interviewers, about 18 shelters a day could be visited. The goal was to find out how many people sleep there, and gather additional information, related to their health, the nutrition status of children, and deaths in the past three months. The Kobo toolbox was used to design a questionnaire. Using a standardized epidemiological study design and the appropriate statistical analysis, MSF could project the numbers gathered from the sample to the whole population.&lt;/p&gt;
+
+&lt;h2 id=&quot;challenges-of-mobile-data-collection--playful-approach-helped&quot;&gt;Challenges of mobile data collection – playful approach helped&lt;/h2&gt;
+
+&lt;p&gt;The interviewers for the survey had been trained during two days to navigate through the camps to the selected shelters in OsmAnd, a map and navigation app using the OSM map database that can function offline. They would collect information in Kobo collect, when interviewing the residents. There were various challenges with the field survey approach. “We realized there was a shift from the satellite image to the reality”, recounted the MSF Public health data analyst Georgios Karanapagos, “The initial training assumed a perfect system, that the map was perfect, the mobile was perfect… ”&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://www.missingmaps.org/img/images/missingmaps-blog_20230619_DRC4_ScreenshotOSM.jpg&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;Screenshot of OSMAnd © MSF
+&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;However, there was a limited precision of the mobile devices. There could be an offset of about seven meters, so one dot on the screen could be matched with three different huts. In a randomly built camp, the navigation was trying to find ways, or streets, within this structure. So, as a surveyor, you might be only a hundred meters away from a point, but it would let you make a huge detour through a supposed “street” to get there. “We would try to tell the interviewers, look, this is a bunch of shelters, you can just walk past them and go directly to the point,” recalled Georgios.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://www.missingmaps.org/img/images/missingmaps-blog_20230619_DRC5_Surveyor.jpg&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;Surveyor, DRC 2023.  © MSF
+&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;“The quality of the mapping was so good that we could even easily identify the huts that had been destroyed in the meantime. Because this is a very dynamic camp, a lot of the huts are destroyed and built again. In 90 per cent of cases, we could either find the structure that was there, or even the new huts.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;At the beginning, the interviewers did not know how to read the maps. There were no signs, there was no Eiffel Tower to indicate the direction. Because of this inaccuracy, they would end up in the middle of the street, and they would say, there is no hut here. But in every neighborhood, there was one mapped structure bigger than the others; it could be the toilet, the water collection point, or an empty space and that would serve the team to orient. At first, the team had too many points that did not correspond to huts. Georgios spent time with the team checking them out, knowing it would be seven, or up to 10 meters off: “It was a sort of a game. Everyone in the team was excited, when they realized they could see the actual buildings, identify and logically arrive at the right one.” When they understood the process, they could even correct the trainer, who had taught them how to do it, and who might have had a rotational discrepancy at the moment.&lt;/p&gt;
+
+&lt;p&gt;Another aspect to be aware of is the potential bias of the interviewer, based on their preference. You arrive at a point and you see two or three huts that could correspond to the same point in the map. You might be tempted to choose on your personal favour. For example, an eager interviewer may choose the point that is a dwelling with many people in it, so they collect more data. And one who is bored or tired, who does not want to work a lot, may pick a dwelling that is empty. The interviewers need to have all more or less the same approach on identifying the huts.&lt;/p&gt;
+
+&lt;p&gt;Besides, the naming of the sectors and of the sub sectors was so random and developed day by day, that there was no consistency. The Geographic Information System (GIS) specialist is contributing to redefining all the section boundaries, and now former camp management is getting organized in Rusayo, Lushagala and other sites.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-next&quot;&gt;What is next?&lt;/h2&gt;
+
+&lt;p&gt;After the field data collection, the Public health data analyst and the GIS specialist proceeded with cleaning the data. They worked with Excel files in QGIS. The mobile devices were reporting the GPS coordinates, composed by latitude (north-south position) and longitude (east-west position) with an inherent imprecision. Naming mistakes also happened: observing the spatial data in QGIS, they could see the point they had identified as B_12 was very close to B_I2, it did not always correspond to the map location, e.g. I and 1 could be interchanged.&lt;/p&gt;
+
+&lt;p&gt;The data analysis is ongoing. Most of the huts are the sleeping huts, but some are used as toilets, for storing or cooking food. The team determined the proportion of the sleeping huts with the study. By asking how many people slept in the building the night before, they could get a good estimate of what is the population residing in the camp, by multiplying the sample with an appropriate weight. In addition, if the camp is expanding a lot in the next two to three months, the organization can task another aerial image in three months. The GIS and data specialists can impute the structure, and the use of the camp, by the recent data analysis. Taking the proportion of the sleeping huts as a base, we expect the use of the huts will be similar, and can also project the use in the new population estimates.&lt;/p&gt;
+
+&lt;p&gt;Epidemiological surveillance data helps MSF to monitor and follow the course of an epidemic. Cholera is endemic in North Kivu. With vulnerable people living in crowded conditions without access to clean water, the situation escalated to a cholera epidemic in March 2023. Epidemiologists can see whether the epidemic is limited to the camp population, or when it starts to spread into the resident population. This data helps humanitarian workers to prepare rapid response mechanisms, such as provision of safe water and latrines, at the earliest signs of a spread. In addition, from retrospective data analysis, MSF can gain a better understanding of the characteristics of the epidemic outbreak, such as how quickly it spreads, effect of the response, and profile of affected populations, which helps to respond faster and better to the next epidemic, saving lives especially in the early days of an outbreak.&lt;/p&gt;
+
+&lt;p&gt;The method is already getting duplicated in other camps, where MSF is using the same method to undertake a field survey. The use of OSM data digitized from satellite images, spatial sampling for a field survey and the epidemilogical data has served to guide our medical action. MSF support, including the establishment of cholera treatment centres and basic health services, health promotion programmes, the provision of safe water, the construction of latrines and the implementation of a vaccination programme has helped to contain the cholera epidemics and reduce the number of cholera cases to pre-epidemic levels.&lt;/p&gt;
+
+&lt;p&gt;With cholera epidemics under control, other health and social issues have come into focus: a high number of measles cases due to low vaccination coverage, the poor nutritional status of many children, violence in the camp, especially against women, the missing or overcrowded camp schools, the lack of income opportunities for camp adults, etc. While the impact of geodata on the MSF health interventions in the IDP camps has been to estimate their populations, understand the levels and causes of mortality, and facilitate learning within the organization, the OSM data is available for other humanitarian organizations. The data can serve more efficient situational awareness and decision-making of aid workers concerning projects aimed to help those who need it the most.&lt;/p&gt;</content><author><name>Jana Bauerová</name></author><category term="blog" /><category term="MSF" /><category term="Medecins Sans Frontieres" /><category term="Health" /><category term="Cholera" /><category term="DRC" /><category term="Democratic Republic of Congo" /><category term="displaced" /><category term="IDP" /><summary type="html">Amidst the ongoing conflict and displacement crisis in the Democratic Republic of Congo, utilizing geodata contributes to an effective evaluation of the situation, understanding the extent of displacement in a setting where estimating the number and spread of population is never an easy task.</summary></entry><entry xml:lang="en"><title type="html">Remote Mapping in Malawi: Supporting Field Operations</title><link href="/blog/2023/06/02/Malawi-MSF-Cholera-Cyclone-Response/" rel="alternate" type="text/html" title="Remote Mapping in Malawi: Supporting Field Operations" /><published>2023-06-02T00:00:00-04:00</published><updated>2023-06-02T00:00:00-04:00</updated><id>/blog/2023/06/02/Malawi-MSF-Cholera-Cyclone-Response</id><content type="html" xml:base="/blog/2023/06/02/Malawi-MSF-Cholera-Cyclone-Response/">&lt;h1 id=&quot;remote-mapping-in-malawi-supporting-field-operations-for-the-cholera-outbreak-and-cyclone-freddy-response&quot;&gt;Remote Mapping in Malawi: Supporting Field Operations for the Cholera Outbreak and Cyclone Freddy Response&lt;/h1&gt;
+
+&lt;h2 id=&quot;cholera-outbreak&quot;&gt;Cholera outbreak&lt;/h2&gt;
+&lt;p&gt;In Malawi, cholera remains endemic, with a consistent pattern of cases typically emerging in March, following the arrival of the initial rains. Historically, these occurrences swiftly faded away. However, in 2022, the number of reported cholera cases exhibited a significant rise following the initial occurrences in March. Since then, the cholera outbreak spread to several cities including Lilongwe, where the situation worsened in early December 2022. In mid-December, the number of cases skyrocketed. Responding to this alarming development, the Missing Maps team from Médecins Sans Frontières (MSF) launched remote mapping support, first setting up six Mapswipe projects, and with the resulting grid, HOT Tasking Manager projects to map buildings and residential areas.&lt;/p&gt;
+
+&lt;p&gt;In January 2023, an emergency response team from MSF France was deployed to the field. Upon their arrival, there were between 900 and 1,000 cases per week. In response to this urgent crisis, MSF launched projects in key locations, namely Blantyre, Mangochi and Lilongwe.&lt;/p&gt;
+
+&lt;p&gt;A number of mapathons were hosted around the world to map the Mangochi District, including:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Linklaters Japan mapathons held from February to April.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;MSF Germany and the German Red Cross online mapathon: Collaborative event in February.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mapathons organized by the MSF office in Copenhagen, and MSF office in Paris with CartONG volunteers in March.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mapathons organized by MSF office in Prague held with the Missing Maps CZ volunteers in March.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Missing Maps Olomouc in April.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Missing Maps Slovakia in Bratislava in April.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Missing Maps London in April.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;University of Zaragoza with MSF Spain mapathon in April.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;MSF Germany mapathon at the FOSSGIS Conference in April.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Canadian Red Cross: multiple corporate mapathons in April and May.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The German Red Cross, MSF Germany and the University of Greifswald continued to map buildings and residential areas at mapathons in May.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thank you to all these mappers, and to the validators who are helping to complete the &lt;a href=&quot;https://tasks.hotosm.org/explore?campaign=Malawi%20Cholera%20Outbreak&quot;&gt;projects&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Use of maps in the Cholera Response operations&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Two GIS specialists have been deployed to Malawi to support the MSF emergency response. They have created maps with the origin of cholera cases and cumulative cases for various locations, cholera case fatality rate and for Oral Rehydration Points locations, as well as for water access in the city of Lilongwe.&lt;/p&gt;
+
+&lt;p&gt;OpenStreetMap base maps created through remote mapping projects and mapped during mapathons around the world were used in many operational applications.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://www.missingmaps.org/img/images/missingmaps-blog_20230601_malawi_cholera_reponse_LilongweCity_watsan_excerpt.jpeg&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;Map used for a field survey on water access safety in Lilongwe. Malawi 2023 © MSF
+&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;One of these applications is the use of maps for conducting water and sanitation surveys. By utilizing basemaps, MSF could effectively prioritize survey locations based on both population density and the potential for disease transmission. Building density on OSM base maps provides a valuable measure for estimating population density. Additionally, the structure of buildings served as an indicator of areas at higher risk of disease transmission: where neighborhoods characterized by chaotic and disorganized structures are usually areas of poverty that necessitate a closer examination and prioritization. Conversely, well-organized neighborhoods with neatly aligned buildings often indicate areas of more means that tend to have more resources, such as health facilities, and tend to necessitate less support from humanitarian organizations.&lt;/p&gt;
+
+&lt;p&gt;Empowered by these maps, surveyors in the field are equipped with precise guidance on where to concentrate their efforts. This targeted approach allows for efficient allocation of resources and maximizes the impact of interventions. Each surveyed area is marked with colored dots, with green representing secure water access points, and red or yellow signifying areas with less safe water sources such as shallow wells or boreholes, which are known to potentially carry cholera. This integration of field surveys with the OSM building database significantly streamlines MSF’s operations, simplifying decision-making processes and enhancing overall efficiency.&lt;/p&gt;
+
+&lt;p&gt;The cholera response activities were structured around two pillars, as illustrated by the Lilongwe project:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Treatment of patients in a 120-bed cholera treatment centre – a referral centre for complicated cases (pregnant women, patients with chronic diseases) – and setting up of rehydration and stabilisation points within communities to reduce the spread of the disease.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;WASH activities within communities – identifying and, as and when required, repairing water distribution points, dispensing chlorine, donations for future repairs, etc.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://www.missingmaps.org/img/images/missingmaps-blog_20230601_malawi_cholera_response.jpeg&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt; Mother and her child at a Cholera Treatment Centre. Malawi 2023 © MSF
+&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;These two activities were supported by a health and hygiene promotion component, and a Case Area Targeted Intervention approach at the end of the epidemic.&lt;/p&gt;
+
+&lt;p&gt;MSF also handled one-third of vaccinations in Lilongwe (the capital city has access to 400,000 of the country’s stock of one million doses) to assist the Ministry of Health with its vaccination campaign.&lt;/p&gt;
+
+&lt;p&gt;To date, the epidemic is still ongoing although the number of reported cases has declined significantly across the country. A total of 58,500 cases have been confirmed since the beginning of the epidemic, including 1,750 deaths.&lt;/p&gt;
+
+&lt;h2 id=&quot;cyclone-freddy-causing-floods-and-landslides&quot;&gt;Cyclone Freddy causing floods and landslides&lt;/h2&gt;
+
+&lt;p&gt;In Malawi, the seasonal occurrence of tropical cyclones in February-March has become increasingly apparent, potentially linked to the presence of climate change. The devastating aftermath of Tropical Storm Ana in 2022 prompted &lt;a href=&quot;https://reliefweb.int/map/malawi/malawi-phalombe-district-cyclone-ana-impact-map-31-january-2022&quot;&gt;disaster response mapping&lt;/a&gt;. This year, Tropical Cyclone Freddy made a second landfall in Malawi and Mozambique in March 2023, triggering widespread flooding and devastating landslides.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://www.missingmaps.org/img/images/missingmaps-blog_20230601_malawi_landslides.jpeg&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;The 2nd landfall of Cyclone Freddy caused extensive floods in Phalombe District. Malawi 2023 © MSF
+&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Mapping support for a needs assessment&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;During the Humanitarian Open Mapping Community Working Group meeting in February 2023, Christine Mhone, the representative of OpenStreetMap (OSM) Malawi, presented their OSM community. Jana Bauerová, the Community Engagement Coordinator at MSF, informed in turn about the remote mapping to support the MSF cholera response in Malawi. Subsequent contact and collaboration led to the launch of a HOT Tasking Manager project in March, focused on the Phalombe area, which was of particular interest following the impact of Tropical Cyclone Freddy on March 13, 2023. The project management responsibility for this initiative was assumed by Map Malawi.&lt;/p&gt;
+
+&lt;p&gt;The data gathered through these mapping efforts was used in conducting a needs assessment in Phalombe/Nkulambe, near the border of Malawi and Mozambique, where huge landslides and flash floods heavily damaged entire villages and critical infrastructure. The digitalisation of buildings allowed &lt;a href=&quot;https://www.facebook.com/doctorswithoutborderscanada/?brand_redir=104857837889022&quot;&gt;MSF&lt;/a&gt; to combine the OpenStreetMap (OSM) data with floods and landslide data in maps estimating the impacted zones/buildings (see map cut-out below).&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://www.missingmaps.org/img/images/missingmaps-blog_20230601_malawi_landslides_potential_building_damage.png&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt; Malawi 2023 © MSF
+&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In addition, the team prioritized the verification and collection of field-specific data that couldn’t be extracted solely from satellite imagery. To accomplish this, they hired a motorbike driver familiar with the area and adept at reading maps. This driver transported the team to various locations, allowing them to cross-reference village names obtained from a database with information provided by local residents. Subsequently, GIS specialist Alexis Huart incorporated the verified field data, encompassing village names, residential areas, and road segments, into the OSM database.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://www.missingmaps.org/img/images/missingmaps-blog_20230601_malawi_cyclone_freddy_impact.jpeg&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;The Nkulambe health centre two weeks after the Cyclone hit. Malawi 2023 © MSF
+&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;“When we arrived in Nkulambe a few days after the cyclone there was nothing there. We were the only humanitarian actors on-site,” explained Pascale Antonie, Field Communications Manager in Malawi.&lt;/p&gt;
+
+&lt;p&gt;Due to the destruction of the only public healthcare centre in the area by the cyclone, MSF’s interventions played a crucial role in restoring access to health services for roughly 54,000 people in the immediate vicinity. Following the needs assessment, MSF, in collaboration with the Ministry of Health, established an advanced health post in Nkulambe. Medical staff provided outpatient consultations, administered malaria treatment, and routine vaccination for children, including immunization against diseases such as measles and polio.&lt;/p&gt;
+
+&lt;p&gt;For more severe cases, MSF helped facilitate referrals to larger hospitals, initially through helicopter transport and later via ambulance. Additionally, due to the lack of a maternity ward in the existing functional clinics, MSF set up maternity services in our clinic. Water and sanitation activities were also undertaken to repair damaged water pipes and boreholes, distribute chlorine, set up hand-wash stations and latrines.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://www.missingmaps.org/img/images/missingmaps-blog_20230601_malawi_cyclone_freddy_MSF_WaterRepairs.jpeg&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;Using all means of transport for water repairs. Malawi 2023 © MSF
+&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;OpenStreetMap data proved invaluable in the emergency response in Malawi. Particularly in remote areas where infrastructure mapping was previously nonexistent, the humanitarian needs prompted the involvement of the Malawi OSM community. Thanks to their efforts, along with the valuable validation from dedicated Missing Maps volunteers, the building footprints were updated and enhanced. This collaborative process ensured that the data obtained was not only reliable but also benefited from the meticulous scrutiny of human reviewers, as opposed to relying solely on automated methods. Using OSM as the main source of geographic data allowed MSF to access affected populations and aided their response to the epidemic and to the consequences resulting from the cyclone. Overall, the use of OSM data showcased the power of collective action and reliable data for effective humanitarian interventions.&lt;/p&gt;</content><author><name>Jana Bauerová, Sophie Gélinas-Gagné and Alexis Huart</name></author><category term="blog" /><category term="MSF" /><category term="Medecins Sans Frontieres" /><category term="Health" /><category term="Cholera" /><category term="Malawi" /><category term="OpenStreetMap" /><category term="Cyclone" /><summary type="html">Malawi was experiencing the worst cholera epidemic in 20 years, so MSF sent an emergency team and activated Missing Maps. When a cyclone hit in March, OSM data was also invaluable for assessment.</summary></entry><entry xml:lang="en"><title type="html">Women validators share perspectives</title><link href="/blog/2023/03/08/IWD-2023-interview-validators/" rel="alternate" type="text/html" title="Women validators share perspectives" /><published>2023-03-08T00:00:00-05:00</published><updated>2023-03-08T00:00:00-05:00</updated><id>/blog/2023/03/08/IWD-2023-interview-validators</id><content type="html" xml:base="/blog/2023/03/08/IWD-2023-interview-validators/">&lt;h1 id=&quot;happy-international-womens-day-2023&quot;&gt;Happy International Women’s Day 2023&lt;/h1&gt;
+
+&lt;p&gt;Among the Missing Maps contributors, validators are few and they are instrumental for mappers’ growth, as well as the data quality. Women validators are even rarer. For the International Women’s Day 2023, three women validators from different countries shared their unique perspectives.&lt;/p&gt;
+
+&lt;h2 id=&quot;honey-grace-fombuena-member-and-volunteer-at-osm-philippines-and-gis-associate-with-open-mapping-hub-asia-pacific-philippines&quot;&gt;Honey Grace Fombuena, Member and Volunteer at OSM Philippines and GIS Associate with Open Mapping Hub Asia Pacific, Philippines&lt;/h2&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://www.missingmaps.org/img/images/missingmaps-blog_20230308_IWD_Honey.png&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;Honey Grace Fombuena, member and volunteer at OSM Philippines and GIS Associate with Open Mapping Hub Asia Pacific
+&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Why is validation important for you and the organisation you support?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the main reasons why I map in OSM is to utilize geospatial data to understand and solve real-world problems in our communities. It is also consistent with the long-term goals of the Open Mapping Hub Asia-Pacific, which are to (1) accelerate the use of OSM data and (2) improve its coverage and quality. These two goals are linked because we can only make these OSM data use cases a reality if we first build trust with our users by ensuring that they can download high-quality and large-quantity data from OpenStreetMap. All of this is possible thanks to the validation efforts of OSM validators all over the world.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How does validation square with your professional life?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Validation, just like my professional life, is a path of continuous learning and growth. You may start as a validator thinking that you can make it with all your theoretical knowledge, which is like the confident fresh university graduate that I used to be. Confidence is good, but just like in validation, you will learn later on that we can only improve by applying these theories to solve errors that we encounter along the way. And we will often make mistakes, but that is okay. It is also good to surround yourself with people you can learn from and be accountable with. Sometimes, it can be overwhelming. That is why both in validation and in my professional life, I always take it one task at a time.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What would you say to women who have been mapping for long enough and have not started validating yet?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I would like to motivate them to look at validation as an opportunity to be a mentor to other women mappers in OSM. It is a unique experience that will allow them to connect with other parts of the world and learn new perspectives that will shape them not only as an OSM mapper/validator, but also as a woman taking up space in a gendered geography.&lt;/p&gt;
+
+&lt;h2 id=&quot;sophie-gélinas-gagné-gis-officer-at-the-canadian-red-cross-canada&quot;&gt;Sophie Gélinas-Gagné, GIS Officer at the Canadian Red Cross, Canada&lt;/h2&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://www.missingmaps.org/img/images/missingmaps-blog_20230308_IWD_Sophie.png&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;Sophie Gélinas-Gagné, GIS Officer at the Canadian Red Cross
+&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Why is validation important for you and the organisation you support?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m a GIS Officer at the Canadian Red Cross, where I work with validation in two ways. 
+First, the Canadian Red Cross hosts mapping projects on the Tasking Manager as part of our Missing Maps program. With the help of our volunteers, I validate the work of mappers on those projects. In this case validation is important mostly for data quality; to ensure that the data added to OSM is up to the OSM and the Canadian Red Cross’s standards.&lt;/p&gt;
+
+&lt;p&gt;The second way I work with validation is through a live-review process during mapathon events, where I review the data added to OSM by mapathoners in real-time. While this is not validation per say, I still use the same techniques and tools as validators, without looking at all the data in the task, only what the mapper in the event added. This review process is important to the CRC because it helps participants develop their mapping skills: taking the time to look at the data produced by each mapper and sending feedback makes a real difference in participant’s work and attitude towards their work. Mapathon participants who map very well off the bat, enjoy the positive feedback, and it motivates them to join other events. Those who made a few mistakes here and there, learn and improve their mapping data. It also helps me provide the best event facilitation. In one event for example, while buildings were well mapped, I noticed fictional mapping from many of the participants (mapping elements of the imagery that should not be mapped). It indicates that in the next event with them, rather than spending most of my time on mapping techniques, which they already mastered, I should emphasize the interpretation of satellite imagery and encourage them to share their screen when they are not sure if they should map a feature.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How does validation square with your professional life?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Validation is currently part of my professional life. While I do see myself contributing as a validator voluntarily in the future, it is not an option at the moment; working as a GIS staff and validating on the side is a lot of mapping! However, in the future, if I step away from mapping in my professional life, I’d be happy to contribute voluntarily from time to time.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What do you find helpful for mapping and validation?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I found that following the HOTOSM Slack channel content, such as #validation, is very useful for mapping, validating and mapathon event facilitation. 
+For the Türkiye/Syria Earthquake Responses mapping campaign for example, the comments from the validators on common mistakes they have noticed, or on the proper way to map the densely populated areas have been very useful. All these comments help me guide new mappers on how to contribute good data, and hopefully to reduce the amount of work for the validators.&lt;/p&gt;
+
+&lt;h2 id=&quot;sabine-hiller-hot-global-validator-westport-ireland&quot;&gt;Sabine Hiller, HOT global validator, Westport, Ireland&lt;/h2&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://www.missingmaps.org/img/images/missingmaps-blog_20230308_IWD_Sabine.png&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;Sabine Hiller's screen when validating HOT Tasking Manager tasks in JOSM
+&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;How did you become a validator?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I discovered mapping in 2016 (first through MapSwipe and then through the Haiti hurricane activation). As I’ve always had a keen interest in social and global justice, it was no surprise that Crowd2Map’s fight against gender-based violence appealed to me. I cut my teeth on project 1788, but never thought of becoming a validator. I was quite happy mapping away and, like many women, thought the responsibility and expertise needed for validation would just be beyond me. When I was invited to validate, I initially felt horrified… For a long time, I felt under-qualified and uncertain: Did I misread the imagery? Should I leave feedback on the work of those ‘superior’ to me? But I also  ealized how important validation is, not just for data quality, but for giving constructive feedback and keeping mappers engaged. That kept me going. To be honest, sometimes I do get bored with it, but knowing that there are so few validators and seeing the data being used by organisations on the ground makes it all worthwhile.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How does validation square with your professional life?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The phrasing of this question reveals part of the problem. We think of one kind of person, probably urban, probably young, probably techy, in any case career-focused, as the prime candidate for validation. This assumption that she has a professional life, not only excludes the many women who “merely” hold down a job, but also those who are unemployed, under-employed or post-employment. They may have to square their online volunteering with multiple demands on their time, unpaid care for example, but not necessarily  a professional life. I suspect that a young, career-focused person may contribute for a while, not least because their CV has to feature some sort of volunteering, but they are less likely to commit to the time investment necessary to gain the proficiency needed for validation. There is a huge pool of women (globally about half of women) who are not in paid employment, who may well be very busy, but more flexible timewise and who also yearn to contribute beyond their private sphere. Personally, I currently combine my time behind the laptop with work outside (growing most of our vegetables &amp;amp; fruit, besides planting trees for coppicing and for biodiversity), so depending on the time of year and weather conditions, there can be some gaps in my mapping log!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How do you mentor new mappers?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I developed the Crowd2Map digital badges, which despite their limitations (created in a rush) have been successful not only in eliminating the worst beginner mistakes but also in giving mappers the confidence to continue mapping and enabling mentoring to start at a much higher level. Individualised feedback – as done at C2M – is fantastic, but hardly scalable, especially when dealing with large, complex projects, like the Turkey/Syria activation. The only way around this is, in my eyes, obligatory training. Something along the lines of the C2M badges, but updated and more interactive, would help not only to train new mappers, but also weed out those who are not invested enough to contribute more than one or two dodgy changesets. After all, it’s not the number of contributors that matters, but whether or not they produce usable data.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What can we do to mentor new women validators?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Considering that only 10% of validators are women (based on personal estimates), there is clearly something amiss, which can’t be remedied by recommendations on mentoring. After all, new mappers seem fairly equally represented in terms of gender. Something is happening in between, something that prevents women from fully participating. And as you cannot combat inequality unless you know the extent of it (personal estimates are not enough), the first step should be the gathering of data. In the meantime, I can only share some personal hunches as to the causes.&lt;/p&gt;
+
+&lt;p&gt;First of all, there is digital literacy. Several women friends (all post or part-employed) have asked me about mapping - none of them are techy. There are a lot of very tech-savvy people in HOT and it is easy to feel intimidated. To become a validator, you need to learn JOSM, and a lot of non-techy mappers will baulk at that. The pool of non/post/part-professional women I mentioned will include many who have never seen a line of code in their lives and even though they may be great at reading the imagery, might need extra support to progress technically.&lt;/p&gt;
+
+&lt;p&gt;Secondly, structures and tone matter: There is a need for more transparency within HOTOSM (where and how are decisions made?), and awareness of the tendency to toxic positivity (which can be understood as the belief that no matter how dire or difficult a situation is, people should maintain a positive mindset – note of the editor). Another issue is responses that are obscured by references to unspecified insider information. It may be a habit that people are not even aware of, that they bring with them from their day job, but it can make volunteers reluctant to persevere. We feel fobbed off and will turn quiet as a result - which ultimately means problems won’t be tackled, potential solutions not implemented.&lt;/p&gt;
+
+&lt;p&gt;While there are a lot of incredibly supportive people at HOTOSM, we have to search for causes within both the organisational structure and the general culture. Structures and tone matter when you want to promote the participation of an underrepresented group. And if really only 10% of validators are women, something has to change. I hope that other women, whether they are mappers or future validators, feel inspired to speak up.&lt;/p&gt;</content><author><name>Jana Bauerová</name></author><category term="blog" /><category term="IWD" /><summary type="html">For the International Women's Day 2023, three women validators from different countries shared their unique perspectives</summary></entry><entry xml:lang="en"><title type="html">Using OSM data to map Air Pollution Risk hotspots in Martissant, Port-au-Prince in response to rising Asthma cases</title><link href="/blog/2022/11/28/Using-OSM-Data-to-Map-Air-Pollution-Risk-in-Haiti/" rel="alternate" type="text/html" title="Using OSM data to map Air Pollution Risk hotspots in Martissant, Port-au-Prince in response to rising Asthma cases" /><published>2022-11-28T00:00:00-05:00</published><updated>2022-11-28T00:00:00-05:00</updated><id>/blog/2022/11/28/Using-OSM-Data-to-Map-Air-Pollution-Risk-in-Haiti</id><content type="html" xml:base="/blog/2022/11/28/Using-OSM-Data-to-Map-Air-Pollution-Risk-in-Haiti/">&lt;p&gt;In Martissant, Port-au-Prince, Médecins Sans Frontières / Doctors Without Borders (MSF) has been tasked with responding to high numbers of asthma cases. As there are clear links between exposure to air pollution and both the development of and exacerbation of asthma, it is important for MSF to locate air pollution hotspots. MSF used geographical information to map air pollution risk with help from Missing Maps volunteers who updated valuable OpenStreetMap (OSM) road and building data sources.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221121_haiti-port-au-prince.jpg&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;methodology&quot;&gt;Methodology&lt;/h3&gt;
+&lt;p&gt;To map air pollution risk, open-source data associated with road-induced air pollution (road type, road surface, traffic) and with residential induced air pollution (building density) were extracted from OSM.&lt;/p&gt;
+
+&lt;h3 id=&quot;data-sources&quot;&gt;Data Sources&lt;/h3&gt;
+
+&lt;h4 id=&quot;road-type&quot;&gt;Road Type&lt;/h4&gt;
+
+&lt;p&gt;Road type data was extracted from OSM and categorised from primary and secondary roads (major roads) and tertiary and residential roads (non-major roads). Major roads generally have greater levels of air pollution then non major roads as they tend to have more lanes and a higher number of vehicles using these roads.&lt;/p&gt;
+
+&lt;h4 id=&quot;traffic&quot;&gt;Traffic&lt;/h4&gt;
+
+&lt;p&gt;Traffic data was extracted from Google Traffic and was categorised using colour scheme: dark red (very high), red (high), orange (medium), green (low). High traffic leads to congestion, which causes higher levels of air pollution compared to low traffic. This data was difficult to collect as data was extracted at various times to get an average traffic dataset.&lt;/p&gt;
+
+&lt;h4 id=&quot;road-surface&quot;&gt;Road Surface&lt;/h4&gt;
+
+&lt;p&gt;Road surface data was extracted from OSM and categorised from paved and unpaved. When a road is unpaved particles are lifted from the road leading to greater dust emission than paved roads.&lt;/p&gt;
+
+&lt;h4 id=&quot;distance-from-roads&quot;&gt;Distance from roads&lt;/h4&gt;
+
+&lt;p&gt;The road network was extracted from OSM. Road-induced air pollution has been found to remain consistent within 50 metres of a road. In areas 50-100 metres away, it is halved and quartered in areas 100-200 m away. Buffers were therefore created for these distances.&lt;/p&gt;
+
+&lt;h4 id=&quot;building-density&quot;&gt;Building Density&lt;/h4&gt;
+
+&lt;p&gt;Buildings were extracted from OSM and then used to create a building density layer. This was done by counting the number of buildings within a 10-metre grid. Building density is a proxy to residential fuel-burning (mainly from heating and cooking).&lt;/p&gt;
+
+&lt;h3 id=&quot;merging-data&quot;&gt;Merging data&lt;/h3&gt;
+&lt;p&gt;To give an overall picture of air pollution risk, it was necessary to merge all the data sources. The road-induced air pollution dataset was created first. This combined traffic, road type and surface. Weights were given to individual parameters and were based on the level of influence on air pollution.&lt;br /&gt;
+Higher weights were given to attributes which have a high influence on air pollution, such as major roads, high traffic, and unpaved roads. Once weights were added to each dataset these layers were merged to create a road-induced air pollution layer. 
+This new layer was then extended to each individual buffer zone using the euclidean allocation tool (ArcGIS Pro tool). These extended layers were then multiplied by 0.5 (50 - 100 m buffer) and 0.25 (100- 200 m buffer). Furthermore, if major roads crossed, these layers were added together. 
+The residential-induced air pollution layer was created simply by creating a building density layer. Both road and residential induced air pollution layers were reclassified equally between 0 and 1 and then added together.&lt;br /&gt;
+The end products are shown below, the first map shows air pollution risk in general, and the second map shows the air pollution risk of individual buildings.&lt;/p&gt;
+
+&lt;h3 id=&quot;maps&quot;&gt;Maps&lt;/h3&gt;
+&lt;figure&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221121_air-pollution-risk-map-haiti.jpg&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;Map including both datasets (road induced and building induced) and showing air pollution risk, in Martissant, Port-au-Prince.&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221121_air-pollution-risk-building-map-haiti.jpg&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;Map showing air pollution risk of individual buildings and schools in Martissant, Port-au-Prince.&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;outcome&quot;&gt;Outcome&lt;/h3&gt;
+&lt;p&gt;The maps indicate areas of relatively higher air pollution risk proximal to roads as well as areas of high building density also likely to have higher pollution exposure risk. Identifying residential buildings and schools in high-risk areas, can be useful for future public health actions.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-should-msf-be-interested-in-air-pollution&quot;&gt;Why should MSF be interested in air pollution?&lt;/h3&gt;
+&lt;p&gt;Air pollution in urban areas in low-income countries, and those affected by humanitarian emergencies, is an increasing issue and a large and increasing risk factor for morbidity. This is due to many non-communicable diseases such as asthma having links to air pollution risk.  Humanitarian response is increasingly taking place in urban settings. Non-communicable diseases (including asthma) are an increasing feature of the workload of humanitarian healthcare providers. As a public health issue, this is worth considering where MSF teams are providing healthcare to those affected by exposure to air pollution.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-can-be-done-about-air-pollution&quot;&gt;What can be done about air pollution?&lt;/h3&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221121_air-pollution-actions-haiti-EN.png&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The geographical data to map the risk of air pollution can help MSF teams understand which communities are the most affected by air pollution and plan their activities with an additional layer of information. Understanding exposure disparities can help address them and for the future, determining the hotspots can help teams target interventions for health conditions related to air pollution.&lt;/p&gt;</content><author><name>Laurie Boobier</name></author><category term="blog" /><category term="MSF" /><category term="OpenStreetMap" /><summary type="html">MSF used geographical information to map air pollution risk with help from Missing Maps volunteers who updated valuable OpenStreetMap (OSM) road and building data sources.</summary></entry><entry xml:lang="fr"><title type="html">Utilisation des données OSM pour cartographier les hotspots de risque de pollution atmosphérique à Martissant, Port-au-Prince, en réponse à l’augmentation des cas d’asthme</title><link href="/blog/2022/11/28/Utilisation-des-donn%C3%A9e-OSM-pour-cartographier-les-hotspots-de-risque-de-pollution-atmosph%C3%A9rique-%C3%A0-Haiti/" rel="alternate" type="text/html" title="Utilisation des données OSM pour cartographier les hotspots de risque de pollution atmosphérique à Martissant, Port-au-Prince, en réponse à l'augmentation des cas d'asthme" /><published>2022-11-28T00:00:00-05:00</published><updated>2022-11-28T00:00:00-05:00</updated><id>/blog/2022/11/28/Utilisation-des-donn%C3%A9e-OSM-pour-cartographier-les-hotspots-de-risque-de-pollution-atmosph%C3%A9rique-%C3%A0-Haiti</id><content type="html" xml:base="/blog/2022/11/28/Utilisation-des-donn%C3%A9e-OSM-pour-cartographier-les-hotspots-de-risque-de-pollution-atmosph%C3%A9rique-%C3%A0-Haiti/">&lt;p&gt;À Martissant, Port-au-Prince, Médecins Sans Frontières (MSF) a été chargé de répondre à un nombre élevé de cas d’asthme. Puisqu’il existe des liens clairs entre l’exposition à la pollution atmosphérique et le développement et l’exacerbation de l’asthme, il est important pour MSF de localiser les hotspot de la pollution de l’air. MSF a utilisé des informations géographiques pour cartographier les risques de pollution de l’air avec l’aide des bénévoles de Missing Maps qui ont mis à jour de précieuses sources de données routières et de bâtiments OpenStreetMap (OSM).&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221121_haiti-port-au-prince.jpg&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;methodologie&quot;&gt;Methodologie&lt;/h3&gt;
+&lt;p&gt;Pour cartographier le risque de pollution atmosphérique, des données open source associées à la pollution atmosphérique d’origine routière (type de route, revêtement routier, trafic) et à la pollution atmosphérique d’origine résidentielle (densité des bâtiments) ont été extraites.&lt;/p&gt;
+
+&lt;h3 id=&quot;sources-de-données&quot;&gt;Sources de données&lt;/h3&gt;
+&lt;p&gt;Type de Routes
+Les données de type de route ont été extraites de OSM et catégorisées à partir des routes primaires et secondaires (routes principales) et des routes tertiaires et résidentielles (routes non principales). Les routes principales ont généralement des niveaux de pollution de l’air plus élevés que les routes non principales, car elles ont généralement plus de voies et sont empruntés par un  plus grand nombre de véhicules.&lt;/p&gt;
+
+&lt;h4 id=&quot;trafic&quot;&gt;Trafic&lt;/h4&gt;
+&lt;p&gt;Les données sur le trafic ont été extraites du Google Traffic et ont été classées en utilisant une palette de couleurs: rouge foncé (très élevé), rouge (élevé), orange (moyen), vert (faible). Un trafic élevé entraîne des embouteillages, ce qui entraîne des niveaux de pollution de l’air plus élevés qu’un faible trafic. Ces données étaient difficiles à collecter car elles étaient extraites à différents moments de la journée pour obtenir un ensemble de données de trafic moyen.&lt;/p&gt;
+
+&lt;h4 id=&quot;la-surface-de-la-route&quot;&gt;La surface de la route&lt;/h4&gt;
+&lt;p&gt;Les données de surface de route ont été extraites de OSM et classées entre pavée et non pavée. Lorsqu’une route n’est pas pavée, des particules sont soulevées de la route, ce qui entraîne une émission de poussière plus importante que les routes pavées.&lt;/p&gt;
+
+&lt;h4 id=&quot;distance-depuis-les-routes&quot;&gt;Distance depuis les routes&lt;/h4&gt;
+&lt;p&gt;On a constaté que la pollution de l’air induite par la route demeurait constante à moins de 50 mètres d’une route. Dans les zones situées à 50-100 mètres, il est divisé en deux et subdivisé en quartiers dans les zones situées à 100-200 mètres. Des tampons ont donc été créés pour ces distances.&lt;/p&gt;
+
+&lt;h4 id=&quot;densité-des-bâtiments&quot;&gt;Densité des bâtiments&lt;/h4&gt;
+&lt;p&gt;Les bâtiments ont été extraits d’OSM puis utilisés pour créer une couche de densité de bâtiment. Cela a été fait en comptant le nombre de bâtiments dans une grille de 10 mètres. La densité des bâtiments est un indicateur de l’utilisation résidentielle de combustibles (provenant du chauffage et du refroidissement).&lt;/p&gt;
+
+&lt;h3 id=&quot;fusion-de-données&quot;&gt;Fusion de données&lt;/h3&gt;
+&lt;p&gt;Pour donner une image globale du risque de pollution de l’air, il a fallu fusionner toutes les sources de données. Un ensemble de données pour la pollution atmosphérique associée aux routes a d’abord été créé. de données induites par la route. Celui-ci combine le trafic, le type de route et la surface. Des pondérations ont été attribuées à des paramètres individuels et ont été basées sur le niveau d’influence sur la pollution atmosphérique.&lt;/p&gt;
+
+&lt;p&gt;Des poids plus élevés ont été attribués aux attributs qui ont une forte influence sur la pollution atmosphérique, tels que les routes principales, le trafic intense et les routes non pavées. Une fois les poids ajoutés à chaque ensemble de données, ces couches ont été fusionnées pour créer une couche de pollution atmosphérique induite par la route.&lt;/p&gt;
+
+&lt;p&gt;Cette nouvelle couche a ensuite été étendue à chaque zone tampon individuel à l’aide de l’outil d’allocation euclidienne (outil ArcGIS Pro). Ces couches étendues ont ensuite été multipliées par 0,5 (tampon de 50 à 100 m) et 0,25 (tampon de 100 à 200 m).&lt;/p&gt;
+
+&lt;p&gt;De plus, si les routes principales traversaient, ces couches étaient additionnées. La couche de pollution de l’air induite par les habitations a été créée simplement en créant une couche de densité de bâtiment. La couche de pollution atmosphérique induite par les routes et la couche résidentielle ont été reclassées également entre 0 et 1, puis additionnées.&lt;/p&gt;
+
+&lt;p&gt;Les produits finaux sont présentés ci-dessous, la première carte montre la pollution de l’air en général et la deuxième carte montre le risque de pollution de l’air des bâtiments individuels.&lt;/p&gt;
+
+&lt;h3 id=&quot;cartes&quot;&gt;Cartes&lt;/h3&gt;
+&lt;figure&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221121_air-pollution-risk-map-haiti.jpg&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;Carte des données (induites par les routes et induites par les bâtiments) et de la pollution de l'air à Martissant, Port-au-Prince.&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221121_air-pollution-risk-building-map-haiti.jpg&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;Carte montrant le risque de pollution de l'air des bâtiments individuels et des écoles à Martissant, Port-au-Prince.&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;résultat&quot;&gt;Résultat&lt;/h3&gt;
+&lt;p&gt;Les cartes indiquent des zones à risque de pollution de l’air relativement plus élevé à proximité des routes ainsi que des zones à forte densité de bâtiments également susceptibles d’avoir un risque d’exposition à la pollution plus élevé. L’identification des bâtiments résidentiels et des écoles dans les zones à haut risque peut être utile pour les futures actions de santé publique.&lt;/p&gt;
+
+&lt;h3 id=&quot;pourquoi-msf-devrait-elle-sintéresser-à-la-pollution-de-lair&quot;&gt;Pourquoi MSF devrait-elle s’intéresser à la pollution de l’air?&lt;/h3&gt;
+&lt;p&gt;La pollution de l’air dans les zones urbaines des pays à faible revenu et celles touchées par les urgences humanitaires est un problème croissant et un facteur de risque important et augmentant les taux de mortalité. Cela est dû au fait que de nombreuses maladies non transmissibles telles que l’asthme ont des liens avec le risque de pollution de l’air.  Les interventions humanitaires se font de plus en plus en milieu urbain. Les maladies non transmissibles (y compris l’asthme) sont une caractéristique augmentant la charge de travail des prestataires de soins de santé humanitaires. En tant que problème de santé publique, cela vaut la peine d’être pris en compte lorsque les équipes de MSF fournissent des soins de santé aux personnes touchées par l’exposition à la pollution de l’air.&lt;/p&gt;
+
+&lt;h3 id=&quot;que-peut-on-faire-contre-la-pollution-de-lair&quot;&gt;Que peut-on faire contre la pollution de l’air?&lt;/h3&gt;
+&lt;figure&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221121_air-pollution-actions-haiti-FR.png&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Les données géographiques pour cartographier le risque de pollution de l’air peuvent aider les équipes MSF à comprendre quelles communautés sont les plus touchées par la pollution de l’air et à planifier leurs activités avec une couche supplémentaire d’informations. Comprendre les disparités d’exposition peut aider à y remédier et pour l’avenir, déterminer les hotspots peut aider les équipes à cibler les interventions pour les problèmes de santé liés à la pollution atmosphérique.&lt;/p&gt;</content><author><name>Laurie Boobier</name></author><category term="blog" /><category term="MSF" /><category term="OpenStreetMap" /><summary type="html">MSF a utilisé des informations géographiques pour cartographier les risques de pollution de l’air avec l'aide des bénévoles de Missing Maps qui ont mis à jour de précieuses sources de données routières et de bâtiments OpenStreetMap (OSM).</summary></entry><entry xml:lang="fr"><title type="html">Cartographier l’occupation du sol avec OSM Cameroun</title><link href="/blog/2022/10/14/cartographier-l-occupation-du-sol-avec-OSM-Cameroun/" rel="alternate" type="text/html" title="Cartographier l’occupation du sol avec OSM Cameroun" /><published>2022-10-14T00:00:00-04:00</published><updated>2022-10-14T00:00:00-04:00</updated><id>/blog/2022/10/14/cartographier-l-occupation-du-sol-avec-OSM-Cameroun</id><content type="html" xml:base="/blog/2022/10/14/cartographier-l-occupation-du-sol-avec-OSM-Cameroun/">&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;Le Cameroun est souvent appelé « &lt;em&gt;l’Afrique en miniature&lt;/em&gt; », en raison de la diversité des paysages du pays et du fait que la plupart des paysages géographiques qui ornent le continent africain se retrouvent presque tous au Cameroun. Le pays est un cas très intéressant pour la cartographie de l’occupation du sol et qui d’autre est mieux placé que sa communauté OSM pour le faire?&lt;/p&gt;
+
+&lt;figure&gt; 
+&lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_teampic2.png&quot; /&gt; &lt;p class=&quot;caption&quot;&gt;&lt;/p&gt; 
+&lt;/figure&gt;
+
+&lt;p&gt;L’équipe d’OpenStreetMap Cameroun a travaillé dur ces dernières années, améliorant la carte de leur pays par la collecte de données et la collaboration avec des partenaires locaux, notamment le &lt;a href=&quot;http://eurekageo.space/&quot;&gt;Centre de formation professionnelle Eurêka Geo&lt;/a&gt; qui a appuyé l’équipe par la formation sur la numérisation sur OSM. Sous la supervision de &lt;a href=&quot;https://www.openstreetmap.org/user/Steveeen&quot;&gt;Christin Steve Nwagoum Keyamfe&lt;/a&gt;, les membres d’OSM Cameroun, &lt;a href=&quot;https://www.openstreetmap.org/user/NIKOYO%20EMOUGOU%20Yves%20Emmanuel&quot;&gt;Yves Emmanuel Nikoyo Emougou&lt;/a&gt;, &lt;a href=&quot;https://www.openstreetmap.org/user/victoire%20Tsajio&quot;&gt;Victoire Tsajio&lt;/a&gt;, &lt;a href=&quot;https://www.openstreetmap.org/user/Sylvie%20GALAGO&quot;&gt;Sylvie Galago&lt;/a&gt;, &lt;a href=&quot;https://www.openstreetmap.org/user/ongalisma&quot;&gt;Ismael Ebenezer Ongali Tsala&lt;/a&gt;, &lt;a href=&quot;https://www.openstreetmap.org/user/Le%20Mago&quot;&gt;Ian Jocelyn Kemme Kemme&lt;/a&gt;, &lt;a href=&quot;https://www.openstreetmap.org/user/Guy%20Berlin%20Boutchouang&quot;&gt;Guy Berlin Boutchouang&lt;/a&gt; ont réalisé la cartographie de l’occupation du sol du Cameroun. En 6 mois, de décembre 2019 à mai 2020, leur travail bénévole effectué au quotidien a porté ses fruits. Voici un retour sur leur approche, leurs méthodes et les défis qu’ils ont surmontés.&lt;/p&gt;
+
+&lt;h4 id=&quot;choix-de-léditeur-et-de-limagerie&quot;&gt;Choix de l’éditeur et de l’imagerie&lt;/h4&gt;
+&lt;p&gt;La cartographie a été réalisée à l’aide de l’éditeur &lt;a href=&quot;http://josm.openstreetmap.de/&quot;&gt;Java OpenstreetMap JOSM&lt;/a&gt;, qui est un éditeur OSM disposant de fonctionnalités avancées pour la cartographie numérique des caractéristiques topographiques (rivières, routes, bâtiments) et de l’occupation du sol contrairement à d’autres éditeurs comme ID Editor. Les versions 15322 et 15238 étaient les versions les plus utilisées de l’éditeur tandis que le choix de l’imagerie dépendait de la disponibilité du fournisseur. Par exemple, Maxar Premium, qui était l’imagerie de choix pour la mise en œuvre de ce projet, n’était pas disponible pendant une bonne période de la durée du projet. Ainsi, Mapbox satellite et Esri Mondial sont les imageries qui ont été utilisées pour résoudre ce problème d’indisponibilité.&lt;/p&gt;
+
+&lt;h4 id=&quot;loccupation-et-lusage-du-sol&quot;&gt;L’occupation et l’usage du sol&lt;/h4&gt;
+&lt;p&gt;L’un des nombreux aspects importants de la cartographie est la représentation de l’occupation du sol, qui aide les gens à comprendre comment les terres sont utilisées et ce qui y pousse. Ces informations sont essentielles pour la planification des projets de développement, les réponses aux catastrophes et de nombreuses autres fins. Comme son nom l’indique, l’usage du sol décrit à quoi sert une superficie de terre, comme une zone résidentielle, les activités commerciales, l’agriculture, l’éducation, les loisirs, etc. Il est lié à l’occupation du sol, qui décrit la chose physique et la surface qui recouvre la terre. Les deux idées sont complémentaires et peuvent parfois être utilisées en tandem. Dans le cas du travail d’OSM Cameroun, c’est principalement l’occupation du sol qui fut cartographiée. 
+Afin d’améliorer la cartographie de l’occupation et l’usage du sol au Cameroun et surtout la volonté de produire des cartes au 1/20000 à jour, OSM Cameroun s’est efforcé de collecter de meilleures données et d’enrichir la carte OSM qui montre les régularités d’occupation du sol à travers le pays. La collaboration entre leurs membres et leur travail acharné ont permis de réaliser des cartes d’occupation du sol plus précises et à jour. Leur équipe indépendante et interfonctionnelle a créé des données significatives, et nous pouvons en apprendre beaucoup grâce à leurs connaissances et à leur processus.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FfCFtaNTOaU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;collecte-de-données-et-collaboration-renforcée&quot;&gt;Collecte de données et collaboration renforcée&lt;/h3&gt;
+&lt;p&gt;La compréhension générale est que, pour cartographier l’occupation et l’usage du sol dans OSM, il est très important d’avoir une connaissance locale de la zone et d’éviter les conflits de cartographie. En effet, en connaissant l’environnement où l’on cartographie, il est plus facile d’interpréter l’imagerie aérienne. Et grâce à la collaboration et à une communication ouverte, les risques de conflits sont évités.&lt;/p&gt;
+
+&lt;h4 id=&quot;limportance-déviter-les-conflits&quot;&gt;L’importance d’éviter les conflits&lt;/h4&gt;
+&lt;p&gt;Que la tâche soit configurée sur le &lt;a href=&quot;https://tasks.hotosm.org/&quot;&gt;HOT Tasking Manager&lt;/a&gt; ou que les limites et la grille soient définies dans &lt;a href=&quot;https://www.qgis.org/en/site/&quot;&gt;QGIS&lt;/a&gt;, il est préférable que les mappers ne travaillent pas sur des carrés côte à côte. Par exemple, la stratégie d’OSM Cameroun était de laisser un mapper commencer au nord et l’autre au sud. Il est conseillé d’utiliser une grille car elle facilite la coordination du travail entre les différents mappers. Éviter les conflits dans la cartographie a permis à l’équipe d’OSM Cameroun d’être plus efficace dans leur travail et d’éviter que les membres perdent du temps et de l’énergie sur une seule tâche.&lt;/p&gt;
+
+&lt;p&gt;Voici la méthode utilisée par OSM Cameroun avec des exemples: Tout d’abord, ils ont choisi l’occupation du sol qu’ils voulaient cartographier; les champs agricoles par exemple. En traçant la zone, il faut éviter que l’occupation du sol  soit connectée aux nœuds des routes. Les routes peuvent être traversées, mais l’occupation du sol ne doit pas se connecter aux routes. Après que la zone est tracée, les attributs peuvent être ajoutés: par exemple, landuse=farmland.&lt;/p&gt;
+
+&lt;figure&gt; 
+&lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp1_presenceofroads.png&quot; /&gt; &lt;p class=&quot;caption&quot;&gt;Bonnes pratiques de cartographie de l'usage du sol en présence de routes&lt;/p&gt; 
+&lt;/figure&gt;
+
+&lt;p&gt;Une fois que la première occupation du sol est tracée, le dessin de la seconde peut suivre. Dans l’exemple de l’équipe d’OSM Cameroun, c’était une zone résidentielle. Il est important d’assurer que les nœuds des zones résidentielles soient connectés à l’occupation du sol  à côté de la zone agricole qui a été dessinée auparavant. Les premiers deux nœuds entre les occupations du sol différentes doivent être joints, puis en appuyant sur F, la ligne existante de la zone résidentielle doit être suivie. L’utilisation du &lt;a href=&quot;https://github.com/MissingMaps/josm_styles/archive/master.zip&quot;&gt;style de peinture/carte de MissingMaps/YouthMappers&lt;/a&gt; permet d’afficher des triangles d’avertissement quand ils sont interconnectés. Pour éviter ces triangles, il est important de créer des multipolygons en sélectionnant la couche et en appuyant sur CTRL + B.&lt;/p&gt;
+
+&lt;p&gt;Yves Emmanuel Nikyo Emougou explique: « &lt;em&gt;Si l’occupation du sol est très vaste, vous pouvez aussi cartographier plusieurs polygones que vous fusionnerez après. Si les polygones sont petits et portent les mêmes attributs, ils peuvent être joints plus tard. Pour cela, sélectionnez les deux polygones et appuyez SHIFT+J. Après la confirmation, sélectionnez ce qu’il faut garder et sélectionnez “appliquer”. Faire un grand polygone depuis le début est aussi correct. Un point important à prendre en compte est la limite des nœuds qu’on peut envoyer. Lors de l’envoie des données sur OpenStreetMap, s’il y a plus de 2000 nœuds, un message d’erreur sera affiché et il ne sera pas possible d’envoyer les données.&lt;/em&gt; »&lt;/p&gt;
+
+&lt;p&gt;Mais que se passe-t-il si une zone résidentielle se trouve à l’intérieur des champs  agricoles? « &lt;em&gt;Puisque ce n’est pas une bonne pratique que les différentes occupations du sol se chevauchent, elles devraient être cartographiées en tant que relation. Pour cela, la meilleure pratique à adopter est de cartographier d’abord la zone des champs agricoles, puis la zone résidentielle à l’intérieur. Ensuite, sélectionnez les deux zones et appuyez CTRL + B pour créer un multipolygone. Notez que, le polygone extérieur s’appelle outer et le polygone intérieur s’appelle inner.&lt;/em&gt; »&lt;/p&gt;
+
+&lt;figure&gt; 
+&lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp2_lackofrelations.png&quot; /&gt; &lt;p class=&quot;caption&quot;&gt;Illustration du manque de relation dans la cartographie de l'usage et de l'occupation du sol sur OSM&lt;/p&gt; 
+&lt;/figure&gt;
+
+&lt;figure&gt; 
+&lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp3_usingrelations.png&quot; /&gt; &lt;p class=&quot;caption&quot;&gt;Utilisation d’une relation dans la cartographie de l'usage et de l'occupation du sol sur OSM&lt;/p&gt; 
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;limportance-des-connaissances-locales&quot;&gt;L’importance des connaissances locales&lt;/h4&gt;
+&lt;p&gt;Bien que les meilleures pratiques pour cartographier l’usage et l’occupation du sol partagent un terrain d’entente (sans jeu de mots), elles devraient être adaptées au paysage de la région. Trouver une compréhension commune des classes des divers paysages et écorégions peut constituer un défi en matière de cartographie et de classification de l’usage et l’occupation du sol. OSM, en tant que projet mondial, utilise des &lt;em&gt;tags&lt;/em&gt; pour cartographier l’usage et l’occupation du sol dans le monde entier. Par conséquent, il est essentiel de spécifier comment ces &lt;em&gt;tags&lt;/em&gt; doivent être utilisés pour la cartographie de l’usage  et l’occupation du sol dans une écorégion spécifique. Les types de forêts en Belgique et les types de forêts au Cameroun ne sont pas les mêmes. De plus, sur l’imagerie aérienne, il peut être difficile de comprendre la spécificité du terrain. Alors, comment devraient-ils être classés? De bonnes instructions avec des images et des connaissances locales sont essentielles pour comprendre quel type d’occupation du sol nous cartographions. L’importance des connaissances locales est primordiale pour collecter des données précises et les classer correctement.&lt;/p&gt;
+
+&lt;p&gt;L’occupation et l’usage du sol est maintenant cartographiée avec une variété de &lt;em&gt;tags&lt;/em&gt; dans OpenStreetMap car elles ont évolué au fil du temps. Cependant, un défi auquel l’équipe a été confrontée était l’absence de &lt;em&gt;tags&lt;/em&gt; adaptées aux classes de l’écosystème camerounais sur OSM. En effet, toutes les classes d’occupation du sol  existantes en Afrique ne sont pas sur OSM. Le Cameroun est divisé en quatre régions géographiques: le nord, le centre, le sud et l’ouest. La plaine de savane qui occupe le centre du pays descend en altitude à l’approche du bassin du lac Tchad au nord de la rivière Bénoué. Bien qu’environ 20% de la surface terrestre soit recouverte de savane, elle reste absente en tant que classification sur OSM et pour s’adapter, elle est cartographiée comme &lt;a href=&quot;https://wiki.openstreetmap.org/wiki/FR:Tag:landuse%3Dmeadow&quot;&gt;prairie&lt;/a&gt; par l’équipe d’OSM Cameroun.&lt;/p&gt;
+
+&lt;p&gt;Le fait de ne pas avoir de connaissances locales peut entraver la collecte de données précises. À partir d’images aériennes, on pourrait commettre l’erreur de cartographier certains endroits comme des zones résidentielles alors qu’en réalité, ce sont en fait des bâtiments pour stocker des matériaux pour les activités agricoles. Un autre exemple concerne les champs agricoles. Les champs agricoles avec leurs cultures, pérennes ou annuelles, sont en constante évolution. D’une année à l’autre, les affectations des champs agricoles peuvent changer ou rester les mêmes pendant plus d’une décennie. De plus, il peut y avoir confusion avec les forêts. Une ferme d’huile de palme, de café ou de cacao peut ressembler à une forêt sur des images aériennes. Seules les connaissances locales peuvent élucider et prendre en considération l’organisation des objets que vous voyez. Les objets naturels tels que les forêts sont normalement désorganisés, mais dans certains cas, vous pouvez distinguer les champs agricoles des forêts sur la base d’images aériennes. Comme par exemple les palmeraies de la figure, qui sont mieux organisées et caractérisées par la présence de routes d’accès pour faciliter le transport des cultures.&lt;/p&gt;
+
+&lt;figure&gt; 
+&lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp4_landcoverorganisation.png&quot; /&gt; &lt;p class=&quot;caption&quot;&gt;Illustration de l'organisation d'une forêt et d'une palmeraie&lt;/p&gt; 
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;quelle-est-la-suite&quot;&gt;Quelle est la suite?&lt;/h3&gt;
+&lt;p&gt;OSM Cameroun s’engage à continuer d’améliorer sa cartographie de l’usage et de l’occupation du sol afin de fournir de meilleures informations et leurs efforts ne s’arrêtent pas là car l’équipe effectue actuellement un contrôle de qualité. OSM pourrait être utilisé plus largement dans les applications opérationnelles et la recherche environnementale, telles que la surveillance des changements d’occupation des terres en relation avec la végétation et  la modélisation du climat. Les réalisations de &lt;a href=&quot;https://www.openstreetmap.org/user/Steveeen&quot;&gt;Christin Steve Nwagoum Keyamfe&lt;/a&gt;, &lt;a href=&quot;https://www.openstreetmap.org/user/NIKOYO%20EMOUGOU%20Yves%20Emmanuel&quot;&gt;Yves Emmanuel Nikoyo Emougou&lt;/a&gt;, &lt;a href=&quot;https://www.openstreetmap.org/user/victoire%20Tsajio&quot;&gt;Victoire Tsajio&lt;/a&gt;, &lt;a href=&quot;https://www.openstreetmap.org/user/Sylvie%20GALAGO&quot;&gt;Sylvie Galago&lt;/a&gt; &lt;a href=&quot;https://www.openstreetmap.org/user/ongalisma&quot;&gt;Ismael Ebenezer Ongali Tsala&lt;/a&gt;, &lt;a href=&quot;https://www.openstreetmap.org/user/Le%20Mago&quot;&gt;Ian Jocelyn Kemme Kemme&lt;/a&gt; et &lt;a href=&quot;https://www.openstreetmap.org/user/Guy%20Berlin%20Boutchouang&quot;&gt;Guy Berlin Boutchouang&lt;/a&gt; sont d’excellents exemples des capacités et des activités des communautés OSM à travers le monde, et plus encore de la façon dont leurs contributions aux données géospatiales ouvertes peuvent être utilisées pour divers types de prise de décision.&lt;/p&gt;
+
+&lt;h4 id=&quot;jetez-un-œil-à-leurs-réseaux-sociaux&quot;&gt;Jetez un œil à leurs réseaux sociaux!&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/OpenStreetMap-Cameroun-799439470157013/&quot;&gt;Facebook&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/OSMCameroun&quot;&gt;Twitter&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;curieux-den-apprendre-plus-sur-la-cartographie-de-lusage-et-de-loccupation-du-sol-jetez-un-oeil-ici&quot;&gt;Curieux d’en apprendre plus sur la cartographie de l’usage et de l’occupation du sol? Jetez un oeil ici:&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://osmlanduse.org/&quot;&gt;OSM Landuse Landcover&lt;/a&gt;, une application WebGIS pour explorer la base de données OpenStreetMap spécifiquement en termes d’informations sur l’usage et l’occupation du sol.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://wiki.openstreetmap.org/wiki/FR:Land_use&quot;&gt;Page wiki sur l’usage du sol&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.missingmaps.org/assets/downloads/JOSM_Advanced_Mapping_FR.pdf&quot;&gt;Cartographie avancée avec JOSM&lt;/a&gt;, guide de Missing Maps pour apprendre tout sur la cartographie avancée de JOSM&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/pulse/openstreetmap-comme-support-%C3%A0-la-production-de-2673-coupures-sob/&quot;&gt;OpenStreetMap comme support à la production de 2673 coupures de cartes topographiques nationales à l’échelle du 1/25 000&lt;/a&gt;, de &lt;a href=&quot;https://www.hotosm.org/people/willy-franck-sob/&quot;&gt;Willy Franck Sob&lt;/a&gt;, 2021&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Vous pouvez aussi améliorer la cartographie de l’occupation du sol dans OSM et participer aux efforts de cartographie de l’occupation du sol pour les organisations humanitaires. La section &lt;a href=&quot;https://tasks.hotosm.org/explore/filters?types=LAND_USE&quot;&gt;« explorer les projets » du Tasking Manager de HOT&lt;/a&gt; permet de filtrer les projets par types, et on peut toujours choisir l’option « occupation du sol » pour trouver des nouvelles tâches!&lt;/p&gt;
+
+&lt;h4 id=&quot;médecins-sans-frontières-a-mis-en-place-un-projet-de-cartographie-de-lusage-du-sol-de-gummi-au-nigéria-si-vous-souhaitez-contribuer&quot;&gt;Médecins Sans Frontières a mis en place un &lt;a href=&quot;https://tasks.hotosm.org/projects/13625/&quot;&gt;projet de cartographie de l’usage du sol de Gummi, au Nigéria&lt;/a&gt; si vous souhaitez contribuer!&lt;/h4&gt;</content><author><name>Yves Emmanuel Nikoyo Emougou, Jorieke Vyncke, Lale Pirlot</name></author><category term="blog" /><category term="OSM" /><category term="partners" /><summary type="html">Afin d'améliorer la cartographie de l’occupation et l’usage du sol au Cameroun, OSM Cameroun s'est efforcé de collecter de meilleures données et d'enrichir la carte OSM qui montre les régularités d’occupation du sol à travers le pays.</summary></entry><entry xml:lang="en"><title type="html">Mapping landcover with OSM Cameroon</title><link href="/blog/2022/10/14/mapping-landcover-with-OSM-Cameroon/" rel="alternate" type="text/html" title="Mapping landcover with OSM Cameroon" /><published>2022-10-14T00:00:00-04:00</published><updated>2022-10-14T00:00:00-04:00</updated><id>/blog/2022/10/14/mapping-landcover-with-OSM-Cameroon</id><content type="html" xml:base="/blog/2022/10/14/mapping-landcover-with-OSM-Cameroon/">&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;Cameroon is often called “&lt;em&gt;Africa in miniature&lt;/em&gt;” because of the country’s diversity in landscapes and how the various geographic landscapes adorning the African continent can almost all be found in Cameroon. The country is such an interesting case for mapping landcover and who else is better to do so than its OSM Community?&lt;/p&gt;
+
+&lt;figure&gt; 
+&lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_teampic2.png&quot; /&gt; &lt;p class=&quot;caption&quot;&gt;&lt;/p&gt; 
+&lt;/figure&gt;
+
+&lt;p&gt;The OpenStreetMap Cameroon team has been hard at work over the past years, improving the map of their country through data collection and the collaboration with local partners, notably the vocational training &lt;a href=&quot;http://eurekageo.space/&quot;&gt;Centre Eurêka Geo&lt;/a&gt;, which supported the team with training on OSM digitization. Under &lt;a href=&quot;https://www.openstreetmap.org/user/Steveeen&quot;&gt;Christin Steve Nwagoum Keyamfe&lt;/a&gt;’s supervision, &lt;a href=&quot;https://www.openstreetmap.org/user/NIKOYO%20EMOUGOU%20Yves%20Emmanuel&quot;&gt;Yves Emmanuel Nikoyo Emougou&lt;/a&gt;, &lt;a href=&quot;https://www.openstreetmap.org/user/victoire%20Tsajio&quot;&gt;Victoire Tsajio&lt;/a&gt;, &lt;a href=&quot;https://www.openstreetmap.org/user/Sylvie%20GALAGO&quot;&gt;Sylvie Galago&lt;/a&gt;, &lt;a href=&quot;https://www.openstreetmap.org/user/ongalisma&quot;&gt;Ismael Ebenezer Ongali Tsala&lt;/a&gt;,  &lt;a href=&quot;https://www.openstreetmap.org/user/Le%20Mago&quot;&gt;Ian Jocelyn Kemme Kemme&lt;/a&gt;, &lt;a href=&quot;https://www.openstreetmap.org/user/Guy%20Berlin%20Boutchouang&quot;&gt;Guy Berlin Boutchouang&lt;/a&gt;  carried out the mapping of landcover for the whole country of Cameroon. Within 6 months, from December 2019 to May 2020, their daily volunteer work yielded fruits. Here is a look back on how they did it, their methods and the challenges they overcame.&lt;/p&gt;
+&lt;h4 id=&quot;editor-and-imagery-choices&quot;&gt;Editor and Imagery choices&lt;/h4&gt;
+&lt;p&gt;The mapping was done using the &lt;a href=&quot;https://josm.openstreetmap.de/&quot;&gt;JavaOpenstreetMap (JOSM) editor&lt;/a&gt; which is an OSM editor that has advanced features for digital mapping of topographic features (rivers, roads, buildings) and landcover, unlike other editors like ID Editor. Versions 15322 and 15238 were the most widely used versions of the editor, while the choice of imagery depended on the availability of the vendor. For instance, Maxar Premium, which was the selected imagery for the implementation of this project, was unavailable for a good period of the project’s duration. Thus, Mapbox satellite and Esri Mondial were the imageries used to overcome this problem of unavailability.&lt;/p&gt;
+&lt;h4 id=&quot;landcover--landuse&quot;&gt;Landcover &amp;amp; landuse&lt;/h4&gt;
+&lt;p&gt;One of the many important aspects of mapping is depicting landuse, which helps people understand how the land is being used and what vegetates on it. This information is critical for development planning, disaster response, and many other purposes. As the name implies, &lt;a href=&quot;https://www.google.com/url?q=https://wiki.openstreetmap.org/wiki/Land_use&amp;amp;sa=D&amp;amp;source=docs&amp;amp;ust=1665498066836565&amp;amp;usg=AOvVaw3Iir-sOXoql5spmP6eTNHV&quot;&gt;landuse&lt;/a&gt; describes what an area of land is used for, such as housing, commercial activities, farming, education, leisure, and so on. It is related to &lt;a href=&quot;https://www.google.com/url?q=https://wiki.openstreetmap.org/wiki/Landcover&amp;amp;sa=D&amp;amp;source=docs&amp;amp;ust=1665498066837017&amp;amp;usg=AOvVaw18x3tMn82uw7sg0lz3wdG5&quot;&gt;landcover&lt;/a&gt;, which describes the physical thing and surface that covers the land. The two ideas are complementary and can be used in tandem, however in the case of OSM Cameroon’s work, the team mainly mapped the landcover of Cameroon. 
+In order to improve Cameroon’s landcover mapping, OSM Cameroon strived to collect better data,  enrich the OSM map that shows landcover patterns across the country and to produce maps at 1/20000. Their collaboration amongst members and hard work has resulted in more accurate and up-to-date landcover maps. Their self-organised and cross-functional team created meaningful data, and we could learn a lot from their knowledge and their process.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FfCFtaNTOaU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;data-collection-and-improved-collaboration&quot;&gt;Data collection and improved collaboration&lt;/h3&gt;
+&lt;p&gt;The overarching understanding is that, to do landcover and landuse mapping in OSM, it is very important to know the local area and to avoid mapping conflicts. As a matter of fact, by knowing the environment where one is mapping it is easier to interpret the aerial imagery. And through collaboration and open communication, risks of conflicts are avoided.&lt;/p&gt;
+&lt;h4 id=&quot;the-importance-of-avoiding-conflicts&quot;&gt;The importance of avoiding conflicts&lt;/h4&gt;
+&lt;p&gt;Whether a task is set up on the &lt;a href=&quot;https://tasks.hotosm.org/&quot;&gt;HOT Tasking Manager&lt;/a&gt;, or the boundaries and grid are defined in &lt;a href=&quot;https://www.qgis.org/en/site/&quot;&gt;QGIS&lt;/a&gt;, it is best to let mappers not work on squares close to each other. For instance, OSM Cameroon’s strategy was to let one mapper start in the north, and the other in the south. It is advised to use a grid as it makes it easier to coordinate the work between different mappers and a conflict in mapping will be avoided. It allowed the OSM Cameroon team to be more efficient in their work and avoid members wasting time and energy on a single task.
+Here’s the method used by OSM Cameroon with examples: First, they chose the landcover or landuse that they wanted to map; farmland for instance. While drawing the area, it is best to avoid the landcover or landuse to connect nodes with roads. Roads can be crossed, but landcover or landuse should not connect to roads. When the area is drawn, then the attributes can be added: eg. landuse=farmland.&lt;/p&gt;
+
+&lt;figure&gt; 
+&lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp1_presenceofroads.png&quot; /&gt; &lt;p class=&quot;caption&quot;&gt;Good practice of landuse mapping in the presence of roads&lt;/p&gt; 
+&lt;/figure&gt;
+
+&lt;p&gt;Once the first landcover or landuse is drawn, the drawing of the second one can follow. In the example of the OSM Cameroon team, this was a residential area. It is important to assure the connectivity of the residential area nodes to the neighbouring landuse of the farmland area, which was drawn previously. The first node between the two different landuses has to be joined, then pressing F, one follows the existing line of the residential area. The use of the &lt;a href=&quot;https://github.com/MissingMaps/josm_styles/archive/master.zip&quot;&gt;Missing Maps/Youthmappers Map Paint style&lt;/a&gt; can show warning triangles if they are connected with each other. To avoid these triangles, it is important to create multipolygons by selecting the two layers and pressing CTRL+B.&lt;/p&gt;
+
+&lt;p&gt;Yves Emmanuel Nikyo Emougou explains:  “&lt;em&gt;if the landcover or landuse area that you want to map is very large, you could also map multiple polygons that you merge afterwards. First you map your first landcover area, after you continue with a new polygon next to the one already mapped. If the polygons are small and carry the same attributes, they can be joined together. To do so, select both polygons and press SHIFT+J. After the confirmation, select what to keep and select ‘apply’. Making one large polygon from the beginning is fair too. An important point to take into account is the limit of nodes that one can upload. When uploading the data online, if the nodes are greater than 2000, an error message will be received and it will not be possible to send your data.&lt;/em&gt;”&lt;/p&gt;
+
+&lt;p&gt;But what if a residential area is within farmland? “&lt;em&gt;Since it is not good practice to make landcover and landuse overlapping with each other, they should be mapped as a relation. For this, the best practice to adopt would be to first map the farmland area, and then the residential area within it. Next, select both areas and press CTRL+B to create a multipolygon. Note that, the outside polygon is called outer and the inside polygon inter.&lt;/em&gt;”&lt;/p&gt;
+
+&lt;figure&gt; 
+&lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp2_lackofrelations.png&quot; /&gt; &lt;p class=&quot;caption&quot;&gt;Illustration of the lack of relations in landcover and landuse mapping on OSM&lt;/p&gt; 
+&lt;/figure&gt;
+
+&lt;figure&gt; 
+&lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp3_usingrelations.png&quot; /&gt; &lt;p class=&quot;caption&quot;&gt;Using relations in landcover and landuse mapping on OSM&lt;/p&gt; 
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;the-importance-of-local-knowledge&quot;&gt;The importance of local knowledge&lt;/h4&gt;
+&lt;p&gt;Although the best practices for landcover and landuse mapping share common ground (no pun intended), they should be adapted to the area’s landscape. The definition of common classes that encompass various landscapes and ecoregions can be a challenge in landcover and landuse mapping and classification. OSM as a global project uses tags to map landcover and landuse around the world. As a result, it is critical to specify how these tags should be used in a specific ecoregion. The types of forest in Belgium and the types of forests in Cameroon are not the same. Moreover, on aerial imagery, it can be difficult to understand the specificity of the land. So, how should these be classified? Good instructions with pictures and local knowledge are key to understand what type of landcover and landuse will be mapped. The importance of local knowledge is paramount to collect accurate data and classify them properly.&lt;/p&gt;
+
+&lt;p&gt;Landcover and landuse is now mapped with a variety of tags in OpenStreetMap, as it has evolved over time. However, a challenge the team faced was the absence of tags adapted to the Cameroonian ecosystem classes on OSM. Indeed, not all landcover and landuse classes that are existing in Africa have dedicated tags on OSM. Cameroon is divided into four geographical regions: northern, central, southern, and western. The savanna plain that occupies the country’s center descends in elevation as it approaches the Lake Chad basin north of the Benue (Bénoué) River. Although approximately 20% of the surface on Earth is covered by savanna, it remains absent as a classification on OSM. In order to adapt to the existing confines, it has been tagged as ‘meadow’ by the OSM Cameroon team.&lt;/p&gt;
+
+&lt;p&gt;The challenges of not having local knowledge can hinder the collection of accurate data. From aerial imagery, one could make the mistake of mapping some places as residential areas when in reality, they are actually buildings to store materials for farming activities. Another instance is with agricultural lands. Agricultural land with its crops, perennial or annual, is constantly evolving. From one year to another, agricultural land uses can change, or stay the same for over a decade. Even further, there can be confusion with forests. A palm oil, coffee or cocoa field may look like a forest on aerial imagery. Only local knowledge can elucidate and take into consideration the organisation of the objects you see. Natural objects such as forests are quite disorganised, however in some cases you are able to distinguish farmland from forest based on aerial imagery. Like for example  the palm groves in the figure, which are better organised and characterised by the presence of access roads to facilitate the transportation of crops.&lt;/p&gt;
+
+&lt;figure&gt; 
+&lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp4_landcoverorganisation_eng.png&quot; /&gt; &lt;p class=&quot;caption&quot;&gt;Illustration of the organisation of a forest and palm groves&lt;/p&gt; 
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;what-next&quot;&gt;What next?&lt;/h3&gt;
+&lt;p&gt;OSM Cameroon is committed to continue improving their landcover mapping in order to provide better information. Their effort doesn’t end here, as the team is now doing quality control. OSM could be utilised more extensively in operational applications and environmental research, such as monitoring landcover change in connection with vegetation and climate modelling. The achievements of &lt;a href=&quot;https://www.openstreetmap.org/user/Steveeen&quot;&gt;Christin Steve Nwagoum Keyamfe&lt;/a&gt;, &lt;a href=&quot;https://www.openstreetmap.org/user/NIKOYO%20EMOUGOU%20Yves%20Emmanuel&quot;&gt;Yves Emmanuel Nikoyo Emougou&lt;/a&gt;, &lt;a href=&quot;https://www.openstreetmap.org/user/victoire%20Tsajio&quot;&gt;Victoire Tsajio&lt;/a&gt;, &lt;a href=&quot;https://www.openstreetmap.org/user/Sylvie%20GALAGO&quot;&gt;Sylvie Galago&lt;/a&gt;, &lt;a href=&quot;https://www.openstreetmap.org/user/ongalisma&quot;&gt;Ismael Ebenezer Ongali Tsala&lt;/a&gt;,  &lt;a href=&quot;https://www.openstreetmap.org/user/Le%20Mago&quot;&gt;Ian Jocelyn Kemme Kemme&lt;/a&gt;, and &lt;a href=&quot;https://www.openstreetmap.org/user/Guy%20Berlin%20Boutchouang&quot;&gt;Guy Berlin Boutchouang&lt;/a&gt; are a great example of OSM communities’ capabilities and activities around the world, and more so how their contribution to open geospatial data can be used for various types of decision-making.&lt;/p&gt;
+
+&lt;h4 id=&quot;have-a-look-at-their-social-media-accounts&quot;&gt;Have a look at their social media accounts!&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/OpenStreetMap-Cameroun-799439470157013/&quot;&gt;Facebook&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/OSMCameroun&quot;&gt;Twitter&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;curious-about-mapping-landcover-and-landuse-have-a-look-at-these&quot;&gt;Curious about mapping landcover and landuse? Have a look at these:&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://osmlanduse.org/&quot;&gt;OSM Landuse Landcover&lt;/a&gt;, a WebGIS application to explore the OpenStreetMap database specifically in terms of landuse and landcover information.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://wiki.openstreetmap.org/wiki/Land_use&quot;&gt;Wiki page for Land use&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://wiki.openstreetmap.org/wiki/Landcover&quot;&gt;Wiki page for Land Cover&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.missingmaps.org/assets/downloads/JOSM_Advanced_Mapping_EN.pdf&quot;&gt;Advanced Mapping using JOSM&lt;/a&gt;, MissingMaps’ guide to learn about the ins and outs of JOSM.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/pulse/openstreetmap-comme-support-%C3%A0-la-production-de-2673-coupures-sob/&quot;&gt;OpenStreetMap as a support for the production of 2673 national topographic maps at the 1:25,000 scale&lt;/a&gt;, from &lt;a href=&quot;https://www.hotosm.org/people/willy-franck-sob/&quot;&gt;Willy Franck Sob&lt;/a&gt;, 2021.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To improve landcover and landuse mapping in OpenStreetMap, you too can participate in landcover and landuse mapping efforts for humanitarian organisations. The &lt;a href=&quot;https://tasks.hotosm.org/explore/filters?types=LAND_USE&quot;&gt;HOT Tasking Manager’s explore page&lt;/a&gt; allows users to filter projects by types of mapped objects or key words, and one can always choose the ‘landuse’ option to find new tasks!&lt;/p&gt;
+
+&lt;h4 id=&quot;médecins-sans-frontières-set-up-a-task-for-the-landuse-and-landcover-mapping-of-gummi-nigeria-if-youd-like-to-contribute&quot;&gt;Médecins Sans Frontières set up a task for the &lt;a href=&quot;https://tasks.hotosm.org/projects/13625/&quot;&gt;landuse and landcover mapping of Gummi, Nigeria&lt;/a&gt; if you’d like to contribute!&lt;/h4&gt;</content><author><name>Yves Emmanuel Nikoyo Emougou, Jorieke Vyncke, Lale Pirlot</name></author><category term="blog" /><category term="OSM" /><category term="partners" /><summary type="html">In order to improve Cameroon’s landcover and landuse mapping, OSM Cameroon strived to collect better data and enrich the OSM map that shows landcover patterns across the country.</summary></entry><entry xml:lang="fr"><title type="html">Le “Sweet Spot” pour les collaborations entre recherche et Missing Maps</title><link href="/blog/2022/09/08/Le-Sweet-Spot-pour-les-collaborations-entre-recherche-et-Missing-Maps/" rel="alternate" type="text/html" title="Le &quot;Sweet Spot&quot; pour les collaborations entre recherche et Missing Maps" /><published>2022-09-08T00:00:00-04:00</published><updated>2022-09-08T00:00:00-04:00</updated><id>/blog/2022/09/08/Le-%E2%80%9CSweet-Spot%E2%80%9D-pour-les-collaborations-entre-recherche-et-Missing-Maps</id><content type="html" xml:base="/blog/2022/09/08/Le-Sweet-Spot-pour-les-collaborations-entre-recherche-et-Missing-Maps/">&lt;h2 id=&quot;le--sweet-spot--pour-les-collaborations-entre-recherche-et-missing-maps&quot;&gt;Le « sweet spot » pour les collaborations entre recherche et Missing Maps&lt;/h2&gt;
+&lt;p&gt;Au cours des dernières années, plusieurs exemples ont mis en évidence la manière dont les universités et les instituts de recherche peuvent complémenter le travail de Missing Maps. Ainsi, nous voulons partager quelques leçons apprises et approfondir ce qui peut être fait au-delà de l’organisation de mapathons.&lt;/p&gt;
+
+&lt;p&gt;L’un des problèmes clefs lors de la collaboration avec des organisations humanitaires est que les chercheurs ont tendance à ne pas être en mesure de donner des réponses rapides alors que, du côté humanitaire, il y a des priorités pressantes. En tant que tel, la chronologie des projets de recherche sont souvent beaucoup plus longues et nécessitent un investissement initial en temps de la part des organisations humanitaires sans que les bénéfices en retour soient clairs. Cependant, nous pensons qu’il existe plusieurs façons de surmonter cette contradiction.&lt;/p&gt;
+
+&lt;p&gt;En bref, les recommandations qui suivent sont “simples”, mais soulignent bien les principes fondamentaux de Missing Maps: être ouvert, communiquer, partager, échanger.&lt;/p&gt;
+&lt;h4 id=&quot;pour-les-chercheurs&quot;&gt;Pour les chercheurs&lt;/h4&gt;
+&lt;h5 id=&quot;regardez-au-delà-de-votre-communauté-de-recherche&quot;&gt;Regardez au-delà de votre communauté (de recherche)&lt;/h5&gt;
+
+&lt;p&gt;En tant que chercheur, vous devriez essayer d’adopter une perspective qui va au-delà de votre communauté de recherche traditionnelle. Participer à  un mapathon local est souvent une bonne occasion de faire connaissance avec des personnes intéressantes, qui sont déjà impliquées dans OpenStreetMap (OSM). Dans une telle situation, il est souvent approprié d’écouter et d’observer. Mettez-vous dans le rôle d’un étudiant, vous êtes celui qui apprend de la communauté.&lt;/p&gt;
+
+&lt;p&gt;Il existe d’excellents exemples où cela a inspiré des chercheurs à ” trouver “ les questions qui importaient vraiment à un groupe plus large de personnes au-delà de votre propre domaine de recherche. &lt;a href=&quot;https://www.openstreetmap.org/user/dekstop/diary/390717&quot;&gt;Le travail de Martin Dittus&lt;/a&gt; sur l’engagement communautaire au sein de HOT et Missing Maps est un exemple extraordinaire d’une telle collaboration mutuelle. Pour un aperçu de la fantastique variété des sujets de recherche, &lt;a href=&quot;https://www.youtube.com/watch?v=4INGVPpmUZY&quot;&gt;ce panel&lt;/a&gt; avec les chargés de recherche de YouthMappers vous donnera une idée des vastes possibilités offertes par les données OpenStreetMap.&lt;/p&gt;
+
+&lt;h5 id=&quot;offrir-de-cours-et-séminaires-novateurs&quot;&gt;Offrir de cours et séminaires novateurs&lt;/h5&gt;
+
+&lt;p&gt;C’est un privilège de pouvoir partager vos connaissances et vos compétences avec des étudiants et d’autres personnes intéressées. Notre expérience montre que de nombreux étudiants s’intéressent aux choses qui comptent et peuvent avoir un impact sur la société. Offrir des cours et des séminaires sur OSM, la cartographie humanitaire et l’analyse de données qui tiennent compte du point de vue des organisations humanitaires et des communautés locales est un excellent moyen de motiver vos étudiants et de leur enseigner des compétences utiles en même temps.&lt;/p&gt;
+
+&lt;p&gt;L’Université de Heidelberg organise un cours en étroite collaboration avec la Croix-Rouge Allemande intitulé &lt;a href=&quot;https://gitlab.gistools.geog.uni-heidelberg.de/giscience/disaster-tools/gis-in-anticipatory-humanitarian-action&quot;&gt;«  SIG au sein de l’intervention humanitaire préventive »&lt;/a&gt;. Bien que cela soit le résultat d’un engagement à long terme au sein de la communauté Missing Maps, il existe déjà des moyens très simples de commencer.&lt;/p&gt;
+
+&lt;p&gt;Lorsque vous proposez un cours, vous pouvez envisager d’inviter une personne d’une organisation humanitaire pour faire une courte présentation (exemple &lt;a href=&quot;http://k1z.blog.uni-heidelberg.de/2018/06/14/wikimedia-and-msf-talks-disaster-20-seminar-latest-theory-and-practice-in-disaster-management/&quot;&gt;virtuel&lt;/a&gt;) sur leur travail et les défis auxquels l’organisation est confrontée. Il peut s’agir d’une présentation de base, qui peut être aussi courte que cinq minutes, suivie d’une séance de discussion de quinze minutes. En invitant de tels experts au cours, vos étudiants apprendront des exemples concrets et cela pourrait les inspirer pour leurs thèses de licence ou de master.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20220908_IvanGayton.jpg &quot; /&gt; &lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20220908_Pete%20Masters.jpg&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;Ivan Gayton &amp;amp; Pete Masters &lt;a href=&quot;https://disastermappers.wordpress.com/2015/06/&quot;&gt;lors d’une présentation&lt;/a&gt;  à l’Université Heidelberg.&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Youth Mappers a rassemblé de &lt;a href=&quot;https://sites.google.com/view/youthmapperswiki/classroom-resources?authuser=0&quot;&gt;nombreuses ressources variées&lt;/a&gt;, y compris des exemples de programmes et de cursus pour des cours sur la cartographie humanitaire et la réduction des risques de catastrophe, qui peuvent aider les universités à améliorer leur curriculum.&lt;/p&gt;
+
+&lt;h5 id=&quot;partagez-vos-résultats&quot;&gt;Partagez vos résultats&lt;/h5&gt;
+
+&lt;p&gt;Lorsque vous faites des recherches avec et sur Missing Maps ou sur la cartographie en général, vous devez vous assurer que les résultats de vos recherches sont accessibles. Le partage de vos résultats (au-delà de votre communauté de recherche) est vraiment important et peut permettre aux organisations humanitaires ou aux communautés locales d’apprendre de, et potentiellement de s’appuyer sur, vos résultats.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20220908_HOTSummit2019.jpg&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;HOT Summit 2019 &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Pour faciliter cela, vous devriez envisager de mettre de l’énergie supplémentaire dans la façon dont vous communiquez vos résultats. Uniquement partager votre document de recherche ne suffit clairement pas dans ce cas-ci. Essayez d’écrire un article de blog qui résume dans un langage simple ce que vous avez découvert. Sur le &lt;a href=&quot;https://www.youthmappers.org/blog&quot;&gt;blog de YouthMappers&lt;/a&gt;, vous trouverez également de nombreux exemples intéressants.&lt;/p&gt;
+
+&lt;p&gt;Présenter votre travail à la conférence State of the Map ou à un autre événement est un bon moyen de partager votre travail avec un public plus large. &lt;a href=&quot;https://www.youtube.com/watch?v=ZUs5e0jFJEo&quot;&gt;Voici un enregistrement&lt;/a&gt; d’une conférence à SotM 2020 qui a étudié l’évolution de la cartographie humanitaire au sein de la communauté OSM.&lt;/p&gt;
+
+&lt;figure&gt;
+ &lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20220908_OSMCommunityEvolutionFR.jpg&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;Figure tirée de la recherche - &lt;a href=&quot;https://www.nature.com/articles/s41598-021-82404-z&quot;&gt;L'évolution de la cartographie humanitaire au sein de la communauté OpenStreetMap  &lt;/a&gt; &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Si vous êtes stressé par l’idée de préparer une présentation de vingt minutes, envisagez quelque chose de plus léger; comme une séance de questions-réponses, une affiche ou un pitch lors d’une séance birds-of-a-feather. Pour la SotM 2019, YouthMappers ont créé une &lt;a href=&quot;https://wiki.openstreetmap.org/w/images/0/0f/Workforce_development_and_Youthmappers-_Understanding_perceptions_of_students_in_humanitarian_mapping.pdf&quot;&gt;affiche&lt;/a&gt; qui montre comment la motivation et la performance des nouveaux mapper sont affectées par les informations contextuelles fournies sur le but d’une tâche de cartographie humanitaire.&lt;/p&gt;
+
+&lt;p&gt;De plus, les &lt;a href=&quot;https://www.youtube.com/playlist?list=PLiKHjzLbztbpPIRmEYv44CSOJWzxIO40L&quot;&gt;webinaires&lt;/a&gt; mensuels de Crowd2Map Tanzania ont inclus des présentations de groupes universitaires et de conférenciers sur ce qu’ils ont fait.&lt;/p&gt;
+
+&lt;h4 id=&quot;pour-les-organisations-missing-maps&quot;&gt;Pour les organisations Missing Maps&lt;/h4&gt;
+&lt;h5 id=&quot;partagez-vos-problèmes-et-défis&quot;&gt;Partagez vos problèmes et défis&lt;/h5&gt;
+
+&lt;p&gt;Soyez ouvert! Partagez les défis auxquels vous êtes confrontés dans votre travail, mais partagez également des idées et des concepts qui, selon vous, deviendront plus importants à l’avenir. Plus vous partagerez vos défis tôt, plus il est probable que vos problèmes soient résolus à l’avance par des recherches opportunes et pertinentes. Cela laisse également suffisamment de temps aux chercheurs pour vous contacter et discuter de leur approche avant de se lancer dans leurs recherches.&lt;/p&gt;
+
+&lt;p&gt;Si vos exigences de recherche sont plus urgentes, pensez à allouer des ressources financières pour les résoudre - et n’hésitez pas à payer un chercheur universitaire si cela relève de ses domaines d’expertise!&lt;/p&gt;
+
+&lt;p&gt;HOT a publié une liste de défis et de sujets de recherche potentiels sur le &lt;a href=&quot;https://wiki.openstreetmap.org/wiki/HOT_Research_Topics&quot;&gt;Wiki OSM&lt;/a&gt;. Des listes comme celle-ci sont très utiles aux chercheurs universitaires car elles peuvent facilement être partagées et discutées. Sinon, pensez à partager vos défis avec le &lt;a href=&quot;https://community.openstreetmap.org/&quot;&gt;canal communautaire&lt;/a&gt; OpenStreetMap.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20220908_MissingMapsMSFPragueFormation.jpg&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;Formation Missing Maps Prague MSF  &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;h5 id=&quot;définir-des-attentes-claires-pour-les-chercheurs&quot;&gt;Définir des attentes claires pour les chercheurs&lt;/h5&gt;
+
+&lt;p&gt;Les chercheurs ne résolvent pas nécessairement les problèmes avec des solutions pratiques, ils trouvent souvent plus de problèmes! La recherche consiste à tester quelque chose de nouveau. Par conséquent, cela peut ne pas fonctionner comme prévu mais si vous avez de la chance, quelque chose de très intéressant peut émerger.&lt;/p&gt;
+
+&lt;p&gt;Il est important que vous définissiez des attentes claires, soyez exigeant. Dites au chercheur que vous vous attendez à ce qu’il partage la valeur pratique de ses résultats et présente ses conclusions. Ne présumez pas qu’ils sauront partager cela autrement. S’il y a une chance d’exposer leurs recherches lors d’un événement, encouragez-les à y prendre la parole. La clef est d’élargir les perspectives du chercheur au-delà de sa communauté de recherche limitée. Un chercheur appréciera vraiment de savoir que quelqu’un se soucie de ses résultats et qu’ils pourraient avoir un impact.&lt;/p&gt;
+
+&lt;p&gt;Par exemple, Anna Lee-Steele partage sa recherche lors d’un événement au Sommet HOT: &lt;a href=&quot;https://www.youtube.com/watch?v=_0a84F0pdNU&quot;&gt;Crisis Maps, Community, and Corporations (an Anthropologist’s perspective)&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_0a84F0pdNU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h4 id=&quot;autres-ressources&quot;&gt;Autres Ressources&lt;/h4&gt;
+&lt;p&gt;Nous voulons clôturer cet article de blog avec une courte liste de ressources que nous espérons sera utile pour vous:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;YouthMappers:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://sites.google.com/view/youthmapperswiki/home?authuser=0&quot;&gt;Resource Library&lt;/a&gt; (avec les ressources de classe)&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.youthmappers.org/validation-hub&quot;&gt;YouthMappers Validation Hub&lt;/a&gt; - Un groupe d’étudiants mapper au George Washington University. Implémenté et organisé par la faculté et les étudiants.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://youtu.be/4INGVPpmUZY&quot;&gt;YouthMappers Research Fellows Panel Discussion: The Use and Applications of OSM Data in Academic Research&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;HeiGIT &amp;amp; Croix-Rouge allemande:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://gitlab.gistools.geog.uni-heidelberg.de/giscience/disaster-tools/gis-in-anticipatory-humanitarian-action&quot;&gt;GIS In Anticipatory Humanitarian Action&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;OpenStreetMap:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://wiki.openstreetmap.org/wiki/Research&quot;&gt;OSM Wiki Page on ‘Research’&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Benni Herfort, Sam Colchester</name></author><category term="blog" /><category term="MissingMaps" /><category term="research" /><category term="collaboration" /><summary type="html">Au cours des dernières années, plusieurs exemples ont mis en évidence la manière dont les universités et les instituts de recherche peuvent complémenter le travail de Missing Maps.</summary></entry><entry xml:lang="en"><title type="html">The “sweet spot” for research and Missing Maps collaborations</title><link href="/blog/2022/09/08/the-sweet-spot-for-research-and-Missing-Maps-collaborations/" rel="alternate" type="text/html" title="The &quot;sweet spot&quot; for research and Missing Maps collaborations" /><published>2022-09-08T00:00:00-04:00</published><updated>2022-09-08T00:00:00-04:00</updated><id>/blog/2022/09/08/the-sweet-spot-for-research-and-Missing-Maps-collaborations</id><content type="html" xml:base="/blog/2022/09/08/the-sweet-spot-for-research-and-Missing-Maps-collaborations/">&lt;h2 id=&quot;the-sweet-spot-for-research-and-missing-maps-collaborations&quot;&gt;The “sweet spot” for research and Missing Maps collaborations&lt;/h2&gt;
+
+&lt;p&gt;In the past years several examples highlighted how universities and research institutions can complement Missing Maps’ work. Here we want to share some lessons learned and dig into the things that can be done beyond organizing mapathons.&lt;/p&gt;
+
+&lt;p&gt;One of the key issues when collaborating with humanitarian organizations is that researchers tend not to be able to give quick answers while on the humanitarian side there are pressing priorities. As such, the timeline of research projects are often much more prolonged and need upfront time investment from humanitarian organizations without clarity of return benefits. However, we believe that there are several ways we can overcome this contradiction.&lt;/p&gt;
+
+&lt;p&gt;In short, the recommendations are “simple”, but nicely underline the core principles of Missing Maps: be open, communicate, share, exchange.&lt;/p&gt;
+
+&lt;h4 id=&quot;for-researchers&quot;&gt;For Researchers&lt;/h4&gt;
+&lt;h5 id=&quot;look-beyond-your-research-community&quot;&gt;Look beyond your (research) community&lt;/h5&gt;
+
+&lt;p&gt;As a researcher you should try to put on a perspective which goes beyond your traditional research community. Joining a local mapathon is often a good opportunity to get to know interesting people, who are already involved in OpenStreetMap (OSM). In such a situation it is often appropriate to listen and observe. Put yourself in the role of a student, you are the one that learns from the community.&lt;/p&gt;
+
+&lt;p&gt;There are some great examples where this has inspired researchers to “find” the questions which really mattered to a wider group of people beyond your own research field. &lt;a href=&quot;https://www.openstreetmap.org/user/dekstop/diary/390717&quot;&gt;The work of Martin Dittus&lt;/a&gt; about community engagement in HOT and Missing Maps is an extraordinary example for such a mutual collaboration. For an insight into the fantastic variety of research topics, &lt;a href=&quot;https://www.youtube.com/watch?v=4INGVPpmUZY&quot;&gt;this panel discussion&lt;/a&gt; with YouthMappers Research Fellows will give you a sense of the broad possibilities with OpenStreetMap data.&lt;/p&gt;
+
+&lt;h5 id=&quot;offer-novel-courses-and-seminars&quot;&gt;Offer novel courses and seminars&lt;/h5&gt;
+
+&lt;p&gt;It is a privilege to be able to share your knowledge and skills with students and other interested people. Our experience shows that many students are interested in things that matter and can have an impact on society. Offering courses and seminars about OSM, humanitarian mapping and data analysis which consider the perspective of humanitarian organizations and local communities are a great way to motivate your students and teach them useful skills at the same time.&lt;/p&gt;
+
+&lt;p&gt;Heidelberg University runs a course in close collaboration with the German Red Cross called &lt;a href=&quot;https://gitlab.gistools.geog.uni-heidelberg.de/giscience/disaster-tools/gis-in-anticipatory-humanitarian-action&quot;&gt;‘GIS in anticipatory humanitarian action’&lt;/a&gt;. Whereas this is the result of a long-term engagement within the Missing Maps community, there are already very simple ways to get things started.&lt;/p&gt;
+
+&lt;p&gt;When offering a course you can consider inviting someone from a humanitarian organization to give a short (virtual - &lt;a href=&quot;http://k1z.blog.uni-heidelberg.de/2018/06/14/wikimedia-and-msf-talks-disaster-20-seminar-latest-theory-and-practice-in-disaster-management/&quot;&gt;example&lt;/a&gt;) presentation about their work and the challenges they face. This can be really low level and could be as short as a five minute presentation followed by a fifteen minute discussion session. By inviting such experts to the class your students will get to know real-world examples and this might inspire them for their bachelor or masters theses.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20220908_IvanGayton.jpg &quot; /&gt; &lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20220908_Pete%20Masters.jpg&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;Ivan Gayton &amp;amp; Pete Masters &lt;a href=&quot;https://disastermappers.wordpress.com/2015/06/&quot;&gt;presenting &lt;/a&gt; at Heidelberg University &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;YouthMappers has &lt;a href=&quot;https://sites.google.com/view/youthmapperswiki/classroom-resources?authuser=0&quot;&gt;collected many different resources&lt;/a&gt;, including sample syllabi and reading material for courses on humanitarian mapping and disaster risk reduction which can help universities to enhance their curriculum.&lt;/p&gt;
+
+&lt;h5 id=&quot;share-your-results&quot;&gt;Share your results&lt;/h5&gt;
+
+&lt;p&gt;When doing research with and about Missing Maps or mapping in general you should make sure that your research results are accessible. Sharing your results back (beyond your research community) is really important and can enable humanitarian organizations or local communities to learn from, and potentially build upon, your findings.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20220908_HOTSummit2019.jpg&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;HOT Summit 2019 &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;To facilitate this you should consider putting a bit of extra energy into how you communicate your results. Sharing your research paper alone is clearly not enough here. Try to write a blog post which summarizes in an easy language what you found out. On the &lt;a href=&quot;https://www.youthmappers.org/blog&quot;&gt;YouthMappers blog&lt;/a&gt; you will also find many interesting examples.&lt;/p&gt;
+
+&lt;p&gt;Presenting your work at the State of the Map conference or another event is a good way to share your work with a wider audience. &lt;a href=&quot;https://www.youtube.com/watch?v=ZUs5e0jFJEo&quot;&gt;Here’s a recording&lt;/a&gt; of a talk at SotM 2020 which investigated the evolution of humanitarian mapping within the OSM community.&lt;/p&gt;
+
+&lt;figure&gt;
+ &lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20220908_OSMCommunityEvolution.jpg&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;Figure from paper - &lt;a href=&quot;https://www.nature.com/articles/s41598-021-82404-z&quot;&gt;The evolution of humanitarian mapping within the OpenStreetMap community &lt;/a&gt; &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;If you are stressed by the notion of preparing a twenty minute presentation, consider something more lightweight such as a Q&amp;amp;A session, poster or pitch at a birds-of-a-feather session. For the SotM 2019 YouthMappers created a &lt;a href=&quot;https://wiki.openstreetmap.org/w/images/0/0f/Workforce_development_and_Youthmappers-_Understanding_perceptions_of_students_in_humanitarian_mapping.pdf&quot;&gt;poster&lt;/a&gt; which shows how the motivation and performance of new mappers is impacted by contextual information provided about the purpose of a humanitarian mapping task.&lt;/p&gt;
+
+&lt;p&gt;Monthly Crowd2Map Tanzania &lt;a href=&quot;https://www.youtube.com/playlist?list=PLiKHjzLbztbpPIRmEYv44CSOJWzxIO40L&quot;&gt;webinars&lt;/a&gt; have included presentations from university groups and lecturers about what they have been doing.&lt;/p&gt;
+
+&lt;h4 id=&quot;for-missing-maps-organizations&quot;&gt;For Missing Maps Organizations&lt;/h4&gt;
+&lt;h5 id=&quot;share-your-problems-and-challenges&quot;&gt;Share your problems and challenges&lt;/h5&gt;
+
+&lt;p&gt;Be open! Share challenges you are facing in your work, but also share ideas and concepts that you anticipate becoming more important in the future. The earlier you share your challenges the more likely your problems will be solved ahead of time by timely and relevant research. It also leaves sufficient time for researchers to contact you and discuss their approach before they embark on their research.&lt;/p&gt;
+
+&lt;p&gt;If your research demands are more urgent, then consider allocating financial resources to solve them - and don’t hesitate to pay a university researcher if it falls within their areas of expertise!&lt;/p&gt;
+
+&lt;p&gt;HOT has put out a list of challenges and potential research topics on the &lt;a href=&quot;https://wiki.openstreetmap.org/wiki/HOT_Research_Topics&quot;&gt;OSM Wiki&lt;/a&gt;. Lists like this are very helpful to university researchers because they can easily be shared and discussed. Otherwise, consider sharing your challenges with the OpenStreetMap &lt;a href=&quot;https://community.openstreetmap.org/&quot;&gt;community channel&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20220908_MissingMapsMSFPragueFormation.jpg&quot; /&gt;
+&lt;p class=&quot;caption&quot;&gt;Missing Maps training Prague MSF &lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;h5 id=&quot;set-clear-expectations-for-researchers&quot;&gt;Set clear expectations for researchers&lt;/h5&gt;
+
+&lt;p&gt;Researchers do not necessarily solve problems with practical solutions, they often just find more problems! Research involves testing something new. Therefore, it may not work out as expected, but if you’re lucky something very interesting may emerge.&lt;/p&gt;
+
+&lt;p&gt;It is important that you set clear expectations, be demanding. Tell the researcher that you expect them to share the practical value of their results and present findings. Don’t assume they will know to share this otherwise. If there is a chance to expose their research at an event, support them to speak at it. The key is to broaden the researcher’s outlook beyond their limited research community. A researcher will really appreciate knowing that someone cares about their results and that they could have an impact.&lt;/p&gt;
+
+&lt;p&gt;For example, Anna Lee-Steele sharing her research at a HOT Summit event: &lt;a href=&quot;https://www.youtube.com/watch?v=_0a84F0pdNU&quot;&gt;Crisis Maps, Community, and Corporations (an Anthropologist’s perspective)&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_0a84F0pdNU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h4 id=&quot;further-resources&quot;&gt;Further Resources&lt;/h4&gt;
+
+&lt;p&gt;We want to close this blog post with a short list of resources we hope will be useful for you:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;YouthMappers:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://sites.google.com/view/youthmapperswiki/home?authuser=0&quot;&gt;Resource Library&lt;/a&gt; (including Classroom Resources)&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.youthmappers.org/validation-hub&quot;&gt;YouthMappers Validation Hub&lt;/a&gt; - a group of student mappers at The George Washington University implemented and organized by Faculty and Students&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://youtu.be/4INGVPpmUZY&quot;&gt;YouthMappers Research Fellows Panel Discussion: The Use and Applications of OSM Data in Academic Research&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;HeiGIT &amp;amp; German Red Cross:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://gitlab.gistools.geog.uni-heidelberg.de/giscience/disaster-tools/gis-in-anticipatory-humanitarian-action&quot;&gt;GIS In Anticipatory Humanitarian Action&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;OpenStreetMap:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://wiki.openstreetmap.org/wiki/Research&quot;&gt;OSM Wiki Page on ‘Research’&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Benni Herfort, Sam Colchester</name></author><category term="blog" /><category term="MissingMaps" /><category term="research" /><category term="collaboration" /><summary type="html">In the past years several examples highlighted how universities and research institutions can complement Missing Maps’ work. Here we want to share some lessons learned and dig into the things that can be done beyond organizing mapathons.</summary></entry></feed>
