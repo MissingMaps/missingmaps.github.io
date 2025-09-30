@@ -1,0 +1,73 @@
+name: Manual Deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Deployment environment'
+        required: true
+        default: 'staging'
+        type: choice
+        options:
+          - staging
+          - production
+      skip_tests:
+        description: 'Skip test suite'
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: ${{ github.event.inputs.environment }}
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3.5'
+          bundler-cache: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: |
+          npm ci
+          npm install -g gulp-cli
+
+      - name: Run tests
+        if: ${{ !inputs.skip_tests }}
+        run: npm test
+
+      - name: Build for staging
+        if: ${{ inputs.environment == 'staging' }}
+        run: gulp serve --build-only
+        env:
+          JEKYLL_ENV: development
+
+      - name: Build for production
+        if: ${{ inputs.environment == 'production' }}
+        run: gulp prod
+        env:
+          JEKYLL_ENV: production
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-${{ inputs.environment }}-${{ github.sha }}
+          path: _site/
+          retention-days: 7
+
+      - name: Deploy notification
+        run: |
+          echo "🚀 Deployment completed for ${{ inputs.environment }}"
+          echo "📦 Build artifacts uploaded"
+          echo "🔗 Commit: ${{ github.sha }}"

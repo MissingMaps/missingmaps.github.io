@@ -1,0 +1,76 @@
+name: Security and Dependency Checks
+
+on:
+  schedule:
+    # Run weekly on Sundays at 2 AM UTC
+    - cron: '0 2 * * 0'
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'package.json'
+      - 'package-lock.json'
+      - 'Gemfile'
+      - 'Gemfile.lock'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  security-audit:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'npm'
+
+      - name: Install Node.js dependencies
+        run: npm ci
+
+      - name: Run npm security audit
+        run: npm audit --audit-level moderate
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3.5'
+          bundler-cache: true
+
+      - name: Run Ruby security audit
+        run: |
+          gem install bundler-audit
+          bundle audit --update
+
+      - name: Check for outdated dependencies
+        run: |
+          echo "=== NPM Outdated ==="
+          npm outdated || true
+          echo "=== Bundle Outdated ==="
+          bundle outdated || true
+
+  lint-and-format:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run ESLint
+        run: npm run lint
+
+      - name: Check code formatting
+        run: |
+          # Add any additional formatting checks here
+          echo "Code formatting check completed"

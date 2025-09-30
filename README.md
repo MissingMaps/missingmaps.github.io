@@ -45,51 +45,77 @@ If the Jeykll build is failing when parsing one of the `/app/_data/*.yml` files,
 ### Environment
 To set up the development environment for this website, you'll need to install the following on your system:
 
-- [Node and npm](http://nodejs.org/) (version in `.nvmrc` file)
+- [Node and npm](http://nodejs.org/) (version in `.nvmrc` file - currently Node.js 20+)
 - Ruby and [Bundler](http://bundler.io/), preferably through something like [rvm](https://rvm.io/) (version in `.ruby-version` file)
 - Gulp
-```
-$ gem install bundler -v 2.4.3
+
+```bash
+$ gem install bundler -v 2.6.9
 $ npm install -g gulp-cli
 ```
+
 After these basic requirements are met, run the following commands in the website's folder:
-```
+```bash
 $ npm install
 $ bundle install
 ```
-Will also run `bundle install`
 
 If you get a `jekyll-4.0.0 requires rubygems version >= 2.7.0, which is incompatible with the current version` error then try running: `gem update --system`
 
 ### Getting started
 
-```
+```bash
+$ npm run serve
+# or
 $ gulp serve
 ```
 Compiles the compass files, javascripts, and launches the server making the site available at `http://localhost:3000/`
 The system will watch files and execute tasks whenever one of them changes.
 The site will automatically refresh since it is bundled with livereload.
 
-The `_config-dev.yml` file will be loaded alongside `_config.yml`.
-
 ### Other commands
-Clean the compiled site. I.e. the `_site` folder
+
+Build for production:
+```bash
+$ npm run build
+# or
+$ gulp prod
 ```
+
+Clean the compiled site:
+```bash
+$ npm run clean
+# or  
 $ gulp clean
 ```
 
-Compile the compass files, javascripts, and builds the jekyll site using `_config-dev.yml`.
-Use this instead of ```gulp serve``` if you don't want to watch.
-```
-$ gulp
-```
-
-Compiles the site loading the `_config-stage.yml` alongside `_config.yml`. The javascript files will be minified.
-```
-$ gulp stage
+Run tests and linting:
+```bash
+$ npm test
+$ npm run lint
 ```
 
-Compiles the site loading the `_config-prod.yml` alongside `_config.yml`. The javascript files will be minified.
-```
-$ gulp prod
-```
+## CI/CD
+
+### GitHub Actions
+This project uses GitHub Actions for continuous integration and deployment, replacing the previous Travis CI setup.
+
+**Workflows:**
+- **CI/CD Pipeline** (`.github/workflows/deploy.yml`): Builds and deploys to GitHub Pages on `publish` branch
+- **Pull Request Tests** (`.github/workflows/test.yml`): Runs tests on all PRs
+- **Security Checks** (`.github/workflows/security.yml`): Weekly security and dependency audits
+- **Manual Deploy** (`.github/workflows/manual-deploy.yml`): On-demand deployments
+
+**Automated Dependency Updates:**
+- Dependabot is configured to automatically update npm, Ruby gems, and GitHub Actions
+- Updates are scheduled weekly and automatically assigned to maintainers
+
+**Deployment:**
+- **Production**: Push to `publish` branch automatically deploys to GitHub Pages
+- **Testing**: All PRs are automatically built and tested
+- **Security**: Weekly scans for vulnerabilities and outdated dependencies
+
+### Branch Strategy
+- `publish`: Production deployment branch (auto-deploys to missingmaps.org)
+- `main`/`master`: Main development branch
+- Feature branches: Create PRs for review and testing

@@ -22,9 +22,12 @@
   "scripts": {
     "postinstall": "[ -f _config-dev.yml ] || echo 'domain: http://localhost:3000\npath_prefix:' > _config-dev.yml",
     "serve": "gulp serve",
+    "build": "gulp prod",
+    "build:dev": "gulp serve",
     "lint": "eslint app/assets/scripts/**/*.js gulpfile.js updatedep.js",
     "lint:fix": "eslint app/assets/scripts/**/*.js gulpfile.js updatedep.js --fix",
-    "test": "echo NO TESTS YET",
+    "test": "npm run lint && npm run build",
+    "clean": "gulp clean",
     "install": "bundle install"
   },
   "browserify": {
