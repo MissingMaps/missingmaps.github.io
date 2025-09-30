@@ -34,7 +34,7 @@ $mmYello: #fbda32;
 $mmGreen: #8bc544;
 $darkgrey: #606161;
 $lightgrey: #dbdbda;
-$border-grey: lighten($darkgrey, 40);
+$border-grey: color.scale($darkgrey, $lightness: 40%);
 $darkestgrey: #303030;
 
 $LB1: #f26c59;
@@ -803,12 +803,6 @@ input[type="text"]{
 .sectionheader{
   padding-bottom: 32px;
   padding-top: 32px;
-}
-
-.events-container {
-  .section-header {
-    color: #fff;
-  }
 }
 
 .contribute-base {

@@ -2,7 +2,7 @@
 
 ### Adding events
 
-Events are managed through a Google Form and Sheet.
+Events have been deprecated and no longer show on the site.
 
 ### Adding Blog Post
 
@@ -49,13 +49,13 @@ To set up the development environment for this website, you'll need to install t
 - Ruby and [Bundler](http://bundler.io/), preferably through something like [rvm](https://rvm.io/) (version in `.ruby-version` file)
 - Gulp
 ```
-$ gem install bundler  -v 2.4.3
-$ npm install -g gulp
-$ npm install --global gulp-cli
+$ gem install bundler -v 2.4.3
+$ npm install -g gulp-cli
 ```
 After these basic requirements are met, run the following commands in the website's folder:
 ```
 $ npm install
+$ bundle install
 ```
 Will also run `bundle install`
 

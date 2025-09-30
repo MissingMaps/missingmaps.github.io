@@ -1,6 +1,9 @@
 language: ruby
 rvm:
-  - 2.6.6
+  - 3.3
+env:uage: ruby
+rvm:
+  - 3.3.5
 env:
   global:
   - GH_REF=github.com/MissingMaps/missingmaps.github.io
@@ -15,9 +18,9 @@ before_script:
   - . $HOME/.nvm/nvm.sh
   - nvm install $TRAVIS_NODE_VERSION
   - nvm use $TRAVIS_NODE_VERSION
-  - npm install -g gulp
-  - gem install bundler -v 2.4.3
-  - npm install
+    - npm install -g gulp-cli
+  - gem install bundler -v 2.6.9
+  - bundle install
 script: gulp prod
 after_success:
   - "./.build_scripts/deploy.sh"

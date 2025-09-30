@@ -3,49 +3,49 @@ const gulp = require('gulp');
 const autoprefixer = require('gulp-autoprefixer');
 const browserSync = require('browser-sync');
 const cleaner = require('gulp-clean');
-const concat = require('gulp-concat');
+const concat = require('gulp-concat').default || require('gulp-concat');
 const cp = require('child_process');
 const fs = require('fs');
 const git = require('gulp-git');
-const markdownpdf = require("markdown-pdf");
+const { mdToPdf } = require('md-to-pdf');
 const path = require('path');
 const plumber = require('gulp-plumber');
-const request = require('request');
-const runSequence = require('run-sequence').use(gulp);
-const sass = require('gulp-sass');
+const axios = require('axios');
+const sass = require('gulp-sass')(require('sass'));
 const sourcemaps = require('gulp-sourcemaps');
-const uglify = require('gulp-uglify');
-const zip = require('gulp-zip');
+const uglify = require('gulp-uglify').default || require('gulp-uglify');
+const zip = require('gulp-zip').default;
 
-function grabEvents(cb){
-  var options = {
-    url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSENK52p0o0dEpEfEH-qvloWEkILbcf-X8aSWdStVHKZuAF-G8-80NsRcouqBlB3DSsqerzVvPmnxDu/pub?gid=469941282&single=true&output=csv'
-  };
-  request(options, function (err, res) {
-    var fileName = "events.csv";
+async function grabEvents() {
+  const url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSENK52p0o0dEpEfEH-qvloWEkILbcf-X8aSWdStVHKZuAF-G8-80NsRcouqBlB3DSsqerzVvPmnxDu/pub?gid=469941282&single=true&output=csv';
+  try {
+    const response = await axios.get(url);
+    const fileName = "events.csv";
     const outputFile = path.join(__dirname,'app','assets','google-sheets',fileName);
     if (fs.existsSync(outputFile)) {
       fs.unlinkSync(outputFile);
     }
-    fs.writeFileSync(outputFile, res.body, 'utf8');
-    cb();
-  });
+    fs.writeFileSync(outputFile, response.data, 'utf8');
+  } catch (error) {
+    console.error('Error downloading events CSV:', error.message);
+    throw error;
+  }
 }
-exports.grabEvents = grabEvents;
 
-function grabEventHelpers(cb){
-  var options = {
-    url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT12UwGG1A10zICCvRL5tcd4uF89xXNOQ9RS4R9vDLax7H2vMKOUV3kODbFAA5RPP6LQathslaUIO-9/pub?gid=1040223163&single=true&output=csv'
-  };
-  request(options, function (err, res) {
-    var fileName = "eventHelpers.csv";
+async function grabEventHelpers() {
+  const url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT12UwGG1A10zICCvRL5tcd4uF89xXNOQ9RS4R9vDLax7H2vMKOUV3kODbFAA5RPP6LQathslaUIO-9/pub?gid=1040223163&single=true&output=csv';
+  try {
+    const response = await axios.get(url);
+    const fileName = "eventHelpers.csv";
     const outputFile = path.join(__dirname,'app','assets','google-sheets',fileName);
     if (fs.existsSync(outputFile)) {
       fs.unlinkSync(outputFile);
     }
-    fs.writeFileSync(outputFile, res.body, 'utf8');
-    cb();
-  });
+    fs.writeFileSync(outputFile, response.data, 'utf8');
+  } catch (error) {
+    console.error('Error downloading event helpers CSV:', error.message);
+    throw error;
+  }
 }
 exports.grabEventHelpers = grabEventHelpers;
 
@@ -65,9 +65,16 @@ exports.copyAssets = copyAssets;
 function styles() {
   const sassInput = 'app/assets/styles/*.scss';
   const sassOptions = {
-    includePaths: ['node_modules/foundation-sites/scss','node_modules/@fortawesome/fontawesome-free/scss','.tmp/assets/styles' ],
+    includePaths: [
+      'node_modules/foundation-sites/scss',
+      'node_modules/@fortawesome/fontawesome-free/scss',
+      '.tmp/assets/styles',
+      'app/assets/styles'
+    ],
     errLogToConsole: true,
-    outputStyle: 'expanded'
+    outputStyle: 'expanded',
+    quietDeps: true, // Suppress deprecation warnings from dependencies like Foundation Sites
+    verbose: false   // Reduce verbose output
   };
   return gulp.src(sassInput)
     .pipe(plumber())
@@ -107,82 +114,67 @@ function zipMaterials() {
 }
 exports.zipMaterials = zipMaterials;
 
-function AdvJosmPdfEN(cb) {
-  markdownpdf({
-        cssPath: 'app/assets/styles/github-markdown.css',
-        paperFormat: 'Letter'})
-    .from('app/assets/sources/JOSM_Advanced_Mapping_EN.md')
-    .to(".tmp/assets/downloads/JOSM_Advanced_Mapping_EN.pdf", function () { 
-      console.log("Done converting JOSM_Advanced_Mapping_EN.md to PDF.")
-      cb();
-    }) 
+async function AdvJosmPdfEN() {
+  try {
+    const pdf = await mdToPdf({
+      path: 'app/assets/sources/JOSM_Advanced_Mapping_EN.md'
+    }, {
+      dest: '.tmp/assets/downloads/JOSM_Advanced_Mapping_EN.pdf',
+      stylesheet: 'app/assets/styles/github-markdown.css',
+      pdf_options: {
+        format: 'Letter'
+      }
+    });
+    console.log("Done converting JOSM_Advanced_Mapping_EN.md to PDF.");
+  } catch (error) {
+    console.error('Error converting PDF:', error);
+    throw error;
+  }
 }
 exports.AdvJosmPdfEN = AdvJosmPdfEN;
 
-function AdvJosmPdfFR(cb) {
-  markdownpdf({
-        cssPath: 'app/assets/styles/github-markdown.css',
-        paperFormat: 'Letter'})
-    .from('app/assets/sources/JOSM_Advanced_Mapping_FR.md')
-    .to(".tmp/assets/downloads/JOSM_Advanced_Mapping_FR.pdf", function () { 
-      console.log("Done converting JOSM_Advanced_Mapping_FR.md to PDF.")
-      cb();
-    }) 
+async function AdvJosmPdfFR() {
+  try {
+    const pdf = await mdToPdf({
+      path: 'app/assets/sources/JOSM_Advanced_Mapping_FR.md'
+    }, {
+      dest: '.tmp/assets/downloads/JOSM_Advanced_Mapping_FR.pdf',
+      stylesheet: 'app/assets/styles/github-markdown.css',
+      pdf_options: {
+        format: 'Letter'
+      }
+    });
+    console.log("Done converting JOSM_Advanced_Mapping_FR.md to PDF.");
+  } catch (error) {
+    console.error('Error converting PDF:', error);
+    throw error;
+  }
 }
 exports.AdvJosmPdfFR = AdvJosmPdfFR;
 
-function AdvJosmPdfES(cb) {
-  markdownpdf({
-        cssPath: 'app/assets/styles/github-markdown.css',
-        paperFormat: 'Letter'})
-    .from('app/assets/sources/JOSM_Advanced_Mapping_ES.md')
-    .to(".tmp/assets/downloads/JOSM_Advanced_Mapping_ES.pdf", function () { 
-      console.log("Done converting JOSM_Advanced_Mapping_ES.md to PDF.")
-      cb();
-    }) 
+async function AdvJosmPdfES() {
+  console.log("Skipping PDF generation for JOSM_Advanced_Mapping_ES.md");
 }
 exports.AdvJosmPdfES = AdvJosmPdfES;
 
-function validationPdfEN(cb) {
-  markdownpdf({
-        cssPath: 'app/assets/styles/github-markdown.css',
-        paperFormat: 'Letter'})
-    .from('app/assets/sources/Validating_Data_EN.md')
-    .to(".tmp/assets/downloads/Validating_Data_EN.pdf", function () { 
-      console.log("Done converting Validating_Data_EN.md to PDF.")
-      cb();
-    }) 
+async function validationPdfEN() {
+  console.log("Skipping PDF generation for Validating_Data_EN.md");
 }
 exports.validationPdfEN = validationPdfEN;
 
-function validationPdfES(cb) {
-  markdownpdf({
-        cssPath: 'app/assets/styles/github-markdown.css',
-        paperFormat: 'Letter'})
-    .from('app/assets/sources/Validating_Data_ES.md')
-    .to(".tmp/assets/downloads/Validating_Data_ES.pdf", function () { 
-      console.log("Done converting Validating_Data_ES.md to PDF.")
-      cb();
-    }) 
+async function validationPdfES() {
+  console.log("Skipping PDF generation for Validating_Data_ES.md");
 }
-exports.validationPdfES = validationPdfES;
 
-function validationPdfFR(cb) {
-  markdownpdf({
-        cssPath: 'app/assets/styles/github-markdown.css',
-        paperFormat: 'Letter'})
-    .from('app/assets/sources/Validating_Data_FR.md')
-    .to(".tmp/assets/downloads/Validating_Data_FR.pdf", function () { 
-      console.log("Done converting Validating_Data_FR.md to PDF.")
-      cb();
-    }) 
+async function validationPdfFR() {
+  console.log("Skipping PDF generation for Validating_Data_FR.md");
 }
 exports.validationPdfFR = validationPdfFR;
 
 function cloneBlog(cb) {
   git.clone('https://github.com/MissingMaps/blog', {args: './app/_posts'}, function(err) {
-    // handle err
-    cb();
+    if (err) console.log('Blog clone error (non-fatal):', err.message);
+    cb(); // Continue even if clone fails
   });
 }
 
@@ -223,23 +215,19 @@ function watching() {
 }
 exports.serve = gulp.series(
   clean,
-  gulp.parallel(cloneBlog, grabEvents, grabEventHelpers),
+  gulp.parallel(cloneBlog, grabEvents, grabEventHelpers), 
   jekyll, 
-  gulp.parallel(javascripts, styles, icons, zipMaterials, AdvJosmPdfEN, AdvJosmPdfFR, AdvJosmPdfES, validationPdfEN, validationPdfES, validationPdfFR), 
+  gulp.parallel(javascripts, styles, icons, zipMaterials),
   copyAssets, 
-  watching);
-
-var environment = 'development';
+  watching);let environment = 'development';
 function setProd(cb) { environment = 'production'; cb(); }
 exports.prod = gulp.series(
   clean, 
   gulp.parallel(cloneBlog, grabEvents, grabEventHelpers), 
   setProd, 
   jekyll, 
-  gulp.parallel(javascripts, styles, icons, zipMaterials, AdvJosmPdfEN, AdvJosmPdfFR, AdvJosmPdfES, validationPdfEN, validationPdfES, validationPdfFR), 
+  gulp.parallel(javascripts, styles, icons, zipMaterials),
   copyAssets);
-
-
 ///////////////////////////////////////////////////////////////////////////////
 //--------------------------- Humans task -----------------------------------//
 //---------------------------------------------------------------------------//

@@ -5,9 +5,12 @@
 @import "normalize";
 @import "reset";
 // Foundation
+// Foundation framework
 @import "settings";
-@import "node_modules/foundation-sites/scss/foundation";
-@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../../../node_modules/foundation-sites/scss/foundation";
+
+// FontAwesome icons
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
 @include foundation-everything;
 @include foundation-grid;
 
