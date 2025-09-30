@@ -3,19 +3,19 @@ Populates contribution statistics on landing page using
 the root Missing Maps API endpoint.
 */
 
-const API_URL = "https://stats.now.ohsome.org/api/stats/missingmaps";
+const API_URL = 'https://stats.now.ohsome.org/api/stats/missingmaps';
 
 /**
  * Fetches and updates Missing Maps statistics
  */
-async function fetchAndUpdateStats() {
+async function fetchAndUpdateStats () {
   try {
     const response = await fetch(API_URL);
-    
+
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
-    
+
     const data = await response.json();
     updateStatistics(data);
   } catch (error) {
@@ -29,9 +29,9 @@ async function fetchAndUpdateStats() {
  * Updates the statistics display on the page
  * @param {Object} stats - The statistics data from the API
  */
-function updateStatistics(stats) {
-  const categories = ["users", "edits", "buildings", "roads"];
-  
+function updateStatistics (stats) {
+  const categories = ['users', 'edits', 'buildings', 'roads'];
+
   categories.forEach(category => {
     const element = document.getElementById(`stats-${category}Count`);
     if (element && stats.result?.[category]) {
@@ -43,14 +43,14 @@ function updateStatistics(stats) {
 /**
  * Shows fallback statistics when API fails
  */
-function showFallbackStats() {
+function showFallbackStats () {
   const fallbackStats = {
     users: 300000,
     edits: 50000000,
     buildings: 40000000,
     roads: 2000000
   };
-  
+
   Object.entries(fallbackStats).forEach(([category, value]) => {
     const element = document.getElementById(`stats-${category}Count`);
     if (element) {

@@ -72,7 +72,7 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55969124-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+      const gtag = (...args) => { dataLayer.push(args); };
       gtag('js', new Date());
 
       gtag('config', 'UA-55969124-1');

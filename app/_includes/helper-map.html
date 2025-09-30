@@ -3,7 +3,9 @@
 <div id="helper-map-contents">
   <div class="row">
     <div class="columns">
-        <div><img src="{{ site.baseurl }}/assets/graphics/content/process/helper.svg" alt="{{site.data[locale].img-alt.helper}}"/></div>
+        <div><img src="{{ site.baseurl }}/assets/graphics/content/process/helper.svg" alt="{  const osmHtml = (username) => {
+    return `<a target="_blank" href="http://www.openstreetmap.org/user/${username}"><i class="fas fa-fw fa-user-circle" aria-hidden="true"></i></a>`;
+  };te.data[locale].img-alt.helper}}"/></div>
         <div class="sub-head">{{site.data[locale].helper-map.title}}</div>
         <div class="about-textbox" style="padding-bottom:20px;text-align:center;">
           <p style="text-align: center">{{site.data[locale].helper-map.description}}</p><br>
@@ -75,8 +77,8 @@
 
   <script>
     $(document).foundation();
-    $(document).ready(function() {
-      var languageLookup = {
+    $(document).ready(() => {
+      const languageLookup = {
           "aa": "Afar",
           "ab": "Abkhazian",
           "ae": "Avestan",
@@ -264,28 +266,28 @@
         }
 
         // use provided contact info to make contact icons/links
-        var contactInfo = function(email,phone,skype,twitter) {
+        const contactInfo = (email, phone, skype, twitter) => {
           // array holding person's various contact info
-          var cardContact = []
+          const cardContact = [];
           // conditional statements, pushing to array contact info provided by person
             if(email.replace(/ /g,'').length > 0) {
-              var emailHTML = '<i class="fas fa-fw fa-envelope" aria-hidden="true"></i><a href="mailto:' + email + '">&nbsp; ' + email  + '</a>';
-              cardContact.push(emailHTML)
+              const emailHTML = `<i class="fas fa-fw fa-envelope" aria-hidden="true"></i><a href="mailto:${email}">&nbsp; ${email}</a>`;
+              cardContact.push(emailHTML);
             }
             if(phone.replace(/ /g,'').length > 0) {
-              var phoneHTML = '<i class="fas fa-fw fa-phone" aria-hidden="true"></i>&nbsp; ' + phone;
-              cardContact.push(phoneHTML)
+              const phoneHTML = `<i class="fas fa-fw fa-phone" aria-hidden="true"></i>&nbsp; ${phone}`;
+              cardContact.push(phoneHTML);
             }
             if(skype.replace(/ /g,'').length > 0) {
-              var skypeHTML = '<i class="fab fa-fw fa-skype" aria-hidden="true" ></i>&nbsp; ' + skype;
-              cardContact.push(skypeHTML)
+              const skypeHTML = `<i class="fab fa-fw fa-skype" aria-hidden="true" ></i>&nbsp; ${skype}`;
+              cardContact.push(skypeHTML);
             }
             if(twitter.replace(/ /g,'').length > 0) {
-              var twitterHTML = '<i class="fab fa-fw fa-twitter" aria-hidden="true"></i><a target="_blank" href="https://twitter.com/' + twitter + '">&nbsp; ' + twitter + '</a>';
-              cardContact.push(twitterHTML)
+              const twitterHTML = `<i class="fab fa-fw fa-twitter" aria-hidden="true"></i><a target="_blank" href="https://twitter.com/${twitter}">&nbsp; ${twitter}</a>`;
+              cardContact.push(twitterHTML);
             }
           return cardContact.join(" </br>");
-        }
+        };
 
   var osmHtml = function(username) {
     return '<a target="_blank" href="http://www.openstreetmap.org/user/' + username + '"><i class="fas fa-fw fa-user-circle" aria-hidden="true"></i></a>';
@@ -293,7 +295,7 @@
 
 
   // get the contact data from the google spreadhsheet
-  var publicSpreadsheetUrl = '{{ site.baseurl }}/assets/google-sheets/eventHelpers.csv';
+  const publicSpreadsheetUrl = '{{ site.baseurl }}/assets/google-sheets/eventHelpers.csv';
   function init() {
     Papa.parse(publicSpreadsheetUrl, {
    		download: true,
@@ -305,42 +307,42 @@
   }
 
   // column headers from Google sheet holding contact data
-  var nameKey = 'Name';
-  var emailKey = 'Email';
-  var phoneKey = 'Phone';
-  var skypeKey = 'Skype';
-  var twitterKey = 'Twitter';
-  var osmKey = 'OSM username';
-  var languageKey = 'Languages';
-  var supportKey = 'Support type';
-  var locationKey = 'Location';
-  var noteKey = 'Notes';
+  const nameKey = 'Name';
+  const emailKey = 'Email';
+  const phoneKey = 'Phone';
+  const skypeKey = 'Skype';
+  const twitterKey = 'Twitter';
+  const osmKey = 'OSM username';
+  const languageKey = 'Languages';
+  const supportKey = 'Support type';
+  const locationKey = 'Location';
+  const noteKey = 'Notes';
 
-  function supportClass(value) {
+  const supportClass = (value) => {
     return 'help_' + value.replace(/\s/g,'').toLowerCase();
-  }
+  };
 
   function showInfo(data) {
     validMarkers = [];
     allLanguages = [];
     // add a LatLng object and an ID to each item in the dataset
-    data.forEach(function(d, i) {
-      var coordinates = d[locationKey].replace(/\s/g,'').split('/');
+    data.forEach((d, i) => {
+      const coordinates = d[locationKey].replace(/\s/g,'').split('/');
       // TODO: improve the process for confirming a valid latLng
       if(coordinates.length == 2) {
-        coordinates[0] = parseFloat(coordinates[0])
-        coordinates[1] = parseFloat(coordinates[1])
+        coordinates[0] = parseFloat(coordinates[0]);
+        coordinates[1] = parseFloat(coordinates[1]);
         if(!isNaN(coordinates[0]) && !isNaN(coordinates[1])) {
           d.LatLng = new L.LatLng(parseFloat(coordinates[0]), parseFloat(coordinates[1]));
           d.id = i;
           d.inside = false; // this will keep track of if a person is "In person" and inside the map bounds
           d[supportKey] = d[supportKey].split(',');
-          $.each(d[supportKey], function(i, item) {
+          $.each(d[supportKey], (i, item) => {
             d[supportKey][i] = item.trim();
-          })
+          });
           d[languageKey] = d[languageKey].replace(/\s/g,'').toLowerCase().split(';');
           validMarkers.push(d);
-          $.each(d[languageKey], function(i,lang){
+          $.each(d[languageKey], (i, lang) => {
             if($.inArray(lang, allLanguages) == -1) {
               if(lang !== "") {
                 allLanguages.push(lang);
@@ -352,9 +354,9 @@
     });
 
     allLanguages.sort();
-    $.each(allLanguages, function(i, lang) {
+    $.each(allLanguages, (i, lang) => {
       if(languageLookup[lang] !== undefined) {
-        var html = '<option value="' + lang + '">' + languageLookup[lang] + '</option>';
+        const html = `<option value="${lang}">${languageLookup[lang]}</option>`;
         $('#language-filter').append(html);
       }
     });
@@ -370,22 +372,22 @@
     	maxZoom: 19
     }).addTo(map);
     
-    validMarkers.forEach(function(d, index){
-      var marker = L.marker(d.LatLng)
-      var lang = [];
-      $.each(d[languageKey], function(i, item){ lang.push(languageLookup[item]); });
-      var support = [];
-      $.each(d[supportKey], function(i, item) {
-        support.push('<span class="' + supportClass(item) + '">' + item + '</span>');
+    validMarkers.forEach((d, index) => {
+      const marker = L.marker(d.LatLng);
+      const lang = [];
+      $.each(d[languageKey], (i, item) => { lang.push(languageLookup[item]); });
+      const support = [];
+      $.each(d[supportKey], (i, item) => {
+        support.push(`<span class="${supportClass(item)}">${item}</span>`);
       });
-      var supportHtml = support.join(', ');
-      var htmlpop = '<div><b>' + osmHtml(d[osmKey]) + '&nbsp; ' + d[nameKey] + '</b></div>' +
-          '<div>' +
-          supportHtml + '<br>' +
-          contactInfo(d[emailKey], d[phoneKey], d[skypeKey], d[twitterKey]) + '<br>' +
-          '<i class="fa fa-fw fa-language" aria-hidden="true"></i>&nbsp; ' + lang.join('; ') + '<br>' +
-          '<em>' + d[noteKey] + '</em>' +
-          '</div>';
+      const supportHtml = support.join(', ');
+      const htmlpop = `<div><b>${osmHtml(d[osmKey])}&nbsp; ${d[nameKey]}</b></div>
+          <div>
+          ${supportHtml}<br>
+          ${contactInfo(d[emailKey], d[phoneKey], d[skypeKey], d[twitterKey])}<br>
+          <i class="fa fa-fw fa-language" aria-hidden="true"></i>&nbsp; ${lang.join('; ')}<br>
+          <em>${d[noteKey]}</em>
+          </div>`;
       marker.bindPopup(htmlpop);
       marker.addTo(map);
     });
@@ -441,12 +443,12 @@
     // // set the starting locations of the markers
     // updatemarker();
 
-    filter = function(){
+    const filter = () => {
 
-      var filteredData = validMarkers;
+      let filteredData = validMarkers;
 
-      var bounds = map.getBounds();
-      filteredData = filteredData.filter(function(d) {
+      const bounds = map.getBounds();
+      filteredData = filteredData.filter((d) => {
         d.inside = bounds.contains(d.LatLng);
         if($.inArray('Remote', d[supportKey]) !== -1) {
           // if they offer 'Remote', keep them in the contact cards
@@ -459,15 +461,15 @@
 
       });
 
-      var language = $('#language-filter').find(':selected').val();
-      var type = $('#type-filter').find(':selected').val();
+      const language = $('#language-filter').find(':selected').val();
+      const type = $('#type-filter').find(':selected').val();
       if(language !== 'all') {
-        filteredData = filteredData.filter(function(d) {
+        filteredData = filteredData.filter((d) => {
           return ($.inArray(language, d[languageKey]) !== -1);
         });
       }
       if(type !== 'all') {
-        filteredData = filteredData.filter(function(d) {
+        filteredData = filteredData.filter((d) => {
           // return ($.inArray(type, d[supportKey]) !== -1);
           if(type === 'In Person') {
             return (($.inArray(type, d[supportKey]) !== -1) && d.inside);
@@ -478,24 +480,24 @@
       }
       toggleMarkerVis(language, type);
       drawCards(filteredData);
-    }
+    };
 
-    drawCards = function(list) {
+    const drawCards = (list) => {
       if(list.length == 0){
         $('#no-match').show();
       } else {
         $('#no-match').hide();
       }
-      var contactCards = d3.select('#contact-cards').selectAll('div.column').data(list, function(d) { return d.id; });
+      const contactCards = d3.select('#contact-cards').selectAll('div.column').data(list, (d) => { return d.id; });
       // UPDATE
       contactCards.each(function(d) {
         // this and some similar stuff a little further down is a messy bit of code
         // that if someone is offering both remote and in person support and their marker
         // is outside the current map extent, then the contact card will only show the remote
-        var support = [];
-        $.each(d[supportKey], function(i, item) {
+        const support = [];
+        $.each(d[supportKey], (i, item) => {
           if( (item === 'Remote') || (d.inside === true && item === 'In Person')) {
-            support.push('<span class="' + supportClass(item) + '">' + item + '</span>');
+            support.push(`<span class="${supportClass(item)}">${item}</span>`);
           }
         });
         d3.select(this).select('span.support-types').html(support.join(', '));
@@ -504,36 +506,35 @@
       // ENTER
       contactCards.enter().append('div')
           .attr('class', 'column')
-          .html(function(d) {
-              var lang = [];
-              var support = [];
-              $.each(d[supportKey], function(i, item) {
+          .html((d) => {
+              const lang = [];
+              const support = [];
+              $.each(d[supportKey], (i, item) => {
                 if( (item === 'Remote') || (d.inside === true && item === 'In Person')) {
-                  support.push('<span class="' + supportClass(item) + '">' + item + '</span>');
+                  support.push(`<span class="${supportClass(item)}">${item}</span>`);
                 }
               });
-              $.each(d[languageKey], function(i, item) { lang.push(languageLookup[item]); });
-              var html = '<div class="card" data-equalizer-watch>' +
-                    '<div class="card-section">' +
-                      '<h5>' + osmHtml(d[osmKey]) + '&nbsp; ' + d[nameKey] + '</h5>' +
-                      '<p><small><span class="support-types">' + support.join(', ') + '</span><br>' +
-                      // contactInfo(d[emailKey], d[phoneKey], d[skypeKey], d[twitterKey]) + '<br>' +
-                      '<i class="fas fa-fw fa-language" aria-hidden="true"></i>&nbsp; ' + lang.join('; ') + '<br>' +
-                      '<em>' + d[noteKey] + '</em>' +
-                      '</small></p>' +
-                    '</div>' +
-                  '</div>';
+              $.each(d[languageKey], (i, item) => { lang.push(languageLookup[item]); });
+              const html = `<div class="card" data-equalizer-watch>
+                    <div class="card-section">
+                      <h5>${osmHtml(d[osmKey])}&nbsp; ${d[nameKey]}</h5>
+                      <p><small><span class="support-types">${support.join(', ')}</span><br>
+                      <i class="fas fa-fw fa-language" aria-hidden="true"></i>&nbsp; ${lang.join('; ')}<br>
+                      <em>${d[noteKey]}</em>
+                      </small></p>
+                    </div>
+                  </div>`;
               return html;
-            })
+            });
       // EXIT
       contactCards.exit().remove();
 
       $('#contact-cards').foundation('destroy');
       new Foundation.Equalizer($('#contact-cards'));
 
-    }
+    };
 
-    toggleMarkerVis = function(language, type) {
+    const toggleMarkerVis = (language, type) => {
       // mappedContacts.each(function(d) {
       //   if( (($.inArray(language, d[languageKey]) !== -1) || (language == 'all')) && ( ($.inArray(type, d[supportKey]) !== -1) || (type == 'all'))   ){
       //     d3.select(this).classed('no-language', false);
@@ -541,7 +542,7 @@
       //     d3.select(this).classed('no-language', true);
       //   }
       // });
-    }
+    };
 
 
   // when map view changes check what markers are visible in the extent
@@ -551,19 +552,19 @@
   // // when map view changes adjust the locations of the markers
   // map.on('zoom move viewreset', updatemarker);
 
-  $('#language-filter').change(function(){
+  $('#language-filter').change(() => {
     filter();
-  })
-  $('#type-filter').change(function(){
+  });
+  $('#type-filter').change(() => {
     filter();
-  })
+  });
 
   filter();
 
   }
 
   // start things up
-  window.addEventListener('DOMContentLoaded', init)
+  window.addEventListener('DOMContentLoaded', init);
   });
   </script>
 

@@ -11,6 +11,10 @@
     "url": "https://www.missingmaps.org"
   },
   "license": "BSD-3-Clause",
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
   "bugs": {
     "url": ""
   },
@@ -18,7 +22,8 @@
   "scripts": {
     "postinstall": "[ -f _config-dev.yml ] || echo 'domain: http://localhost:3000\npath_prefix:' > _config-dev.yml",
     "serve": "gulp serve",
-    "lint": "semistandard app/assets/scripts/**/*.js",
+    "lint": "eslint app/assets/scripts/**/*.js gulpfile.js updatedep.js",
+    "lint:fix": "eslint app/assets/scripts/**/*.js gulpfile.js updatedep.js --fix",
     "test": "echo NO TESTS YET",
     "install": "bundle install"
   },
@@ -29,10 +34,14 @@
       "envify"
     ]
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "eslint": "^8.57.1"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.6.0",
     "async": "^3.2.4",
+    "axios": "^1.12.0",
     "browser-sync": "^3.0.4",
     "chai": "^4.2.0",
     "colors": "^1.4.0",
@@ -46,13 +55,12 @@
     "gulp-git": "^2.10.0",
     "gulp-plumber": "^1.2.1",
     "gulp-sass": "^5.1.0",
-    "sass": "^1.77.8",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
     "gulp-zip": "^5.0.1",
     "js-yaml": "^3.13.1",
     "lodash": "^4.17.21",
     "md-to-pdf": "^5.2.4",
-    "axios": "^1.12.0"
+    "sass": "^1.77.8"
   }
 }
