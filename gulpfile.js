@@ -16,23 +16,6 @@ const sourcemaps = require('gulp-sourcemaps');
 const uglify = require('gulp-uglify').default || require('gulp-uglify');
 const zip = require('gulp-zip').default;
 
-async function grabEvents() {
-  const url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSENK52p0o0dEpEfEH-qvloWEkILbcf-X8aSWdStVHKZuAF-G8-80NsRcouqBlB3DSsqerzVvPmnxDu/pub?gid=469941282&single=true&output=csv';
-  try {
-    const response = await axios.get(url);
-    const fileName = "events.csv";
-    const outputFile = path.join(__dirname,'app','assets','google-sheets',fileName);
-    if (fs.existsSync(outputFile)) {
-      fs.unlinkSync(outputFile);
-    }
-    fs.writeFileSync(outputFile, response.data, 'utf8');
-  } catch (error) {
-    console.error('Error downloading events CSV:', error.message);
-    throw error;
-  }
-}
-exports.grabEvents = grabEvents;
-
 async function grabEventHelpers() {
   const url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT12UwGG1A10zICCvRL5tcd4uF89xXNOQ9RS4R9vDLax7H2vMKOUV3kODbFAA5RPP6LQathslaUIO-9/pub?gid=1040223163&single=true&output=csv';
   try {
@@ -52,7 +35,7 @@ exports.grabEventHelpers = grabEventHelpers;
 
 
 function clean() {
-  return gulp.src(['_site', '.tmp', 'app/_data/events', 'app/_posts'], {read: false, allowEmpty: true})
+  return gulp.src(['_site', '.tmp', 'app/_posts'], {read: false, allowEmpty: true})
     .pipe(cleaner());
 }
 exports.clean = clean;
@@ -224,7 +207,7 @@ function watching() {
 }
 exports.serve = gulp.series(
   clean,
-  gulp.parallel(cloneBlog, grabEvents, grabEventHelpers),
+  gulp.parallel(cloneBlog, grabEventHelpers),
   jekyll, 
   gulp.parallel(javascripts, styles, icons, zipMaterials), 
   copyAssets, 
@@ -234,7 +217,7 @@ let environment = 'development';
 function setProd(cb) { environment = 'production'; cb(); }
 exports.prod = gulp.series(
   clean, 
-  gulp.parallel(cloneBlog, grabEvents, grabEventHelpers), 
+  gulp.parallel(cloneBlog, grabEventHelpers), 
   setProd, 
   jekyll, 
   gulp.parallel(javascripts, styles, icons, zipMaterials), 
