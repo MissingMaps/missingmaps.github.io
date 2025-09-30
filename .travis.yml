@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 3.2.2
+  - 3.3.9
 env:
   global:
   - GH_REF=github.com/MissingMaps/missingmaps.github.io
