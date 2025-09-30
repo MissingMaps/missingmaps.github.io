@@ -1,19 +1,29 @@
-// Charset
+// Main stylesheet for Missing Maps
+// Modern SCSS with organized imports
+
+// Character encoding
 @charset "UTF-8";
 
-// Reset and normalize
+// Reset and normalize (load first)
 @import "normalize";
 @import "reset";
-// Foundation
+
+// Foundation framework
 @import "settings";
-@import "node_modules/foundation-sites/scss/foundation";
-@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../../../node_modules/foundation-sites/scss/foundation";
+
+// FontAwesome icons
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+
+// Foundation mixins and grid
 @include foundation-everything;
 @include foundation-grid;
 
-// Page specific styles
+// Custom styles (load after foundation)
 @import "normalize-opentype";
 @import "base";
+
+// Page-specific styles
 @import "landing";
 @import "about";
 @import "blog";

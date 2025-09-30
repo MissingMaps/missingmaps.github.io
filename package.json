@@ -1,7 +1,7 @@
 {
   "name": "missingmaps",
   "version": "0.2.0",
-  "description": "",
+  "description": "Missing Maps project website",
   "repository": {
     "type": "git",
     "url": "https://github.com/MissingMaps/missingmaps.github.io.git"
@@ -16,7 +16,7 @@
   },
   "homepage": "",
   "scripts": {
-    "postinstall": "[ -f _config-dev.yml ] || echo 'domain: http://localhost:3000\npath_prefix:' > _config-dev.yml",
+    "postinstall": "[ -f _config-dev.yml ] || echo 'domain: http://localhost:3000\\npath_prefix:' > _config-dev.yml",
     "serve": "gulp serve",
     "lint": "semistandard app/assets/scripts/**/*.js",
     "test": "echo NO TESTS YET",
@@ -29,30 +29,31 @@
       "envify"
     ]
   },
-  "devDependencies": {},
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.13.0",
-    "async": "^3.2.4",
-    "browser-sync": "^2.27.11",
-    "chai": "^4.2.0",
+    "@fortawesome/fontawesome-free": "^7.0.1",
+    "async": "^3.2.6",
+    "axios": "^1.7.7",
+    "browser-sync": "^3.0.3",
+    "chai": "^6.2.0",
     "colors": "^1.4.0",
-    "foundation-sites": "^6.6.1",
-    "glob": "^7.1.6",
-    "glob-all": "^3.2.1",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
+    "foundation-sites": "^6.8.1",
+    "glob": "^11.0.0",
+    "glob-all": "^3.3.1",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^10.0.0",
     "gulp-clean": "^0.4.0",
     "gulp-concat": "^2.6.1",
-    "gulp-git": "^2.10.0",
+    "gulp-git": "^2.10.1",
     "gulp-plumber": "^1.2.1",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5",
+    "gulp-sass": "^6.0.1",
+    "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify": "^3.0.2",
-    "gulp-zip": "^5.0.1",
-    "js-yaml": "^3.13.1",
+    "gulp-zip": "^6.0.0",
+    "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",
-    "markdown-pdf": "^10.0.0",
-    "request": "^2.88.2",
-    "run-sequence": "^2.2.1"
+    "sass": "^1.80.6"
+  },
+  "devDependencies": {
+    "md-to-pdf": "^5.2.4"
   }
 }

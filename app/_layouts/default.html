@@ -1,16 +1,28 @@
 {% comment %}Getting the locale from the url{% endcomment %}{% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}{% unless site.authorized_locales contains locale %}{% assign locale = site.default_locale %}{% endunless %}
 
 <!DOCTYPE html>
-<!--[if lt IE 10]> <html class="lt-ie10 no-js"  lang="{{locale}}"> <![endif]-->
-<!--[if gt IE 9]><!--> <html class="no-js" lang="{{locale}}"> <!--<![endif]-->
+<html class="no-js" lang="{{locale}}">
 
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <!-- Modern viewport and compatibility meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no">
+    
+    <!-- Page title -->
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    
+    <!-- SEO and social meta tags -->
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}Putting the World's Vulnerable People on the Map{% endif %}">
+    <meta name="author" content="Missing Maps">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph meta tags -->
+    <meta property="og:title" content="Missing Maps">
+    <meta property="og:description" content="Putting the World's Vulnerable People on the Map">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:image" content="{{ site.url }}/assets/graphics/missingmaps-social.png">
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
@@ -20,10 +32,13 @@
     <link rel="author" type="text/plain" href="humans.txt" />
 
 
-    <link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lato:400|Hind:700,300,600' rel='stylesheet' type='text/css'>
+    <!-- Modern Google Fonts preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Lato:wght@400&family=Hind:wght@300;600;700&display=swap" rel="stylesheet">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <!-- Modern Modernizr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/3.12.0/modernizr.min.js" integrity="sha512-i2wE/BkTqGZ0Dv4MZEvaFG2T3DAmh7aZ7a1UlBkUt7LCMkD9q+kJSE9RfKXHD/5pSQy5xLMB7LoAAk4o2E79g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <link rel="apple-touch-icon" sizes="57x57" href="/assets/graphics/favicon/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="57x57" href="/assets/graphics/favicon/apple-touch-icon-57x57.png">
@@ -53,7 +68,6 @@
   <meta name="twitter:creator" content="@themissingmaps" >
   <meta name="twitter:image" content="http://i.imgur.com/sSUhfmc.png" >
 
-  {% feed_meta %}
   </head>
 
   <body>

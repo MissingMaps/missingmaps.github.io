@@ -1,8 +1,17 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.0"
-# gem 'sass', '~>3.4.21'
-# gem 'sass-css-importer', '~>1.0.0.beta.0'
-# gem "i18n", "0.7.0"
-gem 'jekyll-feed'
-gem 'jekyll-sitemap'
+# Specify Ruby version
+ruby "3.3.9"
+
+# Jekyll and plugins
+gem "jekyll", "~> 4.4"
+gem "jekyll-feed", "~> 0.17"
+gem "jekyll-sitemap", "~> 1.4"
+
+# Additional gems for compatibility
+gem "webrick", "~> 1.7"
+gem "rexml", "~> 3.2"
+
+# For CSV functionality (if needed by the site)
+gem "csv", "~> 3.2"
+gem "base64", "~> 0.1"
