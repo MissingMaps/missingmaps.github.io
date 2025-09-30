@@ -1,3 +1,5 @@
+@use "sass:color";
+
 // IE < 11
 // Don't delete.
 .lt-ie10 {
@@ -19,7 +21,7 @@
 
 /*----------------------------------------------*/
 /*Variables*/
-/*----------------------------------------------*/
+/*------------------------------------------  color: color.adjust($mmGreen, $lightness: 10%);---*/
 
 $mmred: #e23d3d;
 $mmgreen: #8BBF3F;
@@ -71,8 +73,8 @@ $ButtonColor: $DataColor;
 /*----------------------------------------------*/
 $text-color: $darkgrey;
 $border-color: $darkgrey;
-$border-color-darken: darken($border-color, 5%);
-$border-color-lighten: lighten($border-color, 5%);
+$border-color-darken: color.adjust($border-color, $lightness: -5%);
+$border-color-lighten: color.adjust($border-color, $lightness: 5%);
 
 /*----------------------------------------------*/
 /*Fixing Default CSS*/
@@ -113,11 +115,11 @@ body{
 }
 
 ::-moz-selection { /* Code for Firefox */
-    background: desaturate(lighten($mmYello, 24), 20);
+    background: desaturate(color.adjust($mmYello, $lightness: 24%), 20%);
 }
 
 ::selection {
-    background: desaturate(lighten($mmYello, 24), 20);
+    background: desaturate(color.adjust($mmYello, $lightness: 24%), 20%);
 }
 
 .centerme{

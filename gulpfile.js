@@ -3,7 +3,7 @@ const gulp = require('gulp');
 const autoprefixer = require('gulp-autoprefixer');
 const browserSync = require('browser-sync');
 const cleaner = require('gulp-clean');
-const concat = require('gulp-concat').default || require('gulp-concat');
+const concat = require('gulp-concat');
 const cp = require('child_process');
 const fs = require('fs');
 const git = require('gulp-git');
@@ -13,8 +13,8 @@ const plumber = require('gulp-plumber');
 const axios = require('axios');
 const sass = require('gulp-sass')(require('sass'));
 const sourcemaps = require('gulp-sourcemaps');
-const uglify = require('gulp-uglify').default || require('gulp-uglify');
-const zip = require('gulp-zip').default;
+const uglify = require('gulp-uglify');
+const zip = require('gulp-zip');
 
 async function grabEvents() {
   const url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSENK52p0o0dEpEfEH-qvloWEkILbcf-X8aSWdStVHKZuAF-G8-80NsRcouqBlB3DSsqerzVvPmnxDu/pub?gid=469941282&single=true&output=csv';
@@ -74,7 +74,8 @@ function styles() {
     errLogToConsole: true,
     outputStyle: 'expanded',
     quietDeps: true, // Suppress deprecation warnings from dependencies like Foundation Sites
-    verbose: false   // Reduce verbose output
+    verbose: false,  // Reduce verbose output
+    silenceDeprecations: ['legacy-js-api', 'import', 'global-builtin', 'color-functions', 'slash-div']
   };
   return gulp.src(sassInput)
     .pipe(plumber())
