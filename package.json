@@ -46,7 +46,7 @@
     "gulp-git": "^2.10.1",
     "gulp-plumber": "^1.2.1",
     "gulp-sass": "^6.0.1",
-    "gulp-sourcemaps": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
     "gulp-zip": "^6.0.0",
     "js-yaml": "^4.1.0",
