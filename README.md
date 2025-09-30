@@ -45,55 +45,112 @@ If the Jeykll build is failing when parsing one of the `/app/_data/*.yml` files,
 ### Environment
 To set up the development environment for this website, you'll need to install the following on your system:
 
-- [Node and npm](http://nodejs.org/) (version in `.nvmrc` file - currently Node.js 20+)
-- Ruby and [Bundler](http://bundler.io/), preferably through something like [rvm](https://rvm.io/) (version in `.ruby-version` file)
-- Gulp
+- **Node.js and npm** (version 20+ LTS - see `.nvmrc` file)
+- **Ruby** (version 3.3+ - see `.ruby-version` file) and [Bundler](http://bundler.io/)
+  - Recommended: Install via [rbenv](https://github.com/rbenv/rbenv) or [rvm](https://rvm.io/)
 
+**Global dependencies:**
 ```bash
-$ gem install bundler -v 2.6.9
-$ npm install -g gulp-cli
+$ gem install bundler
+$ npm install -g gulp-cli  # Optional - npm scripts work without global gulp
 ```
 
-After these basic requirements are met, run the following commands in the website's folder:
+**Project setup:**
 ```bash
-$ npm install
-$ bundle install
+$ npm install    # Installs Node.js dependencies and automatically runs bundle install
+$ bundle install # Installs Ruby gems (if not already run by npm install)
 ```
 
-If you get a `jekyll-4.0.0 requires rubygems version >= 2.7.0, which is incompatible with the current version` error then try running: `gem update --system`
+**Version managers (recommended):**
+```bash
+# For Node.js version management
+$ nvm use        # Uses version specified in .nvmrc
+
+# For Ruby version management  
+$ rbenv install  # Installs version specified in .ruby-version
+$ rbenv shell    # Activates the correct Ruby version
+```
+
+If you encounter a `jekyll-4.0.0 requires rubygems version >= 2.7.0` error, try: `gem update --system`
 
 ### Getting started
 
+To build and serve the site locally with all assets:
+
 ```bash
 $ npm run serve
-# or
-$ gulp serve
 ```
-Compiles the compass files, javascripts, and launches the server making the site available at `http://localhost:3000/`
-The system will watch files and execute tasks whenever one of them changes.
-The site will automatically refresh since it is bundled with livereload.
 
-### Other commands
+This command will:
+1. **Clean** previous builds
+2. **Clone blog posts** from the blog repository
+3. **Fetch events** data and helpers
+4. **Build Jekyll** site with both `_config.yml` and `_config-dev.yml`
+5. **Compile JavaScript** and process all scripts
+6. **Process CSS/Styles** with modern dependencies
+7. **Generate icons** and optimize images
+8. **Create downloadable materials** (zip files)
+9. **Copy assets** to the build directory
+10. **Start Browsersync** server with file watching
 
-Build for production:
+The site will be available at:
+- **Primary (Browsersync)**: `http://localhost:3000` - *Recommended for development*
+- **Browsersync UI**: `http://localhost:3001` - Controls and sync options
+- **Jekyll only**: `http://127.0.0.1:4000` - Basic Jekyll server
+
+The system automatically watches files and rebuilds when changes are detected. The site will auto-refresh in your browser.
+
+### Manual asset building
+
+If you need to run specific build steps manually:
+
+**Build all assets for production:**
 ```bash
 $ npm run build
-# or
-$ gulp prod
+# Equivalent to: gulp prod
 ```
 
-Clean the compiled site:
+**Clean compiled assets:**
 ```bash
 $ npm run clean
-# or  
-$ gulp clean
+# Equivalent to: gulp clean
 ```
 
-Run tests and linting:
+**Development build (same as serve but without server):**
+```bash
+$ npm run build:dev
+# Equivalent to: gulp serve (without server)
+```
+
+### Code quality and testing
+
+**Run full test suite:**
 ```bash
 $ npm test
-$ npm run lint
+# Runs linting + production build to verify everything works
 ```
+
+**Lint JavaScript code:**
+```bash
+$ npm run lint          # Check for issues
+$ npm run lint:fix      # Auto-fix issues where possible
+```
+
+### Troubleshooting
+
+**Assets not loading properly:**
+- Make sure you ran `npm run serve` (not just Jekyll)
+- Check that both Gulp and Jekyll servers are running
+- Use `http://localhost:3000` (Browsersync) instead of `http://127.0.0.1:4000` (Jekyll only)
+
+**Build failures:**
+- Try `npm run clean` then `npm run serve` to start fresh
+- Ensure Node.js 20+ and Ruby 3.3+ are installed
+- Check that all dependencies are up to date: `npm install && bundle install`
+
+**Jekyll warnings about missing gems:**
+- Run `bundle install` to ensure all Ruby gems are installed
+- Check `.ruby-version` and use the correct Ruby version
 
 ## CI/CD
 
