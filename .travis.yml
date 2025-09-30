@@ -20,7 +20,7 @@ before_script:
   - nvm install $TRAVIS_NODE_VERSION
   - nvm use $TRAVIS_NODE_VERSION
   - npm install -g gulp-cli
-  - gem install bundler -v 2.4.22
+  - gem install bundler -v 2.6.9
   - bundle install
   - npm install
 
