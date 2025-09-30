@@ -39,9 +39,7 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: |
-          npm ci
-          npm install -g gulp-cli
+        run: npm ci
 
       - name: Run tests
         if: ${{ !inputs.skip_tests }}
@@ -49,13 +47,13 @@ jobs:
 
       - name: Build for staging
         if: ${{ inputs.environment == 'staging' }}
-        run: gulp serve --build-only
+        run: npm run build:dev
         env:
           JEKYLL_ENV: development
 
       - name: Build for production
         if: ${{ inputs.environment == 'production' }}
-        run: gulp prod
+        run: npm run build
         env:
           JEKYLL_ENV: production
 

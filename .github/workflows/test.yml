@@ -27,14 +27,11 @@ jobs:
       - name: Install Node.js dependencies
         run: npm ci
 
-      - name: Install Gulp CLI
-        run: npm install -g gulp-cli
-
       - name: Lint JavaScript
         run: npm run lint
 
       - name: Test build process
-        run: gulp prod
+        run: npm run build
         env:
           JEKYLL_ENV: production
 
