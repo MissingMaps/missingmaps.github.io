@@ -1,15 +1,10 @@
-console.log('🚀 Events.js loading...');
-
 // Simple constants
 const EVENTS_JSON_URL = '/assets/data/events.json';
 
 // Simple build function - 2019 style
 const buildEvents = (events) => {
-  console.log('📋 Building', events.length, 'events...');
-
   const eventList = document.getElementById('eventList');
   if (!eventList) {
-    console.error('❌ No eventList found!');
     return;
   }
 
@@ -23,8 +18,6 @@ const buildEvents = (events) => {
 
   // Process each event using old template style in Foundation cards
   events.forEach((event, _index) => {
-    console.log('📅 Processing:', event.name);
-
     try {
       // Parse date with Luxon
       const startDate = luxon.DateTime.fromISO(event.date.start);
@@ -115,9 +108,7 @@ const buildEvents = (events) => {
 			`;
 
       eventList.appendChild(eventContainer);
-      console.log('✅ Added event:', event.name);
     } catch (error) {
-      console.error('❌ Error processing event:', event.name, error);
       // Extract event ID for join link even in error case
       const urlParts = event.url.split('/').filter(part => part.length > 0);
       const eventId = urlParts[urlParts.length - 1];
@@ -155,8 +146,6 @@ const buildEvents = (events) => {
       eventList.appendChild(simpleContainer);
     }
   });
-
-  console.log('✅ All events built with Foundation cards!');
 };
 
 // Show last updated timestamp
@@ -165,8 +154,6 @@ const showLastUpdated = (buildTime) => {
     const lastUpdate = luxon.DateTime.fromISO(buildTime);
     const now = luxon.DateTime.now();
     const hoursSinceUpdate = now.diff(lastUpdate, 'hours').hours;
-
-    console.log(`📅 Events last updated: ${lastUpdate.toRelative()} (${hoursSinceUpdate.toFixed(1)} hours ago)`);
 
     // Only show visual indicator if data is getting old (more than 12 hours)
     if (hoursSinceUpdate > 12) {
@@ -180,7 +167,7 @@ const showLastUpdated = (buildTime) => {
       }
     }
   } catch (error) {
-    console.warn('Could not parse build time:', error);
+    // Silently fail - no visual indicator needed for build time parsing errors
   }
 };
 
@@ -212,12 +199,10 @@ const showEventsFallback = () => {
 // Fetch events with enhanced error handling and metadata support
 const fetchEvents = async () => {
   try {
-    console.log('📡 Fetching events from', EVENTS_JSON_URL);
     const response = await fetch(EVENTS_JSON_URL);
     if (!response.ok) {throw new Error(`HTTP ${response.status}: ${response.statusText}`);}
 
     const eventsData = await response.json();
-    console.log('📦 Raw events data:', eventsData);
 
     // Handle both old format (array) and new format (object with metadata)
     let events, buildTime;
@@ -226,22 +211,18 @@ const fetchEvents = async () => {
       // Old format - just an array of events
       events = eventsData;
       buildTime = null;
-      console.log('📦 Got', events.length, 'events (legacy format)');
     } else {
       // New format - object with metadata
       events = eventsData.events || [];
       buildTime = eventsData.buildTime;
-      console.log('📦 Got', events.length, 'events (new format with metadata)');
 
       if (buildTime) {
-        console.log('🕒 Events built at:', buildTime);
         showLastUpdated(buildTime);
       }
     }
 
     return events;
   } catch (error) {
-    console.error('💥 Fetch error:', error);
     showEventsFallback();
     return [];
   }
@@ -249,14 +230,10 @@ const fetchEvents = async () => {
 
 // Main init
 const init = async () => {
-  console.log('🎯 Initializing...');
-
   // Check Luxon
   if (typeof luxon === 'undefined') {
-    console.error('💥 Luxon not available!');
     return;
   }
-  console.log('✅ Luxon available');
 
   const events = await fetchEvents();
   buildEvents(events);
@@ -264,11 +241,8 @@ const init = async () => {
 
 // Start when DOM ready
 document.addEventListener('DOMContentLoaded', () => {
-  console.log('📄 DOM ready!');
-
   const eventList = document.getElementById('eventList');
   if (!eventList) {
-    console.error('💥 eventList not found!');
     return;
   }
 
@@ -276,5 +250,3 @@ document.addEventListener('DOMContentLoaded', () => {
 
   init();
 });
-
-console.log('✅ Events.js loaded!');
