@@ -596,7 +596,7 @@ input[type="text"]{
   color: white;
   padding: 8px 14px 8px 14px;
   margin: 10px 8px 6px 0px;
-  font-size: 0.8em;
+  font-size: 1em; // Increased from 0.8em
   font-weight: 400;
   font-family: 'Lato';
   text-decoration:none;
@@ -605,6 +605,20 @@ input[type="text"]{
   transition-duration: 0.12s;
   transition-timing-function: linear;
   line-height: 23px;
+  
+  &:hover{
+    background-color: darken($ButtonColor, 12%);
+    color: white;
+  }
+  &:active{
+    background-color: darken($ButtonColor, 15%);
+    color: white;
+  }
+  &:focus{
+    background-color: darken($ButtonColor, 12%);
+    color: white;
+  }
+  
   a{
     color: white;
     font-size: 1em;

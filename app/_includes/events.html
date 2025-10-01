@@ -4,12 +4,15 @@ document.querySelector("header").style.display = 'inline-block';
 <div id="site-canvas">
 	<div class="header-image header-events">
 		<div class="dark-overlay center-text">
-			<h1 class="title feature-header">{{site.data[locale].events.title}}</h1>
+			<h1 class="feature-header">{{site.data[locale].events.title}}</h1>
 		</div>
 	</div>
 	<div class="row center-text">
+		<p style="margin-bottom:30px; max-width: 600px; margin-left: auto; margin-right: auto;">
+			This is a selection of OSM events from OSMCal.org. For more OSM events in your community be sure to visit OSMCal.org.
+		</p>
 		<p style="margin-bottom:20px;">
-			<a class="btn btn-blue arw" href="https://forms.gle/Y9YogcXtrdTBxWjh6">
+			<a class="btn btn-blue arw" href="https://osmcal.org/event/add/">
 				{{site.data[locale].events.register_event}}
 				<img src="{{ site.baseurl }}/assets/graphics/meta/Arrow.svg" alt="{{site.data[locale].img-alt.Arrow}}" />
 			</a>
@@ -22,105 +25,5 @@ document.querySelector("header").style.display = 'inline-block';
 
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js" 
-        integrity="sha512-vc58qvvBdrDR4etbxMdlTt4GBQk1qjvyORR2nWfLxhC9dHQY+J8MFvs5Z3lqlOGSN8P0Fdb8M7Lxf+DFLVwGjvA==" 
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/luxon@3.5.0/build/global/luxon.min.js" 
-        integrity="sha512-rsFCO7RWaAo2L8ByT6EYpURoXngG8Vr8kIrUfYxZ3aDMkIe2j8KKj3D1gfHxw3xyYFhOkSbBGgCXnRJOIcFQ2Q==" 
         crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js" 
-        integrity="sha512-dfX5uYVXzyU8+KHqj8bjo2A6+5rGYOKGuv5Q+ywXd1PGKhVFHCJqR5gCKJhKlmKJRxbqYu6v6eQ3s6q8dAJmE2Q==" 
-        crossorigin="anonymous"></script>
-<script>
-
-
-// Modern ES6+ constants for event data keys
-const EVENT_KEYS = {
-  name: "What is the name of your event?",
-  location: "Where will your event be held?", 
-  placeUrl: "Please insert a link to your venue on openstreetmap.org",
-  signup: "Please insert a link where people can sign up",
-  date: "What date is your event taking place? (as YYYY-MM-DD)",
-  start: "What time does your event start? ",
-  end: "What time does your event end?",
-  country: "Country?",
-  eventType: "What will the event that you are hosting include? Check all that apply:"
-};
-
-const today = luxon.DateTime.local().startOf('day');
-const siteBaseUrl = "{{ site.baseurl }}";	
-		
-const init = () => {
-  Papa.parse('{{ site.baseurl }}/assets/google-sheets/events.csv', {
-    download: true,
-    header: true,
-    complete: (results) => {
-      const data = results.data
-        .filter(d => {
-          const eventDate = luxon.DateTime.fromISO(d[EVENT_KEYS.date]);
-          return eventDate.isValid && eventDate >= today;
-        })
-        .sort((x, y) => d3.ascending(x[EVENT_KEYS.date], y[EVENT_KEYS.date]));
-      
-      console.log('Filtered events:', data);
-      buildEvents(data);
-    }
-  });
-};
-window.addEventListener('DOMContentLoaded', init)
-
-const buildEvents = (data) => {
-	console.log('Building events display:', data);
-	
-	d3.select('#eventList').selectAll('div').data(data)
-		.enter().append('div').classed('column', true)
-		.html(d => {
-			const countryIso = d[EVENT_KEYS.country]
-				.substring(d[EVENT_KEYS.country].indexOf("[") + 1, d[EVENT_KEYS.country].indexOf("]"))
-				.toLowerCase();
-			
-			const signupHtml = d[EVENT_KEYS.signup] 
-				? `<a class="btn btn-grn" href="${d[EVENT_KEYS.signup]}" target="">{{site.data[locale].events.sign_up}}</a>` 
-				: "";
-			
-			const placeHtml = d[EVENT_KEYS.placeUrl]
-				? `<a href="${d[EVENT_KEYS.placeUrl]}"><b>${d[EVENT_KEYS.location]}</b></a>`
-				: `<b>${d[EVENT_KEYS.location]}</b>`;
-			
-			const eventType = d[EVENT_KEYS.eventType]
-				.replace(" (buildings in iD Editor)", "")
-				.replace(" (roads, waterways, JOSM)", "")
-				.replace(" (review tasks as a group)", "")
-				.replace(" (map-walks, map-drives, map-cycling map-dogsledding in your own community)", "")
-				.replace(" (tool share)", "");
-
-			const eventHtml = `<div class="event-sub-container">
-				<div class="event-top-section clearfix">
-					<div class="sub-head">
-						<img class="event-images" src="${siteBaseUrl}/assets/graphics/flags/4x3/${countryIso}.svg" width="24px" />
-						<h3 class="event-header">${d[EVENT_KEYS.name]}</h3>
-						${signupHtml}
-					</div>
-				</div>
-				<div class="event-maindetails clearfix">
-					<div class="event-details-left">
-						<span class="emphasizedNumber">
-							${luxon.DateTime.fromISO(d[EVENT_KEYS.date]).day}
-						</span>
-						<p><b>${luxon.DateTime.fromISO(d[EVENT_KEYS.date]).setLocale("{{locale}}").toLocaleString({ month: 'long'})}</b></p>
-					</div>
-					<div class="event-details-right">
-						<div class="textbox" style="padding-top:8px">
-							<p>${placeHtml}</p>
-							<p class="event-details">${luxon.DateTime.fromISO(d[EVENT_KEYS.date]).setLocale("{{locale}}").toLocaleString({ weekday: 'long'})}, ${d[EVENT_KEYS.start].replace(":00 ","")} - ${d[EVENT_KEYS.end].replace(":00 ","")} UTC</p>
-							<p class="event-details">${eventType}</p>
-						</div>
-					</div>
-				</div>
-			</div>`;
-			
-			return eventHtml;
-		});
-};
-
-</script>
