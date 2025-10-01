@@ -159,17 +159,90 @@ const buildEvents = (events) => {
 	console.log('✅ All events built with Foundation cards!');
 };
 
-// Fetch events
+// Show last updated timestamp
+const showLastUpdated = (buildTime) => {
+	try {
+		const lastUpdate = luxon.DateTime.fromISO(buildTime);
+		const now = luxon.DateTime.now();
+		const hoursSinceUpdate = now.diff(lastUpdate, 'hours').hours;
+		
+		console.log(`📅 Events last updated: ${lastUpdate.toRelative()} (${hoursSinceUpdate.toFixed(1)} hours ago)`);
+		
+		// Only show visual indicator if data is getting old (more than 12 hours)
+		if (hoursSinceUpdate > 12) {
+			const eventList = document.getElementById('eventList');
+			if (eventList && hoursSinceUpdate > 24) {
+				const notice = document.createElement('div');
+				notice.className = 'text-center';
+				notice.style.cssText = 'font-size: 0.9em; color: #666; margin-bottom: 20px;';
+				notice.innerHTML = `<em>Events last updated ${lastUpdate.toRelative()}</em>`;
+				eventList.parentNode.insertBefore(notice, eventList);
+			}
+		}
+	} catch (error) {
+		console.warn('Could not parse build time:', error);
+	}
+};
+
+// Fallback display when events can't be loaded
+const showEventsFallback = () => {
+	const eventList = document.getElementById('eventList');
+	if (!eventList) return;
+	
+	eventList.innerHTML = `
+		<div class="column">
+			<div class="textbox-container" style="text-align: center; padding: 40px 20px;">
+				<h3>Events Temporarily Unavailable</h3>
+				<p>We're having trouble loading the latest Missing Maps events. Please try:</p>
+				<ul style="text-align: left; max-width: 400px; margin: 20px auto;">
+					<li>Refreshing the page in a few minutes</li>
+					<li>Visiting <a href="https://osmcal.org" target="_blank" rel="noopener">OSMCal.org</a> directly</li>
+					<li>Checking our website again later</li>
+				</ul>
+				<p style="margin-top: 30px;">
+					<a class="btn btn-blue" href="https://osmcal.org" target="_blank" rel="noopener">
+						View Events on OSMCal.org
+					</a>
+				</p>
+			</div>
+		</div>
+	`;
+};
+
+// Fetch events with enhanced error handling and metadata support
 const fetchEvents = async () => {
 	try {
-		console.log('📡 Fetching events...');
+		console.log('📡 Fetching events from', EVENTS_JSON_URL);
 		const response = await fetch(EVENTS_JSON_URL);
-		if (!response.ok) throw new Error('HTTP ' + response.status);
-		const events = await response.json();
-		console.log('📦 Got', events.length, 'events');
+		if (!response.ok) throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+		
+		const eventsData = await response.json();
+		console.log('📦 Raw events data:', eventsData);
+		
+		// Handle both old format (array) and new format (object with metadata)
+		let events, buildTime;
+		
+		if (Array.isArray(eventsData)) {
+			// Old format - just an array of events
+			events = eventsData;
+			buildTime = null;
+			console.log('📦 Got', events.length, 'events (legacy format)');
+		} else {
+			// New format - object with metadata
+			events = eventsData.events || [];
+			buildTime = eventsData.buildTime;
+			console.log('📦 Got', events.length, 'events (new format with metadata)');
+			
+			if (buildTime) {
+				console.log('🕒 Events built at:', buildTime);
+				showLastUpdated(buildTime);
+			}
+		}
+		
 		return events;
 	} catch (error) {
 		console.error('💥 Fetch error:', error);
+		showEventsFallback();
 		return [];
 	}
 };

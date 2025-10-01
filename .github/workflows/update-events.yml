@@ -1,0 +1,78 @@
+name: Update Events Data
+
+on:
+  # Run every 24 hours at 6 AM UTC
+  schedule:
+    - cron: '0 6 * * *'
+  
+  # Allow manual triggering
+  workflow_dispatch:
+  
+  # Run on push to specific files (for testing)
+  push:
+    paths:
+      - 'fetch-events.cjs'
+      - '.github/workflows/update-events.yml'
+
+jobs:
+  update-events:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm install --only=production
+      
+      - name: Fetch latest events
+        run: node fetch-events.cjs
+      
+      - name: Check for changes
+        id: verify-changed-files
+        run: |
+          if [ -n "$(git status --porcelain app/assets/data/events.json)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Events data has been updated"
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes to events data"
+          fi
+      
+      - name: Commit updated events
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add app/assets/data/events.json
+          git commit -m "🤖 Auto-update events data from osmcal.org
+          
+          - Updated: $(date -u +'%Y-%m-%d %H:%M:%S UTC')
+          - Events count: $(jq '.count' app/assets/data/events.json)
+          - Build time: $(jq -r '.buildTime' app/assets/data/events.json)"
+      
+      - name: Push changes
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+      
+      - name: Summary
+        run: |
+          echo "## Events Update Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- **Build Time:** $(jq -r '.buildTime' app/assets/data/events.json)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Events Count:** $(jq '.count' app/assets/data/events.json)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Changed:** ${{ steps.verify-changed-files.outputs.changed }}" >> $GITHUB_STEP_SUMMARY
+          if [ -f app/assets/data/events.json ]; then
+            echo "- **Event Names:**" >> $GITHUB_STEP_SUMMARY
+            jq -r '.events[].name' app/assets/data/events.json | head -10 | sed 's/^/  - /' >> $GITHUB_STEP_SUMMARY
+          fi
