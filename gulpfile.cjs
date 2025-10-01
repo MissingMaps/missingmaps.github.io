@@ -30,9 +30,6 @@ async function grabEvents () {
   }
 }
 
-// grabEventHelpers function removed - no longer needed with osmcal.org integration
-
-
 function clean () {
   return gulp.src(['_site', '.tmp', 'app/_data/events', 'app/_posts'], {read: false, allowEmpty: true})
     .pipe(cleaner());
@@ -96,7 +93,6 @@ function javascripts () {
   /* https://github.com/Foundation-for-Jekyll-sites/jekyll-foundation/blob/master/gulp/tasks/javascript.js */
   return gulp.src(javascriptPaths)
     .pipe(concat('main.min.js'))
-    // .pipe(uglify({ mangle: false }))
     .pipe(gulp.dest('.tmp/assets/scripts'));
 }
 exports.javascripts = javascripts;
@@ -318,41 +314,3 @@ exports.prod = gulp.series(
   jekyll,
   gulp.parallel(javascripts, styles, icons, zipMaterials),
   copyAssets);
-///////////////////////////////////////////////////////////////////////////////
-//--------------------------- Humans task -----------------------------------//
-//---------------------------------------------------------------------------//
-// gulp.task('get-humans', function(){
-//
-//   var getHumans = function(callback){
-//     var options = {
-//       url: 'https://api.github.com/repos/MissingMaps/missingmaps.github.io/contributors',
-//       headers: {
-//         'User-Agent': 'request'
-//       }
-//     };
-//
-//     request(options, function (err, res) {
-//       var humans = JSON.parse(res.body).map(function(human){
-//         return {login: human.login, html_url: human.html_url, contributions: human.contributions}
-//       });
-//       humans.sort(function(a,b){
-//         return b.contributions - a.contributions;
-//       })
-//       callback(humans);
-//     });
-//   }
-//
-//   getHumans(function(humans){
-//     fs.readFile('./docs/humans-tmpl.txt', 'utf8', function (err, doc) {
-//       if (err) throw err;
-//       //Do your processing, MD5, send a satellite to the moon, etc.
-//       for (i = 0; i < humans.length; i++) {
-//         doc = doc + '\nContributor: '+humans[i].login + '\nGithub: '+humans[i].html_url +'\n';
-//       }
-//       fs.writeFile('./app/humans.txt', doc, function(err) {
-//         if (err) throw err;
-//         console.log('complete');
-//       });
-//     });
-//   });
-// });

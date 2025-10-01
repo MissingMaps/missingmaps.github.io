@@ -320,14 +320,7 @@ about:
 
 helper-map:
   title: "Soutien aux mapathons"
-  description: "L'équipe Missing Maps peut vous soutenir de nombreuses façons. N'hésitez pas à nous contacter via Twitter ou Facebook pour de l'aide dans la sélection de tâches ou si vous avez des questions. De plus, les volontaires participants aux mapathons sont localisés dans le monde entier ! Utilisez la carte ci-dessous pour vous connecter à quelqu'un dans votre zone. Vous pouvez choisir la langue en utilisant les listes déroulantes. Zoomer sur la carte vous aidera à réduire la liste aux personnes de votre région."
-  signup-txt: "Candidatez pour offir votre aide en ajoutant vos coordonnées sur la carte grâce au boutton ci-dessous. Pour supprimer ou modifier vos données, envoyez s'il vous plaît un mail à <a href='mailto:info@hotosm.org'>email</a>."
-  signup-btn: "S'enregistrer"
-  filter-lang: "Filtre par langue"
-  filter-type: "Filtre par type"
-  all: "Tous"
-  remote: "A distance"
-  in-person: "En présentiel"
+  description: "L'équipe Missing Maps peut vous soutenir de nombreuses façons. N'hésitez pas à nous contacter via Twitter ou Facebook pour de l'aide dans la sélection de tâches ou si vous avez des questions."
 
 #####################
 ## HOST A MAPATHON ##
@@ -351,7 +344,7 @@ host:
     - label: "Choisissez une date."
     - label: "Recrutez des bénévoles pour aider."
     - label: "Réservez un lieu de réunion."
-    - label: "Enregistrez votre évènement <a target='_blank' href='https://docs.google.com/forms/d/e/1FAIpQLScdvsMHLor8mrDrHa-BQs2XzFb96vIrx3u--LHXWd1g7RncPg/viewform'>ici</a>"
+    - label: "Enregistrez votre évènement <a target='_blank' href='https://osmcal.org/event/add/'>ici</a>"
     - label: "Créez des bannières ou des affiches en utilisant <a target='_blank' href='https://drive.google.com/drive/folders/1y-PJ3MoHndFtm_Xcm_7qPMjtNYxbygCs'>le logo Missing Maps et/ou le modèle du logo personnalisable pour les communautés Missing Maps</a>"
     - label: "Recrutez des participants utilisant Eventbrite ou une plateforme similaire."
     - label: "Choisissez une tâche en utilisant le <a target='_blank' href='http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps'>Tasking Manager</a>"

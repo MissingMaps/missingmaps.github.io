@@ -323,14 +323,7 @@ about:
 
 helper-map:
   title:        "Mapathon Support"
-  description:  "The Missing Maps team can support you in a number of ways. Please reach out to us via Twitter or Facebook for help with task selection or if you have any questions. Additionally, volunteer mapathon supporters are located around the globe! Please use the below map to connect to someone in your area. You can filter by language using the dropdowns. Zooming the map will help you narrow down the list to people in your area."
-  signup-txt:   "Volunteer to help out by adding your contact info to the map via the button below. To remove or edit your data please send an <a href='mailto:info@hotosm.org'>email</a>."
-  signup-btn:   "Sign up"
-  filter-lang:  "Filter by a language"
-  filter-type:  "Filter by type"
-  all:          "All"
-  remote:       "Remote"
-  in-person:    "In Person"
+  description:  "The Missing Maps team can support you in a number of ways. Please reach out to us via Twitter or Facebook for help with task selection or if you have any questions."
 
 #####################
 ## HOST A MAPATHON ##
@@ -354,7 +347,7 @@ host:
     - label: "Choose a date"
     - label: "Recruit volunteers to help plan the event"
     - label: "Book a space"
-    - label: "Register your event <a target='_blank' href='https://docs.google.com/forms/d/e/1FAIpQLScdvsMHLor8mrDrHa-BQs2XzFb96vIrx3u--LHXWd1g7RncPg/viewform'>here</a>"
+    - label: "Register your event <a target='_blank' href='https://osmcal.org/event/add/'>here</a>"
     - label: "Make banners or posters using <a target='_blank' href='https://drive.google.com/drive/folders/1y-PJ3MoHndFtm_Xcm_7qPMjtNYxbygCs'>the Missing Maps logo and/or the customizable community logo template</a>"
     - label: "Recruit participants using Eventbrite"
     - label: "Pick a task using the <a target='_blank' href='http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps'>Tasking Manager</a>"

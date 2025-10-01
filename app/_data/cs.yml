@@ -320,14 +320,7 @@ about:
 
 helper-map:
   title:        "Podpora Mapathonu"
-  description:  "Tým Missing Maps vás může podporovat mnoha způsoby. Oslovením  na Twitteru, nebo Facebooku se na nás obraťte pro pomoc s výběrem úkolů, nebo máte-li nějaké dotazy. Kromě toho jsou dobrovolní mappeři po celém světě! Chcete-li se připojit k někomu ve vašem okolí, použijte níže uvedenou mapu. V rozbalovacích nabídkách můžete filtrovat podle jazyka. Zvětšení mapy vám pomůže zúžit seznam lidí ve vašem okolí.."
-  signup-txt:   "Dobrovolně můžete pomoci přidáním Vašich kontaktních údajů do mapy přes tlačítko níže. Pro odstranění nebo editaci Vašich dat odešlete prosím <a href='mailto:info@hotosm.org'>email</a>."
-  signup-btn:   "Přihlásit se"
-  filter-lang:  "Filtrovat podle jazyka"
-  filter-type:  "Filtrovat podle typu"
-  all:          "Vše"
-  remote:       "Vzdálená podpora"
-  in-person:    "Přímá/osobní podpora"
+  description:  "Tým Missing Maps vás může podporovat mnoha způsoby. Oslovením  na Twitteru, nebo Facebooku se na nás obraťte pro pomoc s výběrem úkolů, nebo máte-li nějaké dotazy."
 
 #####################
 ## HOST A MAPATHON ##
@@ -360,7 +353,7 @@ host:
     - label: "Rozhodněte, zda chcete udělat osobní nebo online meeting"
     - label: "Vyzvat dobrovolníky k pomoci"
     - label: "Rezervovat místo"
-    - label: "Registrovat mapathon <a target='_blank' href='https://docs.google.com/forms/d/e/1FAIpQLScdvsMHLor8mrDrHa-BQs2XzFb96vIrx3u--LHXWd1g7RncPg/viewform'>zde</a>"
+    - label: "Registrovat mapathon <a target='_blank' href='https://osmcal.org/event/add/'>zde</a>"
     - label: "Vytvořte bannery a/nebo plakáty pro vaši událost s logem Missing Maps, <a target='_blank' href='https://drive.google.com/drive/folders/1y-PJ3MoHndFtm_Xcm_7qPMjtNYxbygCs'>nebo s editovatelnou verzí loga pro Missing Maps komunity.</a>"
     - label: "Oslovit dobrovolníky s pomocí Eventbrite"
     - label: "Vybrat mapovací úlohu na  <a target='_blank' href='http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps'>Tasking Manageru</a>"
