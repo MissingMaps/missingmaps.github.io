@@ -70,8 +70,6 @@ nav:
         url:      "/fr/evenements/"
       - text:     "ORGANISER UN ÉVÉNEMENT"
         url:      "/fr/organiser/"
-      - text:     "SUPPORT MAPATHON"
-        url:      "/fr/organiser/#helper-map-contents"
   - text:         "À PROPOS"
     url:          "/fr/apropos/"
   - text:         "BLOG"

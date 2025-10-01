@@ -10,43 +10,27 @@ const git = require('gulp-git');
 const { mdToPdf } = require('md-to-pdf');
 const path = require('path');
 const plumber = require('gulp-plumber');
-const axios = require('axios');
 const sass = require('gulp-sass')(require('sass'));
 const sourcemaps = require('gulp-sourcemaps');
 const zip = require('gulp-zip');
 
 async function grabEvents () {
-  const url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSENK52p0o0dEpEfEH-qvloWEkILbcf-X8aSWdStVHKZuAF-G8-80NsRcouqBlB3DSsqerzVvPmnxDu/pub?gid=469941282&single=true&output=csv';
+  // First try to fetch from osmcal.org
   try {
-    const response = await axios.get(url);
-    const fileName = 'events.csv';
-    const outputFile = path.join(__dirname,'app','assets','google-sheets',fileName);
-    if (fs.existsSync(outputFile)) {
-      fs.unlinkSync(outputFile);
-    }
-    fs.writeFileSync(outputFile, response.data, 'utf8');
+    console.log('Fetching events from osmcal.org...');
+    const fetchEvents = require('./fetch-events.cjs');
+    await fetchEvents();
+    console.log('Successfully fetched events from osmcal.org');
+    return;
   } catch (error) {
-    console.error('Error downloading events CSV:', error.message);
-    throw error;
+    console.error('Failed to fetch events from osmcal.org:', error.message);
+    // Create empty events file on error
+    const eventsFile = path.join(__dirname, 'app', 'assets', 'data', 'events.json');
+    fs.writeFileSync(eventsFile, JSON.stringify([], null, 2));
   }
 }
 
-async function grabEventHelpers () {
-  const url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT12UwGG1A10zICCvRL5tcd4uF89xXNOQ9RS4R9vDLax7H2vMKOUV3kODbFAA5RPP6LQathslaUIO-9/pub?gid=1040223163&single=true&output=csv';
-  try {
-    const response = await axios.get(url);
-    const fileName = 'eventHelpers.csv';
-    const outputFile = path.join(__dirname,'app','assets','google-sheets',fileName);
-    if (fs.existsSync(outputFile)) {
-      fs.unlinkSync(outputFile);
-    }
-    fs.writeFileSync(outputFile, response.data, 'utf8');
-  } catch (error) {
-    console.error('Error downloading event helpers CSV:', error.message);
-    throw error;
-  }
-}
-exports.grabEventHelpers = grabEventHelpers;
+// grabEventHelpers function removed - no longer needed with osmcal.org integration
 
 
 function clean () {
@@ -76,14 +60,24 @@ function styles () {
     verbose: false,  // Reduce verbose output
     silenceDeprecations: ['legacy-js-api', 'import', 'global-builtin', 'color-functions', 'slash-div']
   };
-  return gulp.src(sassInput)
+  
+  let stream = gulp.src(sassInput)
     .pipe(plumber())
     .pipe(sourcemaps.init())
     .pipe(sass(sassOptions).on('error', sass.logError))
     .pipe(autoprefixer())
-    .pipe(sourcemaps.write('.'))
-    .pipe(browserSync.reload({stream:true}))
-    .pipe(gulp.dest('.tmp/assets/styles'));
+    .pipe(sourcemaps.write('.'));
+  
+  // Only call browserSync.reload if browserSync is active and properly configured
+  try {
+    if (browserSync.active) {
+      stream = stream.pipe(browserSync.reload({stream:true}));
+    }
+  } catch (error) {
+    console.log('BrowserSync stream error (non-fatal):', error.message);
+  }
+  
+  return stream.pipe(gulp.dest('.tmp/assets/styles'));
 }
 exports.styles = styles;
 
@@ -199,11 +193,56 @@ exports.jekyll = jekyll;
 /* ======================= */
 
 function watching () {
-  function browserReload (cb) { browserSync.reload(); cb(); }
+  function browserReload (cb) { 
+    // Add error handling for browserSync reload
+    try {
+      if (browserSync.active) {
+        browserSync.reload(); 
+      }
+    } catch (error) {
+      console.log('BrowserSync reload error (non-fatal):', error.message);
+    }
+    cb(); 
+  }
+  
+  // Improved BrowserSync configuration with stability options
   browserSync({
-    server: '_site'
+    server: {
+      baseDir: '_site',
+      serveStaticOptions: {
+        extensions: ['html']
+      }
+    },
+    port: 3000,
+    ui: {
+      port: 3001
+    },
+    open: false,
+    notify: false,
+    ghostMode: false,
+    reloadOnRestart: true,
+    injectChanges: false,
+    logLevel: 'info',
+    // Add stability options
+    watchOptions: {
+      ignoreInitial: true,
+      ignored: [
+        'node_modules/**',
+        '.git/**',
+        '.tmp/**',
+        '**/*.log'
+      ]
+    },
+    // Prevent crashes on file errors
+    reloadDelay: 100,
+    reloadDebounce: 500
   });
-  gulp.watch(['./app', './_config*'], gulp.series(
+  
+  // Watch with debouncing to prevent overwhelming browserSync
+  gulp.watch(['./app/**/*', './_config*'], { 
+    ignoreInitial: true,
+    delay: 500 
+  }, gulp.series(
     jekyll,
     gulp.parallel(javascripts, styles, icons),
     copyAssets,
@@ -211,15 +250,70 @@ function watching () {
 }
 exports.serve = gulp.series(
   clean,
-  gulp.parallel(cloneBlog, grabEvents, grabEventHelpers),
+  gulp.parallel(cloneBlog, grabEvents),
   jekyll,
   gulp.parallel(javascripts, styles, icons, zipMaterials),
   copyAssets,
-  watching);let environment = 'development';
+  watching);
+
+// Alternative serve command without BrowserSync (more stable)
+function simpleServe () {
+  const http = require('http');
+  const fs = require('fs');
+  const path = require('path');
+  
+  const server = http.createServer((req, res) => {
+    let filePath = path.join(__dirname, '_site', req.url === '/' ? 'index.html' : req.url);
+    
+    // If no extension, try adding .html
+    if (!path.extname(filePath)) {
+      filePath += '.html';
+    }
+    
+    fs.readFile(filePath, (err, content) => {
+      if (err) {
+        if (err.code === 'ENOENT') {
+          res.writeHead(404);
+          res.end('File not found');
+        } else {
+          res.writeHead(500);
+          res.end('Server error');
+        }
+      } else {
+        const ext = path.extname(filePath);
+        const contentType = {
+          '.html': 'text/html',
+          '.js': 'text/javascript',
+          '.css': 'text/css',
+          '.json': 'application/json',
+          '.png': 'image/png',
+          '.jpg': 'image/jpg',
+          '.gif': 'image/gif',
+          '.svg': 'image/svg+xml'
+        }[ext] || 'text/plain';
+        
+        res.writeHead(200, { 'Content-Type': contentType });
+        res.end(content);
+      }
+    });
+  });
+  
+  server.listen(3000, () => {
+    console.log('Simple server running at http://localhost:3000');
+  });
+}
+
+exports.serve_stable = gulp.series(
+  clean,
+  gulp.parallel(cloneBlog, grabEvents),
+  jekyll,
+  gulp.parallel(javascripts, styles, icons, zipMaterials),
+  copyAssets,
+  simpleServe);let environment = 'development';
 function setProd (cb) { environment = 'production'; cb(); }
 exports.prod = gulp.series(
   clean,
-  gulp.parallel(cloneBlog, grabEvents, grabEventHelpers),
+  gulp.parallel(cloneBlog, grabEvents),
   setProd,
   jekyll,
   gulp.parallel(javascripts, styles, icons, zipMaterials),

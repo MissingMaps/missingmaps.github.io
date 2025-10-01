@@ -23,6 +23,7 @@
   "scripts": {
     "postinstall": "[ -f _config-dev.yml ] || echo 'domain: http://localhost:3000\npath_prefix:' > _config-dev.yml",
     "serve": "gulp serve",
+    "serve:stable": "gulp serve_stable",
     "build": "gulp prod",
     "build:dev": "gulp serve",
     "lint": "eslint app/assets/scripts/**/*.js updatedep.js",
@@ -45,7 +46,6 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.6.0",
     "async": "^3.2.4",
-    "axios": "^1.12.0",
     "browser-sync": "^3.0.4",
     "chai": "^4.2.0",
     "colors": "^1.4.0",
@@ -65,6 +65,7 @@
     "js-yaml": "^3.13.1",
     "lodash": "^4.17.21",
     "md-to-pdf": "^5.2.4",
+    "node-fetch": "^2.7.0",
     "sass": "^1.77.8"
   }
 }

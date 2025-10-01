@@ -70,8 +70,6 @@ nav:
         url:      "/cs/akce/"
       - text:     "USPOŘÁDEJTE AKCI"
         url:      "/cs/organizuj/"
-      - text:     "PODPORA MAPATHONU"
-        url:      "/cs/organizuj/#helper-map-contents"
   - text:         "O PROJEKTU"
     url:          "/cs/o-projektu/"
   - text:         "BLOG"

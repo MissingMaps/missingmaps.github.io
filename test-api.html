@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test OSMCal API</title>
+</head>
+<body>
+    <h1>Test OSMCal API</h1>
+    <div id="result">Loading...</div>
+    
+    <script>
+        async function testAPI() {
+            try {
+                console.log('Testing OSMCal API...');
+                const response = await fetch('https://osmcal.org/api/v2/events/', {
+                    headers: {
+                        'Accept': 'application/json',
+                        'Client-App': 'missing-maps-website/1.0.0'
+                    }
+                });
+                
+                console.log('Response status:', response.status);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const events = await response.json();
+                console.log('Total events:', events.length);
+                
+                const missingMapsEvents = events.filter(event => 
+                    event.name && event.name.toLowerCase().includes('missing maps')
+                );
+                
+                console.log('Missing Maps events:', missingMapsEvents.length);
+                
+                document.getElementById('result').innerHTML = `
+                    <p>Total events: ${events.length}</p>
+                    <p>Missing Maps events: ${missingMapsEvents.length}</p>
+                    <pre>${JSON.stringify(missingMapsEvents.slice(0, 2), null, 2)}</pre>
+                `;
+                
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById('result').innerHTML = `Error: ${error.message}`;
+            }
+        }
+        
+        window.addEventListener('DOMContentLoaded', testAPI);
+    </script>
+</body>
+</html>
