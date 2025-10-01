@@ -223,7 +223,7 @@ field:
     - label: "<a href=\"https://www.kobotoolbox.org/\">KoBo</a> - KoBoToolbox je sada nástrojů pro sběr dat v terénu pro použití v náročných podmínkách. "
     - label: "<a href=\"https://organicmaps.app/\">Organic Maps</a> - open source mobilní aplikace zdarma, která poskytuje offline mapy ze zdrojů OpenStreetMap dat."
     - label: "<a href=\"https://osmand.net/\">OSMAnd</a> - mapa pro mapování a navigaci s volitelnou možností offline kapacity."
-    - label: "<a href=\"http://posm.io/posm/intro/\">Portable OpenStreetMap (POSM)</a> - hardwarová/softwarová integrace vyvinutá pro mapování v terénu při nespolehlivém připojení k Internetu."
+    - label: "<a href=\"https://fmtm.hotosm.org\">HOT Field Tasking Manager (FMTM)</a> - nástroj pro koordinaci terénních mapovacích aktivit, umožňující týmům organizovat a sledovat mapovací úkoly v oblastech s omezenou konektivitou."
     - label: "<a href=\"https://www.opendronemap.org/\">OpenDroneMap</a> - udržitelná řešení pro sběr, zpracování, analýzu a zobrazení leteckých dat pro podporu komunit, které se jimi zabývají."
   processing-header: "Zpracování"
   processing-about: "Takže teď, když už jste sesbírali data o komunitě, budete potřebovat zadat tyto informace do OpenStreetMap. V závislosti na tom, jak jste data sesbírali, existuje několik způsobů, jak to provést:"

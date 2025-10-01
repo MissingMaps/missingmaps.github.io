@@ -223,7 +223,7 @@ field:
     - label: "<a href=\"https://www.kobotoolbox.org/\"> Kobo </a> - KoBoToolbox es un conjunto de herramientas para la recolección de datos para su uso en entornos difíciles."
     - label: "<a href=\"https://organicmaps.app/\"> Organic Maps </a> - una aplicación móvil libre, de código abierto que proporciona mapas sin conexión basados en datos de OpenStreetMap."
     - label: "<a href=\"https://osmand.net/\"> Osmand </a> -. Un mapa y navegación con capacidad sin conexión opcional."
-    - label: "<a href=\"http://posm.io/posm/intro/\">Portable OpenStreetMap (POSM)</a> -  una integración de hardware y software desarrollada para llevar a cabo la cartografía sobre el terreno cuando la conectividad a Internet y a los móviles no es fiable."
+    - label: "<a href=\"https://fmtm.hotosm.org\">HOT Field Tasking Manager (FMTM)</a> - una herramienta para coordinar actividades de mapeo en el campo, permitiendo a los equipos organizar y rastrear tareas de mapeo en áreas con conectividad limitada."
     - label: "<a href=\"https://www.opendronemap.org/\"> OpenDroneMap </a> -. Soluciones sostenibles para la recogida, el tratamiento, el análisis y la visualización de datos aéreos, apoyando al mismo tiempo a las comunidades construidas a su alrededor."
   processing-header: "Procesamiento"
   processing-about: "Ahora que se han reunido datos sobre una comunidad, tendrás que poner esta información en OpenStreetMap. Dependiendo de la forma en que han recopilado los datos, hay varias maneras de hacerlo:"

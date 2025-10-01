@@ -222,7 +222,7 @@ field:
     - label: "<a href=\"https://www.kobotoolbox.org\">KoBo</a> - KoBoToolbox est une série d'outils qui collecte des données de terrain pour les utiliser dans des environnements exigeants."
     - label: "<a href=\"https://organicmaps.app/\">Organic Maps</a> - une application mobile gratuite et libre d'accès qui fournit des cartes hors lignes basées sur des données d'OpenStreetMap."
     - label: "<a href=\"https://osmand.net\">OSMAnd</a> - Une carte de cartographie et de navigation avec en option des capacités hors connexion."
-    - label: "<a href=\"http://posm.io/posm/intro\">Portable OpenStreetMap (POSM)</a> - Un hardware/software d'intégration développé pour conduire des cartographies sur des terrains avec une faible connexion internet et cellulaire."
+    - label: "<a href=\"https://fmtm.hotosm.org\">HOT Field Tasking Manager (FMTM)</a> - un outil pour coordonner les activités de cartographie sur le terrain, permettant aux équipes d'organiser et de suivre les tâches de cartographie dans des zones avec une connectivité limitée."
     - label: "<a href=\"https://www.opendronemap.org\">OpenDroneMap</a> - des solutions durables pour collecter, traiter, analyser et afficher des données aériennes avec le support de la communauté construite autour d'elles."
   processing-header: "Traitement"
   processing-about: "Maintenant que vous avez récolté les données sur une communauté, vous aurez besoin de mettre cette informations sur OpenStreetMap. En fonction de la façon dont vous collectez vos données, il y a différentes façons de le faire."

@@ -224,7 +224,7 @@ field:
     - label: "<a href=\"https://www.kobotoolbox.org/\">KoBo</a> - KoBoToolbox is a suite of tools for field data collection for use in challenging environments. "
     - label: "<a href=\"https://organicmaps.app/\">Organic Maps</a> - a free, open source mobile app that provides offline maps based on OpenStreetMap data."
     - label: "<a href=\"https://osmand.net/\">OSMAnd</a> - a Mapping and navigation map with optional offline capacity."
-    - label: "<a href=\"http://posm.io/posm/intro/\">Portable OpenStreetMap (POSM)</a> - a hardware/software integration developed to conduct mapping in the field when internet and cellular connectivity is unreliable."
+    - label: "<a href=\"https://fmtm.hotosm.org\">HOT Field Tasking Manager (FMTM)</a> - a tool for coordinating field mapping activities, allowing teams to organize and track mapping tasks in areas with limited connectivity."
     - label: "<a href=\"https://www.opendronemap.org/\">OpenDroneMap</a> - sustainable solutions for collecting, processing, analyzing and displaying aerial data while supporting the communities built around them. "
   processing-header: "Processing"
   processing-about: "So now that you have gathered data about a community, you will need to put this information into OpenStreetMap. Depending on how you collected your data, there are a few ways to do this:"
