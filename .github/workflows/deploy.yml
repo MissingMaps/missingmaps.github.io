@@ -57,6 +57,8 @@ jobs:
     steps:
       - name: Checkout master branch
         uses: actions/checkout@v4
+      - name: Checkout master branch
+        uses: actions/checkout@v4
         with:
           ref: master
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -74,11 +76,13 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          # Remove all files except .git
-          find . -maxdepth 1 ! -name '.git' ! -name '.' ! -name '..' -exec rm -rf {} +
+          # Remove all files except .git and _site
+          find . -maxdepth 1 ! -name '.git' ! -name '_site' ! -name '.' ! -name '..' -exec rm -rf {} +
           
-          # Copy built site files to root
+          # Copy built site files to root (GitHub Pages expects files in root, not in _site)
           cp -r _site/* .
+          
+          # Remove the _site directory (not needed for GitHub Pages)
           rm -rf _site
           
           # Add and commit changes
