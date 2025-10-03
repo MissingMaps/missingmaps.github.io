@@ -468,14 +468,14 @@ checker:
         title: "MapRoulette"
         text: "<a href=\"https://maproulette.org/\">MapRoulette</a> is a gamified approach to fixing OSM bugs that breaks common OpenStreetMap data problems into micro tasks. This tool is best used after your event."
 
-###################
 ## Blog CONTENT ##
 ###################
 blog:
   title: "Blog"
   tags: "Štítky Blogu"
   categories: "Kategorie"
-  nocontent: "Dosud nebyl publikován žádný blog v angličtině."
+  nocontent: "Dosud nebyl publikován žádný blog v angličtině."
+  also_available: "Také dostupné v"
 
 #####################
 ## OSM STATS ##

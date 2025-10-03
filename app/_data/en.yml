@@ -470,6 +470,7 @@ blog:
   tags: "Blog Tags"
   categories: "Blog Categories"
   nocontent: "No blogs currently published in english."
+  also_available: "Also available in"
 
 #####################
 ## OSM STATS ##
