@@ -23,17 +23,17 @@
     dropdownContent.setAttribute('role', 'menu');
 
     // Update menu button text and ARIA state
-    function updateMenuState(isOpen) {
+    function updateMenuState (isOpen) {
       const isExpanded = isOpen ? 'true' : 'false';
       mobileDropdown.setAttribute('aria-expanded', isExpanded);
-      
+
       if (menuButton) {
         menuButton.textContent = isOpen ? 'CLOSE' : 'MENU';
       }
     }
 
     // Toggle mobile menu
-    function toggleMenu(e) {
+    function toggleMenu (e) {
       e.preventDefault();
       e.stopPropagation();
 
@@ -49,7 +49,7 @@
     }
 
     // Close menu
-    function closeMenu() {
+    function closeMenu () {
       dropdownContent.classList.remove('show');
       updateMenuState(false);
       document.body.style.overflow = '';
@@ -93,11 +93,11 @@
     // Enhanced touch handling for mobile menu items
     const menuItems = dropdownContent.querySelectorAll('.nav-item, .lang');
     menuItems.forEach(item => {
-      item.addEventListener('touchstart', function() {
+      item.addEventListener('touchstart', function () {
         this.style.backgroundColor = 'rgba(255,255,255,0.1)';
       });
-      
-      item.addEventListener('touchend', function() {
+
+      item.addEventListener('touchend', function () {
         setTimeout(() => {
           this.style.backgroundColor = '';
         }, 150);

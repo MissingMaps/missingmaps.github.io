@@ -21,7 +21,7 @@
 
 /*----------------------------------------------*/
 /*Variables*/
-/*------------------------------------------  color: color.adjust($mmGreen, $lightness: 10%);---*/
+/*---------------------------------------------*/
 
 $mmred: #e23d3d;
 $mmgreen: #8BBF3F;
@@ -175,19 +175,19 @@ header{
 }
 
 .nav-list{
-  float: right;
   position: relative;
-  display: inline-block;
+  display: flex;
+  justify-content: flex-end;
   @media screen and (max-width: 650px) {
     display: none;
   }
 }
 
 .nav-input{
-    float: right;
     display: inline-block;
     position: relative;
     bottom:3px;
+    margin-left: auto;
     padding: 0px 16px 0px 40px;
 }
 
@@ -710,6 +710,7 @@ input[type="text"]{
   margin: none;
   color: $darkgrey;
   -webkit-border-radius: 5px;
+  border-radius: 5px;
     background-color: lighten($lightgrey, 10);
     box-shadow: -1px -2px $lightgrey;
     padding: 2px 6px 4px 6px;
@@ -916,7 +917,7 @@ input[type="text"]{
   color: $darkestgrey;
   position: relative;
   display: inline-block;
-  float: right;
+  margin-left: auto;
 }
 
 /*----------------------------------------------*/
