@@ -15,8 +15,6 @@ app/assets/scripts/config/local.js
 app/_data/events
 app/_posts
 app/.jekyll-cache
-app/assets/google-sheets/*
-!app/assets/google-sheets/README.md
 
 
 #Foundation additions

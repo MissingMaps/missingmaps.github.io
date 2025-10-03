@@ -1,0 +1,198 @@
+{
+  "buildTime": "2025-10-03T00:24:35.976Z",
+  "count": 15,
+  "events": [
+    {
+      "name": "Mapathon - Monthly Missing Maps w/ EWB Norway",
+      "url": "https://osmcal.org/event/4083/",
+      "date": {
+        "human": "7th October 16:30 – 19:00",
+        "human_short": "7th October",
+        "whole_day": false,
+        "start": "2025-10-07T16:30:00+02:00",
+        "end": "2025-10-07T19:00:00+02:00"
+      },
+      "location": {
+        "short": "Oslo, Norway",
+        "detailed": "Mesh Nationaltheatret, 2, Tordenskiolds gate, Sentrum, Oslo, Norway",
+        "coords": [
+          10.736582,
+          59.912966
+        ],
+        "venue": "Mesh Nationaltheatret"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mapathon [eng]",
+      "url": "https://osmcal.org/event/3737/",
+      "date": {
+        "human": "7th October 19:00 – 21:15 (Europe/London)",
+        "human_short": "7th October",
+        "whole_day": false,
+        "start": "2025-10-07T19:00:00+01:00",
+        "end": "2025-10-07T21:15:00+01:00"
+      }
+    },
+    {
+      "name": "Missing Maps : Mapathon en ligne - CartONG [fr]",
+      "url": "https://osmcal.org/event/4040/",
+      "date": {
+        "human": "13th October 18:00 – 20:00 (Europe/Paris)",
+        "human_short": "13th October",
+        "whole_day": false,
+        "start": "2025-10-13T18:00:00+02:00",
+        "end": "2025-10-13T20:00:00+02:00"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mid-Month Mapathon [eng]",
+      "url": "https://osmcal.org/event/3745/",
+      "date": {
+        "human": "21st October 18:00 – 21:00 (Europe/London)",
+        "human_short": "21st October",
+        "whole_day": false,
+        "start": "2025-10-21T18:00:00+01:00",
+        "end": "2025-10-21T21:00:00+01:00"
+      }
+    },
+    {
+      "name": "Missing Maps : Mapathon en ligne - CartONG [fr]",
+      "url": "https://osmcal.org/event/4041/",
+      "date": {
+        "human": "27th October 18:00 – 20:00 (Europe/Paris)",
+        "human_short": "27th October",
+        "whole_day": false,
+        "start": "2025-10-27T18:00:00+01:00",
+        "end": "2025-10-27T20:00:00+01:00"
+      }
+    },
+    {
+      "name": "Mapathon - Monthly Missing Maps w/ EWB Norway",
+      "url": "https://osmcal.org/event/4084/",
+      "date": {
+        "human": "4th November 16:30 – 19:00",
+        "human_short": "4th November",
+        "whole_day": false,
+        "start": "2025-11-04T16:30:00+01:00",
+        "end": "2025-11-04T19:00:00+01:00"
+      },
+      "location": {
+        "short": "Oslo, Norway",
+        "detailed": "Mesh Nationaltheatret, 2, Tordenskiolds gate, Sentrum, Oslo, Norway",
+        "coords": [
+          10.736582,
+          59.912966
+        ],
+        "venue": "Mesh Nationaltheatret"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mapathon [eng]",
+      "url": "https://osmcal.org/event/3738/",
+      "date": {
+        "human": "4th November 19:00 – 21:15 (Europe/London)",
+        "human_short": "4th November",
+        "whole_day": false,
+        "start": "2025-11-04T19:00:00+00:00",
+        "end": "2025-11-04T21:15:00+00:00"
+      }
+    },
+    {
+      "name": "Missing Maps : Mapathon en ligne - CartONG [fr]",
+      "url": "https://osmcal.org/event/4042/",
+      "date": {
+        "human": "10th November 18:00 – 20:00 (Europe/Paris)",
+        "human_short": "10th November",
+        "whole_day": false,
+        "start": "2025-11-10T18:00:00+01:00",
+        "end": "2025-11-10T20:00:00+01:00"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mid-Month Mapathon [eng]",
+      "url": "https://osmcal.org/event/3746/",
+      "date": {
+        "human": "18th November 18:00 – 21:00 (Europe/London)",
+        "human_short": "18th November",
+        "whole_day": false,
+        "start": "2025-11-18T18:00:00+00:00",
+        "end": "2025-11-18T21:00:00+00:00"
+      }
+    },
+    {
+      "name": "Missing Maps : Mapathon en ligne - CartONG [fr]",
+      "url": "https://osmcal.org/event/4043/",
+      "date": {
+        "human": "24th November 18:00 – 20:00 (Europe/Paris)",
+        "human_short": "24th November",
+        "whole_day": false,
+        "start": "2025-11-24T18:00:00+01:00",
+        "end": "2025-11-24T20:00:00+01:00"
+      }
+    },
+    {
+      "name": "Mapathon - Monthly Missing Maps w/ EWB Norway",
+      "url": "https://osmcal.org/event/4085/",
+      "date": {
+        "human": "2nd December 16:30 – 19:00",
+        "human_short": "2nd December",
+        "whole_day": false,
+        "start": "2025-12-02T16:30:00+01:00",
+        "end": "2025-12-02T19:00:00+01:00"
+      },
+      "location": {
+        "short": "Oslo, Norway",
+        "detailed": "Mesh Nationaltheatret, 2, Tordenskiolds gate, Sentrum, Oslo, Norway",
+        "coords": [
+          10.736582,
+          59.912966
+        ],
+        "venue": "Mesh Nationaltheatret"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mapathon [eng]",
+      "url": "https://osmcal.org/event/3739/",
+      "date": {
+        "human": "2nd December 19:00 – 21:15 (Europe/London)",
+        "human_short": "2nd December",
+        "whole_day": false,
+        "start": "2025-12-02T19:00:00+00:00",
+        "end": "2025-12-02T21:15:00+00:00"
+      }
+    },
+    {
+      "name": "Missing Maps : Mapathon en ligne - CartONG [fr]",
+      "url": "https://osmcal.org/event/4044/",
+      "date": {
+        "human": "8th December 18:00 – 20:00 (Europe/Paris)",
+        "human_short": "8th December",
+        "whole_day": false,
+        "start": "2025-12-08T18:00:00+01:00",
+        "end": "2025-12-08T20:00:00+01:00"
+      }
+    },
+    {
+      "name": "Missing Maps London: (Online) Mid-Month Mapathon [eng]",
+      "url": "https://osmcal.org/event/3747/",
+      "date": {
+        "human": "16th December 18:00 – 21:00 (Europe/London)",
+        "human_short": "16th December",
+        "whole_day": false,
+        "start": "2025-12-16T18:00:00+00:00",
+        "end": "2025-12-16T21:00:00+00:00"
+      }
+    },
+    {
+      "name": "Missing Maps : Mapathon en ligne - CartONG [fr]",
+      "url": "https://osmcal.org/event/4045/",
+      "date": {
+        "human": "22nd December 18:00 – 20:00 (Europe/Paris)",
+        "human_short": "22nd December",
+        "whole_day": false,
+        "start": "2025-12-22T18:00:00+01:00",
+        "end": "2025-12-22T20:00:00+01:00"
+      }
+    }
+  ]
+}

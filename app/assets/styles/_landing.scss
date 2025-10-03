@@ -1,4 +1,3 @@
-
 /*----------------------------------------------*/
 /* Welcome Mat */
 /*----------------------------------------------*/
@@ -354,27 +353,10 @@
 }
 
 /*----------------------------------------------*/
-/* Events Analytics */
-/*----------------------------------------------*/
-.events-container{
-  padding: 30px 10px;
-  background-color: $mmTeal;
-  text-align: center;
-  width:100%;
-  margin-left: auto;
-  margin-right: auto;
-  clear: both;
-}
+/* Removed Events Analytics styles */
 
 .clear {
   clear: both;
-}
-
-.events-panel {
-  background-color: $mmTeal;
-  text-align: center;
-  width: 100%;
-  padding-bottom:30px;
 }
 
 .event-top-section{
@@ -489,6 +471,197 @@
   height:50px;
   padding-left: 10px;
   margin-bottom: 20px;
+}
+
+// Foundation cards with old template structure
+#eventList {
+  background-color: lighten($lightgrey, 10%); // Match site background
+  padding: 1rem; // Maintain some padding but with correct background
+}
+
+.event-card {
+  @extend .card;
+  margin-bottom: 1.5rem; // Slightly reduced from 2rem
+  height: 100%; // Ensure equal height columns
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  
+  // Add some constraints to prevent cards from getting too wide
+  @media screen and (min-width: 1024px) {
+    max-width: 500px; // Limit maximum width for better proportion
+  }
+  
+  .card-section {
+    padding: 0; // Remove default padding since old template has its own
+    flex: 1; // Allow content to expand
+    display: flex;
+    flex-direction: column;
+    
+    // Old template styles adapted for Foundation cards
+    .event-top-section {
+      background-color: lighten($darkgrey, 48%);
+      padding: 5px 10px;
+      border-radius: 2px 2px 0 0;
+
+      @media screen and (max-width: 450px) {
+        padding: 0px 6px 15px 10px;
+      }
+
+      .sub-head {
+        float: left;
+        padding-bottom: 0;
+        width: 100%;
+        text-align: left;
+        
+        @media screen and (max-width: 580px) {
+          font-size: 1.2em;
+        }
+      }
+      
+      .event-signup {
+        float: right;
+        
+        .btn-grn {
+          line-height: 12px;
+          font-size: .60em;
+          margin: 5px 0 5px 0;
+          
+          @media screen and (max-width: 580px) {
+            font-size: 0.7em;
+            margin-top: 7px;
+          }
+        }
+      }
+    }
+    
+    .event-images {
+      float: left;
+      display: block;
+      margin-right: 10px;
+      padding-top: 9px;
+    }
+    
+    .event-header {
+      float: left;
+      width: 70%;
+      padding-top: 9px;
+      line-height: 35px;
+      margin-bottom: 4px;
+    }
+    
+    .event-maindetails {
+      flex: 1; // Take up remaining space
+      padding: 10px;
+      display: flex; // Use flexbox for better space utilization
+      flex-direction: row;
+      min-height: 120px; // Ensure consistent minimum height
+    }
+    
+    .event-details-left {
+      padding: 10px 20px;
+      float: left;
+      margin-top: 15px;
+      border-right: solid 1px $lightgrey;
+      
+      .emphasizedNumber {
+        color: $darkgrey;
+        font-size: 2em;
+        font-weight: 800;
+        line-height: 20px;
+        margin-top: 2px;
+        padding-top: 15px;
+      }
+    }
+    
+    .event-details-right {
+      float: left;
+      padding: 8px 0 14px 20px;
+      width: 75%;
+      text-align: left;
+
+      @media screen and (max-width: 470px) {
+        width: 60%;
+      }
+      
+      p {
+        padding: 0;
+        line-height: 1.3em;
+      }
+      
+      .event-details {
+        font-size: .8em;
+        margin-top: 5px;
+      }
+      
+      .event-buttons {
+        margin-top: 10px;
+        
+        .btn {
+          font-size: 1em; // Increased from .8em to match base
+          padding: 8px 16px;
+          margin: 0;
+          
+          @media screen and (max-width: 580px) {
+            font-size: 0.9em; // Increased from 0.7em
+            padding: 6px 12px;
+          }
+        }
+      }
+      
+      .event-header-container {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+      
+      .event-flag {
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        .event-images {
+          display: block;
+          width: 72px;
+          height: auto;
+          border-radius: 3px;
+          
+          &.mm-logo {
+            border-radius: 0;
+            opacity: 0.8;
+          }
+        }
+      }
+      
+      .event-header {
+        flex: 1;
+        margin: 0;
+      }
+    }
+    
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+}
+
+// Ensure Foundation grid container has proper flex behavior
+#eventList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; // Add gap between cards to prevent touching
+  
+  .column {
+    display: flex;
+    
+    @media screen and (min-width: 1024px) {
+      max-width: calc(50% - 0.5rem); // Adjust width to account for gap
+      flex: 0 0 calc(50% - 0.5rem);
+    }
+  }
 }
 
 .header-image{

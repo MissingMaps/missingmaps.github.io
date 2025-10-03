@@ -56,7 +56,7 @@
         <div class="sub-head">{{site.data[locale].how_to_participate.start}}</div>
         <div class="textbox"> {{site.data[locale].how_to_participate.start_text}}</div>
         <div class="btn btn-grn"><a href="{{ site.baseurl }}{{site.data[locale].nav[0].links[0].url}}">{{site.data[locale].how_to_participate.learn_btn}}</a></div>
-        <div class="btn btn-grn"><a href="http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps">{{site.data[locale].how_to_participate.map_btn}}</a></div>
+        <div class="btn btn-grn"><a href="https://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps">{{site.data[locale].how_to_participate.map_btn}}</a></div>
       </div>
     </div>
   </div>
@@ -202,21 +202,7 @@
 </div>
 
 <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~  -->
-<!-- Events -->
-<!-- ~ ~ ~ ~ ~ ~ ~ ~ ~  -->
-<div class="events-container">
-  <div class="title section-header">{{site.data[locale].events.title}}</div>
-  {% include events_min.html %}
-</div>
-<div class="events-panel">
-  <a href="{{ site.baseurl }}{{site.data[locale].nav[1].links[0].url}}" class="button invert-btn-white">{{site.data[locale].events.all_btn}}</a>
-</div>
-
-
-<!-- ~ ~ ~ ~ ~ ~ ~ ~ ~  -->
 <!-- About -->
 <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~  -->
 
 {% include members.html %}
-
-<!-- Content goes inside #site-canvas -->

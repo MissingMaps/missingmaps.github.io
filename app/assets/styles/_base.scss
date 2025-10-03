@@ -1,3 +1,5 @@
+@use "sass:color";
+
 // IE < 11
 // Don't delete.
 .lt-ie10 {
@@ -19,7 +21,7 @@
 
 /*----------------------------------------------*/
 /*Variables*/
-/*----------------------------------------------*/
+/*------------------------------------------  color: color.adjust($mmGreen, $lightness: 10%);---*/
 
 $mmred: #e23d3d;
 $mmgreen: #8BBF3F;
@@ -34,7 +36,7 @@ $mmYello: #fbda32;
 $mmGreen: #8bc544;
 $darkgrey: #606161;
 $lightgrey: #dbdbda;
-$border-grey: lighten($darkgrey, 40);
+$border-grey: color.scale($darkgrey, $lightness: 40%);
 $darkestgrey: #303030;
 
 $LB1: #f26c59;
@@ -71,8 +73,8 @@ $ButtonColor: $DataColor;
 /*----------------------------------------------*/
 $text-color: $darkgrey;
 $border-color: $darkgrey;
-$border-color-darken: darken($border-color, 5%);
-$border-color-lighten: lighten($border-color, 5%);
+$border-color-darken: color.adjust($border-color, $lightness: -5%);
+$border-color-lighten: color.adjust($border-color, $lightness: 5%);
 
 /*----------------------------------------------*/
 /*Fixing Default CSS*/
@@ -113,11 +115,11 @@ body{
 }
 
 ::-moz-selection { /* Code for Firefox */
-    background: desaturate(lighten($mmYello, 24), 20);
+    background: desaturate(color.adjust($mmYello, $lightness: 24%), 20%);
 }
 
 ::selection {
-    background: desaturate(lighten($mmYello, 24), 20);
+    background: desaturate(color.adjust($mmYello, $lightness: 24%), 20%);
 }
 
 .centerme{
@@ -594,7 +596,7 @@ input[type="text"]{
   color: white;
   padding: 8px 14px 8px 14px;
   margin: 10px 8px 6px 0px;
-  font-size: 0.8em;
+  font-size: 1em; // Increased from 0.8em
   font-weight: 400;
   font-family: 'Lato';
   text-decoration:none;
@@ -603,6 +605,20 @@ input[type="text"]{
   transition-duration: 0.12s;
   transition-timing-function: linear;
   line-height: 23px;
+  
+  &:hover{
+    background-color: darken($ButtonColor, 12%);
+    color: white;
+  }
+  &:active{
+    background-color: darken($ButtonColor, 15%);
+    color: white;
+  }
+  &:focus{
+    background-color: darken($ButtonColor, 12%);
+    color: white;
+  }
+  
   a{
     color: white;
     font-size: 1em;
@@ -803,12 +819,6 @@ input[type="text"]{
 .sectionheader{
   padding-bottom: 32px;
   padding-top: 32px;
-}
-
-.events-container {
-  .section-header {
-    color: #fff;
-  }
 }
 
 .contribute-base {

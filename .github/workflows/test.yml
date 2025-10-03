@@ -1,0 +1,59 @@
+name: Pull Request Tests
+
+on:
+  pull_request:
+    branches: [ main, master, publish ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3.5'
+          bundler-cache: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'npm'
+
+      - name: Install Node.js dependencies
+        run: npm ci
+
+      - name: Lint JavaScript
+        run: npm run lint
+
+      - name: Test build process
+        run: npm run build
+        env:
+          JEKYLL_ENV: production
+
+      - name: Check for build artifacts
+        run: |
+          if [ ! -d "_site" ]; then
+            echo "Build failed: _site directory not found"
+            exit 1
+          fi
+          if [ ! -f "_site/index.html" ]; then
+            echo "Build failed: index.html not found"
+            exit 1
+          fi
+          echo "Build successful!"
+
+      - name: Run additional checks
+        run: |
+          # Check that main assets were built
+          if [ ! -f "_site/assets/scripts/main.min.js" ]; then
+            echo "Warning: main.min.js not found"
+          fi
+          if [ ! -d "_site/assets/styles" ]; then
+            echo "Warning: styles directory not found"
+          fi
+          echo "Asset checks completed"

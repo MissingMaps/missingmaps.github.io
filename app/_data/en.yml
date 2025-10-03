@@ -66,12 +66,10 @@ nav:
         url:      "/mapswipe/"
   - text:         "EVENTS"
     links:
-      - text:     "CURRENT EVENTS"
+      - text:     "EVENTS"
         url:      "/events/"
       - text:     "ORGANIZE AN EVENT"
         url:      "/host/"
-      - text:     "MAPATHON SUPPORT"
-        url:      "/host/#helper-map-contents"
   - text:         "ABOUT"
     url:          "/about/"
   - text:         "BLOG"
@@ -226,7 +224,7 @@ field:
     - label: "<a href=\"https://www.kobotoolbox.org/\">KoBo</a> - KoBoToolbox is a suite of tools for field data collection for use in challenging environments. "
     - label: "<a href=\"https://organicmaps.app/\">Organic Maps</a> - a free, open source mobile app that provides offline maps based on OpenStreetMap data."
     - label: "<a href=\"https://osmand.net/\">OSMAnd</a> - a Mapping and navigation map with optional offline capacity."
-    - label: "<a href=\"http://posm.io/posm/intro/\">Portable OpenStreetMap (POSM)</a> - a hardware/software integration developed to conduct mapping in the field when internet and cellular connectivity is unreliable."
+    - label: "<a href=\"https://fmtm.hotosm.org\">HOT Field Tasking Manager (FMTM)</a> - a tool for coordinating field mapping activities, allowing teams to organize and track mapping tasks in areas with limited connectivity."
     - label: "<a href=\"https://www.opendronemap.org/\">OpenDroneMap</a> - sustainable solutions for collecting, processing, analyzing and displaying aerial data while supporting the communities built around them. "
   processing-header: "Processing"
   processing-about: "So now that you have gathered data about a community, you will need to put this information into OpenStreetMap. Depending on how you collected your data, there are a few ways to do this:"
@@ -325,14 +323,7 @@ about:
 
 helper-map:
   title:        "Mapathon Support"
-  description:  "The Missing Maps team can support you in a number of ways. Please reach out to us via Twitter or Facebook for help with task selection or if you have any questions. Additionally, volunteer mapathon supporters are located around the globe! Please use the below map to connect to someone in your area. You can filter by language using the dropdowns. Zooming the map will help you narrow down the list to people in your area."
-  signup-txt:   "Volunteer to help out by adding your contact info to the map via the button below. To remove or edit your data please send an <a href='mailto:info@hotosm.org'>email</a>."
-  signup-btn:   "Sign up"
-  filter-lang:  "Filter by a language"
-  filter-type:  "Filter by type"
-  all:          "All"
-  remote:       "Remote"
-  in-person:    "In Person"
+  description:  "The Missing Maps team can support you in a number of ways. Please reach out to us via Twitter or Facebook for help with task selection or if you have any questions."
 
 #####################
 ## HOST A MAPATHON ##
@@ -356,7 +347,7 @@ host:
     - label: "Choose a date"
     - label: "Recruit volunteers to help plan the event"
     - label: "Book a space"
-    - label: "Register your event <a target='_blank' href='https://docs.google.com/forms/d/e/1FAIpQLScdvsMHLor8mrDrHa-BQs2XzFb96vIrx3u--LHXWd1g7RncPg/viewform'>here</a>"
+    - label: "Register your event <a target='_blank' href='https://osmcal.org/event/add/'>here</a>"
     - label: "Make banners or posters using <a target='_blank' href='https://drive.google.com/drive/folders/1y-PJ3MoHndFtm_Xcm_7qPMjtNYxbygCs'>the Missing Maps logo and/or the customizable community logo template</a>"
     - label: "Recruit participants using Eventbrite"
     - label: "Pick a task using the <a target='_blank' href='http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=missing+maps'>Tasking Manager</a>"

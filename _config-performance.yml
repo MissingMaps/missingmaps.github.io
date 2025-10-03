@@ -1,0 +1,21 @@
+# Jekyll cache optimization
+# Place in .jekyll-cache for faster builds
+cache_dir: .jekyll-cache
+
+# Optimize Jekyll performance
+incremental: true
+profile: false
+
+# Liquid template optimization  
+liquid:
+  error_mode: strict
+  strict_filters: true
+  strict_variables: false
+
+# SASS compression
+sass:
+  style: compressed
+  sourcemap: never
+  
+# Polyglot optimization
+parallel_localization: true
