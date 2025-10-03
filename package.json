@@ -17,9 +17,9 @@
     "npm": ">=10.0.0"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/MissingMaps/missingmaps.github.io/issues"
   },
-  "homepage": "",
+  "homepage": "https://www.missingmaps.org",
   "scripts": {
     "postinstall": "[ -f _config-dev.yml ] || echo 'domain: http://localhost:3000\npath_prefix:' > _config-dev.yml",
     "serve": "gulp serve",
