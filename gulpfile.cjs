@@ -2,7 +2,6 @@ const gulp = require('gulp');
 
 const autoprefixer = require('gulp-autoprefixer');
 const browserSync = require('browser-sync');
-const { deleteAsync } = require('del');
 const concat = require('gulp-concat');
 const cp = require('child_process');
 const fs = require('fs');
@@ -36,7 +35,8 @@ async function grabEvents () {
   }
 }
 
-function clean () {
+async function clean () {
+  const { deleteAsync } = await import('del');
   return deleteAsync(['_site', '.tmp', 'app/_data/events', 'app/_posts']);
 }
 exports.clean = clean;
