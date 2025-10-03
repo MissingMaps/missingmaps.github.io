@@ -11,30 +11,35 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.0'
+        ruby-version: '3.3.5'
         bundler-cache: true
+        cache-version: 1
     
     - name: Setup Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
-        node-version: '18'
+        node-version: '20.18.0'
         cache: 'npm'
     
-    - name: Install dependencies
+    - name: Install Node dependencies
+      run: npm ci
+    
+    - name: Verify Ruby and Bundle setup
       run: |
-        bundle install
-        npm install
+        ruby --version
+        bundle --version
+        bundle list
     
     - name: Run Jekyll build
-      run: bundle exec jekyll build
+      run: bundle exec jekyll build --config _config.yml
     
     - name: Run multilingual tests
-      run: ./test-multilingual.sh
+      run: chmod +x ./test-multilingual.sh && ./test-multilingual.sh
     
     - name: Check for broken links (sample)
       run: |
