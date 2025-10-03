@@ -470,6 +470,12 @@ blog:
   tags: "Blog Tags"
   categories: "Blog Categories"
   nocontent: "No blogs currently published in english."
+  also_available: "Also available in"
+  pagination_label: "Blog pagination"
+  previous_page: "Previous"
+  next_page: "Next"
+  page_info: "Page"
+  of: "of"
 
 #####################
 ## OSM STATS ##
@@ -484,3 +490,21 @@ lost:
   title: "This page is missing."
   message: "This is kind of embarrassing. You seem to be somewhere that we haven't mapped yet."
   link: "Help us map the world."
+
+#####################
+## DATE LOCALIZATION ##
+#####################
+months:
+  - null
+  - January
+  - February
+  - March
+  - April
+  - May
+  - June
+  - July
+  - August
+  - September
+  - October
+  - November
+  - December

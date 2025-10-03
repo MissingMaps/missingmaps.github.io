@@ -55,13 +55,13 @@ nav:
   - text: "APPRENDRE"
     links:
       - text:     "DÉBUTANT EN CARTOGRAPHIE"
-        url:      "/fr/débutant/"
+        url:      "/fr/debutant/"
       - text:     "CARTOGRAPHIE AVANCÉE"
-        url:      "/fr/avancé/"
+        url:      "/fr/avance/"
       - text:     "CARTOGRAPHIE DE TERRAIN"
         url:      "/fr/terrain/"
       - text:     "VALIDATION"
-        url:      "/fr/validé/"
+        url:      "/fr/validation/"
       - text:     "MAPSWIPE"
         url:      "/fr/mapswipe/"
   - text:         "ÉVÉNEMENTS"
@@ -466,6 +466,17 @@ blog:
   tags: "Blog Tags"
   categories: "Blog Catégories"
   nocontent: "Il n'y a pas des blogs de langue espagnole actuellement publiés."
+  also_available: "Aussi disponible en"
+  pagination_label: "Pagination du blog"
+  previous_page: "Précédent"
+  next_page: "Suivant"
+  page_info: "Page"
+  of: "de"
+  pagination_label: "Pagination du blog"
+  previous_page: "Précédent"
+  next_page: "Suivant"
+  page_info: "Page"
+  of: "de"
 
 #####################
 ## COUNTRY STATS ##
@@ -480,3 +491,21 @@ lost:
   title: "Cette page est manquante."
   message: "Esto es un poco embarazoso. Usted parece estar en un lugar que no hemos asignado todavía."
   link: "Aidez-nous à cartographier le monde."
+
+#####################
+## DATE LOCALIZATION ##
+#####################
+months:
+  - null
+  - Janvier
+  - Février
+  - Mars
+  - Avril
+  - Mai
+  - Juin
+  - Juillet
+  - Août
+  - Septembre
+  - Octobre
+  - Novembre
+  - Décembre

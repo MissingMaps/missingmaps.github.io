@@ -748,6 +748,26 @@
 		padding-bottom: 36px;
     padding-top: 20px;
 	}
+	
+	@media screen and (max-width: 768px) {
+		padding: 24px 0px 0px 0px;
+		
+		.sectionheader {
+			padding-bottom: 28px;
+			padding-top: 16px;
+			font-size: 0.9em;
+		}
+	}
+	
+	@media screen and (max-width: 480px) {
+		padding: 20px 0px 0px 0px;
+		
+		.sectionheader {
+			padding-bottom: 24px;
+			padding-top: 12px;
+			font-size: 0.85em;
+		}
+	}
 }
 
 .footer-mm{
@@ -757,6 +777,20 @@
 	line-height: 50px;
 	color: $lightgrey;
 	background-color: $darkestgrey;
+	
+	@media screen and (max-width: 768px) {
+		height: 44px;
+		line-height: 44px;
+		margin-top: 40px;
+		font-size: 0.9em;
+	}
+	
+	@media screen and (max-width: 480px) {
+		height: 40px;
+		line-height: 40px;
+		margin-top: 32px;
+		font-size: 0.85em;
+	}
 }
 
 /*----------------------------------------------*/
@@ -767,6 +801,20 @@
   padding-top: 10px;
   margin-bottom: 28px;
   font-size: 35px;
+  
+  @media screen and (max-width: 768px) {
+    margin-top: 40px;
+    margin-bottom: 24px;
+    font-size: 28px;
+    padding-top: 8px;
+  }
+  
+  @media screen and (max-width: 480px) {
+    margin-top: 32px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    padding-top: 6px;
+  }
 }
 
 .linebreak{
@@ -804,6 +852,24 @@
   }
   hr{
     margin: 2px 0px 10px 0px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    padding: 8px 20px 48px 20px;
+    
+    .sub-head {
+      font-size: 1.1em;
+      padding-top: 8px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    padding: 6px 15px 36px 15px;
+    
+    .sub-head {
+      font-size: 1em;
+      padding-top: 6px;
+    }
   }
 }
 
