@@ -40,8 +40,9 @@ to the `site_tags` variable. -->
 					<span style="float: left;">
 						<a href="{{ post.url }}">{{ post.title }}</a>
 					</span>
+					{% assign month_number = post.date | date: "%-m" | plus: 0 %}
 					<span style="float: right;">
-						{{ post.date | localize: "%B",locale }} {{ post.date | localize: "%Y",locale }}
+						{{ site.data[site.active_lang].months[month_number] }} {{ post.date | date: "%Y" }}
 					</span>
 				</div>
 				<div style="clear: both;"></div>

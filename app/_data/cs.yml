@@ -490,3 +490,21 @@ lost:
   title: "Stránka nenalezena."
   message: "To je nepříjemné. Zdá se, že jste někde, kde jsme to ještě nezmapovali."
   link: "Pomozte nám zmapovat svět."
+
+#####################
+## DATE LOCALIZATION ##
+#####################
+months:
+  - null
+  - Leden
+  - Únor
+  - Březen
+  - Duben
+  - Květen
+  - Červen
+  - Červenec
+  - Srpen
+  - Září
+  - Říjen
+  - Listopad
+  - Prosinec

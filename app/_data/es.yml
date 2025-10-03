@@ -480,3 +480,21 @@ lost:
     title: "Esta página no se encuentra."
     message: "Esto es un poco embarazoso. Usted parece estar en un lugar que no hemos asignado todavía."
     link: "Nos ayudan a trazar mapas del mundo."
+
+#####################
+## DATE LOCALIZATION ##
+#####################
+months:
+  - null
+  - Enero
+  - Febrero
+  - Marzo
+  - Abril
+  - Mayo
+  - Junio
+  - Julio
+  - Agosto
+  - Septiembre
+  - Octubre
+  - Noviembre
+  - Diciembre

@@ -17,7 +17,8 @@
 						<a href="{{ post.url }}">
 							<img class="medium-4 pull-right blog-img stack-for-small" src="{{ post.banner }}" alt="{{ post.title }}" />
 						</a>
-						<p><span class="blog-date">{{post.date | localize: "%d",locale }} {{ post.date | localize: "%B",locale }} {{ post.date | localize: "%Y",locale }} </span> &nbsp;|&nbsp; by {{ post.author }}</p>
+						{% assign month_number = post.date | date: "%-m" | plus: 0 %}
+						<p><span class="blog-date">{{ post.date | date: "%-d" }} {{ site.data[site.active_lang].months[month_number] }} {{ post.date | date: "%Y" }} </span> &nbsp;|&nbsp; by {{ post.author }}</p>
 						<p class="medium-7">{{ post.excerpt }}</p>
 				</div>
 			{% endif %}

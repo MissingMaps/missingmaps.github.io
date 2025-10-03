@@ -3,6 +3,6 @@ layout: default
 permalink: /
 id: index
 ---
-{% include get_locale.html %}
+{% assign locale = site.active_lang %}
 {% include header.html %}
 {% include landing.html %}
