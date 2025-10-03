@@ -108,7 +108,7 @@ const buildEvents = (events) => {
 			`;
 
       eventList.appendChild(eventContainer);
-    } catch (error) {
+    } catch {
       // Extract event ID for join link even in error case
       const urlParts = event.url.split('/').filter(part => part.length > 0);
       const eventId = urlParts[urlParts.length - 1];
@@ -166,7 +166,7 @@ const showLastUpdated = (buildTime) => {
         eventList.parentNode.insertBefore(notice, eventList);
       }
     }
-  } catch (error) {
+  } catch {
     // Silently fail - no visual indicator needed for build time parsing errors
   }
 };
@@ -222,7 +222,7 @@ const fetchEvents = async () => {
     }
 
     return events;
-  } catch (error) {
+  } catch {
     showEventsFallback();
     return [];
   }
