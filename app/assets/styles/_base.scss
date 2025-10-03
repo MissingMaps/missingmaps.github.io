@@ -285,6 +285,8 @@ header{
   padding-left: 1em;
   width: 100px;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent; // Remove tap highlight on mobile
+  user-select: none; // Prevent text selection
   p{
     color: $lightgrey;
     font-family: 'Lato';
@@ -300,8 +302,6 @@ header{
       float: left;
       margin: 3px 0 0 0;
     }
-  }
-  &:hover{
   }
   @media screen and (max-width: 650px) {
     display: block;
@@ -335,12 +335,15 @@ header{
 .resp-nav-dropdown {
     display: inline-block;
     text-align: center;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
     @media screen and (min-width: 651px) {
       display: none;
     }
 }
 
-.resp-nav-dropdown:hover .resp-dropdown-content {
+.resp-nav-dropdown:hover .resp-dropdown-content,
+.resp-dropdown-content.show {
     opacity: 1;
     height: auto;
 }
