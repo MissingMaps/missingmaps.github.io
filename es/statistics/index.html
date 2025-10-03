@@ -1,8 +1,8 @@
 
 
 <!DOCTYPE html>
-<!--[if lt IE 10]> <html class="lt-ie10 no-js"  lang="es"> <![endif]-->
-<!--[if gt IE 9]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
+<!--[if lt IE 10]> <html class="lt-ie10 no-js"  lang=""> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang=""> <!--<![endif]-->
 
   <head>
     <meta charset="utf-8">
@@ -13,7 +13,7 @@
     <meta name="description" content="">
 
     <link rel="canonical" href="/es/statistics/">
-    <link rel="alternate" type="application/rss+xml" title="Missing Maps" href="/feed.xml">
+    <link rel="alternate" type="application/rss+xml" title="Missing Maps" href="/es/feed.xml">
 
     <link rel="stylesheet" href="/assets/styles/main.css">
 
@@ -23,7 +23,9 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400|Hind:700,300,600' rel='stylesheet' type='text/css'>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" 
+            integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw==" 
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <link rel="apple-touch-icon" sizes="57x57" href="/assets/graphics/favicon/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="57x57" href="/assets/graphics/favicon/apple-touch-icon-57x57.png">
@@ -53,7 +55,7 @@
   <meta name="twitter:creator" content="@themissingmaps" >
   <meta name="twitter:image" content="http://i.imgur.com/sSUhfmc.png" >
 
-  <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Missing Maps" />
+  <link type="application/atom+xml" rel="alternate" href="/es/feed.xml" title="Missing Maps" />
   </head>
 
   <body>
@@ -65,7 +67,6 @@
     <![endif]-->
 
     
-
 <header>
 	<div class="navbar-background">
 		<div class="nav-icon">
@@ -102,8 +103,6 @@
 						
 						<a href="/es/organizar/"><div class="nav-item">ORGANIZAR UN EVENTO</div></a>
 						
-						<a href="/es/organizar/#helper-map-contents"><div class="nav-item">APOYO EN MAPATONES</div></a>
-						
 					</div>
 				</li>
 				
@@ -135,24 +134,28 @@
 					<div class="dropdown-content">
 						
 						
-						<a href="/cs/statistiky/">
-							<div class="nav-item item-centered">cs</div>
-						</a>
+							<a href="/es/statistics/">
+								<div class="nav-item item-centered">en</div>
+							</a>
 						
 						
-						<a href="/statistics/">
-							<div class="nav-item item-centered">en</div>
-						</a>
+						
+							<a href="/fr/statistics/">
+								<div class="nav-item item-centered">fr</div>
+							</a>
 						
 						
-						<a href="/es/statistics/">
-							<div class="nav-item item-centered">es</div>
-						</a>
+						
+							<a href="/cs/statistics/">
+								<div class="nav-item item-centered">cs</div>
+							</a>
 						
 						
-						<a href="/fr/statistiques/">
-							<div class="nav-item item-centered">fr</div>
-						</a>
+						
+							<a href="/es/statistics/">
+								<div class="nav-item item-centered">es</div>
+							</a>
+						
 						
 					</div>
 				</li>
@@ -194,10 +197,6 @@
 				<li class="nav-item">ORGANIZAR UN EVENTO</li>
 			</a>
 			
-			<a href="/es/organizar/#helper-map-contents">
-				<li class="nav-item">APOYO EN MAPATONES</li>
-			</a>
-			
 			
 			
 			<a href="/es/acercade/">
@@ -218,23 +217,31 @@
 			
 			
 			<div class="mobile-languages">
-				 
-				<a href="/cs/">
-					<div class="lang">cs</div>
-				</a>
-				  
-				<a href="/">
-					<div class="lang">en</div>
-				</a>
-				  
-				<a href="/es/">
-					<div class="lang">es</div>
-				</a>
-				  
-				<a href="/fr/">
-					<div class="lang">fr</div>
-				</a>
-				 
+				
+				
+					<a href="/es/statistics/">
+						<div class="lang">en</div>
+					</a>
+				
+				
+				
+					<a href="/fr/statistics/">
+						<div class="lang">fr</div>
+					</a>
+				
+				
+				
+					<a href="/cs/statistics/">
+						<div class="lang">cs</div>
+					</a>
+				
+				
+				
+					<a href="/es/statistics/">
+						<div class="lang">es</div>
+					</a>
+				
+				
 			</div>
 		</div>
 	</div>
@@ -264,7 +271,6 @@ document.querySelector("header").style.display = 'inline-block';
 
 
     
-
 <footer class="site-footer">
   <div class="wrapper">
     <div class="footer-container">
@@ -293,7 +299,7 @@ document.querySelector("header").style.display = 'inline-block';
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55969124-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+      const gtag = (...args) => { dataLayer.push(args); };
       gtag('js', new Date());
 
       gtag('config', 'UA-55969124-1');

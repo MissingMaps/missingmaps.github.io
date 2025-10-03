@@ -1,0 +1,355 @@
+
+
+<!DOCTYPE html>
+<!--[if lt IE 10]> <html class="lt-ie10 no-js"  lang=""> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Changes to MapSwipe for a Changing World</title>
+    <meta name="description" content="American Red Cross is excited to support a new MapSwipe mission type available in the v2.1.8 release.">
+
+    <link rel="canonical" href="/cs/blog/2022/01/25/changes-to-mapswipe/">
+    <link rel="alternate" type="application/rss+xml" title="Missing Maps" href="/cs/feed.xml">
+
+    <link rel="stylesheet" href="/assets/styles/main.css">
+
+    <link rel="author" type="text/plain" href="humans.txt" />
+
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400|Hind:700,300,600' rel='stylesheet' type='text/css'>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" 
+            integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw==" 
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/graphics/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/graphics/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/graphics/favicon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/graphics/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/graphics/favicon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/graphics/favicon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/graphics/favicon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/graphics/favicon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/graphics/favicon/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/graphics/favicon/apple-touch-icon-180x180.png">
+  <link rel="shortcut icon" href="/assets/graphics/favicon/favicon.ico">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/assets/graphicsfavicon/favicon-32x32.png" sizes="32x32">
+
+  <meta name="description" content="Putting the World's Vulnerable People on the Map">
+  <meta itemprop="name" content="MissingMaps">
+  <meta itemprop="description" content="Putting the World's Vulnerable People on the Map" >
+  <meta itemprop="image" content="http://i.imgur.com/sSUhfmc.png" >
+  <meta name="twitter:card" content="product" >
+  <meta name="twitter:site" content="@themissingmaps" >
+  <meta name="twitter:title" content="MissingMaps" >
+  <meta name="twitter:description" content="Putting the World's Vulnerable People on the Map" >
+  <meta name="twitter:creator" content="@themissingmaps" >
+  <meta name="twitter:image" content="http://i.imgur.com/sSUhfmc.png" >
+
+  <link type="application/atom+xml" rel="alternate" href="/cs/feed.xml" title="Missing Maps" />
+  </head>
+
+  <body>
+    <!--[if lt IE 11]>
+      <div id="nocando">
+        <h1>No can do!</h1>
+        <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      </div>
+    <![endif]-->
+
+    
+<header>
+	<div class="navbar-background">
+		<div class="nav-icon">
+			<a href="/cs/">
+				<img src="/assets/graphics/meta/MM_white_typography.svg" width="94px" alt="">
+			</a>
+		</div>
+		<div class="nav-list">
+			<ul>
+				
+				
+				<li class="nav-item nav-dropdown">NAUČIT SE
+					<div class="dropdown-content">
+						
+						<a href="/cs/začátečník/"><div class="nav-item">MAPOVÁNÍ PRO ZAČÁTEČNÍKY</div></a>
+						
+						<a href="/cs/pokročilý/"><div class="nav-item">POKROČILÉ MAPOVÁNÍ</div></a>
+						
+						<a href="/cs/terén/"><div class="nav-item">MAPOVÁNÍ TERÉNU</div></a>
+						
+						<a href="/cs/validuj/"><div class="nav-item">VALIDACE</div></a>
+						
+						<a href="/cs/mapswipe/"><div class="nav-item">MAPSWIPE</div></a>
+						
+					</div>
+				</li>
+				
+				
+				
+				<li class="nav-item nav-dropdown">AKCE
+					<div class="dropdown-content">
+						
+						<a href="/cs/akce/"><div class="nav-item">NADCHÁZEJÍCÍ AKCE</div></a>
+						
+						<a href="/cs/organizuj/"><div class="nav-item">USPOŘÁDEJTE AKCI</div></a>
+						
+					</div>
+				</li>
+				
+				
+				
+				<a href="/cs/o-projektu/">
+					<li class="nav-item">O PROJEKTU</li>
+				</a>
+				
+				
+				
+				<a href="/cs/blog/">
+					<li class="nav-item">BLOG</li>
+				</a>
+				
+				
+				
+				<li class="nav-item nav-dropdown">PROZKOUMAT
+					<div class="dropdown-content">
+						
+						<a href="https://stats.now.ohsome.org/"><div class="nav-item">STATISTIKY <svg width='9' height='9' viewBox='0 0 11 11' title='externalLink' style='height: 9px;'><path fill='currentColor' d='M9.778 9.778H1.222V1.222H5.5V0H1.222C.544 0 0 .55 0 1.222v8.556C0 10.45.544 11 1.222 11h8.556C10.45 11 11 10.45 11 9.778V5.5H9.778v4.278zM6.722 0v1.222h2.194L2.91 7.23l.862.862 6.007-6.007v2.194H11V0H6.722z'></path></svg></div></a>
+						
+					</div>
+				</li>
+				
+				
+				|
+				<li class="nav-item nav-dropdown">cs
+					<div class="dropdown-content">
+						
+						
+							<a href="/cs/blog/2022/01/25/changes-to-mapswipe/">
+								<div class="nav-item item-centered">en</div>
+							</a>
+						
+						
+						
+							<a href="/fr/blog/2022/01/25/changes-to-mapswipe/">
+								<div class="nav-item item-centered">fr</div>
+							</a>
+						
+						
+						
+							<a href="/cs/blog/2022/01/25/changes-to-mapswipe/">
+								<div class="nav-item item-centered">cs</div>
+							</a>
+						
+						
+						
+							<a href="/es/blog/2022/01/25/changes-to-mapswipe/">
+								<div class="nav-item item-centered">es</div>
+							</a>
+						
+						
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="resp-navbar navbar-background resp-nav-dropdown">
+		<p>MENU</p>
+		<div class="resp-dropdown-content">
+			
+			
+			<a href="/cs/začátečník/">
+				<li class="nav-item">MAPOVÁNÍ PRO ZAČÁTEČNÍKY</li>
+			</a>
+			
+			<a href="/cs/pokročilý/">
+				<li class="nav-item">POKROČILÉ MAPOVÁNÍ</li>
+			</a>
+			
+			<a href="/cs/terén/">
+				<li class="nav-item">MAPOVÁNÍ TERÉNU</li>
+			</a>
+			
+			<a href="/cs/validuj/">
+				<li class="nav-item">VALIDACE</li>
+			</a>
+			
+			<a href="/cs/mapswipe/">
+				<li class="nav-item">MAPSWIPE</li>
+			</a>
+			
+			
+			
+			<a href="/cs/akce/">
+				<li class="nav-item">NADCHÁZEJÍCÍ AKCE</li>
+			</a>
+			
+			<a href="/cs/organizuj/">
+				<li class="nav-item">USPOŘÁDEJTE AKCI</li>
+			</a>
+			
+			
+			
+			<a href="/cs/o-projektu/">
+				<li class="nav-item">O PROJEKTU</li>
+			</a>
+			
+			
+			
+			<a href="/cs/blog/">
+				<li class="nav-item">BLOG</li>
+			</a>
+			
+			
+			
+			<a href="https://stats.now.ohsome.org/">
+				<li class="nav-item">STATISTIKY <svg width='9' height='9' viewBox='0 0 11 11' title='externalLink' style='height: 9px;'><path fill='currentColor' d='M9.778 9.778H1.222V1.222H5.5V0H1.222C.544 0 0 .55 0 1.222v8.556C0 10.45.544 11 1.222 11h8.556C10.45 11 11 10.45 11 9.778V5.5H9.778v4.278zM6.722 0v1.222h2.194L2.91 7.23l.862.862 6.007-6.007v2.194H11V0H6.722z'></path></svg></li>
+			</a>
+			
+			
+			<div class="mobile-languages">
+				
+				
+					<a href="/cs/blog/2022/01/25/changes-to-mapswipe/">
+						<div class="lang">en</div>
+					</a>
+				
+				
+				
+					<a href="/fr/blog/2022/01/25/changes-to-mapswipe/">
+						<div class="lang">fr</div>
+					</a>
+				
+				
+				
+					<a href="/cs/blog/2022/01/25/changes-to-mapswipe/">
+						<div class="lang">cs</div>
+					</a>
+				
+				
+				
+					<a href="/es/blog/2022/01/25/changes-to-mapswipe/">
+						<div class="lang">es</div>
+					</a>
+				
+				
+			</div>
+		</div>
+	</div>
+</header>
+
+
+<script>
+  document.querySelector("header").style.display = 'inline-block';
+</script>
+
+<div id="site-canvas">
+  
+  <div class="header-image" style="background-image: url('https://www.missingmaps.org/img/images/missingmaps-blog_20220125_mapswipe-grid.png');">
+  
+    <div class="dark-overlay center-text">
+      <h1 class="title feature-header">Changes to MapSwipe for a Changing World</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="textbox blog-container">
+        <div class="blog-date">25 Translation missing: cs.date.month_names 2022</div>
+        <p><em><strong>This was originally posted on on the <a href="https://www.redcross.org/about-us/our-work/international-services.html">American Red Cross International Services Department</a> Data and Tech Team <a href="https://americanredcross.github.io/2022/01/25/changes-to-mapswipe-for-a-changing-world/">blog</a>.</strong></em></p>
+
+<p><em>American Red Cross is excited to support a new MapSwipe mission type available in the v2.1.8 release.</em></p>
+
+<h1 id="red-cross-️-osm">Red Cross ❤️ OSM</h1>
+
+<p>Understanding places and the “where?” of things is vitally important for successful humanitarian programs and disaster response. It is important for getting from point A to point B as well as for coordination, understanding needs, tracking impact, identifying gaps, and a multitude of other concerns.</p>
+
+<p>OpenStreetMap (OSM) is a global source of open geographic data that can be updated by people with whatever features and details are important to them. It takes a diverse community of mappers and a variety of tools to keep OSM an accessible source for up-to-date details on where people live and the systems that support them. Since 2014 the American Red Cross has supported Missing Maps, a collaborative humanitarian project that aims to grow a global community of mappers.</p>
+
+<h2 id="the-original-mapswipe">The original MapSwipe</h2>
+<p><a href="https://mapswipe.org/">MapSwipe</a> is an open-source mobile app to make mapping around the world more coordinated and efficient. In the original MapSwipe ‘build area’ mission type, volunteers swipe through satellite images and tap an imagery tile once when they’ve located particular features such as buildings. This crowdsources the prioritization of areas. Mappers can be directed to areas flagged in a MapSwipe mission as having features of interest; they can spend less time panning across forest, desert, or other areas without the features. This is most useful for places that have never been previously mapped.</p>
+
+<h2 id="what-else-can-we-mapswipe">What else can we MapSwipe?</h2>
+<p>As humanitarians expand the ways they use geospatial data to inform their actions, they may require different, more detailed, and more accurate data.​ A simple base map for knowing where neighborhoods are in relation to one another requires less data than what is needed to predict the number of families impacted by a flood. Confirming that OSM data is appropriate for new types of maps and analyses is especially vital as time passes and environments change, for example with buildings constructed or torn down.</p>
+
+<p>American Red Cross supported the MapSwipe team, through <a href="https://heigit.org/">HeiGIT</a>, to launch a footprint review mission type in January 2022. The new mission type is part of a quality assurance process. It enables users to review the accuracy of individual features previously traced into OSM using the most-recent available satellite imagery.</p>
+
+<figure>
+<img src="https://www.missingmaps.org/img/images/missingmaps-blog_20220125_mapswipe-mission-types.png" />
+<p class="caption"> The original build area mission type (left) and the new footprint review mission (right). </p>
+</figure>
+
+<p>The world changes and an area mapped last year might not still match OSM.​ The analytic results of the footprint review missions will help identify areas that need to be revisited by mappers due to changes in the built landscape. We plan to use the results to help determine the quality of building data in advance of it being used in forecast-based action, disaster risk planning, and other humanitarian activities of the global Red Cross Red Crescent network.</p>
+
+<h2 id="whats-next-with-mapswipe">What’s next with MapSwipe?</h2>
+
+<p>A key complement to understanding the accuracy of features existing in OSM, will be understanding if there are features missing from OSM. American Red Cross is already thinking about how a “completeness” mission type could complement the footprint review. Additionally, the Mapswipe developers have explored missions for comparing before and after images to detect disaster damages. What other data could MapSwipe help crowdsource?</p>
+
+<h2 id="join-in">Join in!</h2>
+
+<p>Download the MapSwipe app for <a href="https://play.google.com/store/apps/details?id=org.missingmaps.mapswipe">Android</a> or <a href="https://itunes.apple.com/us/app/mapswipe/id1133855392?ls=1&amp;mt=8">iOS</a> and tell us what you think. Look for a mission with “OSM building validation” in the title to check out the new mission type. Please click the green “Tutorial” button from the mission page and learn about contributing before starting to map.</p>
+
+<p>Follow <a href="https://twitter.com/mapswipe">@mapswipe</a> on Twitter.</p>
+
+<p>The MapSwipe maintainers accept <a href="https://opencollective.com/mapswipe">financial contributions</a> via Open Collective if you want to be part of the support that keeps the app running, maintained, and free of bugs.</p>
+
+<p>If you code, check out the project <a href="https://github.com/mapswipe">on GitHub</a> and see if there are any issues you can tackle. Email info@mapswipe.org if you would like to be added to the Slack workspace for the MapSwipe community.</p>
+
+        <hr class="blog-end">
+        <p class="author">by Dan Joseph</p>
+      </div>
+    </div>
+  </div>
+
+
+    
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-container">
+      <div class="center-text">
+        <div class="row">
+          <div class="title section-header">Kontaktujte nás</div>
+        </div>
+        <a href="https://twitter.com/TheMissingMaps" class="btn btn-blue"><i class="fab fa-twitter"></i> TWITTER </a>
+        <a href="https://www.facebook.com/TheMissingMaps" class="btn btn-blue"><i class="fab fa-facebook fa-fw"></i> FACEBOOK </a>
+        <a href="https://github.com/MissingMaps" class="btn btn-blue"><i class="fab fa-github fa-fw"></i> GITHUB </a>
+        <a href="http://wiki.openstreetmap.org/wiki/Missing_Maps_Project" class="btn btn-blue"><i class="far fa-newspaper fa-fw"></i> WIKI </a>
+        <a href="https://www.flickr.com/photos/126636925@N06/" class="btn btn-blue"><i class="fab fa-flickr fa-fw"></i> FLICKR </a>
+        <a href="https://www.instagram.com/themissingmaps/" class="btn btn-blue"><i class="fab fa-instagram fa-fw"></i> INSTAGRAM </a>
+        <a href="mailto:info@hotosm.org" class="btn btn-blue"><i class="fas fa-envelope fa-fw"></i> EMAIL </a>
+        <a href="/assets/downloads/mapathon-materials/english/MissingMapsMediaGuideGeneral_Web.png" class="btn btn-blue"><i class="fas fa-microphone fa-fw"></i> MEDIA GUIDE </a>
+      </div>
+      <div class="footer-mm center-text">
+        CC-BY Missing Maps
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55969124-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      const gtag = (...args) => { dataLayer.push(args); };
+      gtag('js', new Date());
+
+      gtag('config', 'UA-55969124-1');
+    </script>
+
+    <!-- build:js assets/scripts/main.js -->
+    <script src="/assets/scripts/main.min.js"></script>
+    <!-- endbuild -->
+
+  </body>
+
+</html>

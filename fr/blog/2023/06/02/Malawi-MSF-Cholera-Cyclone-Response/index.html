@@ -1,0 +1,446 @@
+
+
+<!DOCTYPE html>
+<!--[if lt IE 10]> <html class="lt-ie10 no-js"  lang=""> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Remote Mapping in Malawi: Supporting Field Operations</title>
+    <meta name="description" content="Malawi was experiencing the worst cholera epidemic in 20 years, so MSF sent an emergency team and activated Missing Maps. When a cyclone hit in March, OSM da...">
+
+    <link rel="canonical" href="/fr/blog/2023/06/02/Malawi-MSF-Cholera-Cyclone-Response/">
+    <link rel="alternate" type="application/rss+xml" title="Missing Maps" href="/fr/feed.xml">
+
+    <link rel="stylesheet" href="/assets/styles/main.css">
+
+    <link rel="author" type="text/plain" href="humans.txt" />
+
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400|Hind:700,300,600' rel='stylesheet' type='text/css'>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" 
+            integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw==" 
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/graphics/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/graphics/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/graphics/favicon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/graphics/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/graphics/favicon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/graphics/favicon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/graphics/favicon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/graphics/favicon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/graphics/favicon/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/graphics/favicon/apple-touch-icon-180x180.png">
+  <link rel="shortcut icon" href="/assets/graphics/favicon/favicon.ico">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/assets/graphicsfavicon/favicon-32x32.png" sizes="32x32">
+
+  <meta name="description" content="Putting the World's Vulnerable People on the Map">
+  <meta itemprop="name" content="MissingMaps">
+  <meta itemprop="description" content="Putting the World's Vulnerable People on the Map" >
+  <meta itemprop="image" content="http://i.imgur.com/sSUhfmc.png" >
+  <meta name="twitter:card" content="product" >
+  <meta name="twitter:site" content="@themissingmaps" >
+  <meta name="twitter:title" content="MissingMaps" >
+  <meta name="twitter:description" content="Putting the World's Vulnerable People on the Map" >
+  <meta name="twitter:creator" content="@themissingmaps" >
+  <meta name="twitter:image" content="http://i.imgur.com/sSUhfmc.png" >
+
+  <link type="application/atom+xml" rel="alternate" href="/fr/feed.xml" title="Missing Maps" />
+  </head>
+
+  <body>
+    <!--[if lt IE 11]>
+      <div id="nocando">
+        <h1>No can do!</h1>
+        <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      </div>
+    <![endif]-->
+
+    
+<header>
+	<div class="navbar-background">
+		<div class="nav-icon">
+			<a href="/fr/">
+				<img src="/assets/graphics/meta/MM_white_typography.svg" width="94px" alt="">
+			</a>
+		</div>
+		<div class="nav-list">
+			<ul>
+				
+				
+				<li class="nav-item nav-dropdown">APPRENDRE
+					<div class="dropdown-content">
+						
+						<a href="/fr/débutant/"><div class="nav-item">DÉBUTANT EN CARTOGRAPHIE</div></a>
+						
+						<a href="/fr/avancé/"><div class="nav-item">CARTOGRAPHIE AVANCÉE</div></a>
+						
+						<a href="/fr/terrain/"><div class="nav-item">CARTOGRAPHIE DE TERRAIN</div></a>
+						
+						<a href="/fr/validé/"><div class="nav-item">VALIDATION</div></a>
+						
+						<a href="/fr/mapswipe/"><div class="nav-item">MAPSWIPE</div></a>
+						
+					</div>
+				</li>
+				
+				
+				
+				<li class="nav-item nav-dropdown">ÉVÉNEMENTS
+					<div class="dropdown-content">
+						
+						<a href="/fr/evenements/"><div class="nav-item">PROCHAINS ÉVÉNEMENTS</div></a>
+						
+						<a href="/fr/organiser/"><div class="nav-item">ORGANISER UN ÉVÉNEMENT</div></a>
+						
+					</div>
+				</li>
+				
+				
+				
+				<a href="/fr/apropos/">
+					<li class="nav-item">À PROPOS</li>
+				</a>
+				
+				
+				
+				<a href="/fr/blog/">
+					<li class="nav-item">BLOG</li>
+				</a>
+				
+				
+				
+				<li class="nav-item nav-dropdown">EXPLORER
+					<div class="dropdown-content">
+						
+						<a href="https://stats.now.ohsome.org/"><div class="nav-item">STATISTIQUES <svg width='9' height='9' viewBox='0 0 11 11' title='externalLink' style='height: 9px;'><path fill='currentColor' d='M9.778 9.778H1.222V1.222H5.5V0H1.222C.544 0 0 .55 0 1.222v8.556C0 10.45.544 11 1.222 11h8.556C10.45 11 11 10.45 11 9.778V5.5H9.778v4.278zM6.722 0v1.222h2.194L2.91 7.23l.862.862 6.007-6.007v2.194H11V0H6.722z'></path></svg></div></a>
+						
+					</div>
+				</li>
+				
+				
+				|
+				<li class="nav-item nav-dropdown">fr
+					<div class="dropdown-content">
+						
+						
+							<a href="/fr/blog/2023/06/02/Malawi-MSF-Cholera-Cyclone-Response/">
+								<div class="nav-item item-centered">en</div>
+							</a>
+						
+						
+						
+							<a href="/fr/blog/2023/06/02/Malawi-MSF-Cholera-Cyclone-Response/">
+								<div class="nav-item item-centered">fr</div>
+							</a>
+						
+						
+						
+							<a href="/cs/blog/2023/06/02/Malawi-MSF-Cholera-Cyclone-Response/">
+								<div class="nav-item item-centered">cs</div>
+							</a>
+						
+						
+						
+							<a href="/es/blog/2023/06/02/Malawi-MSF-Cholera-Cyclone-Response/">
+								<div class="nav-item item-centered">es</div>
+							</a>
+						
+						
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="resp-navbar navbar-background resp-nav-dropdown">
+		<p>MENU</p>
+		<div class="resp-dropdown-content">
+			
+			
+			<a href="/fr/débutant/">
+				<li class="nav-item">DÉBUTANT EN CARTOGRAPHIE</li>
+			</a>
+			
+			<a href="/fr/avancé/">
+				<li class="nav-item">CARTOGRAPHIE AVANCÉE</li>
+			</a>
+			
+			<a href="/fr/terrain/">
+				<li class="nav-item">CARTOGRAPHIE DE TERRAIN</li>
+			</a>
+			
+			<a href="/fr/validé/">
+				<li class="nav-item">VALIDATION</li>
+			</a>
+			
+			<a href="/fr/mapswipe/">
+				<li class="nav-item">MAPSWIPE</li>
+			</a>
+			
+			
+			
+			<a href="/fr/evenements/">
+				<li class="nav-item">PROCHAINS ÉVÉNEMENTS</li>
+			</a>
+			
+			<a href="/fr/organiser/">
+				<li class="nav-item">ORGANISER UN ÉVÉNEMENT</li>
+			</a>
+			
+			
+			
+			<a href="/fr/apropos/">
+				<li class="nav-item">À PROPOS</li>
+			</a>
+			
+			
+			
+			<a href="/fr/blog/">
+				<li class="nav-item">BLOG</li>
+			</a>
+			
+			
+			
+			<a href="https://stats.now.ohsome.org/">
+				<li class="nav-item">STATISTIQUES <svg width='9' height='9' viewBox='0 0 11 11' title='externalLink' style='height: 9px;'><path fill='currentColor' d='M9.778 9.778H1.222V1.222H5.5V0H1.222C.544 0 0 .55 0 1.222v8.556C0 10.45.544 11 1.222 11h8.556C10.45 11 11 10.45 11 9.778V5.5H9.778v4.278zM6.722 0v1.222h2.194L2.91 7.23l.862.862 6.007-6.007v2.194H11V0H6.722z'></path></svg></li>
+			</a>
+			
+			
+			<div class="mobile-languages">
+				
+				
+					<a href="/fr/blog/2023/06/02/Malawi-MSF-Cholera-Cyclone-Response/">
+						<div class="lang">en</div>
+					</a>
+				
+				
+				
+					<a href="/fr/blog/2023/06/02/Malawi-MSF-Cholera-Cyclone-Response/">
+						<div class="lang">fr</div>
+					</a>
+				
+				
+				
+					<a href="/cs/blog/2023/06/02/Malawi-MSF-Cholera-Cyclone-Response/">
+						<div class="lang">cs</div>
+					</a>
+				
+				
+				
+					<a href="/es/blog/2023/06/02/Malawi-MSF-Cholera-Cyclone-Response/">
+						<div class="lang">es</div>
+					</a>
+				
+				
+			</div>
+		</div>
+	</div>
+</header>
+
+
+<script>
+  document.querySelector("header").style.display = 'inline-block';
+</script>
+
+<div id="site-canvas">
+  
+  <div class="header-image" style="background-image: url('https://www.missingmaps.org/img/images/missingmaps-blog_20230601_malawi_banner.jpeg');">
+  
+    <div class="dark-overlay center-text">
+      <h1 class="title feature-header">Remote Mapping in Malawi: Supporting Field Operations</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="textbox blog-container">
+        <div class="blog-date">02 Translation missing: fr.date.month_names 2023</div>
+        <h1 id="remote-mapping-in-malawi-supporting-field-operations-for-the-cholera-outbreak-and-cyclone-freddy-response">Remote Mapping in Malawi: Supporting Field Operations for the Cholera Outbreak and Cyclone Freddy Response</h1>
+
+<h2 id="cholera-outbreak">Cholera outbreak</h2>
+<p>In Malawi, cholera remains endemic, with a consistent pattern of cases typically emerging in March, following the arrival of the initial rains. Historically, these occurrences swiftly faded away. However, in 2022, the number of reported cholera cases exhibited a significant rise following the initial occurrences in March. Since then, the cholera outbreak spread to several cities including Lilongwe, where the situation worsened in early December 2022. In mid-December, the number of cases skyrocketed. Responding to this alarming development, the Missing Maps team from Médecins Sans Frontières (MSF) launched remote mapping support, first setting up six Mapswipe projects, and with the resulting grid, HOT Tasking Manager projects to map buildings and residential areas.</p>
+
+<p>In January 2023, an emergency response team from MSF France was deployed to the field. Upon their arrival, there were between 900 and 1,000 cases per week. In response to this urgent crisis, MSF launched projects in key locations, namely Blantyre, Mangochi and Lilongwe.</p>
+
+<p>A number of mapathons were hosted around the world to map the Mangochi District, including:</p>
+
+<ul>
+  <li>
+    <p>Linklaters Japan mapathons held from February to April.</p>
+  </li>
+  <li>
+    <p>MSF Germany and the German Red Cross online mapathon: Collaborative event in February.</p>
+  </li>
+  <li>
+    <p>Mapathons organized by the MSF office in Copenhagen, and MSF office in Paris with CartONG volunteers in March.</p>
+  </li>
+  <li>
+    <p>Mapathons organized by MSF office in Prague held with the Missing Maps CZ volunteers in March.</p>
+  </li>
+  <li>
+    <p>Missing Maps Olomouc in April.</p>
+  </li>
+  <li>
+    <p>Missing Maps Slovakia in Bratislava in April.</p>
+  </li>
+  <li>
+    <p>Missing Maps London in April.</p>
+  </li>
+  <li>
+    <p>University of Zaragoza with MSF Spain mapathon in April.</p>
+  </li>
+  <li>
+    <p>MSF Germany mapathon at the FOSSGIS Conference in April.</p>
+  </li>
+  <li>
+    <p>The Canadian Red Cross: multiple corporate mapathons in April and May.</p>
+  </li>
+  <li>
+    <p>The German Red Cross, MSF Germany and the University of Greifswald continued to map buildings and residential areas at mapathons in May.</p>
+  </li>
+</ul>
+
+<p>Thank you to all these mappers, and to the validators who are helping to complete the <a href="https://tasks.hotosm.org/explore?campaign=Malawi%20Cholera%20Outbreak">projects</a>.</p>
+
+<p><strong>Use of maps in the Cholera Response operations</strong></p>
+
+<p>Two GIS specialists have been deployed to Malawi to support the MSF emergency response. They have created maps with the origin of cholera cases and cumulative cases for various locations, cholera case fatality rate and for Oral Rehydration Points locations, as well as for water access in the city of Lilongwe.</p>
+
+<p>OpenStreetMap base maps created through remote mapping projects and mapped during mapathons around the world were used in many operational applications.</p>
+
+<figure>
+<img src="https://www.missingmaps.org/img/images/missingmaps-blog_20230601_malawi_cholera_reponse_LilongweCity_watsan_excerpt.jpeg" />
+<p class="caption">Map used for a field survey on water access safety in Lilongwe. Malawi 2023 © MSF
+</p>
+</figure>
+
+<p>One of these applications is the use of maps for conducting water and sanitation surveys. By utilizing basemaps, MSF could effectively prioritize survey locations based on both population density and the potential for disease transmission. Building density on OSM base maps provides a valuable measure for estimating population density. Additionally, the structure of buildings served as an indicator of areas at higher risk of disease transmission: where neighborhoods characterized by chaotic and disorganized structures are usually areas of poverty that necessitate a closer examination and prioritization. Conversely, well-organized neighborhoods with neatly aligned buildings often indicate areas of more means that tend to have more resources, such as health facilities, and tend to necessitate less support from humanitarian organizations.</p>
+
+<p>Empowered by these maps, surveyors in the field are equipped with precise guidance on where to concentrate their efforts. This targeted approach allows for efficient allocation of resources and maximizes the impact of interventions. Each surveyed area is marked with colored dots, with green representing secure water access points, and red or yellow signifying areas with less safe water sources such as shallow wells or boreholes, which are known to potentially carry cholera. This integration of field surveys with the OSM building database significantly streamlines MSF’s operations, simplifying decision-making processes and enhancing overall efficiency.</p>
+
+<p>The cholera response activities were structured around two pillars, as illustrated by the Lilongwe project:</p>
+
+<ol>
+  <li>
+    <p>Treatment of patients in a 120-bed cholera treatment centre – a referral centre for complicated cases (pregnant women, patients with chronic diseases) – and setting up of rehydration and stabilisation points within communities to reduce the spread of the disease.</p>
+  </li>
+  <li>
+    <p>WASH activities within communities – identifying and, as and when required, repairing water distribution points, dispensing chlorine, donations for future repairs, etc.</p>
+  </li>
+</ol>
+
+<figure>
+<img src="https://www.missingmaps.org/img/images/missingmaps-blog_20230601_malawi_cholera_response.jpeg" />
+<p class="caption"> Mother and her child at a Cholera Treatment Centre. Malawi 2023 © MSF
+</p>
+</figure>
+
+<p>These two activities were supported by a health and hygiene promotion component, and a Case Area Targeted Intervention approach at the end of the epidemic.</p>
+
+<p>MSF also handled one-third of vaccinations in Lilongwe (the capital city has access to 400,000 of the country’s stock of one million doses) to assist the Ministry of Health with its vaccination campaign.</p>
+
+<p>To date, the epidemic is still ongoing although the number of reported cases has declined significantly across the country. A total of 58,500 cases have been confirmed since the beginning of the epidemic, including 1,750 deaths.</p>
+
+<h2 id="cyclone-freddy-causing-floods-and-landslides">Cyclone Freddy causing floods and landslides</h2>
+
+<p>In Malawi, the seasonal occurrence of tropical cyclones in February-March has become increasingly apparent, potentially linked to the presence of climate change. The devastating aftermath of Tropical Storm Ana in 2022 prompted <a href="https://reliefweb.int/map/malawi/malawi-phalombe-district-cyclone-ana-impact-map-31-january-2022">disaster response mapping</a>. This year, Tropical Cyclone Freddy made a second landfall in Malawi and Mozambique in March 2023, triggering widespread flooding and devastating landslides.</p>
+
+<figure>
+<img src="https://www.missingmaps.org/img/images/missingmaps-blog_20230601_malawi_landslides.jpeg" />
+<p class="caption">The 2nd landfall of Cyclone Freddy caused extensive floods in Phalombe District. Malawi 2023 © MSF
+</p>
+</figure>
+
+<p><strong>Mapping support for a needs assessment</strong></p>
+
+<p>During the Humanitarian Open Mapping Community Working Group meeting in February 2023, Christine Mhone, the representative of OpenStreetMap (OSM) Malawi, presented their OSM community. Jana Bauerová, the Community Engagement Coordinator at MSF, informed in turn about the remote mapping to support the MSF cholera response in Malawi. Subsequent contact and collaboration led to the launch of a HOT Tasking Manager project in March, focused on the Phalombe area, which was of particular interest following the impact of Tropical Cyclone Freddy on March 13, 2023. The project management responsibility for this initiative was assumed by Map Malawi.</p>
+
+<p>The data gathered through these mapping efforts was used in conducting a needs assessment in Phalombe/Nkulambe, near the border of Malawi and Mozambique, where huge landslides and flash floods heavily damaged entire villages and critical infrastructure. The digitalisation of buildings allowed <a href="https://www.facebook.com/doctorswithoutborderscanada/?brand_redir=104857837889022">MSF</a> to combine the OpenStreetMap (OSM) data with floods and landslide data in maps estimating the impacted zones/buildings (see map cut-out below).</p>
+
+<figure>
+<img src="https://www.missingmaps.org/img/images/missingmaps-blog_20230601_malawi_landslides_potential_building_damage.png" />
+<p class="caption"> Malawi 2023 © MSF
+</p>
+</figure>
+
+<p>In addition, the team prioritized the verification and collection of field-specific data that couldn’t be extracted solely from satellite imagery. To accomplish this, they hired a motorbike driver familiar with the area and adept at reading maps. This driver transported the team to various locations, allowing them to cross-reference village names obtained from a database with information provided by local residents. Subsequently, GIS specialist Alexis Huart incorporated the verified field data, encompassing village names, residential areas, and road segments, into the OSM database.</p>
+
+<figure>
+<img src="https://www.missingmaps.org/img/images/missingmaps-blog_20230601_malawi_cyclone_freddy_impact.jpeg" />
+<p class="caption">The Nkulambe health centre two weeks after the Cyclone hit. Malawi 2023 © MSF
+</p>
+</figure>
+
+<p>“When we arrived in Nkulambe a few days after the cyclone there was nothing there. We were the only humanitarian actors on-site,” explained Pascale Antonie, Field Communications Manager in Malawi.</p>
+
+<p>Due to the destruction of the only public healthcare centre in the area by the cyclone, MSF’s interventions played a crucial role in restoring access to health services for roughly 54,000 people in the immediate vicinity. Following the needs assessment, MSF, in collaboration with the Ministry of Health, established an advanced health post in Nkulambe. Medical staff provided outpatient consultations, administered malaria treatment, and routine vaccination for children, including immunization against diseases such as measles and polio.</p>
+
+<p>For more severe cases, MSF helped facilitate referrals to larger hospitals, initially through helicopter transport and later via ambulance. Additionally, due to the lack of a maternity ward in the existing functional clinics, MSF set up maternity services in our clinic. Water and sanitation activities were also undertaken to repair damaged water pipes and boreholes, distribute chlorine, set up hand-wash stations and latrines.</p>
+
+<figure>
+<img src="https://www.missingmaps.org/img/images/missingmaps-blog_20230601_malawi_cyclone_freddy_MSF_WaterRepairs.jpeg" />
+<p class="caption">Using all means of transport for water repairs. Malawi 2023 © MSF
+</p>
+</figure>
+
+<p>OpenStreetMap data proved invaluable in the emergency response in Malawi. Particularly in remote areas where infrastructure mapping was previously nonexistent, the humanitarian needs prompted the involvement of the Malawi OSM community. Thanks to their efforts, along with the valuable validation from dedicated Missing Maps volunteers, the building footprints were updated and enhanced. This collaborative process ensured that the data obtained was not only reliable but also benefited from the meticulous scrutiny of human reviewers, as opposed to relying solely on automated methods. Using OSM as the main source of geographic data allowed MSF to access affected populations and aided their response to the epidemic and to the consequences resulting from the cyclone. Overall, the use of OSM data showcased the power of collective action and reliable data for effective humanitarian interventions.</p>
+
+        <hr class="blog-end">
+        <p class="author">by Jana Bauerová, Sophie Gélinas-Gagné and Alexis Huart</p>
+      </div>
+    </div>
+  </div>
+
+
+    
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-container">
+      <div class="center-text">
+        <div class="row">
+          <div class="title section-header">Contactez-nous</div>
+        </div>
+        <a href="https://twitter.com/TheMissingMaps" class="btn btn-blue"><i class="fab fa-twitter"></i> TWITTER </a>
+        <a href="https://www.facebook.com/TheMissingMaps" class="btn btn-blue"><i class="fab fa-facebook fa-fw"></i> FACEBOOK </a>
+        <a href="https://github.com/MissingMaps" class="btn btn-blue"><i class="fab fa-github fa-fw"></i> GITHUB </a>
+        <a href="http://wiki.openstreetmap.org/wiki/Missing_Maps_Project" class="btn btn-blue"><i class="far fa-newspaper fa-fw"></i> WIKI </a>
+        <a href="https://www.flickr.com/photos/126636925@N06/" class="btn btn-blue"><i class="fab fa-flickr fa-fw"></i> FLICKR </a>
+        <a href="https://www.instagram.com/themissingmaps/" class="btn btn-blue"><i class="fab fa-instagram fa-fw"></i> INSTAGRAM </a>
+        <a href="mailto:info@hotosm.org" class="btn btn-blue"><i class="fas fa-envelope fa-fw"></i> EMAIL </a>
+        <a href="/assets/downloads/mapathon-materials/english/MissingMapsMediaGuideGeneral_Web.png" class="btn btn-blue"><i class="fas fa-microphone fa-fw"></i> MEDIA GUIDE </a>
+      </div>
+      <div class="footer-mm center-text">
+        CC-BY Missing Maps
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55969124-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      const gtag = (...args) => { dataLayer.push(args); };
+      gtag('js', new Date());
+
+      gtag('config', 'UA-55969124-1');
+    </script>
+
+    <!-- build:js assets/scripts/main.js -->
+    <script src="/assets/scripts/main.min.js"></script>
+    <!-- endbuild -->
+
+  </body>
+
+</html>

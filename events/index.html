@@ -1,8 +1,8 @@
 
 
 <!DOCTYPE html>
-<!--[if lt IE 10]> <html class="lt-ie10 no-js"  lang="en"> <![endif]-->
-<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if lt IE 10]> <html class="lt-ie10 no-js"  lang=""> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang=""> <!--<![endif]-->
 
   <head>
     <meta charset="utf-8">
@@ -23,7 +23,9 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400|Hind:700,300,600' rel='stylesheet' type='text/css'>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" 
+            integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw==" 
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <link rel="apple-touch-icon" sizes="57x57" href="/assets/graphics/favicon/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="57x57" href="/assets/graphics/favicon/apple-touch-icon-57x57.png">
@@ -65,7 +67,6 @@
     <![endif]-->
 
     
-
 <header>
 	<div class="navbar-background">
 		<div class="nav-icon">
@@ -98,11 +99,9 @@
 				<li class="nav-item nav-dropdown">EVENTS
 					<div class="dropdown-content">
 						
-						<a href="/events/"><div class="nav-item">CURRENT EVENTS</div></a>
+						<a href="/events/"><div class="nav-item">EVENTS</div></a>
 						
 						<a href="/host/"><div class="nav-item">ORGANIZE AN EVENT</div></a>
-						
-						<a href="/host/#helper-map-contents"><div class="nav-item">MAPATHON SUPPORT</div></a>
 						
 					</div>
 				</li>
@@ -135,24 +134,28 @@
 					<div class="dropdown-content">
 						
 						
-						<a href="/cs/akce/">
-							<div class="nav-item item-centered">cs</div>
-						</a>
+							<a href="/evts/">
+								<div class="nav-item item-centered">en</div>
+							</a>
 						
 						
-						<a href="/events/">
-							<div class="nav-item item-centered">en</div>
-						</a>
+						
+							<a href="/fr/evts/">
+								<div class="nav-item item-centered">fr</div>
+							</a>
 						
 						
-						<a href="/es/eventos/">
-							<div class="nav-item item-centered">es</div>
-						</a>
+						
+							<a href="/cs/evts/">
+								<div class="nav-item item-centered">cs</div>
+							</a>
 						
 						
-						<a href="/fr/evenements/">
-							<div class="nav-item item-centered">fr</div>
-						</a>
+						
+							<a href="/es/evts/">
+								<div class="nav-item item-centered">es</div>
+							</a>
+						
 						
 					</div>
 				</li>
@@ -187,15 +190,11 @@
 			
 			
 			<a href="/events/">
-				<li class="nav-item">CURRENT EVENTS</li>
+				<li class="nav-item">EVENTS</li>
 			</a>
 			
 			<a href="/host/">
 				<li class="nav-item">ORGANIZE AN EVENT</li>
-			</a>
-			
-			<a href="/host/#helper-map-contents">
-				<li class="nav-item">MAPATHON SUPPORT</li>
 			</a>
 			
 			
@@ -218,23 +217,31 @@
 			
 			
 			<div class="mobile-languages">
-				 
-				<a href="/cs/">
-					<div class="lang">cs</div>
-				</a>
-				  
-				<a href="/">
-					<div class="lang">en</div>
-				</a>
-				  
-				<a href="/es/">
-					<div class="lang">es</div>
-				</a>
-				  
-				<a href="/fr/">
-					<div class="lang">fr</div>
-				</a>
-				 
+				
+				
+					<a href="/evts/">
+						<div class="lang">en</div>
+					</a>
+				
+				
+				
+					<a href="/fr/evts/">
+						<div class="lang">fr</div>
+					</a>
+				
+				
+				
+					<a href="/cs/evts/">
+						<div class="lang">cs</div>
+					</a>
+				
+				
+				
+					<a href="/es/evts/">
+						<div class="lang">es</div>
+					</a>
+				
+				
 			</div>
 		</div>
 	</div>
@@ -246,12 +253,15 @@ document.querySelector("header").style.display = 'inline-block';
 <div id="site-canvas">
 	<div class="header-image header-events">
 		<div class="dark-overlay center-text">
-			<h1 class="title feature-header">Events</h1>
+			<h1 class="feature-header">Events</h1>
 		</div>
 	</div>
 	<div class="row center-text">
+		<p style="margin-bottom:30px; max-width: 600px; margin-left: auto; margin-right: auto;">
+			This is a selection of OSM events from OSMCal.org. For more OSM events in your community be sure to visit OSMCal.org.
+		</p>
 		<p style="margin-bottom:20px;">
-			<a class="btn btn-blue arw" href="https://forms.gle/Y9YogcXtrdTBxWjh6">
+			<a class="btn btn-blue arw" href="https://osmcal.org/event/add/">
 				Register your event
 				<img src="/assets/graphics/meta/Arrow.svg" alt="" />
 			</a>
@@ -264,96 +274,11 @@ document.querySelector("header").style.display = 'inline-block';
 
 </div>
 
-<script src="https://d3js.org/d3.v5.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/luxon@1.24.1/build/global/luxon.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/papaparse@5.2.0/papaparse.min.js"></script>
-<script>
-
-
-var eventNameKey = "What is the name of your event?"
-var locationKey = "Where will your event be held?"
-var placeUrlKey = "Please insert a link to your venue on openstreetmap.org"
-var signupKey = "Please insert a link where people can sign up"
-var dateKey = "What date is your event taking place? (as YYYY-MM-DD)"
-var startKey = "What time does your event start? "
-var endKey = "What time does your event end?"
-var countryKey = "Country?"
-var eventTypeKey = "What will the event that you are hosting include? Check all that apply:"
-
-var today = luxon.DateTime.local().startOf('day');
-var siteBaseUrl = "";	
-		
-function init() {
-          Papa.parse('/assets/google-sheets/events.csv', {
-          download: true,
-          header: true,
-          complete: function(results) {
-						var data = results.data.filter(function(d){ 
-								return luxon.DateTime.fromISO(d[dateKey]).isValid 
-									&& luxon.DateTime.fromISO(d[dateKey]) >= today;
-						  }).sort(function(x, y){
-						   return d3.ascending(x[dateKey], y[dateKey]);
-							})
-							console.log(data)
-            buildEvents(data)
-          }
-        })
-			}
-window.addEventListener('DOMContentLoaded', init)
-
-function buildEvents(data){
-	console.log(data)
-	d3.select('#eventList').selectAll('div').data(data)
-		.enter().append('div').classed('column', true)
-		.html(function(d){		
-			var countryIso = d[countryKey].substring(d[countryKey].indexOf("[")+1,d[countryKey].indexOf("]")).toLowerCase();
-			var signupHtml = (!!d[signupKey]) ? '<a class="btn btn-grn" href="' + d[signupKey] + '" target="">' + "SIGN UP" + '</a>' : "";			
-			var placeHtml = (!!d[placeUrlKey])	? '<a href="' + d[placeUrlKey] + '"><b>' + d[locationKey] + '</b></a>' : '<b>' + d[locationKey] + '</b>';
-			var eventType = d[eventTypeKey].replace(" (buildings in iD Editor)","")
-																		 .replace(" (roads, waterways, JOSM)","")
-																		 .replace(" (review tasks as a group)","")
-																		 .replace(" (map-walks, map-drives, map-cycling map-dogsledding in your own community)","")
-																		 .replace(" (tool share)","")
-
-			var eventHtml = '<div class="event-sub-container">' +
-					'<div class="event-top-section clearfix">' +
-						'<div class="sub-head">' +
-							'<img class="event-images" src="'+ siteBaseUrl + '/assets/graphics/flags/4x3/'+ countryIso +'.svg" width="24px" />' +
-							'<h3 class="event-header">' + d[eventNameKey] + '</h3>' +
-							signupHtml +
-						'</div>' +
-					'</div>' +
-					'<div class="event-maindetails clearfix">' +
-						'<div class="event-details-left">' +
-							'<span class="emphasizedNumber">' +
-								luxon.DateTime.fromISO(d[dateKey]).day +
-							'</span>' +
-							'<p><b>' + luxon.DateTime.fromISO(d[dateKey]).setLocale("en").toLocaleString({ month: 'long'}) + '</b></p>' +
-						'</div>' +
-						'<div class="event-details-right">' +
-							'<div class="textbox" style="padding-top:8px">' +
-								'<p>' +
-									placeHtml +
-								'</p>' +
-								'<p class="event-details">' + luxon.DateTime.fromISO(d[dateKey]).setLocale("en").toLocaleString({ weekday: 'long'}) + ", " + d[startKey].replace(":00 ","") + " - " + d[endKey].replace(":00 ","")  + ' UTC</p>' +
-								'<p class="event-details">' +
-									eventType +
-								'</p>' +
-							'</div>' +
-						'</div>' +
-					'</div>' +
-				'</div>';
-			return eventHtml;
-	})
-	
-}
-
-</script>
-
+<script src="https://cdn.jsdelivr.net/npm/luxon@3.5.0/build/global/luxon.min.js" 
+        crossorigin="anonymous"></script>
 
 
     
-
 <footer class="site-footer">
   <div class="wrapper">
     <div class="footer-container">
@@ -382,7 +307,7 @@ function buildEvents(data){
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55969124-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+      const gtag = (...args) => { dataLayer.push(args); };
       gtag('js', new Date());
 
       gtag('config', 'UA-55969124-1');

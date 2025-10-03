@@ -1,0 +1,400 @@
+
+
+<!DOCTYPE html>
+<!--[if lt IE 10]> <html class="lt-ie10 no-js"  lang=""> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Cartographier l’occupation du sol avec OSM Cameroun</title>
+    <meta name="description" content="Afin d'améliorer la cartographie de l’occupation et l’usage du sol au Cameroun, OSM Cameroun s'est efforcé de collecter de meilleures données et d'enrichir l...">
+
+    <link rel="canonical" href="/fr/blog/2022/10/14/cartographier-l-occupation-du-sol-avec-OSM-Cameroun/">
+    <link rel="alternate" type="application/rss+xml" title="Missing Maps" href="/fr/feed.xml">
+
+    <link rel="stylesheet" href="/assets/styles/main.css">
+
+    <link rel="author" type="text/plain" href="humans.txt" />
+
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400|Hind:700,300,600' rel='stylesheet' type='text/css'>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" 
+            integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw==" 
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/graphics/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/graphics/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/graphics/favicon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/graphics/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/graphics/favicon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/graphics/favicon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/graphics/favicon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/graphics/favicon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/graphics/favicon/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/graphics/favicon/apple-touch-icon-180x180.png">
+  <link rel="shortcut icon" href="/assets/graphics/favicon/favicon.ico">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/assets/graphics/favicon/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/assets/graphicsfavicon/favicon-32x32.png" sizes="32x32">
+
+  <meta name="description" content="Putting the World's Vulnerable People on the Map">
+  <meta itemprop="name" content="MissingMaps">
+  <meta itemprop="description" content="Putting the World's Vulnerable People on the Map" >
+  <meta itemprop="image" content="http://i.imgur.com/sSUhfmc.png" >
+  <meta name="twitter:card" content="product" >
+  <meta name="twitter:site" content="@themissingmaps" >
+  <meta name="twitter:title" content="MissingMaps" >
+  <meta name="twitter:description" content="Putting the World's Vulnerable People on the Map" >
+  <meta name="twitter:creator" content="@themissingmaps" >
+  <meta name="twitter:image" content="http://i.imgur.com/sSUhfmc.png" >
+
+  <link type="application/atom+xml" rel="alternate" href="/fr/feed.xml" title="Missing Maps" />
+  </head>
+
+  <body>
+    <!--[if lt IE 11]>
+      <div id="nocando">
+        <h1>No can do!</h1>
+        <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      </div>
+    <![endif]-->
+
+    
+<header>
+	<div class="navbar-background">
+		<div class="nav-icon">
+			<a href="/fr/">
+				<img src="/assets/graphics/meta/MM_white_typography.svg" width="94px" alt="">
+			</a>
+		</div>
+		<div class="nav-list">
+			<ul>
+				
+				
+				<li class="nav-item nav-dropdown">APPRENDRE
+					<div class="dropdown-content">
+						
+						<a href="/fr/débutant/"><div class="nav-item">DÉBUTANT EN CARTOGRAPHIE</div></a>
+						
+						<a href="/fr/avancé/"><div class="nav-item">CARTOGRAPHIE AVANCÉE</div></a>
+						
+						<a href="/fr/terrain/"><div class="nav-item">CARTOGRAPHIE DE TERRAIN</div></a>
+						
+						<a href="/fr/validé/"><div class="nav-item">VALIDATION</div></a>
+						
+						<a href="/fr/mapswipe/"><div class="nav-item">MAPSWIPE</div></a>
+						
+					</div>
+				</li>
+				
+				
+				
+				<li class="nav-item nav-dropdown">ÉVÉNEMENTS
+					<div class="dropdown-content">
+						
+						<a href="/fr/evenements/"><div class="nav-item">PROCHAINS ÉVÉNEMENTS</div></a>
+						
+						<a href="/fr/organiser/"><div class="nav-item">ORGANISER UN ÉVÉNEMENT</div></a>
+						
+					</div>
+				</li>
+				
+				
+				
+				<a href="/fr/apropos/">
+					<li class="nav-item">À PROPOS</li>
+				</a>
+				
+				
+				
+				<a href="/fr/blog/">
+					<li class="nav-item">BLOG</li>
+				</a>
+				
+				
+				
+				<li class="nav-item nav-dropdown">EXPLORER
+					<div class="dropdown-content">
+						
+						<a href="https://stats.now.ohsome.org/"><div class="nav-item">STATISTIQUES <svg width='9' height='9' viewBox='0 0 11 11' title='externalLink' style='height: 9px;'><path fill='currentColor' d='M9.778 9.778H1.222V1.222H5.5V0H1.222C.544 0 0 .55 0 1.222v8.556C0 10.45.544 11 1.222 11h8.556C10.45 11 11 10.45 11 9.778V5.5H9.778v4.278zM6.722 0v1.222h2.194L2.91 7.23l.862.862 6.007-6.007v2.194H11V0H6.722z'></path></svg></div></a>
+						
+					</div>
+				</li>
+				
+				
+				|
+				<li class="nav-item nav-dropdown">fr
+					<div class="dropdown-content">
+						
+						
+							<a href="/fr/blog/2022/10/14/cartographier-l-occupation-du-sol-avec-OSM-Cameroun/">
+								<div class="nav-item item-centered">en</div>
+							</a>
+						
+						
+						
+							<a href="/fr/blog/2022/10/14/cartographier-l-occupation-du-sol-avec-OSM-Cameroun/">
+								<div class="nav-item item-centered">fr</div>
+							</a>
+						
+						
+						
+							<a href="/cs/blog/2022/10/14/cartographier-l-occupation-du-sol-avec-OSM-Cameroun/">
+								<div class="nav-item item-centered">cs</div>
+							</a>
+						
+						
+						
+							<a href="/es/blog/2022/10/14/cartographier-l-occupation-du-sol-avec-OSM-Cameroun/">
+								<div class="nav-item item-centered">es</div>
+							</a>
+						
+						
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="resp-navbar navbar-background resp-nav-dropdown">
+		<p>MENU</p>
+		<div class="resp-dropdown-content">
+			
+			
+			<a href="/fr/débutant/">
+				<li class="nav-item">DÉBUTANT EN CARTOGRAPHIE</li>
+			</a>
+			
+			<a href="/fr/avancé/">
+				<li class="nav-item">CARTOGRAPHIE AVANCÉE</li>
+			</a>
+			
+			<a href="/fr/terrain/">
+				<li class="nav-item">CARTOGRAPHIE DE TERRAIN</li>
+			</a>
+			
+			<a href="/fr/validé/">
+				<li class="nav-item">VALIDATION</li>
+			</a>
+			
+			<a href="/fr/mapswipe/">
+				<li class="nav-item">MAPSWIPE</li>
+			</a>
+			
+			
+			
+			<a href="/fr/evenements/">
+				<li class="nav-item">PROCHAINS ÉVÉNEMENTS</li>
+			</a>
+			
+			<a href="/fr/organiser/">
+				<li class="nav-item">ORGANISER UN ÉVÉNEMENT</li>
+			</a>
+			
+			
+			
+			<a href="/fr/apropos/">
+				<li class="nav-item">À PROPOS</li>
+			</a>
+			
+			
+			
+			<a href="/fr/blog/">
+				<li class="nav-item">BLOG</li>
+			</a>
+			
+			
+			
+			<a href="https://stats.now.ohsome.org/">
+				<li class="nav-item">STATISTIQUES <svg width='9' height='9' viewBox='0 0 11 11' title='externalLink' style='height: 9px;'><path fill='currentColor' d='M9.778 9.778H1.222V1.222H5.5V0H1.222C.544 0 0 .55 0 1.222v8.556C0 10.45.544 11 1.222 11h8.556C10.45 11 11 10.45 11 9.778V5.5H9.778v4.278zM6.722 0v1.222h2.194L2.91 7.23l.862.862 6.007-6.007v2.194H11V0H6.722z'></path></svg></li>
+			</a>
+			
+			
+			<div class="mobile-languages">
+				
+				
+					<a href="/fr/blog/2022/10/14/cartographier-l-occupation-du-sol-avec-OSM-Cameroun/">
+						<div class="lang">en</div>
+					</a>
+				
+				
+				
+					<a href="/fr/blog/2022/10/14/cartographier-l-occupation-du-sol-avec-OSM-Cameroun/">
+						<div class="lang">fr</div>
+					</a>
+				
+				
+				
+					<a href="/cs/blog/2022/10/14/cartographier-l-occupation-du-sol-avec-OSM-Cameroun/">
+						<div class="lang">cs</div>
+					</a>
+				
+				
+				
+					<a href="/es/blog/2022/10/14/cartographier-l-occupation-du-sol-avec-OSM-Cameroun/">
+						<div class="lang">es</div>
+					</a>
+				
+				
+			</div>
+		</div>
+	</div>
+</header>
+
+
+<script>
+  document.querySelector("header").style.display = 'inline-block';
+</script>
+
+<div id="site-canvas">
+  
+  <div class="header-image" style="background-image: url('https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_banner.png');">
+  
+    <div class="dark-overlay center-text">
+      <h1 class="title feature-header">Cartographier l’occupation du sol avec OSM Cameroun</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="textbox blog-container">
+        <div class="blog-date">14 Translation missing: fr.date.month_names 2022</div>
+        <h3 id="introduction">Introduction</h3>
+<p>Le Cameroun est souvent appelé « <em>l’Afrique en miniature</em> », en raison de la diversité des paysages du pays et du fait que la plupart des paysages géographiques qui ornent le continent africain se retrouvent presque tous au Cameroun. Le pays est un cas très intéressant pour la cartographie de l’occupation du sol et qui d’autre est mieux placé que sa communauté OSM pour le faire?</p>
+
+<figure> 
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_teampic2.png" /> <p class="caption"></p> 
+</figure>
+
+<p>L’équipe d’OpenStreetMap Cameroun a travaillé dur ces dernières années, améliorant la carte de leur pays par la collecte de données et la collaboration avec des partenaires locaux, notamment le <a href="http://eurekageo.space/">Centre de formation professionnelle Eurêka Geo</a> qui a appuyé l’équipe par la formation sur la numérisation sur OSM. Sous la supervision de <a href="https://www.openstreetmap.org/user/Steveeen">Christin Steve Nwagoum Keyamfe</a>, les membres d’OSM Cameroun, <a href="https://www.openstreetmap.org/user/NIKOYO%20EMOUGOU%20Yves%20Emmanuel">Yves Emmanuel Nikoyo Emougou</a>, <a href="https://www.openstreetmap.org/user/victoire%20Tsajio">Victoire Tsajio</a>, <a href="https://www.openstreetmap.org/user/Sylvie%20GALAGO">Sylvie Galago</a>, <a href="https://www.openstreetmap.org/user/ongalisma">Ismael Ebenezer Ongali Tsala</a>, <a href="https://www.openstreetmap.org/user/Le%20Mago">Ian Jocelyn Kemme Kemme</a>, <a href="https://www.openstreetmap.org/user/Guy%20Berlin%20Boutchouang">Guy Berlin Boutchouang</a> ont réalisé la cartographie de l’occupation du sol du Cameroun. En 6 mois, de décembre 2019 à mai 2020, leur travail bénévole effectué au quotidien a porté ses fruits. Voici un retour sur leur approche, leurs méthodes et les défis qu’ils ont surmontés.</p>
+
+<h4 id="choix-de-léditeur-et-de-limagerie">Choix de l’éditeur et de l’imagerie</h4>
+<p>La cartographie a été réalisée à l’aide de l’éditeur <a href="http://josm.openstreetmap.de/">Java OpenstreetMap JOSM</a>, qui est un éditeur OSM disposant de fonctionnalités avancées pour la cartographie numérique des caractéristiques topographiques (rivières, routes, bâtiments) et de l’occupation du sol contrairement à d’autres éditeurs comme ID Editor. Les versions 15322 et 15238 étaient les versions les plus utilisées de l’éditeur tandis que le choix de l’imagerie dépendait de la disponibilité du fournisseur. Par exemple, Maxar Premium, qui était l’imagerie de choix pour la mise en œuvre de ce projet, n’était pas disponible pendant une bonne période de la durée du projet. Ainsi, Mapbox satellite et Esri Mondial sont les imageries qui ont été utilisées pour résoudre ce problème d’indisponibilité.</p>
+
+<h4 id="loccupation-et-lusage-du-sol">L’occupation et l’usage du sol</h4>
+<p>L’un des nombreux aspects importants de la cartographie est la représentation de l’occupation du sol, qui aide les gens à comprendre comment les terres sont utilisées et ce qui y pousse. Ces informations sont essentielles pour la planification des projets de développement, les réponses aux catastrophes et de nombreuses autres fins. Comme son nom l’indique, l’usage du sol décrit à quoi sert une superficie de terre, comme une zone résidentielle, les activités commerciales, l’agriculture, l’éducation, les loisirs, etc. Il est lié à l’occupation du sol, qui décrit la chose physique et la surface qui recouvre la terre. Les deux idées sont complémentaires et peuvent parfois être utilisées en tandem. Dans le cas du travail d’OSM Cameroun, c’est principalement l’occupation du sol qui fut cartographiée. 
+Afin d’améliorer la cartographie de l’occupation et l’usage du sol au Cameroun et surtout la volonté de produire des cartes au 1/20000 à jour, OSM Cameroun s’est efforcé de collecter de meilleures données et d’enrichir la carte OSM qui montre les régularités d’occupation du sol à travers le pays. La collaboration entre leurs membres et leur travail acharné ont permis de réaliser des cartes d’occupation du sol plus précises et à jour. Leur équipe indépendante et interfonctionnelle a créé des données significatives, et nous pouvons en apprendre beaucoup grâce à leurs connaissances et à leur processus.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FfCFtaNTOaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="collecte-de-données-et-collaboration-renforcée">Collecte de données et collaboration renforcée</h3>
+<p>La compréhension générale est que, pour cartographier l’occupation et l’usage du sol dans OSM, il est très important d’avoir une connaissance locale de la zone et d’éviter les conflits de cartographie. En effet, en connaissant l’environnement où l’on cartographie, il est plus facile d’interpréter l’imagerie aérienne. Et grâce à la collaboration et à une communication ouverte, les risques de conflits sont évités.</p>
+
+<h4 id="limportance-déviter-les-conflits">L’importance d’éviter les conflits</h4>
+<p>Que la tâche soit configurée sur le <a href="https://tasks.hotosm.org/">HOT Tasking Manager</a> ou que les limites et la grille soient définies dans <a href="https://www.qgis.org/en/site/">QGIS</a>, il est préférable que les mappers ne travaillent pas sur des carrés côte à côte. Par exemple, la stratégie d’OSM Cameroun était de laisser un mapper commencer au nord et l’autre au sud. Il est conseillé d’utiliser une grille car elle facilite la coordination du travail entre les différents mappers. Éviter les conflits dans la cartographie a permis à l’équipe d’OSM Cameroun d’être plus efficace dans leur travail et d’éviter que les membres perdent du temps et de l’énergie sur une seule tâche.</p>
+
+<p>Voici la méthode utilisée par OSM Cameroun avec des exemples: Tout d’abord, ils ont choisi l’occupation du sol qu’ils voulaient cartographier; les champs agricoles par exemple. En traçant la zone, il faut éviter que l’occupation du sol  soit connectée aux nœuds des routes. Les routes peuvent être traversées, mais l’occupation du sol ne doit pas se connecter aux routes. Après que la zone est tracée, les attributs peuvent être ajoutés: par exemple, landuse=farmland.</p>
+
+<figure> 
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp1_presenceofroads.png" /> <p class="caption">Bonnes pratiques de cartographie de l'usage du sol en présence de routes</p> 
+</figure>
+
+<p>Une fois que la première occupation du sol est tracée, le dessin de la seconde peut suivre. Dans l’exemple de l’équipe d’OSM Cameroun, c’était une zone résidentielle. Il est important d’assurer que les nœuds des zones résidentielles soient connectés à l’occupation du sol  à côté de la zone agricole qui a été dessinée auparavant. Les premiers deux nœuds entre les occupations du sol différentes doivent être joints, puis en appuyant sur F, la ligne existante de la zone résidentielle doit être suivie. L’utilisation du <a href="https://github.com/MissingMaps/josm_styles/archive/master.zip">style de peinture/carte de MissingMaps/YouthMappers</a> permet d’afficher des triangles d’avertissement quand ils sont interconnectés. Pour éviter ces triangles, il est important de créer des multipolygons en sélectionnant la couche et en appuyant sur CTRL + B.</p>
+
+<p>Yves Emmanuel Nikyo Emougou explique: « <em>Si l’occupation du sol est très vaste, vous pouvez aussi cartographier plusieurs polygones que vous fusionnerez après. Si les polygones sont petits et portent les mêmes attributs, ils peuvent être joints plus tard. Pour cela, sélectionnez les deux polygones et appuyez SHIFT+J. Après la confirmation, sélectionnez ce qu’il faut garder et sélectionnez “appliquer”. Faire un grand polygone depuis le début est aussi correct. Un point important à prendre en compte est la limite des nœuds qu’on peut envoyer. Lors de l’envoie des données sur OpenStreetMap, s’il y a plus de 2000 nœuds, un message d’erreur sera affiché et il ne sera pas possible d’envoyer les données.</em> »</p>
+
+<p>Mais que se passe-t-il si une zone résidentielle se trouve à l’intérieur des champs  agricoles? « <em>Puisque ce n’est pas une bonne pratique que les différentes occupations du sol se chevauchent, elles devraient être cartographiées en tant que relation. Pour cela, la meilleure pratique à adopter est de cartographier d’abord la zone des champs agricoles, puis la zone résidentielle à l’intérieur. Ensuite, sélectionnez les deux zones et appuyez CTRL + B pour créer un multipolygone. Notez que, le polygone extérieur s’appelle outer et le polygone intérieur s’appelle inner.</em> »</p>
+
+<figure> 
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp2_lackofrelations.png" /> <p class="caption">Illustration du manque de relation dans la cartographie de l'usage et de l'occupation du sol sur OSM</p> 
+</figure>
+
+<figure> 
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp3_usingrelations.png" /> <p class="caption">Utilisation d’une relation dans la cartographie de l'usage et de l'occupation du sol sur OSM</p> 
+</figure>
+
+<h4 id="limportance-des-connaissances-locales">L’importance des connaissances locales</h4>
+<p>Bien que les meilleures pratiques pour cartographier l’usage et l’occupation du sol partagent un terrain d’entente (sans jeu de mots), elles devraient être adaptées au paysage de la région. Trouver une compréhension commune des classes des divers paysages et écorégions peut constituer un défi en matière de cartographie et de classification de l’usage et l’occupation du sol. OSM, en tant que projet mondial, utilise des <em>tags</em> pour cartographier l’usage et l’occupation du sol dans le monde entier. Par conséquent, il est essentiel de spécifier comment ces <em>tags</em> doivent être utilisés pour la cartographie de l’usage  et l’occupation du sol dans une écorégion spécifique. Les types de forêts en Belgique et les types de forêts au Cameroun ne sont pas les mêmes. De plus, sur l’imagerie aérienne, il peut être difficile de comprendre la spécificité du terrain. Alors, comment devraient-ils être classés? De bonnes instructions avec des images et des connaissances locales sont essentielles pour comprendre quel type d’occupation du sol nous cartographions. L’importance des connaissances locales est primordiale pour collecter des données précises et les classer correctement.</p>
+
+<p>L’occupation et l’usage du sol est maintenant cartographiée avec une variété de <em>tags</em> dans OpenStreetMap car elles ont évolué au fil du temps. Cependant, un défi auquel l’équipe a été confrontée était l’absence de <em>tags</em> adaptées aux classes de l’écosystème camerounais sur OSM. En effet, toutes les classes d’occupation du sol  existantes en Afrique ne sont pas sur OSM. Le Cameroun est divisé en quatre régions géographiques: le nord, le centre, le sud et l’ouest. La plaine de savane qui occupe le centre du pays descend en altitude à l’approche du bassin du lac Tchad au nord de la rivière Bénoué. Bien qu’environ 20% de la surface terrestre soit recouverte de savane, elle reste absente en tant que classification sur OSM et pour s’adapter, elle est cartographiée comme <a href="https://wiki.openstreetmap.org/wiki/FR:Tag:landuse%3Dmeadow">prairie</a> par l’équipe d’OSM Cameroun.</p>
+
+<p>Le fait de ne pas avoir de connaissances locales peut entraver la collecte de données précises. À partir d’images aériennes, on pourrait commettre l’erreur de cartographier certains endroits comme des zones résidentielles alors qu’en réalité, ce sont en fait des bâtiments pour stocker des matériaux pour les activités agricoles. Un autre exemple concerne les champs agricoles. Les champs agricoles avec leurs cultures, pérennes ou annuelles, sont en constante évolution. D’une année à l’autre, les affectations des champs agricoles peuvent changer ou rester les mêmes pendant plus d’une décennie. De plus, il peut y avoir confusion avec les forêts. Une ferme d’huile de palme, de café ou de cacao peut ressembler à une forêt sur des images aériennes. Seules les connaissances locales peuvent élucider et prendre en considération l’organisation des objets que vous voyez. Les objets naturels tels que les forêts sont normalement désorganisés, mais dans certains cas, vous pouvez distinguer les champs agricoles des forêts sur la base d’images aériennes. Comme par exemple les palmeraies de la figure, qui sont mieux organisées et caractérisées par la présence de routes d’accès pour faciliter le transport des cultures.</p>
+
+<figure> 
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp4_landcoverorganisation.png" /> <p class="caption">Illustration de l'organisation d'une forêt et d'une palmeraie</p> 
+</figure>
+
+<h3 id="quelle-est-la-suite">Quelle est la suite?</h3>
+<p>OSM Cameroun s’engage à continuer d’améliorer sa cartographie de l’usage et de l’occupation du sol afin de fournir de meilleures informations et leurs efforts ne s’arrêtent pas là car l’équipe effectue actuellement un contrôle de qualité. OSM pourrait être utilisé plus largement dans les applications opérationnelles et la recherche environnementale, telles que la surveillance des changements d’occupation des terres en relation avec la végétation et  la modélisation du climat. Les réalisations de <a href="https://www.openstreetmap.org/user/Steveeen">Christin Steve Nwagoum Keyamfe</a>, <a href="https://www.openstreetmap.org/user/NIKOYO%20EMOUGOU%20Yves%20Emmanuel">Yves Emmanuel Nikoyo Emougou</a>, <a href="https://www.openstreetmap.org/user/victoire%20Tsajio">Victoire Tsajio</a>, <a href="https://www.openstreetmap.org/user/Sylvie%20GALAGO">Sylvie Galago</a> <a href="https://www.openstreetmap.org/user/ongalisma">Ismael Ebenezer Ongali Tsala</a>, <a href="https://www.openstreetmap.org/user/Le%20Mago">Ian Jocelyn Kemme Kemme</a> et <a href="https://www.openstreetmap.org/user/Guy%20Berlin%20Boutchouang">Guy Berlin Boutchouang</a> sont d’excellents exemples des capacités et des activités des communautés OSM à travers le monde, et plus encore de la façon dont leurs contributions aux données géospatiales ouvertes peuvent être utilisées pour divers types de prise de décision.</p>
+
+<h4 id="jetez-un-œil-à-leurs-réseaux-sociaux">Jetez un œil à leurs réseaux sociaux!</h4>
+<p><a href="https://www.facebook.com/OpenStreetMap-Cameroun-799439470157013/">Facebook</a></p>
+
+<p><a href="https://twitter.com/OSMCameroun">Twitter</a></p>
+
+<h4 id="curieux-den-apprendre-plus-sur-la-cartographie-de-lusage-et-de-loccupation-du-sol-jetez-un-oeil-ici">Curieux d’en apprendre plus sur la cartographie de l’usage et de l’occupation du sol? Jetez un oeil ici:</h4>
+<ul>
+  <li>
+    <p><a href="https://osmlanduse.org/">OSM Landuse Landcover</a>, une application WebGIS pour explorer la base de données OpenStreetMap spécifiquement en termes d’informations sur l’usage et l’occupation du sol.</p>
+  </li>
+  <li>
+    <p><a href="https://wiki.openstreetmap.org/wiki/FR:Land_use">Page wiki sur l’usage du sol</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.missingmaps.org/assets/downloads/JOSM_Advanced_Mapping_FR.pdf">Cartographie avancée avec JOSM</a>, guide de Missing Maps pour apprendre tout sur la cartographie avancée de JOSM</p>
+  </li>
+  <li>
+    <p><a href="https://www.linkedin.com/pulse/openstreetmap-comme-support-%C3%A0-la-production-de-2673-coupures-sob/">OpenStreetMap comme support à la production de 2673 coupures de cartes topographiques nationales à l’échelle du 1/25 000</a>, de <a href="https://www.hotosm.org/people/willy-franck-sob/">Willy Franck Sob</a>, 2021</p>
+  </li>
+</ul>
+
+<p>Vous pouvez aussi améliorer la cartographie de l’occupation du sol dans OSM et participer aux efforts de cartographie de l’occupation du sol pour les organisations humanitaires. La section <a href="https://tasks.hotosm.org/explore/filters?types=LAND_USE">« explorer les projets » du Tasking Manager de HOT</a> permet de filtrer les projets par types, et on peut toujours choisir l’option « occupation du sol » pour trouver des nouvelles tâches!</p>
+
+<h4 id="médecins-sans-frontières-a-mis-en-place-un-projet-de-cartographie-de-lusage-du-sol-de-gummi-au-nigéria-si-vous-souhaitez-contribuer">Médecins Sans Frontières a mis en place un <a href="https://tasks.hotosm.org/projects/13625/">projet de cartographie de l’usage du sol de Gummi, au Nigéria</a> si vous souhaitez contribuer!</h4>
+
+
+        <hr class="blog-end">
+        <p class="author">by Yves Emmanuel Nikoyo Emougou, Jorieke Vyncke, Lale Pirlot</p>
+      </div>
+    </div>
+  </div>
+
+
+    
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-container">
+      <div class="center-text">
+        <div class="row">
+          <div class="title section-header">Contactez-nous</div>
+        </div>
+        <a href="https://twitter.com/TheMissingMaps" class="btn btn-blue"><i class="fab fa-twitter"></i> TWITTER </a>
+        <a href="https://www.facebook.com/TheMissingMaps" class="btn btn-blue"><i class="fab fa-facebook fa-fw"></i> FACEBOOK </a>
+        <a href="https://github.com/MissingMaps" class="btn btn-blue"><i class="fab fa-github fa-fw"></i> GITHUB </a>
+        <a href="http://wiki.openstreetmap.org/wiki/Missing_Maps_Project" class="btn btn-blue"><i class="far fa-newspaper fa-fw"></i> WIKI </a>
+        <a href="https://www.flickr.com/photos/126636925@N06/" class="btn btn-blue"><i class="fab fa-flickr fa-fw"></i> FLICKR </a>
+        <a href="https://www.instagram.com/themissingmaps/" class="btn btn-blue"><i class="fab fa-instagram fa-fw"></i> INSTAGRAM </a>
+        <a href="mailto:info@hotosm.org" class="btn btn-blue"><i class="fas fa-envelope fa-fw"></i> EMAIL </a>
+        <a href="/assets/downloads/mapathon-materials/english/MissingMapsMediaGuideGeneral_Web.png" class="btn btn-blue"><i class="fas fa-microphone fa-fw"></i> MEDIA GUIDE </a>
+      </div>
+      <div class="footer-mm center-text">
+        CC-BY Missing Maps
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55969124-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      const gtag = (...args) => { dataLayer.push(args); };
+      gtag('js', new Date());
+
+      gtag('config', 'UA-55969124-1');
+    </script>
+
+    <!-- build:js assets/scripts/main.js -->
+    <script src="/assets/scripts/main.min.js"></script>
+    <!-- endbuild -->
+
+  </body>
+
+</html>
