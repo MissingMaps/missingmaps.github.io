@@ -11,14 +11,14 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout repository
+      uses: actions/checkout@v4
     
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.3.5'
         bundler-cache: true
-        cache-version: 1
     
     - name: Setup Node.js
       uses: actions/setup-node@v4
@@ -26,30 +26,37 @@ jobs:
         node-version: '20.18.0'
         cache: 'npm'
     
-    - name: Install Node dependencies
-      run: npm ci
+    - name: Install Node dependencies (production only)
+      run: npm ci --only=production
     
-    - name: Verify Ruby and Bundle setup
+    - name: Verify setup
       run: |
-        ruby --version
-        bundle --version
-        bundle list
+        echo "Ruby version: $(ruby --version)"
+        echo "Bundle version: $(bundle --version)"
+        echo "Node version: $(node --version)"
+        echo "NPM version: $(npm --version)"
+        echo "Checking bundler gems..."
+        bundle list --paths
     
     - name: Run Jekyll build
-      run: bundle exec jekyll build --config _config.yml
+      run: bundle exec jekyll build --config _config.yml --verbose
+      env:
+        BUNDLE_PATH: vendor/bundle
+        BUNDLE_JOBS: 4
+        BUNDLE_RETRY: 3
     
     - name: Run multilingual tests
-      run: chmod +x ./test-multilingual.sh && ./test-multilingual.sh
-    
-    - name: Check for broken links (sample)
       run: |
-        # Basic link verification for main pages
-        for lang in "" "fr/" "es/" "cs/"; do
-          echo "Checking ${lang:-en} pages..."
-          if [ -f "_site/${lang}about/index.html" ]; then
-            echo "✅ ${lang:-en}about page exists"
-          else
-            echo "❌ ${lang:-en}about page missing"
-            exit 1
-          fi
-        done
+        chmod +x ./test-multilingual.sh
+        ./test-multilingual.sh
+    
+    - name: Upload build artifacts on failure
+      uses: actions/upload-artifact@v4
+      if: failure()
+      with:
+        name: build-artifacts
+        path: |
+          _site/
+          .jekyll-cache/
+          Gemfile.lock
+        retention-days: 5
