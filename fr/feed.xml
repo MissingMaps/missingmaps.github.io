@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/fr/feed.xml" rel="self" type="application/atom+xml" /><link href="/fr/" rel="alternate" type="text/html" /><updated>2025-10-02T21:42:27-04:00</updated><id>/feed.xml</id><title type="html">Missing Maps</title><entry xml:lang="en"><title type="html">Missing Maps 2023 annual report &amp;amp; highlights from Cameroon</title><link href="/fr/blog/2024/02/27/MM-2023-annual-report-highlights-Cameroon/" rel="alternate" type="text/html" title="Missing Maps 2023 annual report &amp;amp; highlights from Cameroon" /><published>2024-02-27T00:00:00-05:00</published><updated>2024-02-27T00:00:00-05:00</updated><id>/blog/2024/02/27/MM-2023-annual-report-highlights-Cameroon</id><content type="html" xml:base="/blog/2024/02/27/MM-2023-annual-report-highlights-Cameroon/"><![CDATA[<p>The beginning of December members from different Missing Maps organisations came together in Yaoundé, Cameroon to host the annual Missing Maps meeting and to attend the State of the Map Africa conference.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/fr/feed.xml" rel="self" type="application/atom+xml" /><link href="/fr/" rel="alternate" type="text/html" /><updated>2025-10-02T22:10:21-04:00</updated><id>/feed.xml</id><title type="html">Missing Maps</title><entry xml:lang="en"><title type="html">Missing Maps 2023 annual report &amp;amp; highlights from Cameroon</title><link href="/fr/blog/2024/02/27/MM-2023-annual-report-highlights-Cameroon/" rel="alternate" type="text/html" title="Missing Maps 2023 annual report &amp;amp; highlights from Cameroon" /><published>2024-02-27T00:00:00-05:00</published><updated>2024-02-27T00:00:00-05:00</updated><id>/blog/2024/02/27/MM-2023-annual-report-highlights-Cameroon</id><content type="html" xml:base="/blog/2024/02/27/MM-2023-annual-report-highlights-Cameroon/"><![CDATA[<p>The beginning of December members from different Missing Maps organisations came together in Yaoundé, Cameroon to host the annual Missing Maps meeting and to attend the State of the Map Africa conference.</p>
 
 <p>The State of the map Africa 2023 conference provided the perfect opportunity to meet and engage with our partners and mapping friends from Africa. After all, it is the continent we engaged in with mapping activities the most through the Missing Maps initiative throughout the years, since its foundation in 2014. With over 200 attendees with representatives from large international organisations such as WRI and FAO, to technology giants such as Meta and TomTom, but especially the high representation from grass roots level African mapping communities made it the perfect location for Missing Maps member organisations to be.</p>
 
@@ -26,7 +26,7 @@
 <p>We are looking forward to the next global State of the Map which will be hosted in Nairobi, Kenya in September 2024. 2024 also marks the 10th anniversary of Missing Maps, stay tuned for news about upcoming celebrations!</p>
 
 <figure>
-<img src="https://github.com/MissingMaps/img/blob/main/images/missingmaps-blog_20240227_Gathering_Yaound%C3%A9.jpeg" />
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20240227_Gathering_Yaound%C3%A9.jpeg" />
 <p class="caption">Missing Maps gathering 2023 in Yaoundé, Cameroon © Omowonuola Akintola
 </p>
 </figure>]]></content><author><name>Jorieke Vyncke and Jana Bauerová</name></author><category term="blog" /><category term="state of the map" /><category term="conference" /><category term="africa" /><category term="gathering" /><category term="annual report" /><summary type="html"><![CDATA[The State of the Map Africa 2023 provided a space for a hybrid Missing Maps annual meeting on the edges of the conference in Yaoundé, as well as the first-ever Missing Maps annual report with highlights, successes and challenges.]]></summary></entry><entry xml:lang="en"><title type="html">Participatory Mapping taken one step further - The new version of the Sketch Map Tool</title><link href="/fr/blog/2023/07/14/sketch_map_tool_new_version/" rel="alternate" type="text/html" title="Participatory Mapping taken one step further - The new version of the Sketch Map Tool" /><published>2023-07-14T00:00:00-04:00</published><updated>2023-07-14T00:00:00-04:00</updated><id>/blog/2023/07/14/sketch_map_tool_new_version</id><content type="html" xml:base="/blog/2023/07/14/sketch_map_tool_new_version/"><![CDATA[<h2 id="sketch-map-tool-smt---an-easy-to-use-way-to-create-and-digitalize-paper-maps-for-offline-data-collection-in-the-field">Sketch Map Tool (SMT) - An easy-to-use way to create and digitalize paper maps for offline data collection in the field</h2>
@@ -502,11 +502,33 @@ Les données de type de route ont été extraites de OSM et catégorisées à pa
 <p class="caption"></p>
 </figure>
 
-<p>Les données géographiques pour cartographier le risque de pollution de l’air peuvent aider les équipes MSF à comprendre quelles communautés sont les plus touchées par la pollution de l’air et à planifier leurs activités avec une couche supplémentaire d’informations. Comprendre les disparités d’exposition peut aider à y remédier et pour l’avenir, déterminer les hotspots peut aider les équipes à cibler les interventions pour les problèmes de santé liés à la pollution atmosphérique.</p>]]></content><author><name>Laurie Boobier</name></author><category term="blog" /><category term="MSF" /><category term="OpenStreetMap" /><summary type="html"><![CDATA[MSF a utilisé des informations géographiques pour cartographier les risques de pollution de l’air avec l'aide des bénévoles de Missing Maps qui ont mis à jour de précieuses sources de données routières et de bâtiments OpenStreetMap (OSM).]]></summary></entry><entry xml:lang="fr"><title type="html">Cartographier l’occupation du sol avec OSM Cameroun</title><link href="/fr/blog/2022/10/14/cartographier-l-occupation-du-sol-avec-OSM-Cameroun/" rel="alternate" type="text/html" title="Cartographier l’occupation du sol avec OSM Cameroun" /><published>2022-10-14T00:00:00-04:00</published><updated>2022-10-14T00:00:00-04:00</updated><id>/blog/2022/10/14/cartographier-l-occupation-du-sol-avec-OSM-Cameroun</id><content type="html" xml:base="/blog/2022/10/14/cartographier-l-occupation-du-sol-avec-OSM-Cameroun/"><![CDATA[<h3 id="introduction">Introduction</h3>
+<p>Les données géographiques pour cartographier le risque de pollution de l’air peuvent aider les équipes MSF à comprendre quelles communautés sont les plus touchées par la pollution de l’air et à planifier leurs activités avec une couche supplémentaire d’informations. Comprendre les disparités d’exposition peut aider à y remédier et pour l’avenir, déterminer les hotspots peut aider les équipes à cibler les interventions pour les problèmes de santé liés à la pollution atmosphérique.</p>]]></content><author><name>Laurie Boobier</name></author><category term="blog" /><category term="MSF" /><category term="OpenStreetMap" /><summary type="html"><![CDATA[MSF a utilisé des informations géographiques pour cartographier les risques de pollution de l’air avec l'aide des bénévoles de Missing Maps qui ont mis à jour de précieuses sources de données routières et de bâtiments OpenStreetMap (OSM).]]></summary></entry><entry xml:lang="fr"><title type="html">Cartographier l’occupation du sol avec OSM Cameroun</title><link href="/fr/blog/2022/10/14/cartographier-l-occupation-du-sol-avec-OSM-Cameroun/" rel="alternate" type="text/html" title="Cartographier l’occupation du sol avec OSM Cameroun" /><published>2022-10-14T00:00:00-04:00</published><updated>2022-10-14T00:00:00-04:00</updated><id>/blog/2022/10/14/cartographier-l-occupation-du-sol-avec-OSM-Cameroun</id><content type="html" xml:base="/blog/2022/10/14/cartographier-l-occupation-du-sol-avec-OSM-Cameroun/"><![CDATA[<figure>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp3_usingrelations.png" />
+<p class="caption">Utilisation d'une relation dans la cartographie de l'usage et de l'occupation du sol sur OSM</p>
+</figure>
+<p>: post
+title: Cartographier l’occupation du sol ave<figure>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp3_usingrelations.png" /></figure></p>
+<p class="caption">Utilisation d'une relation dans la cartographie de l'usage et de l'occupation du sol sur OSM</p>
+<p>&lt;/figure&gt;M Cameroun
+postID: cartographier-l-occupation-du-sol-avec-OSM-Cameroun
+category: blog
+banner: https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_banner.png
+date: 2022-10-14
+author: Yves Emmanuel Nikoyo Emougou, Jorieke Vyncke, Lale Pirlot
+excerpt: “Afin d’améliorer la cartographie de l’occupation et l’usage du sol au Cameroun, OSM Cameroun s’est efforcé de collecter de meilleures données et d’enrichir la carte OSM qui montre les régularités d’occupation du sol à travers le pays.” 
+published: true
+tags: [OSM, partners]
+permalink: /blog/:year/:month/:day/:title/
+lang: fr
+—</p>
+
+<h3 id="introduction">Introduction</h3>
 <p>Le Cameroun est souvent appelé « <em>l’Afrique en miniature</em> », en raison de la diversité des paysages du pays et du fait que la plupart des paysages géographiques qui ornent le continent africain se retrouvent presque tous au Cameroun. Le pays est un cas très intéressant pour la cartographie de l’occupation du sol et qui d’autre est mieux placé que sa communauté OSM pour le faire?</p>
 
-<figure> 
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_teampic2.png" /> <p class="caption"></p> 
+<figure>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_teampic2.png" />
+<p class="caption">L'équipe OSM Cameroun travaillant sur la cartographie de l'occupation du sol</p>
 </figure>
 
 <p>L’équipe d’OpenStreetMap Cameroun a travaillé dur ces dernières années, améliorant la carte de leur pays par la collecte de données et la collaboration avec des partenaires locaux, notamment le <a href="http://eurekageo.space/">Centre de formation professionnelle Eurêka Geo</a> qui a appuyé l’équipe par la formation sur la numérisation sur OSM. Sous la supervision de <a href="https://www.openstreetmap.org/user/Steveeen">Christin Steve Nwagoum Keyamfe</a>, les membres d’OSM Cameroun, <a href="https://www.openstreetmap.org/user/NIKOYO%20EMOUGOU%20Yves%20Emmanuel">Yves Emmanuel Nikoyo Emougou</a>, <a href="https://www.openstreetmap.org/user/victoire%20Tsajio">Victoire Tsajio</a>, <a href="https://www.openstreetmap.org/user/Sylvie%20GALAGO">Sylvie Galago</a>, <a href="https://www.openstreetmap.org/user/ongalisma">Ismael Ebenezer Ongali Tsala</a>, <a href="https://www.openstreetmap.org/user/Le%20Mago">Ian Jocelyn Kemme Kemme</a>, <a href="https://www.openstreetmap.org/user/Guy%20Berlin%20Boutchouang">Guy Berlin Boutchouang</a> ont réalisé la cartographie de l’occupation du sol du Cameroun. En 6 mois, de décembre 2019 à mai 2020, leur travail bénévole effectué au quotidien a porté ses fruits. Voici un retour sur leur approche, leurs méthodes et les défis qu’ils ont surmontés.</p>
@@ -528,8 +550,9 @@ Afin d’améliorer la cartographie de l’occupation et l’usage du sol au Cam
 
 <p>Voici la méthode utilisée par OSM Cameroun avec des exemples: Tout d’abord, ils ont choisi l’occupation du sol qu’ils voulaient cartographier; les champs agricoles par exemple. En traçant la zone, il faut éviter que l’occupation du sol  soit connectée aux nœuds des routes. Les routes peuvent être traversées, mais l’occupation du sol ne doit pas se connecter aux routes. Après que la zone est tracée, les attributs peuvent être ajoutés: par exemple, landuse=farmland.</p>
 
-<figure> 
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp1_presenceofroads.png" /> <p class="caption">Bonnes pratiques de cartographie de l'usage du sol en présence de routes</p> 
+<figure>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp1_presenceofroads.png" />
+<p class="caption">Bonnes pratiques de cartographie de l'usage du sol en présence de routes</p>
 </figure>
 
 <p>Une fois que la première occupation du sol est tracée, le dessin de la seconde peut suivre. Dans l’exemple de l’équipe d’OSM Cameroun, c’était une zone résidentielle. Il est important d’assurer que les nœuds des zones résidentielles soient connectés à l’occupation du sol  à côté de la zone agricole qui a été dessinée auparavant. Les premiers deux nœuds entre les occupations du sol différentes doivent être joints, puis en appuyant sur F, la ligne existante de la zone résidentielle doit être suivie. L’utilisation du <a href="https://github.com/MissingMaps/josm_styles/archive/master.zip">style de peinture/carte de MissingMaps/YouthMappers</a> permet d’afficher des triangles d’avertissement quand ils sont interconnectés. Pour éviter ces triangles, il est important de créer des multipolygons en sélectionnant la couche et en appuyant sur CTRL + B.</p>
@@ -538,8 +561,9 @@ Afin d’améliorer la cartographie de l’occupation et l’usage du sol au Cam
 
 <p>Mais que se passe-t-il si une zone résidentielle se trouve à l’intérieur des champs  agricoles? « <em>Puisque ce n’est pas une bonne pratique que les différentes occupations du sol se chevauchent, elles devraient être cartographiées en tant que relation. Pour cela, la meilleure pratique à adopter est de cartographier d’abord la zone des champs agricoles, puis la zone résidentielle à l’intérieur. Ensuite, sélectionnez les deux zones et appuyez CTRL + B pour créer un multipolygone. Notez que, le polygone extérieur s’appelle outer et le polygone intérieur s’appelle inner.</em> »</p>
 
-<figure> 
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp2_lackofrelations.png" /> <p class="caption">Illustration du manque de relation dans la cartographie de l'usage et de l'occupation du sol sur OSM</p> 
+<figure>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp2_lackofrelations.png" />
+<p class="caption">Illustration du manque de relation dans la cartographie de l'usage et de l'occupation du sol sur OSM</p>
 </figure>
 
 <figure> 
@@ -553,8 +577,9 @@ Afin d’améliorer la cartographie de l’occupation et l’usage du sol au Cam
 
 <p>Le fait de ne pas avoir de connaissances locales peut entraver la collecte de données précises. À partir d’images aériennes, on pourrait commettre l’erreur de cartographier certains endroits comme des zones résidentielles alors qu’en réalité, ce sont en fait des bâtiments pour stocker des matériaux pour les activités agricoles. Un autre exemple concerne les champs agricoles. Les champs agricoles avec leurs cultures, pérennes ou annuelles, sont en constante évolution. D’une année à l’autre, les affectations des champs agricoles peuvent changer ou rester les mêmes pendant plus d’une décennie. De plus, il peut y avoir confusion avec les forêts. Une ferme d’huile de palme, de café ou de cacao peut ressembler à une forêt sur des images aériennes. Seules les connaissances locales peuvent élucider et prendre en considération l’organisation des objets que vous voyez. Les objets naturels tels que les forêts sont normalement désorganisés, mais dans certains cas, vous pouvez distinguer les champs agricoles des forêts sur la base d’images aériennes. Comme par exemple les palmeraies de la figure, qui sont mieux organisées et caractérisées par la présence de routes d’accès pour faciliter le transport des cultures.</p>
 
-<figure> 
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp4_landcoverorganisation.png" /> <p class="caption">Illustration de l'organisation d'une forêt et d'une palmeraie</p> 
+<figure>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp4_landcoverorganisation.png" />
+<p class="caption">Illustration de l'organisation d'une forêt et d'une palmeraie</p>
 </figure>
 
 <h3 id="quelle-est-la-suite">Quelle est la suite?</h3>
@@ -583,11 +608,12 @@ Afin d’améliorer la cartographie de l’occupation et l’usage du sol au Cam
 
 <p>Vous pouvez aussi améliorer la cartographie de l’occupation du sol dans OSM et participer aux efforts de cartographie de l’occupation du sol pour les organisations humanitaires. La section <a href="https://tasks.hotosm.org/explore/filters?types=LAND_USE">« explorer les projets » du Tasking Manager de HOT</a> permet de filtrer les projets par types, et on peut toujours choisir l’option « occupation du sol » pour trouver des nouvelles tâches!</p>
 
-<h4 id="médecins-sans-frontières-a-mis-en-place-un-projet-de-cartographie-de-lusage-du-sol-de-gummi-au-nigéria-si-vous-souhaitez-contribuer">Médecins Sans Frontières a mis en place un <a href="https://tasks.hotosm.org/projects/13625/">projet de cartographie de l’usage du sol de Gummi, au Nigéria</a> si vous souhaitez contribuer!</h4>]]></content><author><name>Yves Emmanuel Nikoyo Emougou, Jorieke Vyncke, Lale Pirlot</name></author><category term="blog" /><category term="OSM" /><category term="partners" /><summary type="html"><![CDATA[Afin d'améliorer la cartographie de l’occupation et l’usage du sol au Cameroun, OSM Cameroun s'est efforcé de collecter de meilleures données et d'enrichir la carte OSM qui montre les régularités d’occupation du sol à travers le pays.]]></summary></entry><entry xml:lang="en"><title type="html">Mapping landcover with OSM Cameroon</title><link href="/fr/blog/2022/10/14/mapping-landcover-with-OSM-Cameroon/" rel="alternate" type="text/html" title="Mapping landcover with OSM Cameroon" /><published>2022-10-14T00:00:00-04:00</published><updated>2022-10-14T00:00:00-04:00</updated><id>/blog/2022/10/14/mapping-landcover-with-OSM-Cameroon</id><content type="html" xml:base="/blog/2022/10/14/mapping-landcover-with-OSM-Cameroon/"><![CDATA[<h3 id="introduction">Introduction</h3>
+<h4 id="médecins-sans-frontières-a-mis-en-place-un-projet-de-cartographie-de-lusage-du-sol-de-gummi-au-nigéria-si-vous-souhaitez-contribuer">Médecins Sans Frontières a mis en place un <a href="https://tasks.hotosm.org/projects/13625/">projet de cartographie de l’usage du sol de Gummi, au Nigéria</a> si vous souhaitez contribuer!</h4>]]></content><author><name>Camille Couturier</name></author><category term="blog" /><summary type="html"><![CDATA[Utilisation d'une relation dans la cartographie de l'usage et de l'occupation du sol sur OSM : post title: Cartographier l’occupation du sol ave Utilisation d'une relation dans la cartographie de l'usage et de l'occupation du sol sur OSM &lt;/figure&gt;M Cameroun postID: cartographier-l-occupation-du-sol-avec-OSM-Cameroun category: blog banner: https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_banner.png date: 2022-10-14 author: Yves Emmanuel Nikoyo Emougou, Jorieke Vyncke, Lale Pirlot excerpt: “Afin d’améliorer la cartographie de l’occupation et l’usage du sol au Cameroun, OSM Cameroun s’est efforcé de collecter de meilleures données et d’enrichir la carte OSM qui montre les régularités d’occupation du sol à travers le pays.” published: true tags: [OSM, partners] permalink: /blog/:year/:month/:day/:title/ lang: fr —]]></summary></entry><entry xml:lang="en"><title type="html">Mapping landcover with OSM Cameroon</title><link href="/fr/blog/2022/10/14/mapping-landcover-with-OSM-Cameroon/" rel="alternate" type="text/html" title="Mapping landcover with OSM Cameroon" /><published>2022-10-14T00:00:00-04:00</published><updated>2022-10-14T00:00:00-04:00</updated><id>/blog/2022/10/14/mapping-landcover-with-OSM-Cameroon</id><content type="html" xml:base="/blog/2022/10/14/mapping-landcover-with-OSM-Cameroon/"><![CDATA[<h3 id="introduction">Introduction</h3>
 <p>Cameroon is often called “<em>Africa in miniature</em>” because of the country’s diversity in landscapes and how the various geographic landscapes adorning the African continent can almost all be found in Cameroon. The country is such an interesting case for mapping landcover and who else is better to do so than its OSM Community?</p>
 
-<figure> 
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_teampic2.png" /> <p class="caption"></p> 
+<figure>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_teampic2.png" />
+<p class="caption">OSM Cameroon team working on landcover mapping</p>
 </figure>
 
 <p>The OpenStreetMap Cameroon team has been hard at work over the past years, improving the map of their country through data collection and the collaboration with local partners, notably the vocational training <a href="http://eurekageo.space/">Centre Eurêka Geo</a>, which supported the team with training on OSM digitization. Under <a href="https://www.openstreetmap.org/user/Steveeen">Christin Steve Nwagoum Keyamfe</a>’s supervision, <a href="https://www.openstreetmap.org/user/NIKOYO%20EMOUGOU%20Yves%20Emmanuel">Yves Emmanuel Nikoyo Emougou</a>, <a href="https://www.openstreetmap.org/user/victoire%20Tsajio">Victoire Tsajio</a>, <a href="https://www.openstreetmap.org/user/Sylvie%20GALAGO">Sylvie Galago</a>, <a href="https://www.openstreetmap.org/user/ongalisma">Ismael Ebenezer Ongali Tsala</a>,  <a href="https://www.openstreetmap.org/user/Le%20Mago">Ian Jocelyn Kemme Kemme</a>, <a href="https://www.openstreetmap.org/user/Guy%20Berlin%20Boutchouang">Guy Berlin Boutchouang</a>  carried out the mapping of landcover for the whole country of Cameroon. Within 6 months, from December 2019 to May 2020, their daily volunteer work yielded fruits. Here is a look back on how they did it, their methods and the challenges they overcame.</p>
@@ -605,8 +631,9 @@ In order to improve Cameroon’s landcover mapping, OSM Cameroon strived to coll
 <p>Whether a task is set up on the <a href="https://tasks.hotosm.org/">HOT Tasking Manager</a>, or the boundaries and grid are defined in <a href="https://www.qgis.org/en/site/">QGIS</a>, it is best to let mappers not work on squares close to each other. For instance, OSM Cameroon’s strategy was to let one mapper start in the north, and the other in the south. It is advised to use a grid as it makes it easier to coordinate the work between different mappers and a conflict in mapping will be avoided. It allowed the OSM Cameroon team to be more efficient in their work and avoid members wasting time and energy on a single task.
 Here’s the method used by OSM Cameroon with examples: First, they chose the landcover or landuse that they wanted to map; farmland for instance. While drawing the area, it is best to avoid the landcover or landuse to connect nodes with roads. Roads can be crossed, but landcover or landuse should not connect to roads. When the area is drawn, then the attributes can be added: eg. landuse=farmland.</p>
 
-<figure> 
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp1_presenceofroads.png" /> <p class="caption">Good practice of landuse mapping in the presence of roads</p> 
+<figure>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp1_presenceofroads.png" />
+<p class="caption">Good practice of landuse mapping in the presence of roads</p>
 </figure>
 
 <p>Once the first landcover or landuse is drawn, the drawing of the second one can follow. In the example of the OSM Cameroon team, this was a residential area. It is important to assure the connectivity of the residential area nodes to the neighbouring landuse of the farmland area, which was drawn previously. The first node between the two different landuses has to be joined, then pressing F, one follows the existing line of the residential area. The use of the <a href="https://github.com/MissingMaps/josm_styles/archive/master.zip">Missing Maps/Youthmappers Map Paint style</a> can show warning triangles if they are connected with each other. To avoid these triangles, it is important to create multipolygons by selecting the two layers and pressing CTRL+B.</p>
@@ -615,12 +642,14 @@ Here’s the method used by OSM Cameroon with examples: First, they chose the la
 
 <p>But what if a residential area is within farmland? “<em>Since it is not good practice to make landcover and landuse overlapping with each other, they should be mapped as a relation. For this, the best practice to adopt would be to first map the farmland area, and then the residential area within it. Next, select both areas and press CTRL+B to create a multipolygon. Note that, the outside polygon is called outer and the inside polygon inter.</em>”</p>
 
-<figure> 
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp2_lackofrelations.png" /> <p class="caption">Illustration of the lack of relations in landcover and landuse mapping on OSM</p> 
+<figure>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp2_lackofrelations.png" />
+<p class="caption">Illustration of the lack of relations in landcover and landuse mapping on OSM</p>
 </figure>
 
-<figure> 
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp3_usingrelations.png" /> <p class="caption">Using relations in landcover and landuse mapping on OSM</p> 
+<figure>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp3_usingrelations.png" />
+<p class="caption">Using relations in landcover and landuse mapping on OSM</p>
 </figure>
 
 <h4 id="the-importance-of-local-knowledge">The importance of local knowledge</h4>
@@ -630,8 +659,9 @@ Here’s the method used by OSM Cameroon with examples: First, they chose the la
 
 <p>The challenges of not having local knowledge can hinder the collection of accurate data. From aerial imagery, one could make the mistake of mapping some places as residential areas when in reality, they are actually buildings to store materials for farming activities. Another instance is with agricultural lands. Agricultural land with its crops, perennial or annual, is constantly evolving. From one year to another, agricultural land uses can change, or stay the same for over a decade. Even further, there can be confusion with forests. A palm oil, coffee or cocoa field may look like a forest on aerial imagery. Only local knowledge can elucidate and take into consideration the organisation of the objects you see. Natural objects such as forests are quite disorganised, however in some cases you are able to distinguish farmland from forest based on aerial imagery. Like for example  the palm groves in the figure, which are better organised and characterised by the presence of access roads to facilitate the transportation of crops.</p>
 
-<figure> 
-<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp4_landcoverorganisation_eng.png" /> <p class="caption">Illustration of the organisation of a forest and palm groves</p> 
+<figure>
+<img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp4_landcoverorganisation_eng.png" />
+<p class="caption">Illustration of the organisation of a forest and palm groves</p>
 </figure>
 
 <h3 id="what-next">What next?</h3>
