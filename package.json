@@ -29,8 +29,7 @@
     "lint": "eslint app/assets/scripts/**/*.js updatedep.js",
     "lint:fix": "eslint app/assets/scripts/**/*.js updatedep.js --fix",
     "test": "npm run lint && npm run build",
-    "clean": "gulp clean",
-    "install": "bundle install"
+    "clean": "gulp clean"
   },
   "browserify": {
     "transform": [

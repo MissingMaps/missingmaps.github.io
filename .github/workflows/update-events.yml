@@ -30,8 +30,8 @@ jobs:
           node-version: '20'
           cache: 'npm'
       
-      - name: Install dependencies
-        run: npm install --only=production
+      - name: Install Node.js dependencies
+        run: npm ci --only=production
       
       - name: Fetch latest events
         run: node fetch-events.cjs
