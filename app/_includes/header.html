@@ -25,15 +25,16 @@
 				|
 				<li class="nav-item nav-dropdown">{{locale}}
 					<div class="dropdown-content">
-						{% for loc in site.authorized_locales %}
-						{% if page.category == "blog" %}
-							{% assign pg = site.posts | where:"lang",{{loc}} | where:"postID",page.postID | first%}
+						{% for lang in site.languages %}
+						{% if lang == site.default_lang %}
+							<a href="{{site.baseurl}}{{page.url | remove_first: '/' | remove_first: locale | prepend: '/'}}">
+								<div class="nav-item item-centered">{{lang}}</div>
+							</a>
 						{% else %}
-							{% assign pg = site.pages | where:"lang",{{loc}} | where:"id",page.id | first %}
+							<a href="{{site.baseurl}}/{{lang}}{{page.url | remove_first: '/' | remove_first: locale | prepend: '/'}}">
+								<div class="nav-item item-centered">{{lang}}</div>
+							</a>
 						{% endif %}
-						<a href="{{site.baseurl}}{{pg.url}}">
-							<div class="nav-item item-centered">{{loc}}</div>
-						</a>
 						{% endfor %}
 					</div>
 				</li>
@@ -55,15 +56,17 @@
 			{% endfor %}{% endif %}
 			{% endfor %}
 			<div class="mobile-languages">
-				{% for loc in site.authorized_locales %} {% if loc == site.default_locale %}
-				<a href="/">
-					<div class="lang">{{loc}}</div>
-				</a>
+				{% for lang in site.languages %}
+				{% if lang == site.default_lang %}
+					<a href="{{site.baseurl}}{{page.url | remove_first: '/' | remove_first: locale | prepend: '/'}}">
+						<div class="lang">{{lang}}</div>
+					</a>
 				{% else %}
-				<a href="{{site.baseurl}}/{{loc}}/">
-					<div class="lang">{{loc}}</div>
-				</a>
-				{% endif %} {% endfor %}
+					<a href="{{site.baseurl}}/{{lang}}{{page.url | remove_first: '/' | remove_first: locale | prepend: '/'}}">
+						<div class="lang">{{lang}}</div>
+					</a>
+				{% endif %}
+				{% endfor %}
 			</div>
 		</div>
 	</div>

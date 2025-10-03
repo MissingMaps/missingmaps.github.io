@@ -8,19 +8,45 @@ exclude:
   - assets/styles
   - README.md
   - assets/sources
+  - node_modules
+  - package.json
+  - package-lock.json
+  - gulpfile.cjs
+  - .sass-cache
+  - .jekyll-cache
+  - vendor
 timezone: America/New_York
 highlighter: false
 encoding: UTF-8
+
+# Performance optimizations
+incremental: true
+profile: false
+strict_front_matter: true
+
+# Caching and build optimization
+sass:
+  style: compressed
+  sourcemap: never
+
+# Liquid rendering optimization
+liquid:
+  error_mode: strict
+  strict_filters: true
+  strict_variables: false
 
 baseurl: ""
 
 permalink: pretty
 
-# locale settings
-default_locale:     "en"
-authorized_locales: ["cs", "en", "es", "fr"]
+# Jekyll Polyglot Configuration
+languages: ["en", "fr", "cs", "es"]
+default_lang: "en"
+exclude_from_localization: ["assets", "scripts", "styles", "images", "favicon.ico", "robots.txt", "humans.txt", "CNAME", "Process-1.svg", "_site", "node_modules"]
+parallel_localization: true
 
 # add support for an atom feed and sitemap
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-polyglot
