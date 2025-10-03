@@ -13,8 +13,9 @@
 			{% comment %}
 			Group posts by date to handle multilingual posts.
 			For posts with the same date, show only one version with links to other languages.
+			Use paginator.posts for pagination support.
 			{% endcomment %}
-			{% assign posts_by_date = site.posts | group_by: 'date' %}
+			{% assign posts_by_date = paginator.posts | group_by: 'date' %}
 			{% for date_group in posts_by_date %}
 				{% assign posts_for_date = date_group.items %}
 				{% assign current_lang_post = nil %}
@@ -78,6 +79,29 @@
 					</div>
 				</article>
 			{% endfor %}
+			
+			{% comment %}Pagination navigation{% endcomment %}
+			{% if paginator.total_pages > 1 %}
+				<nav class="blog-pagination" aria-label="{{site.data[site.active_lang].blog.pagination_label}}">
+					<div class="pagination-links">
+						{% if paginator.previous_page %}
+							<a href="{{ paginator.previous_page_path | relative_url }}" class="pagination-link pagination-previous" rel="prev">
+								← {{site.data[site.active_lang].blog.previous_page}}
+							</a>
+						{% endif %}
+						
+						<span class="pagination-info">
+							{{site.data[site.active_lang].blog.page_info}} {{ paginator.page }} {{site.data[site.active_lang].blog.of}} {{ paginator.total_pages }}
+						</span>
+						
+						{% if paginator.next_page %}
+							<a href="{{ paginator.next_page_path | relative_url }}" class="pagination-link pagination-next" rel="next">
+								{{site.data[site.active_lang].blog.next_page}} →
+							</a>
+						{% endif %}
+					</div>
+				</nav>
+			{% endif %}
 		</div>
 	</div>
 

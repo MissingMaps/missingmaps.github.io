@@ -471,6 +471,11 @@ blog:
   categories: "Blog Categories"
   nocontent: "No blogs currently published in english."
   also_available: "Also available in"
+  pagination_label: "Blog pagination"
+  previous_page: "Previous"
+  next_page: "Next"
+  page_info: "Page"
+  of: "of"
 
 #####################
 ## OSM STATS ##

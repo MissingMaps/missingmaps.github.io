@@ -476,6 +476,11 @@ blog:
   categories: "Kategorie"
   nocontent: "Dosud nebyl publikován žádný blog v angličtině."
   also_available: "Také dostupné v"
+  pagination_label: "Stránkování blogu"
+  previous_page: "Předchozí"
+  next_page: "Další"
+  page_info: "Stránka"
+  of: "z"
 
 #####################
 ## OSM STATS ##

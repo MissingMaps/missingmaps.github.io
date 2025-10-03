@@ -467,6 +467,16 @@ blog:
   categories: "Blog Catégories"
   nocontent: "Il n'y a pas des blogs de langue espagnole actuellement publiés."
   also_available: "Aussi disponible en"
+  pagination_label: "Pagination du blog"
+  previous_page: "Précédent"
+  next_page: "Suivant"
+  page_info: "Page"
+  of: "de"
+  pagination_label: "Pagination du blog"
+  previous_page: "Précédent"
+  next_page: "Suivant"
+  page_info: "Page"
+  of: "de"
 
 #####################
 ## COUNTRY STATS ##

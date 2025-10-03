@@ -281,3 +281,73 @@
 .tag:hover::after {
   border-left-color: darken($mmGreen, 12%);
 }
+
+/* Blog Pagination */
+.blog-pagination {
+  margin: 40px 0 20px 0;
+  padding: 20px 0;
+  border-top: 1px solid #eee;
+  
+  .pagination-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .pagination-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: $ButtonColor;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+    font-family: 'Lato';
+    font-size: 1em;
+    transition-property: background;
+    transition-duration: 0.12s;
+    transition-timing-function: linear;
+    letter-spacing: 0.06em;
+    
+    &:hover {
+      background-color: darken($ButtonColor, 12%);
+      color: white;
+    }
+    
+    &:active {
+      background-color: darken($ButtonColor, 15%);
+      color: white;
+    }
+    
+    &:focus {
+      background-color: darken($ButtonColor, 12%);
+      color: white;
+      outline: 2px solid darken($ButtonColor, 20%);
+      outline-offset: 2px;
+    }
+  }
+  
+  .pagination-info {
+    color: #666;
+    font-weight: 500;
+    font-size: 0.9em;
+    text-align: center;
+    flex: 1;
+    min-width: 120px;
+  }
+  
+  // Responsive adjustments
+  @media (max-width: 480px) {
+    .pagination-links {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .pagination-info {
+      order: -1;
+      margin-bottom: 10px;
+    }
+  }
+}
