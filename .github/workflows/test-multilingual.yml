@@ -51,7 +51,7 @@ jobs:
         ./test-multilingual.sh
     
     - name: Upload build artifacts on failure
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       if: failure()
       with:
         name: build-artifacts
