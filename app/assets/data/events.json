@@ -1,6 +1,6 @@
 {
-  "buildTime": "2025-10-04T06:16:09.425Z",
-  "count": 15,
+  "buildTime": "2025-10-05T06:16:29.201Z",
+  "count": 16,
   "events": [
     {
       "name": "Mapathon - Monthly Missing Maps w/ EWB Norway",
@@ -53,6 +53,26 @@
         "whole_day": false,
         "start": "2025-10-21T18:00:00+01:00",
         "end": "2025-10-21T21:00:00+01:00"
+      }
+    },
+    {
+      "name": "Missing Maps mapathon Žilina #19",
+      "url": "https://osmcal.org/event/4096/",
+      "date": {
+        "human": "23rd October 17:00 – 20:00",
+        "human_short": "23rd October",
+        "whole_day": false,
+        "start": "2025-10-23T17:00:00+02:00",
+        "end": "2025-10-23T20:00:00+02:00"
+      },
+      "location": {
+        "short": "Žilina, Region of Žilina, Slovakia",
+        "detailed": "Descartes Systems Group (Slovakia), 3049/1, Poštová, Celulózka, Žilina, Region of Žilina, Slovakia",
+        "coords": [
+          18.75613,
+          49.214068
+        ],
+        "venue": "Descartes Systems Group (Slovakia)"
       }
     },
     {
