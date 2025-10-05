@@ -61,7 +61,49 @@ function showFallbackStats () {
 
 // Initialize when DOM is ready
 if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', fetchAndUpdateStats);
+  document.addEventListener('DOMContentLoaded', () => {
+    fetchAndUpdateStats();
+    initMobileMenu();
+  });
 } else {
   fetchAndUpdateStats();
+  initMobileMenu();
+}
+
+/**
+ * Initialize mobile menu functionality
+ */
+function initMobileMenu () {
+  const mobileMenuButton = document.querySelector('.resp-nav-dropdown');
+  const mobileMenuContent = document.querySelector('.resp-dropdown-content');
+
+  if (mobileMenuButton && mobileMenuContent) {
+    // Toggle menu on click/touch
+    mobileMenuButton.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+
+      // Toggle the mobile menu
+      if (mobileMenuContent.classList.contains('show')) {
+        mobileMenuContent.classList.remove('show');
+      } else {
+        mobileMenuContent.classList.add('show');
+      }
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!mobileMenuButton.contains(e.target)) {
+        mobileMenuContent.classList.remove('show');
+      }
+    });
+
+    // Close menu when clicking on a menu item
+    const menuLinks = mobileMenuContent.querySelectorAll('a');
+    menuLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenuContent.classList.remove('show');
+      });
+    });
+  }
 }

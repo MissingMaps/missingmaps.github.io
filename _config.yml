@@ -50,3 +50,14 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-polyglot
+  - jekyll-paginate-v2
+
+# Pagination configuration
+pagination:
+  enabled: true
+  per_page: 15
+  permalink: '/blog/page/:num/'
+  title: ':title - page :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true

@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
@@ -26,7 +26,7 @@ jobs:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version-file: '.nvmrc'
           cache: 'npm'
@@ -56,9 +56,7 @@ jobs:
     if: github.ref == 'refs/heads/publish' && github.event_name == 'push'
     steps:
       - name: Checkout master branch
-        uses: actions/checkout@v4
-      - name: Checkout master branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: master
           token: ${{ secrets.GITHUB_TOKEN }}

@@ -21,7 +21,7 @@
 
 /*----------------------------------------------*/
 /*Variables*/
-/*------------------------------------------  color: color.adjust($mmGreen, $lightness: 10%);---*/
+/*---------------------------------------------*/
 
 $mmred: #e23d3d;
 $mmgreen: #8BBF3F;
@@ -175,19 +175,19 @@ header{
 }
 
 .nav-list{
-  float: right;
   position: relative;
-  display: inline-block;
+  display: flex;
+  justify-content: flex-end;
   @media screen and (max-width: 650px) {
     display: none;
   }
 }
 
 .nav-input{
-    float: right;
     display: inline-block;
     position: relative;
     bottom:3px;
+    margin-left: auto;
     padding: 0px 16px 0px 40px;
 }
 
@@ -240,6 +240,16 @@ header{
   margin-right: auto;
   padding-left: 2em;
   padding-right: 2em;
+  
+  @media screen and (max-width: 768px) {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  
+  @media screen and (max-width: 480px) {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 }
 
 .nav-dropdown {
@@ -282,26 +292,42 @@ header{
   float: right;
   height: 52px;
   line-height: 52px;
-  padding-left: 1em;
-  width: 100px;
+  padding: 0 1.5em 0 1em;
+  min-width: 120px;
   cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0,0,0,0.1);
+  user-select: none;
+  transition: background-color 0.2s ease;
+  border-radius: 4px;
+  margin: 6px 1em 6px 0;
+  
+  &:hover {
+    background-color: rgba(255,255,255,0.1);
+  }
+  
+  &:active {
+    background-color: rgba(255,255,255,0.2);
+  }
+  
   p{
     color: $lightgrey;
     font-family: 'Lato';
     font-size: 1em;
+    font-weight: 500;
     letter-spacing: 0.06em;
-    margin-top: 15px;
+    margin: 15px 0 0 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
     &:before{
       content: "";
       background: url('/assets/graphics/meta/menubox.svg');
       display: block;
-      width: 16px;
-      height: 16px;
-      float: left;
-      margin: 3px 0 0 0;
+      width: 18px;
+      height: 18px;
+      flex-shrink: 0;
     }
-  }
-  &:hover{
   }
   @media screen and (max-width: 650px) {
     display: block;
@@ -309,25 +335,50 @@ header{
 }
 
 .resp-dropdown-content{
-    transition: opacity 0.1s;
+    transition: all 0.3s ease;
     opacity: 0;
     height: 0;
     overflow: hidden;
     position: absolute;
     background-color: lighten($darkestgrey, 10);
     width: 100%;
-    z-index: 1;
-    top:52px;
+    z-index: 1000;
+    top: 52px;
     left: 0px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    
     a{
       display: block;
+      color: $lightgrey;
+      text-decoration: none;
+      -webkit-tap-highlight-color: rgba(0,0,0,0.1);
     }
+    
     :hover{
       background-color: lighten($darkestgrey, 3);
     }
+    
     .nav-item{
       border-top: 1px solid lighten($darkestgrey, 15);
       width: 100%;
+      padding: 16px 20px;
+      font-size: 1.1em;
+      font-weight: 400;
+      transition: background-color 0.2s ease;
+      
+      &:active {
+        background-color: lighten($darkestgrey, 8);
+      }
+    }
+    
+    .mobile-languages {
+      padding: 16px 0;
+      
+      .lang {
+        padding: 12px 16px;
+        font-size: 1em;
+        font-weight: 500;
+      }
     }
 }
 
@@ -335,12 +386,15 @@ header{
 .resp-nav-dropdown {
     display: inline-block;
     text-align: center;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
     @media screen and (min-width: 651px) {
       display: none;
     }
 }
 
-.resp-nav-dropdown:hover .resp-dropdown-content {
+.resp-nav-dropdown:hover .resp-dropdown-content,
+.resp-dropdown-content.show {
     opacity: 1;
     height: auto;
 }
@@ -352,6 +406,16 @@ header{
   background-size: cover;
   height: 25rem;
   margin-bottom: 4rem;
+  
+  @media screen and (max-width: 768px) {
+    height: 20rem;
+    margin-bottom: 3rem;
+  }
+  
+  @media screen and (max-width: 480px) {
+    height: 16rem;
+    margin-bottom: 2rem;
+  }
 }
 
 .header-beginner {
@@ -453,6 +517,19 @@ a:hover{
   color: #fff;
   display: block;
   font-size: 2.5em;
+  line-height: 1.2;
+  
+  @media screen and (max-width: 768px) {
+    font-size: 2em;
+    padding-top: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  @media screen and (max-width: 480px) {
+    font-size: 1.6em;
+    padding-top: 100px;
+  }
 }
 
 .dark-overlay {
@@ -468,6 +545,8 @@ a:hover{
   width: 60%;
   margin: auto;
   text-align:center;
+  padding: 0 20px;
+  
   .sub-head{
     font-size: 1.2em;
     p{
@@ -475,21 +554,42 @@ a:hover{
       font-size: 0.9em;
       max-width: 800px;
       margin: .5em auto 0.2em auto;
+      line-height: 1.6;
     }
   }
+  
   .btn{
     margin: 10px 14px 6px 6px;
+    
+    @media screen and (max-width: 768px) {
+      margin: 8px 0;
+    }
   }
+  
   @media screen and (max-width: 880px) {
-    width: 75%;
+    width: 85%;
   }
-  @media screen and (max-width: 712px) {
-    font-size: .8em;
+  
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    font-size: 1em;
+    
+    .sub-head {
+      font-size: 1.1em;
+      
+      p {
+        font-size: 1em;
+      }
+    }
   }
-  @media screen and (max-width: 565px) {
-    width: 80%;
-  }
-  @media screen and (max-width: 450px) {
+  
+  @media screen and (max-width: 480px) {
+    width: 95%;
+    padding: 0 15px;
+    
+    .sub-head {
+      font-size: 1em;
+    }
   }
 }
 
@@ -531,6 +631,7 @@ a:hover{
   font-weight: 400;
   font-size: 1.1em;
   line-height: 1.6em;
+  
   p{
     padding-bottom: 0.5em;
     font-weight: 300;
@@ -538,13 +639,46 @@ a:hover{
     line-height: 1.6em;
     text-align:left;
   }
+  
   li{
     margin-bottom: 0.4em;
     list-style-type: circle;
     margin-left: 40px;
+    line-height: 1.6;
   }
+  
   ol{
     margin-left: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    font-size: 1em;
+    line-height: 1.7;
+    
+    p {
+      font-size: 1em;
+      line-height: 1.7;
+      padding-bottom: 0.75em;
+    }
+    
+    li {
+      margin-left: 30px;
+      margin-bottom: 0.6em;
+    }
+    
+    ol {
+      margin-left: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    li {
+      margin-left: 25px;
+    }
+    
+    ol {
+      margin-left: 10px;
+    }
   }
 }
 
@@ -576,6 +710,7 @@ input[type="text"]{
   margin: none;
   color: $darkgrey;
   -webkit-border-radius: 5px;
+  border-radius: 5px;
     background-color: lighten($lightgrey, 10);
     box-shadow: -1px -2px $lightgrey;
     padding: 2px 6px 4px 6px;
@@ -592,19 +727,31 @@ input[type="text"]{
   border-radius:4px;
   display:inline-block;
   cursor:pointer;
-  transition: active 0.25s;
+  transition: all 0.2s ease;
   color: white;
-  padding: 8px 14px 8px 14px;
+  padding: 12px 18px;
   margin: 10px 8px 6px 0px;
-  font-size: 1em; // Increased from 0.8em
-  font-weight: 400;
+  font-size: 1em;
+  font-weight: 500;
   font-family: 'Lato';
   text-decoration:none;
   letter-spacing: 0.06em;
-  transition-property: background;
-  transition-duration: 0.12s;
-  transition-timing-function: linear;
-  line-height: 23px;
+  line-height: 1.4;
+  min-height: 44px;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0,0,0,0.1);
+  user-select: none;
+  
+  @media screen and (max-width: 768px) {
+    padding: 14px 20px;
+    font-size: 1.1em;
+    min-height: 48px;
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 300px;
+  }
   
   &:hover{
     background-color: darken($ButtonColor, 12%);
@@ -770,7 +917,7 @@ input[type="text"]{
   color: $darkestgrey;
   position: relative;
   display: inline-block;
-  float: right;
+  margin-left: auto;
 }
 
 /*----------------------------------------------*/

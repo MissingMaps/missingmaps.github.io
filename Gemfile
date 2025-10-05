@@ -10,6 +10,7 @@ gem "jekyll", "~> 4.3.4"
 gem "jekyll-feed", "~> 0.17"
 gem "jekyll-sitemap", "~> 1.4"
 gem "jekyll-polyglot", "~> 1.8"
+gem "jekyll-paginate-v2", "~> 3.0"
 
 # Additional gems for security and performance
 gem "webrick", "~> 1.8" # Required for Ruby 3.0+

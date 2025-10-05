@@ -1,4 +1,3 @@
-const fetch = require('node-fetch');
 const fs = require('fs');
 const path = require('path');
 
@@ -6,6 +5,9 @@ const path = require('path');
 async function fetchMissingMapsEvents() {
   try {
     console.log('Fetching events from osmcal.org...');
+    
+    // Dynamic import for node-fetch v3 (ESM)
+    const { default: fetch } = await import('node-fetch');
     
     const response = await fetch('https://osmcal.org/api/v2/events/', {
       headers: {

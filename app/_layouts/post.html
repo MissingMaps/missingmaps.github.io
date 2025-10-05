@@ -2,7 +2,6 @@
 layout: default
 ---
 
-{% include get_locale.html %}
 {% include header.html %}
 
 <script>
@@ -23,7 +22,8 @@ layout: default
   <div class="row">
     <div class="large-12 columns">
       <div class="textbox blog-container">
-        <div class="blog-date">{{page.date | localize: "%d",locale }} {{ page.date | localize: "%B",locale }} {{ page.date | localize: "%Y",locale }}</div>
+        {% assign month_number = page.date | date: "%-m" | plus: 0 %}
+        <div class="blog-date">{{ page.date | date: "%-d" }} {{ site.data[site.active_lang].months[month_number] }} {{ page.date | date: "%Y" }}</div>
         {{ content }}
         <hr class="blog-end">
         <p class="author">by {{ page.author }}</p>
