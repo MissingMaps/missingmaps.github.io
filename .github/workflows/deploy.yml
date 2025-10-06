@@ -42,6 +42,81 @@ jobs:
         env:
           JEKYLL_ENV: production
 
+      - name: Verify site assets
+        run: |
+          echo "=== Verifying critical site assets ==="
+          
+          # Check for CSS files
+          if [ ! -f "_site/assets/styles/main.css" ]; then
+            echo "❌ CRITICAL: main.css not found"
+            exit 1
+          else
+            echo "✅ main.css found ($(wc -c < _site/assets/styles/main.css) bytes)"
+          fi
+          
+          # Check for JavaScript files
+          if [ ! -f "_site/assets/scripts/main.min.js" ]; then
+            echo "❌ CRITICAL: main.min.js not found"
+            exit 1
+          else
+            echo "✅ main.min.js found ($(wc -c < _site/assets/scripts/main.min.js) bytes)"
+          fi
+          
+          # Check for essential fonts
+          FONT_COUNT=$(find _site/assets/fonts -name "*.woff2" 2>/dev/null | wc -l)
+          if [ "$FONT_COUNT" -lt 3 ]; then
+            echo "❌ CRITICAL: Missing fonts (found $FONT_COUNT, expected at least 3)"
+            exit 1
+          else
+            echo "✅ Fonts found ($FONT_COUNT .woff2 files)"
+          fi
+          
+          # Check for favicon
+          if [ ! -f "_site/assets/graphics/favicon/favicon.ico" ]; then
+            echo "❌ WARNING: favicon.ico not found"
+          else
+            echo "✅ favicon.ico found"
+          fi
+          
+          # Check for critical pages
+          CRITICAL_PAGES=("index.html" "about/index.html" "beginner/index.html" "host/index.html" "blog/index.html")
+          for page in "${CRITICAL_PAGES[@]}"; do
+            if [ ! -f "_site/$page" ]; then
+              echo "❌ CRITICAL: Page $page not found"
+              exit 1
+            else
+              echo "✅ Page $page found"
+            fi
+          done
+          
+          # Check for language versions
+          LANGUAGES=("en" "es" "fr" "cs")
+          for lang in "${LANGUAGES[@]}"; do
+            if [ "$lang" = "en" ]; then
+              # English is at root
+              if [ ! -f "_site/index.html" ]; then
+                echo "❌ CRITICAL: English homepage not found"
+                exit 1
+              fi
+            else
+              if [ ! -f "_site/$lang/index.html" ]; then
+                echo "❌ CRITICAL: $lang homepage not found"
+                exit 1
+              else
+                echo "✅ $lang homepage found"
+              fi
+            fi
+          done
+          
+          # Summary statistics
+          TOTAL_FILES=$(find _site -type f | wc -l)
+          TOTAL_SIZE=$(du -sh _site | cut -f1)
+          echo ""
+          echo "=== Build Summary ==="
+          echo "Total files: $TOTAL_FILES"
+          echo "Total size: $TOTAL_SIZE"
+          echo "✅ All critical assets verified successfully"
+
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -112,25 +187,92 @@ jobs:
             # Use rsync for more reliable copying
             rsync -av --exclude='.git' _site/ .
             
-            # Alternative: Use find and cp for better reliability
-            # find _site -mindepth 1 -maxdepth 1 -exec cp -r {} . \;
-            
             echo "Copy completed. Removing _site directory..."
             rm -rf _site
           else
             echo "Error: _site directory is empty or does not exist"
             exit 1
           fi
+
+      - name: Verify rsync deployment
+        run: |
+          echo "=== Verifying rsync deployment was successful ==="
           
+          # Check critical assets were copied correctly
+          CRITICAL_ASSETS=(
+            "assets/styles/main.css"
+            "assets/scripts/main.min.js"
+            "assets/graphics/favicon/favicon.ico"
+            "index.html"
+            "about/index.html"
+            "beginner/index.html"
+            "host/index.html"
+            "blog/index.html"
+          )
+          
+          MISSING_ASSETS=()
+          
+          for asset in "${CRITICAL_ASSETS[@]}"; do
+            if [ -f "$asset" ]; then
+              SIZE=$(wc -c < "$asset")
+              echo "✅ $asset found ($SIZE bytes)"
+            else
+              echo "❌ CRITICAL: $asset missing after rsync"
+              MISSING_ASSETS+=("$asset")
+            fi
+          done
+          
+          # Check language versions
+          LANGUAGES=("es" "fr" "cs")
+          for lang in "${LANGUAGES[@]}"; do
+            if [ -f "$lang/index.html" ]; then
+              echo "✅ $lang/index.html found"
+            else
+              echo "❌ CRITICAL: $lang/index.html missing after rsync"
+              MISSING_ASSETS+=("$lang/index.html")
+            fi
+          done
+          
+          # Check font files
+          FONT_COUNT=$(find assets/fonts -name "*.woff2" 2>/dev/null | wc -l)
+          if [ "$FONT_COUNT" -ge 3 ]; then
+            echo "✅ Font files found ($FONT_COUNT .woff2 files)"
+          else
+            echo "❌ CRITICAL: Insufficient font files after rsync (found $FONT_COUNT, expected ≥3)"
+            MISSING_ASSETS+=("fonts")
+          fi
+          
+          # Summary
+          if [ ${#MISSING_ASSETS[@]} -eq 0 ]; then
+            TOTAL_FILES=$(find . -type f -not -path './.git/*' | wc -l)
+            TOTAL_SIZE=$(du -sh . --exclude=.git | cut -f1)
+            echo ""
+            echo "✅ rsync deployment verification PASSED"
+            echo "📊 Deployed $TOTAL_FILES files ($TOTAL_SIZE total)"
+            echo "🚀 Ready for commit and push"
+          else
+            echo ""
+            echo "❌ rsync deployment verification FAILED"
+            echo "Missing assets:"
+            for asset in "${MISSING_ASSETS[@]}"; do
+              echo "  - $asset"
+            done
+            echo ""
+            echo "=== Debug: Current directory structure ==="
+            ls -la
+            echo "=== Debug: assets directory ==="
+            ls -la assets/ 2>/dev/null || echo "assets directory not found"
+            echo "=== Debug: Searching for any CSS files ==="
+            find . -name "*.css" -type f -not -path './.git/*' || echo "No CSS files found"
+            exit 1
+          fi
+
+      - name: Commit and push changes
+        run: |
+          # Debug: Show final directory structure
           # Debug: Show final directory structure
           echo "=== Final directory structure ==="
           ls -la
-          echo "=== assets directory ==="
-          ls -la assets/ || echo "No assets directory found"
-          echo "=== assets/styles directory ==="
-          ls -la assets/styles/ || echo "No assets/styles directory found"
-          echo "=== Checking for main.css ==="
-          find . -name "main.css" -type f || echo "main.css not found"
           
           # Add and commit changes
           git add -A
