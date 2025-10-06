@@ -62,18 +62,20 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
-      - name: Checkout master branch
-        uses: actions/checkout@v4
-        with:
-          ref: master
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0
-
       - name: Download build artifacts
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@v4
         with:
           name: site-build
           path: _site/
+
+      - name: Verify build artifacts
+        run: |
+          echo "Checking _site directory contents:"
+          ls -la _site/ || echo "No _site directory found"
+          if [ ! -d "_site" ] || [ -z "$(ls -A _site)" ]; then
+            echo "Error: _site directory is empty or missing"
+            exit 1
+          fi
 
       - name: Deploy to master branch
         run: |
@@ -81,8 +83,8 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          # Remove all files except .git
-          find . -maxdepth 1 ! -name '.git' ! -name '.' ! -name '..' -exec rm -rf {} +
+          # Remove all files except .git and _site
+          find . -maxdepth 1 ! -name '.git' ! -name '.' ! -name '..' ! -name '_site' -exec rm -rf {} +
           
           # Copy built site files to root
           cp -r _site/* .
