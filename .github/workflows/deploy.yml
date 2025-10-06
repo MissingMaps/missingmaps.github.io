@@ -38,7 +38,11 @@ jobs:
         run: npm run lint
 
       - name: Build site
-        run: npm run build
+        run: |
+          npm run build
+          echo "=== Build completed, checking for CSS files ==="
+          ls -la _site/assets/styles/ || echo "No _site/assets/styles directory found"
+          find _site -name "main.css" -type f || echo "No main.css found in _site"
         env:
           JEKYLL_ENV: production
 
