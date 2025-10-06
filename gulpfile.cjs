@@ -1,6 +1,6 @@
 const gulp = require('gulp');
 
-const autoprefixer = require('gulp-autoprefixer');
+// const autoprefixer = require('gulp-autoprefixer'); // Will be dynamically imported
 const browserSync = require('browser-sync');
 const concat = require('gulp-concat');
 const cp = require('child_process');
@@ -11,7 +11,7 @@ const path = require('path');
 const plumber = require('gulp-plumber');
 const sass = require('gulp-sass')(require('sass'));
 const sourcemaps = require('gulp-sourcemaps');
-const zip = require('gulp-zip');
+// const zip = require('gulp-zip'); // Will be dynamically imported
 
 async function grabEvents () {
   // First try to fetch from osmcal.org
@@ -47,14 +47,16 @@ function copyAssets () {
 }
 exports.copyAssets = copyAssets;
 
-function styles () {
+async function styles () {
+  const autoprefixer = (await import('gulp-autoprefixer')).default;
+  
   const sassInput = 'app/assets/styles/*.scss';
   const sassOptions = {
     includePaths: [
+      'app/assets/styles',
       'node_modules/foundation-sites/scss',
       'node_modules/@fortawesome/fontawesome-free/scss',
-      '.tmp/assets/styles',
-      'app/assets/styles'
+      '.tmp/assets/styles'
     ],
     errLogToConsole: true,
     outputStyle: 'expanded',
@@ -67,7 +69,7 @@ function styles () {
     .pipe(plumber())
     .pipe(sourcemaps.init())
     .pipe(sass(sassOptions).on('error', sass.logError))
-    .pipe(autoprefixer())
+    .pipe(autoprefixer({ cascade: false }))
     .pipe(sourcemaps.write('.'));
   
   // Only call browserSync.reload if browserSync is active and properly configured
@@ -102,7 +104,9 @@ function javascripts () {
 }
 exports.javascripts = javascripts;
 
-function zipMaterials () {
+async function zipMaterials () {
+  const zip = (await import('gulp-zip')).default;
+  
   return gulp.src('app/assets/downloads/mapathon-materials/**', { base : 'app/assets/downloads/' })
     .pipe(zip('mapathon-materials.zip'))
     .pipe(gulp.dest('.tmp/assets/downloads'));

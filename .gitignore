@@ -18,6 +18,8 @@ app/.jekyll-cache
 app/.jekyll-metadata
 app/assets/data/events.json
 
+# Foundation util files (copied from node_modules)
+app/assets/styles/util/
 
 #Foundation additions
 .sass-cache
