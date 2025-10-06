@@ -1,0 +1,120 @@
+<!-- GDPR Cookie Consent Banner -->
+<div id="cookie-consent-banner" style="display: none;">
+  <div class="cookie-banner-content">
+    <div class="cookie-banner-text">
+      <h3>{{ site.data[locale].gdpr.banner.title }}</h3>
+      <p>{{ site.data[locale].gdpr.banner.message }}</p>
+    </div>
+    <div class="cookie-banner-actions">
+      <button id="cookie-accept" class="btn btn-primary">{{ site.data[locale].gdpr.banner.accept }}</button>
+      <button id="cookie-reject" class="btn btn-secondary">{{ site.data[locale].gdpr.banner.reject }}</button>
+      <a href="{{ site.data[locale].gdpr.privacy_policy.url }}" class="cookie-learn-more">{{ site.data[locale].gdpr.banner.learn_more }}</a>
+    </div>
+  </div>
+</div>
+
+<!-- Cookie consent JavaScript -->
+<script>
+(function() {
+  'use strict';
+  
+  // Cookie utility functions
+  function setCookie(name, value, days) {
+    var expires = "";
+    if (days) {
+      var date = new Date();
+      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+      expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "") + expires + "; path=/; SameSite=Strict";
+  }
+  
+  function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+      if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+    }
+    return null;
+  }
+  
+  // Initialize Google Analytics based on consent
+  function initializeAnalytics() {
+    var consent = getCookie('gdpr_consent');
+    
+    if (consent === 'accepted') {
+      // Enable Google Analytics
+      if (typeof gtag !== 'undefined') {
+        gtag('config', 'UA-55969124-1', {
+          'anonymize_ip': true,
+          'cookie_flags': 'SameSite=Strict;Secure'
+        });
+      }
+      console.log('Analytics enabled by user consent');
+    } else if (consent === 'rejected') {
+      // Disable Google Analytics
+      if (typeof gtag !== 'undefined') {
+        gtag('config', 'UA-55969124-1', {
+          'anonymize_ip': true,
+          'cookie_flags': 'SameSite=Strict;Secure',
+          'send_page_view': false
+        });
+        // Disable all tracking
+        window['ga-disable-UA-55969124-1'] = true;
+      }
+      console.log('Analytics disabled by user consent');
+    }
+  }
+  
+  // Show consent banner if no decision has been made
+  function showConsentBanner() {
+    var consent = getCookie('gdpr_consent');
+    var banner = document.getElementById('cookie-consent-banner');
+    
+    if (!consent && banner) {
+      banner.style.display = 'block';
+    }
+  }
+  
+  // Handle consent decisions
+  function handleConsentDecision(decision) {
+    setCookie('gdpr_consent', decision, 365); // Store for 1 year
+    document.getElementById('cookie-consent-banner').style.display = 'none';
+    
+    if (decision === 'accepted') {
+      // Reload page to enable analytics
+      window.location.reload();
+    } else {
+      // Initialize analytics in disabled state
+      initializeAnalytics();
+    }
+  }
+  
+  // Initialize when DOM is ready
+  document.addEventListener('DOMContentLoaded', function() {
+    // Show banner if needed
+    showConsentBanner();
+    
+    // Initialize analytics based on existing consent
+    initializeAnalytics();
+    
+    // Bind button events
+    var acceptBtn = document.getElementById('cookie-accept');
+    var rejectBtn = document.getElementById('cookie-reject');
+    
+    if (acceptBtn) {
+      acceptBtn.addEventListener('click', function() {
+        handleConsentDecision('accepted');
+      });
+    }
+    
+    if (rejectBtn) {
+      rejectBtn.addEventListener('click', function() {
+        handleConsentDecision('rejected');
+      });
+    }
+  });
+})();
+</script>

@@ -1,0 +1,46 @@
+// Self-hosted Google Fonts for GDPR compliance
+
+// Raleway font (800 weight)
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('../fonts/raleway-800.ttf') format('truetype');
+}
+
+// Lato font (400 weight - normal)
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/lato-400.ttf') format('truetype');
+}
+
+// Hind font (300 weight - light)
+@font-face {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../fonts/hind-300.ttf') format('truetype');
+}
+
+// Hind font (600 weight - semi-bold)
+@font-face {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/hind-600.ttf') format('truetype');
+}
+
+// Hind font (700 weight - bold)
+@font-face {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/hind-700.ttf') format('truetype');
+}

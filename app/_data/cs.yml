@@ -513,3 +513,47 @@ months:
   - Říjen
   - Listopad
   - Prosinec
+
+####################
+## GDPR COMPLIANCE #
+####################
+gdpr:
+  banner:
+    title: "Souhlas s Cookies"
+    message: "Používáme cookies k analýze návštěvnosti webu a zlepšení vašeho zážitku. Přijetím našeho používání cookies budou vaše data agregována se všemi ostatními uživatelskými daty pro analytické účely."
+    accept: "Přijmout"
+    reject: "Odmítnout"
+    learn_more: "Více Informací"
+  privacy_policy:
+    title: "Zásady Ochrany Osobních Údajů"
+    url: "/privacy-policy/"
+    last_updated: "Poslední aktualizace: 5. října 2025"
+    overview_title: "Přehled"
+    overview_text: "Missing Maps se zavazuje chránit vaše soukromí. Tyto Zásady Ochrany Osobních Údajů vysvětlují, jak shromažďujeme, používáme a chráníme vaše informace při navštívě našich webových stránek."
+    data_collection_title: "Sběr Dat"
+    data_collection_text: "Shromažďujeme informace pro zlepšení vašeho zážitku a pochopení toho, jak jsou naše webové stránky používány. To zahrnuje:"
+    data_types:
+      - "Analytická data prostřednictvím Google Analytics (pouze s vaším souhlasem)"
+      - "IP adresa (anonymizovaná pro analýzy)"
+      - "Informace o prohlížeči a zařízení"
+      - "Navštívené stránky a čas strávený na webu"
+    cookies_title: "Cookies"
+    cookies_text: "Používáme cookies pouze pro analytické účely. Používání cookies můžete ovládat prostřednictvím našeho souhlasného banneru. Používáme:"
+    cookie_types:
+      - "Základní cookies: Potřebné pro funkcionalitu webu"
+      - "Analytické cookies: Google Analytics (pouze se souhlasem)"
+    your_rights_title: "Vaše Práva"
+    your_rights_text: "Pod GDPR máte právo na:"
+    rights_list:
+      - "Přístup k vašim osobním datům"
+      - "Opravu nepřesných dat"
+      - "Smazání vašich dat"
+      - "Namítní proti zpracování dat"
+      - "Zrušení souhlasu kdykoli"
+    third_parties_title: "Služby Třetích Stran"
+    third_parties_text: "Používáme Google Analytics pro analýzu webu (pouze s vaším souhlasem). Google Analytics je nakonfigurován s anonymizací IP a respektuje vaše volby soukromí."
+    contact_title: "Kontaktujte Nás"
+    contact_text: "Pokud máte otázky ohledně těchto Zásad Ochrany Osobních Údajů, kontaktujte nás prostřednictvím našich webových stránek nebo GitHub repozitáře."
+  analytics_notice: "Analytické sledování je aktuálně"
+  analytics_enabled: "povoleno"
+  analytics_disabled: "zakázáno"

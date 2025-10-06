@@ -508,3 +508,112 @@ months:
   - October
   - November
   - December
+
+####################
+## GDPR COMPLIANCE #
+####################
+gdpr:
+  banner:
+    title: "Cookie Consent"
+    message: "We use cookies to analyze website traffic and improve your experience. By accepting our use of cookies, your data will be aggregated with all other user data for analytics purposes."
+    accept: "Accept"
+    reject: "Reject"
+    learn_more: "Learn More"
+  privacy_policy:
+    title: "Privacy Policy"
+    url: "/privacy-policy/"
+    last_updated: "Last updated: October 5, 2025"
+    overview_title: "Overview"
+    overview_text: "In general, we collect information about the actions that you take on our website, and we use this information to provide our services to you. You can access most features without creating an account or providing us with personal information. We use Google Analytics, a web analytics tool, to help us analyze data on website traffic and page views. We take steps to protect the personal information you provide us, such as by limiting access to the information to trained staff and volunteers, and only sharing your information as needed to provide services to you. We also provide you with certain choices regarding your personal information, and we aim to honor your preferences."
+    
+    sections_title: "This Privacy Policy Contains the Following Sections:"
+    sections_list:
+      - "Information We Collect From You and How We Collect It"
+      - "How And Why We Use the Information We Collect"
+      - "How and When We Share Information"
+      - "How We Protect Your Information"
+      - "Your Choices Regarding Your Personal Information"
+      - "Third-Party Websites and Services"
+      - "Children's Privacy"
+      - "Modifications to This Privacy Policy"
+      - "How to Contact Us"
+    
+    data_collection_title: "Information We Collect From You and How We Collect It"
+    data_collection_text: "Depending on how you use our website and its features, we may collect information about you (sometimes referred to as \"personal information\"). The type of personal information we collect from or about you may include: name, email address, location information, and any other information you choose to provide to us. We may also collect information about the device you are using, such as the device's IP address."
+    data_collection_when: "We may collect this information when you:"
+    data_types:
+      - "Contact us through the website or send an email"
+      - "Sign up for our mailing list or newsletter"
+      - "Connect with us via social media platforms"
+      - "Use various functions of our website"
+      - "Visit our website (through analytics)"
+    
+    third_party_info_title: "Information Collected from Third Parties"
+    third_party_info_text: "We may also collect information about you from third parties. In particular, if you have an OpenStreetMap (OSM) account, we may receive your user ID and display name for that account and information regarding your actions on OSM. Additionally, if you choose to authenticate using a social media account (e.g., Facebook or Google), we may collect, store, and use information you make available through that social media account. We treat any personal information we receive from these third parties consistent with this Privacy Policy."
+    
+    cookies_title: "Cookies and Similar Technologies"
+    cookies_text: "When you use our website, we, or third parties operating on our behalf, use cookies and similar technologies to collect information about the features that you access and use, and about the browser and computer or device you use to access our website. A cookie is a tiny file that a website stores on a visitor's computer or device. Missing Maps uses cookies to help us understand and remember your preferences and make our website more easily navigable and useful for you. We also use cookies to help us monitor and track how features are being used and evaluate the effectiveness of email campaigns."
+    cookies_analytics: "We use Google Analytics across our website to help us collect the following information:"
+    cookie_types:
+      - "Log Information: information about visitors, including IP address, operating system, and browser ID"
+      - "Usage Information: information about how visitors interact with our website, including what webpages were visited and for how long, the website the visitor navigated from, and the actions taken while using our website"
+    
+    cookie_refuse_title: "How to Refuse the Use of Cookies"
+    cookie_refuse_text: "Most browsers include tools to help you manage cookies. For example, you should be able to choose to have your browser warn you each time a cookie is being sent, or you can choose to turn off (i.e., refuse to accept) all cookies. Each browser is different, however, so please consult your browser's \"Help\" menu to learn the correct way to modify how your browser handles cookies. You can find more information about cookies and how to disable cookies at www.allaboutcookies.org. Keep in mind that we need certain information in order for our website to function properly. If you disable cookies, you may no longer be able to use or access some features of our website."
+    
+    usage_title: "How And Why We Use the Information We Collect"
+    usage_purposes_title: "Purposes for Using Information"
+    usage_text: "Missing Maps may use your information in the following ways:"
+    usage_purposes:
+      - "To provide our services to you"
+      - "To improve our website in order to better serve you"
+      - "To communicate with you, respond to your communications with us, or to provide you with technical support"
+      - "To monitor and prevent any problems with our website"
+      - "To detect, investigate, and prevent activities that may violate our policies or be illegal"
+      - "To serve our legitimate business purposes"
+      - "To comply with our legal obligations"
+    usage_retention: "We may also maintain and use information in de-identified or aggregated forms that do not identify you. We will retain your information for no longer than is necessary for the purposes for which it is processed."
+    
+    legal_bases_title: "Legal Bases for Collecting and Using Information"
+    legal_bases_text: "For those visitors whose personal information is subject to EU data protection laws, the legal bases for processing your information as set out in this Privacy Policy are as follows: (1) The processing is necessary in order to fulfill our contractual commitments to you; (2) The processing is necessary for us to comply with a legal obligation; (3) We have a legitimate interest in processing your information – for example, to provide and update our services, to improve our services so that we can offer you an even better user experience, to safeguard our services, to communicate with you, to measure, gauge, and improve the effectiveness of our services, and better understand user retention and attrition, to monitor and prevent any problems with our services, and to personalize your experience; or (4) You have given us your consent – for example before we place certain cookies on your device and access and analyze them later on."
+    
+    sharing_title: "How and When We Share Information"
+    sharing_text: "We may share information about you in limited circumstances for the purposes described in this Privacy Policy and with appropriate safeguards on your privacy and the security of your personal information. In particular:"
+    sharing_circumstances:
+      - "Service administrators: Depending on the services used, administrators or other authorized users, which may include Missing Maps team members or designated volunteers working on Missing Maps' behalf, may have access to your username, email address, or other personal information."
+      - "Independent contractors or vendors: We may disclose information about you to independent contractors, vendors, and/or other third parties working on our behalf in connection with providing you our services. We require all third parties that have access to your personal information to handle it consistent with this Privacy Policy."
+      - "Partners, affiliates, or other third parties in connection with a merger, acquisition, or change in leadership: In the event Missing Maps merges with or is acquired by another organization, or undergoes a restructuring, change in leadership or other similar significant organizational change, we may disclose and transfer your personal information to authorized third parties in connection with that event."
+    
+    protection_title: "How We Protect Your Information"
+    protection_text: "We use appropriate administrative, technical, and physical measures designed to prevent unauthorized access, improper use or disclosure, unauthorized modification or unlawful destruction or accidental loss of personal information. Although we exercise reasonable care in providing secure transmission of information and storage of the information provided to us through our website, no method of transmission over the Internet, and no means of electronic or physical storage, is absolutely secure. Accordingly, we cannot ensure or warrant the security of any information you transmit to us."
+    
+    your_rights_title: "Your Choices Regarding Your Personal Information"
+    your_rights_text: "Certain local laws establish rights for consumers who are subject to their protections. For example, the European Union's General Data Protection Regulation provides for the following rights for individuals whose data is collected in the EU:"
+    rights_list:
+      - "Right to request access to your personal data"
+      - "Right to request correction or deletion of your personal data"
+      - "Right to object to our use and processing of your personal data"
+      - "Right to request that we limit our use and processing of your personal data"
+      - "Right to request portability of your personal data"
+    rights_note: "While these rights are not absolute – e.g., we do not have to delete your data if we need the data for compliance with a legal obligation – and they are not legally required in every jurisdiction in which we collect data, Missing Maps wants to make it easy and straightforward for all our users to enjoy these rights. We provide you with several choices when it comes to information about you:"
+    choices_list:
+      - "Opt-Out of Electronic Communications: You may opt out of receiving messages from Missing Maps. Just follow the instructions in those messages. If you opt out of receiving marketing messages from us, we may still send you other non-commercial messages, like those about legal notices."
+      - "Do Not Track: Missing Maps responds to \"do not track\" signals, so you may elect to use this signal in your browser settings."
+      - "Set Your Browser to Reject Cookies: As mentioned above, you can usually choose to set your browser to remove or reject browser cookies before using Missing Maps' services, with the drawback that certain features may not function properly without the aid of cookies."
+    
+    exercise_rights_text: "If you have any questions or otherwise would like to contact us about one of these rights, you can email info@hotosm.org to ask a question or request to exercise one of your rights. We will consider all requests and provide our response within the time period stated by applicable law. We may request you provide us with information necessary to confirm your identity before responding to your request – this is solely to protect you, and we will not use any of the information you provide us to confirm your identity for anything other than confirming your identity."
+    
+    third_parties_title: "Third-Party Websites and Services"
+    third_parties_text: "Our website may include links to third-party websites and services that are not owned or controlled by us, such as GitHub, social media platforms like Twitter, Facebook, and LinkedIn. We have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third-party websites or services. If you choose to use any third-party websites or services, the collection, use, and disclosure of your information on those websites will be subject to the privacy policies of these websites and services."
+    
+    children_title: "Children's Privacy"
+    children_text: "We encourage youth to volunteer with Missing Maps under the supervision of their parent or guardian, and are committed to protecting the privacy of children who use our website. We do not knowingly collect personal information from children under 16. However, depending on how you use our website, we may collect and use information about your child that you provide to us. Before we collect any such information, we will seek your permission. If we become aware we are processing the data of a child under the age of 16 without parental consent, we will take reasonable steps to delete such information as required under applicable laws. If you believe we might have personal information from or about a child under 16, please contact us at info@hotosm.org."
+    
+    modifications_title: "Modifications to This Privacy Policy"
+    modifications_text: "We may modify this Privacy Policy from time to time. All such changes will be reflected on this page and the date of revision will be noted at the top of the Privacy Policy. Please check the Policy periodically for updates."
+    
+    contact_title: "Contact Us"
+    contact_text: "If you have a question about this Privacy Policy, please contact us at info@hotosm.org. Missing Maps is part of the Humanitarian OpenStreetMap Team, a 501(c)(3) not-for-profit organization and global community."
+  analytics_notice: "Analytics tracking is currently"
+  analytics_enabled: "enabled"
+  analytics_disabled: "disabled"

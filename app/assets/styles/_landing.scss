@@ -793,6 +793,45 @@
 	}
 }
 
+.footer-links {
+	margin-top: 30px;
+	margin-bottom: 0;
+	padding: 15px 0;
+	background-color: #ecf0f1;
+	border-top: 1px solid #bdc3c7;
+	
+	.privacy-link {
+		color: #2c3e50;
+		text-decoration: none;
+		font-size: 0.9rem;
+		font-family: 'Lato', sans-serif;
+		transition: color 0.2s ease;
+		
+		&:hover {
+			color: #e74c3c;
+			text-decoration: underline;
+		}
+	}
+	
+	@media screen and (max-width: 768px) {
+		margin-top: 24px;
+		padding: 12px 0;
+		
+		.privacy-link {
+			font-size: 0.85rem;
+		}
+	}
+	
+	@media screen and (max-width: 480px) {
+		margin-top: 20px;
+		padding: 10px 0;
+		
+		.privacy-link {
+			font-size: 0.8rem;
+		}
+	}
+}
+
 /*----------------------------------------------*/
 /* Map Guides */
 /*----------------------------------------------*/
@@ -800,19 +839,19 @@
   margin-top: 50px;
   padding-top: 10px;
   margin-bottom: 28px;
-  font-size: 35px;
+  font-size: 2.1875rem; /* 35px */
   
   @media screen and (max-width: 768px) {
     margin-top: 40px;
     margin-bottom: 24px;
-    font-size: 28px;
+    font-size: 1.75rem; /* 28px */
     padding-top: 8px;
   }
   
   @media screen and (max-width: 480px) {
     margin-top: 32px;
     margin-bottom: 20px;
-    font-size: 24px;
+    font-size: 1.5rem; /* 24px */
     padding-top: 6px;
   }
 }
