@@ -4,14 +4,17 @@
 
 ```bash
 # Development
-npm run serve                 # Start development server
-./test-multilingual.sh       # Run tests
-bundle exec jekyll build     # Manual build
+npm run serve                 # Start development server (localhost:3000)
+bundle exec jekyll build     # Manual Jekyll build
+npm test                     # Full test suite (linting + build)
 
-# Adding translations
-# 1. Edit _data/{lang}.yml files
-# 2. Use {{site.data[locale].key}} in templates
-# 3. Rebuild automatically detects changes
+# Asset management
+npm run build                # Production build with all assets
+npm run clean                # Clean compiled assets
+npm run lint                 # Check JavaScript code quality
+
+# Testing
+./test-multilingual.sh       # Run comprehensive multilingual tests
 ```
 
 ## File Structure
@@ -19,8 +22,8 @@ bundle exec jekyll build     # Manual build
 ```
 app/
 ├── _data/
-│   ├── en.yml              # English translations
-│   ├── fr.yml              # French translations  
+│   ├── en.yml              # English translations 
+│   ├── fr.yml              # French translations
 │   ├── es.yml              # Spanish translations
 │   └── cs.yml              # Czech translations
 ├── _includes/
@@ -28,63 +31,58 @@ app/
 │   └── header.html         # Language switcher
 ├── index.html              # Homepage template
 ├── about.html              # About page template
-└── *.html                  # Other page templates
+├── beginner.html           # Tutorial pages
+├── validate.html           # Validation guides  
+├── host.html               # Mapathon hosting
+└── *.html                  # Other page templates (13 total)
 ```
 
-## Language URLs
+## Basic Development Workflow
 
-- English: `/` (root)
-- French: `/fr/`
-- Spanish: `/es/`  
-- Czech: `/cs/`
-
-## Translation Syntax
-
-```liquid
-<!-- Set locale -->
-{% include get_locale.html %}
-
-<!-- Use translations -->
-<h1>{{site.data[locale].section.title}}</h1>
-<p>{{site.data[locale].section.text}}</p>
-```
-
-## Quick Tests
-
+### 1. Start Development
 ```bash
-# Verify all languages work
-for lang in "" "fr/" "es/" "cs/"; do
-  echo "${lang:-en}: $(grep 'feature-header' _site/${lang}about/index.html)"
-done
-
-# Check feed generation  
-ls _site/*/feed.xml _site/feed.xml
+npm run serve               # Starts Jekyll + Gulp + Browsersync
+# Site available at: http://localhost:3000
 ```
 
-## Adding New Content
+### 2. Make Changes
+- Edit templates in `/app/`
+- Modify styles in `/app/assets/styles/`
+- Update scripts in `/app/assets/scripts/`
+- Auto-reload in browser when files change
 
-1. **New page**: Create `newpage.html` in `/app/`
-2. **Add translations**: Update all `_data/{lang}.yml` files  
-3. **Test**: Run `./test-multilingual.sh`
-
-## Common Patterns
-
-```yaml
-# _data/en.yml structure
-section:
-  title: "Section Title"
-  text: "Section content"
-  subsection:
-    item1: "First item"
-    item2: "Second item"
+### 3. Test Changes
+```bash
+npm test                    # Run full test suite
+./test-multilingual.sh     # Test translation system
 ```
 
-```liquid
-<!-- Template usage -->
-<h2>{{site.data[locale].section.title}}</h2>
-<p>{{site.data[locale].section.text}}</p>
-<ul>
-  <li>{{site.data[locale].section.subsection.item1}}</li>
-  <li>{{site.data[locale].section.subsection.item2}}</li>
-</ul>
+### 4. Build for Production
+```bash
+npm run build              # Create optimized production build
 ```
+
+## Troubleshooting
+
+### Build Failures
+```bash
+# Clean and rebuild
+npm run clean && npm run serve
+
+# Build with verbose output  
+bundle exec jekyll build --trace --verbose
+
+# Check dependencies
+npm install && bundle install
+```
+
+### Server Issues
+- Use `http://localhost:3000` (Browsersync) not `http://127.0.0.1:4000` (Jekyll only)
+- Ensure both Node.js 20+ and Ruby 3.3+ are installed
+- Check that all dependencies are up to date
+
+## Documentation Links
+
+- **[README.md](./README.md)** - Complete setup and development guide
+- **[INTERNATIONALIZATION.md](./INTERNATIONALIZATION.md)** - Translation system documentation
+- **[CONTRIBUTING.md](./CONTRIBUTING.md)** - Contributor guidelines
