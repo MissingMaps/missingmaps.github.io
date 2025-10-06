@@ -1,5 +1,14 @@
 ## [Missing Maps](http://www.missingmaps.org/)
 
+### 🌍 Website Status
+
+[![Build Status](https://github.com/MissingMaps/missingmaps.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/MissingMaps/missingmaps.github.io/actions/workflows/deploy.yml)
+[![Test Status](https://github.com/MissingMaps/missingmaps.github.io/actions/workflows/test.yml/badge.svg)](https://github.com/MissingMaps/missingmaps.github.io/actions/workflows/test.yml)
+
+**Current Branch**: `modernize-2025` - Modernization and internationalization improvements  
+**Latest Update**: October 2025 - Complete Czech translation and system improvements  
+**Production**: [missingmaps.org](https://www.missingmaps.org)
+
 ### 📚 Documentation
 
 - **[Quick Reference](./QUICK-REFERENCE.md)** - Essential commands and patterns for developers

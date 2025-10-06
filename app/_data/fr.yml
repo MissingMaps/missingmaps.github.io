@@ -509,3 +509,114 @@ months:
   - Octobre
   - Novembre
   - Décembre
+
+####################
+## GDPR COMPLIANCE #
+####################
+gdpr:
+  banner:
+    title: "Consentement aux Cookies"
+    message: "Nous utilisons des cookies pour analyser le trafic du site web et améliorer votre expérience. En acceptant notre utilisation des cookies, vos données seront agrégées avec toutes les autres données utilisateur à des fins d'analyse."
+    accept: "Accepter"
+    reject: "Rejeter"
+    learn_more: "En Savoir Plus"
+  privacy_policy:
+    title: "Politique de Confidentialité"
+    url: "/privacy-policy/"
+    last_updated: "Dernière mise à jour : 5 octobre 2025"
+    overview_title: "Aperçu"
+    overview_text: "En général, nous collectons des informations sur les actions que vous entreprenez sur notre site web, et nous utilisons ces informations pour vous fournir nos services. Vous pouvez accéder à la plupart des fonctionnalités sans créer de compte ou nous fournir d'informations personnelles. Nous utilisons Google Analytics, un outil d'analyse web, pour nous aider à analyser les données sur le trafic du site web et les vues de pages. Nous prenons des mesures pour protéger les informations personnelles que vous nous fournissez, comme en limitant l'accès aux informations au personnel et aux bénévoles formés, et en partageant vos informations uniquement selon les besoins pour vous fournir des services. Nous vous offrons également certains choix concernant vos informations personnelles, et nous visons à honorer vos préférences."
+    
+    sections_title: "Cette Politique de Confidentialité Contient les Sections Suivantes :"
+    sections_list:
+      - "Informations que Nous Collectons de Vous et Comment Nous les Collectons"
+      - "Comment et Pourquoi Nous Utilisons les Informations que Nous Collectons"
+      - "Comment et Quand Nous Partageons les Informations"
+      - "Comment Nous Protégeons Vos Informations"
+      - "Vos Choix Concernant Vos Informations Personnelles"
+      - "Sites Web et Services de Tiers"
+      - "Confidentialité des Enfants"
+      - "Modifications de Cette Politique de Confidentialité"
+      - "Comment Nous Contacter"
+    
+    data_collection_title: "Informations que Nous Collectons de Vous et Comment Nous les Collectons"
+    data_collection_text: "Selon la façon dont vous utilisez notre site web et ses fonctionnalités, nous pouvons collecter des informations sur vous (parfois appelées \"informations personnelles\"). Le type d'informations personnelles que nous collectons de ou sur vous peut inclure : nom, adresse e-mail, informations de localisation, et toute autre information que vous choisissez de nous fournir. Nous pouvons également collecter des informations sur l'appareil que vous utilisez, comme l'adresse IP de l'appareil."
+    data_collection_when: "Nous pouvons collecter ces informations quand vous :"
+    data_types:
+      - "Nous contactez via le site web ou envoyez un e-mail"
+      - "Vous inscrivez à notre liste de diffusion ou newsletter"
+      - "Vous connectez avec nous via les plateformes de médias sociaux"
+      - "Utilisez diverses fonctions de notre site web"
+      - "Visitez notre site web (via les analyses)"
+    
+    third_party_info_title: "Informations Collectées auprès de Tiers"
+    third_party_info_text: "Nous pouvons également collecter des informations sur vous auprès de tiers. En particulier, si vous avez un compte OpenStreetMap (OSM), nous pouvons recevoir votre ID utilisateur et nom d'affichage pour ce compte et des informations concernant vos actions sur OSM. De plus, si vous choisissez de vous authentifier en utilisant un compte de médias sociaux (par exemple, Facebook ou Google), nous pouvons collecter, stocker et utiliser les informations que vous rendez disponibles via ce compte de médias sociaux. Nous traitons toutes les informations personnelles que nous recevons de ces tiers conformément à cette Politique de Confidentialité."
+    
+    cookies_title: "Cookies et Technologies Similaires"
+    cookies_text: "Lorsque vous utilisez notre site web, nous, ou des tiers opérant en notre nom, utilisons des cookies et des technologies similaires pour collecter des informations sur les fonctionnalités auxquelles vous accédez et que vous utilisez, et sur le navigateur et l'ordinateur ou l'appareil que vous utilisez pour accéder à notre site web. Un cookie est un petit fichier qu'un site web stocke sur l'ordinateur ou l'appareil d'un visiteur. Missing Maps utilise des cookies pour nous aider à comprendre et mémoriser vos préférences et rendre notre site web plus facilement navigable et utile pour vous. Nous utilisons également des cookies pour nous aider à surveiller et suivre comment les fonctionnalités sont utilisées et évaluer l'efficacité des campagnes d'e-mail."
+    cookies_analytics: "Nous utilisons Google Analytics sur notre site web pour nous aider à collecter les informations suivantes :"
+    cookie_types:
+      - "Informations de Journal : informations sur les visiteurs, y compris l'adresse IP, le système d'exploitation et l'ID du navigateur"
+      - "Informations d'Utilisation : informations sur la façon dont les visiteurs interagissent avec notre site web, y compris quelles pages web ont été visitées et pendant combien de temps, le site web depuis lequel le visiteur a navigué, et les actions prises lors de l'utilisation de notre site web"
+    
+    cookie_refuse_title: "Comment Refuser l'Utilisation des Cookies"
+    cookie_refuse_text: "La plupart des navigateurs incluent des outils pour vous aider à gérer les cookies. Par exemple, vous devriez pouvoir choisir de faire en sorte que votre navigateur vous avertisse chaque fois qu'un cookie est envoyé, ou vous pouvez choisir de désactiver (c'est-à-dire refuser d'accepter) tous les cookies. Chaque navigateur est différent, cependant, alors veuillez consulter le menu \"Aide\" de votre navigateur pour apprendre la bonne façon de modifier comment votre navigateur gère les cookies. Vous pouvez trouver plus d'informations sur les cookies et comment désactiver les cookies sur www.allaboutcookies.org. Gardez à l'esprit que nous avons besoin de certaines informations pour que notre site web fonctionne correctement. Si vous désactivez les cookies, vous pourriez ne plus pouvoir utiliser ou accéder à certaines fonctionnalités de notre site web."
+    
+    usage_title: "Comment et Pourquoi Nous Utilisons les Informations que Nous Collectons"
+    usage_purposes_title: "Objectifs d'Utilisation des Informations"
+    usage_text: "Missing Maps peut utiliser vos informations de la manière suivante :"
+    usage_purposes:
+      - "Pour vous fournir nos services"
+      - "Pour améliorer notre site web afin de mieux vous servir"
+      - "Pour communiquer avec vous, répondre à vos communications avec nous, ou vous fournir un support technique"
+      - "Pour surveiller et prévenir tous problèmes avec notre site web"
+      - "Pour détecter, enquêter et prévenir les activités qui peuvent violer nos politiques ou être illégales"
+      - "Pour servir nos objectifs commerciaux légitimes"
+      - "Pour nous conformer à nos obligations légales"
+    usage_retention: "Nous pouvons également maintenir et utiliser des informations sous des formes dé-identifiées ou agrégées qui ne vous identifient pas. Nous conserverons vos informations pas plus longtemps que nécessaire pour les fins pour lesquelles elles sont traitées."
+    
+    legal_bases_title: "Bases Légales pour Collecter et Utiliser les Informations"
+    legal_bases_text: "Pour les visiteurs dont les informations personnelles sont soumises aux lois de protection des données de l'UE, les bases légales pour traiter vos informations comme énoncées dans cette Politique de Confidentialité sont les suivantes : (1) Le traitement est nécessaire pour remplir nos engagements contractuels envers vous ; (2) Le traitement est nécessaire pour nous conformer à une obligation légale ; (3) Nous avons un intérêt légitime à traiter vos informations – par exemple, pour fournir et mettre à jour nos services, pour améliorer nos services afin que nous puissions vous offrir une expérience utilisateur encore meilleure, pour sauvegarder nos services, pour communiquer avec vous, pour mesurer, évaluer et améliorer l'efficacité de nos services, et mieux comprendre la rétention et l'attrition des utilisateurs, pour surveiller et prévenir tous problèmes avec nos services, et pour personnaliser votre expérience ; ou (4) Vous nous avez donné votre consentement – par exemple avant que nous placions certains cookies sur votre appareil et les accédons et analysons plus tard."
+    
+    sharing_title: "Comment et Quand Nous Partageons les Informations"
+    sharing_text: "Nous pouvons partager des informations sur vous dans des circonstances limitées pour les objectifs décrits dans cette Politique de Confidentialité et avec des garanties appropriées sur votre vie privée et la sécurité de vos informations personnelles. En particulier :"
+    sharing_circumstances:
+      - "Administrateurs de service : Selon les services utilisés, les administrateurs ou autres utilisateurs autorisés, qui peuvent inclure les membres de l'équipe Missing Maps ou les bénévoles désignés travaillant pour le compte de Missing Maps, peuvent avoir accès à votre nom d'utilisateur, adresse e-mail, ou autres informations personnelles."
+      - "Contractants indépendants ou fournisseurs : Nous pouvons divulguer des informations sur vous à des contractants indépendants, fournisseurs, et/ou autres tiers travaillant en notre nom en relation avec la fourniture de nos services. Nous exigeons de tous les tiers qui ont accès à vos informations personnelles qu'ils les gèrent conformément à cette Politique de Confidentialité."
+      - "Partenaires, affiliés, ou autres tiers en relation avec une fusion, acquisition, ou changement de direction : Dans le cas où Missing Maps fusionne avec ou est acquis par une autre organisation, ou subit une restructuration, changement de direction ou autre changement organisationnel significatif similaire, nous pouvons divulguer et transférer vos informations personnelles à des tiers autorisés en relation avec cet événement."
+    
+    protection_title: "Comment Nous Protégeons Vos Informations"
+    protection_text: "Nous utilisons des mesures administratives, techniques et physiques appropriées conçues pour prévenir l'accès non autorisé, l'utilisation inappropriée ou la divulgation, la modification non autorisée ou la destruction illégale ou la perte accidentelle d'informations personnelles. Bien que nous exercions un soin raisonnable dans la fourniture d'une transmission sécurisée d'informations et le stockage des informations qui nous sont fournies via notre site web, aucune méthode de transmission sur Internet, et aucun moyen de stockage électronique ou physique, n'est absolument sécurisé. En conséquence, nous ne pouvons pas assurer ou garantir la sécurité de toute information que vous nous transmettez."
+    
+    your_rights_title: "Vos Choix Concernant Vos Informations Personnelles"
+    your_rights_text: "Certaines lois locales établissent des droits pour les consommateurs qui sont soumis à leurs protections. Par exemple, le Règlement Général sur la Protection des Données de l'Union Européenne prévoit les droits suivants pour les individus dont les données sont collectées dans l'UE :"
+    rights_list:
+      - "Droit de demander l'accès à vos données personnelles"
+      - "Droit de demander la correction ou la suppression de vos données personnelles"
+      - "Droit de vous opposer à notre utilisation et traitement de vos données personnelles"
+      - "Droit de demander que nous limitions notre utilisation et traitement de vos données personnelles"
+      - "Droit de demander la portabilité de vos données personnelles"
+    rights_note: "Bien que ces droits ne soient pas absolus – par exemple, nous n'avons pas à supprimer vos données si nous avons besoin des données pour nous conformer à une obligation légale – et qu'ils ne soient pas légalement requis dans toutes les juridictions où nous collectons des données, Missing Maps veut rendre facile et direct pour tous nos utilisateurs de jouir de ces droits. Nous vous offrons plusieurs choix quand il s'agit d'informations sur vous :"
+    choices_list:
+      - "Refuser les Communications Électroniques : Vous pouvez refuser de recevoir des messages de Missing Maps. Suivez simplement les instructions dans ces messages. Si vous refusez de recevoir des messages marketing de notre part, nous pouvons encore vous envoyer d'autres messages non commerciaux, comme ceux concernant les avis légaux."
+      - "Ne Pas Suivre : Missing Maps répond aux signaux \"ne pas suivre\", donc vous pouvez choisir d'utiliser ce signal dans les paramètres de votre navigateur."
+      - "Configurer Votre Navigateur pour Rejeter les Cookies : Comme mentionné ci-dessus, vous pouvez généralement choisir de configurer votre navigateur pour supprimer ou rejeter les cookies de navigateur avant d'utiliser les services de Missing Maps, avec l'inconvénient que certaines fonctionnalités peuvent ne pas fonctionner correctement sans l'aide de cookies."
+    
+    exercise_rights_text: "Si vous avez des questions ou souhaitez autrement nous contacter au sujet d'un de ces droits, vous pouvez envoyer un e-mail à info@hotosm.org pour poser une question ou demander d'exercer un de vos droits. Nous considérerons toutes les demandes et fournirons notre réponse dans la période de temps énoncée par la loi applicable. Nous pouvons vous demander de nous fournir des informations nécessaires pour confirmer votre identité avant de répondre à votre demande – ceci est uniquement pour vous protéger, et nous n'utiliserons aucune des informations que vous nous fournissez pour confirmer votre identité pour autre chose que confirmer votre identité."
+    
+    third_parties_title: "Sites Web et Services de Tiers"
+    third_parties_text: "Notre site web peut inclure des liens vers des sites web et services de tiers qui ne sont pas possédés ou contrôlés par nous, comme GitHub, les plateformes de médias sociaux comme Twitter, Facebook, et LinkedIn. Nous n'avons aucun contrôle sur, et n'assumons aucune responsabilité pour, le contenu, les politiques de confidentialité, ou les pratiques de tous sites web ou services de tiers. Si vous choisissez d'utiliser des sites web ou services de tiers, la collecte, l'utilisation, et la divulgation de vos informations sur ces sites web seront soumises aux politiques de confidentialité de ces sites web et services."
+    
+    children_title: "Confidentialité des Enfants"
+    children_text: "Nous encourageons les jeunes à faire du bénévolat avec Missing Maps sous la supervision de leur parent ou tuteur, et nous nous engageons à protéger la vie privée des enfants qui utilisent notre site web. Nous ne collectons pas sciemment d'informations personnelles d'enfants de moins de 16 ans. Cependant, selon la façon dont vous utilisez notre site web, nous pouvons collecter et utiliser des informations sur votre enfant que vous nous fournissez. Avant de collecter de telles informations, nous chercherons votre permission. Si nous apprenons que nous traitons les données d'un enfant de moins de 16 ans sans consentement parental, nous prendrons des mesures raisonnables pour supprimer de telles informations comme requis sous les lois applicables. Si vous croyez que nous pourrions avoir des informations personnelles d'ou sur un enfant de moins de 16 ans, veuillez nous contacter à info@hotosm.org."
+    
+    modifications_title: "Modifications de Cette Politique de Confidentialité"
+    modifications_text: "Nous pouvons modifier cette Politique de Confidentialité de temps en temps. Tous ces changements seront reflétés sur cette page et la date de révision sera notée en haut de la Politique de Confidentialité. Veuillez vérifier la Politique périodiquement pour les mises à jour."
+    
+    contact_title: "Nous Contacter"
+    contact_text: "Si vous avez une question sur cette Politique de Confidentialité, veuillez nous contacter à info@hotosm.org. Missing Maps fait partie de l'Équipe Humanitaire OpenStreetMap, une organisation à but non lucratif 501(c)(3) et une communauté mondiale."
+    contact_title: "Nous Contacter"
+    contact_text: "Si vous avez des questions concernant cette Politique de Confidentialité, veuillez nous contacter via notre site web ou dépôt GitHub."
+  analytics_notice: "Le suivi analytique est actuellement"
+  analytics_enabled: "activé"
+  analytics_disabled: "désactivé"

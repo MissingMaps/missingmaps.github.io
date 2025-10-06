@@ -1,6 +1,6 @@
 const gulp = require('gulp');
 
-const autoprefixer = require('gulp-autoprefixer');
+// const autoprefixer = require('gulp-autoprefixer'); // Will be dynamically imported
 const browserSync = require('browser-sync');
 const concat = require('gulp-concat');
 const cp = require('child_process');
@@ -11,7 +11,7 @@ const path = require('path');
 const plumber = require('gulp-plumber');
 const sass = require('gulp-sass')(require('sass'));
 const sourcemaps = require('gulp-sourcemaps');
-const zip = require('gulp-zip');
+// const zip = require('gulp-zip'); // Will be dynamically imported
 
 async function grabEvents () {
   // First try to fetch from osmcal.org
@@ -42,19 +42,78 @@ async function clean () {
 exports.clean = clean;
 
 function copyAssets () {
-  return gulp.src('.tmp/assets/**')
-    .pipe(gulp.dest('_site/assets'));
+  console.log('🔍 copyAssets: Starting asset copy process');
+  
+  // Check source directory
+  if (!fs.existsSync('.tmp/assets')) {
+    console.error('❌ Source directory .tmp/assets does not exist');
+    return Promise.resolve();
+  }
+  
+  // List source files
+  try {
+    const sourceFiles = fs.readdirSync('.tmp/assets', { recursive: true });
+    console.log(`📁 Source files found: ${sourceFiles.length}`);
+    sourceFiles.forEach(file => console.log(`  - ${file}`));
+  } catch (err) {
+    console.error('❌ Error reading source directory:', err.message);
+  }
+  
+  // Ensure destination directory exists
+  if (!fs.existsSync('_site')) {
+    console.log('📁 Creating _site directory');
+    fs.mkdirSync('_site', { recursive: true });
+  }
+  if (!fs.existsSync('_site/assets')) {
+    console.log('📁 Creating _site/assets directory');
+    fs.mkdirSync('_site/assets', { recursive: true });
+  }
+  
+  let fileCount = 0;
+  
+  return gulp.src('.tmp/assets/**', { allowEmpty: true })
+    .pipe(plumber({
+      errorHandler: function(err) {
+        console.error('❌ Error in copyAssets pipe:', err.message);
+        console.error('Stack:', err.stack);
+        this.emit('end');
+      }
+    }))
+    .on('data', function(file) {
+      fileCount++;
+      console.log(`📄 Copying file ${fileCount}: ${file.relative}`);
+    })
+    .pipe(gulp.dest('_site/assets'))
+    .on('end', function() {
+      console.log(`✅ copyAssets: Completed copying ${fileCount} files`);
+      
+      // Verify destination files
+      try {
+        if (fs.existsSync('_site/assets')) {
+          const destFiles = fs.readdirSync('_site/assets', { recursive: true });
+          console.log(`📁 Destination files created: ${destFiles.length}`);
+          destFiles.forEach(file => console.log(`  ✓ ${file}`));
+        } else {
+          console.error('❌ Destination directory _site/assets was not created');
+        }
+      } catch (err) {
+        console.error('❌ Error verifying destination:', err.message);
+      }
+    });
 }
 exports.copyAssets = copyAssets;
 
-function styles () {
-  const sassInput = 'app/assets/styles/*.scss';
+async function styles () {
+  console.log('🎨 styles: Starting CSS compilation');
+  const autoprefixer = (await import('gulp-autoprefixer')).default;
+  
+  const sassInput = 'app/assets/styles/main.scss'; // Only compile main entry point
   const sassOptions = {
     includePaths: [
+      'app/assets/styles',
       'node_modules/foundation-sites/scss',
       'node_modules/@fortawesome/fontawesome-free/scss',
-      '.tmp/assets/styles',
-      'app/assets/styles'
+      '.tmp/assets/styles'
     ],
     errLogToConsole: true,
     outputStyle: 'expanded',
@@ -67,7 +126,7 @@ function styles () {
     .pipe(plumber())
     .pipe(sourcemaps.init())
     .pipe(sass(sassOptions).on('error', sass.logError))
-    .pipe(autoprefixer())
+    .pipe(autoprefixer({ cascade: false }))
     .pipe(sourcemaps.write('.'));
   
   // Only call browserSync.reload if browserSync is active and properly configured
@@ -79,7 +138,11 @@ function styles () {
     console.log('BrowserSync stream error (non-fatal):', error.message);
   }
   
-  return stream.pipe(gulp.dest('.tmp/assets/styles'));
+  return stream
+    .pipe(gulp.dest('.tmp/assets/styles'))
+    .on('end', function() {
+      console.log('✅ styles: CSS compilation completed and written to .tmp/assets/styles');
+    });
 }
 exports.styles = styles;
 
@@ -102,7 +165,9 @@ function javascripts () {
 }
 exports.javascripts = javascripts;
 
-function zipMaterials () {
+async function zipMaterials () {
+  const zip = (await import('gulp-zip')).default;
+  
   return gulp.src('app/assets/downloads/mapathon-materials/**', { base : 'app/assets/downloads/' })
     .pipe(zip('mapathon-materials.zip'))
     .pipe(gulp.dest('.tmp/assets/downloads'));
@@ -245,15 +310,20 @@ function watching () {
     delay: 500 
   }, gulp.series(
     jekyll,
-    gulp.parallel(javascripts, styles, icons),
+    buildAssets,
     copyAssets,
     browserReload));
 }
+
+// Create a task that builds all assets and ensures they're ready before copying
+const buildAssets = gulp.parallel(javascripts, styles, icons, zipMaterials);
+exports.buildAssets = buildAssets;
+
 exports.serve = gulp.series(
   clean,
   gulp.parallel(cloneBlog, grabEvents),
   jekyll,
-  gulp.parallel(javascripts, styles, icons, zipMaterials),
+  buildAssets,
   copyAssets,
   watching);
 
@@ -308,14 +378,16 @@ exports.serve_stable = gulp.series(
   clean,
   gulp.parallel(cloneBlog, grabEvents),
   jekyll,
-  gulp.parallel(javascripts, styles, icons, zipMaterials),
+  buildAssets,
   copyAssets,
-  simpleServe);let environment = 'development';
+  simpleServe);
+
+let environment = 'development';
 function setProd (cb) { environment = 'production'; cb(); }
 exports.prod = gulp.series(
   clean,
   gulp.parallel(cloneBlog, grabEvents),
   setProd,
   jekyll,
-  gulp.parallel(javascripts, styles, icons, zipMaterials),
+  buildAssets,
   copyAssets);

@@ -290,7 +290,7 @@
   padding: 0;
   h2{
     padding: 5px 0;
-    font: 20px/2em 'Hind';
+    font: 1.25rem/2em 'Hind'; /* 20px - consistent with h4 */
   }
 }
 
@@ -299,7 +299,7 @@
 }
 
 .tag {
-  font: 15px/1.5 'Lato', serif;
+  font: 0.9375rem/1.5 'Lato', serif; /* 15px */
   background: $mmGreen;
   border-radius: 3px 0 0 3px;
   color: #FFFFFF;
@@ -315,7 +315,7 @@
 }
 
 .tag-archive-font {
-  font-size: 13px;
+  font-size: 0.8125rem; /* 13px */
 }
 
 .tag::before {

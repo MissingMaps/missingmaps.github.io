@@ -12,7 +12,7 @@
     max-width: 440px;
     background: #fff;
     h1 {
-      font-size: 24px;
+      font-size: 1.5rem; /* 24px */
       line-height: 1.1;
       margin-bottom: 32px;
     }
@@ -79,6 +79,12 @@ $border-color-lighten: color.adjust($border-color, $lightness: 5%);
 /*----------------------------------------------*/
 /*Fixing Default CSS*/
 /*----------------------------------------------*/
+
+/* Set base font size for proper rem scaling */
+html {
+  font-size: 16px; /* Standard base size for rem calculations */
+}
+
 body, ul, li, ol, p{
   margin: 0px;
   padding: 0px;
@@ -86,6 +92,7 @@ body, ul, li, ol, p{
   color: $darkgrey;
   font-weight: 400;
   line-height: 1.4em;
+  font-size: 1rem; /* 16px based on html font-size */
 }
 
 ul{
@@ -112,6 +119,69 @@ ul{
 
 body{
   background-color: #F2F2F2;
+}
+
+/* Heading Hierarchy */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+  color: $darkgrey;
+}
+
+h1 {
+  font-size: 2.5rem; /* 40px */
+  
+  @media screen and (max-width: 768px) {
+    font-size: 2rem; /* 32px */
+  }
+  
+  @media screen and (max-width: 480px) {
+    font-size: 1.75rem; /* 28px */
+  }
+}
+
+h2 {
+  font-size: 2rem; /* 32px */
+  
+  @media screen and (max-width: 768px) {
+    font-size: 1.75rem; /* 28px */
+  }
+  
+  @media screen and (max-width: 480px) {
+    font-size: 1.5rem; /* 24px */
+  }
+}
+
+h3 {
+  font-size: 1.5rem; /* 24px */
+  
+  @media screen and (max-width: 768px) {
+    font-size: 1.375rem; /* 22px */
+  }
+  
+  @media screen and (max-width: 480px) {
+    font-size: 1.25rem; /* 20px */
+  }
+}
+
+h4 {
+  font-size: 1.25rem; /* 20px */
+  
+  @media screen and (max-width: 480px) {
+    font-size: 1.125rem; /* 18px */
+  }
+}
+
+h5 {
+  font-size: 1.125rem; /* 18px */
+}
+
+h6 {
+  font-size: 1rem; /* 16px */
+  font-weight: 600;
 }
 
 ::-moz-selection { /* Code for Firefox */
@@ -470,9 +540,9 @@ a:hover{
 }
 
 .title{
-  font-family: 'Hind';
-  font-weight: 700;
-  font-size: 2em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 2rem; /* 32px - consistent with h2 */
   color: $darkgrey;
   margin: 0px;
   display: inline-block;
@@ -480,16 +550,16 @@ a:hover{
 }
 
 .titlewhite{
-  font-family: 'Hind';
-  font-weight: 700;
-  font-size: 2em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 2rem; /* 32px - consistent with h2 */
   color: white;
   margin: 0px;
   display: inline-block;
   line-height: 1em;
   p{
-     font-family: 'Hind';
-     font-weight: 700;
+     font-family: 'Raleway', sans-serif;
+     font-weight: 800;
      font-size: 0.9em;
      color: white;
      display: inline-block;
@@ -518,6 +588,8 @@ a:hover{
   display: block;
   font-size: 2.5em;
   line-height: 1.2;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
   
   @media screen and (max-width: 768px) {
     font-size: 2em;
@@ -605,14 +677,14 @@ a:hover{
     margin-bottom:50px;
   }
   .titlewhite{
-    font-size: 24px;
+    font-size: 1.5rem; /* 24px */
   }
 }
 
 .sub-head{
   font-family: 'Lato';
   font-weight: 400;
-  font-size: 1.6em;
+  font-size: 1.25rem; /* 20px - consistent with h4 */
   padding: 0px 0px 0.75em 0px;
   letter-spacing: 0.01em;
   p{

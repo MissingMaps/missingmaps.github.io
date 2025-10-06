@@ -504,3 +504,47 @@ months:
   - Octubre
   - Noviembre
   - Diciembre
+
+####################
+## GDPR COMPLIANCE #
+####################
+gdpr:
+  banner:
+    title: "Consentimiento de Cookies"
+    message: "Utilizamos cookies para analizar el tráfico del sitio web y mejorar su experiencia. Al aceptar nuestro uso de cookies, sus datos se agregarán con todos los demás datos de usuarios para fines analíticos."
+    accept: "Aceptar"
+    reject: "Rechazar"
+    learn_more: "Más Información"
+  privacy_policy:
+    title: "Política de Privacidad"
+    url: "/privacy-policy/"
+    last_updated: "Última actualización: 5 de octubre de 2025"
+    overview_title: "Resumen"
+    overview_text: "Missing Maps se compromete a proteger su privacidad. Esta Política de Privacidad explica cómo recopilamos, usamos y protegemos su información cuando visita nuestro sitio web."
+    data_collection_title: "Recopilación de Datos"
+    data_collection_text: "Recopilamos información para mejorar su experiencia y entender cómo se usa nuestro sitio web. Esto incluye:"
+    data_types:
+      - "Datos analíticos a través de Google Analytics (solo con su consentimiento)"
+      - "Dirección IP (anonimizada para análisis)"
+      - "Información del navegador y dispositivo"
+      - "Páginas visitadas y tiempo en el sitio"
+    cookies_title: "Cookies"
+    cookies_text: "Utilizamos cookies solo para fines analíticos. Puede controlar el uso de cookies a través de nuestro banner de consentimiento. Utilizamos:"
+    cookie_types:
+      - "Cookies esenciales: Requeridas para la funcionalidad del sitio web"
+      - "Cookies analíticas: Google Analytics (solo con consentimiento)"
+    your_rights_title: "Sus Derechos"
+    your_rights_text: "Bajo el RGPD, usted tiene derecho a:"
+    rights_list:
+      - "Acceder a sus datos personales"
+      - "Corregir datos inexactos"
+      - "Eliminar sus datos"
+      - "Oponerse al procesamiento de datos"
+      - "Retirar el consentimiento en cualquier momento"
+    third_parties_title: "Servicios de Terceros"
+    third_parties_text: "Utilizamos Google Analytics para análisis del sitio web (solo con su consentimiento). Google Analytics está configurado con anonimización de IP y respeta sus elecciones de privacidad."
+    contact_title: "Contáctenos"
+    contact_text: "Si tiene preguntas sobre esta Política de Privacidad, contáctenos a través de nuestro sitio web o repositorio de GitHub."
+  analytics_notice: "El seguimiento de análisis está actualmente"
+  analytics_enabled: "habilitado"
+  analytics_disabled: "deshabilitado"

@@ -1,6 +1,9 @@
 // Charset
 @charset "UTF-8";
 
+// Self-hosted fonts
+@import "fonts";
+
 // Reset and normalize
 @import "normalize";
 @import "reset";
@@ -22,3 +25,4 @@
 @import "about";
 @import "blog";
 @import "helper-map";
+@import "cookie-consent";
