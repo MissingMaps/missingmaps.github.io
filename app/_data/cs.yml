@@ -2,7 +2,10 @@
 ## IMG ALT TEXT ##
 ##################
 img-alt:
-  wright-stuff: "..."
+        - text:     "NADCÁZEJÍCÍ AKCE"
+        url:      "/cs/events/"
+      - text:     "USPOŘÁDEJTE AKCI"
+        url:      "/cs/host/"ht-stuff: "..."
   arrow: "..."
   blog: "..."
   Edit: "..."
@@ -55,13 +58,13 @@ nav:
   - text:         "NAUČIT SE"
     links:
       - text:     "MAPOVÁNÍ PRO ZAČÁTEČNÍKY"
-        url:      "/cs/začátečník/"
+        url:      "/cs/beginner/"
       - text:     "POKROČILÉ MAPOVÁNÍ"
-        url:      "/cs/pokročilý/"
+        url:      "/cs/advanced/"
       - text:     "MAPOVÁNÍ TERÉNU"
-        url:      "/cs/terén/"
+        url:      "/cs/field/"
       - text:     "VALIDACE"
-        url:      "/cs/validuj/"
+        url:      "/cs/validate/"
       - text:     "MAPSWIPE"
         url:      "/cs/mapswipe/"
   - text:         "AKCE"
@@ -71,7 +74,7 @@ nav:
       - text:     "USPOŘÁDEJTE AKCI"
         url:      "/cs/organizuj/"
   - text:         "O PROJEKTU"
-    url:          "/cs/o-projektu/"
+    url:          "/cs/about/"
   - text:         "BLOG"
     url:          "/cs/blog/"
   - text:         "PROZKOUMAT"
