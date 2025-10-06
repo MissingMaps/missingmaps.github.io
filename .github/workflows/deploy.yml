@@ -108,8 +108,13 @@ jobs:
           # Copy built site files to root with verification
           if [ -d "_site" ] && [ "$(ls -A _site)" ]; then
             echo "Copying _site contents to root..."
-            cp -rv _site/* .
-            cp -rv _site/.[^.]* . 2>/dev/null || true  # Copy hidden files if they exist
+            
+            # Use rsync for more reliable copying
+            rsync -av --exclude='.git' _site/ .
+            
+            # Alternative: Use find and cp for better reliability
+            # find _site -mindepth 1 -maxdepth 1 -exec cp -r {} . \;
+            
             echo "Copy completed. Removing _site directory..."
             rm -rf _site
           else
@@ -120,8 +125,12 @@ jobs:
           # Debug: Show final directory structure
           echo "=== Final directory structure ==="
           ls -la
+          echo "=== assets directory ==="
+          ls -la assets/ || echo "No assets directory found"
           echo "=== assets/styles directory ==="
           ls -la assets/styles/ || echo "No assets/styles directory found"
+          echo "=== Checking for main.css ==="
+          find . -name "main.css" -type f || echo "main.css not found"
           
           # Add and commit changes
           git add -A
