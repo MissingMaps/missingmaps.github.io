@@ -2,10 +2,7 @@
 ## IMG ALT TEXT ##
 ##################
 img-alt:
-        - text:     "NADCÁZEJÍCÍ AKCE"
-        url:      "/cs/events/"
-      - text:     "USPOŘÁDEJTE AKCI"
-        url:      "/cs/host/"ht-stuff: "..."
+  wright-stuff: "..."
   arrow: "..."
   blog: "..."
   Edit: "..."
@@ -70,9 +67,9 @@ nav:
   - text:         "AKCE"
     links:
       - text:     "NADCHÁZEJÍCÍ AKCE"
-        url:      "/cs/akce/"
+        url:      "/cs/events/"
       - text:     "USPOŘÁDEJTE AKCI"
-        url:      "/cs/organizuj/"
+        url:      "/cs/host/"
   - text:         "O PROJEKTU"
     url:          "/cs/about/"
   - text:         "BLOG"
