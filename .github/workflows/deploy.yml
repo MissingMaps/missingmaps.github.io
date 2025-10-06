@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
@@ -26,7 +26,7 @@ jobs:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
       - name: Setup Node.js
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v4
         with:
           node-version-file: '.nvmrc'
           cache: 'npm'
@@ -56,14 +56,21 @@ jobs:
     if: github.ref == 'refs/heads/publish' && github.event_name == 'push'
     steps:
       - name: Checkout master branch
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Checkout master branch
+        uses: actions/checkout@v4
         with:
           ref: master
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
       - name: Download build artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: site-build
           path: _site/
@@ -74,13 +81,11 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          # Remove all files except .git and _site
-          find . -maxdepth 1 ! -name '.git' ! -name '_site' ! -name '.' ! -name '..' -exec rm -rf {} +
+          # Remove all files except .git
+          find . -maxdepth 1 ! -name '.git' ! -name '.' ! -name '..' -exec rm -rf {} +
           
-          # Copy built site files to root (GitHub Pages expects files in root, not in _site)
+          # Copy built site files to root
           cp -r _site/* .
-          
-          # Remove the _site directory (not needed for GitHub Pages)
           rm -rf _site
           
           # Add and commit changes
