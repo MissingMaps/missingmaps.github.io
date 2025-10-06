@@ -37,10 +37,35 @@ jobs:
       - name: Lint JavaScript
         run: npm run lint
 
+      - name: Debug before build
+        run: |
+          echo "=== Before build ==="
+          ls -la
+          echo "=== Checking for .tmp directory ==="
+          ls -la .tmp/ || echo "No .tmp directory found"
+
       - name: Build site
         run: npm run build
         env:
           JEKYLL_ENV: production
+
+      - name: Debug after build
+        run: |
+          echo "=== After build ==="
+          echo "=== Checking .tmp directory ==="
+          ls -la .tmp/ || echo "No .tmp directory found"
+          echo "=== Checking .tmp/assets ==="
+          ls -la .tmp/assets/ || echo "No .tmp/assets directory found"
+          echo "=== Checking .tmp/assets/styles ==="
+          ls -la .tmp/assets/styles/ || echo "No .tmp/assets/styles directory found"
+          echo "=== Checking _site directory ==="
+          ls -la _site/ || echo "No _site directory found"
+          echo "=== Checking _site/assets ==="
+          ls -la _site/assets/ || echo "No _site/assets directory found"
+          echo "=== Checking _site/assets/styles ==="
+          ls -la _site/assets/styles/ || echo "No _site/assets/styles directory found"
+          echo "=== Looking for main.css anywhere in _site ==="
+          find _site -name "main.css" -type f || echo "No main.css found in _site"
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
