@@ -19,9 +19,7 @@
 
     <link rel="author" type="text/plain" href="humans.txt" />
 
-
-    <link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lato:400|Hind:700,300,600' rel='stylesheet' type='text/css'>
+    <!-- Self-hosted fonts for GDPR compliance -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" 
             integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw==" 
@@ -228,21 +226,152 @@ See the original <a href="https://padf.org/news/2017/3/22/promoting-community-ma
       </div>
       <div class="footer-mm center-text">
         CC-BY Missing Maps
+        <a href="/fr/privacy-policy/" class="privacy-link">Politique de Confidentialité</a>
       </div>
     </div>
   </div>
 </footer>
 
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- GDPR-Compliant Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55969124-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      const gtag = (...args) => { dataLayer.push(args); };
+      function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
-      gtag('config', 'UA-55969124-1');
+      
+      // Initialize in a disabled state - will be enabled by consent manager
+      gtag('config', 'UA-55969124-1', {
+        'anonymize_ip': true,
+        'cookie_flags': 'SameSite=Strict;Secure',
+        'send_page_view': false
+      });
+      
+      // Disable by default until user consents
+      window['ga-disable-UA-55969124-1'] = true;
     </script>
+
+    <!-- GDPR Cookie Consent Banner -->
+    <!-- GDPR Cookie Consent Banner -->
+<div id="cookie-consent-banner" style="display: none;">
+  <div class="cookie-banner-content">
+    <div class="cookie-banner-text">
+      <h3>Consentement aux Cookies</h3>
+      <p>Nous utilisons des cookies pour analyser le trafic du site web et améliorer votre expérience. En acceptant notre utilisation des cookies, vos données seront agrégées avec toutes les autres données utilisateur à des fins d'analyse.</p>
+    </div>
+    <div class="cookie-banner-actions">
+      <button id="cookie-accept" class="btn btn-primary">Accepter</button>
+      <button id="cookie-reject" class="btn btn-secondary">Rejeter</button>
+      <a href="/fr/privacy-policy/" class="cookie-learn-more">En Savoir Plus</a>
+    </div>
+  </div>
+</div>
+
+<!-- Cookie consent JavaScript -->
+<script>
+(function() {
+  'use strict';
+  
+  // Cookie utility functions
+  function setCookie(name, value, days) {
+    var expires = "";
+    if (days) {
+      var date = new Date();
+      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+      expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "") + expires + "; path=/; SameSite=Strict";
+  }
+  
+  function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+      if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+    }
+    return null;
+  }
+  
+  // Initialize Google Analytics based on consent
+  function initializeAnalytics() {
+    var consent = getCookie('gdpr_consent');
+    
+    if (consent === 'accepted') {
+      // Enable Google Analytics
+      if (typeof gtag !== 'undefined') {
+        gtag('config', 'UA-55969124-1', {
+          'anonymize_ip': true,
+          'cookie_flags': 'SameSite=Strict;Secure'
+        });
+      }
+      console.log('Analytics enabled by user consent');
+    } else if (consent === 'rejected') {
+      // Disable Google Analytics
+      if (typeof gtag !== 'undefined') {
+        gtag('config', 'UA-55969124-1', {
+          'anonymize_ip': true,
+          'cookie_flags': 'SameSite=Strict;Secure',
+          'send_page_view': false
+        });
+        // Disable all tracking
+        window['ga-disable-UA-55969124-1'] = true;
+      }
+      console.log('Analytics disabled by user consent');
+    }
+  }
+  
+  // Show consent banner if no decision has been made
+  function showConsentBanner() {
+    var consent = getCookie('gdpr_consent');
+    var banner = document.getElementById('cookie-consent-banner');
+    
+    if (!consent && banner) {
+      banner.style.display = 'block';
+    }
+  }
+  
+  // Handle consent decisions
+  function handleConsentDecision(decision) {
+    setCookie('gdpr_consent', decision, 365); // Store for 1 year
+    document.getElementById('cookie-consent-banner').style.display = 'none';
+    
+    if (decision === 'accepted') {
+      // Reload page to enable analytics
+      window.location.reload();
+    } else {
+      // Initialize analytics in disabled state
+      initializeAnalytics();
+    }
+  }
+  
+  // Initialize when DOM is ready
+  document.addEventListener('DOMContentLoaded', function() {
+    // Show banner if needed
+    showConsentBanner();
+    
+    // Initialize analytics based on existing consent
+    initializeAnalytics();
+    
+    // Bind button events
+    var acceptBtn = document.getElementById('cookie-accept');
+    var rejectBtn = document.getElementById('cookie-reject');
+    
+    if (acceptBtn) {
+      acceptBtn.addEventListener('click', function() {
+        handleConsentDecision('accepted');
+      });
+    }
+    
+    if (rejectBtn) {
+      rejectBtn.addEventListener('click', function() {
+        handleConsentDecision('rejected');
+      });
+    }
+  });
+})();
+</script>
 
     <!-- build:js assets/scripts/main.js -->
     <script src="/assets/scripts/main.min.js"></script>

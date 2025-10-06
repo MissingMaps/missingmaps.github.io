@@ -19,9 +19,7 @@
 
     <link rel="author" type="text/plain" href="humans.txt" />
 
-
-    <link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lato:400|Hind:700,300,600' rel='stylesheet' type='text/css'>
+    <!-- Self-hosted fonts for GDPR compliance -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" 
             integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw==" 
@@ -71,7 +69,7 @@
 	<div class="navbar-background">
 		<div class="nav-icon">
 			<a href="/cs/">
-				<img src="/assets/graphics/meta/MM_white_typography.svg" width="94px" alt="">
+				<img src="/assets/graphics/meta/MM_white_typography.svg" width="94px" alt="...">
 			</a>
 		</div>
 		<div class="nav-list">
@@ -273,7 +271,7 @@
       <div class="textbox container">
         <div class="title section-header">OSM je vybudován dobrovolníky</div>
         <p>OpenStreetMap je vytvářen dobrovolníky, kteří se o místa zajímají. Narozdíl od mnoha mapovacích platform, zisk není hnacím faktorem pro vytváření dat. Všichni jednotlivci mají jedinečnou perspektivu na naše okolí a to je kdy projekt OSM ožívá, kdy je přidána barva komunity. Mapa bude pouze tak dobrá, jako je hloubka a šířka konzulutujících hlasů za jejím naplněním. Místní znalost je základem pro vytváření obsáhlého a udržitelného zdroje od vaší komunity a pro ni. Zapojení širší komunity a zajištění jejich zapojení do vašeho projektu je klíčové.</p>
-        <p style="text-align:center;"><img src="/assets/graphics/content/fieldmapping1.jpg" width="500px" alt=""/></p>
+        <p style="text-align:center;"><img src="/assets/graphics/content/fieldmapping1.jpg" width="500px" alt="Group of volunteers conduct surveys in the street"/></p>
       </div>
     </div>
   </div>
@@ -286,7 +284,7 @@
         <p>Než začnete mapovat, je důležité zhodnotit věci jako je zapojení komunity, bezpečnost, využití nástrojů a dlouhodobá údržba dat. Víme, že už se nemůžete dočkat, až se do toho "ponoříte", ale zvažte nejprve</p>
         <p><b>Soukromí:</b></p>
         <p>Měla by být tato oblast mapována veřejně? Navzdory vašim dobrým záměrům je důležité zvážit, zda a jak lze použít prostorové informace proti komunitě, kterou byste chtěli zmapovat. Mnoho komunit po celém světě je zvyklých mít podrobné veřejné mapy svých oblastí. Dokonce i zveřejnění minimálních informací může být pro některé komunity nebezpečné. Některým komunitám může vyhovovat zveřejňování některých informací, ale ne všech. Ačkoli nikdy nedosáhnete úplné shody všech členů komunity, je důležité toto zvážit ve všech fázích vaší práce.</p>
-        <p style="text-align:center;"><img src="/assets/graphics/content/fieldmapping2.png" width="500px" alt=""/></p>
+        <p style="text-align:center;"><img src="/assets/graphics/content/fieldmapping2.png" width="500px" alt="MSF personnel host community meeting"/></p>
         <p><b>Fyzická bezpečnost:</b></p>
         <p>V průběhu sběru dat se lidé občas úplně zaberou do mapování a zapomenou sledovat svoje okolí. Mějte na paměti svou bezpečnost a zvažte následující:</p>
         <ol class="orderedlist-styled textbox">
@@ -397,21 +395,152 @@
       </div>
       <div class="footer-mm center-text">
         CC-BY Missing Maps
+        <a href="/cs/privacy-policy/" class="privacy-link">Zásady Ochrany Osobních Údajů</a>
       </div>
     </div>
   </div>
 </footer>
 
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- GDPR-Compliant Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55969124-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      const gtag = (...args) => { dataLayer.push(args); };
+      function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
-      gtag('config', 'UA-55969124-1');
+      
+      // Initialize in a disabled state - will be enabled by consent manager
+      gtag('config', 'UA-55969124-1', {
+        'anonymize_ip': true,
+        'cookie_flags': 'SameSite=Strict;Secure',
+        'send_page_view': false
+      });
+      
+      // Disable by default until user consents
+      window['ga-disable-UA-55969124-1'] = true;
     </script>
+
+    <!-- GDPR Cookie Consent Banner -->
+    <!-- GDPR Cookie Consent Banner -->
+<div id="cookie-consent-banner" style="display: none;">
+  <div class="cookie-banner-content">
+    <div class="cookie-banner-text">
+      <h3>Souhlas s Cookies</h3>
+      <p>Používáme cookies k analýze návštěvnosti webu a zlepšení vašeho zážitku. Přijetím našeho používání cookies budou vaše data agregována se všemi ostatními uživatelskými daty pro analytické účely.</p>
+    </div>
+    <div class="cookie-banner-actions">
+      <button id="cookie-accept" class="btn btn-primary">Přijmout</button>
+      <button id="cookie-reject" class="btn btn-secondary">Odmítnout</button>
+      <a href="/cs/privacy-policy/" class="cookie-learn-more">Více Informací</a>
+    </div>
+  </div>
+</div>
+
+<!-- Cookie consent JavaScript -->
+<script>
+(function() {
+  'use strict';
+  
+  // Cookie utility functions
+  function setCookie(name, value, days) {
+    var expires = "";
+    if (days) {
+      var date = new Date();
+      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+      expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "") + expires + "; path=/; SameSite=Strict";
+  }
+  
+  function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+      if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+    }
+    return null;
+  }
+  
+  // Initialize Google Analytics based on consent
+  function initializeAnalytics() {
+    var consent = getCookie('gdpr_consent');
+    
+    if (consent === 'accepted') {
+      // Enable Google Analytics
+      if (typeof gtag !== 'undefined') {
+        gtag('config', 'UA-55969124-1', {
+          'anonymize_ip': true,
+          'cookie_flags': 'SameSite=Strict;Secure'
+        });
+      }
+      console.log('Analytics enabled by user consent');
+    } else if (consent === 'rejected') {
+      // Disable Google Analytics
+      if (typeof gtag !== 'undefined') {
+        gtag('config', 'UA-55969124-1', {
+          'anonymize_ip': true,
+          'cookie_flags': 'SameSite=Strict;Secure',
+          'send_page_view': false
+        });
+        // Disable all tracking
+        window['ga-disable-UA-55969124-1'] = true;
+      }
+      console.log('Analytics disabled by user consent');
+    }
+  }
+  
+  // Show consent banner if no decision has been made
+  function showConsentBanner() {
+    var consent = getCookie('gdpr_consent');
+    var banner = document.getElementById('cookie-consent-banner');
+    
+    if (!consent && banner) {
+      banner.style.display = 'block';
+    }
+  }
+  
+  // Handle consent decisions
+  function handleConsentDecision(decision) {
+    setCookie('gdpr_consent', decision, 365); // Store for 1 year
+    document.getElementById('cookie-consent-banner').style.display = 'none';
+    
+    if (decision === 'accepted') {
+      // Reload page to enable analytics
+      window.location.reload();
+    } else {
+      // Initialize analytics in disabled state
+      initializeAnalytics();
+    }
+  }
+  
+  // Initialize when DOM is ready
+  document.addEventListener('DOMContentLoaded', function() {
+    // Show banner if needed
+    showConsentBanner();
+    
+    // Initialize analytics based on existing consent
+    initializeAnalytics();
+    
+    // Bind button events
+    var acceptBtn = document.getElementById('cookie-accept');
+    var rejectBtn = document.getElementById('cookie-reject');
+    
+    if (acceptBtn) {
+      acceptBtn.addEventListener('click', function() {
+        handleConsentDecision('accepted');
+      });
+    }
+    
+    if (rejectBtn) {
+      rejectBtn.addEventListener('click', function() {
+        handleConsentDecision('rejected');
+      });
+    }
+  });
+})();
+</script>
 
     <!-- build:js assets/scripts/main.js -->
     <script src="/assets/scripts/main.min.js"></script>
