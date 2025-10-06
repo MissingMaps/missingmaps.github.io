@@ -38,13 +38,84 @@ jobs:
         run: npm run lint
 
       - name: Build site
-        run: |
-          npm run build
-          echo "=== Build completed, checking for CSS files ==="
-          ls -la _site/assets/styles/ || echo "No _site/assets/styles directory found"
-          find _site -name "main.css" -type f || echo "No main.css found in _site"
+        run: npm run build
         env:
           JEKYLL_ENV: production
+
+      - name: Verify site assets
+        run: |
+          echo "=== Verifying critical site assets ==="
+          
+          # Check for CSS files
+          if [ ! -f "_site/assets/styles/main.css" ]; then
+            echo "❌ CRITICAL: main.css not found"
+            exit 1
+          else
+            echo "✅ main.css found ($(wc -c < _site/assets/styles/main.css) bytes)"
+          fi
+          
+          # Check for JavaScript files
+          if [ ! -f "_site/assets/scripts/main.min.js" ]; then
+            echo "❌ CRITICAL: main.min.js not found"
+            exit 1
+          else
+            echo "✅ main.min.js found ($(wc -c < _site/assets/scripts/main.min.js) bytes)"
+          fi
+          
+          # Check for essential fonts
+          FONT_COUNT=$(find _site/assets/fonts -name "*.woff2" 2>/dev/null | wc -l)
+          if [ "$FONT_COUNT" -lt 3 ]; then
+            echo "❌ CRITICAL: Missing fonts (found $FONT_COUNT, expected at least 3)"
+            exit 1
+          else
+            echo "✅ Fonts found ($FONT_COUNT .woff2 files)"
+          fi
+          
+          # Check for favicon
+          if [ ! -f "_site/assets/graphics/favicon/favicon.ico" ]; then
+            echo "❌ WARNING: favicon.ico not found"
+          else
+            echo "✅ favicon.ico found"
+          fi
+          
+          # Check for critical pages
+          CRITICAL_PAGES=("index.html" "about/index.html" "beginner/index.html" "host/index.html" "blog/index.html")
+          for page in "${CRITICAL_PAGES[@]}"; do
+            if [ ! -f "_site/$page" ]; then
+              echo "❌ CRITICAL: Page $page not found"
+              exit 1
+            else
+              echo "✅ Page $page found"
+            fi
+          done
+          
+          # Check for language versions
+          LANGUAGES=("en" "es" "fr" "cs")
+          for lang in "${LANGUAGES[@]}"; do
+            if [ "$lang" = "en" ]; then
+              # English is at root
+              if [ ! -f "_site/index.html" ]; then
+                echo "❌ CRITICAL: English homepage not found"
+                exit 1
+              fi
+            else
+              if [ ! -f "_site/$lang/index.html" ]; then
+                echo "❌ CRITICAL: $lang homepage not found"
+                exit 1
+              else
+                echo "✅ $lang homepage found"
+              fi
+            fi
+          done
+          
+          # Summary statistics
+          TOTAL_FILES=$(find _site -type f | wc -l)
+          TOTAL_SIZE=$(du -sh _site | cut -f1)
+          echo ""
+          echo "=== Build Summary ==="
+          echo "Total files: $TOTAL_FILES"
+          echo "Total size: $TOTAL_SIZE"
+          echo "✅ All critical assets verified successfully"
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
