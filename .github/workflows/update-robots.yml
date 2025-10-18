@@ -1,0 +1,167 @@
+name: Update Robots.txt with Latest AI Bots
+
+on:
+  schedule:
+    # Run weekly on Sundays at 2 AM UTC
+    - cron: '0 2 * * 0'
+  workflow_dispatch: # Allow manual trigger
+  push:
+    branches: [publish] # Run on publish branch updates
+
+jobs:
+  update-robots:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        
+    - name: Create and run advanced robots.txt updater
+      run: |
+        cat > update-robots.js << 'EOF'
+        const fs = require('fs');
+        const https = require('https');
+        
+        async function fetchExternalBotList(url) {
+          return new Promise((resolve, reject) => {
+            https.get(url, (res) => {
+              let data = '';
+              res.on('data', (chunk) => data += chunk);
+              res.on('end', () => {
+                try {
+                  const bots = [];
+                  const lines = data.split('\n');
+                  
+                  for (const line of lines) {
+                    const trimmed = line.trim();
+                    if (trimmed.startsWith('User-agent:') && !trimmed.includes('*')) {
+                      const bot = trimmed.replace('User-agent:', '').trim();
+                      if (bot && !bots.includes(bot)) {
+                        bots.push(bot);
+                      }
+                    }
+                  }
+                  resolve(bots);
+                } catch (error) {
+                  resolve([]);
+                }
+              });
+            }).on('error', () => resolve([]));
+          });
+        }
+        
+        async function getAllAIBots() {
+          console.log('🔍 Fetching AI bot lists from external sources...');
+          
+          const externalSources = [
+            'https://raw.githubusercontent.com/ai-robots-txt/ai-robots-txt/main/robots.txt'
+          ];
+          
+          const curatedBots = [
+            'GPTBot', 'ChatGPT-User', 'ChatGPT', 'OAI-SearchBot', 'SearchGPT', 'OpenAI',
+            'ClaudeBot', 'Claude-Web', 'anthropic-ai', 'AnthropicBot', 'Claude-3',
+            'Google-Extended', 'Bard', 'Gemini', 'BingPreview',
+            'FacebookBot', 'Meta-ExternalAgent', 'Meta-ExternalFetcher', 'MetaAI',
+            'Bytespider', 'PerplexityBot', 'YouBot', 'CCBot', 'PetalBot',
+            'Omgilibot', 'Omgili', 'FriendlyCrawler', 'VelenPublicWebCrawler',
+            'Webzio-Extended', 'SerpstatBot', 'Diffbot', 'ImagesiftBot',
+            'SiteAuditBot', 'AllenAI', 'AI2Bot', 'iaskspider', 'img2dataset',
+            'cohere-ai', 'DataForSeoBot', 'XAI-Bot', 'GrokBot', 'MistralBot',
+            'InflectionBot', 'CharacterBot', 'ReplicateBot', 'HuggingBot',
+            'StabilityAI', 'RunwayML', 'MidjourneyBot', 'Leonardo-AI', 'Canva-AI'
+          ];
+          
+          const externalBots = [];
+          for (const url of externalSources) {
+            try {
+              console.log('📡 Fetching from: ' + url);
+              const bots = await fetchExternalBotList(url);
+              externalBots.push(...bots);
+              console.log('✅ Found ' + bots.length + ' bots from external source');
+            } catch (error) {
+              console.log('⚠️  Failed to fetch from: ' + url);
+            }
+          }
+          
+          const allBots = [...new Set([...curatedBots, ...externalBots])];
+          
+          const aiBots = allBots.filter(bot => {
+            const lower = bot.toLowerCase();
+            return !lower.includes('googlebot') && 
+                   !lower.includes('bingbot') && 
+                   !lower.includes('slurp') &&
+                   !lower.includes('duckduck') &&
+                   bot !== '*' &&
+                   bot.length > 1;
+          });
+          
+          console.log('🤖 Total AI bots found: ' + aiBots.length);
+          return aiBots.sort();
+        }
+        
+        function generateRobotsTxt(aiBots) {
+          const timestamp = new Date().toISOString().split('T')[0];
+          let content = '# robotstxt.org/\n\n';
+          content += '# Allow general web crawlers\n';
+          content += 'User-agent: *\n';
+          content += 'Allow: /\n\n';
+          content += '# Block AI Training Bots\n';
+          content += '# Auto-updated: ' + timestamp + '\n';
+          content += '# Total blocked: ' + aiBots.length + ' AI bots\n';
+          content += '# Sources: Curated list + External community sources\n';
+          
+          aiBots.forEach(bot => {
+            content += '\nUser-agent: ' + bot + '\n';
+            content += 'Disallow: /\n';
+          });
+          
+          content += '\n# Reference to sitemap\n';
+          content += 'Sitemap: https://www.missingmaps.org/sitemap.xml\n';
+          return content;
+        }
+        
+        async function main() {
+          try {
+            const aiBots = await getAllAIBots();
+            const robotsContent = generateRobotsTxt(aiBots);
+            fs.writeFileSync('app/robots.txt', robotsContent);
+            console.log('✅ robots.txt successfully updated!');
+          } catch (error) {
+            console.error('❌ Error updating robots.txt:', error);
+            process.exit(1);
+          }
+        }
+        
+        main();
+        EOF
+        
+        node update-robots.js
+        
+    - name: Check for changes
+      id: changes
+      run: |
+        if git diff --quiet app/robots.txt; then
+          echo "changed=false" >> $GITHUB_OUTPUT
+        else
+          echo "changed=true" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: Commit and push if changed
+      if: steps.changes.outputs.changed == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add app/robots.txt
+        git commit -m "🤖 Auto-update robots.txt with latest AI bots
+
+        - Fetched from external community sources
+        - Updated curated AI bot list  
+        - Auto-updated: $(date -I)"
+        git push
