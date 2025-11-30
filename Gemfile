@@ -13,7 +13,7 @@ gem "jekyll-polyglot", "~> 1.8"
 gem "jekyll-paginate-v2", "~> 3.0"
 
 # Additional gems for security and performance
-gem "webrick", "~> 1.8" # Required for Ruby 3.0+
+gem "webrick", "~> 1.9" # Required for Ruby 3.0+
 gem "csv", "~> 3.3" # Required for Ruby 3.4+
 gem "base64", "~> 0.2" # Required for Ruby 3.4+
 gem "logger", "~> 1.6" # Will be removed from stdlib in Ruby 3.5
