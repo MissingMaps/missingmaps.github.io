@@ -9,7 +9,7 @@ gem "jekyll", "~> 4.3.4"
 # Jekyll plugins
 gem "jekyll-feed", "~> 0.17"
 gem "jekyll-sitemap", "~> 1.4"
-gem "jekyll-polyglot", "~> 1.8"
+gem "jekyll-polyglot", "~> 1.12"
 gem "jekyll-paginate-v2", "~> 3.0"
 
 # Additional gems for security and performance
